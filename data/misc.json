@@ -1,45 +1,5 @@
 [
   {
-    "title": "How AI tool calling works (40 lines of vanilla JavaScript)",
-    "link": "https://buttercup.sh/lessons/2026-09-15-lesson-2-tool-calling.html",
-    "desc": "Article URL: https://buttercup.sh/lessons/2026-09-15-lesson-2-tool-calling.html Comments URL: https://news.ycombinator.com/item?id=49716702 Points: 10 # Comments: 2",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "We got admin access to Baseten's production GitHub in 25 minutes",
-    "link": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
-    "desc": "Article URL: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover Comments URL: https://news.ycombinator.com/item?id=49716476 Points: 48 # Comments: 12",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Cartesian – AI 3D Modeling for Design",
-    "link": "https://www.formas.ai/cartesian",
-    "desc": "Article URL: https://www.formas.ai/cartesian Comments URL: https://news.ycombinator.com/item?id=49713999 Points: 59 # Comments: 51",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "The Inference Hardware Revolution of 2026",
-    "link": "https://spectrum.ieee.org/inference-hardware-revolution",
-    "desc": "Article URL: https://spectrum.ieee.org/inference-hardware-revolution Comments URL: https://news.ycombinator.com/item?id=49713024 Points: 41 # Comments: 3",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "Алиса AI сама выбирает режим. Какие задачи ей теперь поручать",
     "link": "https://vc.ru/ai/3139979-alisa-ai-vybirayet-rezhim-dlya-zadach?from=rss",
     "desc": "15 сентября Яндекс сообщил, что Алиса AI научилась сама выбирать модель под задачу и при необходимости подключать «Эксперта». Что с этим делать человеку, которому нужно подготовить понятный текст, сравнить варианты или разобраться в обратной связи? Ниже — три заполненных задания для работы. Это р...",
@@ -50,6 +10,46 @@
     "misc_type": "raznoe"
   },
   {
+    "title": "How AI tool calling works (40 lines of vanilla JavaScript)",
+    "link": "https://buttercup.sh/lessons/2026-09-15-lesson-2-tool-calling.html",
+    "desc": "Article URL: https://buttercup.sh/lessons/2026-09-15-lesson-2-tool-calling.html Comments URL: https://news.ycombinator.com/item?id=49716702 Points: 3 # Comments: 0",
+    "date": "2026-09-15",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "We got admin access to Baseten's production GitHub in 25 minutes",
+    "link": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+    "desc": "Article URL: https://www.strix.ai/blog/baseten-harbor-github-pat-takeover Comments URL: https://news.ycombinator.com/item?id=49716476 Points: 25 # Comments: 6",
+    "date": "2026-09-15",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Cartesian – AI 3D Modeling for Design",
+    "link": "https://www.formas.ai/cartesian",
+    "desc": "Article URL: https://www.formas.ai/cartesian Comments URL: https://news.ycombinator.com/item?id=49713999 Points: 56 # Comments: 48",
+    "date": "2026-09-15",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "The Inference Hardware Revolution of 2026",
+    "link": "https://spectrum.ieee.org/inference-hardware-revolution",
+    "desc": "Article URL: https://spectrum.ieee.org/inference-hardware-revolution Comments URL: https://news.ycombinator.com/item?id=49713024 Points: 35 # Comments: 3",
+    "date": "2026-09-15",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "В Восточной Сибири нашли новый вид ветвистоусых рачков",
     "link": "https://test.local/rachki",
     "desc": "Научная новость про биологию",
@@ -57,6 +57,26 @@
     "source": "Тест",
     "cat": "misc",
     "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Китайцы создали солнечный элемент для подлодки — он работает на глубине",
+    "link": "https://3dnews.ru/1148478",
+    "desc": "Учёные из Китая совершили прорыв в разработке солнечных элементов для выработки электричества под водой, которая сама легко поглощает фотоны. Это было колоссальной проблемой для кремниевых ячеек, но оказалось по силам перовскиту. Открытый без малого 200 лет назад в уральских горах минерал силами ...",
+    "date": "2026-09-15",
+    "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+    "link": "https://withcapsule.app/",
+    "desc": "Hey HN, I always had the problem that building HTML pages is really simple now, but trying to save data required hosting it somewhere, and sharing it afterwards was not easy. Over the last few months, I've been building an app called Capsule (it’s also the file extension name) written in Rust wit...",
+    "date": "2026-09-15",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
     "misc_type": "unfiltered"
   },
   {
@@ -1944,7 +1964,7 @@
     "link": "https://habr.com/ru/news/1081252/?utm_campaign=1081252&utm_source=habrahabr&utm_medium=rss",
     "desc": "Google и Лаборатория реактивного движения НАСА (JPL) представили модель искусственного интеллекта MAPL‑EMIT , которая отслеживает глобальные выбросы метана по всему миру, используя спутниковые данные. Данные для модели поставляет детектор Earth Surface Mineral Dust Source Investigation ( EMIT ), ...",
     "date": "2026-09-11",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"

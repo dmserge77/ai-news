@@ -1,19 +1,10 @@
 [
   {
-    "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
-    "desc": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/ Comments URL: https://news.ycombinator.com/item?id=49715947 Points: 32 # Comments: 7",
-    "date": "2026-09-15",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "How much of F-Droid is LLM generated?",
     "link": "https://tintotint.eu/whacky-corner/f-droid_slop/",
-    "desc": "Article URL: https://tintotint.eu/whacky-corner/f-droid_slop/ Comments URL: https://news.ycombinator.com/item?id=49710015 Points: 105 # Comments: 134",
+    "desc": "Comments",
     "date": "2026-09-15",
-    "source": "Hacker News",
+    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
   },
@@ -225,9 +216,27 @@
     "lang": "ru"
   },
   {
+    "title": "Google тестирует выплаты авторам за оригинальный контент",
+    "link": "https://habr.com/ru/news/1082694/?utm_campaign=1082694&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Google запустил закрытый пилот: часть издателей теперь получает деньги не за трафик на сайте, а за то, что их контент существенно повлиял на ответ в Gemini, AI Overviews и AI Mode. Всё это крутится внутри Search Console — участник видит ежемесячные начисления и в любой момент может выйти. В прогр...",
+    "date": "2026-09-15",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "В iOS 27 нашли возможность подключать к Siri сторонние LLM",
     "link": "https://habr.com/ru/news/1082688/?utm_campaign=1082688&utm_source=habrahabr&utm_medium=rss",
     "desc": "Датамайнер под никнеймом pdfu обнаружил в iOS 27 и macOS Golden Gate механизмы для интеграции Siri со сторонними языковыми моделями. В тестах ему удалось подключить к ассистенту Claude от Anthropic и заменить серверную модель Siri на GPT-5.6 Terra от OpenAI. Читать далее",
+    "date": "2026-09-15",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "IPO OpenAI в 2026 году не будет",
+    "link": "https://habr.com/ru/companies/bothub/news/1082636/?utm_campaign=1082636&utm_source=habrahabr&utm_medium=rss",
+    "desc": "OpenAI не планирует выходить на биржу в 2026 году. Об этом Сэм Альтман рассказал Fortune , назвав нынешний момент неподходящим для IPO на фоне растущих рисков, связанных с безопасностью ИИ. Читать далее",
     "date": "2026-09-15",
     "source": "Habr AI Новости",
     "cat": "ai",
@@ -469,7 +478,7 @@
   },
   {
     "title": "Вы отключили обучение ChatGPT. У лайка и дизлайка есть отдельное правило",
-    "link": "https://vc.ru/ai/3140663-vy-otklyuchili-obuchenie-chatgpt-u-laika-i-dizlaika-est-otdelnoe-pravilo?from=rss",
+    "link": "https://vc.ru/ai/3140663-kak-pravilno-otsenivat-otvety-chatgpt?from=rss",
     "desc": "Ответ неверный, рука тянется к дизлайку. Но в этом же разговоре вы обсуждали заказ, вставляли переписку и считали стоимость. Перед оценкой стоит посмотреть выше последнего ответа: у обратной связи есть условие, которое легко пропустить. Покажу на вымышленном заказе, как исправить результат и реши...",
     "date": "2026-09-15",
     "source": "vc.ru",
@@ -534,15 +543,6 @@
     "title": "Российский бизнес просит у государства льготные кредиты и лизинг на GPU и серверы — ИИ-инфраструктура слишком дорога",
     "link": "https://3dnews.ru/1148482",
     "desc": "В России могут появиться программы льготного кредитования и лизинга на закупку оборудования для систем искусственного интеллекта, сообщает «Коммерсантъ» со ссылкой на источники. Эти программы необходимы, чтобы справиться с дефицитом ИИ-ускорителей, говорят в отрасли — данное оборудование формируе...",
-    "date": "2026-09-15",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Китайцы создали солнечный элемент для подлодки — он работает на глубине",
-    "link": "https://3dnews.ru/1148478",
-    "desc": "Учёные из Китая совершили прорыв в разработке солнечных элементов для выработки электричества под водой, которая сама легко поглощает фотоны. Это было колоссальной проблемой для кремниевых ячеек, но оказалось по силам перовскиту. Открытый без малого 200 лет назад в уральских горах минерал силами ...",
     "date": "2026-09-15",
     "source": "3DNews",
     "cat": "ai",
@@ -673,6 +673,15 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+    "desc": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/ Comments URL: https://news.ycombinator.com/item?id=49715947 Points: 12 # Comments: 1",
+    "date": "2026-09-15",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Подрядчики OpenAI читают переписки пользователей ChatGPT — так компания улучшает ответы нейросети",
@@ -1530,15 +1539,6 @@
     "lang": "ru"
   },
   {
-    "title": "НАСА и IBM представили ИИ‑модель для исследования Луны",
-    "link": "https://habr.com/ru/news/1081326/?utm_campaign=1081326&utm_source=habrahabr&utm_medium=rss",
-    "desc": "НАСА начинает активнее использовать искусственный интеллект для изучения Луны, чтобы изменить подход исследователей к анализу её поверхности. В рамках сотрудничества с IBM Research и несколькими научными организациями агентство представило NASA‑IBM Lunar Foundation Model, одну из первых открытых ...",
-    "date": "2026-09-11",
-    "source": "Habr AI Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Anthropic сообщила подробности о кампаниях по дистилляции моделей, проводимых китайскими Alibaba, Moonshot AI и DeepSeek",
     "link": "https://habr.com/ru/news/1081216/?utm_campaign=1081216&utm_source=habrahabr&utm_medium=rss",
     "desc": "Anthropic сообщила подробности о кампаниях по дистилляции моделей американских разработчиков со стороны китайских компаний в сфере искусственного интеллекта. В последние месяцы китайские разработчики нарастили усилия в этой области, что стало поводом для коллективных обвинений, выдвинутых спецслу...",
@@ -1697,6 +1697,15 @@
     "desc": "К 2026 году индустрия управления человеческим капиталом прошла через самую масштабную цифровую трансформацию за последние полвека. Понятие HRM-системы (Human Resource Management) эволюционировало от простой базы данных сотрудников до сложного интеллектуального организма, который управляет эффекти...",
     "date": "2026-09-11",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "НАСА и IBM представили ИИ‑модель для исследования Луны",
+    "link": "https://habr.com/ru/news/1081326/?utm_campaign=1081326&utm_source=habrahabr&utm_medium=rss",
+    "desc": "НАСА начинает активнее использовать искусственный интеллект для изучения Луны, чтобы изменить подход исследователей к анализу её поверхности. В рамках сотрудничества с IBM Research и несколькими научными организациями агентство представило NASA‑IBM Lunar Foundation Model, одну из первых открытых ...",
+    "date": "2026-09-11",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },

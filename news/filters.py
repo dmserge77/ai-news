@@ -8,8 +8,10 @@ import re
 
 from .config import (
     AI_NAMES, AI_NAMES_WORD, AI_STRONG, CATEGORIES, CAT_KEYWORDS, CURIO_MARKERS,
-    FALSE_POSITIVES, JOB_TYPES, NO_AI_CHECK, SEO_SPAM, SITE_MARKERS,
+    FALSE_POSITIVES, JOB_AI_MARKERS, JOB_AI_SHORT, JOB_TYPES, NO_AI_CHECK,
+    REMOTE_MARKERS, SEO_SPAM, SITE_MARKERS,
 )
+from .util import detect_lang
 
 
 def is_seo_spam(title):
@@ -95,10 +97,47 @@ def classify_job(title, desc):
     return "ai_dev"  # fallback
 
 
-def is_real_ai_job(title, desc):
-    """Проверяет, что это релевантная онлайн/удалённая AI-вакансия."""
+def is_ai_job_theme(text):
+    """Есть ли в вакансии настоящий признак ИИ или ML.
+
+    Отдельная проверка нужна потому, что поиск по тексту на hh.ru нечёткий:
+    по запросу «машинное обучение» лента вернула «Дизайнер машинной вышивки
+    Wilcom» — вышивальную машину, а не искусственный интеллект. Технического
+    слова в заголовке («разработчик», «инженер», «дизайнер») для рубрики мало.
+    """
+    t = text.lower()
+    if any(w in t for w in JOB_AI_MARKERS):
+        return True
+    for w in JOB_AI_SHORT:
+        if re.search(r"(?<![a-zа-я0-9])" + re.escape(w) + r"(?![a-zа-я0-9])", t):
+            return True
+    return False
+
+
+def is_real_ai_job(title, desc, remote_confirmed=False):
+    """Проверяет, что это релевантная онлайн/удалённая AI-вакансия.
+
+    Правило заказчика: только удалённая работа и только по-русски. «Заумные»
+    англоязычные вакансии и работа у работодателя в офисе не нужны.
+
+    remote_confirmed=True значит, что источник уже отфильтровал вакансии по
+    формату работы — так делают hh.ru (лента с schedule=remote) и «Работа
+    России» (поле employment). В этом случае проверять формат по тексту
+    нельзя: hh.ru в RSS его не пишет вовсе (см. REMOTE_MARKERS).
+    """
     text = (title + " " + desc).lower()
-    # Блок-лист профессий и офлайна
+
+    # 1. Язык. Кириллицы нет вовсе — вакансия англоязычная, не берём.
+    if detect_lang(title + " " + desc) == "en":
+        return False
+
+    # 2. Формат работы. Если источник сам не отфильтровал — требуем, чтобы
+    #    удалёнка была названа в тексте.
+    if not remote_confirmed and not any(w in text for w in REMOTE_MARKERS):
+        return False
+
+    # 3. Блок-лист профессий: не AI-направление, хотя слова вроде «нейросети»
+    #    в тексте попадаться могут.
     block = ["продавец", "кассир", "грузчик", "мерчендайзер", "уборщик", "водитель",
              "курьер", "кладовщик", "официант", "бармен", "администратор",
              "продавец-консультант", "охранник", "упаковщик", "комплектовщик",
@@ -110,7 +149,7 @@ def is_real_ai_job(title, desc):
     if any(w in text for w in block):
         return False
 
-    # Блокируем обучение/курсы/стажировки
+    # 4. Блокируем обучение/курсы/стажировки — это не вакансии
     edu = ["курс", "обучение", "школа", "интенсив", "вебинар", "тренинг",
            "марафон", "академия", "университет", "course", "training",
            "bootcamp", "internship", "стажировка", "студент", "junior",
@@ -118,29 +157,9 @@ def is_real_ai_job(title, desc):
     if any(w in text for w in edu):
         return False
 
-    # Блокируем офлайн-локации
-    office = ["офис", "работа в офисе", "г. ", "офлайн", "offline", "на месте",
-              "в офисе", "работа на месте", "не удаленная", "полный день"]
-    # Если есть офлайн-слова и нет удалёнки — отбрасываем
-    has_office = any(w in text for w in office)
-    has_remote = any(w in text for w in ["удален", "remote", "дистанц", "online",
-                                          "онлайн", "гибрид", "hybrid", "дома"])
-    if has_office and not has_remote:
-        return False
-
-    # Должны быть AI-слова или тех. скиллы
-    ai_words = ["ai", "нейросет", "искусственный интеллект", "машинное обучение",
-                "gpt", "llm", "deep learning", "data science", "prompt",
-                "python", "tensorflow", "pytorch", "nlp", "computer vision",
-                "нейрон", "чат-бот", "chatbot", "ai agent", "ml engineer"]
-    if any(w in text for w in ai_words):
-        return True
-
-    tech_words = ["backend", "frontend", "разработчик", "программист", "developer",
-                  "software", "qa", "тестировщик", "devops",
-                  "data", "инженер", "engineer", "аналитик", "analyst",
-                  "design", "дизайн", "ux", "ui", "figma"]
-    return any(w in text for w in tech_words)
+    # 5. Вакансия должна быть про ИИ или ML. Одного технического слова мало:
+    #    поиск hh.ru нечёткий и подсовывает посторонние профессии.
+    return is_ai_job_theme(text)
 
 
 def classify_order(title, desc):

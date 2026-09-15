@@ -2,8 +2,33 @@
 
 import unittest
 
-from news.fetch import parse_rss
+from news.fetch import parse_rss, parse_trudvsem
 from news.util import clean_desc, detect_lang, parse_date
+
+# Ответ API «Работа России». Имена полей скопированы из живого ответа:
+# заголовок — job-name, дата — creation-date, формат работы — employment.
+# Однажды код читал title и creation_date, и рубрика молча пустовала.
+TRUDVSEM_SAMPLE = [
+    {"vacancy": {
+        "job-name": "Инженер машинного обучения",
+        "vac_url": "https://trudvsem.ru/vacancy/card/1/aaa",
+        "creation-date": "2026-09-04",
+        "employment": "Дистанционная (удаленная) работа",
+        "duty": "Участвовать в полном цикле DS/ML-проектов",
+        "company": {"name": 'ООО "ПЕТРОВИЧ-ТЕХ"'},
+        "region": {"name": "Город Санкт-Петербург"},
+        "requirement": {"education": "Высшее образование", "experience": 4},
+    }},
+    {"vacancy": {
+        "job-name": "Специалист по нейросетям",
+        "vac_url": "https://trudvsem.ru/vacancy/card/2/bbb",
+        "creation-date": "2026-09-01",
+        "employment": "Полная занятость",
+        "duty": "Работа в офисе, обучение нейросетей",
+        "company": {"name": "ООО Ромашка"},
+        "region": {"name": "Город Москва"},
+    }},
+]
 
 RSS_SAMPLE = """<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
@@ -133,6 +158,36 @@ class TestParseRss(unittest.TestCase):
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0]["link"], "https://example.com/anthropic")
         self.assertEqual(items[0]["date"], "2026-09-15")
+
+
+class TestTrudvsem(unittest.TestCase):
+    def test_fields_are_read_from_real_names(self):
+        """Заголовок лежит в job-name, дата — в creation-date.
+
+        Если читать title и creation_date, как было раньше, заголовок выходит
+        пустым и рубрика молча остаётся без вакансий.
+        """
+        items, _ = parse_trudvsem(TRUDVSEM_SAMPLE)
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["title"], "Инженер машинного обучения")
+        self.assertEqual(items[0]["date"], "2026-09-04")
+        self.assertEqual(items[0]["link"], "https://trudvsem.ru/vacancy/card/1/aaa")
+
+    def test_office_employment_skipped(self):
+        """«Полная занятость» — не удалёнка, вакансию не берём."""
+        _, skipped = parse_trudvsem(TRUDVSEM_SAMPLE)
+        self.assertEqual(skipped, 1)
+
+    def test_company_and_region_in_description(self):
+        items, _ = parse_trudvsem(TRUDVSEM_SAMPLE)
+        self.assertIn("ПЕТРОВИЧ-ТЕХ", items[0]["desc"])
+        self.assertIn("Санкт-Петербург", items[0]["desc"])
+
+    def test_requirement_dict_not_dumped_into_description(self):
+        """Поле requirement — словарь, в текст карточки он попадать не должен."""
+        items, _ = parse_trudvsem(TRUDVSEM_SAMPLE)
+        self.assertNotIn("education", items[0]["desc"])
+        self.assertNotIn("{", items[0]["desc"])
 
 
 if __name__ == "__main__":

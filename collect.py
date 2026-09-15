@@ -11,7 +11,7 @@ import os
 import sys
 from datetime import datetime, timedelta
 
-from news.config import CATEGORIES, DEAD_SOURCES, DOCS_DIR, MAX_AGE_DAYS
+from news.config import CATEGORIES, DEAD_SOURCES, DOCS_DIR, JOB_SOURCES, MAX_AGE_DAYS
 from news.dedup import Seen
 from news.fetch import (
     fetch_fl_orders, fetch_hh_vacancies, fetch_trudvsem_vacancies, fetch_url,
@@ -98,8 +98,9 @@ def load_store(seen):
                 if not is_ai_order(item.get("title", ""), item.get("desc", "")):
                     _to_unfiltered(item, to_unfiltered)
                     continue
-            # Вакансии: остаются только от hh.ru, RSS-статьи уезжают в Солянку
-            elif item.get("cat") == "jobs" and item.get("source") != "hh.ru":
+            # Вакансии: остаются только от источников вакансий (hh.ru, «Работа
+            # России»), статьи из RSS уезжают в Солянку.
+            elif item.get("cat") == "jobs" and item.get("source") not in JOB_SOURCES:
                 _to_unfiltered(item, to_unfiltered)
                 continue
             # Остальные рубрики проверяются на тему ИИ

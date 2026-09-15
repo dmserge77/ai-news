@@ -11,7 +11,7 @@ from urllib.parse import quote
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
 
-from .config import DEAD_SOURCES, SPAM_FILTER_SOURCES
+from .config import DEAD_SOURCES, REMOTE_MARKERS, SPAM_FILTER_SOURCES
 from .filters import (
     classify, classify_job, classify_misc, classify_order, is_ai_order,
     is_ai_relevant, is_real_ai_job, is_seo_spam,
@@ -164,7 +164,18 @@ def fetch_fl_orders():
 
 
 def fetch_hh_vacancies():
-    """Парсит вакансии с hh.ru через RSS. Ищет AI/ML/нейросети."""
+    """Парсит вакансии с hh.ru через RSS. Только удалённые AI/ML-вакансии.
+
+    schedule=remote — это фильтр самого hh.ru: в ленте остаются только
+    вакансии с удалённым форматом работы. Проверено вживую: по запросу
+    «промпт-инженер» лента без фильтра отдаёт 18 записей, с фильтром — 11,
+    и это строгое подмножество. Параметр work_format=REMOTE даёт ровно тот же
+    набор. Параметр area= такой фильтрации не даёт (area=1 возвращал и Москву,
+    и Саратов), поэтому регион задаём только как «вся Россия» — area=113.
+
+    Формат работы в RSS не пишется, поэтому в is_real_ai_job передаём
+    remote_confirmed=True — иначе мы бы выбросили вообще все вакансии hh.ru.
+    """
     items = []
     keywords = ["искусственный интеллект", "нейросети", "машинное обучение",
                 "ai engineer", "data scientist", "gpt", "llm", "prompt engineer"]
@@ -173,7 +184,8 @@ def fetch_hh_vacancies():
 
     for kw in keywords:
         try:
-            url = f"https://hh.ru/search/vacancy/rss?text={quote(kw)}&area=113"
+            url = (f"https://hh.ru/search/vacancy/rss?text={quote(kw)}"
+                   f"&area=113&schedule=remote")
             xml = fetch_url(url).decode("utf-8", errors="replace")
             root = ElementTree.fromstring(xml)
             for item in root.iter("item"):
@@ -185,16 +197,8 @@ def fetch_hh_vacancies():
                 if not title:
                     continue
 
-                # Отбрасываем курсы/обучения, вебинары
-                skip_words = ["курс", "обучение", "школа", "интенсив", "вебинар",
-                              "тренинг", "марафон", "академия", "университет",
-                              "course", "training", "bootcamp"]
-                text_lower = (title + " " + desc).lower()
-                if any(w in text_lower for w in skip_words):
-                    continue
-
-                # Отбрасываем нерелевантные вакансии
-                if not is_real_ai_job(title, desc):
+                # Курсы и обучения отсекает is_real_ai_job (шаг 4).
+                if not is_real_ai_job(title, desc, remote_confirmed=True):
                     continue
 
                 # Дедубликация: одинаковый заголовок не более 1 раза
@@ -221,58 +225,100 @@ def fetch_hh_vacancies():
     return items
 
 
+def _field(record, key, sub=None):
+    """Достаёт строку из поля API. Значение приходит и строкой, и словарём."""
+    value = record.get(key)
+    if sub and isinstance(value, dict):
+        value = value.get(sub)
+    if isinstance(value, dict):
+        value = value.get("$", "") or str(value)
+    return str(value or "")
+
+
+def parse_trudvsem(vacancies):
+    """Разбирает список вакансий из ответа API «Работа России».
+
+    Вынесено в отдельную функцию, чтобы проверялось тестом без сети: имена
+    полей здесь неочевидные — `job-name` вместо `title` и `creation-date`
+    вместо `creation_date`. Однажды из-за этого рубрика молча осталась пустой:
+    заголовок выходил пустым, запись отбрасывалась, а в логах было чисто.
+    Источник выглядел работающим, но не давал ничего.
+
+    Возвращает (items, skipped_office): карточки и счётчик отброшенных
+    не-удалённых вакансий.
+    """
+    items = []
+    skipped_office = 0
+    now = now_msk().strftime("%Y-%m-%d")
+
+    for v in vacancies:
+        vdata = v.get("vacancy", {})
+        title = _field(vdata, "job-name").strip()
+        link = vdata.get("vac_url", "")
+        if not title or not link:
+            continue
+
+        # Формат работы сообщает само API — верим ему, а не тексту.
+        employment = _field(vdata, "employment").lower()
+        if not any(w in employment for w in REMOTE_MARKERS):
+            skipped_office += 1
+            continue
+
+        # duty — это описание вакансии. Поле requirement словарное
+        # ({education, experience}), в текст карточки его не кладём.
+        duty = _field(vdata, "duty")
+        company = _field(vdata, "company", "name")
+        region = _field(vdata, "region", "name")
+        desc = ". ".join(p for p in (company, region, duty) if p)
+
+        # Курсы и обучения отсекает is_real_ai_job (шаг 4).
+        if not is_real_ai_job(title, desc, remote_confirmed=True):
+            continue
+
+        items.append({
+            "title": title,
+            "link": link,
+            "desc": clean_desc(desc),
+            "date": _field(vdata, "creation-date")[:10] or now,
+            "source": "Работа России",
+            "cat": "jobs",
+            "job_type": classify_job(title, desc),
+            "lang": detect_lang(title + " " + desc),
+        })
+
+    return items, skipped_office
+
+
 def fetch_trudvsem_vacancies():
-    """Парсит вакансии через API Работа России."""
+    """Читает вакансии через API «Работа России». Только удалённые и про ИИ.
+
+    Формат работы отдаётся отдельным полем `employment` — например
+    «Дистанционная (удаленная) работа». Это такой же надёжный источник, как
+    schedule=remote у hh.ru, поэтому в is_real_ai_job уходит
+    remote_confirmed=True: искать удалёнку в тексте не нужно.
+    """
     items = []
     seen = set()
-    now = now_msk().strftime("%Y-%m-%d")
     keywords = ["искусственный интеллект", "нейросети", "машинное обучение"]
+    skipped_office = 0
 
     for kw in keywords:
         try:
-            url = f"https://opendata.trudvsem.ru/api/v1/vacancies?text={quote(kw)}&limit=50"
+            url = (f"https://opendata.trudvsem.ru/api/v1/vacancies"
+                   f"?text={quote(kw)}&limit=50")
             data = fetch_url(url).decode("utf-8", errors="replace")
             parsed = json.loads(data)
             vacancies = parsed.get("results", {}).get("vacancies", [])
-            for v in vacancies:
-                vdata = v.get("vacancy", {})
-                title = vdata.get("title", "")
-                if isinstance(title, dict):
-                    title = title.get("$", "") or str(title)
-                link = vdata.get("vac_url", "")
-                desc_raw = vdata.get("requirement", "")
-                if isinstance(desc_raw, dict):
-                    desc_raw = desc_raw.get("$", "") or str(desc_raw)
-                duty_raw = vdata.get("duty", "")
-                if isinstance(duty_raw, dict):
-                    duty_raw = duty_raw.get("$", "") or str(duty_raw)
-                desc = str(desc_raw) + " " + str(duty_raw)
-                date_str = vdata.get("creation_date", "")[:10]
-
-                if not title or not title.strip():
+            found, skipped = parse_trudvsem(vacancies)
+            skipped_office += skipped
+            for item in found:
+                if item["link"] in seen:
                     continue
-
-                skip_words = ["курс", "обучение", "школа", "интенсив", "вебинар",
-                              "тренинг", "марафон", "академия", "университет"]
-                if any(w in (title + desc).lower() for w in skip_words):
-                    continue
-
-                if not is_real_ai_job(title, desc):
-                    continue
-
-                if link and link not in seen:
-                    seen.add(link)
-                    items.append({
-                        "title": title,
-                        "link": link,
-                        "desc": clean_desc(desc),
-                        "date": date_str or now,
-                        "source": "Работа России",
-                        "cat": "jobs",
-                        "job_type": classify_job(title, desc),
-                        "lang": detect_lang(title + " " + desc),
-                    })
+                seen.add(item["link"])
+                items.append(item)
         except Exception as e:
             print(f"  ! trudvsem ({kw}): {e}")
+    if skipped_office:
+        print(f"  (не удалённых пропущено: {skipped_office})")
     print(f"  -> {len(items)} вакансий с Работа России")
     return items

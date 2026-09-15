@@ -9,8 +9,8 @@
 import unittest
 
 from news.filters import (
-    classify, classify_misc, classify_order, has_ai_signal, is_ai_order,
-    is_ai_relevant, is_real_ai_job, is_seo_spam,
+    classify, classify_misc, classify_order, has_ai_signal, is_ai_job_theme,
+    is_ai_order, is_ai_relevant, is_real_ai_job, is_seo_spam,
 )
 
 
@@ -91,10 +91,63 @@ class TestJobs(unittest.TestCase):
         self.assertFalse(is_real_ai_job("Курс по нейросетям", "обучение с нуля, стажировка"))
 
     def test_remote_ai_job_accepted(self):
-        self.assertTrue(is_real_ai_job("AI Engineer", "удалённо, python, llm, pytorch"))
+        self.assertTrue(is_real_ai_job("AI-инженер", "удалённо, python, llm, pytorch"))
 
     def test_office_without_remote_rejected(self):
+        """Про удалёнку не сказано — вакансию не берём."""
         self.assertFalse(is_real_ai_job("Разработчик Python", "работа в офисе, полный день"))
+
+    def test_english_job_rejected(self):
+        """Англоязычную вакансию не берём, даже если она удалённая."""
+        self.assertFalse(is_real_ai_job(
+            "Senior Machine Learning Engineer",
+            "Remote position, LLM, PyTorch, competitive salary"))
+
+    def test_hybrid_is_not_remote(self):
+        """Гибрид — это частично офис, онлайном не считаем."""
+        self.assertFalse(is_real_ai_job("ML-инженер", "гибридный формат, 3 дня в офисе"))
+
+    def test_remote_but_wrong_profession_rejected(self):
+        """Удалённый продавец — всё равно не наша вакансия."""
+        self.assertFalse(is_real_ai_job("Продавец-консультант", "удалённо, работа из дома"))
+
+    def test_source_filter_is_trusted(self):
+        """Если формат отфильтровал сам hh.ru — слова «удалённо» в тексте не требуем.
+
+        В ленте hh.ru формат работы не пишется вообще: только компания, регион
+        и доход. При этом в описании бывает «Центральный офис» — это название
+        офиса компании, а не место работы. Требовать удалёнку в тексте значило
+        бы выбросить все вакансии hh.ru до единой.
+        """
+        desc = "Вакансия компании: Альфа-Банк. Центральный офис. Регион: Москва"
+        self.assertTrue(is_real_ai_job("AI Engineer", desc, remote_confirmed=True))
+        self.assertFalse(is_real_ai_job("AI Engineer", desc))
+
+    def test_job_must_be_about_ai(self):
+        """Технического слова в заголовке мало — нужен признак ИИ."""
+        self.assertFalse(is_ai_job_theme("Дизайнер машинной вышивки Wilcom"))
+        self.assertFalse(is_ai_job_theme("Middle Python Developer (Django)"))
+        self.assertTrue(is_ai_job_theme("ML-инженер"))
+        self.assertTrue(is_ai_job_theme("Data Scientist в команду RecSys"))
+        self.assertTrue(is_ai_job_theme("Backend-разработчик / MCP Engineer"))
+
+    def test_short_ai_abbreviations_are_separate_words(self):
+        """«ml» не должно ловиться в «html», «ai» — в «email»."""
+        self.assertFalse(is_ai_job_theme("Верстальщик HTML-писем"))
+        self.assertFalse(is_ai_job_theme("Специалист по email-рассылкам"))
+        self.assertTrue(is_ai_job_theme("Computer Vision Engineer"))
+
+    def test_cv_means_resume_not_computer_vision(self):
+        """Одиночное «CV» — это резюме, поэтому признаком ИИ не считается."""
+        self.assertFalse(is_ai_job_theme("Пришлите своё CV на почту"))
+        self.assertTrue(is_ai_job_theme("CV Engineer"))
+        self.assertTrue(is_ai_job_theme("Middle CV-инженер"))
+
+    def test_embroidery_designer_rejected(self):
+        """Реальный случай: hh.ru вернул это по запросу «машинное обучение»."""
+        self.assertFalse(is_real_ai_job(
+            "Дизайнер машинной вышивки Wilcom",
+            "удалённо, работа из дома, опыт от 1 года", remote_confirmed=True))
 
 
 class TestOrders(unittest.TestCase):
