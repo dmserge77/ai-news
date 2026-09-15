@@ -1,0 +1,71 @@
+name: Сборка и деплой
+
+on:
+  schedule:
+    # Слоты по МСК: 02, 06, 10, 14, 18, 22 (= UTC 23, 3, 7, 11, 15, 19).
+    # Расписание ненадёжное — GitHub может задержать или пропустить запуск.
+    # Страхует watchdog.yml: он проверяет свежесть и перезапускает сборку.
+    - cron: '0 3,7,11,15,19,23 * * *'
+  push:
+    branches: [main]
+    # Сборка сама коммитит обновлённый накопитель в data/. Такой коммит
+    # не должен запускать новый прогон — иначе получится бесконечный цикл.
+    paths-ignore:
+      - 'data/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Установка Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Тесты
+        run: python -m unittest discover -s tests -t .
+
+      - name: Сбор новостей и сайта
+        run: python collect.py
+
+      # Накопитель живёт в data/ и хранится в репозитории — это архив проекта.
+      # Без этого шага новые новости остались бы только в артефакте сборки.
+      - name: Сохранение накопителя в репозиторий
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "накопитель не изменился — коммит не нужен"
+          else
+            git commit -m "данные: сборка $(date -u '+%Y-%m-%d %H:%M') UTC [skip ci]"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs'
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
