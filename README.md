@@ -35,6 +35,8 @@ python collect.py                                    # собрать новос
 python -m unittest discover -s tests -t .            # прогнать тесты
 python snapshot.py save --note "повод"               # снять снимок архива
 python snapshot.py restore _snapshots/<файл>.json.gz # восстановить из снимка
+python check_jobs.py                                 # перепроверить вакансии в архиве
+python check_jobs.py --apply                         # ...и убрать неподходящие
 GITHUB_TOKEN=<токен> python watchdog.py              # проверить сторожа
 ```
 
@@ -78,5 +80,6 @@ GITHUB_TOKEN=<токен> python watchdog.py              # проверить �
 | `tests/` | тесты на стандартном `unittest` |
 | `_snapshots/` | снимки архива — вторая страховка |
 | `watchdog.py`, `snapshot.py` | сторож свежести и работа со снимками |
+| `check_jobs.py` | перепроверка вакансий в архиве по текущим правилам |
 
 Подробности для разработки — в [AGENTS.md](AGENTS.md).
