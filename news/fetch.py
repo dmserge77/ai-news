@@ -16,23 +16,40 @@ from .filters import (
     classify, classify_job, classify_misc, classify_order, is_ai_order,
     is_ai_relevant, is_real_ai_job, is_seo_spam,
 )
-from .util import clean_desc, detect_lang, now_msk, parse_date
+from .util import (
+    clean_desc, detect_lang, now_msk, parse_date, safe_link, strip_html,
+)
 
 ATOM = "{http://www.w3.org/2005/Atom}"
 
+# Потолок на размер ответа ленты. Обычная лента — десятки-сотни килобайт,
+# так что запас многократный. Нужен против гигантских ответов и XML-бомб:
+# без него одна лента может съесть всю память сборки.
+MAX_FEED_BYTES = 5 * 1024 * 1024
+
 
 def fetch_url(url):
-    """Скачивает адрес и возвращает байты."""
+    """Скачивает адрес и возвращает байты.
+
+    Сертификат проверяем по-настоящему. Раньше здесь стояли
+    `check_hostname = False` и `verify_mode = CERT_NONE`, то есть шифрование
+    было, а подлинность сервера не проверялась: содержимое ленты можно было
+    подменить по пути. Проверено 16.09.2026 — все 36 лент и три кадровых
+    источника проходят нормальную проверку, так что отключать её незачем.
+    """
     ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
     # Кириллицу в URL (например, теги vc.ru вида /rss/tag/нейросети) urlopen
     # не умеет кодировать сам: падает 'ascii' codec can't encode.
     # quote безопасен для обычных адресов — он кодирует только не-ASCII.
     url = quote(url, safe=":/?#[]@!$&'()*+,;=%~")
     req = Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"})
     with urlopen(req, timeout=15, context=ctx) as resp:
-        return resp.read()
+        data = resp.read(MAX_FEED_BYTES + 1)
+    # Лента, которая отдаёт гигабайты, роняет сборку по памяти. Заодно это
+    # защита от XML-бомбы: раздутый документ до разбора просто не доедет.
+    if len(data) > MAX_FEED_BYTES:
+        raise ValueError(f"ответ больше {MAX_FEED_BYTES} байт — отброшен")
+    return data
 
 
 def _build_item(title, link, desc, date_raw, feed):
@@ -41,6 +58,15 @@ def _build_item(title, link, desc, date_raw, feed):
     Логика одна и та же для RSS (item) и Atom (entry), поэтому живёт здесь,
     а не дублируется в двух ветках разбора.
     """
+    # Заголовок и ссылка идут на страницу как есть, поэтому чистим их здесь,
+    # на входе: тег в заголовке — это исполняемый код у посетителя, а
+    # `javascript:` в ссылке сработает по клику. Это второй эшелон защиты,
+    # первый — экранирование в шаблоне страницы.
+    title = strip_html(title)
+    link = safe_link(link)
+    if not title or not link:
+        return None
+
     text = title + " " + desc
     # SEO-мусор в ИИ-тегах vc.ru («нейросеть для X бесплатно: промпт и ...»)
     if feed.get("source") in SPAM_FILTER_SOURCES and is_seo_spam(title):
@@ -140,12 +166,12 @@ def fetch_fl_orders():
             xml = fetch_url(url).decode("utf-8", errors="replace")
             root = ElementTree.fromstring(xml)
             for item in root.iter("item"):
-                title = unescape(item.findtext("title", "")).strip()
-                link = item.findtext("link", "").strip()
+                title = strip_html(unescape(item.findtext("title", "")))
+                link = safe_link(item.findtext("link", ""))
                 desc = unescape(item.findtext("description", "")).strip()
                 pubdate = item.findtext("pubDate", "")
 
-                if not title:
+                if not title or not link:
                     continue
 
                 title_norm = title.lower().strip()
@@ -157,17 +183,16 @@ def fetch_fl_orders():
                 if not is_ai_order(title, desc):
                     continue
 
-                if link:
-                    items.append({
-                        "title": title,
-                        "link": link,
-                        "desc": clean_desc(desc),
-                        "date": parse_date(pubdate),
-                        "source": "FL.ru",
-                        "cat": "orders",
-                        "order_type": classify_order(title, desc),
-                        "lang": detect_lang(title + " " + desc),
-                    })
+                items.append({
+                    "title": title,
+                    "link": link,
+                    "desc": clean_desc(desc),
+                    "date": parse_date(pubdate),
+                    "source": "FL.ru",
+                    "cat": "orders",
+                    "order_type": classify_order(title, desc),
+                    "lang": detect_lang(title + " " + desc),
+                })
         except Exception as e:
             errors.append(f"{kw}: {e}")
     if errors:
@@ -204,12 +229,12 @@ def fetch_hh_vacancies():
             xml = fetch_url(url).decode("utf-8", errors="replace")
             root = ElementTree.fromstring(xml)
             for item in root.iter("item"):
-                title = unescape(item.findtext("title", "")).strip()
-                link = item.findtext("link", "").strip()
+                title = strip_html(unescape(item.findtext("title", "")))
+                link = safe_link(item.findtext("link", ""))
                 desc = unescape(item.findtext("description", "")).strip()
                 pubdate = item.findtext("pubDate", "")
 
-                if not title:
+                if not title or not link:
                     continue
 
                 # Курсы и обучения отсекает is_real_ai_job (шаг 4).
@@ -222,18 +247,19 @@ def fetch_hh_vacancies():
                     continue
                 seen_titles[title_norm] = seen_titles.get(title_norm, 0) + 1
 
-                if link and link not in seen_links:
-                    seen_links.add(link)
-                    items.append({
-                        "title": title,
-                        "link": link,
-                        "desc": clean_desc(desc),
-                        "date": parse_date(pubdate),
-                        "source": "hh.ru",
-                        "cat": "jobs",
-                        "job_type": classify_job(title, desc),
-                        "lang": detect_lang(title + " " + desc),
-                    })
+                if link in seen_links:
+                    continue
+                seen_links.add(link)
+                items.append({
+                    "title": title,
+                    "link": link,
+                    "desc": clean_desc(desc),
+                    "date": parse_date(pubdate),
+                    "source": "hh.ru",
+                    "cat": "jobs",
+                    "job_type": classify_job(title, desc),
+                    "lang": detect_lang(title + " " + desc),
+                })
         except Exception as e:
             print(f"  ! hh.ru ({kw}): {e}")
     print(f"  -> {len(items)} вакансий с hh.ru")
@@ -268,8 +294,8 @@ def parse_trudvsem(vacancies):
 
     for v in vacancies:
         vdata = v.get("vacancy", {})
-        title = _field(vdata, "job-name").strip()
-        link = vdata.get("vac_url", "")
+        title = strip_html(_field(vdata, "job-name"))
+        link = safe_link(vdata.get("vac_url", ""))
         if not title or not link:
             continue
 
