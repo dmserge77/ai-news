@@ -2,7 +2,7 @@
   {
     "title": "Scaling Golang CI by Replacing actions/setup-go",
     "link": "https://www.cloudx.ai/posts/setup-go",
-    "desc": "Article URL: https://www.cloudx.ai/posts/setup-go Comments URL: https://news.ycombinator.com/item?id=49726350 Points: 51 # Comments: 7",
+    "desc": "Article URL: https://www.cloudx.ai/posts/setup-go Comments URL: https://news.ycombinator.com/item?id=49726350 Points: 51 # Comments: 10",
     "date": "2026-09-16",
     "source": "Hacker News",
     "cat": "misc",
@@ -12,7 +12,7 @@
   {
     "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models",
     "link": "https://stale.jock.pl/",
-    "desc": "Article URL: https://stale.jock.pl/ Comments URL: https://news.ycombinator.com/item?id=49726343 Points: 40 # Comments: 26",
+    "desc": "Article URL: https://stale.jock.pl/ Comments URL: https://news.ycombinator.com/item?id=49726343 Points: 41 # Comments: 30",
     "date": "2026-09-16",
     "source": "Hacker News",
     "cat": "misc",
@@ -122,7 +122,7 @@
   {
     "title": "Introducing System One Models and Jev",
     "link": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-    "desc": "Article URL: https://typesafe.ai/blog/introducing-system-one-models-and-jev Comments URL: https://news.ycombinator.com/item?id=49717558 Points: 1727 # Comments: 461",
+    "desc": "Article URL: https://typesafe.ai/blog/introducing-system-one-models-and-jev Comments URL: https://news.ycombinator.com/item?id=49717558 Points: 1734 # Comments: 463",
     "date": "2026-09-15",
     "source": "Hacker News",
     "cat": "misc",
@@ -1225,6 +1225,16 @@
     "desc": "Издание Business Insider рассказало истории соискателей, которым во время собеседований приходилось демонстрировать приверженность ИИ‑инструментам, даже если в реальности они нечасто используют их. Читать далее",
     "date": "2026-09-14",
     "source": "Habr AI Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Куда уходят токены у кодинг-агента: разбираем счёт по полям usage",
+    "link": "https://habr.com/ru/articles/1082084/?utm_campaign=1082084&utm_source=habrahabr&utm_medium=rss",
+    "desc": "После недели работы с кодинг-агентом возникает вопрос: почему счёт растёт быстрее, чем объём написанного кода. Разбираю по полям usage, куда именно уходят токены. Оказывается, типов не два, а пять: обычный ввод, запись в кэш, чтение из кэша, вывод и reasoning. Последний виден не всегда, а платите...",
+    "date": "2026-09-14",
+    "source": "Habr NLP",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -2410,21 +2420,21 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Whisper больше не нужен, русская диктовка мгновенно и без видеокарты",
-    "link": "https://habr.com/ru/articles/1080986/?utm_campaign=1080986&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Случайно услышал на просторах интернета, что у Сбера, оказывается, есть открытая модель, которая по бенчмаркам русского языка бьёт Whisper, проверил, и понял, что она не просто не хуже, она работает мгновенно? да еще и на обычном процессоре, без GPU, а текст появляется быстрее, чем успеваешь отпу...",
-    "date": "2026-09-10",
-    "source": "Habr NLP",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "Как распознать паспорт на Python за 5 минут",
     "link": "https://tproger.ru/articles/kak-raspoznat-pasport-na-python-za-5-minut",
     "desc": "Как распознать паспорт на Python за 5 минут: пошаговая интеграция Smart ID Engine, настройка распознавания паспорта РФ, обработка изображения и получение текстовых и графических данных. — Читать дальше « Как распознать паспорт на Python за 5 минут »",
     "date": "2026-09-10",
     "source": "Tproger",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Whisper больше не нужен, русская диктовка мгновенно и без видеокарты",
+    "link": "https://habr.com/ru/articles/1080986/?utm_campaign=1080986&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Случайно услышал на просторах интернета, что у Сбера, оказывается, есть открытая модель, которая по бенчмаркам русского языка бьёт Whisper, проверил, и понял, что она не просто не хуже, она работает мгновенно? да еще и на обычном процессоре, без GPU, а текст появляется быстрее, чем успеваешь отпу...",
+    "date": "2026-09-10",
+    "source": "Habr NLP",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
@@ -2755,6 +2765,26 @@
     "desc": "Google объявила о планах за два года инвестировать €13 млрд в цифровую инфраструктуру, экологически чистую энергетику и развитие местных партнёрств Финляндии. Инвестиции должны обеспечить создание тысяч рабочих мест и профинансировать региональные экологические проекты по всей территории европейс...",
     "date": "2026-09-10",
     "source": "Habr AI Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Несколько спецслужб США выдвинули коллективные обвинения в адрес китайских ИИ‑компаний",
+    "link": "https://habr.com/ru/news/1080732/?utm_campaign=1080732&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Агентство по кибербезопасности и защите инфраструктуры США (CISA) в сотрудничестве с Агентством национальной безопасности и Федеральным бюро расследований выпустило совместное предупреждение о кибербезопасности в области дистилляции знаний. Федеральные агентства указали, что китайские компании в ...",
+    "date": "2026-09-10",
+    "source": "Habr ML Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Степени свободы вместо пользы или почему три закона Азимова не работают",
+    "link": "https://habr.com/ru/articles/1080862/?utm_campaign=1080862&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Последнее время, наверное, ни один более‑менее адекватный специалист в области ИИ не проходит мимо разговоров о том, насколько всё это опасно. То одна модель «сошла с ума», то другая начала убеждать живого человека в чём‑ то странном, то кто‑то всерьёз заговорил про экзистенциальную угрозу челове...",
+    "date": "2026-09-10",
+    "source": "Habr NLP",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -3125,6 +3155,26 @@
     "desc": "Привет, Хабр! Была одна вещь, которая давно (примерно 3 дня) не давала мне покоя в Sheeternetes. Весь смысл проекта — «таблица и есть кластер»: Deployments, Nodes, Pods живут во вкладках, таблица — источник истины. Вот только в первых версиях мы покривили душой и шли против истины. Планировщик — ...",
     "date": "2026-09-08",
     "source": "Habr DevOps",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "TechCrunch выпустило глоссарий по ИИ",
+    "link": "https://habr.com/ru/news/1079834/?utm_campaign=1079834&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В попытке упростить понимание, что происходит в мире ИИ, издание TechCrunch выпустило глоссарий с основными терминами, которые относятся к этой теме. Как поясняют авторы, «словарь движется столь быстро, что заставляет даже очень умных людей из технической сферы чувствовать себя неуютно». К каждом...",
+    "date": "2026-09-08",
+    "source": "Habr ML Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Глава Microsoft Office отреагировал на негатив в отношении «ИИ‑слопа»",
+    "link": "https://habr.com/ru/news/1079656/?utm_campaign=1079656&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Исполнительный вице‑президент Microsoft Райан Рослански, курирующий направления Office и LinkedIn, опубликовал пост, в котором невольно выставил себя и свою компанию в глупом свете. Судя по всему, компания, наводнившая интернет низкопробным ИИ‑контентом, наконец начала осознавать , насколько на с...",
+    "date": "2026-09-08",
+    "source": "Habr ML Новости",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
