@@ -4,6 +4,8 @@
 все функции принимают отметку времени параметром `at`.
 """
 
+import contextlib
+import io
 import json
 import os
 import tempfile
@@ -18,6 +20,12 @@ from news.config import (
 from news.monitor import SourcesLog
 
 START = datetime(2026, 9, 16, 3, 0)
+
+
+def quiet():
+    """Глушит вывод отчёта: иначе в логе CI появится поддельная таблица
+    источников рядом с настоящей, и их будет не различить."""
+    return contextlib.redirect_stdout(io.StringIO())
 
 
 class MonitorCase(unittest.TestCase):
@@ -63,6 +71,24 @@ class TestSilence(MonitorCase):
         self.log.note("ComNews", monitor.ERROR, 0, 0, note="HTTP 404", at=START)
         self.assertEqual(self.log._kind(self.log.data["ComNews"], START), "error")
         self.assertIn("HTTP 404", self.log._label(self.log.data["ComNews"], START))
+
+    def test_first_silent_run_is_visible_in_the_table(self):
+        """Источник, давший ноль записей, не должен подписываться «работает».
+
+        Ради этой видимости журнал и заводился: тревога включается на третьем
+        прогоне, но уже первый обязан быть виден в таблице.
+        """
+        self.log.note("ForkLog", monitor.FILTERED, 0, 0, at=START)
+        label = self.log._label(self.log.data["ForkLog"], START)
+        self.assertEqual(label, "не проходит фильтр")
+
+        self.log.note("DTF", monitor.EMPTY, 0, 0, at=START)
+        self.assertEqual(self.log._label(self.log.data["DTF"], START), "лента пуста")
+
+    def test_one_silent_run_does_not_raise_alarm(self):
+        """Ярлык честный, но предупреждения на первом прогоне ещё нет."""
+        self.log.note("ForkLog", monitor.FILTERED, 0, 0, at=START)
+        self.assertEqual(self.log._kind(self.log.data["ForkLog"], START), "ok")
 
 
 class TestQuarantine(MonitorCase):
@@ -148,7 +174,8 @@ class TestStorage(MonitorCase):
         self.assertEqual(SourcesLog(self.path).data, {})
 
     def test_report_does_not_crash_on_empty_journal(self):
-        self.log.print_report(at=START)
+        with quiet():
+            self.log.print_report(at=START)
 
     def test_report_does_not_crash_with_problems(self):
         self.silent_runs("AiHub", SILENT_RUNS_TO_QUARANTINE)
@@ -157,7 +184,8 @@ class TestStorage(MonitorCase):
         for _ in range(STALE_RUNS_TO_WARN):
             self.log.note("Блог", monitor.OK, 20, 0, at=START)
         self.log.note("Хабр ИИ", monitor.OK, 20, 4, at=START)
-        self.log.print_report(at=START)
+        with quiet():
+            self.log.print_report(at=START)
 
 
 if __name__ == "__main__":
