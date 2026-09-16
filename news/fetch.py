@@ -101,6 +101,21 @@ def parse_rss(xml_text, feed):
     return items
 
 
+def count_raw(xml_text):
+    """Сколько записей в ленте всего — до всех фильтров.
+
+    Нужно, чтобы отличать «лента пуста» от «лента жива, но ничего не прошло
+    фильтр». Это разные поломки: первая значит, что источник умер, вторая —
+    что он просто не по нашей теме. Вызывается только когда после фильтра
+    записей не осталось, поэтому лишнего разбора XML не бывает.
+    """
+    try:
+        root = ElementTree.fromstring(xml_text)
+    except ElementTree.ParseError:
+        return 0
+    return len(list(root.iter("item"))) + len(list(root.iter(ATOM + "entry")))
+
+
 def fetch_fl_orders():
     """Парсит заказы с fl.ru. Ищет только ИИ-заказы и сайты."""
     items = []

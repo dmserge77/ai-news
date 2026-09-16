@@ -14,10 +14,12 @@ from datetime import datetime, timedelta
 from news.config import CATEGORIES, DEAD_SOURCES, DOCS_DIR, JOB_SOURCES, MAX_AGE_DAYS
 from news.dedup import Seen
 from news.fetch import (
-    fetch_fl_orders, fetch_hh_vacancies, fetch_trudvsem_vacancies, fetch_url,
-    parse_rss,
+    count_raw, fetch_fl_orders, fetch_hh_vacancies, fetch_trudvsem_vacancies,
+    fetch_url, parse_rss,
 )
+from news import monitor
 from news.filters import is_ai_order, is_ai_relevant
+from news.monitor import SourcesLog
 from news.render import copy_static, generate_category_page, generate_main_page
 from news.sources import FEEDS
 from news.store import load_news, save_data_js, save_news
@@ -27,10 +29,20 @@ if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 
-def collect_feeds(seen):
-    """Шаг 1. Читаем ленты и собираем свежие новости."""
+def collect_feeds(seen, log):
+    """Шаг 1. Читаем ленты и собираем свежие новости.
+
+    Итоги складываются по источнику, а не по ленте: у vc.ru и «Habr Веб-дизайна»
+    по две ленты, и в журнал должна попасть общая картина.
+    """
     fresh = []
+    totals = {}  # источник -> {записей, новых, ошибка}
     for feed in FEEDS:
+        source = feed["source"]
+        if log.should_skip(source):
+            print(f"Пропускаю (в карантине): {source}")
+            continue
+        acc = totals.setdefault(source, {"records": 0, "new": 0, "error": "", "raw": 0})
         try:
             print(f"Читаю: {feed['url']}")
             xml = fetch_url(feed["url"]).decode("utf-8", errors="replace")
@@ -42,26 +54,53 @@ def collect_feeds(seen):
                 fresh.append(item)
                 added += 1
             print(f"  -> {len(items)} записей, новых: {added}")
+            acc["records"] += len(items)
+            acc["new"] += added
+            if not items:
+                # Пустая лента и «не по нашей теме» — разные диагнозы.
+                acc["raw"] += count_raw(xml)
         except Exception as e:
             print(f"  ! Ошибка: {e}")
+            acc["error"] = str(e)
+
+    for source, acc in totals.items():
+        if acc["records"]:
+            status = monitor.OK
+        elif acc["error"]:
+            status = monitor.ERROR
+        elif acc["raw"]:
+            status = monitor.FILTERED
+        else:
+            status = monitor.EMPTY
+        log.note(source, status, acc["records"], acc["new"], note=acc["error"])
+
     return fresh
 
 
-def collect_extra(seen):
+def _absorb(seen, items, fresh):
+    """Добавляет новые записи в общий поток. Возвращает, сколько оказалось новых."""
+    added = 0
+    for item in items:
+        if not seen.check(item):
+            fresh.append(item)
+            added += 1
+    return added
+
+
+def collect_extra(seen, log):
     """Шаг 1б и 1в. Вакансии и заказы — они приходят не из RSS."""
     fresh = []
-    print("Собираю вакансии с hh.ru...")
-    for v in fetch_hh_vacancies():
-        if not seen.check(v):
-            fresh.append(v)
-    print("Собираю вакансии с Работа России...")
-    for v in fetch_trudvsem_vacancies():
-        if not seen.check(v):
-            fresh.append(v)
-    print("Собираю заказы с FL.ru...")
-    for o in fetch_fl_orders():
-        if not seen.check(o):
-            fresh.append(o)
+    for what, fetch, source in (
+        ("вакансии с hh.ru", fetch_hh_vacancies, "hh.ru"),
+        ("вакансии с Работа России", fetch_trudvsem_vacancies, "Работа России"),
+        ("заказы с FL.ru", fetch_fl_orders, "FL.ru"),
+    ):
+        print(f"Собираю {what}...")
+        items = fetch()
+        added = _absorb(seen, items, fresh)
+        # Если внутри источника была ошибка, он вернёт пустой список —
+        # и это честно попадёт в журнал как молчание.
+        log.note(source, monitor.OK if items else monitor.EMPTY, len(items), added)
     return fresh
 
 
@@ -116,9 +155,10 @@ def load_store(seen):
 
 def main():
     seen = Seen()
+    log = SourcesLog()
 
-    all_news = collect_feeds(seen)
-    all_news += collect_extra(seen)
+    all_news = collect_feeds(seen, log)
+    all_news += collect_extra(seen, log)
 
     kept, to_unfiltered, dropped_dead = load_store(seen)
     all_news += kept
@@ -166,6 +206,13 @@ def main():
     copy_static()
 
     print(f"\n[OK] Всего новостей: {len(filtered)}")
+
+    # 8. Отчёт по источникам — кто отвечает, кто молчит, кого пора в карантин.
+    #    Печатаем и сохраняем в любом случае, даже если сборка упала раньше:
+    #    иначе молчаливый источник снова останется незамеченным.
+    print("\n--- Источники ---")
+    log.print_report()
+    log.save()
 
 
 if __name__ == "__main__":
