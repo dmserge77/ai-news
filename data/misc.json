@@ -1,5 +1,15 @@
 [
   {
+    "title": "AI‑агент не увидел мой код: worktree, состояние задач и границы доступа в VECTA",
+    "link": "https://habr.com/ru/articles/1083542/?utm_campaign=1083542&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Файлы проекта лежали на диске, но AI-агент получил пустую рабочую копию. Причина нашлась в Git: исходники ещё не были закоммичены, а worktree создавался из HEAD. На примере VECTA разбираю, что приходится строить вокруг запуска coding agent: снимки текущих файлов, восстановление событий после обры...",
+    "date": "2026-09-17",
+    "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "Россияне стали на треть чаще досрочно гасить ипотеку — за полгода выплаты достигли 749 млрд рублей",
     "link": "https://rb.ru/news/rossiyane-stali-na-tret-chashe-dosrochno-gasit-ipoteku-za-polgoda-vyplaty-dostigli-749-mlrd-rublej/",
     "desc": "Российские заёмщики в январе—июне 2026 года направили на досрочное погашение ипотеки 748,6 млрд рублей, сообщили в коллекторском агентстве «Долговой Консультант». Это на 34% больше, чем за тот же период прошлого года — тогда выплаты составили 559,6 млрд рублей. В агентстве связывают рост досрочны...",
@@ -38,16 +48,6 @@
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
-  },
-  {
-    "title": "Nvidia announces native GPU programming in Rust",
-    "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-    "desc": "Article URL: https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/ Comments URL: https://news.ycombinator.com/item?id=49724881 Points: 847 # Comments: 337",
-    "date": "2026-09-16",
-    "source": "Hacker News",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
   },
   {
     "title": "OSRS Wiki and RuneLite are increasingly under strain from low-effort AI development",
@@ -95,6 +95,16 @@
     "desc": "",
     "date": "2026-09-16",
     "source": "UX Collective",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Nvidia announces native GPU programming in Rust",
+    "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
+    "desc": "Article URL: https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/ Comments URL: https://news.ycombinator.com/item?id=49724881 Points: 847 # Comments: 337",
+    "date": "2026-09-16",
+    "source": "Hacker News",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
@@ -2060,6 +2070,16 @@
     "misc_type": "unfiltered"
   },
   {
+    "title": "Self-Attention — это гениально. Но это не понимание. И вот почему.",
+    "link": "https://vc.ru/ai/3135889-self-attention-v-transformerah-kak-rabotayet-mehanizm-ii?from=rss",
+    "desc": "Механизм Self-Attention в трансформерах часто называют «сердцем» современного ИИ. И действительно: он блестяще вычисляет связи между словами, выделяет главное, подавляет второстепенное. В терминах Манаенко это почти точное попадание в его концепцию синтаксического суперзнака — структуры, где сама...",
+    "date": "2026-09-13",
+    "source": "vc.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
     "title": "Ученые создали Душегуб из Cyberpunk 2077. Первой ее жертвой оказалась муха, давайте посмотрим ее энграмму",
     "link": "https://habr.com/ru/articles/1081456/?utm_campaign=1081456&utm_source=habrahabr&utm_medium=rss",
     "desc": "Автор решил пойти на поводу у трендов, и повычислять самца дрозофилов у себя на ноутбуке. Но не с целью поиздеваться над бедным животным, а изучить повадки насекомого в виртуальной среде, и может даже заговорить с ним! По крайне мере, о мухьем. Бляха-муха... Ек-макарек...",
@@ -2591,7 +2611,7 @@
   },
   {
     "title": "Whisper больше не нужен, русская диктовка мгновенно и без видеокарты",
-    "link": "https://habr.com/ru/articles/1080986/?utm_campaign=1080986&utm_source=habrahabr&utm_medium=rss",
+    "link": "https://habr.com/ru/companies/gigapisar/articles/1080986/?utm_campaign=1080986&utm_source=habrahabr&utm_medium=rss",
     "desc": "Случайно услышал на просторах интернета, что у Сбера, оказывается, есть открытая модель, которая по бенчмаркам русского языка бьёт Whisper, проверил, и понял, что она не просто не хуже, она работает мгновенно? да еще и на обычном процессоре, без GPU, а текст появляется быстрее, чем успеваешь отпу...",
     "date": "2026-09-10",
     "source": "Habr NLP",
