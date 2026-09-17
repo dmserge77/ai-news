@@ -2,7 +2,7 @@
   {
     "title": "Astra for Law",
     "link": "https://openai.com/index/astra-for-law/",
-    "desc": "Article URL: https://openai.com/index/astra-for-law/ Comments URL: https://news.ycombinator.com/item?id=49745940 Points: 22 # Comments: 8",
+    "desc": "Article URL: https://openai.com/index/astra-for-law/ Comments URL: https://news.ycombinator.com/item?id=49745940 Points: 146 # Comments: 122",
     "date": "2026-09-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,7 +11,7 @@
   {
     "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
     "link": "https://arxiv.org/abs/2609.18842",
-    "desc": "Article URL: https://arxiv.org/abs/2609.18842 Comments URL: https://news.ycombinator.com/item?id=49743483 Points: 59 # Comments: 16",
+    "desc": "Article URL: https://arxiv.org/abs/2609.18842 Comments URL: https://news.ycombinator.com/item?id=49743483 Points: 82 # Comments: 25",
     "date": "2026-09-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -27,36 +27,9 @@
     "lang": "en"
   },
   {
-    "title": "LLM Classification Is Feature Engineering",
-    "link": "https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/",
-    "desc": "Article URL: https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/ Comments URL: https://news.ycombinator.com/item?id=49742437 Points: 77 # Comments: 14",
-    "date": "2026-09-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "I Don't Like LLMs",
-    "link": "https://martinfowler.com/articles/2026-dont-like-llms.html",
-    "desc": "Comments",
-    "date": "2026-09-17",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "On learning programming in an age of LLMs",
-    "link": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
-    "desc": "Comments",
-    "date": "2026-09-17",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Не бенчмарком единым: стелс-модель union-alpha на реальной задаче — сутки от релиза до боя",
+    "title": "Не бенчмарком единым: стелс‑модель union‑alpha на реальной задаче — сутки от релиза до боя",
     "link": "https://habr.com/ru/articles/1083578/?utm_campaign=1083578&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Пролог: живая встреча, бэклог и бесплатная модель Всем привет! Немного вступления: ИИ агент заказчика работает в проде уже четвёртый месяц: ночные заявки в НЕЛЬЗЯgram Direct, диалоги, анкеты, сделки в amoCRM. В прошлой статье ( https://habr.com/ru/articles/1081780/ ) - разбор Reasoning Lock и ано...",
+    "desc": "Пролог: живая встреча, бэклог и бесплатная модель Всем привет! Немного вступления: ИИ агент заказчика работает в проде уже четвёртый месяц: ночные заявки в НЕЛЬЗЯgram Direct, диалоги, анкеты, сделки в amoCRM. В прошлой статье — разбор Reasoning Lock и анонсы продолжений. Одна из договорённостей с...",
     "date": "2026-09-17",
     "source": "Habr AI",
     "cat": "ai",
@@ -216,20 +189,29 @@
     "lang": "ru"
   },
   {
-    "title": "ИИ-алготрейдинг. Анализ шума",
-    "link": "https://habr.com/ru/articles/1083172/?utm_campaign=1083172&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Мысль о заработке с помощью ИИ не даёт мне покоя уже три года. Когда слово “агентные” можно было услышать только в интервью Сергея Брина, а опенсорсные модели годились только для adult-ботов, я создал своего первого агента с помощью nerve-cli. Это утилита, которая запускает запросы модели в цикле...",
-    "date": "2026-09-17",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "ИИ может уничтожить человечество с вероятностью выше 10%. Чего именно боятся исследователи",
     "link": "https://habr.com/ru/articles/1083482/?utm_campaign=1083482&utm_source=habrahabr&utm_medium=rss",
     "desc": "9 сентября руководитель Alignment Science в Anthropic Эван Хубингер написал довольно безумную для человека на такой должности вещь: лично он оценивает вероятность того, что AI убьёт всех людей в течение ближайших десяти лет, выше 10% . Поводом стало увольнение его коллеги Джейкоба Коксона. Тот тр...",
     "date": "2026-09-17",
     "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI ищет решение ещё одной задачи тысячелетия — гипотезы Ходжа",
+    "link": "https://habr.com/ru/companies/bothub/news/1083614/?utm_campaign=1083614&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Математический сериал по задачам тысячелетия от Альтмана продолжается. За последний месяц OpenAI уже успели решить одну из них (вроде), вторая на подходе. Речь о проблеме существования и гладкости решений уравнений Навье—Стокса, подробнее писала здесь. Математические институты пока 100% подтвержд...",
+    "date": "2026-09-17",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Nvidia представила Axolotl3D — модель для достраивания скрытых частей 3D‑объектов",
+    "link": "https://habr.com/ru/news/1083606/?utm_campaign=1083606&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Nvidia представила Axolotl3D — генеративную модель для восстановления и редактирования 3D‑объектов по неполным данным. Она учитывает несколько фотографий, положение камеры, маски видимости и частичное облако точек, а после восстанавливает недостающую геометрию. Читать далее",
+    "date": "2026-09-17",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -540,6 +522,33 @@
     "lang": "ru"
   },
   {
+    "title": "LLM Classification Is Feature Engineering",
+    "link": "https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/",
+    "desc": "Article URL: https://minimallysufficient.com/posts/llm-classification-is-feature-extraction/ Comments URL: https://news.ycombinator.com/item?id=49742437 Points: 77 # Comments: 14",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "I Don't Like LLMs",
+    "link": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+    "desc": "Comments",
+    "date": "2026-09-17",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "On learning programming in an age of LLMs",
+    "link": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
+    "desc": "Comments",
+    "date": "2026-09-17",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "I had Gemini train its own replacement for $9",
     "link": "https://www.petervijeh.com/projects/reddit-ner",
     "desc": "Article URL: https://www.petervijeh.com/projects/reddit-ner Comments URL: https://news.ycombinator.com/item?id=49740330 Points: 64 # Comments: 20",
@@ -626,15 +635,6 @@
     "desc": "Article URL: https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html Comments URL: https://news.ycombinator.com/item?id=49735410 Points: 105 # Comments: 8",
     "date": "2026-09-17",
     "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Why i'm still bearish on LLMs after Navier-Stokes",
-    "link": "https://dank.systems/posts/2026-09-15-ai-bear.html",
-    "desc": "Comments",
-    "date": "2026-09-16",
-    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
   },
@@ -907,6 +907,15 @@
     "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Why i'm still bearish on LLMs after Navier-Stokes",
+    "link": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+    "desc": "Comments",
+    "date": "2026-09-16",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
@@ -1332,20 +1341,11 @@
     "lang": "ru"
   },
   {
-    "title": "Claude Mods: Anthropic переизобрели хуки на TypeScript",
-    "link": "https://habr.com/ru/news/1082502/?utm_campaign=1082502&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Anthropic открыли ранний доступ к Claude Mods . Это плагины с хуками на TypeScript, которые меняют поведение и интерфейс Claude Code: перехватывают вызовы инструментов, обрабатывают результаты, добавляют панели и кнопки. Читать далее",
-    "date": "2026-09-15",
-    "source": "Habr AI Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Генеральный директор CrowdStrike выступил против призывов замедлить развитие ИИ",
     "link": "https://habr.com/ru/news/1082480/?utm_campaign=1082480&utm_source=habrahabr&utm_medium=rss",
     "desc": "Генеральный директор компании в сфере кибербезопасности CrowdStrike Джордж Курц выступил против призывов замедлить развитие искусственного интеллекта. По его словам, модели с открытыми весами и передовые модели уже доступны всем желающим, что делает заморозку разработки неэффективной в борьбе с а...",
     "date": "2026-09-15",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1544,6 +1544,15 @@
     "desc": "В индустрии доминирует убеждение: «Увеличим датасеты, добавим слоёв, поднимем вычислительные мощности — и сознание возникнет само». Это называется эмерджентностью. Красивая гипотеза. Но она игнорирует один фундаментальный факт. Манаенко утверждает: переход от Информации к Со-знанию — это не колич...",
     "date": "2026-09-15",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Claude Mods: Anthropic переизобрели хуки на TypeScript",
+    "link": "https://habr.com/ru/news/1082502/?utm_campaign=1082502&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Anthropic открыли ранний доступ к Claude Mods . Это плагины с хуками на TypeScript, которые меняют поведение и интерфейс Claude Code: перехватывают вызовы инструментов, обрабатывают результаты, добавляют панели и кнопки. Читать далее",
+    "date": "2026-09-15",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -3558,15 +3567,6 @@
     "title": "Anthropic отказалась от покупки ИИ‑стартапа Decart AI за $6 млрд",
     "link": "https://habr.com/ru/news/1079824/?utm_campaign=1079824&utm_source=habrahabr&utm_medium=rss",
     "desc": "Anthropic приняла решение не приобретать стартап в сфере искусственного интеллекта Decart AI, пишет Bloomberg со ссылкой на источники. В прошлом месяце собеседники информационного агентства рассказали о планах разработчика Claude купить израильскую компанию за $6 млрд. Тогда они не исключили, что...",
-    "date": "2026-09-08",
-    "source": "Habr ML Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Глава Microsoft Office отреагировал на негатив в отношении «ИИ‑слопа»",
-    "link": "https://habr.com/ru/news/1079656/?utm_campaign=1079656&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Исполнительный вице‑президент Microsoft Райан Рослански, курирующий направления Office и LinkedIn, опубликовал пост, в котором невольно выставил себя и свою компанию в глупом свете. Судя по всему, компания, наводнившая интернет низкопробным ИИ‑контентом, наконец начала осознавать , насколько на с...",
     "date": "2026-09-08",
     "source": "Habr ML Новости",
     "cat": "ai",
