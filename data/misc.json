@@ -1,8 +1,48 @@
 [
   {
+    "title": "Россияне стали на треть чаще досрочно гасить ипотеку — за полгода выплаты достигли 749 млрд рублей",
+    "link": "https://rb.ru/news/rossiyane-stali-na-tret-chashe-dosrochno-gasit-ipoteku-za-polgoda-vyplaty-dostigli-749-mlrd-rublej/",
+    "desc": "Российские заёмщики в январе—июне 2026 года направили на досрочное погашение ипотеки 748,6 млрд рублей, сообщили в коллекторском агентстве «Долговой Консультант». Это на 34% больше, чем за тот же период прошлого года — тогда выплаты составили 559,6 млрд рублей. В агентстве связывают рост досрочны...",
+    "date": "2026-09-17",
+    "source": "Rusbase",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "«Это лишь вопрос времени»: Дженсен Хуанг предсказал, что Китай освоит передовую литографию к 2030 году",
+    "link": "https://3dnews.ru/1148633",
+    "desc": "С 2019 года поставки литографического оборудования ASML со сверхжёстким ультрафиолетовым излучением (EUV) в Китай запрещены, и по официальным каналам ни одной такой системы в страну поставлено не было. Основатель Nvidia Дженсен Хуанг (Jensen Huang) убеждён, что китайцы сами создадут подходящее об...",
+    "date": "2026-09-17",
+    "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Face ID в iPhone 18 Pro перестает работать, если наклеить защитное стекло",
+    "link": "https://hi-tech.mail.ru/news/155767-face-id-v-iphone-18-pro-perestaet-rabotat-esli-nakleit-zashitnoe-steklo/",
+    "desc": "Подэкранная система распознавания лица в новых смартфонах Apple оказалась несовместима с некоторыми матовыми и антишпионскими защитными покрытиями. В iPhone 18 Pro и iPhone 18 Pro Max Apple впервые перенесла инфракрасную камеру Face ID под OLED-дисплей. Благодаря этому получилось уменьшить вырез ...",
+    "date": "2026-09-17",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Что происходит с интернетом в России 17 сентября 2026 года",
+    "link": "https://hi-tech.mail.ru/news/145610-sboi-interneta-v-rossii/",
+    "desc": "Узнайте подробности о жалобах пользователей. Пользователи из России продолжают сталкиваться с различными сбоями в работе интернета. Статистику об этом собирает профильный сервис Downdetector. В каких регионах сегодня наблюдаются проблемы со связью Согласно жалобам пользователей, сбои фиксируют в ...",
+    "date": "2026-09-17",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
     "title": "Nvidia announces native GPU programming in Rust",
     "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-    "desc": "Article URL: https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/ Comments URL: https://news.ycombinator.com/item?id=49724881 Points: 609 # Comments: 225",
+    "desc": "Article URL: https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/ Comments URL: https://news.ycombinator.com/item?id=49724881 Points: 847 # Comments: 337",
     "date": "2026-09-16",
     "source": "Hacker News",
     "cat": "misc",
@@ -12,16 +52,6 @@
   {
     "title": "OSRS Wiki and RuneLite are increasingly under strain from low-effort AI development",
     "link": "https://oldschool.runescape.wiki/w/User:Cook_Me_Plox/OSRS_Wiki_and_RuneLite_are_increasingly_under_strain_from_low-effort_AI_development",
-    "desc": "Comments",
-    "date": "2026-09-16",
-    "source": "Lobsters",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Maintaining the love for coding in the time of AI",
-    "link": "https://blog.nlnetlabs.nl/maintaining-the-love-for-coding-in-the-time-of-ai/",
     "desc": "Comments",
     "date": "2026-09-16",
     "source": "Lobsters",
@@ -65,6 +95,16 @@
     "desc": "",
     "date": "2026-09-16",
     "source": "UX Collective",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Maintaining the love for coding in the time of AI",
+    "link": "https://blog.nlnetlabs.nl/maintaining-the-love-for-coding-in-the-time-of-ai/",
+    "desc": "Comments",
+    "date": "2026-09-16",
+    "source": "Lobsters",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
@@ -200,14 +240,24 @@
     "misc_type": "unfiltered"
   },
   {
-    "title": "Часть 3. Кремний взломал кремний, или как я стал автором первого в мире подтвержденного PCIe GEN2 X16 для CMP90HX",
-    "link": "https://habr.com/ru/articles/1082724/?utm_campaign=1082724&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Это уже третья большая серия издевательств над NVIDIA CMP 90HX, где мы обойдем еще одно ограничение, которое подсунула нам NVIDIA. В первой статье я собрал домашний сервер на пачке бывших майнинговых карт. Во второй статье я полез уже внутрь драйвера, разобрался с механизмом V67 и через служебную...",
-    "date": "2026-09-15",
-    "source": "Habr AI",
+    "title": "В сети вышли первые обзоры iPhone 18 Pro и iPhone 18 Pro Max",
+    "link": "https://hi-tech.mail.ru/news/155650-v-seti-vyshli-pervye-obzory-iphone-18-pro-i-iphone-18-pro-max/",
+    "desc": "Рассказываем, какие плюсы и минусы иностранные эксперты нашли в новых смартфонах. Зарубежные эксперты опубликовали первые обзоры новых смартфонов iPhone 18 Pro и iPhone 18 Pro Max. Материалы появились в сети за два дня до официального старта продаж. Эксперты высоко оценили камеры, но также нашли ...",
+    "date": "2026-09-16",
+    "source": "Hi-Tech Mail",
     "cat": "misc",
     "lang": "ru",
-    "misc_type": "raznoe"
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Российские ученые обнаружили необычное в атмосфере Земли",
+    "link": "https://hi-tech.mail.ru/news/155605-rossijskie-uchenye-obnaruzhili-neobychnoe-v-atmosfere-zemli/",
+    "desc": "Редкий спорадический E-слой оказался настолько плотным, что заблокировал радиоволны и вызвал рекордное усиление искусственного свечения ионосферы. Российские радиофизики зафиксировали крайне редкое явление во время эксперимента на исследовательском стенде СУРА в Нижегородской области. На высоте о...",
+    "date": "2026-09-16",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
   },
   {
     "title": "Алиса AI сама выбирает режим. Какие задачи ей теперь поручать",
@@ -215,6 +265,16 @@
     "desc": "15 сентября Яндекс сообщил, что Алиса AI научилась сама выбирать модель под задачу и при необходимости подключать «Эксперта». Что с этим делать человеку, которому нужно подготовить понятный текст, сравнить варианты или разобраться в обратной связи? Ниже — три заполненных задания для работы. Это р...",
     "date": "2026-09-15",
     "source": "vc.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Часть 3. Кремний взломал кремний, или как я стал автором первого в мире подтвержденного PCIe GEN2 X16 для CMP90HX",
+    "link": "https://habr.com/ru/articles/1082724/?utm_campaign=1082724&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Это уже третья большая серия издевательств над NVIDIA CMP 90HX, где мы обойдем еще одно ограничение, которое подсунула нам NVIDIA. В первой статье я собрал домашний сервер на пачке бывших майнинговых карт. Во второй статье я полез уже внутрь драйвера, разобрался с механизмом V67 и через служебную...",
+    "date": "2026-09-15",
+    "source": "Habr AI",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
@@ -347,6 +407,16 @@
     "source": "Hacker News",
     "cat": "misc",
     "lang": "en",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "СМИ: рост числа рабочих мест в США из‑за ИИ превысил сокращения",
+    "link": "https://habr.com/ru/news/1082362/?utm_campaign=1082362&utm_source=habrahabr&utm_medium=rss",
+    "desc": "По данным Бюро трудовой статистики США, в августе в стране было создано 162 тысячи рабочих мест, а безработица снизилась до 4,1%. Читать далее",
+    "date": "2026-09-15",
+    "source": "Habr AI Новости",
+    "cat": "misc",
+    "lang": "ru",
     "misc_type": "unfiltered"
   },
   {
@@ -3065,6 +3135,16 @@
     "desc": "Пытаемся открыть сайт ДЭГ и «Госуслуги» из Европы и с VPN. Результаты так себе. Сообщение Россия скрывает сайты про выборы от иностранцев и пользователей с VPN. Как работает это ограничение? Разбор #32 появились сначала на Теплица социальных технологий .",
     "date": "2026-09-09",
     "source": "Теплица соцтех",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "200 OK от гейтвея ничего не значит",
+    "link": "https://habr.com/ru/companies/timeweb/articles/1079144/?utm_campaign=1079144&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Обычная HTTP-проверка может показывать, что ИИ-сервис работает, хотя его пользователи уже не получают ответы. Эндпоинт доступен, гейтвей на месте, но до самой модели проверка не доходит. Привет, Хабр! Меня зовут Михаил Шпаков, я развиваю Statuser — сервис мониторинга доступности сайтов. Раньше я ...",
+    "date": "2026-09-09",
+    "source": "Habr DevOps",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
