@@ -2,7 +2,7 @@
   {
     "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
     "link": "https://www.hacktron.ai/blog/hacking-openai",
-    "desc": "Article URL: https://www.hacktron.ai/blog/hacking-openai Comments URL: https://news.ycombinator.com/item?id=49749656 Points: 383 # Comments: 165",
+    "desc": "Article URL: https://www.hacktron.ai/blog/hacking-openai Comments URL: https://news.ycombinator.com/item?id=49749656 Points: 385 # Comments: 165",
     "date": "2026-09-18",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,7 +11,7 @@
   {
     "title": "Shapelearn Qwen 3.8 27B (13.1 GB VRAM)",
     "link": "https://byteshape.com/blogs/Qwen3.8-27B/",
-    "desc": "Article URL: https://byteshape.com/blogs/Qwen3.8-27B/ Comments URL: https://news.ycombinator.com/item?id=49749393 Points: 83 # Comments: 20",
+    "desc": "Article URL: https://byteshape.com/blogs/Qwen3.8-27B/ Comments URL: https://news.ycombinator.com/item?id=49749393 Points: 86 # Comments: 21",
     "date": "2026-09-18",
     "source": "Hacker News",
     "cat": "ai",
@@ -261,6 +261,33 @@
     "lang": "ru"
   },
   {
+    "title": "«Маленькие, но по три рубля»: OpenAI и Anthropic начали искать небольшие дата-центры, пока строительство гигафабрик буксует",
+    "link": "https://3dnews.ru/1148706",
+    "desc": "После анонса проекта Stargate, который подразумевал выделение $500 млрд на строительство ЦОД для ИИ в США за четыре года, OpenAI старалась «не мелочиться» в сфере заключения сделок по аренде мощностей. Но новые дата-центры вводятся в строй не так быстро, как хотелось бы ИИ-гигантам, а потому Anth...",
+    "date": "2026-09-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Учёные создали первый ДНК-компьютер, который сам складывает и умножает — без постоянного питания и участия человека",
+    "link": "https://3dnews.ru/1148694",
+    "desc": "Учёные из ирландского Университета Мейнута (Maynooth University) создали один из наиболее интересных на сегодняшний день молекулярных компьютеров на основе ДНК. Система способна выполнять математические операции — сложение, умножение и деление — используя естественные механизмы воспроизведения ни...",
+    "date": "2026-09-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Глава Nvidia уверен, что в следующем году компания сможет продать вдвое больше чипов",
+    "link": "https://3dnews.ru/1148673",
+    "desc": "На минувшей квартальной отчётной конференции Nvidia в несвойственной для себя манере дала прогноз по росту выручки на 70 % до $673 млрд в течение следующего фискального года, отдельно отметив, что выручка могла бы вырасти сильнее, если бы не дефицит чипов. На этой неделе основатель компании Дженс...",
+    "date": "2026-09-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "У всех ИИ-агентов для программирования нашлась опасная уязвимость — вредоносный код запускается без участия пользователя",
     "link": "https://3dnews.ru/1148700",
     "desc": "Эксперты в области кибербезопасности из стартапа Air, занимающегося разработкой агентов искусственного интеллекта, обнаружили уязвимость, которая позволяет выполнять произвольный код без участия пользователя и затрагивает все основные приложения ИИ-агентов для написания кода: Anthropic Claude Cod...",
@@ -297,24 +324,6 @@
     "lang": "ru"
   },
   {
-    "title": "«Маленькие, но по три рубля»: OpenAI и Anthropic начали искать небольшие дата-центры, пока строительство гигафабрик буксует",
-    "link": "https://3dnews.ru/1148706",
-    "desc": "После анонса проекта Stargate, который подразумевал выделение $500 млрд на строительство ЦОД для ИИ в США за четыре года, OpenAI старалась «не мелочиться» в сфере заключения сделок по аренде мощностей. Но новые дата-центры вводятся в строй не так быстро, как хотелось бы ИИ-гигантам, а потому Anth...",
-    "date": "2026-09-18",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Учёные создали первый ДНК-компьютер, который сам складывает и умножает — без постоянного питания и участия человека",
-    "link": "https://3dnews.ru/1148694",
-    "desc": "Учёные из ирландского Университета Мейнута (Maynooth University) создали один из наиболее интересных на сегодняшний день молекулярных компьютеров на основе ДНК. Система способна выполнять математические операции — сложение, умножение и деление — используя естественные механизмы воспроизведения ни...",
-    "date": "2026-09-18",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Исследователи взломали OpenAI за 72 часа с помощью Claude Opus 5",
     "link": "https://hi-tech.mail.ru/news/155822-tri-issledovatelya-vzlomali-openai-za-72-chasa/",
     "desc": "Команда стартапа Hacktron AI проникла во внутренние репозитории OpenAI менее чем за трое суток. В этом ей помог Claude Opus 5 от Anthropic — предыдущая версия модели с задачей так и не справилась. Исследователи по кибербезопасности из стартапа Hacktron AI смогли получить доступ к внутренней инфра...",
@@ -342,18 +351,9 @@
     "lang": "ru"
   },
   {
-    "title": "Глава Nvidia уверен, что в следующем году компания сможет продать вдвое больше чипов",
-    "link": "https://3dnews.ru/1148673",
-    "desc": "На минувшей квартальной отчётной конференции Nvidia в несвойственной для себя манере дала прогноз по росту выручки на 70 % до $673 млрд в течение следующего фискального года, отдельно отметив, что выручка могла бы вырасти сильнее, если бы не дефицит чипов. На этой неделе основатель компании Дженс...",
-    "date": "2026-09-18",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Qwen 3.8 Omni Flash",
     "link": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-    "desc": "Article URL: https://qwen.ai/blog?id=qwen3.8-omni-flash Comments URL: https://news.ycombinator.com/item?id=49747925 Points: 270 # Comments: 96",
+    "desc": "Article URL: https://qwen.ai/blog?id=qwen3.8-omni-flash Comments URL: https://news.ycombinator.com/item?id=49747925 Points: 272 # Comments: 97",
     "date": "2026-09-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -362,7 +362,7 @@
   {
     "title": "How to Write with an LLM",
     "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-    "desc": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 224 # Comments: 144",
+    "desc": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 226 # Comments: 147",
     "date": "2026-09-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -904,7 +904,7 @@
     "link": "https://habr.com/ru/news/1082894/?utm_campaign=1082894&utm_source=habrahabr&utm_medium=rss",
     "desc": "Для ИИ‑агентов запустили две новые «горячие линии», позволяющие им сообщать «куда следует» о некорректном поведении своих коллег. Ресурс AI Contact Hotline задуман как конфиденциальная площадка, где агенты, ставшие свидетелями нарушений, могут подать сигнал ответственным лицам. Читать далее",
     "date": "2026-09-16",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },

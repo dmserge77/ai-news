@@ -1,33 +1,32 @@
 {
- "updated": "18.09.2026, 16:40",
+ "updated": "18.09.2026, 16:53",
  "runs": 4,
- "total_rejected": 12773,
+ "total_rejected": 12779,
  "last_run": {
-  "total": 3190,
+  "total": 3196,
   "by_reason": {
-   "нет признака ИИ": 2719,
-   "стоп-слово (бытовая техника)": 170,
-   "не удалённая работа": 125,
-   "не ИИ-профессия": 53,
-   "повтор": 43,
+   "нет признака ИИ": 2724,
+   "стоп-слово (бытовая техника)": 172,
+   "не удалённая работа": 124,
+   "не ИИ-профессия": 51,
+   "повтор": 42,
    "нет признака ИИ или сайта": 38,
-   "не ИИ-профессия (слово в описании)": 19,
-   "нет признака ИИ или ML": 12,
-   "курсы или обучение, а не вакансия": 5,
+   "курсы или обучение, а не вакансия": 25,
+   "нет признака ИИ или ML": 14,
    "реклама в ИИ-теге": 5,
    "реклама или SEO, а не разработка": 1
   }
  },
  "by_reason": {
-  "нет признака ИИ": 10874,
-  "стоп-слово (бытовая техника)": 682,
-  "не удалённая работа": 499,
-  "не ИИ-профессия": 238,
-  "повтор": 172,
+  "нет признака ИИ": 10879,
+  "стоп-слово (бытовая техника)": 684,
+  "не удалённая работа": 498,
+  "не ИИ-профессия": 236,
+  "повтор": 171,
   "нет признака ИИ или сайта": 150,
-  "не ИИ-профессия (слово в описании)": 57,
-  "нет признака ИИ или ML": 51,
-  "курсы или обучение, а не вакансия": 24,
+  "нет признака ИИ или ML": 53,
+  "курсы или обучение, а не вакансия": 44,
+  "не ИИ-профессия (слово в описании)": 38,
   "реклама в ИИ-теге": 20,
   "реклама или SEO, а не разработка": 6
  },
@@ -39,7 +38,7 @@
    "link": "https://hh.ru/vacancy/134704649",
    "first": "2026-09-18",
    "last": "2026-09-18",
-   "count": 96
+   "count": 80
   },
   {
    "title": "Редактор текстов для обучения нейросетей (GigaChat)",
@@ -48,7 +47,7 @@
    "link": "https://trudvsem.ru/vacancy/card/5147746474134/4c3e8514-ace5-11f1-9798-8b486fc85d66",
    "first": "2026-09-18",
    "last": "2026-09-18",
-   "count": 54
+   "count": 36
   },
   {
    "title": "Машинист железнодорожно-строительной машины (с обучением)",
@@ -81,6 +80,15 @@
    "title": "Редактор текстов для обучения нейросетей (GigaChat)",
    "source": "Работа России",
    "reason": "не ИИ-профессия",
+   "link": "https://trudvsem.ru/vacancy/card/5147746474134/4c3e8514-ace5-11f1-9798-8b486fc85d66",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 18
+  },
+  {
+   "title": "Редактор текстов для обучения нейросетей (GigaChat)",
+   "source": "Работа России",
+   "reason": "курсы или обучение, а не вакансия",
    "link": "https://trudvsem.ru/vacancy/card/5147746474134/4c3e8514-ace5-11f1-9798-8b486fc85d66",
    "first": "2026-09-18",
    "last": "2026-09-18",
@@ -183,7 +191,7 @@
    "link": "https://hh.ru/vacancy/137517674",
    "first": "2026-09-18",
    "last": "2026-09-18",
-   "count": 8
+   "count": 11
   },
   {
    "title": "I don't like passkeys",
@@ -492,6 +500,15 @@
    "count": 8
   },
   {
+   "title": "Менеджер по продажам обучения нейросетям (GPT/AI / ПРОМТы)",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137351701",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 8
+  },
+  {
    "title": "Аналитик (Инженер по данным и искусственному интеллекту)",
    "source": "Работа России",
    "reason": "не удалённая работа",
@@ -607,15 +624,6 @@
    "first": "2026-09-18",
    "last": "2026-09-18",
    "count": 8
-  },
-  {
-   "title": "Менеджер по продажам обучения нейросетям (GPT/AI / ПРОМТы)",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137351701",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 6
   },
   {
    "title": "An Empirical Study of Harness Design for Coding Agents",
@@ -951,22 +959,13 @@
    "count": 4
   },
   {
-   "title": "Руководитель AI-направления / Head AI Engineer",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137360910",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 3
-  },
-  {
    "title": "Ведущий менеджер по продажам (EdTech / AI продукт)",
    "source": "hh.ru",
    "reason": "не ИИ-профессия",
    "link": "https://hh.ru/vacancy/137285458",
    "first": "2026-09-18",
    "last": "2026-09-18",
-   "count": 2
+   "count": 3
   },
   {
    "title": "Менеджер по продажам (теплый трафик, AI-продукт)",
@@ -975,7 +974,16 @@
    "link": "https://hh.ru/vacancy/136576254",
    "first": "2026-09-18",
    "last": "2026-09-18",
-   "count": 2
+   "count": 3
+  },
+  {
+   "title": "Руководитель AI-направления / Head AI Engineer",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137360910",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 3
   },
   {
    "title": "Вы просили вернуть Suno v5, а мы сделали лучше. Встречайте Grom Zvuk",
@@ -1285,15 +1293,6 @@
   },
   {
    "title": "Бывший разработчик ChatGPT представил очень быструю ИИ-модель для задач классификации",
-   "source": "Habr ML Новости",
-   "reason": "повтор",
-   "link": "",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 2
-  },
-  {
-   "title": "ИИ‑агенты смогут «настучать» на своих коллег через «горячую линию»",
    "source": "Habr ML Новости",
    "reason": "повтор",
    "link": "",
@@ -1761,6 +1760,15 @@
    "count": 2
   },
   {
+   "title": "Специалист по разметке данных CVAT",
+   "source": "hh.ru",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://hh.ru/vacancy/137011569",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
    "title": "Нейроспециалист / Контент-менеджер искусственного интеллекта",
    "source": "hh.ru",
    "reason": "не ИИ-профессия",
@@ -1774,6 +1782,69 @@
    "source": "hh.ru",
    "reason": "не ИИ-профессия",
    "link": "https://hh.ru/vacancy/136735462",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Младший продакт-менеджер / Junior Product Manager (спецпроекты и геймификация)",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137174903",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "IT менеджер (Лидерская программа)",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137514625",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Разработчик электронных курсов",
+   "source": "hh.ru",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://hh.ru/vacancy/136212490",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Менеджер по продажам AI-продуктов / Closer",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/136830769",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Менеджер по продажам онлайн-обучения в области ИИ",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/136749183",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Менеджер по продажам в AI-университет",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/136830860",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Менеджер по продажам B2B ИИ-продукта",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/136496168",
    "first": "2026-09-18",
    "last": "2026-09-18",
    "count": 2
@@ -1851,15 +1922,6 @@
    "count": 2
   },
   {
-   "title": "Менеджер по логистике",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136797248",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 2
-  },
-  {
    "title": "Senior DevOps Engineer",
    "source": "hh.ru",
    "reason": "нет признака ИИ или ML",
@@ -1896,10 +1958,64 @@
    "count": 2
   },
   {
+   "title": "Менеджер по продажам (проект AI/ПРОМПТы/GPT/CRM)",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137434101",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "SMM-менеджер",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137503308",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Бизнес-ассистент руководителя",
+   "source": "hh.ru",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://hh.ru/vacancy/137512094",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Менеджер по продажам (EdTech)",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137366184",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
    "title": "Креативный контент-менеджер",
    "source": "hh.ru",
    "reason": "не ИИ-профессия",
    "link": "https://hh.ru/vacancy/137525988",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Категорийный менеджер wildberries/ маркетолог/ аналитик",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/136594395",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Руководитель направления SEO / Team lead",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137146438",
    "first": "2026-09-18",
    "last": "2026-09-18",
    "count": 2
@@ -1923,6 +2039,33 @@
    "count": 2
   },
   {
+   "title": "Руководитель проектов",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/136573952",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Бизнес-ассистент (маркетплейсы)",
+   "source": "hh.ru",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://hh.ru/vacancy/137471692",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Менеджер в Апарт отель в Los Angeles",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137128946",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
    "title": "Content Manager / Контент - менеджер",
    "source": "hh.ru",
    "reason": "не ИИ-профессия",
@@ -1936,6 +2079,15 @@
    "source": "hh.ru",
    "reason": "курсы или обучение, а не вакансия",
    "link": "https://hh.ru/vacancy/137098621",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 2
+  },
+  {
+   "title": "Junior Software Development Engineer in Test (Quality & AI focus)",
+   "source": "hh.ru",
+   "reason": "курсы или обучение, а не вакансия",
+   "link": "https://hh.ru/vacancy/136605051",
    "first": "2026-09-18",
    "last": "2026-09-18",
    "count": 2
@@ -2220,15 +2372,6 @@
    "count": 2
   },
   {
-   "title": "AI-тренер для обучения нейросетей",
-   "source": "Работа России",
-   "reason": "не ИИ-профессия (слово в описании)",
-   "link": "https://trudvsem.ru/vacancy/card/5147746474134/07eeebb4-96ed-11f1-a9ee-4f96f048d097",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 2
-  },
-  {
    "title": "Главный специалист обучения нейросетей",
    "source": "Работа России",
    "reason": "не удалённая работа",
@@ -2332,15 +2475,6 @@
    "source": "Работа России",
    "reason": "не удалённая работа",
    "link": "https://trudvsem.ru/vacancy/card/1257200012630/541c5301-6dfa-11f1-a0ef-714ad8f097f6",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 2
-  },
-  {
-   "title": "Старший специалист по разметке данных",
-   "source": "Работа России",
-   "reason": "курсы или обучение, а не вакансия",
-   "link": "https://trudvsem.ru/vacancy/card/5147746474134/f37cb554-a5eb-11f1-9b22-337616372fa9",
    "first": "2026-09-18",
    "last": "2026-09-18",
    "count": 2
@@ -2688,172 +2822,28 @@
    "count": 2
   },
   {
-   "title": "Разработать и развернуть мини веб-сервис (Бюджет: 10 000 ₽)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5522437/razrabotat-i-razvernut-mini-veb-servis.html",
+   "title": "Стажер-инженер технологий машинного обучения",
+   "source": "hh.ru",
+   "reason": "курсы или обучение, а не вакансия",
+   "link": "https://hh.ru/vacancy/137535328",
    "first": "2026-09-18",
    "last": "2026-09-18",
    "count": 2
   },
   {
-   "title": "Сontent creator (Youtube)",
-   "source": "hh.ru",
-   "reason": "нет признака ИИ или ML",
-   "link": "https://hh.ru/vacancy/136688736",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 2
-  },
-  {
-   "title": "Специалист по разметке данных CVAT",
-   "source": "hh.ru",
-   "reason": "нет признака ИИ или ML",
-   "link": "https://hh.ru/vacancy/137011569",
+   "title": "ИИ‑агенты смогут «настучать» на своих коллег через «горячую линию»",
+   "source": "Habr ML Новости",
+   "reason": "повтор",
+   "link": "",
    "first": "2026-09-18",
    "last": "2026-09-18",
    "count": 1
   },
   {
-   "title": "Младший продакт-менеджер / Junior Product Manager (спецпроекты и геймификация)",
+   "title": "Менеджер по логистике",
    "source": "hh.ru",
    "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137174903",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "IT менеджер (Лидерская программа)",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137514625",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Разработчик электронных курсов",
-   "source": "hh.ru",
-   "reason": "нет признака ИИ или ML",
-   "link": "https://hh.ru/vacancy/136212490",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Менеджер по продажам AI-продуктов / Closer",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136830769",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Менеджер по продажам онлайн-обучения в области ИИ",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136749183",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Менеджер по продажам в AI-университет",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136830860",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Менеджер по продажам B2B ИИ-продукта",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136496168",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Менеджер по продажам (проект AI/ПРОМПТы/GPT/CRM)",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137434101",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "SMM-менеджер",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137503308",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Бизнес-ассистент руководителя",
-   "source": "hh.ru",
-   "reason": "нет признака ИИ или ML",
-   "link": "https://hh.ru/vacancy/137512094",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Менеджер по продажам (EdTech)",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137366184",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Категорийный менеджер wildberries/ маркетолог/ аналитик",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136594395",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Руководитель направления SEO / Team lead",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137146438",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Руководитель проектов",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136573952",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Бизнес-ассистент (маркетплейсы)",
-   "source": "hh.ru",
-   "reason": "нет признака ИИ или ML",
-   "link": "https://hh.ru/vacancy/137471692",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Менеджер в Апарт отель в Los Angeles",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137128946",
+   "link": "https://hh.ru/vacancy/136797248",
    "first": "2026-09-18",
    "last": "2026-09-18",
    "count": 1
@@ -2895,82 +2885,46 @@
    "count": 1
   },
   {
-   "title": "Junior Software Development Engineer in Test (Quality & AI focus)",
-   "source": "hh.ru",
+   "title": "AI-тренер для обучения нейросетей",
+   "source": "Работа России",
+   "reason": "не ИИ-профессия (слово в описании)",
+   "link": "https://trudvsem.ru/vacancy/card/5147746474134/07eeebb4-96ed-11f1-a9ee-4f96f048d097",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 1
+  },
+  {
+   "title": "Старший специалист по разметке данных",
+   "source": "Работа России",
    "reason": "курсы или обучение, а не вакансия",
-   "link": "https://hh.ru/vacancy/136605051",
+   "link": "https://trudvsem.ru/vacancy/card/5147746474134/f37cb554-a5eb-11f1-9b22-337616372fa9",
    "first": "2026-09-18",
    "last": "2026-09-18",
    "count": 1
   },
   {
-   "title": "Менеджер по продажам/стажер (без холодных звонков/новостройки/Новосибирск)",
+   "title": "Разработать и развернуть мини веб-сервис (Бюджет: 10 000 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5522437/razrabotat-i-razvernut-mini-veb-servis.html",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 1
+  },
+  {
+   "title": "Бухгалтер в SpeShu.AI (российский сервис нейросетей)",
    "source": "hh.ru",
    "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/135871344",
+   "link": "https://hh.ru/vacancy/137530242",
    "first": "2026-09-18",
    "last": "2026-09-18",
    "count": 1
   },
   {
-   "title": "Контент-креатор / SMM-менеджер с английским — VPN, рынок США",
+   "title": "Логист-диспетчер по автовывозам",
    "source": "hh.ru",
    "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136522494",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Контент-менеджер WB OZON AI",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136639608",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Junior Project Manager",
-   "source": "hh.ru",
-   "reason": "нет признака ИИ или ML",
-   "link": "https://hh.ru/vacancy/137364834",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "SEO Developer",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137052993",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "AI-креатор / Ассистент по визуальному контенту для проекта в Телеграме",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136885501",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Копирайтер (SEO Copywriter)",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136603529",
-   "first": "2026-09-18",
-   "last": "2026-09-18",
-   "count": 1
-  },
-  {
-   "title": "Контент-менеджер маркетплейсов Ozon / Wildberries",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137035243",
+   "link": "https://hh.ru/vacancy/137166108",
    "first": "2026-09-18",
    "last": "2026-09-18",
    "count": 1
@@ -2980,6 +2934,24 @@
    "source": "hh.ru",
    "reason": "курсы или обучение, а не вакансия",
    "link": "https://hh.ru/vacancy/137212438",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 1
+  },
+  {
+   "title": "Специалист технической поддержки",
+   "source": "Работа России",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://trudvsem.ru/vacancy/card/1207700263198/a962b565-ab5e-11f1-9f0e-a574101ccb6b",
+   "first": "2026-09-18",
+   "last": "2026-09-18",
+   "count": 1
+  },
+  {
+   "title": "Создать шаблон для презентации",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5522499/sozdat-shablon-dlya-prezentatsii.html",
    "first": "2026-09-18",
    "last": "2026-09-18",
    "count": 1
