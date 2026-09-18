@@ -2,7 +2,7 @@
   {
     "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
     "link": "https://www.hacktron.ai/blog/hacking-openai",
-    "desc": "Article URL: https://www.hacktron.ai/blog/hacking-openai Comments URL: https://news.ycombinator.com/item?id=49749656 Points: 385 # Comments: 165",
+    "desc": "Article URL: https://www.hacktron.ai/blog/hacking-openai Comments URL: https://news.ycombinator.com/item?id=49749656 Points: 387 # Comments: 166",
     "date": "2026-09-18",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,11 +11,20 @@
   {
     "title": "Shapelearn Qwen 3.8 27B (13.1 GB VRAM)",
     "link": "https://byteshape.com/blogs/Qwen3.8-27B/",
-    "desc": "Article URL: https://byteshape.com/blogs/Qwen3.8-27B/ Comments URL: https://news.ycombinator.com/item?id=49749393 Points: 86 # Comments: 21",
+    "desc": "Article URL: https://byteshape.com/blogs/Qwen3.8-27B/ Comments URL: https://news.ycombinator.com/item?id=49749393 Points: 86 # Comments: 23",
     "date": "2026-09-18",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Извлечение генома стиля в Chat GPT: от референса до готового скила",
+    "link": "https://habr.com/ru/articles/1083928/?utm_campaign=1083928&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сделать одно изображение по референсу несложно. Гораздо сложнее сделать серию изображений, в которых меняются объекты и сюжеты, но сохраняется один визуальный стиль. В этой статье разбираемся, как сделать генерацию изображений более в предсказуемом стиле. Подробнее о геноме стиля",
+    "date": "2026-09-18",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Как мы научили ИИ-модель понимать документы и теперь оформляем новых сотрудников в 2 раза быстрее",
@@ -288,6 +297,15 @@
     "lang": "ru"
   },
   {
+    "title": "Внедрение «водяных знаков» может сделать поведение ИИ-моделей непредсказуемым",
+    "link": "https://3dnews.ru/1148713",
+    "desc": "Использование «водяных знаков», то есть маркировки генерируемого контента, может оказать влияние на поведение больших языковых моделей искусственного интеллекта. К такому выводу пришли эксперты компании Lasso, проведя анализ технологии SynthID-Text лаборатории Google DeepMind. Источник изображени...",
+    "date": "2026-09-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "У всех ИИ-агентов для программирования нашлась опасная уязвимость — вредоносный код запускается без участия пользователя",
     "link": "https://3dnews.ru/1148700",
     "desc": "Эксперты в области кибербезопасности из стартапа Air, занимающегося разработкой агентов искусственного интеллекта, обнаружили уязвимость, которая позволяет выполнять произвольный код без участия пользователя и затрагивает все основные приложения ИИ-агентов для написания кода: Anthropic Claude Cod...",
@@ -353,7 +371,7 @@
   {
     "title": "Qwen 3.8 Omni Flash",
     "link": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-    "desc": "Article URL: https://qwen.ai/blog?id=qwen3.8-omni-flash Comments URL: https://news.ycombinator.com/item?id=49747925 Points: 272 # Comments: 97",
+    "desc": "Article URL: https://qwen.ai/blog?id=qwen3.8-omni-flash Comments URL: https://news.ycombinator.com/item?id=49747925 Points: 276 # Comments: 97",
     "date": "2026-09-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -362,7 +380,7 @@
   {
     "title": "How to Write with an LLM",
     "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-    "desc": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 226 # Comments: 147",
+    "desc": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 227 # Comments: 151",
     "date": "2026-09-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -714,15 +732,6 @@
     "title": "У «Алисы AI» появился режим обучения школьников математике и английскому языку",
     "link": "https://3dnews.ru/1148657",
     "desc": "У чат-бота с искусственным интеллектом «Алиса AI» добавился модуль «Для учёбы» — он предназначен для помощи школьникам в изучении математики и английского языка, включая подготовку к ЕГЭ. Сервис не выполняет работу за пользователя и не даёт готовых ответов, но помогает разобраться в теме и самост...",
-    "date": "2026-09-17",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Пользователи пожаловались на ускоренную разрядку iPhone после обновления до iOS 27, но это пройдёт",
-    "link": "https://3dnews.ru/1148651",
-    "desc": "Некоторые владельцы iPhone обратили внимание, что после обновления до iOS 27 заряд аккумулятора начинает расходоваться быстрее. Проблема вызвана фоновыми процессами, которые смартфон продолжает выполнять после завершения установки, поэтому она носит временный характер. Как только система завершит...",
     "date": "2026-09-17",
     "source": "3DNews",
     "cat": "ai",
