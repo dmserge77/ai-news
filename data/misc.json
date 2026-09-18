@@ -1,13 +1,13 @@
 [
   {
-    "title": "Code Scans",
-    "link": "https://devin.ai/blog/introducing-code-scans",
-    "desc": "Article URL: https://devin.ai/blog/introducing-code-scans Comments URL: https://news.ycombinator.com/item?id=49749744 Points: 18 # Comments: 4",
+    "title": "What is still exciting in tech?",
+    "link": "https://lobste.rs/s/lcjf7c/what_is_still_exciting_tech",
+    "desc": "A comment on a lobste.rs post about the tech culture stagnating made me think. 20-15 or even 10 years ago, tech was really exciting. Sure, monopolies were bad, I was fighting them, but tech by itself was very interesting. New versions of software were expected, we were skimming through changelogs...",
     "date": "2026-09-18",
-    "source": "Hacker News",
+    "source": "Lobsters",
     "cat": "misc",
     "lang": "en",
-    "misc_type": "raznoe"
+    "misc_type": "curio"
   },
   {
     "title": "GLM 5.3 FlashX now available on AI Gateway",
@@ -17,6 +17,36 @@
     "source": "Vercel",
     "cat": "misc",
     "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Сравнение Алисы (Яндекс) и Гигачат (Сбер) по 5 бенчмаркам: τ³, ПРАКТ-120, MultiChallenge, WildBench и Arena‑Hard",
+    "link": "https://habr.com/ru/articles/1083664/?utm_campaign=1083664&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Всем привет! Я обещал написать эту статью и я наконец‑то закончил тесты и готов поделиться с вами результатами. Я потратил МНОГО времени на то, чтобы прогнать эти бенчмарки. Много времени на сетапы, много времени на ожидание тестов. Все вместе заняло около двух недель работы — модели обрывались, ...",
+    "date": "2026-09-18",
+    "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Сбер и ВТБ повысили ставки по вкладам — максимальная доходность достигла 13,5–13,9%",
+    "link": "https://rb.ru/news/sber-i-vtb-povysili-stavki-po-vkladam-maksimalnaya-dohodnost-dostigla-135139/",
+    "desc": "Сбербанк и ВТБ повысили ставки по отдельным вкладам, следует из данных банков и финансового маркетплейса «Финуслуги», на которые ссылаются «Ведомости». Максимальная доходность по депозитам в крупных банках сейчас составляет 13,5–13,9% годовых. Эксперты считают, что повышение ставок пока происходи...",
+    "date": "2026-09-18",
+    "source": "Rusbase",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "PrismML представила не очень большую языковую модель, которая почти не хуже большого оригинала",
+    "link": "https://3dnews.ru/1148687",
+    "desc": "Лаборатория искусственного интеллекта PrismML представила новую языковую модель, которая имеет достаточно компактные размеры, чтобы работать на обычных ПК и мощных смартфонах. Компания делает ставку на то, что подобные системы не обязательно должны иметь колоссальные размеры. Источник изображения...",
+    "date": "2026-09-18",
+    "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
     "misc_type": "raznoe"
   },
   {
@@ -32,7 +62,7 @@
   {
     "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
     "link": "https://bend-lang.com/",
-    "desc": "Article URL: https://bend-lang.com/ Comments URL: https://news.ycombinator.com/item?id=49746163 Points: 426 # Comments: 205",
+    "desc": "Article URL: https://bend-lang.com/ Comments URL: https://news.ycombinator.com/item?id=49746163 Points: 510 # Comments: 246",
     "date": "2026-09-17",
     "source": "Hacker News",
     "cat": "misc",
@@ -50,31 +80,11 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Россияне стали на треть чаще досрочно гасить ипотеку — за полгода выплаты достигли 749 млрд рублей",
-    "link": "https://rb.ru/news/rossiyane-stali-na-tret-chashe-dosrochno-gasit-ipoteku-za-polgoda-vyplaty-dostigli-749-mlrd-rublej/",
-    "desc": "Российские заёмщики в январе—июне 2026 года направили на досрочное погашение ипотеки 748,6 млрд рублей, сообщили в коллекторском агентстве «Долговой Консультант». Это на 34% больше, чем за тот же период прошлого года — тогда выплаты составили 559,6 млрд рублей. В агентстве связывают рост досрочны...",
-    "date": "2026-09-17",
-    "source": "Rusbase",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "«Это лишь вопрос времени»: Дженсен Хуанг предсказал, что Китай освоит передовую литографию к 2030 году",
     "link": "https://3dnews.ru/1148633",
     "desc": "С 2019 года поставки литографического оборудования ASML со сверхжёстким ультрафиолетовым излучением (EUV) в Китай запрещены, и по официальным каналам ни одной такой системы в страну поставлено не было. Основатель Nvidia Дженсен Хуанг (Jensen Huang) убеждён, что китайцы сами создадут подходящее об...",
     "date": "2026-09-17",
     "source": "3DNews",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Face ID в iPhone 18 Pro перестает работать, если наклеить защитное стекло",
-    "link": "https://hi-tech.mail.ru/news/155767-face-id-v-iphone-18-pro-perestaet-rabotat-esli-nakleit-zashitnoe-steklo/",
-    "desc": "Подэкранная система распознавания лица в новых смартфонах Apple оказалась несовместима с некоторыми матовыми и антишпионскими защитными покрытиями. В iPhone 18 Pro и iPhone 18 Pro Max Apple впервые перенесла инфракрасную камеру Face ID под OLED-дисплей. Благодаря этому получилось уменьшить вырез ...",
-    "date": "2026-09-17",
-    "source": "Hi-Tech Mail",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
@@ -90,56 +100,6 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Sex, AI, and the Apocalypse",
-    "link": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
-    "desc": "Article URL: https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/ Comments URL: https://news.ycombinator.com/item?id=49746654 Points: 179 # Comments: 187",
-    "date": "2026-09-17",
-    "source": "Hacker News",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "ИИ-алготрейдинг. Анализ шума",
-    "link": "https://habr.com/ru/articles/1083172/?utm_campaign=1083172&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Мысль о заработке с помощью ИИ не даёт мне покоя уже три года. Когда слово “агентные” можно было услышать только в интервью Сергея Брина, а опенсорсные модели годились только для adult-ботов, я создал своего первого агента с помощью nerve-cli. Это утилита, которая запускает запросы модели в цикле...",
-    "date": "2026-09-17",
-    "source": "Habr AI",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Работа с минимальными знаниями компьютера с ежедневными выплатами (для всех)",
-    "link": "https://www.fl.ru/projects/5521433/rabota-s-minimalnyimi-znaniyami-kompyutera-s-ejednevnyimi-vyiplatami.html",
-    "desc": "В приложение (online бронирование столика в ресторане) необходимо добавить заведения. Что входит в задание: Инструкция сбора информации по ресторану ШАГ 1. Заходим в Яндекс GO, находим ЕДА, затем выбираем СХОДИТЬ нажимаем на иконки ресторанов. ШАГ 2. Формируем у себя в компьютере папки с название...",
-    "date": "2026-09-17",
-    "source": "FL.ru",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Древние люди могли стать выносливыми благодаря нырянию, а не бегу",
-    "link": "https://hi-tech.mail.ru/news/155706-drevnie-lyudi-mogli-stat-vynoslivymi-blagodarya-nyryaniyu-a-ne-begu/",
-    "desc": "Исследователи предложили новую гипотезу эволюции человека: способность долго задерживать дыхание и добывать пищу под водой могла появиться раньше адаптаций к бегу на большие расстояния. Международная группа ученых предложила пересмотреть представления о происхождении необычной физической вынослив...",
-    "date": "2026-09-17",
-    "source": "Hi-Tech Mail",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "На Луне нашли кратер размером с Красную площадь",
-    "link": "https://hi-tech.mail.ru/news/155704-na-lune-nashli-krater-razmerom-s-krasnuyu-ploshad/",
-    "desc": "Новый кратер появился после падения на поверхность спутника Земли космического тела размером с трех- или шестиэтажное здание. На Луне обнаружили крупнейший из известных недавно сформировавшихся ударных кратеров в Солнечной системе. Объект получил название McGetchin в честь ученого Томаса МакГетчи...",
-    "date": "2026-09-17",
-    "source": "Hi-Tech Mail",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
     "title": "TypeSafe AI's Jev now available on AI Gateway",
     "link": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway",
     "desc": "",
@@ -147,16 +107,6 @@
     "source": "Vercel",
     "cat": "misc",
     "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "NVIDIA RTX PRO 5500 Blackwell: RTX 5090 и щепотку VRAM, пожалуйста",
-    "link": "https://habr.com/ru/companies/selectel/news/1082562/?utm_campaign=1082562&utm_source=habrahabr&utm_medium=rss",
-    "desc": "NVIDIA молниеносно расширяет профессиональную линейку Blackwell™. Вслед за RTX™ PRO 6000, 5000 и 4000 компания представила RTX™ PRO 5500 Workstation Edition — ускоритель, который по сути является профессиональной RTX™ 5090 с увеличенным более чем вдвое объемом памяти. Читать далее",
-    "date": "2026-09-16",
-    "source": "Habr AI Новости",
-    "cat": "misc",
-    "lang": "ru",
     "misc_type": "raznoe"
   },
   {
@@ -180,26 +130,6 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "OSRS Wiki and RuneLite are increasingly under strain from low-effort AI development",
-    "link": "https://oldschool.runescape.wiki/w/User:Cook_Me_Plox/OSRS_Wiki_and_RuneLite_are_increasingly_under_strain_from_low-effort_AI_development",
-    "desc": "Comments",
-    "date": "2026-09-16",
-    "source": "Lobsters",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Nvidia announces native GPU programming in Rust",
-    "link": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/",
-    "desc": "Article URL: https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels/ Comments URL: https://news.ycombinator.com/item?id=49724881 Points: 847 # Comments: 337",
-    "date": "2026-09-16",
-    "source": "Hacker News",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "Maintaining the love for coding in the time of AI",
     "link": "https://blog.nlnetlabs.nl/maintaining-the-love-for-coding-in-the-time-of-ai/",
     "desc": "Comments",
@@ -210,19 +140,29 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Training Text-to-Image Models 3.6× Faster",
-    "link": "https://www.linum.ai/field-notes/jit-ddt",
-    "desc": "Article URL: https://www.linum.ai/field-notes/jit-ddt Comments URL: https://news.ycombinator.com/item?id=49729816 Points: 33 # Comments: 5",
+    "title": "OSRS Wiki and RuneLite are increasingly under strain from low-effort AI development",
+    "link": "https://oldschool.runescape.wiki/w/User:Cook_Me_Plox/OSRS_Wiki_and_RuneLite_are_increasingly_under_strain_from_low-effort_AI_development",
+    "desc": "Comments",
     "date": "2026-09-16",
-    "source": "Hacker News",
+    "source": "Lobsters",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
   },
   {
+    "title": "NVIDIA RTX PRO 5500 Blackwell: RTX 5090 и щепотку VRAM, пожалуйста",
+    "link": "https://habr.com/ru/companies/selectel/news/1082562/?utm_campaign=1082562&utm_source=habrahabr&utm_medium=rss",
+    "desc": "NVIDIA молниеносно расширяет профессиональную линейку Blackwell™. Вслед за RTX™ PRO 6000, 5000 и 4000 компания представила RTX™ PRO 5500 Workstation Edition — ускоритель, который по сути является профессиональной RTX™ 5090 с увеличенным более чем вдвое объемом памяти. Читать далее",
+    "date": "2026-09-16",
+    "source": "Habr AI Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "A warning about 'model welfare'",
     "link": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
-    "desc": "Article URL: https://mustafa-suleyman.ai/a-warning-about-model-welfare Comments URL: https://news.ycombinator.com/item?id=49727580 Points: 163 # Comments: 424",
+    "desc": "Article URL: https://mustafa-suleyman.ai/a-warning-about-model-welfare Comments URL: https://news.ycombinator.com/item?id=49727580 Points: 95 # Comments: 199",
     "date": "2026-09-16",
     "source": "Hacker News",
     "cat": "misc",
@@ -290,9 +230,19 @@
     "misc_type": "unfiltered"
   },
   {
-    "title": "Пользователи MAX смогут выиграть электромобиль Атом",
-    "link": "https://hi-tech.mail.ru/news/155592-polzovateli-max-smogut-vyigrat-elektromobil-atom/",
-    "desc": "Национальный мессенджер и первый российский серийный электромобиль-гаджет Атом запустили конкурс для любителей отечественного автопрома. Знатоки смогут побороться за гаджеты, мерч и главный приз — электромобиль Атом. Для участия необходимо подписаться на канал Атома в MAX, зарегистрироваться в ча...",
+    "title": "Открытие китайских учёных кратно ускорит производство водорода солнечным светом",
+    "link": "https://3dnews.ru/1148552",
+    "desc": "Исследователи Нинбоского института материаловедения и инженерии (NIMTE) Китайской академии наук разработали прорывной фотоорганический катализатор, значительно ускоряющий производство водорода из обычной воды с помощью солнечного света. Водород — это энергоёмкое и одновременно экологически чистое...",
+    "date": "2026-09-16",
+    "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "В сети вышли первые обзоры iPhone 18 Pro и iPhone 18 Pro Max",
+    "link": "https://hi-tech.mail.ru/news/155650-v-seti-vyshli-pervye-obzory-iphone-18-pro-i-iphone-18-pro-max/",
+    "desc": "Рассказываем, какие плюсы и минусы иностранные эксперты нашли в новых смартфонах. Зарубежные эксперты опубликовали первые обзоры новых смартфонов iPhone 18 Pro и iPhone 18 Pro Max. Материалы появились в сети за два дня до официального старта продаж. Эксперты высоко оценили камеры, но также нашли ...",
     "date": "2026-09-16",
     "source": "Hi-Tech Mail",
     "cat": "misc",
@@ -300,11 +250,21 @@
     "misc_type": "unfiltered"
   },
   {
-    "title": "Открытие китайских учёных кратно ускорит производство водорода солнечным светом",
-    "link": "https://3dnews.ru/1148552",
-    "desc": "Исследователи Нинбоского института материаловедения и инженерии (NIMTE) Китайской академии наук разработали прорывной фотоорганический катализатор, значительно ускоряющий производство водорода из обычной воды с помощью солнечного света. Водород — это энергоёмкое и одновременно экологически чистое...",
+    "title": "Российские ученые обнаружили необычное в атмосфере Земли",
+    "link": "https://hi-tech.mail.ru/news/155605-rossijskie-uchenye-obnaruzhili-neobychnoe-v-atmosfere-zemli/",
+    "desc": "Редкий спорадический E-слой оказался настолько плотным, что заблокировал радиоволны и вызвал рекордное усиление искусственного свечения ионосферы. Российские радиофизики зафиксировали крайне редкое явление во время эксперимента на исследовательском стенде СУРА в Нижегородской области. На высоте о...",
     "date": "2026-09-16",
-    "source": "3DNews",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Meta* выпустит очки без камер: для тех, кто боится слежки",
+    "link": "https://hi-tech.mail.ru/news/155631-meta-vypustit-ray-ban-bez-kamery-ochki-luna-s-ii/",
+    "desc": "Meta* готовит смарт-очки Ray-Ban Luna без встроенной камеры — ответ на претензии по конфиденциальности. Анонс ожидается на Connect 23–24 сентября 2026 года, поставки — в октябре. Издание The Information сообщило о планах Meta* выпустить смарт-очки Ray-Ban без камеры под кодовым названием Luna. Ко...",
+    "date": "2026-09-16",
+    "source": "Hi-Tech Mail",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -330,29 +290,9 @@
     "misc_type": "unfiltered"
   },
   {
-    "title": "Meta* выпустит очки без камер: для тех, кто боится слежки",
-    "link": "https://hi-tech.mail.ru/news/155631-meta-vypustit-ray-ban-bez-kamery-ochki-luna-s-ii/",
-    "desc": "Meta* готовит смарт-очки Ray-Ban Luna без встроенной камеры — ответ на претензии по конфиденциальности. Анонс ожидается на Connect 23–24 сентября 2026 года, поставки — в октябре. Издание The Information сообщило о планах Meta* выпустить смарт-очки Ray-Ban без камеры под кодовым названием Luna. Ко...",
-    "date": "2026-09-16",
-    "source": "Hi-Tech Mail",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "В сети вышли первые обзоры iPhone 18 Pro и iPhone 18 Pro Max",
-    "link": "https://hi-tech.mail.ru/news/155650-v-seti-vyshli-pervye-obzory-iphone-18-pro-i-iphone-18-pro-max/",
-    "desc": "Рассказываем, какие плюсы и минусы иностранные эксперты нашли в новых смартфонах. Зарубежные эксперты опубликовали первые обзоры новых смартфонов iPhone 18 Pro и iPhone 18 Pro Max. Материалы появились в сети за два дня до официального старта продаж. Эксперты высоко оценили камеры, но также нашли ...",
-    "date": "2026-09-16",
-    "source": "Hi-Tech Mail",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Российские ученые обнаружили необычное в атмосфере Земли",
-    "link": "https://hi-tech.mail.ru/news/155605-rossijskie-uchenye-obnaruzhili-neobychnoe-v-atmosfere-zemli/",
-    "desc": "Редкий спорадический E-слой оказался настолько плотным, что заблокировал радиоволны и вызвал рекордное усиление искусственного свечения ионосферы. Российские радиофизики зафиксировали крайне редкое явление во время эксперимента на исследовательском стенде СУРА в Нижегородской области. На высоте о...",
+    "title": "Пользователи MAX смогут выиграть электромобиль Атом",
+    "link": "https://hi-tech.mail.ru/news/155592-polzovateli-max-smogut-vyigrat-elektromobil-atom/",
+    "desc": "Национальный мессенджер и первый российский серийный электромобиль-гаджет Атом запустили конкурс для любителей отечественного автопрома. Знатоки смогут побороться за гаджеты, мерч и главный приз — электромобиль Атом. Для участия необходимо подписаться на канал Атома в MAX, зарегистрироваться в ча...",
     "date": "2026-09-16",
     "source": "Hi-Tech Mail",
     "cat": "misc",
@@ -438,16 +378,6 @@
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
-  },
-  {
-    "title": "В Восточной Сибири нашли новый вид ветвистоусых рачков",
-    "link": "https://test.local/rachki",
-    "desc": "Научная новость про биологию",
-    "date": "2026-09-15",
-    "source": "Тест",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
   },
   {
     "title": "Китайцы создали солнечный элемент для подлодки — он работает на глубине",
@@ -2660,6 +2590,16 @@
     "misc_type": "unfiltered"
   },
   {
+    "title": "как личный #блог на стыке #агро и #ИИ собрал 10 008 голосов без бюджета",
+    "link": "https://vc.ru/life/3133351-kak-lichnyy-blog-v-agro-i-ii-sobral-golosa-bez-budjeta?from=rss",
+    "desc": "Александр Касенков, #Уварово, #Тамбовская область. #Тезисы: 1. #Ниша «агро + ИИ» - один из самых недозанятых #контент-сегментов в #рунете. #Спрос есть, #предложения мало. 2. Смена #позиционирования с «критика» на «решения» увеличила #вовлечённость #аудитории в разы. 3. #Обучение на «Медиакампусе»...",
+    "date": "2026-09-11",
+    "source": "vc.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
     "title": "ATS-системы для рекрутинга 2026–2027: Полное руководство по выбору и внедрению инструментов интеллектуального найма",
     "link": "https://vc.ru/hr/3133183-ats-sistemy-dlya-rekrutinga?from=rss",
     "desc": "В 2026 году индустрия подбора персонала окончательно перешла из категории «поиск по базам» в категорию «управление интеллектуальными потоками данных». В условиях экстремального кадрового дефицита, который эксперты называют «дефицитом всех», классические ATS-системы (Applicant Tracking Systems), в...",
@@ -2673,16 +2613,6 @@
     "title": "Обзор лучших HRM-систем для управления персоналом 2026–2027: Как выбрать интеллектуальное ядро для вашего бизнеса",
     "link": "https://vc.ru/hr/3133168-obzor-hrm-sistem-dlya-upravleniya-personalom?from=rss",
     "desc": "К 2026 году индустрия управления человеческим капиталом прошла через самую масштабную цифровую трансформацию за последние полвека. Понятие HRM-системы (Human Resource Management) эволюционировало от простой базы данных сотрудников до сложного интеллектуального организма, который управляет эффекти...",
-    "date": "2026-09-11",
-    "source": "vc.ru",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "как личный #блог на стыке #агро и #ИИ собрал 10 008 голосов без бюджета",
-    "link": "https://vc.ru/life/3133351-kak-lichnyy-blog-v-agro-i-ii-sobral-golosa-bez-budjeta?from=rss",
-    "desc": "Александр Касенков, #Уварово, #Тамбовская область. #Тезисы: 1. #Ниша «агро + ИИ» - один из самых недозанятых #контент-сегментов в #рунете. #Спрос есть, #предложения мало. 2. Смена #позиционирования с «критика» на «решения» увеличила #вовлечённость #аудитории в разы. 3. #Обучение на «Медиакампусе»...",
     "date": "2026-09-11",
     "source": "vc.ru",
     "cat": "misc",
@@ -3425,6 +3355,16 @@
     "desc": "Привет, Хабр! Была одна вещь, которая давно (примерно 3 дня) не давала мне покоя в Sheeternetes. Весь смысл проекта — «таблица и есть кластер»: Deployments, Nodes, Pods живут во вкладках, таблица — источник истины. Вот только в первых версиях мы покривили душой и шли против истины. Планировщик — ...",
     "date": "2026-09-08",
     "source": "Habr DevOps",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "TechCrunch выпустило глоссарий по ИИ",
+    "link": "https://habr.com/ru/news/1079834/?utm_campaign=1079834&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В попытке упростить понимание, что происходит в мире ИИ, издание TechCrunch выпустило глоссарий с основными терминами, которые относятся к этой теме. Как поясняют авторы, «словарь движется столь быстро, что заставляет даже очень умных людей из технической сферы чувствовать себя неуютно». К каждом...",
+    "date": "2026-09-08",
+    "source": "Habr ML Новости",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"

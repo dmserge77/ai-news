@@ -66,7 +66,10 @@ ATOM_SAMPLE = """<?xml version="1.0" encoding="UTF-8"?>
 </entry>
 </feed>"""
 
-FEED = {"url": "https://example.com/rss", "cat": "ai", "source": "Тест"}
+# Источник в тестах называется «Пример», а не «Тест»: «Тест» — это имя
+# реального мусора, попавшего в архив при отладке, и оно внесено
+# в DEAD_SOURCES. Ленты с таким источником parse_rss отбрасывает.
+FEED = {"url": "https://example.com/rss", "cat": "ai", "source": "Пример"}
 VC_FEED = {"url": "https://vc.ru/rss/tag/ai", "cat": "ai", "source": "vc.ru"}
 
 
@@ -137,7 +140,7 @@ class TestParseRss(unittest.TestCase):
         items = parse_rss(RSS_SAMPLE, FEED)
         gpt = next(i for i in items if "GPT-5" in i["title"])
         self.assertEqual(gpt["link"], "https://example.com/gpt5")
-        self.assertEqual(gpt["source"], "Тест")
+        self.assertEqual(gpt["source"], "Пример")
         self.assertEqual(gpt["date"], "2026-09-15")
         self.assertEqual(gpt["lang"], "ru")
         self.assertEqual(gpt["desc"], "Новая модель стала умнее")
@@ -152,6 +155,16 @@ class TestParseRss(unittest.TestCase):
     def test_dead_source_returns_nothing(self):
         dead = {"url": "https://x/rss", "cat": "ai", "source": "ComNews"}
         self.assertEqual(parse_rss(RSS_SAMPLE, dead), [])
+
+    def test_junk_source_stays_dead(self):
+        """«Тест» — не источник, а мусор из отладки.
+
+        Одна его запись («рачки» со ссылкой test.local) попала в архив
+        и висела в «Солянке» на живом сайте. Уберут имя из DEAD_SOURCES —
+        мусор вернётся в публикацию.
+        """
+        from news.config import DEAD_SOURCES
+        self.assertIn("Тест", DEAD_SOURCES)
 
     def test_atom_parsed(self):
         items = parse_rss(ATOM_SAMPLE, FEED)

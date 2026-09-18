@@ -37,7 +37,7 @@ RSS_WITH_XSS = """<?xml version="1.0" encoding="UTF-8"?>
 </channel>
 </rss>"""
 
-FEED = {"url": "https://example.com/rss", "cat": "ai", "source": "Тест"}
+FEED = {"url": "https://example.com/rss", "cat": "ai", "source": "Пример"}
 
 TEMPLATE_PATH = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),

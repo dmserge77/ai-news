@@ -20,7 +20,10 @@ from news.fetch import (
 from news import monitor
 from news.filters import is_ai_order, is_ai_relevant
 from news.monitor import SourcesLog
-from news.render import copy_static, generate_category_page, generate_main_page
+from news.render import (
+    copy_static, generate_category_page, generate_main_page, generate_robots,
+    generate_rss, generate_sitemap,
+)
 from news.sources import FEEDS
 from news.store import load_news, save_data_js, save_news
 from news.util import now_msk
@@ -204,6 +207,13 @@ def main():
 
     # 7. Ручные страницы (about/)
     copy_static()
+
+    # 8. Служебные файлы сайта: карта для поисковиков, robots и своя лента.
+    #    Собираются из того же filtered, что и рубрики, — отдельного источника
+    #    правды не заводим, иначе они разъедутся.
+    generate_sitemap()
+    generate_robots()
+    generate_rss(filtered)
 
     print(f"\n[OK] Всего новостей: {len(filtered)}")
 
