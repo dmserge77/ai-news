@@ -1,28 +1,10 @@
 [
   {
-    "title": "AI chatbots becoming experts at changing people's minds. What's their secret?",
-    "link": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
-    "desc": "Article URL: https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret Comments URL: https://news.ycombinator.com/item?id=49754250 Points: 33 # Comments: 31",
-    "date": "2026-09-18",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+    "title": "Hacking OpenAI",
     "link": "https://www.hacktron.ai/blog/hacking-openai",
-    "desc": "Article URL: https://www.hacktron.ai/blog/hacking-openai Comments URL: https://news.ycombinator.com/item?id=49749656 Points: 397 # Comments: 170",
+    "desc": "Comments",
     "date": "2026-09-18",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Shapelearn Qwen 3.8 27B (13.1 GB VRAM)",
-    "link": "https://byteshape.com/blogs/Qwen3.8-27B/",
-    "desc": "Article URL: https://byteshape.com/blogs/Qwen3.8-27B/ Comments URL: https://news.ycombinator.com/item?id=49749393 Points: 89 # Comments: 26",
-    "date": "2026-09-18",
-    "source": "Hacker News",
+    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
   },
@@ -95,6 +77,15 @@
     "desc": "Год работы с ИИ-агентом на потоке отучил меня от фразы «модель поглупела». Почти всё, что выглядит тупостью или галлюцинациями, раскладывается на три дефекта инструкции: правило написано прозой, правило написано в форме «как не надо», у правила нет проверки. Хочу поделиться приёмами как это лечит...",
     "date": "2026-09-18",
     "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ в тестировании: разбираем падения автотестов, оцениваем LLM и строим обвязку агентов",
+    "link": "https://habr.com/ru/companies/yoomoney/news/1083962/?utm_campaign=1083962&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В августе прошёл Bugs Busters — митап для QA-специалистов от ЮMoney. Спикеры компании рассказали, как применяют ИИ для анализа причин падения e2e-автотестов, как устроен инструмент для подбора оптимальной LLM-модели под конкретную задачу и как строить обвязку вокруг агентов. Не удалось попасть на...",
+    "date": "2026-09-18",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -207,6 +198,24 @@
     "lang": "ru"
   },
   {
+    "title": "Claude Code 2.1.276 исправил ошибку 400 при работе через прокси и API-шлюзы",
+    "link": "https://tproger.ru/news/claude-code-2-1-276-ispravil-owibku-400-pri-rabote-cherez-proksi",
+    "desc": "Обновление терминального ИИ-инструмента Claude Code устранило регрессию версии 2.1.275. Из-за неё запросы через прокси и API-шлюзы завершались ошибкой 400. — Читать дальше « Claude Code 2.1.276 исправил ошибку 400 при работе через прокси и API-шлюзы »",
+    "date": "2026-09-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Codex CLI 0.155.0 получил голосовые диалоги и подтверждение MCP-запросов через Touch ID",
+    "link": "https://tproger.ru/news/codex-cli-0-155-0-poluchil-golosovye-dialogi-i-podtverzhdenie-mcp",
+    "desc": "OpenAI обновила локального ИИ-агента Codex CLI для работы с кодом в терминале. Версия 0.155.0 добавила экспериментальные голосовые диалоги и проверку MCP-запросов через Touch ID. — Читать дальше « Codex CLI 0.155.0 получил голосовые диалоги и подтверждение MCP-запросов через Touch ID »",
+    "date": "2026-09-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "AI пишет, AI проверяет: почему уязвимости появляются пачками и как понять, какие из них настоящие",
     "link": "https://tproger.ru/articles/ai-piwet-ai-proveryaet-pochemu-uyazvimosti-poyavlyayutsya-pachkami-i-k",
     "desc": "Почему генеративный код порождает уязвимости пачками, как разбирать поток сработок SAST с помощью локальных LLM и не терять реальные уязвимости. — Читать дальше « AI пишет, AI проверяет: почему уязвимости появляются пачками и как понять, какие из них настоящие »",
@@ -248,6 +257,15 @@
     "desc": "Внезапно Сообщение Хакеры взломали OpenAI с помощью Claude всего за 72 часа появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-09-18",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI выпустила ChatGPT для Word: расширение доступно на всех тарифах — в том числе на бесплатном",
+    "link": "https://rb.ru/news/openai-vypustila-chatgpt-dlya-word-rasshirenie-dostupno-na-vseh-tarifah-v-tom-chisle-na-besplatnom/",
+    "desc": "OpenAI выпустила расширение ChatGPT для Microsoft Word. Среди его возможностей — проверка текста на ошибки, форматирование документов и доработка написанного. Инструмент доступен на всех тарифах, включая бесплатный. Для пользователей Business и Enterprise до 30 сентября действует пробный доступ к...",
+    "date": "2026-09-18",
+    "source": "Rusbase",
     "cat": "ai",
     "lang": "ru"
   },
@@ -333,6 +351,15 @@
     "lang": "ru"
   },
   {
+    "title": "OpenAI всерьёз взялась за роботов — компания набирает десятки инженеров и обещает им до $500 000 в год",
+    "link": "https://3dnews.ru/1148717",
+    "desc": "За последние полгода на странице вакансий OpenAI число позиций, связанных с робототехникой, выросло с 11 до 27, что говорит о долгосрочных амбициях компании в этой сфере. OpenAI нанимает специалистов не только для разработки управляющего ПО, но и для проектирования и создания аппаратной части, а ...",
+    "date": "2026-09-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Китайский ИИ ещё не научился зарабатывать как американский — DeepSeek, Alibaba и ещё пять разработчиков вместе не догнали OpenAI и Anthropic",
     "link": "https://3dnews.ru/1148716",
     "desc": "Проблема монетизации разработок ИИ-стартапов стоит достаточно остро на фоне многомиллиардных расходов, но китайские конкуренты лидеров американского рынка в этом смысле уступают им в десять раз, причём все вместе взятые, как отмечают аналитики Rhodium Group. Источник изображения: Moonshot AI",
@@ -356,6 +383,15 @@
     "desc": "Учёные из ирландского Университета Мейнута (Maynooth University) создали один из наиболее интересных на сегодняшний день молекулярных компьютеров на основе ДНК. Система способна выполнять математические операции — сложение, умножение и деление — используя естественные механизмы воспроизведения ни...",
     "date": "2026-09-18",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ-советник в компании: почему ваш следующий начальник может быть алгоритмом",
+    "link": "https://hi-tech.mail.ru/articles/153703-pochemu-vash-sleduyushij-nachalnik-mozhet-byt-algoritmom/",
+    "desc": "Новый начальник не будет сидеть в кабинете и раздавать задачи. Им станет алгоритм. Искусственный интеллект уже встраивается в управленческие процессы, освобождая людей от рутины. Разбираемся, как ИИ меняет роль руководителя, какие сценарии работают уже сегодня и почему алгоритмы не смогут заменит...",
+    "date": "2026-09-18",
+    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
@@ -396,6 +432,24 @@
     "lang": "ru"
   },
   {
+    "title": "AI chatbots becoming experts at changing people's minds. What's their secret?",
+    "link": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
+    "desc": "Article URL: https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret Comments URL: https://news.ycombinator.com/item?id=49754250 Points: 33 # Comments: 31",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Shapelearn Qwen 3.8 27B (13.1 GB VRAM)",
+    "link": "https://byteshape.com/blogs/Qwen3.8-27B/",
+    "desc": "Article URL: https://byteshape.com/blogs/Qwen3.8-27B/ Comments URL: https://news.ycombinator.com/item?id=49749393 Points: 89 # Comments: 26",
+    "date": "2026-09-18",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "ИИ для оживления фото в 2026 году: топ нейросетей для клипов из одного снимка",
     "link": "https://habr.com/ru/companies/bothub/articles/1083756/?utm_campaign=1083756&utm_source=habrahabr&utm_medium=rss",
     "desc": "Одна фотография, пять видеомоделей, 662 рубля и полтора часа работы. Так выглядит ответ на вопрос «сколько стоит оживить фото нейросетью в 2026 году», если не пересказывать чужие обзоры, а открыть генерацию видео в BotHub и понажимать кнопки самому. Дальше начинается то, чего в обзорах обычно нет...",
@@ -421,24 +475,6 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "Qwen 3.8 Omni Flash",
-    "link": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-    "desc": "Article URL: https://qwen.ai/blog?id=qwen3.8-omni-flash Comments URL: https://news.ycombinator.com/item?id=49747925 Points: 286 # Comments: 101",
-    "date": "2026-09-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "How to Write with an LLM",
-    "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-    "desc": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 240 # Comments: 166",
-    "date": "2026-09-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "I Don't Like LLMs",
@@ -531,18 +567,18 @@
     "lang": "ru"
   },
   {
-    "title": "ИИ может уничтожить человечество с вероятностью выше 10%. Чего именно боятся исследователи",
-    "link": "https://habr.com/ru/articles/1083482/?utm_campaign=1083482&utm_source=habrahabr&utm_medium=rss",
-    "desc": "9 сентября руководитель Alignment Science в Anthropic Эван Хубингер написал довольно безумную для человека на такой должности вещь: лично он оценивает вероятность того, что AI убьёт всех людей в течение ближайших десяти лет, выше 10% . Поводом стало увольнение его коллеги Джейкоба Коксона. Тот тр...",
+    "title": "OpenAI пообещали впредь вовремя рассказывать о «бедокурстве» своих нейронок",
+    "link": "https://habr.com/ru/companies/ods/articles/1083328/?utm_campaign=1083328&utm_source=habrahabr&utm_medium=rss",
+    "desc": "…а не по пинку от внешних расследователей, как это было последние разы (в эпизодах с роем агентов на немецкой вики и со взломом RubyGems). Заодно OpenAI раскрыли шесть новых примеров странного поведения своих моделей, разберем в этом материале кратко самое интересное. Читать далее",
     "date": "2026-09-17",
-    "source": "Habr ML",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "OpenAI пообещали впредь вовремя рассказывать о «бедокурстве» своих нейронок",
-    "link": "https://habr.com/ru/companies/ods/articles/1083328/?utm_campaign=1083328&utm_source=habrahabr&utm_medium=rss",
-    "desc": "…а не по пинку от внешних расследователей, как это было последние разы (в эпизодах с роем агентов на немецкой вики и со взломом RubyGems). Заодно OpenAI раскрыли шесть новых примеров странного поведения своих моделей, разберем в этом материале кратко самое интересное. Читать далее",
+    "title": "ИИ может уничтожить человечество с вероятностью выше 10%. Чего именно боятся исследователи",
+    "link": "https://habr.com/ru/articles/1083482/?utm_campaign=1083482&utm_source=habrahabr&utm_medium=rss",
+    "desc": "9 сентября руководитель Alignment Science в Anthropic Эван Хубингер написал довольно безумную для человека на такой должности вещь: лично он оценивает вероятность того, что AI убьёт всех людей в течение ближайших десяти лет, выше 10% . Поводом стало увольнение его коллеги Джейкоба Коксона. Тот тр...",
     "date": "2026-09-17",
     "source": "Habr ML",
     "cat": "ai",
@@ -774,13 +810,22 @@
     "lang": "ru"
   },
   {
-    "title": "Пользователи пожаловались на ускоренную разрядку iPhone после обновления до iOS 27, но это пройдёт",
-    "link": "https://3dnews.ru/1148651",
-    "desc": "Некоторые владельцы iPhone обратили внимание, что после обновления до iOS 27 заряд аккумулятора начинает расходоваться быстрее. Проблема вызвана фоновыми процессами, которые смартфон продолжает выполнять после завершения установки, поэтому она носит временный характер. Как только система завершит...",
+    "title": "Qwen 3.8 Omni Flash",
+    "link": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+    "desc": "Article URL: https://qwen.ai/blog?id=qwen3.8-omni-flash Comments URL: https://news.ycombinator.com/item?id=49747925 Points: 286 # Comments: 101",
     "date": "2026-09-17",
-    "source": "3DNews",
+    "source": "Hacker News",
     "cat": "ai",
-    "lang": "ru"
+    "lang": "en"
+  },
+  {
+    "title": "How to Write with an LLM",
+    "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+    "desc": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 240 # Comments: 166",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Короче, GPT: шесть нейросетей для сокращения текста без потери фактов",
@@ -954,15 +999,6 @@
     "lang": "ru"
   },
   {
-    "title": "Зачем разработчику погружаться в продуктовый контекст и как в этом помогает ИИ?",
-    "link": "https://habr.com/ru/companies/tochka/news/1082932/?utm_campaign=1082932&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Порассуждали на эту тему в гостях у подкаста Moscow Python — ребята предложили вместе записать первый оффлайн‑выпуск после долгого перерыва. Поговорили о том, где граница между ролями продакта и разработчика, как ИИ ускоряет релиз и стоит ли всецело доверять LLM. Читать далее",
-    "date": "2026-09-16",
-    "source": "Habr AI Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Бывший разработчик ChatGPT представил очень быструю ИИ-модель для задач классификации",
     "link": "https://habr.com/ru/news/1082914/?utm_campaign=1082914&utm_source=habrahabr&utm_medium=rss",
     "desc": "Человеческий язык удобен для разговора с пользователем, но внутри приложения за эту универсальность приходится платить временем. Когда одна LLM передаёт результат другой модели, ответ всё равно генерируется токен за токеном. Для классификации заявки, оценки риска или выбора следующего инструмента...",
@@ -1067,6 +1103,15 @@
     "desc": "Компания Anthropic решила объединить интерфейсы чата Claude и инструмента Cowork, чтобы пользователям было проще понять, какую вкладку выбрать для выполнения тех или иных задач. Источник изображения: Anthropic",
     "date": "2026-09-16",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Зачем разработчику погружаться в продуктовый контекст и как в этом помогает ИИ?",
+    "link": "https://habr.com/ru/companies/tochka/news/1082932/?utm_campaign=1082932&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Порассуждали на эту тему в гостях у подкаста Moscow Python — ребята предложили вместе записать первый оффлайн‑выпуск после долгого перерыва. Поговорили о том, где граница между ролями продакта и разработчика, как ИИ ускоряет релиз и стоит ли всецело доверять LLM. Читать далее",
+    "date": "2026-09-16",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -4512,15 +4557,6 @@
     "title": "6 AI-сервисов, которыми сейчас можно пользоваться бесплатно или почти бесплатно",
     "link": "https://habr.com/ru/articles/1069726/?utm_campaign=1069726&utm_source=habrahabr&utm_medium=rss",
     "desc": "Собрал шесть AI-сервисов, которыми сейчас можно пользоваться бесплатно или с крупными стартовыми кредитами: FLUX 3 для генерации видео, Manus, Postman Agent Mode, Claude через API, Atomesus и Deepgram с $200 на Voice AI. Проверил регистрацию и условия на своих аккаунтах, добавил скриншоты и корот...",
-    "date": "2026-08-12",
-    "source": "Habr API",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Агентская разработка и Documentation Driven Development: когда ИИ пишет не код, а контракты",
-    "link": "https://habr.com/ru/companies/ru_mts/articles/1067434/?utm_campaign=1067434&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! Я Матвей Лихота, старший Go-разработчик. В предыдущем материале я показывал, как получить Go-код из OpenAPI. Теперь хочу сделать еще один шаг назад — к моменту, когда контракта еще нет. На демо частенько можно увидеть, как по простому запросу «напиши CRM» или «собери интернет-магази...",
     "date": "2026-08-12",
     "source": "Habr API",
     "cat": "ai",
