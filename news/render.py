@@ -11,6 +11,8 @@ import re
 import shutil
 from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
+from html import escape as html_escape
+from urllib.parse import urlsplit
 from xml.sax.saxutils import escape as xml_escape
 
 from .config import (
@@ -19,7 +21,7 @@ from .config import (
     SITE_TAGLINE, SITE_TITLE, SITE_URL, TEMPLATE_PATH,
 )
 from .store import write_if_changed
-from .util import now_msk
+from .util import now_msk, safe_link
 
 METRIKA_ID = "112543447"
 
@@ -79,8 +81,15 @@ header p { color: var(--text2); margin-top: 4px; font-size: 1.1rem; }
   margin-top: 24px;
 }
 .cat-card {
+  position: relative;
   display: block;
-  background: var(--card-bg);
+  overflow: hidden;
+  /* Подложка — тот же цвет рубрики, но полупрозрачный. Готовый светлый
+     оттенок пришлось бы задавать отдельно для тёмной темы, а rgba поверх
+     фона работает в обеих. Составляющие цвета приходят из --accent-rgb. */
+  background:
+    linear-gradient(150deg, rgba(var(--accent-rgb), .13), rgba(var(--accent-rgb), 0) 62%),
+    var(--card-bg);
   border: 1.5px solid var(--border);
   border-radius: 14px;
   padding: 20px;
@@ -89,30 +98,47 @@ header p { color: var(--text2); margin-top: 4px; font-size: 1.1rem; }
   box-shadow: var(--shadow);
   transition: transform .15s ease, box-shadow .15s ease;
 }
+/* Полоска сверху: рубрики различаются не только значком, и цвет видно
+   боковым зрением, не читая подпись. */
+.cat-card::before {
+  content: "";
+  position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, var(--accent), rgba(var(--accent-rgb), 0));
+}
 .cat-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0,0,0,.12);
   border-color: var(--accent);
 }
 .cat-emoji {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: rgba(var(--accent-rgb), .13);
   margin-bottom: 12px;
-  display: inline-block;
   line-height: 1;
 }
 .cat-name {
   font-size: 1.1rem;
   font-weight: 600;
-  margin-top: 10px;
   line-height: 1.3;
 }
+/* Счётчик — плашка, а не серая строка: число новостей это то, ради чего
+   в рубрику и заходят. Цвет текста оставлен основным: акцентные оттенки
+   вроде оранжевого на белом дают слишком слабый контраст. */
 .cat-count {
-  font-size: .85rem;
-  color: var(--text2);
-  margin-top: 4px;
-}
-.cat-card:last-child {
-  margin-bottom: 0;
+  display: inline-block;
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--text);
+  background: rgba(var(--accent-rgb), .15);
+  border-radius: 20px;
+  padding: 2px 10px;
+  margin-top: 8px;
 }
 .cat-card:focus-visible {
   outline: 2px solid var(--accent);
@@ -136,7 +162,7 @@ header p { color: var(--text2); margin-top: 4px; font-size: 1.1rem; }
 #q::placeholder { color: var(--text2); }
 .search-info { color: var(--text2); font-size: .85rem; text-align: center; margin-top: 10px; }
 .search-results { margin-top: 18px; display: flex; flex-direction: column; gap: 8px; }
-.search-results[hidden], .cat-grid[hidden] { display: none; }
+.search-results[hidden], #hub[hidden] { display: none; }
 .sr-item {
   display: block; background: var(--card-bg); border: 1.5px solid var(--border);
   border-radius: 12px; padding: 12px 16px; text-decoration: none; color: var(--text);
@@ -146,6 +172,113 @@ header p { color: var(--text2); margin-top: 4px; font-size: 1.1rem; }
 .sr-title { font-size: .95rem; font-weight: 600; line-height: 1.4; }
 .sr-meta { font-size: .75rem; color: var(--text2); margin-top: 3px; }
 .sr-desc { font-size: .85rem; color: var(--text2); margin-top: 6px; line-height: 1.5; }
+
+/* --- Тикер свежего --------------------------------------------------------
+   Полоса заголовков едет справа налево. Дорожка внутри продублирована
+   скриптом, поэтому сдвиг ровно на -50% стыкуется без рывка: половина
+   дорожки — это ровно одна копия. Ширина ячейки включает разделитель
+   (он нарисован через ::after), иначе копии были бы разной длины. */
+.ticker {
+  margin-top: 20px;
+  padding: 10px 0;
+  overflow: hidden;
+  background: var(--card-bg);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+/* Маска гасит края: заголовок не обрезается рамкой, а уходит в прозрачность. */
+.ticker-clip {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 28px, #000 calc(100% - 28px), transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0, #000 28px, #000 calc(100% - 28px), transparent 100%);
+}
+.ticker-track { display: flex; width: max-content; }
+.ticker-track.ready { animation: ticker-run 90s linear infinite; }
+.ticker:hover .ticker-track.ready { animation-play-state: paused; }
+@keyframes ticker-run {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.ticker-cell { display: inline-flex; align-items: center; white-space: nowrap; }
+.ticker-cell::after { content: "·"; color: var(--text2); margin: 0 14px 0 28px; }
+.ticker-cell a {
+  display: inline-flex; align-items: baseline; gap: 7px;
+  font-size: .85rem; color: var(--text); text-decoration: none;
+}
+.ticker-cell a:hover { color: var(--accent); }
+.ticker-cat { font-size: .95rem; }
+/* Кому движение мешает — полоса просто стоит и прокручивается рукой. */
+@media (prefers-reduced-motion: reduce) {
+  .ticker { overflow-x: auto; }
+  .ticker-clip { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
+  .ticker-track.ready { animation: none; }
+}
+
+/* --- Главное за сутки -----------------------------------------------------
+   Слева свежая новость крупно, справа четыре к ней. Блок собран из чужого
+   текста, поэтому заголовки и описания приходят сюда уже экранированными,
+   а ссылки — прошедшими проверку схемы (см. _esc и safe_link). */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 14px;
+  margin-top: 20px;
+}
+.hero-main {
+  position: relative;
+  display: flex; flex-direction: column;
+  padding: 24px 24px 20px;
+  border: 1.5px solid var(--border);
+  border-radius: 16px;
+  background:
+    linear-gradient(150deg, rgba(var(--accent-rgb), .16), rgba(var(--accent-rgb), .02) 58%),
+    var(--card-bg);
+  box-shadow: var(--shadow);
+  color: var(--text); text-decoration: none;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.hero-main::before {
+  content: "";
+  position: absolute; top: 0; left: 0; right: 0; height: 4px;
+  border-radius: 16px 16px 0 0;
+  background: linear-gradient(90deg, var(--accent), rgba(var(--accent-rgb), 0));
+}
+.hero-main:hover { border-color: var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,.13); }
+.hero-badge {
+  align-self: flex-start;
+  font-size: .75rem; font-weight: 600;
+  color: var(--text); background: rgba(var(--accent-rgb), .16);
+  border-radius: 20px; padding: 3px 12px;
+}
+.hero-title { font-size: 1.45rem; font-weight: 700; line-height: 1.3; margin-top: 14px; }
+.hero-main:hover .hero-title { color: var(--accent); }
+.hero-desc { margin-top: 12px; font-size: .95rem; line-height: 1.6; color: var(--text2); }
+.hero-meta { margin-top: auto; padding-top: 18px; font-size: .8rem; color: var(--text2); }
+.hero-go { color: var(--accent); font-weight: 600; }
+.hero-side { display: flex; flex-direction: column; gap: 8px; }
+.hero-item {
+  display: block; flex: 1;
+  padding: 11px 14px;
+  background: var(--card-bg);
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  color: var(--text); text-decoration: none;
+  transition: border-color .15s ease, transform .15s ease;
+}
+.hero-item:hover { border-color: var(--accent); transform: translateX(2px); }
+.hero-item .t { font-size: .9rem; font-weight: 600; line-height: 1.4; }
+.hero-item .m { margin-top: 5px; font-size: .75rem; color: var(--text2); }
+.hero-dot {
+  display: inline-block; width: 7px; height: 7px;
+  border-radius: 50%; margin-right: 7px; vertical-align: middle;
+}
+@media (max-width: 820px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero-title { font-size: 1.2rem; }
+  .hero-main { padding: 20px 18px 16px; }
+}
 
 footer { color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: center; }
 """
@@ -165,7 +298,9 @@ var CAT_LABELS = __CAT_LABELS__;
 var qEl = document.getElementById('q');
 var resEl = document.getElementById('searchResults');
 var infoEl = document.getElementById('searchInfo');
-var gridEl = document.querySelector('.cat-grid');
+// Прячем весь хаб (тикер, акцентный блок и рубрики), а не одну сетку:
+// иначе выдача оказалась бы под ними, за пределами экрана.
+var hubEl = document.getElementById('hub');
 
 function esc(s) {
   return String(s === null || s === undefined ? '' : s)
@@ -191,7 +326,7 @@ function searchReset() {
   infoEl.textContent = '';
   resEl.hidden = true;
   resEl.innerHTML = '';
-  gridEl.hidden = false;
+  hubEl.hidden = false;
 }
 
 function searchShow(term) {
@@ -207,9 +342,8 @@ function searchShow(term) {
     if (ok) hits.push(n);
   }
 
-  gridEl.hidden = true;
+  hubEl.hidden = true;
   resEl.hidden = false;
-
   if (!hits.length) {
     infoEl.textContent = 'Ничего не нашлось по запросу «' + term + '»';
     resEl.innerHTML = '';
@@ -238,7 +372,7 @@ function searchRun() {
   if (searchIndex) { searchShow(term); return; }
   infoEl.textContent = 'Загружаю индекс…';
   resEl.hidden = true;
-  gridEl.hidden = true;
+  hubEl.hidden = true;
   if (searchLoading) return;
   searchLoading = true;
   fetch('search-index.json')
@@ -261,6 +395,47 @@ qEl.addEventListener('input', function() {
 qEl.addEventListener('search', searchRun);
 """
 
+# Тикер: дорожка дублируется в браузере, а не в разметке. Две копии в HTML —
+# это два одинаковых заголовка для поисковика; копия в скрипте такого не даёт.
+# Число копий всегда чётное: анимация сдвигает дорожку ровно на половину её
+# ширины, и при нечётном числе копий на стыке был бы рывок.
+# Скрипт не сработал — полоса просто стоит и прокручивается рукой.
+TICKER_JS = """
+var track = document.getElementById('tickerTrack');
+if (track && track.children.length) {
+  var base = track.offsetWidth;
+  if (base > 0) {
+    var copies = 2;
+    while (base * copies < window.innerWidth * 2 && copies < 8) copies += 2;
+    var markup = track.innerHTML;
+    for (var i = 1; i < copies; i++) track.insertAdjacentHTML('beforeend', markup);
+    track.classList.add('ready');
+  }
+}
+"""
+
+# --- Главная страница: что и сколько показываем ---------------------------
+# Тикер — «живая лента» под шапкой. Каждая строка — чужой заголовок, поэтому
+# останавливаемся на двенадцати: полоса успевает пройти круг за полторы минуты
+# и не превращается в бесконечную простыню.
+TICKER_LIMIT = 12
+# Главная новость и четыре к ней. Больше на один экран не влезает, а список
+# начинает выглядеть обычным архивом — для этого ниже есть рубрики.
+HERO_LIMIT = 5
+# Описание под главным заголовком. Полное (до 300 знаков) раздувает блок,
+# а о чём материал, понятно уже по первым фразам.
+HERO_DESC_LIMIT = 220
+# Вакансии и заказы в главный блок не берём: это объявление, а не новость дня.
+# В тикере они остаются — там лента общая, как и на страницах рубрик.
+HERO_SKIP_CATS = frozenset({"jobs", "orders"})
+# Сколько записей с одного сайта пускаем на первый экран. Без этого его
+# занимает одна лента: 18.09.2026 из двенадцати свежих русских записей
+# одиннадцать были с habr.com. Ограничение по домену, а не по имени
+# источника: у habr.com их четыре — «Habr AI», «Habr AI Новости», «Habr ML»
+# и «Habr Дизайн», — и как разные источники они и дают перекос.
+TICKER_PER_HOST = 2
+HERO_PER_HOST = 2
+
 
 def _plural(n, one, few, many):
     """«1 запись», «2 записи», «5 записей».
@@ -273,6 +448,233 @@ def _plural(n, one, few, many):
     if n % 10 in (2, 3, 4) and n % 100 not in (12, 13, 14):
         return f"{n} {few}"
     return f"{n} {many}"
+
+
+def _esc(value):
+    """Чужой текст для разметки главной страницы.
+
+    Заголовок, название источника и описание приезжают из чужих лент.
+    На странице рубрики их экранирует браузерный esc(), а главная собирается
+    в Python — значит, экранировать надо здесь, до подстановки в HTML.
+    """
+    return html_escape("" if value is None else str(value), quote=True)
+
+
+def _fmt_date(date_str):
+    """«2026-09-15» -> «15.09.2026»; сегодняшняя и вчерашняя — словами.
+
+    Свежесть важнее точной даты: «сегодня» читается сразу, а «18.09.2026»
+    ещё надо сравнить с сегодняшним числом.
+    """
+    try:
+        day = datetime.strptime(date_str, "%Y-%m-%d").date()
+    except (TypeError, ValueError):
+        return ""
+    today = now_msk().date()
+    if day == today:
+        return "сегодня"
+    if day == today - timedelta(days=1):
+        return "вчера"
+    return day.strftime("%d.%m.%Y")
+
+
+def _short(text, limit):
+    """Обрезает чужой текст по границе слова, а не по середине."""
+    t = (text or "").strip()
+    if len(t) <= limit:
+        return t
+    cut = t[:limit]
+    space = cut.rfind(" ")
+    if space > limit * 0.6:
+        cut = cut[:space]
+    return cut.rstrip(" ,;:.—-") + "…"
+
+
+def _meta(*parts):
+    """«vc.ru · вчера» — без пустых кусков и висячих разделителей.
+
+    Экранирует сама: строка собирается из чужого текста, и полагаться на то,
+    что каждый вызов не забудет _esc, тут не стоит.
+    """
+    return " · ".join(_esc(p) for p in parts if p)
+
+
+def _accent_rgb(color):
+    """«#0071e3» -> «0,113,227».
+
+    Нужно, чтобы покрасить подложку карточки в её же цвет с прозрачностью.
+    Готовый светлый оттенок пришлось бы задавать дважды — для светлой темы
+    и для тёмной, — а rgba поверх фона работает в обеих.
+    """
+    h = (color or "").lstrip("#")
+    if len(h) == 3:
+        h = "".join(c * 2 for c in h)
+    try:
+        return ",".join(str(int(h[i:i + 2], 16)) for i in (0, 2, 4))
+    except ValueError:
+        return "0,113,227"
+
+
+def _host(link):
+    """Домен ссылки: «habr.com», «vc.ru» — без www.
+
+    Нужен, чтобы ограничить однообразие первого экрана. Четыре ленты Habr —
+    это один сайт, и считать их разными источниками значит пустить его
+    занять всю главную. Пустая строка вместо домена ограничение не ломает:
+    такие записи просто считаются одной группой.
+    """
+    try:
+        host = urlsplit(link).hostname or ""
+    except ValueError:
+        return ""
+    return host.lower().removeprefix("www.")
+
+
+def _fresh(all_news, limit, skip_cats=frozenset(), only_ru=False, per_host=None):
+    """Свежие записи, готовые к показу: с заголовком и рабочей ссылкой.
+
+    all_news уже отсортирован по дате (шаг 4 сборки), поэтому своей сортировки
+    здесь нет: порядок на сайте обязан совпадать с порядком в накопителе.
+
+    per_host — сколько записей одного сайта допустимо в отобранном. Это
+    жёсткий предел, а не пожелание: список короче ожидаемого лучше, чем
+    первый экран из одной ленты.
+    """
+    picked = []
+    by_host = {}
+    for n in all_news:
+        if n.get("cat") in skip_cats:
+            continue
+        if only_ru and n.get("lang") != "ru":
+            continue
+        if not (n.get("title") or "").strip():
+            continue
+        link = safe_link(n.get("link"))
+        if not link:
+            continue
+        host = _host(link)
+        if per_host is not None and by_host.get(host, 0) >= per_host:
+            continue
+        by_host[host] = by_host.get(host, 0) + 1
+        picked.append(n)
+        if len(picked) >= limit:
+            break
+    return picked
+
+
+def _prefer_ru(items, all_news, limit, skip_cats=frozenset(), per_host=None):
+    """Сначала русские записи, англоязычные — только если своих не хватило.
+
+    Страницы рубрик открываются с фильтром «Русский»: сайт русскоязычный,
+    и англоязычный заголовок на первом экране главной из него выбивается.
+    Но прятать такие записи совсем нельзя — у Hacker News бывают свежие
+    материалы, которых ещё нет в русских лентах. Поэтому добор, а не запрет.
+    """
+    if len(items) >= limit:
+        return items
+    links = {safe_link(n.get("link")) for n in items}
+    for n in _fresh(all_news, limit * 3, skip_cats, per_host=per_host):
+        link = safe_link(n.get("link"))
+        if link in links:
+            continue
+        links.add(link)
+        items.append(n)
+        if len(items) >= limit:
+            break
+    return items
+
+
+def _ticker_html(all_news):
+    """Полоса свежих заголовков. Пустая строка — показывать нечего."""
+    items = _prefer_ru(_fresh(all_news, TICKER_LIMIT, only_ru=True,
+                              per_host=TICKER_PER_HOST),
+                       all_news, TICKER_LIMIT, per_host=TICKER_PER_HOST)
+    if not items:
+        return ""
+    cells = ""
+    for n in items:
+        cat = CATEGORIES.get(n.get("cat"), {})
+        cells += (
+            '<span class="ticker-cell">'
+            f'<a href="{_esc(safe_link(n["link"]))}" target="_blank" rel="noopener">'
+            f'<span class="ticker-cat">{cat.get("emoji", "")}</span>'
+            f'{_esc(n.get("title"))}'
+            "</a></span>"
+        )
+    return (
+        '<div class="ticker" aria-label="Последние заголовки">'
+        '<div class="ticker-clip">'
+        f'<div class="ticker-track" id="tickerTrack">{cells}</div>'
+        "</div></div>\n"
+    )
+
+
+def _hero_html(all_news):
+    """Акцентный блок: главная новость крупно и четыре к ней.
+
+    Если новостей нет вовсе (например, архив занят одними вакансиями),
+    блок не рисуется: пустая рамка на первом экране хуже, чем её отсутствие.
+    """
+    items = _prefer_ru(_fresh(all_news, HERO_LIMIT, HERO_SKIP_CATS, only_ru=True,
+                              per_host=HERO_PER_HOST),
+                       all_news, HERO_LIMIT, HERO_SKIP_CATS, per_host=HERO_PER_HOST)
+    if not items:
+        return ""
+    main, side = items[0], items[1:]
+
+    cat = CATEGORIES.get(main.get("cat"), {})
+    accent = cat.get("accent", "#0071e3")
+    badge = f'{cat.get("emoji", "")} {cat.get("label", "")}'.strip()
+    desc = _short(main.get("desc"), HERO_DESC_LIMIT)
+    desc_html = f'<div class="hero-desc">{_esc(desc)}</div>' if desc else ""
+    meta = _meta(main.get("source"), _fmt_date(main.get("date")))
+
+    side_html = ""
+    for n in side:
+        c = CATEGORIES.get(n.get("cat"), {})
+        side_html += (
+            f'<a class="hero-item" href="{_esc(safe_link(n["link"]))}"'
+            ' target="_blank" rel="noopener">'
+            f'<div class="t">{_esc(n.get("title"))}</div>'
+            '<div class="m">'
+            f'<span class="hero-dot" style="background:{c.get("accent", "#0071e3")}"></span>'
+            f'{_meta(c.get("label"), n.get("source"), _fmt_date(n.get("date")))}'
+            "</div></a>\n"
+        )
+
+    return (
+        '<section class="hero">\n'
+        f'<a class="hero-main" style="--accent:{accent};'
+        f'--accent-rgb:{_accent_rgb(accent)}" href="{_esc(safe_link(main["link"]))}"'
+        ' target="_blank" rel="noopener">\n'
+        f'<span class="hero-badge">{_esc(badge)}</span>\n'
+        f'<div class="hero-title">{_esc(main.get("title"))}</div>\n'
+        f'{desc_html}\n'
+        f'<div class="hero-meta">{meta + " · " if meta else ""}'
+        '<span class="hero-go">Читать в источнике →</span></div>\n'
+        "</a>\n"
+        f'<div class="hero-side">\n{side_html}</div>\n'
+        "</section>\n"
+    )
+
+
+def _category_cards(counts):
+    """Карточки рубрик.
+
+    Цвет рубрики уезжает в две переменные: сам цвет и его составляющие —
+    из второй собирается полупрозрачная подложка.
+    """
+    cards = ""
+    for k, cat in CATEGORIES.items():
+        cards += (
+            f'<a href="{k}/index.html" class="cat-card" '
+            f'style="--accent:{cat["accent"]};--accent-rgb:{_accent_rgb(cat["accent"])}">\n'
+            f'<div class="cat-emoji">{cat["emoji"]}</div>\n'
+            f'<div class="cat-name">{cat["label"]}</div>\n'
+            f'<div class="cat-count">{_plural(counts[k], "новость", "новости", "новостей")}</div>\n'
+            "</a>\n"
+        )
+    return cards
 
 
 def _leftover_placeholders(html):
@@ -312,22 +714,28 @@ def generate_category_page(cat_key, cat_info):
 
 
 def generate_main_page(all_news):
-    """Генерируем главную страницу — хаб со ссылками и счётчиками рубрик."""
+    """Главная страница: поиск, свежее, главное за сутки и рубрики.
+
+    Порядок блоков не случаен. Сверху поиск — единственный способ попасть
+    вглубь архива. Ниже «хаб»: тикер свежего, акцентный блок и сетка рубрик.
+    При поиске хаб скрывается целиком, а выдача встаёт на его место: иначе
+    результаты оказались бы под свёрстанными блоками, за пределами экрана.
+    """
     counts = {k: 0 for k in CATEGORIES}
     for n in all_news:
         if n["cat"] in counts:
             counts[n["cat"]] += 1
     total = len(all_news)
     build_time = now_msk().strftime("%d.%m.%Y, %H:%M:%S")
+    # Время сборки подставляем текстом, а не скриптом: число записей должно
+    # склоняться («1 запись», «2 записи»), а склонять в браузере — лишний код.
+    updated = (f"Обновлено: {build_time} (МСК) · всего "
+               f"{_plural(total, 'запись', 'записи', 'записей')}")
 
-    cards = ""
-    for k, cat in CATEGORIES.items():
-        cards += f'''<a href="{k}/index.html" class="cat-card" style="--accent:{cat['accent']}">
-<div class="cat-emoji">{cat['emoji']}</div>
-<div class="cat-name">{cat['label']}</div>
-<div class="cat-count">{_plural(counts[k], "новость", "новости", "новостей")}</div>
-</a>
-'''
+    cards = _category_cards(counts)
+    ticker = _ticker_html(all_news)
+    hero = _hero_html(all_news)
+    ticker_js = f"<script>\n{TICKER_JS}</script>\n" if ticker else ""
 
     # Подписи рубрик для выдачи поиска. Отдаём данными, а не кодом: список
     # рубрик живёт в конфиге, и второй его копии в скрипте быть не должно.
@@ -368,7 +776,7 @@ def generate_main_page(all_news):
   <header>
     <h1>{SITE_NAME}</h1>
     <p>{SITE_TAGLINE}</p>
-    <div id="lastUpdated"></div>
+    <div id="lastUpdated">{updated}</div>
   </header>
 
   <div class="search-wrap">
@@ -378,18 +786,16 @@ def generate_main_page(all_news):
     <div class="search-results" id="searchResults" hidden></div>
   </div>
 
-  <nav class="cat-grid">
+  <div id="hub">
+{ticker}{hero}  <nav class="cat-grid">
 {cards}  </nav>
+  </div>
 
   <footer>
     {SITE_FOOTER} · <a href="about/index.html" style="color:var(--text2)">ℹ️ О проекте</a> · <a href="rss.xml" style="color:var(--text2)">📡 RSS</a>
   </footer>
 </div>
-<script>
-document.getElementById('lastUpdated').textContent =
-    'Обновлено: {build_time} (МСК)' + ' · всего {total} новостей';
-</script>
-<script>
+{ticker_js}<script>
 {search_js}</script>
 </body>
 </html>"""

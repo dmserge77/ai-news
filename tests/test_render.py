@@ -10,6 +10,7 @@ import re
 import struct
 import unittest
 import xml.etree.ElementTree as ET
+from datetime import timedelta
 from unittest import mock
 
 from news import render
@@ -17,6 +18,7 @@ from news.config import (
     CATEGORIES, CATEGORY_DESCRIPTIONS, OG_IMAGE, SITE_NAME, SITE_TAGLINE,
     SITE_URL,
 )
+from news.util import now_msk
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_PATH = os.path.join(BASE_DIR, "_category_template.html")
@@ -286,6 +288,161 @@ class TestMainPage(unittest.TestCase):
         for call in ("esc(it.title)", "esc(it.source)", "esc(it.desc)",
                      "esc(safeUrl(it.link))"):
             self.assertIn(call, self.html, f"в выдаче нет {call}")
+
+
+class TestMainPageVisual(unittest.TestCase):
+    """Первый экран главной: тикер свежего, акцентный блок и карточки рубрик.
+
+    Здесь проверяется то, что видит посетитель и чего не видит: чужой
+    заголовок обязан приехать экранированным, ссылка — проверенной на схему,
+    а один сайт не должен занимать весь первый экран.
+    """
+
+    def setUp(self):
+        self.today = now_msk().strftime("%Y-%m-%d")
+        self.news = [
+            {"title": "Свежая новость про ИИ", "link": "https://habr.com/a",
+             "desc": "Короткое описание", "date": self.today, "source": "Habr AI",
+             "cat": "ai", "lang": "ru"},
+            {"title": "Вторая новость", "link": "https://tproger.ru/b",
+             "desc": "Описание", "date": self.today, "source": "Tproger",
+             "cat": "ai", "lang": "ru"},
+            {"title": "Третья новость", "link": "https://3dnews.ru/c",
+             "desc": "", "date": self.today, "source": "3DNews",
+             "cat": "platform", "lang": "ru"},
+            {"title": "Ищем ML-инженера", "link": "https://hh.ru/v",
+             "desc": "", "date": self.today, "source": "hh.ru",
+             "cat": "jobs", "lang": "ru"},
+        ]
+        self.files = render_captured(render.generate_main_page, self.news)
+        self.html = self.files.get("index.html", "")
+        self.hero = self.html.split('<section class="hero">')[1].split("</section>")[0] \
+            if '<section class="hero">' in self.html else ""
+
+    def test_hub_wraps_browse_blocks(self):
+        """Хаб — то, что скрывается при поиске, поэтому он должен быть один."""
+        self.assertEqual(self.html.count('id="hub"'), 1)
+        self.assertIn("hubEl.hidden = true", self.html)
+        self.assertIn("hubEl.hidden = false", self.html)
+
+    def test_ticker_present(self):
+        self.assertIn('id="tickerTrack"', self.html)
+        self.assertEqual(self.html.count('class="ticker-cell"'), 4,
+                         "в тикере не все записи")
+
+    def test_ticker_js_only_when_ticker_exists(self):
+        """Скрипт без дорожки — обращение к null в браузере посетителя."""
+        self.assertIn("getElementById('tickerTrack')", self.html)
+        empty = render_captured(render.generate_main_page, [])
+        self.assertNotIn("getElementById('tickerTrack')", empty["index.html"])
+
+    def test_hero_present(self):
+        self.assertIn('class="hero-main"', self.html)
+        self.assertEqual(self.hero.count('class="hero-item"'), 2,
+                         "рядом с главной новостью не четыре записи")
+
+    def test_hero_skips_jobs_and_orders(self):
+        """Вакансия в главном блоке — объявление на месте новости дня."""
+        self.assertNotIn("Ищем ML-инженера", self.hero)
+
+    def test_hero_absent_when_only_jobs(self):
+        jobs = [n for n in self.news if n["cat"] == "jobs"]
+        files = render_captured(render.generate_main_page, jobs)
+        self.assertNotIn('<section class="hero">', files["index.html"])
+        self.assertIn('id="hub"', files["index.html"])
+
+    def test_foreign_title_is_escaped(self):
+        """Тег в чужом заголовке — это разметка в браузере посетителя.
+
+        Главная собирается в Python, а не в браузерном esc(), поэтому
+        экранировать надо на сборке.
+        """
+        bad = [dict(self.news[0], title='<img src=x onerror="alert(1)">',
+                    source="a & b")]
+        files = render_captured(render.generate_main_page, bad)
+        html = files["index.html"]
+        self.assertNotIn("<img src=x", html)
+        self.assertIn("&lt;img src=x", html)
+        self.assertIn("a &amp; b", html)
+
+    def test_unsafe_link_dropped(self):
+        """Адрес вида javascript: выполнится по клику — такой записи не место."""
+        bad = [dict(self.news[0], link="javascript:alert(1)")]
+        files = render_captured(render.generate_main_page, bad)
+        self.assertNotIn("javascript:alert", files["index.html"])
+
+    def test_per_host_limit(self):
+        """Один сайт не занимает первый экран.
+
+        Четыре ленты Habr — это один сайт: как разные источники они дают
+        перекос, и лечится он ограничением по домену, а не по имени ленты.
+        """
+        same = [dict(self.news[0], title=f"Новость {i}",
+                     link=f"https://habr.com/{i}",
+                     source=f"Habr {i}") for i in range(6)]
+        files = render_captured(render.generate_main_page, same)
+        html = files["index.html"]
+        self.assertEqual(html.count('class="ticker-cell"'), render.TICKER_PER_HOST)
+        self.assertEqual(html.count('class="hero-item"'), render.HERO_PER_HOST - 1)
+
+    def test_today_is_a_word(self):
+        """«сегодня» читается быстрее, чем дата, которую надо сравнивать."""
+        self.assertIn("сегодня", self.html)
+
+    def test_accent_rgb_substituted(self):
+        """Без составляющих цвета подложка карточки осталась бы серой."""
+        self.assertIn("--accent-rgb:0,113,227", self.html)
+
+    def test_counts_are_pluralised(self):
+        """«1 новость», а не «1 новостей» — в карточке рубрики и в подписи."""
+        one = render_captured(render.generate_main_page, [self.news[0]])
+        self.assertIn("1 новость", one["index.html"])
+        self.assertIn("всего 1 запись", one["index.html"])
+
+
+class TestMainPageHelpers(unittest.TestCase):
+    """Мелкие помощники главной — на них держится разметка."""
+
+    def test_short_cuts_at_word_boundary(self):
+        text = "слово " * 20
+        cut = render._short(text, 50)
+        self.assertLessEqual(len(cut), 51)
+        self.assertTrue(cut.endswith("…"))
+        self.assertNotIn("сл…", cut, "обрезано по середине слова")
+
+    def test_short_keeps_short_text(self):
+        self.assertEqual(render._short("коротко", 100), "коротко")
+
+    def test_short_survives_empty(self):
+        self.assertEqual(render._short(None, 10), "")
+        self.assertEqual(render._short("", 10), "")
+
+    def test_meta_drops_empty_parts(self):
+        self.assertEqual(render._meta("vc.ru", "", None, "вчера"), "vc.ru · вчера")
+        self.assertEqual(render._meta("", ""), "")
+
+    def test_meta_escapes(self):
+        self.assertEqual(render._meta("<b>"), "&lt;b&gt;")
+
+    def test_accent_rgb(self):
+        self.assertEqual(render._accent_rgb("#0071e3"), "0,113,227")
+        self.assertEqual(render._accent_rgb("#fff"), "255,255,255")
+        self.assertEqual(render._accent_rgb("мусор"), "0,113,227")
+
+    def test_host_groups_habr_feeds(self):
+        """Четыре ленты Habr — один домен, и группировать надо по нему."""
+        for link in ("https://habr.com/ru/news/1/", "https://habr.com/ru/companies/x/2/"):
+            self.assertEqual(render._host(link), "habr.com")
+        self.assertEqual(render._host("https://www.vc.ru/a"), "vc.ru")
+        self.assertEqual(render._host(""), "")
+
+    def test_fmt_date_words_and_date(self):
+        today = now_msk()
+        self.assertEqual(render._fmt_date(today.strftime("%Y-%m-%d")), "сегодня")
+        self.assertEqual(
+            render._fmt_date((today - timedelta(days=1)).strftime("%Y-%m-%d")), "вчера")
+        self.assertEqual(render._fmt_date("2026-09-15"), "15.09.2026")
+        self.assertEqual(render._fmt_date("не дата"), "")
 
 
 class TestOgImage(unittest.TestCase):
