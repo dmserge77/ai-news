@@ -13,9 +13,10 @@ from xml.etree import ElementTree
 
 from .config import DEAD_SOURCES, REMOTE_MARKERS, SPAM_FILTER_SOURCES
 from .filters import (
-    classify, classify_job, classify_misc, classify_order, is_ai_order,
-    is_ai_relevant, is_real_ai_job, is_seo_spam,
+    ai_reject_reason, classify, classify_job, classify_misc, classify_order,
+    is_seo_spam, job_reject_reason, order_reject_reason,
 )
+from .rejectlog import note as reject_note
 from .util import (
     clean_desc, detect_lang, now_msk, parse_date, safe_link, strip_html,
 )
@@ -52,11 +53,13 @@ def fetch_url(url):
     return data
 
 
-def _build_item(title, link, desc, date_raw, feed):
+def _build_item(title, link, desc, date_raw, feed, rejects=None):
     """Превращает запись ленты в карточку новости. None — если не подходит.
 
     Логика одна и та же для RSS (item) и Atom (entry), поэтому живёт здесь,
     а не дублируется в двух ветках разбора.
+
+    rejects — журнал отказов; необязателен, без него разбор работает как раньше.
     """
     # Заголовок и ссылка идут на страницу как есть, поэтому чистим их здесь,
     # на входе: тег в заголовке — это исполняемый код у посетителя, а
@@ -64,12 +67,18 @@ def _build_item(title, link, desc, date_raw, feed):
     # первый — экранирование в шаблоне страницы.
     title = strip_html(title)
     link = safe_link(link)
-    if not title or not link:
+    if not title:
+        return None
+    if not link:
+        # Заголовок есть, а адрес не годится: лента прислала не http-ссылку
+        # или попытку вылезти из атрибута. Такое полезно видеть в журнале.
+        reject_note(rejects, title, feed.get("source", ""), "ссылка отброшена")
         return None
 
     text = title + " " + desc
     # SEO-мусор в ИИ-тегах vc.ru («нейросеть для X бесплатно: промпт и ...»)
     if feed.get("source") in SPAM_FILTER_SOURCES and is_seo_spam(title):
+        reject_note(rejects, title, feed.get("source", ""), "реклама в ИИ-теге", link)
         return None
     cat = classify(text, feed["cat"])
     # Вакансии из RSS не берём вообще: настоящие вакансии приходят только
@@ -77,7 +86,9 @@ def _build_item(title, link, desc, date_raw, feed):
     # просачивались в рубрику «Вакансии».
     if cat == "jobs":
         cat = "misc"
-    if not is_ai_relevant(text, cat):
+    reason = ai_reject_reason(text, cat)
+    if reason:
+        reject_note(rejects, title, feed.get("source", ""), reason, link)
         return None
     item = {
         "title": title, "link": link,
@@ -92,7 +103,7 @@ def _build_item(title, link, desc, date_raw, feed):
     return item
 
 
-def parse_rss(xml_text, feed):
+def parse_rss(xml_text, feed, rejects=None):
     """Разбирает ленту (RSS или Atom) в список карточек."""
     items = []
     # Мёртвый источник — не читаем вовсе (лента могла вернуться в FEEDS случайно).
@@ -108,7 +119,7 @@ def parse_rss(xml_text, feed):
         pubdate = item.findtext("pubDate", "")
         if not title or not link:
             continue
-        built = _build_item(title, link, desc, pubdate, feed)
+        built = _build_item(title, link, desc, pubdate, feed, rejects)
         if built:
             items.append(built)
 
@@ -120,7 +131,7 @@ def parse_rss(xml_text, feed):
         updated = entry.findtext(ATOM + "updated", "")
         if not title or not link:
             continue
-        built = _build_item(title, link, desc, updated, feed)
+        built = _build_item(title, link, desc, updated, feed, rejects)
         if built:
             items.append(built)
 
@@ -142,7 +153,7 @@ def count_raw(xml_text):
     return len(list(root.iter("item"))) + len(list(root.iter(ATOM + "entry")))
 
 
-def fetch_fl_orders():
+def fetch_fl_orders(rejects=None):
     """Парсит заказы с fl.ru. Ищет только ИИ-заказы и сайты."""
     items = []
     seen_titles = {}
@@ -180,7 +191,9 @@ def fetch_fl_orders():
                 seen_titles[title_norm] = seen_titles.get(title_norm, 0) + 1
 
                 # Отсекаем всё, что не про ИИ и не про сайты
-                if not is_ai_order(title, desc):
+                reason = order_reject_reason(title, desc)
+                if reason:
+                    reject_note(rejects, title, "FL.ru", reason, link)
                     continue
 
                 items.append({
@@ -203,7 +216,7 @@ def fetch_fl_orders():
     return items
 
 
-def fetch_hh_vacancies():
+def fetch_hh_vacancies(rejects=None):
     """Парсит вакансии с hh.ru через RSS. Только удалённые AI/ML-вакансии.
 
     schedule=remote — это фильтр самого hh.ru: в ленте остаются только
@@ -237,8 +250,10 @@ def fetch_hh_vacancies():
                 if not title or not link:
                     continue
 
-                # Курсы и обучения отсекает is_real_ai_job (шаг 4).
-                if not is_real_ai_job(title, desc, remote_confirmed=True):
+                # Курсы и обучения отсекает job_reject_reason (шаг 4).
+                reason = job_reject_reason(title, desc, remote_confirmed=True)
+                if reason:
+                    reject_note(rejects, title, "hh.ru", reason, link)
                     continue
 
                 # Дедубликация: одинаковый заголовок не более 1 раза
@@ -276,7 +291,7 @@ def _field(record, key, sub=None):
     return str(value or "")
 
 
-def parse_trudvsem(vacancies):
+def parse_trudvsem(vacancies, rejects=None):
     """Разбирает список вакансий из ответа API «Работа России».
 
     Вынесено в отдельную функцию, чтобы проверялось тестом без сети: имена
@@ -303,6 +318,7 @@ def parse_trudvsem(vacancies):
         employment = _field(vdata, "employment").lower()
         if not any(w in employment for w in REMOTE_MARKERS):
             skipped_office += 1
+            reject_note(rejects, title, "Работа России", "не удалённая работа", link)
             continue
 
         # duty — это описание вакансии. Поле requirement словарное
@@ -312,8 +328,10 @@ def parse_trudvsem(vacancies):
         region = _field(vdata, "region", "name")
         desc = ". ".join(p for p in (company, region, duty) if p)
 
-        # Курсы и обучения отсекает is_real_ai_job (шаг 4).
-        if not is_real_ai_job(title, desc, remote_confirmed=True):
+        # Курсы и обучения отсекает job_reject_reason (шаг 4).
+        reason = job_reject_reason(title, desc, remote_confirmed=True)
+        if reason:
+            reject_note(rejects, title, "Работа России", reason, link)
             continue
 
         items.append({
@@ -330,7 +348,7 @@ def parse_trudvsem(vacancies):
     return items, skipped_office
 
 
-def fetch_trudvsem_vacancies():
+def fetch_trudvsem_vacancies(rejects=None):
     """Читает вакансии через API «Работа России». Только удалённые и про ИИ.
 
     Формат работы отдаётся отдельным полем `employment` — например
@@ -350,7 +368,7 @@ def fetch_trudvsem_vacancies():
             data = fetch_url(url).decode("utf-8", errors="replace")
             parsed = json.loads(data)
             vacancies = parsed.get("results", {}).get("vacancies", [])
-            found, skipped = parse_trudvsem(vacancies)
+            found, skipped = parse_trudvsem(vacancies, rejects)
             skipped_office += skipped
             for item in found:
                 if item["link"] in seen:

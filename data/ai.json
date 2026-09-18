@@ -2,7 +2,7 @@
   {
     "title": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
     "link": "https://www.hacktron.ai/blog/hacking-openai",
-    "desc": "Article URL: https://www.hacktron.ai/blog/hacking-openai Comments URL: https://news.ycombinator.com/item?id=49749656 Points: 381 # Comments: 164",
+    "desc": "Article URL: https://www.hacktron.ai/blog/hacking-openai Comments URL: https://news.ycombinator.com/item?id=49749656 Points: 383 # Comments: 165",
     "date": "2026-09-18",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,7 +11,7 @@
   {
     "title": "Shapelearn Qwen 3.8 27B (13.1 GB VRAM)",
     "link": "https://byteshape.com/blogs/Qwen3.8-27B/",
-    "desc": "Article URL: https://byteshape.com/blogs/Qwen3.8-27B/ Comments URL: https://news.ycombinator.com/item?id=49749393 Points: 82 # Comments: 18",
+    "desc": "Article URL: https://byteshape.com/blogs/Qwen3.8-27B/ Comments URL: https://news.ycombinator.com/item?id=49749393 Points: 83 # Comments: 20",
     "date": "2026-09-18",
     "source": "Hacker News",
     "cat": "ai",
@@ -342,9 +342,18 @@
     "lang": "ru"
   },
   {
+    "title": "Глава Nvidia уверен, что в следующем году компания сможет продать вдвое больше чипов",
+    "link": "https://3dnews.ru/1148673",
+    "desc": "На минувшей квартальной отчётной конференции Nvidia в несвойственной для себя манере дала прогноз по росту выручки на 70 % до $673 млрд в течение следующего фискального года, отдельно отметив, что выручка могла бы вырасти сильнее, если бы не дефицит чипов. На этой неделе основатель компании Дженс...",
+    "date": "2026-09-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Qwen 3.8 Omni Flash",
     "link": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
-    "desc": "Article URL: https://qwen.ai/blog?id=qwen3.8-omni-flash Comments URL: https://news.ycombinator.com/item?id=49747925 Points: 266 # Comments: 96",
+    "desc": "Article URL: https://qwen.ai/blog?id=qwen3.8-omni-flash Comments URL: https://news.ycombinator.com/item?id=49747925 Points: 270 # Comments: 96",
     "date": "2026-09-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -353,16 +362,7 @@
   {
     "title": "How to Write with an LLM",
     "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-    "desc": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 219 # Comments: 142",
-    "date": "2026-09-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Astra for Law",
-    "link": "https://openai.com/index/astra-for-law/",
-    "desc": "Article URL: https://openai.com/index/astra-for-law/ Comments URL: https://news.ycombinator.com/item?id=49745940 Points: 522 # Comments: 619",
+    "desc": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 224 # Comments: 144",
     "date": "2026-09-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -736,6 +736,15 @@
     "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Astra for Law",
+    "link": "https://openai.com/index/astra-for-law/",
+    "desc": "Article URL: https://openai.com/index/astra-for-law/ Comments URL: https://news.ycombinator.com/item?id=49745940 Points: 522 # Comments: 619",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Граница код | модель как архитектурный объект",
@@ -2844,15 +2853,6 @@
     "lang": "ru"
   },
   {
-    "title": "Если ваши разработчики используют Claude Code, вы еще не автоматизировали разработку",
-    "link": "https://habr.com/ru/articles/1081076/?utm_campaign=1081076&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Представьте, что в вашу команду взяли уверенного миддла. Но ему не дали доступ к трекеру, не показали базу знаний, а про архитектурные решения рассказали один раз на онбординге. Его изредка просят что‑нибудь погуглить, иногда поручают небольшую фичу в отрыве от контекста большой картины, а потом ...",
-    "date": "2026-09-11",
-    "source": "Habr DevOps",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Atlassian добавит в Jira управляемые циклы ИИ-агентов",
     "link": "https://tproger.ru/news/atlassian-dobavit-v-jira-upravlyaemye-cikly-ii-agentov",
     "desc": "Jira будет передавать задачи ИИ-агентам, запускать тесты и создавать pull request. Разработчики сохранят контроль над ревью и слиянием кода. — Читать дальше « Atlassian добавит в Jira управляемые циклы ИИ-агентов »",
@@ -2894,6 +2894,15 @@
     "desc": "DeepSeek запустила V4.1-Flash в API и выводит из эксплуатации прежние модели. С 14 сентября запросы к V4-Pro перенаправят на новинку. — Читать дальше « DeepSeek выпустила мультимодальную модель V4.1-Flash и начала замену V4-Pro »",
     "date": "2026-09-11",
     "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Если ваши разработчики используют Claude Code, вы еще не автоматизировали разработку",
+    "link": "https://habr.com/ru/articles/1081076/?utm_campaign=1081076&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Представьте, что в вашу команду взяли уверенного миддла. Но ему не дали доступ к трекеру, не показали базу знаний, а про архитектурные решения рассказали один раз на онбординге. Его изредка просят что‑нибудь погуглить, иногда поручают небольшую фичу в отрыве от контекста большой картины, а потом ...",
+    "date": "2026-09-11",
+    "source": "Habr DevOps",
     "cat": "ai",
     "lang": "ru"
   },

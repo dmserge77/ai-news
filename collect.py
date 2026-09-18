@@ -20,9 +20,11 @@ from news.fetch import (
 from news import monitor
 from news.filters import is_ai_order, is_ai_relevant
 from news.monitor import SourcesLog
+from news.rejectlog import RejectLog
+from news.rejectlog import note as reject_note
 from news.render import (
     copy_static, generate_category_page, generate_main_page, generate_robots,
-    generate_rss, generate_sitemap,
+    generate_rss, generate_search_index, generate_sitemap,
 )
 from news.sources import FEEDS
 from news.store import load_news, save_data_js, save_news
@@ -32,7 +34,7 @@ if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 
-def collect_feeds(seen, log):
+def collect_feeds(seen, log, rejects=None):
     """Шаг 1. Читаем ленты и собираем свежие новости.
 
     Итоги складываются по источнику, а не по ленте: у vc.ru и «Habr Веб-дизайна»
@@ -49,10 +51,11 @@ def collect_feeds(seen, log):
         try:
             print(f"Читаю: {feed['url']}")
             xml = fetch_url(feed["url"]).decode("utf-8", errors="replace")
-            items = parse_rss(xml, feed)
+            items = parse_rss(xml, feed, rejects)
             added = 0
             for item in items:
                 if seen.check(item):
+                    reject_note(rejects, item.get("title"), source, "повтор")
                     continue
                 fresh.append(item)
                 added += 1
@@ -80,17 +83,19 @@ def collect_feeds(seen, log):
     return fresh
 
 
-def _absorb(seen, items, fresh):
+def _absorb(seen, items, fresh, rejects=None):
     """Добавляет новые записи в общий поток. Возвращает, сколько оказалось новых."""
     added = 0
     for item in items:
-        if not seen.check(item):
-            fresh.append(item)
-            added += 1
+        if seen.check(item):
+            reject_note(rejects, item.get("title"), item.get("source", ""), "повтор")
+            continue
+        fresh.append(item)
+        added += 1
     return added
 
 
-def collect_extra(seen, log):
+def collect_extra(seen, log, rejects=None):
     """Шаг 1б и 1в. Вакансии и заказы — они приходят не из RSS."""
     fresh = []
     for what, fetch, source in (
@@ -99,8 +104,8 @@ def collect_extra(seen, log):
         ("заказы с FL.ru", fetch_fl_orders, "FL.ru"),
     ):
         print(f"Собираю {what}...")
-        items = fetch()
-        added = _absorb(seen, items, fresh)
+        items = fetch(rejects)
+        added = _absorb(seen, items, fresh, rejects)
         # Если внутри источника была ошибка, он вернёт пустой список —
         # и это честно попадёт в журнал как молчание.
         log.note(source, monitor.OK if items else monitor.EMPTY, len(items), added)
@@ -159,9 +164,10 @@ def load_store(seen):
 def main():
     seen = Seen()
     log = SourcesLog()
+    rejects = RejectLog()
 
-    all_news = collect_feeds(seen, log)
-    all_news += collect_extra(seen, log)
+    all_news = collect_feeds(seen, log, rejects)
+    all_news += collect_extra(seen, log, rejects)
 
     kept, to_unfiltered, dropped_dead = load_store(seen)
     all_news += kept
@@ -208,12 +214,13 @@ def main():
     # 7. Ручные страницы (about/)
     copy_static()
 
-    # 8. Служебные файлы сайта: карта для поисковиков, robots и своя лента.
-    #    Собираются из того же filtered, что и рубрики, — отдельного источника
-    #    правды не заводим, иначе они разъедутся.
+    # 8. Служебные файлы сайта: карта для поисковиков, robots, своя лента
+    #    и индекс поиска. Собираются из того же filtered, что и рубрики, —
+    #    отдельного источника правды не заводим, иначе они разъедутся.
     generate_sitemap()
     generate_robots()
     generate_rss(filtered)
+    generate_search_index(filtered)
 
     print(f"\n[OK] Всего новостей: {len(filtered)}")
 
@@ -223,6 +230,13 @@ def main():
     print("\n--- Источники ---")
     log.print_report()
     log.save()
+
+    # 9. Отчёт по отказам: что отсеялось и за что. Раньше в логе было только
+    #    «отброшено N», и по этой строке нельзя было понять, правильно ли
+    #    сработали фильтры. Журнал лежит в data/rejects.json.
+    print("\n--- Отказы ---")
+    rejects.report()
+    rejects.save()
 
 
 if __name__ == "__main__":

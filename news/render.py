@@ -5,6 +5,7 @@
 настоящее. Ручные страницы (about/) лежат отдельно и просто копируются.
 """
 
+import json
 import os
 import re
 import shutil
@@ -13,9 +14,9 @@ from email.utils import format_datetime
 from xml.sax.saxutils import escape as xml_escape
 
 from .config import (
-    ABOUT_DIR, BASE_DIR, CATEGORIES, CATEGORY_DESCRIPTIONS, DOCS_DIR, OG_IMAGE,
-    SITE_DESCRIPTION, SITE_FOOTER, SITE_ICON, SITE_NAME, SITE_TAGLINE,
-    SITE_TITLE, SITE_URL, TEMPLATE_PATH,
+    ABOUT_DIR, BASE_DIR, CATEGORIES, CATEGORY_DESCRIPTIONS, DOCS_DIR,
+    MAX_AGE_DAYS, OG_IMAGE, SITE_DESCRIPTION, SITE_FOOTER, SITE_ICON, SITE_NAME,
+    SITE_TAGLINE, SITE_TITLE, SITE_URL, TEMPLATE_PATH,
 )
 from .store import write_if_changed
 from .util import now_msk
@@ -122,8 +123,156 @@ header p { color: var(--text2); margin-top: 4px; font-size: 1.1rem; }
   box-shadow: 0 4px 12px rgba(0,0,0,.08);
 }
 
+.search-wrap { margin-top: 22px; }
+#q {
+  width: 100%; max-width: 560px; margin: 0 auto; display: block;
+  padding: 12px 18px; font-size: 1rem; font-family: inherit;
+  color: var(--text); background: var(--card-bg);
+  border: 1.5px solid var(--border); border-radius: 24px;
+  box-shadow: var(--shadow); outline: none;
+  transition: border-color .15s ease;
+}
+#q:focus { border-color: var(--accent); }
+#q::placeholder { color: var(--text2); }
+.search-info { color: var(--text2); font-size: .85rem; text-align: center; margin-top: 10px; }
+.search-results { margin-top: 18px; display: flex; flex-direction: column; gap: 8px; }
+.search-results[hidden], .cat-grid[hidden] { display: none; }
+.sr-item {
+  display: block; background: var(--card-bg); border: 1.5px solid var(--border);
+  border-radius: 12px; padding: 12px 16px; text-decoration: none; color: var(--text);
+  box-shadow: var(--shadow); transition: border-color .15s ease, transform .15s ease;
+}
+.sr-item:hover { border-color: var(--accent); transform: translateY(-1px); }
+.sr-title { font-size: .95rem; font-weight: 600; line-height: 1.4; }
+.sr-meta { font-size: .75rem; color: var(--text2); margin-top: 3px; }
+.sr-desc { font-size: .85rem; color: var(--text2); margin-top: 6px; line-height: 1.5; }
+
 footer { color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: center; }
 """
+
+# Поиск по архиву работает в браузере посетителя: сервера у сайта нет.
+# Файл search-index.json читается только когда посетитель начал вводить,
+# поэтому на открытие главной он не влияет.
+#
+# esc() и safeUrl() здесь — копия того, что лежит в _category_template.html.
+# Общего файла скриптов у сайта нет: страницы рубрик и главная собираются
+# порознь, и связывать их ещё одним запросом ради двух функций не стоит.
+# Если правишь одну копию — проверь вторую.
+SEARCH_JS = """
+var searchIndex = null, searchLoading = false, pendingTerm = '', searchTimer = null;
+var SHOW_LIMIT = 50;
+var CAT_LABELS = __CAT_LABELS__;
+var qEl = document.getElementById('q');
+var resEl = document.getElementById('searchResults');
+var infoEl = document.getElementById('searchInfo');
+var gridEl = document.querySelector('.cat-grid');
+
+function esc(s) {
+  return String(s === null || s === undefined ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+function safeUrl(u) {
+  var s = String(u === null || u === undefined ? '' : u).trim();
+  if (/[\\s"'<>\\\\]/.test(s)) return '#';
+  return /^https?:\\/\\//i.test(s) ? s : '#';
+}
+
+// 2026-09-14 -> 14.09.2026
+function fmtDate(s) {
+  if (!s) return '';
+  var p = String(s).split('-');
+  return (p.length === 3) ? (p[2] + '.' + p[1] + '.' + p[0]) : s;
+}
+
+function searchReset() {
+  pendingTerm = '';
+  infoEl.textContent = '';
+  resEl.hidden = true;
+  resEl.innerHTML = '';
+  gridEl.hidden = false;
+}
+
+function searchShow(term) {
+  var words = term.split(/\\s+/).filter(Boolean);
+  var hits = [];
+  for (var i = 0; i < searchIndex.length; i++) {
+    var n = searchIndex[i];
+    var hay = ((n.title || '') + ' ' + (n.source || '') + ' ' + (n.desc || '')).toLowerCase();
+    var ok = true;
+    for (var j = 0; j < words.length; j++) {
+      if (hay.indexOf(words[j]) === -1) { ok = false; break; }
+    }
+    if (ok) hits.push(n);
+  }
+
+  gridEl.hidden = true;
+  resEl.hidden = false;
+
+  if (!hits.length) {
+    infoEl.textContent = 'Ничего не нашлось по запросу «' + term + '»';
+    resEl.innerHTML = '';
+    return;
+  }
+  infoEl.textContent = 'Найдено: ' + hits.length +
+    (hits.length > SHOW_LIMIT ? ' · показаны первые ' + SHOW_LIMIT : '');
+
+  var html = '';
+  for (var k = 0; k < hits.length && k < SHOW_LIMIT; k++) {
+    var it = hits[k];
+    html += '<a class="sr-item" href="' + esc(safeUrl(it.link)) + '" target="_blank" rel="noopener">' +
+      '<div class="sr-title">' + esc(it.title) + '</div>' +
+      '<div class="sr-meta">' + esc(CAT_LABELS[it.cat] || it.cat || '') + ' · ' +
+      esc(it.source) + ' · ' + esc(fmtDate(it.date)) + '</div>' +
+      (it.desc ? '<div class="sr-desc">' + esc(it.desc) + '</div>' : '') +
+      '</a>';
+  }
+  resEl.innerHTML = html;
+}
+
+function searchRun() {
+  var term = qEl.value.trim().toLowerCase();
+  if (term.length < 2) { searchReset(); return; }
+  pendingTerm = term;
+  if (searchIndex) { searchShow(term); return; }
+  infoEl.textContent = 'Загружаю индекс…';
+  resEl.hidden = true;
+  gridEl.hidden = true;
+  if (searchLoading) return;
+  searchLoading = true;
+  fetch('search-index.json')
+    .then(function(r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function(data) {
+      searchIndex = data;
+      searchLoading = false;
+      if (pendingTerm) searchShow(pendingTerm);
+    })
+    .catch(function() {
+      searchLoading = false;
+      infoEl.textContent = 'Поиск недоступен: индекс не загрузился';
+    });
+}
+
+qEl.addEventListener('input', function() {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(searchRun, 120);
+});
+qEl.addEventListener('search', searchRun);
+"""
+
+
+def _plural(n, one, few, many):
+    """«1 запись», «2 записи», «5 записей».
+
+    Мелочь, но она на главной странице: «1 новостей» в карточке рубрики
+    читается как небрежность, и доверия к остальным числам меньше.
+    """
+    if n % 10 == 1 and n % 100 != 11:
+        return f"{n} {one}"
+    if n % 10 in (2, 3, 4) and n % 100 not in (12, 13, 14):
+        return f"{n} {few}"
+    return f"{n} {many}"
 
 
 def _leftover_placeholders(html):
@@ -176,9 +325,17 @@ def generate_main_page(all_news):
         cards += f'''<a href="{k}/index.html" class="cat-card" style="--accent:{cat['accent']}">
 <div class="cat-emoji">{cat['emoji']}</div>
 <div class="cat-name">{cat['label']}</div>
-<div class="cat-count">{counts[k]} новостей</div>
+<div class="cat-count">{_plural(counts[k], "новость", "новости", "новостей")}</div>
 </a>
 '''
+
+    # Подписи рубрик для выдачи поиска. Отдаём данными, а не кодом: список
+    # рубрик живёт в конфиге, и второй его копии в скрипте быть не должно.
+    cat_labels_js = json.dumps(
+        {k: f"{v['emoji']} {v['label']}" for k, v in CATEGORIES.items()},
+        ensure_ascii=False,
+    )
+    search_js = SEARCH_JS.replace("__CAT_LABELS__", cat_labels_js)
 
     html = f"""<!DOCTYPE html>
 <html lang="ru">
@@ -214,6 +371,13 @@ def generate_main_page(all_news):
     <div id="lastUpdated"></div>
   </header>
 
+  <div class="search-wrap">
+    <input type="search" id="q" autocomplete="off" aria-label="Поиск по архиву"
+           placeholder="🔍 Поиск по архиву — {_plural(total, 'запись', 'записи', 'записей')} за {MAX_AGE_DAYS} дней">
+    <div class="search-info" id="searchInfo"></div>
+    <div class="search-results" id="searchResults" hidden></div>
+  </div>
+
   <nav class="cat-grid">
 {cards}  </nav>
 
@@ -225,6 +389,8 @@ def generate_main_page(all_news):
 document.getElementById('lastUpdated').textContent =
     'Обновлено: {build_time} (МСК)' + ' · всего {total} новостей';
 </script>
+<script>
+{search_js}</script>
 </body>
 </html>"""
     write_if_changed(os.path.join(DOCS_DIR, "index.html"), html)
@@ -336,3 +502,65 @@ def generate_rss(all_news, limit=50):
 
     write_if_changed(os.path.join(DOCS_DIR, "rss.xml"), body)
     print(f"  [OK] Лента RSS — {len(items)} записей")
+
+
+# Длина сниппета в поисковой выдаче. Полное описание (до 300 знаков) удвоило бы
+# вес индекса, а в списке результатов всё равно видно только первые строки.
+# Замер на архиве 18.09.2026 (1627 записей): без описаний 388 КБ, при 90 знаках
+# 575 КБ, при 300 — около 850 КБ. Останавливаемся на 90: поиск по описанию
+# сохраняется, а сжатый ответ остаётся в пределах 200 КБ.
+SEARCH_DESC_LIMIT = 90
+
+# Порог, после которого индекс пора разбивать по датам. Сейчас он читается
+# целиком и один раз, но с ростом архива это перестанет быть безобидным.
+SEARCH_INDEX_WARN_KB = 800
+
+
+def _search_desc(desc):
+    """Короткий сниппет для поисковой выдачи."""
+    text = (desc or "").strip()
+    if len(text) <= SEARCH_DESC_LIMIT:
+        return text
+    return text[:SEARCH_DESC_LIMIT].rstrip() + "…"
+
+
+def generate_search_index(all_news):
+    """Индекс для поиска по архиву — файл, который читает браузер посетителя.
+
+    Сайт статический, сервера у него нет, искать по нему нечем: страница рубрики
+    знает только свою рубрику, а главная — одни счётчики. Поэтому кладём рядом
+    с главной один файл со всеми записями архива, а фильтрует его уже браузер.
+
+    Файл читается только когда посетитель начал вводить запрос, так что на
+    открытие страницы он не влияет. Записи без ссылки в индекс не попадают:
+    такая строка в выдаче всё равно никуда не ведёт.
+
+    Ключи короткие и в одну строку на запись — файл служебный, но дифф в git
+    должен оставаться читаемым: индекс меняется при каждой сборке.
+    """
+    rows = []
+    for n in sorted(all_news, key=lambda x: x.get("date", ""), reverse=True):
+        title = (n.get("title") or "").strip()
+        link = (n.get("link") or "").strip()
+        if not title or not link:
+            continue
+        rows.append({
+            "title": title,
+            "link": link,
+            "date": n.get("date", ""),
+            "source": n.get("source", ""),
+            "cat": n.get("cat", ""),
+            "desc": _search_desc(n.get("desc")),
+        })
+
+    if not rows:
+        body = "[]\n"
+    else:
+        body = "[\n" + ",\n".join(
+            json.dumps(r, ensure_ascii=False) for r in rows
+        ) + "\n]\n"
+    write_if_changed(os.path.join(DOCS_DIR, "search-index.json"), body)
+    size_kb = len(body.encode("utf-8")) // 1024
+    print(f"  [OK] Индекс поиска — {len(rows)} записей, {size_kb} КБ")
+    if size_kb > SEARCH_INDEX_WARN_KB:
+        print(f"  ! индекс поиска вырос до {size_kb} КБ — пора разбивать его по датам")
