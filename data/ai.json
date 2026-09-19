@@ -54,15 +54,6 @@
     "lang": "en"
   },
   {
-    "title": "Hacking OpenAI",
-    "link": "https://www.hacktron.ai/blog/hacking-openai",
-    "desc": "Comments",
-    "date": "2026-09-18",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Запустить LLM локально: что считать до покупки видеокарты?",
     "link": "https://habr.com/ru/companies/otus/articles/1077942/?utm_campaign=1077942&utm_source=habrahabr&utm_medium=rss",
     "desc": "Мощная видеокарта не всегда означает быстрый локальный запуск LLM. Разбираемся, почему GPU может простаивать, как на производительность влияют память, KV‑кэш и движок инференса, и что учитывать перед сборкой собственного стенда. Разобраться в LLM",
@@ -549,6 +540,15 @@
     "lang": "ru"
   },
   {
+    "title": "Hacking OpenAI",
+    "link": "https://www.hacktron.ai/blog/hacking-openai",
+    "desc": "Comments",
+    "date": "2026-09-18",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "AI chatbots becoming experts at changing people's minds. What's their secret?",
     "link": "https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret",
     "desc": "Article URL: https://www.science.org/content/article/ai-chatbots-are-becoming-experts-changing-people-s-minds-what-s-their-secret Comments URL: https://news.ycombinator.com/item?id=49754250 Points: 33 # Comments: 31",
@@ -657,11 +657,11 @@
     "lang": "ru"
   },
   {
-    "title": "Я перестал пользоваться самыми умными ИИ‑моделями. Программировать стало быстрее и дешевле",
-    "link": "https://habr.com/ru/articles/1083368/?utm_campaign=1083368&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В отпуске есть время подумать и исследовать. Я натолкнулся на несколько вещей и открытий для себя. Оказалось, что мне как программисту перестали быть нужны самые умные и дорогие ИИ‑модели. Оказывается, есть такой параметр «Cost per Task», и по этому параметру на первое место вырвалась модель GPT-...",
+    "title": "ИИ может уничтожить человечество с вероятностью выше 10%. Чего именно боятся исследователи",
+    "link": "https://habr.com/ru/articles/1083482/?utm_campaign=1083482&utm_source=habrahabr&utm_medium=rss",
+    "desc": "9 сентября руководитель Alignment Science в Anthropic Эван Хубингер написал довольно безумную для человека на такой должности вещь: лично он оценивает вероятность того, что AI убьёт всех людей в течение ближайших десяти лет, выше 10% . Поводом стало увольнение его коллеги Джейкоба Коксона. Тот тр...",
     "date": "2026-09-17",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -669,15 +669,6 @@
     "title": "Кредитный радар: LLM-воркфлоу, который каждое утро читает условия 12 банков и сам проверяет свои числа",
     "link": "https://habr.com/ru/articles/1083340/?utm_campaign=1083340&utm_source=habrahabr&utm_medium=rss",
     "desc": "TL;DR. Собрал воркфлоу на языковой модели, который раз в сутки обходит 34 страницы условий у 12 российских банков, сравнивает их со вчерашним снимком и публикует сводку изменений с ссылкой на источник в каждой строке, а при изменении цены пишет разбор с расчётом. Модель вызывается в четырёх точка...",
-    "date": "2026-09-17",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "ИИ может уничтожить человечество с вероятностью выше 10%. Чего именно боятся исследователи",
-    "link": "https://habr.com/ru/articles/1083482/?utm_campaign=1083482&utm_source=habrahabr&utm_medium=rss",
-    "desc": "9 сентября руководитель Alignment Science в Anthropic Эван Хубингер написал довольно безумную для человека на такой должности вещь: лично он оценивает вероятность того, что AI убьёт всех людей в течение ближайших десяти лет, выше 10% . Поводом стало увольнение его коллеги Джейкоба Коксона. Тот тр...",
     "date": "2026-09-17",
     "source": "Habr ML",
     "cat": "ai",
@@ -896,6 +887,15 @@
     "desc": "На этой неделе компания OpenAI рассказала о нескольких случаях нештатного поведения своих ИИ-моделей в процессе их тестирования. В одном из таких эпизодов невыпущенная модель семейства Astra самостоятельно скорректировала собственные инструкции, и результат получился достаточно тревожным. Источни...",
     "date": "2026-09-17",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Я перестал пользоваться самыми умными ИИ‑моделями. Программировать стало быстрее и дешевле",
+    "link": "https://habr.com/ru/articles/1083368/?utm_campaign=1083368&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В отпуске есть время подумать и исследовать. Я натолкнулся на несколько вещей и открытий для себя. Оказалось, что мне как программисту перестали быть нужны самые умные и дорогие ИИ‑модели. Оказывается, есть такой параметр «Cost per Task», и по этому параметру на первое место вырвалась модель GPT-...",
+    "date": "2026-09-17",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
