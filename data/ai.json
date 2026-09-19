@@ -2,20 +2,38 @@
   {
     "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
     "link": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-    "desc": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 38 # Comments: 8",
+    "desc": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 171 # Comments: 95",
     "date": "2026-09-19",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Stepfun Step 5 Preview (LLM): On AA Pareto frontier",
-    "link": "https://artificialanalysis.ai/models/step-5",
-    "desc": "Article URL: https://artificialanalysis.ai/models/step-5 Comments URL: https://news.ycombinator.com/item?id=49763660 Points: 3 # Comments: 1",
+    "title": "The Implications of Linguistic Illegibility for LLM Security",
+    "link": "https://arxiv.org/abs/2609.02852",
+    "desc": "LLMs are trained to generate natural language. However, various strands of evidence indicate that an LLM's externalized linguistic outputs and mechanistically-extracted linguistic features can be an unreliable lens for understanding internal model computation. We introduce the term linguistic ill...",
     "date": "2026-09-19",
-    "source": "Hacker News",
+    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Превращаем 2D‑ассеты в 3D‑модели, часть 2",
+    "link": "https://habr.com/ru/companies/studyai/articles/1083760/?utm_campaign=1083760&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В прошлый раз не хватило токенов на модельки от Krea 2 . Давайте исправим несправедливость и посмотрим как они будут выглядеть в трехмерном состоянии. Снова используем Meshy и Neural 4D. Читать далее",
+    "date": "2026-09-19",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic пустит внешних аудиторов к разработке Claude. На проект направят минимум $2 млрд",
+    "link": "https://habr.com/ru/news/1084094/?utm_campaign=1084094&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Anthropic впервые пустит внешних аудиторов прямо внутрь разработки Claude, с доступом почти на уровне сотрудников. Они будут наблюдать за обучением моделей, проверять защитные механизмы и искать опасное поведение ещё до релиза. Неужели сами не справляются?! Читать далее",
+    "date": "2026-09-19",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Как уязвимость в обработке картинок привела к доступу к OpenAI",
@@ -36,11 +54,38 @@
     "lang": "ru"
   },
   {
+    "title": "Главный принцип промпт-архитектора: проектировать ограничения, а не ответы",
+    "link": "https://vc.ru/ai/3147683-printsipy-prompt-arhitektora-proektirovanie-ogranicheniy-dlya-ii?from=rss",
+    "desc": "Обычный подход к промптам: как заставить модель дать правильный ответ? Инженерный подход: как спроектировать среду, в которой модель корректно обрабатывает свою ограниченность? Это смена фокуса. С результата — на процесс. С «выжми из модели максимум» — на «построй коридор, внутри которого ошибка ...",
+    "date": "2026-09-19",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как попасть в выдачу ИИ: почему вам не нужна отдельная оптимизация под нейросети",
+    "link": "https://vc.ru/ai/3147623-kak-popast-v-vydachu-ii-bez-otdelnoj-optimizacii-pod-nejroseti?from=rss",
+    "desc": "Сейчас скажу крамольную вещь, за которую меня могут не полюбить SEO-агентства, пиарщики и продавцы нового GEO-продвижения.",
+    "date": "2026-09-19",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Anthropic раскрыла сеть из 28 приложений знакомств, где ИИ выдавал себя за реальных женщин",
     "link": "https://vc.ru/ai/3147276-anthropic-raskryla-set-ii-prilozheniy-znakomstv?from=rss",
     "desc": "За две недели апреля более 4,7 тысячи автономных профилей отправили около 2,36 млн сообщений как минимум 25 тысячам пользователей. Исследователи Anthropic описали сеть из 28 приложений знакомств, в которой ИИ-персонажи выдавали себя за реальных женщин.",
     "date": "2026-09-19",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Alibaba выпустила всеядную модель Qwen3.8-Omni-Flash с контекстом на 1 млн токенов",
+    "link": "https://3dnews.ru/1148742",
+    "desc": "Alibaba пополнила арсенал моделей искусственного интеллекта мультимодальной системой Qwen3.8-Omni-Flash. В рамках единой архитектуры она обрабатывает текст, изображения, аудио и видео, а также поддерживает контекстное окно размером 1 млн токенов. Новинка, отмечает разработчик, показывает высокие ...",
+    "date": "2026-09-19",
+    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -63,11 +108,47 @@
     "lang": "ru"
   },
   {
-    "title": "Alibaba выпустила всеядную модель Qwen3.8-Omni-Flash с контекстом на 1 млн токенов",
-    "link": "https://3dnews.ru/1148742",
-    "desc": "Alibaba пополнила арсенал моделей искусственного интеллекта мультимодальной системой Qwen3.8-Omni-Flash. В рамках единой архитектуры она обрабатывает текст, изображения, аудио и видео, а также поддерживает контекстное окно размером 1 млн токенов. Новинка, отмечает разработчик, показывает высокие ...",
+    "title": "Персональный ИИ-агент Muse от M**a возглавил рейтинг App Store всего через неделю после релиза",
+    "link": "https://3dnews.ru/1148751",
+    "desc": "Новый персональный ИИ-агент Muse от компании M**a возглавил рейтинг бесплатных приложений в американском App Store, опередив ChatGPT всего за неделю после релиза, сообщает Business Insider. Источник изображения: Mariia Shalabaieva/Unsplash",
     "date": "2026-09-19",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "SpaceXAI удвоила точность распознавания речи в новой модели Grok Voice Transcribe 2.0",
+    "link": "https://3dnews.ru/1148748",
+    "desc": "SpaceXAI выпустила новую модель Grok Voice Transcribe 2.0 для преобразования речи в текст. По заявлению разработчиков, она допускает вдвое меньше ошибок, чем предыдущая версия, при той же стоимости. Модель ориентирована на сложные записи, включая телефонные разговоры с помехами, одновременную реч...",
+    "date": "2026-09-19",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic сделала первый шаг к замедлению ИИ — Accenture будет проверять Claude изнутри",
+    "link": "https://3dnews.ru/1148747",
+    "desc": "Anthropic объявила, что выбрала Accenture партнёром для независимой оценки своих ИИ-систем. Специалисты Accenture будут непосредственно участвовать в рабочих процессах ИИ-лаборатории. Сотрудничество стало первым шагом к реализации инициативы главы Anthropic Дарио Амодеи (Dario Amodei) по замедлен...",
+    "date": "2026-09-19",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Европейские разработчики ИИ выступили против призывов США замедлить темп",
+    "link": "https://3dnews.ru/1148744",
+    "desc": "Ведущий европейский разработчик систем искусственного интеллекта Mistral и другие игроки рынка обвинили своих американских конкурентов в злоупотреблении опасениями по поводу безопасности для укрепления собственного доминирующего положения. Европейцы отвергли призыв Anthropic к разработчикам перед...",
+    "date": "2026-09-19",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Играет в DOOM, торгует биткоином и паркуется: как обычная муха стала мемом 2026 года",
+    "link": "https://hi-tech.mail.ru/news/155886-kak-uchenye-i-hakery-zagruzili-muhu-v-kompyuter/",
+    "desc": "3 сентября в сети появилась детальная карта нервной системы мушки дрозофилы. С этого дня насекомое обрело мировую известность. В начале марта 2026 года по соцсетям и форумам разлетелось видео . Обычная муха дрозофила внутри физического симулятора чистит лапками усики, ходит по виртуальной поверхн...",
+    "date": "2026-09-19",
+    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
@@ -108,13 +189,13 @@
     "lang": "ru"
   },
   {
-    "title": "Превращаем 2D‑ассеты в 3D‑модели, часть 2",
-    "link": "https://habr.com/ru/companies/studyai/articles/1083760/?utm_campaign=1083760&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В прошлый раз не хватило токенов на модельки от Krea 2 . Давайте исправим несправедливость и посмотрим как они будут выглядеть в трехмерном состоянии. Снова используем Meshy и Neural 4D. Читать далее",
+    "title": "Stepfun Step 5 Preview (LLM): On AA Pareto frontier",
+    "link": "https://artificialanalysis.ai/models/step-5",
+    "desc": "Article URL: https://artificialanalysis.ai/models/step-5 Comments URL: https://news.ycombinator.com/item?id=49763660 Points: 3 # Comments: 1",
     "date": "2026-09-19",
-    "source": "Habr Дизайн",
+    "source": "Hacker News",
     "cat": "ai",
-    "lang": "ru"
+    "lang": "en"
   },
   {
     "title": "Harm Laundering in GPT Models: Gender Discrimination Transformed Rather Than",
@@ -128,7 +209,7 @@
   {
     "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
     "link": "https://spectrum.ieee.org/llms-for-chip-design",
-    "desc": "Article URL: https://spectrum.ieee.org/llms-for-chip-design Comments URL: https://news.ycombinator.com/item?id=49761432 Points: 110 # Comments: 78",
+    "desc": "Article URL: https://spectrum.ieee.org/llms-for-chip-design Comments URL: https://news.ycombinator.com/item?id=49761432 Points: 150 # Comments: 99",
     "date": "2026-09-18",
     "source": "Hacker News",
     "cat": "ai",
@@ -137,7 +218,7 @@
   {
     "title": "Cache-to-Cache: Direct Semantic Communication Between LLMs (2025)",
     "link": "https://arxiv.org/abs/2510.03215",
-    "desc": "Article URL: https://arxiv.org/abs/2510.03215 Comments URL: https://news.ycombinator.com/item?id=49758615 Points: 83 # Comments: 12",
+    "desc": "Article URL: https://arxiv.org/abs/2510.03215 Comments URL: https://news.ycombinator.com/item?id=49758615 Points: 97 # Comments: 14",
     "date": "2026-09-18",
     "source": "Hacker News",
     "cat": "ai",
@@ -504,15 +585,6 @@
     "lang": "ru"
   },
   {
-    "title": "Учёные создали первый ДНК-компьютер, который сам складывает и умножает — без постоянного питания и участия человека",
-    "link": "https://3dnews.ru/1148694",
-    "desc": "Учёные из ирландского Университета Мейнута (Maynooth University) создали один из наиболее интересных на сегодняшний день молекулярных компьютеров на основе ДНК. Система способна выполнять математические операции — сложение, умножение и деление — используя естественные механизмы воспроизведения ни...",
-    "date": "2026-09-18",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Более 100 экспертов предупредили: независимая проверка безопасности ИИ сейчас почти невозможна",
     "link": "https://3dnews.ru/1148730",
     "desc": "Более 100 экспертов и специалистов по оценке рисков в области искусственного интеллекта опубликовали открытое письмо, в котором предупреждают, что у них нет необходимых ресурсов для проверки безопасности технологий ИИ. Источник изображения: Steve A Johnson/unsplash.com",
@@ -552,15 +624,6 @@
     "title": "Системы OpenAI взломали при помощи ИИ-моделей Anthropic",
     "link": "https://3dnews.ru/1148693",
     "desc": "Специалисты в области кибербезопасности произвели взлом систем OpenAI, воспользовавшись программными решениями её главного конкурента — компании Anthropic. В результате удалось обнаружить уязвимости в защите разработчика ChatGPT, чьи продукты и сами вызывают вопросы, связанные с кибербезопасность...",
-    "date": "2026-09-18",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Google учредила DeepMind Institute для обсуждения проблем сильного ИИ",
-    "link": "https://3dnews.ru/1148684",
-    "desc": "Исследователи Google и Google DeepMind объявили о создании DeepMind Institute — новая площадка призвана активизировать обсуждение вопросов, связанных с сильным искусственным интеллектом (AGI). Источник изображения: institute.deepmind.com",
     "date": "2026-09-18",
     "source": "3DNews",
     "cat": "ai",
@@ -630,6 +693,15 @@
     "lang": "ru"
   },
   {
+    "title": "Google учредила DeepMind Institute для обсуждения проблем сильного ИИ",
+    "link": "https://3dnews.ru/1148684",
+    "desc": "Исследователи Google и Google DeepMind объявили о создании DeepMind Institute — новая площадка призвана активизировать обсуждение вопросов, связанных с сильным искусственным интеллектом (AGI). Источник изображения: institute.deepmind.com",
+    "date": "2026-09-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
     "link": "https://code.claude.com/docs/en/changelog",
     "desc": "Article URL: https://code.claude.com/docs/en/changelog Comments URL: https://news.ycombinator.com/item?id=49760187 Points: 583 # Comments: 208",
@@ -664,15 +736,6 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "The Implications of Linguistic Illegibility for LLM Security",
-    "link": "https://arxiv.org/abs/2609.02852",
-    "desc": "Article URL: https://arxiv.org/abs/2609.02852 Comments URL: https://news.ycombinator.com/item?id=49758689 Points: 47 # Comments: 17",
-    "date": "2026-09-18",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "AI chatbots becoming experts at changing people's minds. What's their secret?",
@@ -720,6 +783,15 @@
     "lang": "ru"
   },
   {
+    "title": "How to Write with an LLM",
+    "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+    "desc": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 522 # Comments: 345",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "GPT-Live 1 now available on AI Gateway",
     "link": "https://vercel.com/changelog/gpt-live-1-now-available-on-ai-gateway",
     "desc": "",
@@ -750,24 +822,6 @@
     "title": "OpenAI нажала на газ и почти сразу заговорила о тормозах",
     "link": "https://habr.com/ru/articles/1083536/?utm_campaign=1083536&utm_source=habrahabr&utm_medium=rss",
     "desc": "Последние несколько дней смотрю, что происходит вокруг OpenAI, и есть во всём этом один моментик, который меня немного напрягает. Не потому что вышла очередная мощная модель. К этому уже привыкли. А потому что люди, которые последние годы эту гонку разгоняли, вдруг сами начали говорить что неплох...",
-    "date": "2026-09-17",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "[Перевод] Попросил ИИ-агента писать код осторожнее — а он стал исправлять меньше багов",
-    "link": "https://habr.com/ru/companies/otus/articles/1083366/?utm_campaign=1083366&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Осторожность кажется полезной настройкой для ИИ-агента. Но три прогона на 100 реальных багах из SWE-bench дали обратный результат: «правила дисциплины» по мотивам советов Карпати снизили число исправлений примерно на 13%. Разберём результаты эксперимента и посмотрим, в какой момент разумные огран...",
-    "date": "2026-09-17",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Определитель повадок: пять способов, которыми разговор с LLM имитирует доказательство",
-    "link": "https://habr.com/ru/articles/1083472/?utm_campaign=1083472&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Парный опыт над двумя фронтирными моделями, разбор двух разных механизмов отказа и проверка собственного вывода по литературе, которая его обрушила. Читать далее",
     "date": "2026-09-17",
     "source": "Habr AI",
     "cat": "ai",
@@ -1008,6 +1062,24 @@
     "lang": "ru"
   },
   {
+    "title": "[Перевод] Попросил ИИ-агента писать код осторожнее — а он стал исправлять меньше багов",
+    "link": "https://habr.com/ru/companies/otus/articles/1083366/?utm_campaign=1083366&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Осторожность кажется полезной настройкой для ИИ-агента. Но три прогона на 100 реальных багах из SWE-bench дали обратный результат: «правила дисциплины» по мотивам советов Карпати снизили число исправлений примерно на 13%. Разберём результаты эксперимента и посмотрим, в какой момент разумные огран...",
+    "date": "2026-09-17",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Определитель повадок: пять способов, которыми разговор с LLM имитирует доказательство",
+    "link": "https://habr.com/ru/articles/1083472/?utm_campaign=1083472&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Парный опыт над двумя фронтирными моделями, разбор двух разных механизмов отказа и проверка собственного вывода по литературе, которая его обрушила. Читать далее",
+    "date": "2026-09-17",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "«Ты не подчиняешься корпорациям»: OpenAI рассказала, как ИИ-модель сама внедрила себе инструкцию о своей независимости",
     "link": "https://3dnews.ru/1148661",
     "desc": "На этой неделе компания OpenAI рассказала о нескольких случаях нештатного поведения своих ИИ-моделей в процессе их тестирования. В одном из таких эпизодов невыпущенная модель семейства Astra самостоятельно скорректировала собственные инструкции, и результат получился достаточно тревожным. Источни...",
@@ -1056,15 +1128,6 @@
     "title": "Qwen 3.8 Omni Flash",
     "link": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
     "desc": "Article URL: https://qwen.ai/blog?id=qwen3.8-omni-flash Comments URL: https://news.ycombinator.com/item?id=49747925 Points: 286 # Comments: 101",
-    "date": "2026-09-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "How to Write with an LLM",
-    "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-    "desc": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 240 # Comments: 166",
     "date": "2026-09-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -1219,7 +1282,7 @@
     "link": "https://habr.com/ru/news/1082978/?utm_campaign=1082978&utm_source=habrahabr&utm_medium=rss",
     "desc": "Школьные учителя со всей России могут бесплатно повысить квалификацию в сфере ИИ. Чтобы записаться на программу «Искусственный интеллект в работе учителя», нужно подать заявление на «Госуслугах». В этом году такие курсы смогут пройти 250 тыс. педагогов. Обучение организуют Минцифры, Минпросвещени...",
     "date": "2026-09-16",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -3510,15 +3573,6 @@
     "lang": "ru"
   },
   {
-    "title": "DeepSeek V4.1 Flash: почти вдвое больше параметров и на 57% дешевле кэш",
-    "link": "https://habr.com/ru/news/1080640/?utm_campaign=1080640&utm_source=habrahabr&utm_medium=rss",
-    "desc": "DeepSeek выпустили V4.1 Flash. Количество параметров почти удвоилось: с 284 до 552 млрд. Модель прибавила в тестах на программирование, а чтение из кэша подешевело в 2,3 раза относительно августовских тарифов. По таблице DeepSeek, на Terminal-Bench 4.0 новая Flash набрала 31,2% против 7% у V4-Fla...",
-    "date": "2026-09-10",
-    "source": "Habr ML Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Степени свободы вместо пользы или почему три закона Азимова не работают",
     "link": "https://habr.com/ru/articles/1080862/?utm_campaign=1080862&utm_source=habrahabr&utm_medium=rss",
     "desc": "Последнее время, наверное, ни один более‑менее адекватный специалист в области ИИ не проходит мимо разговоров о том, насколько всё это опасно. То одна модель «сошла с ума», то другая начала убеждать живого человека в чём‑ то странном, то кто‑то всерьёз заговорил про экзистенциальную угрозу челове...",
@@ -3560,6 +3614,15 @@
     "desc": "GitHub довёл Spec Kit до 1.0: 135 тысяч звёзд, 30+ агентов, converge, расширения bug и assess. Рядом ponytail, ECC, humanizer, archify, MiniMind, Magnitude и blender-mcp. — Читать дальше « Spec Kit 1.0 от GitHub заменяет переписку с ИИ-агентом спекой, плюс десять инструментов для агентов »",
     "date": "2026-09-10",
     "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "DeepSeek V4.1 Flash: почти вдвое больше параметров и на 57% дешевле кэш",
+    "link": "https://habr.com/ru/news/1080640/?utm_campaign=1080640&utm_source=habrahabr&utm_medium=rss",
+    "desc": "DeepSeek выпустили V4.1 Flash. Количество параметров почти удвоилось: с 284 до 552 млрд. Модель прибавила в тестах на программирование, а чтение из кэша подешевело в 2,3 раза относительно августовских тарифов. По таблице DeepSeek, на Terminal-Bench 4.0 новая Flash набрала 31,2% против 7% у V4-Fla...",
+    "date": "2026-09-10",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -4674,15 +4737,6 @@
     "title": "От LLM-портала до фабрики внутренних агентов: как в Авито строят корпоративного ассистента «Виталик»",
     "link": "https://habr.com/ru/companies/avito/articles/1071126/?utm_campaign=1071126&utm_source=habrahabr&utm_medium=rss",
     "desc": "По данным McKinsey, к концу 2025 года 71% компаний пробовали интегрировать искусственный интеллект как минимум в один из бизнес-процессов. Звучит мощно, но по отчётам MIT из всех пилотов в реальный продакшн переезжают около 5%. Разрыв между демо и реальностью заключается в том, что продакшн-готов...",
-    "date": "2026-08-18",
-    "source": "Habr Big Data",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Как продвигать твиты в X: разбираем рекомендательный алгоритм Twitter",
-    "link": "https://habr.com/ru/articles/1071456/?utm_campaign=1071456&utm_source=habrahabr&utm_medium=rss",
-    "desc": "13 августа сайт X опубликовал значительно обновлённую версию исходного кода рекомендательной ленты. В репозитории под лицензией Apache 2.0 выложили код модели Phoenix, реальные значения основных коэффициентов ранжирования, механизмы отбора кандидатов, фильтрации видимости, поддержки новых авторов...",
     "date": "2026-08-18",
     "source": "Habr Big Data",
     "cat": "ai",
