@@ -2,24 +2,15 @@
   {
     "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
     "link": "https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
-    "desc": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 244 # Comments: 126",
+    "desc": "Article URL: https://www.prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio Comments URL: https://news.ycombinator.com/item?id=49763987 Points: 268 # Comments: 135",
     "date": "2026-09-19",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
-    "link": "https://spectrum.ieee.org/llms-for-chip-design",
-    "desc": "Comments",
-    "date": "2026-09-19",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "AI-Disrupt PDLC на практике: где ИИ реально ускоряет, а где создаёт иллюзию продуктивности (опыт на личных проектах)",
-    "link": "https://habr.com/ru/companies/reksoft/articles/1084182/?utm_campaign=1084182&utm_source=habrahabr&utm_medium=rss",
+    "link": "https://habr.com/ru/articles/1084182/?utm_campaign=1084182&utm_source=habrahabr&utm_medium=rss",
     "desc": "Привет, Хабр! Последние месяцы я изучала современные ИИ-инструменты и проверяла их на собственных проектах. Мне было важно не просто генерировать код, а переосмыслить весь цикл разработки: от формулировки задачи до тестирования, ревью и проверки безопасности. Планирование — самый чистый выигрыш Р...",
     "date": "2026-09-19",
     "source": "Habr AI",
@@ -77,6 +68,15 @@
     "desc": "Команда Hacktron нашла цепочку из двух багов. Первый жил в обработке HEIF (High Efficiency Image File Format) — это современный высокоэффективный формат хранения изображений, а HEIC — его конкретная разновидность (контейнер), использующая кодек HEVC для сжатия фото на устройствах Apple \" data-abb...",
     "date": "2026-09-19",
     "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ-агенту запретили запись в CRM. Но CRM всё равно изменилась",
+    "link": "https://habr.com/ru/articles/1084190/?utm_campaign=1084190&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Почему ограничение полномочий модели ещё не означает, что AI-система действительно стала read-only. Разбираем runtime control на примере n8n + DeepSeek + HubSpot. Читать далее",
+    "date": "2026-09-19",
+    "source": "Habr DevOps",
     "cat": "ai",
     "lang": "ru"
   },
@@ -265,6 +265,15 @@
     "link": "https://arxiv.org/abs/2609.20779",
     "desc": "Article URL: https://arxiv.org/abs/2609.20779 Comments URL: https://news.ycombinator.com/item?id=49763234 Points: 4 # Comments: 0",
     "date": "2026-09-19",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+    "link": "https://spectrum.ieee.org/llms-for-chip-design",
+    "desc": "Article URL: https://spectrum.ieee.org/llms-for-chip-design Comments URL: https://news.ycombinator.com/item?id=49761432 Points: 175 # Comments: 122",
+    "date": "2026-09-18",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
@@ -837,6 +846,15 @@
     "lang": "ru"
   },
   {
+    "title": "How to Write with an LLM",
+    "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+    "desc": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 567 # Comments: 361",
+    "date": "2026-09-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "GPT-Live 1 now available on AI Gateway",
     "link": "https://vercel.com/changelog/gpt-live-1-now-available-on-ai-gateway",
     "desc": "",
@@ -1105,15 +1123,6 @@
     "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "How to Write with an LLM",
-    "link": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-    "desc": "Article URL: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/ Comments URL: https://news.ycombinator.com/item?id=49747070 Points: 531 # Comments: 353",
-    "date": "2026-09-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "[Перевод] Попросил ИИ-агента писать код осторожнее — а он стал исправлять меньше багов",
@@ -3312,15 +3321,6 @@
     "lang": "ru"
   },
   {
-    "title": "Agent‑Ops 0.4.0: ИИ предлагает, человек решает, программа исполняет",
-    "link": "https://habr.com/ru/articles/1081344/?utm_campaign=1081344&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет! Я Сергей Житинский, основатель Git in Sky. Мы занимаемся эксплуатацией и технической поддержкой ИТ-инфраструктуры. Agent-Ops — проект открытой отраслевой методологии совместной работы инженеров и ИИ-агентов. Мы начали разрабатывать его весной этого года и сейчас выложили первый кандидат в...",
-    "date": "2026-09-11",
-    "source": "Habr DevOps",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Atlassian добавит в Jira управляемые циклы ИИ-агентов",
     "link": "https://tproger.ru/news/atlassian-dobavit-v-jira-upravlyaemye-cikly-ii-agentov",
     "desc": "Jira будет передавать задачи ИИ-агентам, запускать тесты и создавать pull request. Разработчики сохранят контроль над ревью и слиянием кода. — Читать дальше « Atlassian добавит в Jira управляемые циклы ИИ-агентов »",
@@ -3353,6 +3353,15 @@
     "desc": "Плагин google-cloud-developer объединяет навыки, рекомендации по работе с gcloud CLI и доступ к официальной документации через MCP. — Читать дальше « Google выпустила плагин google-cloud-developer для ИИ-агентов »",
     "date": "2026-09-11",
     "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Agent‑Ops 0.4.0: ИИ предлагает, человек решает, программа исполняет",
+    "link": "https://habr.com/ru/articles/1081344/?utm_campaign=1081344&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет! Я Сергей Житинский, основатель Git in Sky. Мы занимаемся эксплуатацией и технической поддержкой ИТ-инфраструктуры. Agent-Ops — проект открытой отраслевой методологии совместной работы инженеров и ИИ-агентов. Мы начали разрабатывать его весной этого года и сейчас выложили первый кандидат в...",
+    "date": "2026-09-11",
+    "source": "Habr DevOps",
     "cat": "ai",
     "lang": "ru"
   },
@@ -3645,15 +3654,6 @@
     "lang": "ru"
   },
   {
-    "title": "Spec Kit 1.0 от GitHub заменяет переписку с ИИ-агентом спекой, плюс десять инструментов для агентов",
-    "link": "https://tproger.ru/news/spec-kit-1-0-i-eshhyo-desyat-ii-repozitoriev-sobravwih-zvyozdy-za-n",
-    "desc": "GitHub довёл Spec Kit до 1.0: 135 тысяч звёзд, 30+ агентов, converge, расширения bug и assess. Рядом ponytail, ECC, humanizer, archify, MiniMind, Magnitude и blender-mcp. — Читать дальше « Spec Kit 1.0 от GitHub заменяет переписку с ИИ-агентом спекой, плюс десять инструментов для агентов »",
-    "date": "2026-09-10",
-    "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Cerebrium",
     "link": "https://www.awwwards.com/sites/cerebrium",
     "desc": "Serverless infrastructure for real-time AI. Deploy voice agents, LLMs, and AI workloads with instant scaling, global regions, and built-in observability.",
@@ -3661,6 +3661,15 @@
     "source": "Awwwards",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Spec Kit 1.0 от GitHub заменяет переписку с ИИ-агентом спекой, плюс десять инструментов для агентов",
+    "link": "https://tproger.ru/news/spec-kit-1-0-i-eshhyo-desyat-ii-repozitoriev-sobravwih-zvyozdy-za-n",
+    "desc": "GitHub довёл Spec Kit до 1.0: 135 тысяч звёзд, 30+ агентов, converge, расширения bug и assess. Рядом ponytail, ECC, humanizer, archify, MiniMind, Magnitude и blender-mcp. — Читать дальше « Spec Kit 1.0 от GitHub заменяет переписку с ИИ-агентом спекой, плюс десять инструментов для агентов »",
+    "date": "2026-09-10",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "DeepSeek V4.1 Flash: почти вдвое больше параметров и на 57% дешевле кэш",
