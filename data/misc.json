@@ -150,16 +150,6 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "PrismML представила не очень большую языковую модель, которая почти не хуже большого оригинала",
-    "link": "https://3dnews.ru/1148687",
-    "desc": "Лаборатория искусственного интеллекта PrismML представила новую языковую модель, которая имеет достаточно компактные размеры, чтобы работать на обычных ПК и мощных смартфонах. Компания делает ставку на то, что подобные системы не обязательно должны иметь колоссальные размеры. Источник изображения...",
-    "date": "2026-09-18",
-    "source": "3DNews",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "Altman and Amodei’s “unsafe at any prompt” moment for AI",
     "link": "https://uxdesign.cc/altman-and-amodeis-unsafe-at-any-prompt-moment-for-ai-6a73f144b56e?source=rss----138adf9c44c---4",
     "desc": "",
@@ -167,6 +157,16 @@
     "source": "UX Collective",
     "cat": "misc",
     "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "PrismML представила не очень большую языковую модель, которая почти не хуже большого оригинала",
+    "link": "https://3dnews.ru/1148687",
+    "desc": "Лаборатория искусственного интеллекта PrismML представила новую языковую модель, которая имеет достаточно компактные размеры, чтобы работать на обычных ПК и мощных смартфонах. Компания делает ставку на то, что подобные системы не обязательно должны иметь колоссальные размеры. Источник изображения...",
+    "date": "2026-09-18",
+    "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
     "misc_type": "raznoe"
   },
   {
@@ -7235,106 +7235,6 @@
     "desc": "",
     "date": "2026-06-24",
     "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-    "link": "https://huggingface.co/blog/huggingface-hub-release-ci",
-    "desc": "",
-    "date": "2026-06-23",
-    "source": "Hugging Face",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
-    "link": "https://huggingface.co/blog/cross-origin-storage",
-    "desc": "",
-    "date": "2026-06-23",
-    "source": "Hugging Face",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Closing the loop: Evaluating and improving Replit Agent at scale",
-    "link": "https://replit.com/blog/evaluating-and-improving-agent-at-scale",
-    "desc": "Most Replit Agent users start with an idea. They describe the goal in natural language — without a repo, test suite, or chosen framework — and expect the agent to turn it into a functioning app. The result might be a website, slide deck, mobile app, several connected artifacts, or something else ...",
-    "date": "2026-06-23",
-    "source": "Replit",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Deploy Node servers with zero configuration",
-    "link": "https://vercel.com/changelog/deploy-node-servers-with-zero-configuration",
-    "desc": "",
-    "date": "2026-06-23",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Vercel CLI now supports verifying DNS configuration",
-    "link": "https://vercel.com/changelog/vercel-cli-now-supports-verifying-dns-configuration",
-    "desc": "",
-    "date": "2026-06-23",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Scaffold your chat apps with create-chat-sdk",
-    "link": "https://vercel.com/changelog/scaffold-your-chat-apps-with-create-chat-sdk",
-    "desc": "",
-    "date": "2026-06-23",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Preserve local environment variables when linking with the Vercel CLI",
-    "link": "https://vercel.com/changelog/preserve-local-environment-variables-when-linking-with-the-vercel-cli",
-    "desc": "",
-    "date": "2026-06-23",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Custom OIDC Token Audiences",
-    "link": "https://vercel.com/changelog/custom-oidc-token-audiences",
-    "desc": "",
-    "date": "2026-06-23",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Redesigned trace viewer for Vercel Workflows",
-    "link": "https://vercel.com/changelog/redesigned-trace-viewer-for-vercel-workflows",
-    "desc": "",
-    "date": "2026-06-23",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "State of Railway: Agents",
-    "link": "https://blog.railway.com/p/state-of-railway-agents",
-    "desc": "Railway is turning the full deploy loop into something agents can actually drive: discovering Railway, signing up, shipping the first deploy, debugging failures, iterating in sandboxes, and handing off platform work to Railway Agent. We cover the agent-first CLI, local and remote MCP, Railway ski...",
-    "date": "2026-06-23",
-    "source": "Railway",
     "cat": "misc",
     "lang": "en",
     "misc_type": "unfiltered"
