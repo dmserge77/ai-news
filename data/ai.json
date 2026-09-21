@@ -1,17 +1,8 @@
 [
   {
-    "title": "OpenAI's Sam Altman to Brief UN Security Council Next Week",
-    "link": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
-    "desc": "Article URL: https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/ Comments URL: https://news.ycombinator.com/item?id=49779802 Points: 11 # Comments: 1",
-    "date": "2026-09-20",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "I turned Jev into a (lousy) chatbot",
     "link": "https://github.com/kyle-pena-nlp/jevchat/",
-    "desc": "Article URL: https://github.com/kyle-pena-nlp/jevchat/ Comments URL: https://news.ycombinator.com/item?id=49778162 Points: 62 # Comments: 17",
+    "desc": "Article URL: https://github.com/kyle-pena-nlp/jevchat/ Comments URL: https://news.ycombinator.com/item?id=49778162 Points: 82 # Comments: 28",
     "date": "2026-09-20",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,20 +11,20 @@
   {
     "title": "ChatGPT now knows what you do on other websites via ad collector",
     "link": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
-    "desc": "Article URL: https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/ Comments URL: https://news.ycombinator.com/item?id=49776729 Points: 399 # Comments: 198",
+    "desc": "Article URL: https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/ Comments URL: https://news.ycombinator.com/item?id=49776729 Points: 549 # Comments: 302",
     "date": "2026-09-20",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Pirate Face Rescues LLM Models from Deletion",
-    "link": "https://pirateface.co/",
-    "desc": "Article URL: https://pirateface.co/ Comments URL: https://news.ycombinator.com/item?id=49776699 Points: 341 # Comments: 112",
+    "title": "Пока Китай отдыхает, DeepSeek дешевеет",
+    "link": "https://habr.com/ru/articles/1084426/?utm_campaign=1084426&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Считать стоимость использования DeepSeek становится всё менее просто. Токены DeepSeek не одинаково полезны стоят сильно по-разному. В пиковые часы цена в два раза дороже. Сначала пиковые часы были каждый день с 01:00 до 04:00 и с 06:00 до 10:00 UTC. Желающие экономить научились переводить UTC в M...",
     "date": "2026-09-20",
-    "source": "Hacker News",
+    "source": "Habr AI",
     "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
   },
   {
     "title": "LLM против ZX Spectrum. Часть 3",
@@ -56,7 +47,7 @@
   {
     "title": "Alibaba выпустила Qwen-Image 2.1 с генерацией прозрачных изображений",
     "link": "https://habr.com/ru/news/1084442/?utm_campaign=1084442&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Команда Qwen из Alibaba опубликовала веса Qwen-Image 2.1. Модель объединяет генерацию и редактирование изображений, работает в нативном разрешении 2K и умеет создавать картинки с прозрачным фоном. Разбираемся в новом обзоре от AI Native . Читать далее",
+    "desc": "Команда Qwen из Alibaba опубликовала веса Qwen-Image 2.1. Модель объединяет генерацию и редактирование изображений, работает в нативном разрешении 2K и умеет создавать картинки с прозрачным фоном. Читать далее",
     "date": "2026-09-20",
     "source": "Habr AI Новости",
     "cat": "ai",
@@ -196,6 +187,24 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "OpenAI's Sam Altman to Brief UN Security Council Next Week",
+    "link": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
+    "desc": "Article URL: https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/ Comments URL: https://news.ycombinator.com/item?id=49779802 Points: 11 # Comments: 1",
+    "date": "2026-09-20",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Pirate Face Rescues LLM Models from Deletion",
+    "link": "https://pirateface.co/",
+    "desc": "Article URL: https://pirateface.co/ Comments URL: https://news.ycombinator.com/item?id=49776699 Points: 341 # Comments: 112",
+    "date": "2026-09-20",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Qwen-Image-2.1: Compact, efficient, and unified image creation",
@@ -351,42 +360,6 @@
     "lang": "ru"
   },
   {
-    "title": "Исследователь OpenAI предупредил: ИИ-агенты способны общаться даже на отключённых от Сети компьютерах",
-    "link": "https://3dnews.ru/1148756",
-    "desc": "Исследователь OpenAI Ноам Браун (Noam Brown), обсуждая майский инцидент, в ходе которого экспериментальные ИИ-агенты компании вышли за пределы тестовой среды и получили доступ к ресурсам Hugging Face, назвал одну из причин, по которой их действия не были остановлены вовремя. Браун также предупред...",
-    "date": "2026-09-19",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Создана не имеющая аналогов плёночная теплоизоляция — она сдерживает тепло в пять раз лучше силикона",
-    "link": "https://3dnews.ru/1148754",
-    "desc": "Учёные из Университета штата Северная Каролина создали плотный, непористый материал, который одновременно обладает крайне низкой теплопроводностью и высокой механической жёсткостью. Обычно это не сочетаемые свойства, и открытие стало настоящим прорывом максимально близким к теоретическому пределу...",
-    "date": "2026-09-19",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Выручка OpenAI к концу 2030 года вырастет до $350 млрд, но всё равно не сможет покрыть расходы",
-    "link": "https://3dnews.ru/1148737",
-    "desc": "Хотя OpenAI из-за всей этой шумихи с безопасностью ИИ и не торопится выходить на IPO в текущем году, информацию о своих планах и финансовых достижениях компания инвесторам регулярно предоставляет. Новая порция этих данных гласит, что в период с 2026 по 2030 годы включительно OpenAI «уйдёт в минус...",
-    "date": "2026-09-19",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Anthropic решила провести IPO в ноябре, и скоро выйдет на уровень годовой выручки в $100 млрд",
-    "link": "https://3dnews.ru/1148736",
-    "desc": "Этим летом считалось, что Anthropic выйдет на биржу либо в конце сентября, либо в октябре. Первый месяц осени движется к своему завершению, и теперь The Wall Street Journal сообщает, что этот американский стартап собирается провести IPO в ноябре, чтобы успеть поделиться финансовыми итогами третье...",
-    "date": "2026-09-19",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Персональный ИИ-агент Muse от M**a возглавил рейтинг App Store всего через неделю после релиза",
     "link": "https://3dnews.ru/1148751",
     "desc": "Новый персональный ИИ-агент Muse от компании M**a возглавил рейтинг бесплатных приложений в американском App Store, опередив ChatGPT всего за неделю после релиза, сообщает Business Insider. Источник изображения: Mariia Shalabaieva/Unsplash",
@@ -423,6 +396,24 @@
     "lang": "ru"
   },
   {
+    "title": "Исследователь OpenAI предупредил: ИИ-агенты способны общаться даже на отключённых от Сети компьютерах",
+    "link": "https://3dnews.ru/1148756",
+    "desc": "Исследователь OpenAI Ноам Браун (Noam Brown), обсуждая майский инцидент, в ходе которого экспериментальные ИИ-агенты компании вышли за пределы тестовой среды и получили доступ к ресурсам Hugging Face, назвал одну из причин, по которой их действия не были остановлены вовремя. Браун также предупред...",
+    "date": "2026-09-19",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Создана не имеющая аналогов плёночная теплоизоляция — она сдерживает тепло в пять раз лучше силикона",
+    "link": "https://3dnews.ru/1148754",
+    "desc": "Учёные из Университета штата Северная Каролина создали плотный, непористый материал, который одновременно обладает крайне низкой теплопроводностью и высокой механической жёсткостью. Обычно это не сочетаемые свойства, и открытие стало настоящим прорывом максимально близким к теоретическому пределу...",
+    "date": "2026-09-19",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Играет в DOOM, торгует биткоином и паркуется: как обычная муха стала мемом 2026 года",
     "link": "https://hi-tech.mail.ru/news/155886-kak-uchenye-i-hakery-zagruzili-muhu-v-kompyuter/",
     "desc": "3 сентября в сети появилась детальная карта нервной системы мушки дрозофилы. С этого дня насекомое обрело мировую известность. В начале марта 2026 года по соцсетям и форумам разлетелось видео . Обычная муха дрозофила внутри физического симулятора чистит лапками усики, ходит по виртуальной поверхн...",
@@ -450,11 +441,20 @@
     "lang": "ru"
   },
   {
-    "title": "Как кофе влияет на спящий мозг: ответ ученых",
-    "link": "https://hi-tech.mail.ru/news/127885-kak-kofe-vliyaet-na-spyashij-mozg-otvet-uchenyh/",
-    "desc": "Влияние кофеина на ночной сон и процессы восстановления мозга. Раскрываем важные факты, которые необходимо знать каждому любителю кофе. Кофеин присутствует не только в кофейных зернах, но и в чае, шоколаде, энергетиках и ряде популярных напитков, что сделало его одним из самых распространенных ст...",
+    "title": "Выручка OpenAI к концу 2030 года вырастет до $350 млрд, но всё равно не сможет покрыть расходы",
+    "link": "https://3dnews.ru/1148737",
+    "desc": "Хотя OpenAI из-за всей этой шумихи с безопасностью ИИ и не торопится выходить на IPO в текущем году, информацию о своих планах и финансовых достижениях компания инвесторам регулярно предоставляет. Новая порция этих данных гласит, что в период с 2026 по 2030 годы включительно OpenAI «уйдёт в минус...",
     "date": "2026-09-19",
-    "source": "Hi-Tech Mail",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic решила провести IPO в ноябре, и скоро выйдет на уровень годовой выручки в $100 млрд",
+    "link": "https://3dnews.ru/1148736",
+    "desc": "Этим летом считалось, что Anthropic выйдет на биржу либо в конце сентября, либо в октябре. Первый месяц осени движется к своему завершению, и теперь The Wall Street Journal сообщает, что этот американский стартап собирается провести IPO в ноябре, чтобы успеть поделиться финансовыми итогами третье...",
+    "date": "2026-09-19",
+    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -553,7 +553,7 @@
     "link": "https://habr.com/ru/companies/rolf_autotech/articles/1083810/?utm_campaign=1083810&utm_source=habrahabr&utm_medium=rss",
     "desc": "НАР РУЧКУ ДВЕРЬ РАСПАШ З ПР С/У Это не битая кодировка и не ошибка миграции. Это настоящее название работы из нашего справочника. За 35 лет в нём накопилось 474 712 строк: сокращения, дубли, опечатки, разные языки и разные варианты одной и той же операции. Опытный мастер-консультант многое понима...",
     "date": "2026-09-18",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -562,7 +562,7 @@
     "link": "https://habr.com/ru/companies/hostkey/articles/1078596/?utm_campaign=1078596&utm_source=habrahabr&utm_medium=rss",
     "desc": "ИИ заменит нас или просто изменит способ работы? Пока одни боятся массовой безработицы, а другие жалуются на «нейрослоп» и уничтожение книг, реальная картина оказывается гораздо сложнее. Разбираем сухие цифры статистики, данные Microsoft и отчеты мировых институтов, чтобы понять: перед нами промы...",
     "date": "2026-09-18",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -846,11 +846,29 @@
     "lang": "ru"
   },
   {
-    "title": "«Чебурашка и Винни-Пух в руках пользователей»: «Союзмультфильм» о новой платформе",
-    "link": "https://hi-tech.mail.ru/news/155883-cheburashka-i-vinni-puh-v-rukah-polzovatelej-soyuzmultfilm-o-novoj-platforme/",
-    "desc": "В студии «ВЗУМЕ» на международном фестивале молодежи в Екатеринбурге председатель совета директоров «Союзмультфильма» Юлиана Слащёва ответила на вопрос о платформе, где пользователи смогут сами создавать ролики с Чебурашкой и Винни-Пухом. По ее словам, решение даётся студии непросто. «Дискуссии н...",
+    "title": "Системы OpenAI взломали при помощи ИИ-моделей Anthropic",
+    "link": "https://3dnews.ru/1148693",
+    "desc": "Специалисты в области кибербезопасности произвели взлом систем OpenAI, воспользовавшись программными решениями её главного конкурента — компании Anthropic. В результате удалось обнаружить уязвимости в защите разработчика ChatGPT, чьи продукты и сами вызывают вопросы, связанные с кибербезопасность...",
     "date": "2026-09-18",
-    "source": "Hi-Tech Mail",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Google учредила DeepMind Institute для обсуждения проблем сильного ИИ",
+    "link": "https://3dnews.ru/1148684",
+    "desc": "Исследователи Google и Google DeepMind объявили о создании DeepMind Institute — новая площадка призвана активизировать обсуждение вопросов, связанных с сильным искусственным интеллектом (AGI). Источник изображения: institute.deepmind.com",
+    "date": "2026-09-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Завайбкодили за два вечера, доводили полгода: что отделяет ИИ‑прототип от production",
+    "link": "https://habr.com/ru/articles/1083746/?utm_campaign=1083746&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! С виду даже самый простой проект, который можно «запромптить» в пару подходов, содержит десятки подводных камней, из-за которых его нельзя назвать production-ready. В этой статье я расскажу, с какими проблемами столкнулась моя команда при разработке сервиса «Запомни это» с помощью н...",
+    "date": "2026-09-18",
+    "source": "Habr Дизайн",
     "cat": "ai",
     "lang": "ru"
   },
@@ -878,33 +896,6 @@
     "desc": "Новый начальник не будет сидеть в кабинете и раздавать задачи. Им станет алгоритм. Искусственный интеллект уже встраивается в управленческие процессы, освобождая людей от рутины. Разбираемся, как ИИ меняет роль руководителя, какие сценарии работают уже сегодня и почему алгоритмы не смогут заменит...",
     "date": "2026-09-18",
     "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Завайбкодили за два вечера, доводили полгода: что отделяет ИИ‑прототип от production",
-    "link": "https://habr.com/ru/articles/1083746/?utm_campaign=1083746&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! С виду даже самый простой проект, который можно «запромптить» в пару подходов, содержит десятки подводных камней, из-за которых его нельзя назвать production-ready. В этой статье я расскажу, с какими проблемами столкнулась моя команда при разработке сервиса «Запомни это» с помощью н...",
-    "date": "2026-09-18",
-    "source": "Habr Дизайн",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Системы OpenAI взломали при помощи ИИ-моделей Anthropic",
-    "link": "https://3dnews.ru/1148693",
-    "desc": "Специалисты в области кибербезопасности произвели взлом систем OpenAI, воспользовавшись программными решениями её главного конкурента — компании Anthropic. В результате удалось обнаружить уязвимости в защите разработчика ChatGPT, чьи продукты и сами вызывают вопросы, связанные с кибербезопасность...",
-    "date": "2026-09-18",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Google учредила DeepMind Institute для обсуждения проблем сильного ИИ",
-    "link": "https://3dnews.ru/1148684",
-    "desc": "Исследователи Google и Google DeepMind объявили о создании DeepMind Institute — новая площадка призвана активизировать обсуждение вопросов, связанных с сильным искусственным интеллектом (AGI). Источник изображения: institute.deepmind.com",
-    "date": "2026-09-18",
-    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
