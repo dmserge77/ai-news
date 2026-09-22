@@ -1,21 +1,48 @@
 [
   {
-    "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
-    "link": "https://github.com/naw103/foremerge",
-    "desc": "At, GPTree, we run several coding agents across our team on one repo using parallel worktrees. Apart from wasted time reviewing and fixing conflicts at PR time, the failures that hurt the most are when multiple plans or tickets cause architecture changes that cannot both be true. Ex. one agent re...",
-    "date": "2026-09-21",
+    "title": "Claude Status – Elevated errors for multiple models",
+    "link": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+    "desc": "Article URL: https://status.claude.com/incidents/7g1qpkyz5gxh Comments URL: https://news.ycombinator.com/item?id=49795579 Points: 7 # Comments: 0",
+    "date": "2026-09-22",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Grok 4.7",
-    "link": "https://x.ai/news/grok-4-7",
-    "desc": "Article URL: https://x.ai/news/grok-4-7 Comments URL: https://news.ycombinator.com/item?id=49788838 Points: 440 # Comments: 365",
-    "date": "2026-09-21",
-    "source": "Hacker News",
+    "title": "Трендовое видео на День Рождения через нейросеть: промт с шампанским и пистолетом",
+    "link": "https://vc.ru/services/3151658-trendovoe-video-na-den-rozhdeniya-cherez-neiroset-promt-s-shampanskim-i-pistoletom?from=rss",
+    "desc": "Трендовые поздравления давно вышли за пределы обычной открытки. Короткий ролик, где знакомый образ превращается в мини-сцену с интригой, неожиданным реквизитом и эффектным финалом, лучше удерживает внимание и запоминается имениннику. Нейросети позволяют собрать такую историю из фотографии, рефере...",
+    "date": "2026-09-22",
+    "source": "vc.ru",
     "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
+  },
+  {
+    "title": "Официально: Xiaomi 18 Pro получит экран-антишпион",
+    "link": "https://hi-tech.mail.ru/news/156016-xiaomi-18-pro-apparatnaya-zashchita-ekrana/",
+    "desc": "Xiaomi анонсировала Smart Privacy Display для серии Xiaomi 18 Pro: дисплей с аппаратной защитой от чужих взглядов сделает экран почти невидимым для тех, кто смотрит сбоку. Компания Xiaomi анонсировала Smart Privacy Display — дисплей с аппаратной защитой от чужих взглядов — для готовящейся серии X...",
+    "date": "2026-09-22",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Трамп опроверг замедление ИИ в США",
+    "link": "https://hi-tech.mail.ru/news/156013-tramp-obyavil-o-sozdanii-ai-force-i-otkazalsya-ogranichivat/",
+    "desc": "19 сентября Трамп анонсировал новое ведомство AI Force по надзору за ИИ — по аналогии с Космическими войсками — и назвал страхи перед сверхразумом «фейком». 19 сентября президент США Дональд Трамп опубликовал в социальной сети Truth Social пост, в котором отверг призывы замедлить развитие искусст...",
+    "date": "2026-09-22",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Apple готовит умный домашний дисплей с Siri AI: показ ожидается в октябре",
+    "link": "https://hi-tech.mail.ru/news/156012-apple-gotovit-umnyi-domashnii-displei-s-siri-ai/",
+    "desc": "Раскрыты детали нового устройства Apple — умного домашнего дисплея с семидюймовым экраном, голосовым ассистентом Siri AI и распознаванием лиц. Журналист Bloomberg Марк Гурман сообщает , что Apple готовит умный домашний дисплей, который может выйти уже в октябре 2026 года. Устройство сейчас проход...",
+    "date": "2026-09-22",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Creating a Blog in Gemini://",
@@ -43,6 +70,15 @@
     "source": "Vercel",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Гига Писарь: полторы недели после первой статьи. Сколько установок и какие грабли",
+    "link": "https://habr.com/ru/articles/1084906/?utm_campaign=1084906&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! С моей первой статьи прошло чуть больше недели, я не ждал, что её вообще одобрят, у меня до этого даже аккаунта на Хабре не было. Программированием я никогда не занимался, хотя интересно было всегда, а потом пришли новые технологии, и код за тебя теперь могут писать роботы. Пересказ...",
+    "date": "2026-09-21",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "[Перевод] Как устроены LLM: разбираем на примере 3-уровневой абстракции",
@@ -176,15 +212,6 @@
     "desc": "Как ускорить ИИ-агента с RAG в проде и не слить бюджет: на примере ИИ-консультанта Статья будет полезна инженерам, продактам и всем неравнодушным, кто хочет разбираться в теме чуть глубже, чем обычный пользователь. А поговорим мы сегодня о том, с какими проблемами такие агенты живут в продакшене,...",
     "date": "2026-09-21",
     "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Гига Писарь: полторы недели после первой статьи. Сколько установок и какие грабли",
-    "link": "https://habr.com/ru/articles/1084906/?utm_campaign=1084906&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! С моей первой статьи прошло чуть больше недели, я не ждал, что её вообще одобрят, у меня до этого даже аккаунта на Хабре не было. Программированием я никогда не занимался, хотя интересно было всегда, а потом пришли новые технологии, и код за тебя теперь могут писать роботы. Пересказ...",
-    "date": "2026-09-21",
-    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -369,27 +396,18 @@
     "lang": "ru"
   },
   {
-    "title": "Acer, Dell, HP и Asus представили свои версии Googlebook с процессорами Intel Core Ultra 300 и Snapdragon X Elite",
-    "link": "https://3dnews.ru/1148818",
-    "desc": "Компании Acer, Dell, HP и Asus представили свои первые ноутбуки Googlebook на базе процессоров Intel Panther Lake и Qualcomm Snapdragon X Elite. Новинки поставляются с операционной системой Googlebook OS (известной по внутреннему названию Aluminium OS), по сути представляющей собой Android с опти...",
-    "date": "2026-09-21",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Протесты местных жителей затормозили строительство половины новых ЦОД в США во втором квартале",
-    "link": "https://3dnews.ru/1148786",
-    "desc": "Крупные проекты по возведению центров обработки данных для инфраструктуры ИИ нередко встречаются с сопротивлением со стороны местных жителей. В США сейчас действуют 843 инициативных групп в 49 штатах, которые выступают против реализации таких проектов. За второй квартал они оказали негативное вли...",
-    "date": "2026-09-21",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Хуанг набрал вес в Белом доме — глава Nvidia фактически стал главным советником Трампа по ИИ",
     "link": "https://3dnews.ru/1148796",
     "desc": "Стремительное развитие бизнеса Nvidia, которое последовало за стартом бума ИИ, явно окрылило основателя и бессменного гендиректора компании Дженсена Хуанга (Jensen Huang). Он стал не только чуть ли не ежедневно давать свои комментарии по волнующим отрасль вопросам, но и регулярно бывает в Белом д...",
+    "date": "2026-09-21",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Acer, Dell, HP и Asus представили свои версии Googlebook с процессорами Intel Core Ultra 300 и Snapdragon X Elite",
+    "link": "https://3dnews.ru/1148818",
+    "desc": "Компании Acer, Dell, HP и Asus представили свои первые ноутбуки Googlebook на базе процессоров Intel Panther Lake и Qualcomm Snapdragon X Elite. Новинки поставляются с операционной системой Googlebook OS (известной по внутреннему названию Aluminium OS), по сути представляющей собой Android с опти...",
     "date": "2026-09-21",
     "source": "3DNews",
     "cat": "ai",
@@ -414,20 +432,38 @@
     "lang": "ru"
   },
   {
-    "title": "Маск раскрыл параметры Starlink Gen3: по 10 Тбит/с и суперкомпьютер NVIDIA на борту",
-    "link": "https://hi-tech.mail.ru/news/155943-mask-raskryl-parametry-starlink-gen3-10-tbit-s/",
-    "desc": "Илон Маск в соцсети X раскрыл ключевые параметры спутников Starlink Gen3: пропускная способность — 10 Тбит/с, мощность — 250 кВт, а на борту — суперкомпьютер NVIDIA. Илон Маск рассказал в соцсети X о технических параметрах спутников Starlink нового поколения — Gen3. По его словам, каждый аппарат ...",
-    "date": "2026-09-21",
-    "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Про то, как я научил своего аватара снимать ролики по сценарию без ИИ-генерации видео (часть 2)",
     "link": "https://habr.com/ru/articles/1083540/?utm_campaign=1083540&utm_source=habrahabr&utm_medium=rss",
     "desc": "Продолжение истории о том, как я делаю собственного цифрового аватара для видеоблога — без нейросетевой генерации видео и необходимости самому появляться перед камерой. В первой версии движок уже умел анимировать аватара, синхронизировать губы с речью и расставлять субтитры. Казалось, с монтажом ...",
     "date": "2026-09-21",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Show HN: Foremerge – Catch intent conflicts between parallel coding agents",
+    "link": "https://github.com/naw103/foremerge",
+    "desc": "At, GPTree, we run several coding agents across our team on one repo using parallel worktrees. Apart from wasted time reviewing and fixing conflicts at PR time, the failures that hurt the most are when multiple plans or tickets cause architecture changes that cannot both be true. Ex. one agent re...",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Grok 4.7",
+    "link": "https://x.ai/news/grok-4-7",
+    "desc": "Article URL: https://x.ai/news/grok-4-7 Comments URL: https://news.ycombinator.com/item?id=49788838 Points: 440 # Comments: 365",
+    "date": "2026-09-21",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Маск раскрыл параметры Starlink Gen3: по 10 Тбит/с и суперкомпьютер NVIDIA на борту",
+    "link": "https://hi-tech.mail.ru/news/155943-mask-raskryl-parametry-starlink-gen3-10-tbit-s/",
+    "desc": "Илон Маск в соцсети X раскрыл ключевые параметры спутников Starlink Gen3: пропускная способность — 10 Тбит/с, мощность — 250 кВт, а на борту — суперкомпьютер NVIDIA. Илон Маск рассказал в соцсети X о технических параметрах спутников Starlink нового поколения — Gen3. По его словам, каждый аппарат ...",
+    "date": "2026-09-21",
+    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
@@ -468,15 +504,6 @@
     "lang": "ru"
   },
   {
-    "title": "LLM против ZX Spectrum. Часть 3",
-    "link": "https://habr.com/ru/articles/1084296/?utm_campaign=1084296&utm_source=habrahabr&utm_medium=rss",
-    "desc": "У меня был доступ к последним Qwen, GLM и Sol. Рядом лежали аккаунты ко всяким Claude c Astra. Не то, чтобы все это реально требовалось для разработки эмулятора ZX-Spectrum, но остановиться было тяжело. В итоге эмулятор получился просто на загляденье и вы можете прочитать про боли и решения в реа...",
-    "date": "2026-09-20",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Alibaba выпустила Qwen-Image 2.1 с генерацией прозрачных изображений",
     "link": "https://habr.com/ru/news/1084442/?utm_campaign=1084442&utm_source=habrahabr&utm_medium=rss",
     "desc": "Команда Qwen из Alibaba опубликовала веса Qwen-Image 2.1. Модель объединяет генерацию и редактирование изображений, работает в нативном разрешении 2K и умеет создавать картинки с прозрачным фоном. Читать далее",
@@ -500,6 +527,15 @@
     "desc": "Anthropic добавили поддержку AGENTS.md в Claude Code 2.1.277. Теперь инструмент может использовать общий файл с инструкциями для coding-агентов вместо отдельного CLAUDE.md . Читать далее",
     "date": "2026-09-20",
     "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "LLM против ZX Spectrum. Часть 3",
+    "link": "https://habr.com/ru/articles/1084296/?utm_campaign=1084296&utm_source=habrahabr&utm_medium=rss",
+    "desc": "У меня был доступ к последним Qwen, GLM и Sol. Рядом лежали аккаунты ко всяким Claude c Astra. Не то, чтобы все это реально требовалось для разработки эмулятора ZX-Spectrum, но остановиться было тяжело. В итоге эмулятор получился просто на загляденье и вы можете прочитать про боли и решения в реа...",
+    "date": "2026-09-20",
+    "source": "Habr Open Source",
     "cat": "ai",
     "lang": "ru"
   },
@@ -765,15 +801,6 @@
     "lang": "ru"
   },
   {
-    "title": "Превращаем 2D‑ассеты в 3D‑модели, часть 2",
-    "link": "https://habr.com/ru/companies/studyai/articles/1083760/?utm_campaign=1083760&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В прошлый раз не хватило токенов на модельки от Krea 2 . Давайте исправим несправедливость и посмотрим как они будут выглядеть в трехмерном состоянии. Снова используем Meshy и Neural 4D. Читать далее",
-    "date": "2026-09-19",
-    "source": "Habr Дизайн",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "SpaceXAI удвоила точность распознавания речи в новой модели Grok Voice Transcribe 2.0",
     "link": "https://3dnews.ru/1148748",
     "desc": "SpaceXAI выпустила новую модель Grok Voice Transcribe 2.0 для преобразования речи в текст. По заявлению разработчиков, она допускает вдвое меньше ошибок, чем предыдущая версия, при той же стоимости. Модель ориентирована на сложные записи, включая телефонные разговоры с помехами, одновременную реч...",
@@ -806,6 +833,15 @@
     "desc": "Alibaba пополнила арсенал моделей искусственного интеллекта мультимодальной системой Qwen3.8-Omni-Flash. В рамках единой архитектуры она обрабатывает текст, изображения, аудио и видео, а также поддерживает контекстное окно размером 1 млн токенов. Новинка, отмечает разработчик, показывает высокие ...",
     "date": "2026-09-19",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Превращаем 2D‑ассеты в 3D‑модели, часть 2",
+    "link": "https://habr.com/ru/companies/studyai/articles/1083760/?utm_campaign=1083760&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В прошлый раз не хватило токенов на модельки от Krea 2 . Давайте исправим несправедливость и посмотрим как они будут выглядеть в трехмерном состоянии. Снова используем Meshy и Neural 4D. Читать далее",
+    "date": "2026-09-19",
+    "source": "Habr Дизайн",
     "cat": "ai",
     "lang": "ru"
   },
