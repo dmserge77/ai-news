@@ -1,10 +1,82 @@
 [
   {
+    "title": "Скорость — главное, что ИИ изменил в кибератаках",
+    "link": "https://habr.com/ru/articles/1085316/?utm_campaign=1085316&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Недавно мы публиковали перевод статьи The Cybersecurity Industry Is Entering Its Third Era. Мы обсудили её с нашей red team-командой и пришли к выводу, что это хороший обзор происходящих изменений, но в нём почти нет главного, что происходит прямо сейчас, пока LLM ещё даже не раскрылись на полную...",
+    "date": "2026-09-23",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "5 технических граблей на пути к AI‑агрегатору Telegram‑каналов",
+    "link": "https://habr.com/ru/articles/1085448/?utm_campaign=1085448&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Делаю в одиночку приложение, которое собирает публикации из подобранных Telegram-каналов по темам, убирает дубли и шум с помощью AI-классификации и превращает результат в короткий аудио-дайджест. Ниже — не обзор архитектуры целиком, а разбор конкретных мест, где план и реальность разошлись, и что...",
+    "date": "2026-09-23",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ знает, что он не знает? Как психология 1970-х может улучшить наш prompt engineering",
+    "link": "https://habr.com/ru/companies/syntx_ai/articles/1085444/?utm_campaign=1085444&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На днях я наткнулся на статью на VC.ru о том, как инженер Anthropic Тарик Шихипар работает с Claude. В основе довольно простая конструкция: перед большой задачей он раскладывает знания на четыре категории. То, что мы знаем. То, про что понимаем, что не знаем. То, что знаем настолько хорошо, что д...",
+    "date": "2026-09-23",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Методология нейрослопа",
+    "link": "https://habr.com/ru/articles/1085426/?utm_campaign=1085426&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Нейросети с нами надолго. Даже если вдруг исчезнут OpenAI, Anthopic, Z.ai и прочие, мой личный Qwen 3.8 27B никуда не денется. Вопрос - a что с этим делать? Как разрабатывать софт в новую эпоху? Можно делать вид, что разработка не изменилась, но это - отрицание реальности. Можно продолжать работа...",
+    "date": "2026-09-23",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Отдал сайт ИИ-агентам: из 111 находок аудита 25 пошли в мусор, 4 оказались выдумкой",
     "link": "https://habr.com/ru/articles/1085422/?utm_campaign=1085422&utm_source=habrahabr&utm_medium=rss",
     "desc": "Мой сайт ведут ИИ-агенты. Они пишут код, правят тексты, проводят ревью, собирают и выкатывают. 207 коммитов. Я не буду рассказывать, как это ускорило работу — ускорило, это скучно и все уже слышали. Расскажу про то, о чём говорят реже: узкое место переехало с написания кода на его проверку. Агент...",
     "date": "2026-09-23",
-    "source": "Habr ML",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic выпустила флагманскую модель Claude Opus 5.5",
+    "link": "https://tproger.ru/news/anthropic-vypustila-flagmanskuyu-model-claude-opus-5-5",
+    "desc": "Anthropic представила флагманскую ИИ-модель Claude Opus 5.5 для программирования и агентных задач. Она работает быстрее и стоит дешевле Opus 5. — Читать дальше « Anthropic выпустила флагманскую модель Claude Opus 5.5 »",
+    "date": "2026-09-23",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI представила GPT-6 Sol — почти как Claude Fable 5.1 в кодинге, но на 80% дешевле",
+    "link": "https://thecode.media/vyshla-gpt-6-sol-pochti-kak-claude-fable-51-v-kodinge-no-deshevle/",
+    "desc": "ИИ-разработка становится все дешевле Сообщение OpenAI представила GPT-6 Sol — почти как Claude Fable 5.1 в кодинге, но на 80% дешевле появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-23",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Вышла Claude Opus 5.5 — модель придумала алгоритм поиска пути быстрее Дейкстры",
+    "link": "https://thecode.media/claude-opus-55-pridumal-kratchajshij-algoritm-poiska-puti/",
+    "desc": "На это у нее ушло примерно полдня Сообщение Вышла Claude Opus 5.5 — модель придумала алгоритм поиска пути быстрее Дейкстры появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-23",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Тема: 5 частых ошибок при самостоятельном развертывании LLM",
+    "link": "https://vc.ru/id6089695/3153850-oshibki-pri-razvertyvanii-llm?from=rss",
+    "desc": "Заголовок 5 частых ошибок при самостоятельном развертывании LLM на сервере",
+    "date": "2026-09-23",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -18,18 +90,18 @@
     "lang": "ru"
   },
   {
-    "title": "GPT-6 Sol and Luna",
-    "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-    "desc": "Article URL: https://openai.com/index/introducing-gpt-6-sol-and-luna/ Comments URL: https://news.ycombinator.com/item?id=49805509 Points: 1133 # Comments: 592",
-    "date": "2026-09-22",
-    "source": "Hacker News",
+    "title": "Что происходит с интернетом в России 23 сентября 2026 года",
+    "link": "https://hi-tech.mail.ru/news/145610-sboi-interneta-v-rossii/",
+    "desc": "Узнайте подробности о жалобах пользователей. Пользователи из России продолжают сталкиваться с различными сбоями в работе интернета. Статистику об этом собирает профильный сервис Downdetector. В каких регионах сегодня наблюдаются проблемы со связью Согласно жалобам пользователей, сбои фиксируют в ...",
+    "date": "2026-09-23",
+    "source": "Hi-Tech Mail",
     "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
   },
   {
-    "title": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
-    "link": "https://www.coveragecat.com/",
-    "desc": "Hey HN! We’re Max and Gabriel the co-founders of Coverage Cat. We’ve been friends for over a decade, met in college then hung out mostly on the internet. We love building products that help people optimize the crufty corners of their lives. Max is a former Google/Microsoft/Two Sigma PM and Gabrie...",
+    "title": "GPT-6 Sol and Luna",
+    "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "desc": "Article URL: https://openai.com/index/introducing-gpt-6-sol-and-luna/ Comments URL: https://news.ycombinator.com/item?id=49805509 Points: 1407 # Comments: 680",
     "date": "2026-09-22",
     "source": "Hacker News",
     "cat": "ai",
@@ -38,7 +110,7 @@
   {
     "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
     "link": "https://artificialanalysis.ai/models/claude-opus-5-5",
-    "desc": "Article URL: https://artificialanalysis.ai/models/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49804316 Points: 230 # Comments: 68",
+    "desc": "Article URL: https://artificialanalysis.ai/models/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49804316 Points: 270 # Comments: 80",
     "date": "2026-09-22",
     "source": "Hacker News",
     "cat": "ai",
@@ -47,7 +119,7 @@
   {
     "title": "Claude Opus 5.5",
     "link": "https://www.anthropic.com/claude-opus-5-5",
-    "desc": "Article URL: https://www.anthropic.com/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49803892 Points: 1166 # Comments: 794",
+    "desc": "Article URL: https://www.anthropic.com/claude-opus-5-5 Comments URL: https://news.ycombinator.com/item?id=49803892 Points: 1423 # Comments: 898",
     "date": "2026-09-22",
     "source": "Hacker News",
     "cat": "ai",
@@ -56,7 +128,7 @@
   {
     "title": "OpenAI is well positioned to fast-follow Jev",
     "link": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
-    "desc": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/ Comments URL: https://news.ycombinator.com/item?id=49802161 Points: 257 # Comments: 190",
+    "desc": "Article URL: https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/ Comments URL: https://news.ycombinator.com/item?id=49802161 Points: 283 # Comments: 204",
     "date": "2026-09-22",
     "source": "Hacker News",
     "cat": "ai",
@@ -65,7 +137,7 @@
   {
     "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
     "link": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-    "desc": "Article URL: https://www.cryptocellar.org/bgac/the-mvueh-break.html Comments URL: https://news.ycombinator.com/item?id=49801324 Points: 551 # Comments: 357",
+    "desc": "Article URL: https://www.cryptocellar.org/bgac/the-mvueh-break.html Comments URL: https://news.ycombinator.com/item?id=49801324 Points: 634 # Comments: 381",
     "date": "2026-09-22",
     "source": "Hacker News",
     "cat": "ai",
@@ -297,42 +369,6 @@
     "lang": "ru"
   },
   {
-    "title": "Агент поддержки на LLM, который не может забыть сходить за заказом",
-    "link": "https://habr.com/ru/articles/1084926/?utm_campaign=1084926&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Первая версия моего агента поддержки в трети ходов не ходила за заказом, а выдумывала его статус. Модель сама решала, когда звать тул, и решала неправильно. В харнесе модель ничего не решает, за данными ходит код, модель зовут два раза, понять вопрос и написать ответ. Агентский цикл, где модель р...",
-    "date": "2026-09-22",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Бенчмарк Маракуйя ИИ на Terminal-Bench 4 и OSWorld 2",
-    "link": "https://habr.com/ru/articles/1084960/?utm_campaign=1084960&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Всем привет! В прошлой статье я гонял Алису и Гигачат как чаты: Arena-Hard, WildBench, MultiChallenge, τ³, ПРАКТ-120. Там модель должнв была отвечать текстом в браузере - как будто она общалас с пользователем, пользователь задавал разные задания и тесты определяли, справляется ли модель. Тут - уж...",
-    "date": "2026-09-22",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Кодирование ускорилось в разы, а проекты – нет. Куда пропал выигрыш?",
-    "link": "https://habr.com/ru/companies/diasoft_company/articles/1084898/?utm_campaign=1084898&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! Меня зовут Александр Сахаров, я директор по работе с партнерами компании «Диасофт». Помимо очевидных обязанностей по работе с заказчиками, я отвечаю за то, чтобы мы выпускали решения, готовые к реальной работе у клиентов. Примерно с марта 2026 года мы перестраиваем разработку вокруг...",
-    "date": "2026-09-22",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "ИИ – это трактор без водителя: почему 98% разработки с LLM решает экосистема",
-    "link": "https://habr.com/ru/companies/diasoft_company/articles/1084892/?utm_campaign=1084892&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Есть тезис, за повторение которого в последнее время мне регулярно «прилетает» в комментариях и кулуарах: сама языковая модель дает примерно 2% результата ИИ-разработки. Остальные 98% – это обвязка. Инструкции, гейты, процессы, память, люди. Звучит как ересь на фоне последних релизов: модели стан...",
-    "date": "2026-09-22",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Почему LLM никогда не пройдут тест Тьюринга в Tinder: изнанка дейтинг-аутстаффа",
     "link": "https://habr.com/ru/articles/1085294/?utm_campaign=1085294&utm_source=habrahabr&utm_medium=rss",
     "desc": "Пока энтузиасты мечтают об автоматизации личной жизни через LLM, а Reddit захлебывается кейсами про «я натравил питоновский скрипт на тиндер и нашел жену», я тихо наблюдаю за этим из эпицентра индустрии. Мой микробизнес — дейтинг-аутстафф. Я руками веду аккаунты мужчин и женщин, сижу в их перепис...",
@@ -504,6 +540,15 @@
     "lang": "ru"
   },
   {
+    "title": "Агент поддержки на LLM, который не может забыть сходить за заказом",
+    "link": "https://habr.com/ru/articles/1084926/?utm_campaign=1084926&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Первая версия моего агента поддержки в трети ходов не ходила за заказом, а выдумывала его статус. Модель сама решала, когда звать тул, и решала неправильно. В харнесе модель ничего не решает, за данными ходит код, модель зовут два раза, понять вопрос и написать ответ. Агентский цикл, где модель р...",
+    "date": "2026-09-22",
+    "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Cline CLI 3.0.63 устранил подмену системных утилит в Windows",
     "link": "https://tproger.ru/news/cline-cli-3-0-63-ustranil-podmenu-sistemnyh-utilit-v-windows",
     "desc": "Терминальный ИИ-агент Cline CLI получил защиту от запуска подменённых утилит в Windows. Версия 3.0.63 также распараллелила работу субагентов и исправила сжатие контекста. — Читать дальше « Cline CLI 3.0.63 устранил подмену системных утилит в Windows »",
@@ -594,6 +639,15 @@
     "lang": "ru"
   },
   {
+    "title": "OpenAI выпустила GPT-6 Sol и Luna — они дешевле предшественниц и делают меньше ошибок",
+    "link": "https://3dnews.ru/1148885",
+    "desc": "В начале текущего месяца OpenAI выпустила GPT-6 Astra — самую мощную и функциональную ИИ-модель компании, которую она без лишней скромности называет «лучшей в мире моделью» для выполнения широкого спектра задач, включая работу за компьютером и написание программного кода. Сегодня OpenAI расширила...",
+    "date": "2026-09-22",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Anthropic представила Claude Opus 5.5 — флагманский ИИ для всех, который дешевле и во многом не хуже Fable 5.1",
     "link": "https://3dnews.ru/1148883",
     "desc": "Anthropic анонсировала языковую модель Claude Opus 5.5 — первую в новом семействе Claude 5.5. Компания называет её своим новым флагманом: модель должна заметно превосходить Claude Opus 5 в агентном программировании, работе с компьютером и прикладных офисных задачах, при этом её использование, по ...",
@@ -624,15 +678,6 @@
     "title": "SpaceXAI представила ИИ-модель Grok 4.7 — почти вдвое быстрее Grok 4.6 и дешевле конкурентов",
     "link": "https://3dnews.ru/1148834",
     "desc": "Подразделение SpaceXAI компании Илона Маска (Elon Musk) представило модель искусственного интеллекта Grok 4.7 — она позиционируется как предназначенная в первую очередь для написания программного кода и для научных задач. По сравнению с предшествующей Grok 4.6 её скорость и стоимость работы с ней...",
-    "date": "2026-09-22",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "OpenAI выпустила GPT-6 Sol и Luna — они дешевле предшественниц и делают меньше ошибок",
-    "link": "https://3dnews.ru/1148885",
-    "desc": "В начале текущего месяца OpenAI выпустила GPT-6 Astra — самую мощную и функциональную ИИ-модель компании, которую она без лишней скромности называет «лучшей в мире моделью» для выполнения широкого спектра задач, включая работу за компьютером и написание программного кода. Сегодня OpenAI расширила...",
     "date": "2026-09-22",
     "source": "3DNews",
     "cat": "ai",
@@ -738,6 +783,24 @@
     "lang": "ru"
   },
   {
+    "title": "Бенчмарк Маракуйя ИИ на Terminal-Bench 4 и OSWorld 2",
+    "link": "https://habr.com/ru/articles/1084960/?utm_campaign=1084960&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Всем привет! В прошлой статье я гонял Алису и Гигачат как чаты: Arena-Hard, WildBench, MultiChallenge, τ³, ПРАКТ-120. Там модель должнв была отвечать текстом в браузере - как будто она общалас с пользователем, пользователь задавал разные задания и тесты определяли, справляется ли модель. Тут - уж...",
+    "date": "2026-09-22",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ – это трактор без водителя: почему 98% разработки с LLM решает экосистема",
+    "link": "https://habr.com/ru/companies/diasoft_company/articles/1084892/?utm_campaign=1084892&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Есть тезис, за повторение которого в последнее время мне регулярно «прилетает» в комментариях и кулуарах: сама языковая модель дает примерно 2% результата ИИ-разработки. Остальные 98% – это обвязка. Инструкции, гейты, процессы, память, люди. Звучит как ересь на фоне последних релизов: модели стан...",
+    "date": "2026-09-22",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Как ИИ может изменить человечество: мнение эксперта",
     "link": "https://hi-tech.mail.ru/news/156064-kak-ii-mozhet-izmenit-chelovechestvo-mnenie-eksperta/",
     "desc": "Узнайте больше о том, что Hi-Tech Mail сказал бывший коммерческий директор Google X Мо Гавдат. Развитие технологий искусственного интеллекта может нести как пользу для человечества, так и различные проблемы. Таким мнением в разговоре с Hi-Tech Mail поделился бывший коммерческий директор Google X ...",
@@ -750,15 +813,6 @@
     "title": "Как начать знакомство с ИИ-технологиями: ответ эксперта",
     "link": "https://hi-tech.mail.ru/news/156055-kak-nachat-znakomstvo-s-ii-tehnologiyami-otvet-eksperta/",
     "desc": "Мнением с Hi-Tech Mail поделился бывший коммерческий директор Google X Мо Гавдат. Общение с чат-ботами на основе искусственного интеллекта поможет лучше освоить подобные инструменты. Об этом Hi-Tech Mail рассказал бывший коммерческий директор Google X Мо Гавдат. По его словам, знакомство с ИИ сто...",
-    "date": "2026-09-22",
-    "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "В МАХ появился сервис поиска грантов",
-    "link": "https://hi-tech.mail.ru/news/156062-v-mah-poyavilsya-servis-poiska-grantov/",
-    "desc": "Мини-приложение «Портал грантов» объединяет информацию об актуальных мерах поддержки и помогает пользователям подобрать подходящие гранты — от образовательных и научных инициатив до проектов в сфере культуры, спорта и благотворительности. Для того, чтобы найти подходящий грант и подать заявку, со...",
     "date": "2026-09-22",
     "source": "Hi-Tech Mail",
     "cat": "ai",
@@ -1071,20 +1125,20 @@
     "lang": "ru"
   },
   {
-    "title": "Хуанг набрал вес в Белом доме — глава Nvidia фактически стал главным советником Трампа по ИИ",
-    "link": "https://3dnews.ru/1148796",
-    "desc": "Стремительное развитие бизнеса Nvidia, которое последовало за стартом бума ИИ, явно окрылило основателя и бессменного гендиректора компании Дженсена Хуанга (Jensen Huang). Он стал не только чуть ли не ежедневно давать свои комментарии по волнующим отрасль вопросам, но и регулярно бывает в Белом д...",
-    "date": "2026-09-21",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Про то, как я научил своего аватара снимать ролики по сценарию без ИИ‑генерации видео (часть 2)",
     "link": "https://habr.com/ru/articles/1083540/?utm_campaign=1083540&utm_source=habrahabr&utm_medium=rss",
     "desc": "Продолжение истории о том, как я делаю собственного цифрового аватара для видеоблога — без нейросетевой генерации видео и необходимости самому появляться перед камерой. В первой версии движок уже умел анимировать аватара, синхронизировать губы с речью и расставлять субтитры. Казалось, с монтажом ...",
     "date": "2026-09-21",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Хуанг набрал вес в Белом доме — глава Nvidia фактически стал главным советником Трампа по ИИ",
+    "link": "https://3dnews.ru/1148796",
+    "desc": "Стремительное развитие бизнеса Nvidia, которое последовало за стартом бума ИИ, явно окрылило основателя и бессменного гендиректора компании Дженсена Хуанга (Jensen Huang). Он стал не только чуть ли не ежедневно давать свои комментарии по волнующим отрасль вопросам, но и регулярно бывает в Белом д...",
+    "date": "2026-09-21",
+    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1314,15 +1368,6 @@
     "lang": "ru"
   },
   {
-    "title": "Они хотели замедлить ИИ, а теперь их обвиняют в сговоре",
-    "link": "https://vc.ru/ai/3148601-obvineniya-v-sgore-ai-kompaniy?from=rss",
-    "desc": "Крупнейшие AI-компании впервые заговорили о необходимости притормозить гонку за всё более мощными моделями. Теперь пользователи утверждают, что это уже не забота о безопасности, а нарушение конкуренции.",
-    "date": "2026-09-20",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Два дня с Claude против трёх дней с ChatGPT: почему для реальной работы мне важнее не «умность» ИИ, а отсутствие постоянных ограничений",
     "link": "https://vc.ru/ai/3148708-sravnenie-claude-i-chatgpt-vazhnost-otsutstviya-ogranicheniy-v-rabote-s-ii?from=rss",
     "desc": "Последнее время я довольно много экспериментирую с ИИ — не ради «поиграться с нейросетями», а для вполне конкретных рабочих задач.",
@@ -1335,6 +1380,15 @@
     "title": "Как надо (не стоит ) создавать шахматный движок",
     "link": "https://vc.ru/dev/3148483-kak-sozdat-shahmatnyj-dvizhok-menshe-parametrov?from=rss",
     "desc": "Пост 5. О количестве параметров: почему меньше — иногда лучше В нашем движке число параметров намеренно уменьшено. 100–300 тысяч. Для сравнения: Leela Chess Zero и AlphaZero работают с миллионами. Логика проста: при ограниченном объёме качественных данных увеличение числа параметров ведёт к перео...",
+    "date": "2026-09-20",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Они хотели замедлить ИИ, а теперь их обвиняют в сговоре",
+    "link": "https://vc.ru/ai/3148601-obvineniya-v-sgore-ai-kompaniy?from=rss",
+    "desc": "Крупнейшие AI-компании впервые заговорили о необходимости притормозить гонку за всё более мощными моделями. Теперь пользователи утверждают, что это уже не забота о безопасности, а нарушение конкуренции.",
     "date": "2026-09-20",
     "source": "vc.ru",
     "cat": "ai",
@@ -2286,15 +2340,6 @@
     "lang": "ru"
   },
   {
-    "title": "Почему ChatGPT хорошо рассуждает о покере, но плохо в него играет",
-    "link": "https://habr.com/ru/articles/1082386/?utm_campaign=1082386&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Однажды утром вы читаете новость: новая GPT Astra за ночь решила одну из фундаментальных математических задач человечества. И тут приходит гениальная мысль: раз LLM настолько умна, почему бы ей не поработать за покерным столом на ваше благо? Звучит как план? Да. Как очень плохой план. И вот почем...",
-    "date": "2026-09-17",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Nvidia представила Axolotl3D — модель для достраивания скрытых частей 3D‑объектов",
     "link": "https://habr.com/ru/news/1083606/?utm_campaign=1083606&utm_source=habrahabr&utm_medium=rss",
     "desc": "Nvidia представила Axolotl3D — генеративную модель для восстановления и редактирования 3D‑объектов по неполным данным. Она учитывает несколько фотографий, положение камеры, маски видимости и частичное облако точек, а после восстанавливает недостающую геометрию. Читать далее",
@@ -2340,15 +2385,6 @@
     "lang": "ru"
   },
   {
-    "title": "ИИ для детей: рейтинг 10 школ и курсов для школьников",
-    "link": "https://tproger.ru/articles/ii-dlya-detej-rejting-10-wkol-i-kursov-dlya-wkolnikov",
-    "desc": "ИИ для детей: рейтинг 10 школ и курсов для школьников. Сравниваем программы по нейросетям, возраст, направления обучения и помогаем выбрать подходящий курс. — Читать дальше « ИИ для детей: рейтинг 10 школ и курсов для школьников »",
-    "date": "2026-09-17",
-    "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "VISUAL REALITY 3HCP. Превосходство над DLSS 5 и честный Lean 4 без костылей ✅ Математическое ядро 3HCP честно и безошибочно Lean кодом доказывает Навье-Стокса и убирает ИИ-галлюцинации.",
     "link": "https://vc.ru/ai/3144406-visual-reality-3hcp-prevoshodstvo-v-3d-renderinge-bez-ii?from=rss",
     "desc": "Каждый геймер и рендеринг-инженер заметил странную тенденцию: современные видеокарты превращаются в огромные энергоемкие «кирпичи», а разработчики софта всё сильнее полагаются на ресурсоемкие «костыли» в виде ИИ-апскейлеров (NVIDIA DLSS, AMD FSR). Но у тяжелых нейросетей есть темная сторона — гиг...",
@@ -2363,6 +2399,24 @@
     "desc": "10 сентября 2026 года Google выпустила настольное приложение Gemini для Windows: помощника можно вызвать сочетанием Alt + Space поверх текущей работы. Но российской аудитории до установки важно знать две границы. России нет в официальном списке поддерживаемых стран, хотя русский язык там указан. ...",
     "date": "2026-09-17",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Почему ChatGPT хорошо рассуждает о покере, но плохо в него играет",
+    "link": "https://habr.com/ru/articles/1082386/?utm_campaign=1082386&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Однажды утром вы читаете новость: новая GPT Astra за ночь решила одну из фундаментальных математических задач человечества. И тут приходит гениальная мысль: раз LLM настолько умна, почему бы ей не поработать за покерным столом на ваше благо? Звучит как план? Да. Как очень плохой план. И вот почем...",
+    "date": "2026-09-17",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ для детей: рейтинг 10 школ и курсов для школьников",
+    "link": "https://tproger.ru/articles/ii-dlya-detej-rejting-10-wkol-i-kursov-dlya-wkolnikov",
+    "desc": "ИИ для детей: рейтинг 10 школ и курсов для школьников. Сравниваем программы по нейросетям, возраст, направления обучения и помогаем выбрать подходящий курс. — Читать дальше « ИИ для детей: рейтинг 10 школ и курсов для школьников »",
+    "date": "2026-09-17",
+    "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
   },
@@ -5472,20 +5526,20 @@
     "lang": "ru"
   },
   {
-    "title": "Как с помощью graph RAG добиться многоходовых рассуждений от LLM с 2B весов",
-    "link": "https://habr.com/ru/articles/1079748/?utm_campaign=1079748&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Пару недель назад YouTube подкинул мне пятиминутный ролик с небольшого канала, где автор демонстрирует преимущества RAG на графах над обычным RAG поверх корпуса текстов. Пример довольно простой. LLM должна ответить на вопрос: “Кто должен подписать возврат клиенту на 800 фунтов в марте?”. Ответ, е...",
-    "date": "2026-09-08",
-    "source": "Habr NLP",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Риски и безопасная настройка функции ChatGPT Computer History | Блог Касперского",
     "link": "https://www.kaspersky.ru/blog/chatgpt-computer-history-macos-risks-benefits/42633/",
     "desc": "Как ChatGPT следит за всем, что вы делаете на Маке, где хранятся собранные данные и как защититься от возникающих угроз.",
     "date": "2026-09-08",
     "source": "Kaspersky",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как с помощью graph RAG добиться многоходовых рассуждений от LLM с 2B весов",
+    "link": "https://habr.com/ru/articles/1079748/?utm_campaign=1079748&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Пару недель назад YouTube подкинул мне пятиминутный ролик с небольшого канала, где автор демонстрирует преимущества RAG на графах над обычным RAG поверх корпуса текстов. Пример довольно простой. LLM должна ответить на вопрос: “Кто должен подписать возврат клиенту на 800 фунтов в марте?”. Ответ, е...",
+    "date": "2026-09-08",
+    "source": "Habr NLP",
     "cat": "ai",
     "lang": "ru"
   },
