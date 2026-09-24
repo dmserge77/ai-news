@@ -1,5 +1,45 @@
 [
   {
+    "title": "Contrastive Language Models",
+    "link": "https://contrastive-lm.notion.site/",
+    "desc": "Article URL: https://contrastive-lm.notion.site/ Comments URL: https://news.ycombinator.com/item?id=49826221 Points: 18 # Comments: 4",
+    "date": "2026-09-24",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "FLAWED's Flaws and What This Means for Industry Research",
+    "link": "https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/",
+    "desc": "Article URL: https://suhacker.ai/p/flaweds-flaws-and-what-this-means-for-industry-research/ Comments URL: https://news.ycombinator.com/item?id=49824969 Points: 19 # Comments: 4",
+    "date": "2026-09-24",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
+    "link": "https://github.com/nestrilabs/virtio-nvgpu",
+    "desc": "Article URL: https://github.com/nestrilabs/virtio-nvgpu Comments URL: https://news.ycombinator.com/item?id=49824864 Points: 58 # Comments: 27",
+    "date": "2026-09-24",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Feds Target AI Critics as \"Foreign Agents\"",
+    "link": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+    "desc": "Article URL: https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign Comments URL: https://news.ycombinator.com/item?id=49824686 Points: 235 # Comments: 216",
+    "date": "2026-09-24",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "Vercel Connect now supports TanStack AI",
     "link": "https://vercel.com/changelog/vercel-connect-tanstack-ai",
     "desc": "",
@@ -10,11 +50,11 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Stripe's Knowledge AI Platform",
-    "link": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
-    "desc": "Article URL: https://stripe.dev/blog/meet-stripes-knowledge-ai-platform Comments URL: https://news.ycombinator.com/item?id=49815982 Points: 173 # Comments: 108",
+    "title": "Automatically detecting AI text in my browser",
+    "link": "https://www.seangoedecke.com/deckard/",
+    "desc": "Comments",
     "date": "2026-09-23",
-    "source": "Hacker News",
+    "source": "Lobsters",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
@@ -47,6 +87,16 @@
     "source": "Habr AI Новости",
     "cat": "misc",
     "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Stripe's Knowledge AI Platform",
+    "link": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
+    "desc": "Article URL: https://stripe.dev/blog/meet-stripes-knowledge-ai-platform Comments URL: https://news.ycombinator.com/item?id=49815982 Points: 173 # Comments: 108",
+    "date": "2026-09-23",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
     "misc_type": "raznoe"
   },
   {
@@ -93,16 +143,6 @@
     "title": "Представлены Snapdragon 8 Elite Gen 6 и 8 Elite Extreme Gen 6: флагманские 2-нм чипы",
     "link": "https://hi-tech.mail.ru/news/156107-predstavleny-snapdragon-8-elite-gen-6-i-8-elite-extreme-gen-6/",
     "desc": "Qualcomm анонсировала два новых флагманских чипа — Snapdragon 8 Elite Gen 6 и Extreme Gen 6. Оба стали первыми в мире мобильными процессорами с частотой CPU 5 ГГц, построенными на 2-нм техпроцессе TSMC. На ежегодном Snapdragon Summit 2026 компания Qualcomm представила два процессора для флагманск...",
-    "date": "2026-09-23",
-    "source": "Hi-Tech Mail",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Что происходит с интернетом в России 23 сентября 2026 года",
-    "link": "https://hi-tech.mail.ru/news/145610-sboi-interneta-v-rossii/",
-    "desc": "Узнайте подробности о жалобах пользователей. Пользователи из России продолжают сталкиваться с различными сбоями в работе интернета. Статистику об этом собирает профильный сервис Downdetector. В каких регионах сегодня наблюдаются проблемы со связью Согласно жалобам пользователей, сбои фиксируют в ...",
     "date": "2026-09-23",
     "source": "Hi-Tech Mail",
     "cat": "misc",
@@ -160,14 +200,14 @@
     "misc_type": "unfiltered"
   },
   {
-    "title": "How to talk about \"AI\" without adding to the anthropomorphization",
-    "link": "https://buttondown.com/maiht3k/archive/how-to-talk-about-ai-without-adding-to-the/",
-    "desc": "Comments",
-    "date": "2026-09-22",
-    "source": "Lobsters",
+    "title": "Show HN: I built a post-mortem debugger for native Windows x64/x86 crashes",
+    "link": "https://www.forensicdbg.com",
+    "desc": "Hello HN! I've spent years debugging Windows crashes with tools that were either friendly but limited (e.g. Visual Studio) or powerful but archaic (e.g. WinDbg). I developed patterns and methods for understanding what was going on, and decided to build it into a much more effective debugging tool...",
+    "date": "2026-09-23",
+    "source": "Hacker News",
     "cat": "misc",
     "lang": "en",
-    "misc_type": "raznoe"
+    "misc_type": "unfiltered"
   },
   {
     "title": "Основа будущих флагманов: Qualcomm представила мобильные процессоры Snapdragon 8 Elite Gen 6 и Elite Extreme Gen 6",
@@ -190,6 +230,16 @@
     "misc_type": "raznoe"
   },
   {
+    "title": "Nvidia выпустила драйвер с поддержкой Aion 2, Control Resonant и The Witcher 3: Wild Hunt — Remastered",
+    "link": "https://3dnews.ru/1148876",
+    "desc": "Nvidia выпустила драйвер GeForce Game Ready 617.14 WHQL. Он обеспечивает поддержку многопользовательской ролевой игры Aion 2, ролевого боевика Control Resonant и ремастера The Witcher 3: Wild Hunt. Источник изображения: Nvidia",
+    "date": "2026-09-22",
+    "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "The variance problem in AI products",
     "link": "https://uxdesign.cc/the-variance-problem-in-ai-products-62a58272564c?source=rss----138adf9c44c---4",
     "desc": "",
@@ -200,13 +250,13 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Nvidia выпустила драйвер с поддержкой Aion 2, Control Resonant и The Witcher 3: Wild Hunt — Remastered",
-    "link": "https://3dnews.ru/1148876",
-    "desc": "Nvidia выпустила драйвер GeForce Game Ready 617.14 WHQL. Он обеспечивает поддержку многопользовательской ролевой игры Aion 2, ролевого боевика Control Resonant и ремастера The Witcher 3: Wild Hunt. Источник изображения: Nvidia",
+    "title": "How to talk about \"AI\" without adding to the anthropomorphization",
+    "link": "https://buttondown.com/maiht3k/archive/how-to-talk-about-ai-without-adding-to-the/",
+    "desc": "Comments",
     "date": "2026-09-22",
-    "source": "3DNews",
+    "source": "Lobsters",
     "cat": "misc",
-    "lang": "ru",
+    "lang": "en",
     "misc_type": "raznoe"
   },
   {
@@ -805,6 +855,16 @@
     "desc": "3 сентября в сети появилась детальная карта нервной системы мушки дрозофилы. С этого дня насекомое обрело мировую известность. В начале марта 2026 года по соцсетям и форумам разлетелось видео . Обычная муха дрозофила внутри физического симулятора чистит лапками усики, ходит по виртуальной поверхн...",
     "date": "2026-09-19",
     "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "ИИ превратит интернет в Вавилонскую Библиотеку (но хуже)",
+    "link": "https://habr.com/ru/articles/1084178/?utm_campaign=1084178&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Когда надо что-то узнать об инструменте или сервисе, мне хочется сначала посмотреть, что о них пишут другие люди. И за последний год эта привычка начала сбоить. Страничек в интернете не стало меньше, наоборот их количество выросло. Просто из восьми открытых вкладок семь рассказывают одно и то же,...",
+    "date": "2026-09-19",
+    "source": "Habr ML",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
