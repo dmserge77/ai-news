@@ -1,31 +1,33 @@
 {
- "updated": "25.09.2026, 00:51",
- "runs": 52,
- "total_rejected": 163917,
+ "updated": "25.09.2026, 00:57",
+ "runs": 53,
+ "total_rejected": 167099,
  "last_run": {
-  "total": 3126,
+  "total": 3182,
   "by_reason": {
-   "нет признака ИИ": 2678,
-   "стоп-слово (бытовая техника)": 181,
+   "нет признака ИИ": 2680,
+   "стоп-слово (бытовая техника)": 178,
    "не удалённая работа": 126,
-   "не ИИ-профессия": 51,
+   "не ИИ-профессия": 58,
    "повтор": 51,
-   "курсы или обучение, а не вакансия": 21,
-   "нет признака ИИ или ML": 16,
+   "нет признака ИИ или сайта": 43,
+   "курсы или обучение, а не вакансия": 25,
+   "нет признака ИИ или ML": 14,
+   "реклама или SEO, а не разработка": 5,
    "реклама в ИИ-теге": 2
   }
  },
  "by_reason": {
-  "нет признака ИИ": 139819,
-  "стоп-слово (бытовая техника)": 9112,
-  "не удалённая работа": 6229,
-  "не ИИ-профессия": 2508,
-  "повтор": 2437,
-  "нет признака ИИ или сайта": 1519,
-  "курсы или обучение, а не вакансия": 1169,
-  "нет признака ИИ или ML": 778,
-  "реклама в ИИ-теге": 215,
-  "реклама или SEO, а не разработка": 93,
+  "нет признака ИИ": 142499,
+  "стоп-слово (бытовая техника)": 9290,
+  "не удалённая работа": 6355,
+  "не ИИ-профессия": 2566,
+  "повтор": 2488,
+  "нет признака ИИ или сайта": 1562,
+  "курсы или обучение, а не вакансия": 1194,
+  "нет признака ИИ или ML": 792,
+  "реклама в ИИ-теге": 217,
+  "реклама или SEO, а не разработка": 98,
   "не ИИ-профессия (слово в описании)": 38
  },
  "items": [
@@ -36,7 +38,7 @@
    "link": "https://hh.ru/vacancy/134704649",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 888
+   "count": 916
   },
   {
    "title": "Редактор текстов для обучения нейросетей (GigaChat)",
@@ -45,7 +47,7 @@
    "link": "https://trudvsem.ru/vacancy/card/5147746474134/4c3e8514-ace5-11f1-9798-8b486fc85d66",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 850
+   "count": 867
   },
   {
    "title": "Менеджер по работе с клиентами",
@@ -54,7 +56,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1027700132195/e1ae0be8-a2bb-11f1-b956-512fe6f6cdc2",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 450
+   "count": 463
   },
   {
    "title": "Машинист железнодорожно-строительной машины (с обучением)",
@@ -63,7 +65,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1027700404797/18a21a04-900c-11f1-a7ea-794e68891a9a",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 392
+   "count": 400
   },
   {
    "title": "Специалист по работе с системами искусственного интеллекта",
@@ -72,7 +74,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1191832005793/c0ea4638-2c0a-11f1-b896-f7acc8f2fb19",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 252
+   "count": 257
   },
   {
    "title": "Showcasing Startups on Replit",
@@ -81,7 +83,7 @@
    "link": "https://replit.com/blog/startup-showcase-2023-12-13",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 208
+   "count": 212
   },
   {
    "title": "Редактор текстов для обучения нейросетей со знанием английского языка (GigaChat)",
@@ -90,7 +92,7 @@
    "link": "https://trudvsem.ru/vacancy/card/5147746474134/44736664-b0ec-11f1-8906-5be4d6ddc68d",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 167
+   "count": 171
   },
   {
    "title": "Один текст — две оценки: как я ошибся при проверке humanizer-ru",
@@ -99,7 +101,7 @@
    "link": "https://habr.com/ru/articles/1083558/?utm_campaign=1083558&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 158
+   "count": 159
   },
   {
    "title": "Большой релиз библиотеки ударений в silero-stress для русского языка",
@@ -108,7 +110,7 @@
    "link": "https://habr.com/ru/articles/1079674/?utm_campaign=1079674&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 150
+   "count": 151
   },
   {
    "title": "мастер производственного обучения",
@@ -117,7 +119,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1024402038902/ee3a4918-8a50-11f1-bb45-4b2af1e5c9cb",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 147
+   "count": 150
   },
   {
    "title": "Старший менеджер по работе с клиентами",
@@ -126,7 +128,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1027700132195/18f18c88-8048-11f1-9d9f-7de008f3dac7",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 123
+   "count": 125
   },
   {
    "title": "[Перевод] Ваша платформа Kubernetes готова к контейнерам. Готова ли она к ИИ?",
@@ -135,7 +137,7 @@
    "link": "https://habr.com/ru/companies/vktech/articles/1083400/?utm_campaign=1083400&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 119
+   "count": 121
   },
   {
    "title": "Старший клиентский менеджер",
@@ -144,7 +146,7 @@
    "link": "https://trudvsem.ru/vacancy/card/8cf3b830-ebd8-11ee-9d0f-cb26dff57dd7/1b83010b-799e-11f1-96a1-71ec6ab38b2c",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 107
+   "count": 110
   },
   {
    "title": "Менеджер по продажам обучения нейросетям (GPT/AI агенты/ПРОМТы)",
@@ -153,7 +155,7 @@
    "link": "https://hh.ru/vacancy/137517674",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 106
+   "count": 109
   },
   {
    "title": "Hello World",
@@ -162,7 +164,7 @@
    "link": "https://replit.com/blog/helloworld",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 104
+   "count": 106
   },
   {
    "title": "Improvements and fixes",
@@ -171,7 +173,7 @@
    "link": "https://vercel.com/changelog/improvements-and-fixes",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 104
+   "count": 106
   },
   {
    "title": "Hashnode runs the fastest blogs on the web with Vercel",
@@ -180,7 +182,7 @@
    "link": "https://vercel.com/blog/hashnode-runs-the-fastest-blogs-on-the-web-with-vercel",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 104
+   "count": 106
   },
   {
    "title": "Incident Report: March 30th, 2026 — Authenticated user data cached",
@@ -189,7 +191,7 @@
    "link": "https://blog.railway.com/p/incident-report-march-30-2026-authenticated-user-data-cached",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 104
+   "count": 106
   },
   {
    "title": "[Перевод] Перестаньте пытаться выучить весь Kubernetes сразу",
@@ -198,7 +200,7 @@
    "link": "https://habr.com/ru/companies/vktech/articles/1083406/?utm_campaign=1083406&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 104
+   "count": 106
   },
   {
    "title": "Ошибки ценою в миллионы: как не попасть под штраф за некорректную работу с персональными данными",
@@ -207,7 +209,7 @@
    "link": "https://habr.com/ru/articles/1076288/?utm_campaign=1076288&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 104
+   "count": 106
   },
   {
    "title": "Почему фирменный стиль ломается внутри интерфейса",
@@ -216,7 +218,7 @@
    "link": "https://habr.com/ru/articles/1078684/?utm_campaign=1078684&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 104
+   "count": 106
   },
   {
    "title": "Jev: как устроен его API решений и что на нём уже строят",
@@ -225,16 +227,7 @@
    "link": "https://habr.com/ru/articles/1084030/?utm_campaign=1084030&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-20",
    "last": "2026-09-25",
-   "count": 103
-  },
-  {
-   "title": "Как проверяющий ИИ испортил правильные ответы: разбор генератора учебных заданий",
-   "source": "Habr NLP",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/articles/1083304/?utm_campaign=1083304&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-18",
-   "last": "2026-09-25",
-   "count": 102
+   "count": 105
   },
   {
    "title": "Менеджер проектов по разметке данных для обучения нейросетей",
@@ -243,7 +236,7 @@
    "link": "https://trudvsem.ru/vacancy/card/5147746474134/b98198e4-a6ac-11f1-a130-11b00fc31179",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 102
+   "count": 104
   },
   {
    "title": "Редактор текстов для обучения нейросетей (GigaChat)",
@@ -252,7 +245,16 @@
    "link": "https://trudvsem.ru/vacancy/card/5147746474134/0c24d174-b0fd-11f1-87d5-45dabc191f7c",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 102
+   "count": 104
+  },
+  {
+   "title": "Как проверяющий ИИ испортил правильные ответы: разбор генератора учебных заданий",
+   "source": "Habr NLP",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/articles/1083304/?utm_campaign=1083304&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 103
   },
   {
    "title": "Педагог дополнительного образования по искусственному интеллекту",
@@ -261,7 +263,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1028900688970/d98bd638-7472-11f1-9358-e9926ce46e4e",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 101
+   "count": 103
   },
   {
    "title": "Аналитик (Инженер по данным и искусственному интеллекту)",
@@ -270,7 +272,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1027810317820/17d8a7b8-b046-11f1-987b-b1d3bf2d14ab",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 99
+   "count": 101
   },
   {
    "title": "Инженер - системный программист",
@@ -279,7 +281,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1256600026451/2e60448f-34b2-11f1-a643-f344d815f06b",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 99
+   "count": 101
   },
   {
    "title": "Инженер-программист",
@@ -288,7 +290,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1025700514300/ecd65218-b0f9-11f1-b99e-4972ddb33ebb",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 99
+   "count": 101
   },
   {
    "title": "Машинист крана (крановщик)",
@@ -297,7 +299,7 @@
    "link": "https://trudvsem.ru/vacancy/card/a5b849d0-48da-11ea-9c9f-ef76bd2a03c1/05d32d38-5379-11f1-bb82-7f8bb357025f",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 98
+   "count": 100
   },
   {
    "title": "Слесарь",
@@ -306,7 +308,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1113256016500/4a9653a0-115a-11f0-a7cf-e7d0d2cf29b1",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 98
+   "count": 100
   },
   {
    "title": "Машинист экскаватора",
@@ -315,7 +317,7 @@
    "link": "https://trudvsem.ru/vacancy/card/2ef9e550-94b3-11ee-9009-cb26dff57dd7/994a8448-5415-11f1-a9ee-9db463ad26ad",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 98
+   "count": 100
   },
   {
    "title": "Отреверсили проприетарный gRPC и выложили в опенсорс 100% совместимый аналог их сервера, потом CLI",
@@ -324,7 +326,7 @@
    "link": "https://habr.com/ru/companies/h3llo_cloud/articles/1083038/?utm_campaign=1083038&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 95
+   "count": 96
   },
   {
    "title": "педагог дополнительного образования",
@@ -333,7 +335,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1033600022345/7155f488-493c-11f1-b4d8-b7a0ba5a93f0",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 93
+   "count": 94
   },
   {
    "title": "Швея",
@@ -341,6 +343,15 @@
    "reason": "не удалённая работа",
    "link": "https://trudvsem.ru/vacancy/card/1155543016419/e22ea19b-06ff-11f1-854c-672d91331a28",
    "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 94
+  },
+  {
+   "title": "Агент пишет код. Что тогда остаётся инженеру данных?",
+   "source": "Habr AI",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/articles/1084096/?utm_campaign=1084096&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-19",
    "last": "2026-09-25",
    "count": 92
   },
@@ -351,16 +362,7 @@
    "link": "https://habr.com/ru/companies/vk/articles/1073986/?utm_campaign=1073986&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 90
-  },
-  {
-   "title": "Агент пишет код. Что тогда остаётся инженеру данных?",
-   "source": "Habr AI",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/articles/1084096/?utm_campaign=1084096&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-19",
-   "last": "2026-09-25",
-   "count": 90
+   "count": 91
   },
   {
    "title": "[Перевод] Повесть о двух автоскейлерах Flink",
@@ -369,16 +371,7 @@
    "link": "https://habr.com/ru/companies/vktech/articles/1082310/?utm_campaign=1082310&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 89
-  },
-  {
-   "title": "Спекулятивное декодирование: от чего на самом деле зависит ускорение",
-   "source": "Habr ML",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/articles/1082452/?utm_campaign=1082452&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-18",
-   "last": "2026-09-25",
-   "count": 82
+   "count": 90
   },
   {
    "title": "Автоматизация процесса привлечения инвестиций",
@@ -387,7 +380,16 @@
    "link": "https://habr.com/ru/articles/1084018/?utm_campaign=1084018&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-19",
    "last": "2026-09-25",
-   "count": 82
+   "count": 84
+  },
+  {
+   "title": "Спекулятивное декодирование: от чего на самом деле зависит ускорение",
+   "source": "Habr ML",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/articles/1082452/?utm_campaign=1082452&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 83
   },
   {
    "title": "Искусственный интеллект: смерть учителя — или рождение нового?",
@@ -396,7 +398,7 @@
    "link": "https://habr.com/ru/articles/1082402/?utm_campaign=1082402&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 81
+   "count": 82
   },
   {
    "title": "Junior+ / Middle- AI Engineer (On-Premise LLM)",
@@ -405,25 +407,7 @@
    "link": "https://hh.ru/vacancy/137098621",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 78
-  },
-  {
-   "title": "Дизайн интерьера нейросетью: 4 сервиса для ремонта по фото комнаты",
-   "source": "Habr AI",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/companies/bothub/articles/1083726/?utm_campaign=1083726&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-18",
-   "last": "2026-09-25",
-   "count": 76
-  },
-  {
-   "title": "От Excel к диалогу: как мы построили ИИ-помощника Эйру для управления портфелем из 100+ проектов",
-   "source": "Habr AI",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/companies/bcs_company/articles/1083670/?utm_campaign=1083670&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-18",
-   "last": "2026-09-25",
-   "count": 76
+   "count": 80
   },
   {
    "title": "Менеджер по продажам обучения нейросетям (GPT/AI / ПРОМТы)",
@@ -432,16 +416,25 @@
    "link": "https://hh.ru/vacancy/137351701",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 76
+   "count": 79
   },
   {
-   "title": "Извлечение генома стиля в Chat GPT: от референса до готового скила",
-   "source": "Habr Веб-дизайн",
-   "reason": "повтор",
-   "link": "",
+   "title": "Дизайн интерьера нейросетью: 4 сервиса для ремонта по фото комнаты",
+   "source": "Habr AI",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/companies/bothub/articles/1083726/?utm_campaign=1083726&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 75
+   "count": 77
+  },
+  {
+   "title": "От Excel к диалогу: как мы построили ИИ-помощника Эйру для управления портфелем из 100+ проектов",
+   "source": "Habr AI",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/companies/bcs_company/articles/1083670/?utm_campaign=1083670&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 77
   },
   {
    "title": "Tatarnetes: как мы научили Kubernetes говорить по-татарски, цитировать Габдуллу Тукая и останавливаться на чай с молоком",
@@ -450,7 +443,16 @@
    "link": "https://habr.com/ru/articles/1084230/?utm_campaign=1084230&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-21",
    "last": "2026-09-25",
-   "count": 75
+   "count": 77
+  },
+  {
+   "title": "Извлечение генома стиля в Chat GPT: от референса до готового скила",
+   "source": "Habr Веб-дизайн",
+   "reason": "повтор",
+   "link": "",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 76
   },
   {
    "title": "Реестр контейнеров, который живёт внутри ячеек электронной таблицы",
@@ -459,7 +461,7 @@
    "link": "https://habr.com/ru/articles/1081480/?utm_campaign=1081480&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 73
+   "count": 74
   },
   {
    "title": "Все числа на месте, а смысл изменился: как проверять правки ИИ",
@@ -468,7 +470,7 @@
    "link": "https://habr.com/ru/articles/1084192/?utm_campaign=1084192&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-20",
    "last": "2026-09-25",
-   "count": 73
+   "count": 74
   },
   {
    "title": "Кнопка нажата, а ответа нет: как не потерять действие пользователя и не наделать дублей",
@@ -477,7 +479,7 @@
    "link": "https://habr.com/ru/articles/1084120/?utm_campaign=1084120&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-20",
    "last": "2026-09-25",
-   "count": 66
+   "count": 68
   },
   {
    "title": "Graceful Shutdown в Python-приложениях на Kubernetes: внедрение и практический опыт",
@@ -486,7 +488,7 @@
    "link": "https://habr.com/ru/companies/selectel/articles/1081930/?utm_campaign=1081930&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-20",
    "last": "2026-09-25",
-   "count": 66
+   "count": 68
   },
   {
    "title": "NEOMSA ESB: как мы приводили в порядок состав зависимостей интеграционной шины",
@@ -495,7 +497,7 @@
    "link": "https://habr.com/ru/companies/neoflex/articles/1083806/?utm_campaign=1083806&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-20",
    "last": "2026-09-25",
-   "count": 66
+   "count": 68
   },
   {
    "title": "Генератор музыкальных видео на Python: зерно раздуло файл в 13 раз, спектр врал на тишине, AV1 выиграл втрое",
@@ -504,16 +506,7 @@
    "link": "https://habr.com/ru/articles/1084098/?utm_campaign=1084098&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-20",
    "last": "2026-09-25",
-   "count": 63
-  },
-  {
-   "title": "Устал листать неинтересные проекты на Kwork.ru добавил кнопку Скрыть",
-   "source": "Habr Open Source",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/articles/1081740/?utm_campaign=1081740&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-18",
-   "last": "2026-09-25",
-   "count": 60
+   "count": 64
   },
   {
    "title": "Как мы ускоряли сборку Python в 20 раз",
@@ -522,16 +515,16 @@
    "link": "https://habr.com/ru/companies/amvera/articles/1084160/?utm_campaign=1084160&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-20",
    "last": "2026-09-25",
-   "count": 60
+   "count": 62
   },
   {
-   "title": "Junior Software Development Engineer in Test (Quality & AI focus)",
-   "source": "hh.ru",
-   "reason": "курсы или обучение, а не вакансия",
-   "link": "https://hh.ru/vacancy/136605051",
+   "title": "Устал листать неинтересные проекты на Kwork.ru добавил кнопку Скрыть",
+   "source": "Habr Open Source",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/articles/1081740/?utm_campaign=1081740&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 57
+   "count": 61
   },
   {
    "title": "Тест Jev в качестве реранкера против LLM на классификации товаров по справочнику из 78 тысяч кодов",
@@ -540,7 +533,16 @@
    "link": "https://habr.com/ru/articles/1084672/?utm_campaign=1084672&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 57
+   "count": 59
+  },
+  {
+   "title": "Junior Software Development Engineer in Test (Quality & AI focus)",
+   "source": "hh.ru",
+   "reason": "курсы или обучение, а не вакансия",
+   "link": "https://hh.ru/vacancy/136605051",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 58
   },
   {
    "title": "Как перенести навайбкоженный проект в Figma через Claude Code и получить дизайн‑систему",
@@ -549,7 +551,7 @@
    "link": "https://habr.com/ru/articles/1074204/?utm_campaign=1074204&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 56
+   "count": 57
   },
   {
    "title": "Apache Iceberg: Индиана Джонс и Каталог судьбы в Lakehouse",
@@ -558,7 +560,16 @@
    "link": "https://habr.com/ru/articles/1084334/?utm_campaign=1084334&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-20",
    "last": "2026-09-25",
-   "count": 56
+   "count": 57
+  },
+  {
+   "title": "Стажер-инженер технологий машинного обучения",
+   "source": "hh.ru",
+   "reason": "курсы или обучение, а не вакансия",
+   "link": "https://hh.ru/vacancy/137535328",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 57
   },
   {
    "title": "GitHub availability report: August 2026",
@@ -567,7 +578,7 @@
    "link": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 52
+   "count": 53
   },
   {
    "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
@@ -576,7 +587,7 @@
    "link": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 52
+   "count": 53
   },
   {
    "title": "Don’t stop early: Case-folding source code at memory speed",
@@ -585,7 +596,7 @@
    "link": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 52
+   "count": 53
   },
   {
    "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
@@ -594,7 +605,7 @@
    "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 52
+   "count": 53
   },
   {
    "title": "Replit Pro Is Here — and Core Now Offers Even Better Value",
@@ -603,7 +614,7 @@
    "link": "https://replit.com/blog/pro-plan",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 52
+   "count": 53
   },
   {
    "title": "Как превратить Хабр из ленты соцсети в библиотеку и базу знаний",
@@ -612,7 +623,7 @@
    "link": "https://habr.com/ru/articles/1082632/?utm_campaign=1082632&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "Не трогая веса модели: как мы построили исследовательского агента Алисы AI и в разы сократили потребление GPU",
@@ -621,7 +632,7 @@
    "link": "https://habr.com/ru/companies/yandex/articles/1079290/?utm_campaign=1079290&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "MEO: ещё одна маркетинговая аббревиатура или реальная техническая проблема ранжирования?",
@@ -630,7 +641,7 @@
    "link": "https://habr.com/ru/articles/1081722/?utm_campaign=1081722&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "Как ML меняет фешен-тех: материалы Data Science митапа от Lamoda Tech",
@@ -639,7 +650,7 @@
    "link": "https://habr.com/ru/companies/lamoda/articles/1078116/?utm_campaign=1078116&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "Прыжок в бесконечность: как под капотом работает RBF SVM",
@@ -648,7 +659,7 @@
    "link": "https://habr.com/ru/articles/1072750/?utm_campaign=1072750&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "Claude Code взломали просьбой пересказать сайт",
@@ -657,7 +668,7 @@
    "link": "https://habr.com/ru/articles/1078702/?utm_campaign=1078702&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "Как мы научили ML предсказывать смерть насоса за 60 дней и выяснили, что все время чинили не то (часть 1)",
@@ -666,7 +677,7 @@
    "link": "https://habr.com/ru/companies/datasapience/articles/1078104/?utm_campaign=1078104&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "Ваш test — это prod",
@@ -675,7 +686,7 @@
    "link": "https://habr.com/ru/articles/1083422/?utm_campaign=1083422&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "Документация, которая не врёт",
@@ -684,7 +695,7 @@
    "link": "https://habr.com/ru/articles/1080460/?utm_campaign=1080460&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "Codex CLI через свой endpoint: config.toml по строкам и девять способов его сломать",
@@ -693,7 +704,7 @@
    "link": "",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "Бесплатный API для LLM: тестирую 6 сервисов, модели и реальные лимиты",
@@ -702,7 +713,7 @@
    "link": "",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "ChatGPT теперь работает прямо в Word — даже на бесплатном тарифе. Что умеет и где может испортить документ",
@@ -711,7 +722,7 @@
    "link": "https://vc.ru/services/3146392-chatgpt-v-microsoft-word-vvozmozhnosti-i-ogranicheniya-nadstroiki?from=rss",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "Я попросил Claude Code собрать макеты сайтов и выяснил, на что уходят токены",
@@ -720,7 +731,7 @@
    "link": "",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 50
+   "count": 51
   },
   {
    "title": "Главный специалист обучения нейросетей",
@@ -729,7 +740,7 @@
    "link": "https://trudvsem.ru/vacancy/card/5147746474134/079f7064-b0fd-11f1-8b99-7f552e9a29df",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 49
+   "count": 50
   },
   {
    "title": "Главный специалист по обучению нейросетей",
@@ -738,7 +749,7 @@
    "link": "https://trudvsem.ru/vacancy/card/5147746474134/2bf269e4-b116-11f1-8b99-7f552e9a29df",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 49
+   "count": 50
   },
   {
    "title": "Специалист по интернет-маркетингу",
@@ -747,7 +758,7 @@
    "link": "https://trudvsem.ru/vacancy/card/323547600112437/933ab518-ab69-11f1-86d3-9d322d9153e2",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 49
+   "count": 50
   },
   {
    "title": "Специалист по маркетингу",
@@ -756,7 +767,7 @@
    "link": "https://trudvsem.ru/vacancy/card/313574016400030/7793dd08-79fa-11f1-be4b-5ffb8b1668a9",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 49
+   "count": 50
   },
   {
    "title": "Специалист",
@@ -765,7 +776,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1133015001900/de773ca8-adb8-11f1-987b-b1d3bf2d14ab",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 49
+   "count": 50
   },
   {
    "title": "Программист C++(Computer Vision)",
@@ -774,7 +785,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1047806004828/d7b86e00-8124-11f1-bf53-3dce151bb2eb",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 49
+   "count": 50
   },
   {
    "title": "Разработчик моделей ИИ",
@@ -783,7 +794,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1117746480807/470094a8-90a5-11f1-aafb-5b63b8045b4a",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 49
+   "count": 50
   },
   {
    "title": "Программист 1С",
@@ -792,7 +803,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1103850012166/f333dbf0-b261-11f1-98bc-350b59df29cf",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 49
+   "count": 50
   },
   {
    "title": "Экономист",
@@ -801,7 +812,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1041800081443/6e6406a8-7911-11f1-a323-9d73f5e76293",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 49
+   "count": 50
   },
   {
    "title": "Методист-составитель учебно-методических комплексов",
@@ -810,7 +821,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1186733015413/d4a5e068-5e3e-11f1-9171-c73cd5942599",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 49
+   "count": 50
   },
   {
    "title": "СММ-специалист",
@@ -819,7 +830,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1257200012630/541c5301-6dfa-11f1-a0ef-714ad8f097f6",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 49
+   "count": 50
   },
   {
    "title": "Старший научный сотрудник",
@@ -828,7 +839,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1229300155182/e983a0c0-f829-11ef-966f-d549be31d974",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Специалист по нейронным сетям, искусственный интеллект",
@@ -837,7 +848,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1182651003072/4dd23048-b27e-11f1-8ba9-0db939d1b69f",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Эксперт Управления технологий и сервисов искусственного интеллекта",
@@ -846,7 +857,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1027739105382/b79ce228-aac4-11f1-9f0e-a574101ccb6b",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Начальник Управления технологий и сервисов искусственного интеллекта",
@@ -855,7 +866,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1027739105382/4e9cf8c8-aac7-11f1-9f0e-a574101ccb6b",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Главный архитектор управления технологий и сервисов искусственного интеллекта",
@@ -864,7 +875,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1027739105382/bccf1318-aac6-11f1-8587-2b3d872122a6",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Руководитель продукта Управления технологий и сервисов искусственного интеллекта",
@@ -873,7 +884,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1027739105382/68b78ff8-aabc-11f1-8587-2b3d872122a6",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Инженер автоматизированных систем управления технологическими процессами (АСУ ТП)",
@@ -882,7 +893,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1021800992190/9445ac38-59b6-11f1-aaac-b338cf4ead7d",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Офис-менеджер",
@@ -891,7 +902,7 @@
    "link": "https://trudvsem.ru/vacancy/card/5147746474134/80218174-a650-11f1-8804-cdc976d3ec94",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Начальник отдела технического сопровождения",
@@ -900,7 +911,7 @@
    "link": "https://trudvsem.ru/vacancy/card/ae41f310-5a07-11ea-a425-736ab11edb0c/60adb0a8-9fc7-11f1-be6c-191a6b2a1e33",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Специалист Управление дистанционного обслуживания (единый Контактный центр)",
@@ -909,7 +920,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1127154008244/0cb8e645-b6a4-11ee-9c7c-e7d0d2cf29b1",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Водитель автомобиля",
@@ -918,7 +929,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1229300155182/4af1f30a-f529-11f0-ba7d-9959eb3311ba",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Уборщик территорий",
@@ -927,7 +938,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1229300155182/0d6ac258-f529-11f0-8628-a3cca5294b78",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Младший научный сотрудник",
@@ -936,7 +947,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1229300155182/a137fde0-c3ba-11f0-82a6-f10ff9b67cde",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Научный сотрудник",
@@ -945,7 +956,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1229300155182/d62dff58-57f8-11f0-8b75-e7d0d2cf29b1",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Клиентский менеджер удаленных продаж (г.Тольятти) ПАО Сбербанк",
@@ -954,7 +965,7 @@
    "link": "https://trudvsem.ru/vacancy/card/dbb1f100-6773-11e5-a7c5-833b590698f7/550a6658-5b33-11f0-8c0e-cb26dff57dd7",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "старший менеджер по работе с клиентами (Оренбургская обл)",
@@ -963,7 +974,7 @@
    "link": "https://trudvsem.ru/vacancy/card/dbb1f100-6773-11e5-a7c5-833b590698f7/2f17ca28-ac52-11f1-9f0e-a574101ccb6b",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Старший менеджер по работе с клиентами (Саратовская область)",
@@ -972,7 +983,7 @@
    "link": "https://trudvsem.ru/vacancy/card/dbb1f100-6773-11e5-a7c5-833b590698f7/1e3584a0-ac24-11f1-9f0e-a574101ccb6b",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Старший менеджер по работе с клиентами (Ульяновская область)",
@@ -981,7 +992,7 @@
    "link": "https://trudvsem.ru/vacancy/card/dbb1f100-6773-11e5-a7c5-833b590698f7/ba8d0ed8-ac25-11f1-86d3-9d322d9153e2",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Старший менеджер по работе с клиентами (Пензенская область)",
@@ -990,7 +1001,7 @@
    "link": "https://trudvsem.ru/vacancy/card/dbb1f100-6773-11e5-a7c5-833b590698f7/871d11c8-ac26-11f1-8587-2b3d872122a6",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Специалист по AI, GPT, ML",
@@ -999,7 +1010,7 @@
    "link": "https://trudvsem.ru/vacancy/card/326090000025251/e389fe29-a5f8-11f1-b4b9-312b1e80675a",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Менеджер выездного сервиса (Пензенская область)",
@@ -1008,7 +1019,7 @@
    "link": "https://trudvsem.ru/vacancy/card/dbb1f100-6773-11e5-a7c5-833b590698f7/4e9f6018-ac43-11f1-8587-2b3d872122a6",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Клиентский менеджер контактного центра (г.Волгоград) ПАО Сбербанк",
@@ -1017,7 +1028,7 @@
    "link": "https://trudvsem.ru/vacancy/card/dbb1f100-6773-11e5-a7c5-833b590698f7/dc8d0bf8-b041-11f1-9b06-338bb3104f83",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Начальник отдела (в обрабатывающей промышленности)",
@@ -1026,7 +1037,7 @@
    "link": "https://trudvsem.ru/vacancy/card/3b7f1b40-1101-11ef-bb0b-e7d0d2cf29b1/fe27111b-05a2-11f1-a78e-891cf761e7ce",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 48
+   "count": 49
   },
   {
    "title": "Менеджер по продажам образования по Искусственному Интеллекту",
@@ -1035,7 +1046,7 @@
    "link": "https://hh.ru/vacancy/136735462",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 47
+   "count": 48
   },
   {
    "title": "Подключил локальную Gemma к Codex, чтобы экономить лимит. На простой задаче расход вырос вдвое",
@@ -1043,6 +1054,24 @@
    "reason": "нет признака ИИ",
    "link": "https://habr.com/ru/articles/1084092/?utm_campaign=1084092&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-20",
+   "last": "2026-09-25",
+   "count": 46
+  },
+  {
+   "title": "Преподаватель онлайн-курса по искусственному интеллекту",
+   "source": "hh.ru",
+   "reason": "курсы или обучение, а не вакансия",
+   "link": "https://hh.ru/vacancy/137197821",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 46
+  },
+  {
+   "title": "Руководитель AI-направления / Head AI Engineer",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137360910",
+   "first": "2026-09-18",
    "last": "2026-09-25",
    "count": 45
   },
@@ -1053,7 +1082,7 @@
    "link": "https://hh.ru/vacancy/137546982",
    "first": "2026-09-19",
    "last": "2026-09-25",
-   "count": 43
+   "count": 44
   },
   {
    "title": "Ускорение Python-сервиса с CinderX: JIT и статическая типизация",
@@ -1062,7 +1091,7 @@
    "link": "https://habr.com/ru/articles/1084420/?utm_campaign=1084420&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-21",
    "last": "2026-09-25",
-   "count": 43
+   "count": 44
   },
   {
    "title": "Whisper без облака: локальное распознавание чувствительных записей",
@@ -1070,6 +1099,24 @@
    "reason": "стоп-слово (бытовая техника)",
    "link": "https://habr.com/ru/companies/timeweb/articles/1080548/?utm_campaign=1080548&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-22",
+   "last": "2026-09-25",
+   "count": 43
+  },
+  {
+   "title": "Руководитель AI Engineering и трансформации разработки",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/136906410",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 42
+  },
+  {
+   "title": "Американские военные чуть не атаковали китайский корабль из-за ошибочных разведданных, подготовленных с помощью ИИ",
+   "source": "Habr AI Новости",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/news/1084238/?utm_campaign=1084238&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-21",
    "last": "2026-09-25",
    "count": 42
   },
@@ -1083,31 +1130,13 @@
    "count": 41
   },
   {
-   "title": "Руководитель AI Engineering и трансформации разработки",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136906410",
-   "first": "2026-09-18",
-   "last": "2026-09-25",
-   "count": 41
-  },
-  {
-   "title": "Американские военные чуть не атаковали китайский корабль из-за ошибочных разведданных, подготовленных с помощью ИИ",
-   "source": "Habr AI Новости",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/news/1084238/?utm_campaign=1084238&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-21",
-   "last": "2026-09-25",
-   "count": 41
-  },
-  {
    "title": "Нужна ли умная модель для рутины? Дал четырём моделям пять одинаковых задач и сравнил",
    "source": "Habr AI",
    "reason": "нет признака ИИ",
    "link": "https://habr.com/ru/articles/1084270/?utm_campaign=1084270&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-20",
    "last": "2026-09-25",
-   "count": 40
+   "count": 41
   },
   {
    "title": "Ведущий менеджер по продажам (EdTech / AI продукт)",
@@ -1125,7 +1154,7 @@
    "link": "https://habr.com/ru/articles/1084686/?utm_campaign=1084686&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 37
+   "count": 38
   },
   {
    "title": "Научный сотрудник Центра искусственного интеллекта",
@@ -1134,7 +1163,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1115000005922/63567a77-b4b8-11f1-9e3c-99a7bec525ed",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 36
+   "count": 38
   },
   {
    "title": "Давай по новой, Миша: speculative decoding от черновика до проверки",
@@ -1142,6 +1171,24 @@
    "reason": "повтор",
    "link": "",
    "first": "2026-09-22",
+   "last": "2026-09-25",
+   "count": 36
+  },
+  {
+   "title": "1352 кейса внедрения ИИ в России: почему в продакшене побеждает не модель, а обвязка",
+   "source": "Habr AI",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/articles/1085314/?utm_campaign=1085314&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 35
+  },
+  {
+   "title": "Где ещё дают LLM API бесплатно: проверяю очередные находки",
+   "source": "Habr ML",
+   "reason": "повтор",
+   "link": "",
+   "first": "2026-09-23",
    "last": "2026-09-25",
    "count": 35
   },
@@ -1152,25 +1199,16 @@
    "link": "https://hh.ru/vacancy/137434101",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 33
+   "count": 34
   },
   {
-   "title": "1352 кейса внедрения ИИ в России: почему в продакшене побеждает не модель, а обвязка",
-   "source": "Habr AI",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/articles/1085314/?utm_campaign=1085314&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-23",
+   "title": "Нейроспециалист / Контент-менеджер искусственного интеллекта",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/136825231",
+   "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 33
-  },
-  {
-   "title": "Где ещё дают LLM API бесплатно: проверяю очередные находки",
-   "source": "Habr ML",
-   "reason": "повтор",
-   "link": "",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 33
+   "count": 34
   },
   {
    "title": "программист 1 категории",
@@ -1179,7 +1217,7 @@
    "link": "https://trudvsem.ru/vacancy/card/b9c53699-8ea2-42cb-a9ac-5d1da968ce41/a3d4bc9a-b1ae-11f1-98bc-350b59df29cf",
    "first": "2026-09-20",
    "last": "2026-09-25",
-   "count": 32
+   "count": 33
   },
   {
    "title": "Project Manager онлайн-запусков / копирайтер / смысловик",
@@ -1188,7 +1226,7 @@
    "link": "https://hh.ru/vacancy/136790405",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 30
+   "count": 31
   },
   {
    "title": "Content Manager / Контент - менеджер",
@@ -1197,7 +1235,7 @@
    "link": "https://hh.ru/vacancy/137117326",
    "first": "2026-09-18",
    "last": "2026-09-25",
-   "count": 29
+   "count": 30
   },
   {
    "title": "Xiaomi выпустила открытые MiMo‑V2.6 с контекстом в миллион токенов и ценой от $0,28",
@@ -1206,13 +1244,22 @@
    "link": "https://habr.com/ru/companies/koda/news/1085246/?utm_campaign=1085246&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-23",
    "last": "2026-09-25",
-   "count": 28
+   "count": 30
   },
   {
    "title": "Точечные перезапуски в JUnit+GitHub Actions: диалог с тестами",
    "source": "Habr Open Source",
    "reason": "нет признака ИИ",
    "link": "https://habr.com/ru/companies/testops_tms/articles/1085286/?utm_campaign=1085286&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 30
+  },
+  {
+   "title": "От сырых проверок качества данных до понятной картины в OpenMetadata",
+   "source": "Habr ML",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/companies/magnit/articles/1085076/?utm_campaign=1085076&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-23",
    "last": "2026-09-25",
    "count": 28
@@ -1254,20 +1301,29 @@
    "count": 27
   },
   {
-   "title": "От сырых проверок качества данных до понятной картины в OpenMetadata",
-   "source": "Habr ML",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/companies/magnit/articles/1085076/?utm_campaign=1085076&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 27
-  },
-  {
    "title": "Асессор",
    "source": "hh.ru",
    "reason": "нет признака ИИ или ML",
    "link": "https://hh.ru/vacancy/137653637",
    "first": "2026-09-22",
+   "last": "2026-09-25",
+   "count": 27
+  },
+  {
+   "title": "Триаж уязвимостей в AI-платформе: почему календарный SLA сломался и что ставить вместо него",
+   "source": "Habr AI",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/companies/vktech/articles/1069692/?utm_campaign=1069692&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 27
+  },
+  {
+   "title": "Senior ML Engineer, Content | Старший инженер по машинному обучению, Контент",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137327752",
+   "first": "2026-09-18",
    "last": "2026-09-25",
    "count": 27
   },
@@ -1278,7 +1334,7 @@
    "link": "https://habr.com/ru/companies/yandex_cloud_and_infra/articles/1084654/?utm_campaign=1084654&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 25
+   "count": 26
   },
   {
    "title": "Тупая модель с жёстким циклом проверки бьёт умную модель без него",
@@ -1287,16 +1343,7 @@
    "link": "https://habr.com/ru/articles/1084656/?utm_campaign=1084656&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 25
-  },
-  {
-   "title": "Триаж уязвимостей в AI-платформе: почему календарный SLA сломался и что ставить вместо него",
-   "source": "Habr AI",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/companies/vktech/articles/1069692/?utm_campaign=1069692&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 25
+   "count": 26
   },
   {
    "title": "Lead Data Scientist/Руководитель направления (NLP)",
@@ -1305,7 +1352,7 @@
    "link": "https://hh.ru/vacancy/136629732",
    "first": "2026-09-21",
    "last": "2026-09-25",
-   "count": 24
+   "count": 25
   },
   {
    "title": "Почему ИИ для программирования выбирает одни и те же библиотеки: я просканировал 30 сайтов документации",
@@ -1314,7 +1361,16 @@
    "link": "",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 23
+   "count": 24
+  },
+  {
+   "title": "Менеджер по продажам/стажер (без холодных звонков/новостройки/Новосибирск)",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/135871344",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 24
   },
   {
    "title": "Старший Data Scientist, Команда модерации селлерского контента",
@@ -1323,7 +1379,7 @@
    "link": "https://hh.ru/vacancy/137593826",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 22
+   "count": 23
   },
   {
    "title": "Отдал сайт ИИ‑агентам: из 111 находок аудита 25 пошли в мусор, 4 оказались выдумкой",
@@ -1332,7 +1388,16 @@
    "link": "https://habr.com/ru/articles/1085422/?utm_campaign=1085422&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-23",
    "last": "2026-09-25",
-   "count": 21
+   "count": 23
+  },
+  {
+   "title": "Практический GitHub Actions: полноценный CI/CD для FastAPI + PostgreSQL",
+   "source": "Habr Python",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/companies/timeweb/articles/1084344/?utm_campaign=1084344&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 22
   },
   {
    "title": "«Яндекс» назвал и наградил лауреатов международной премии Yandex ML Prize 2026",
@@ -1341,7 +1406,52 @@
    "link": "https://habr.com/ru/news/1084406/?utm_campaign=1084406&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 20
+   "count": 21
+  },
+  {
+   "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++",
+   "source": "Habr AI",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/articles/1085752/?utm_campaign=1085752&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 21
+  },
+  {
+   "title": "Руководитель центра обучения сотрудников AI (ИИ-евангелист)",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137465345",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 21
+  },
+  {
+   "title": "Дизайнер машинной вышивки Wilcom",
+   "source": "hh.ru",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://hh.ru/vacancy/137280604",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 21
+  },
+  {
+   "title": "Ведущий специалист по обучению GigaChat, г. Волгоград",
+   "source": "hh.ru",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://hh.ru/vacancy/137316949",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 21
+  },
+  {
+   "title": "Преподаватель-эксперт по информационной безопасности и администрированию СЗИ (автор курса)",
+   "source": "hh.ru",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://hh.ru/vacancy/137393565",
+   "first": "2026-09-18",
+   "last": "2026-09-25",
+   "count": 21
   },
   {
    "title": "IT менеджер",
@@ -1353,22 +1463,13 @@
    "count": 20
   },
   {
-   "title": "Практический GitHub Actions: полноценный CI/CD для FastAPI + PostgreSQL",
-   "source": "Habr Python",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/companies/timeweb/articles/1084344/?utm_campaign=1084344&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 20
-  },
-  {
    "title": "графический дизайнер",
    "source": "Работа России",
    "reason": "не удалённая работа",
    "link": "https://trudvsem.ru/vacancy/card/1126914000751/8420c051-6fa2-11f1-ac81-0fee4bebada3",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 19
+   "count": 20
   },
   {
    "title": "Разработчик AI / RAG",
@@ -1377,7 +1478,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1187746589359/41fba218-6a3f-11f1-a438-437bd200794c",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 19
+   "count": 20
   },
   {
    "title": "Дело было не в коде: Hacktoberfest, ИИ и ценность самого пути",
@@ -1386,7 +1487,7 @@
    "link": "https://habr.com/ru/articles/1085390/?utm_campaign=1085390&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-23",
    "last": "2026-09-25",
-   "count": 19
+   "count": 20
   },
   {
    "title": "Как я строю нейросимвольное извлечение условий из тендерных документов",
@@ -1395,7 +1496,7 @@
    "link": "https://habr.com/ru/articles/1084984/?utm_campaign=1084984&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-23",
    "last": "2026-09-25",
-   "count": 19
+   "count": 20
   },
   {
    "title": "Как мы мигрировали с MongoDB на Cassandra за квартал: опыт использования АI-агентов",
@@ -1404,16 +1505,7 @@
    "link": "",
    "first": "2026-09-23",
    "last": "2026-09-25",
-   "count": 19
-  },
-  {
-   "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++",
-   "source": "Habr AI",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/articles/1085752/?utm_campaign=1085752&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 19
+   "count": 20
   },
   {
    "title": "Ведущий специалист-эксперт отдела кадров",
@@ -1422,7 +1514,7 @@
    "link": "https://trudvsem.ru/vacancy/card/1043301900366/572ffc88-b580-11f1-85fc-83a545b8b137",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 18
+   "count": 19
   },
   {
    "title": "Миграции от ИИ агента: почему я бы не пускал их в прод без отдельного firewall",
@@ -1431,7 +1523,7 @@
    "link": "https://habr.com/ru/articles/1084968/?utm_campaign=1084968&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-23",
    "last": "2026-09-25",
-   "count": 18
+   "count": 19
   },
   {
    "title": "Junior QA Engineer",
@@ -1440,7 +1532,7 @@
    "link": "https://hh.ru/vacancy/137622630",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 17
+   "count": 18
   },
   {
    "title": "Бенчмарк качества англо-русского перевода для ведущих западных и китайских LLM",
@@ -1449,7 +1541,7 @@
    "link": "",
    "first": "2026-09-23",
    "last": "2026-09-25",
-   "count": 16
+   "count": 17
   },
   {
    "title": "Кеш кандидатов: как снизить расход железа в рекомендательной системе без потери качества",
@@ -1458,7 +1550,7 @@
    "link": "",
    "first": "2026-09-23",
    "last": "2026-09-25",
-   "count": 16
+   "count": 17
   },
   {
    "title": "Полезные бесплатные Chat GPT боты в Telegram: топ-7 чат-ботов на русском",
@@ -1467,7 +1559,7 @@
    "link": "",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 15
+   "count": 16
   },
   {
    "title": "Шрифт — это не просто буквы: как устроен шрифтовой дизайн, что изменят нейросети и за что на самом деле платят",
@@ -1476,7 +1568,7 @@
    "link": "",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 15
+   "count": 16
   },
   {
    "title": "[Перевод] Встречаем GPT‑6 Sol и Luna",
@@ -1485,7 +1577,7 @@
    "link": "",
    "first": "2026-09-23",
    "last": "2026-09-25",
-   "count": 15
+   "count": 16
   },
   {
    "title": "Как сделать интерактивного агента с помощью KV‑кеш‑манипуляций",
@@ -1494,7 +1586,7 @@
    "link": "",
    "first": "2026-09-23",
    "last": "2026-09-25",
-   "count": 15
+   "count": 16
   },
   {
    "title": "Хотел свою систему, которую можно менять когда угодно, и сделал три десктопных AI-приложения",
@@ -1503,7 +1595,7 @@
    "link": "",
    "first": "2026-09-23",
    "last": "2026-09-25",
-   "count": 15
+   "count": 16
   },
   {
    "title": "ASR для языка, которого Whisper почти не знает: LoRA за полтора часа — и почему полдела сделал декодер",
@@ -1512,79 +1604,7 @@
    "link": "",
    "first": "2026-09-23",
    "last": "2026-09-25",
-   "count": 15
-  },
-  {
-   "title": "Anthropic выпустила Claude Opus 5.5. Модель приблизилась к Fable 5.1 и стала дешевле",
-   "source": "Habr ML Новости",
-   "reason": "повтор",
-   "link": "",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 14
-  },
-  {
-   "title": "Ипотека или аренда: перестал считать в Excel и написал симулятор денег",
-   "source": "Habr Big Data",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/articles/1084436/?utm_campaign=1084436&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 14
-  },
-  {
-   "title": "Платформа данных на минималках. Часть 3: поднимаем Trino и читаем таблицы Iceberg из S3",
-   "source": "Habr Big Data",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/companies/selectel/articles/1082852/?utm_campaign=1082852&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 14
-  },
-  {
-   "title": "Генерация энциклопедии фазовых равновесий",
-   "source": "Habr Python",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/articles/1085358/?utm_campaign=1085358&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 14
-  },
-  {
-   "title": "Redis в маршрутах.NET: кэш, Pub/Sub, Streams с группами и Claim Check одним коннектором",
-   "source": "Habr Open Source",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/articles/1085372/?utm_campaign=1085372&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 14
-  },
-  {
-   "title": "Почему LLM никогда не пройдут тест Тьюринга в Tinder: изнанка дейтинг-аутстаффа",
-   "source": "Habr Фриланс",
-   "reason": "повтор",
-   "link": "",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 14
-  },
-  {
-   "title": "Claude Opus 5.5 (Клод Опус 5.5) от Anthropic: новая нейросеть для текста, анализа и сложных задач",
-   "source": "vc.ru",
-   "reason": "реклама в ИИ-теге",
-   "link": "https://vc.ru/services/3153336-claude-opus-5-5-ot-anthropic?from=rss",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 14
-  },
-  {
-   "title": "ИИ знает, что он не знает? Как психология 1970-х может улучшить наш prompt engineering",
-   "source": "Habr ML",
-   "reason": "повтор",
-   "link": "",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 14
+   "count": 16
   },
   {
    "title": "KodaCode 1.2.0 получил новые модели, субагентов и планирование в Desktop и CLI",
@@ -1593,7 +1613,7 @@
    "link": "https://habr.com/ru/companies/koda/news/1085884/?utm_campaign=1085884&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 14
+   "count": 16
   },
   {
    "title": "Anthropic выпустила Claude Opus 5.5: на 40% дешевле и более чем на 30% быстрее Opus 5",
@@ -1602,7 +1622,7 @@
    "link": "https://habr.com/ru/news/1085330/?utm_campaign=1085330&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 14
+   "count": 16
   },
   {
    "title": "Книга: «Solutions Architect: пережить интервью. Как архитектору решений получить работу мечты»",
@@ -1611,7 +1631,7 @@
    "link": "https://habr.com/ru/companies/piter/articles/1081290/?utm_campaign=1081290&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 14
+   "count": 16
   },
   {
    "title": "ИИ 2026-2027",
@@ -1620,7 +1640,7 @@
    "link": "https://vc.ru/id6121626/3155088-ii-kak-rabochij-instrument?from=rss",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 14
+   "count": 16
   },
   {
    "title": "Локальный агент для кода на Mac: MTPLX + pi + Qwen3.8-27B. Что реально ускоряет, а что нет",
@@ -1629,7 +1649,7 @@
    "link": "https://habr.com/ru/articles/1085928/?utm_campaign=1085928&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 14
+   "count": 16
   },
   {
    "title": "[Перевод] Jev за 25 строк на Python",
@@ -1638,7 +1658,79 @@
    "link": "",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 14
+   "count": 16
+  },
+  {
+   "title": "Anthropic выпустила Claude Opus 5.5. Модель приблизилась к Fable 5.1 и стала дешевле",
+   "source": "Habr ML Новости",
+   "reason": "повтор",
+   "link": "",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 15
+  },
+  {
+   "title": "Ипотека или аренда: перестал считать в Excel и написал симулятор денег",
+   "source": "Habr Big Data",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/articles/1084436/?utm_campaign=1084436&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 15
+  },
+  {
+   "title": "Платформа данных на минималках. Часть 3: поднимаем Trino и читаем таблицы Iceberg из S3",
+   "source": "Habr Big Data",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/companies/selectel/articles/1082852/?utm_campaign=1082852&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 15
+  },
+  {
+   "title": "Генерация энциклопедии фазовых равновесий",
+   "source": "Habr Python",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/articles/1085358/?utm_campaign=1085358&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 15
+  },
+  {
+   "title": "Redis в маршрутах.NET: кэш, Pub/Sub, Streams с группами и Claim Check одним коннектором",
+   "source": "Habr Open Source",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/articles/1085372/?utm_campaign=1085372&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 15
+  },
+  {
+   "title": "Почему LLM никогда не пройдут тест Тьюринга в Tinder: изнанка дейтинг-аутстаффа",
+   "source": "Habr Фриланс",
+   "reason": "повтор",
+   "link": "",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 15
+  },
+  {
+   "title": "Claude Opus 5.5 (Клод Опус 5.5) от Anthropic: новая нейросеть для текста, анализа и сложных задач",
+   "source": "vc.ru",
+   "reason": "реклама в ИИ-теге",
+   "link": "https://vc.ru/services/3153336-claude-opus-5-5-ot-anthropic?from=rss",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 15
+  },
+  {
+   "title": "ИИ знает, что он не знает? Как психология 1970-х может улучшить наш prompt engineering",
+   "source": "Habr ML",
+   "reason": "повтор",
+   "link": "",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 15
   },
   {
    "title": "Сколько ресурсов ест ИИ‑агент на сервере: замеры на двадцати агентах",
@@ -1647,7 +1739,7 @@
    "link": "https://habr.com/ru/articles/1085800/?utm_campaign=1085800&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 12
+   "count": 13
   },
   {
    "title": "Менеджер по привлечению клиентов B2B",
@@ -1656,7 +1748,7 @@
    "link": "https://hh.ru/vacancy/137601929",
    "first": "2026-09-22",
    "last": "2026-09-25",
-   "count": 11
+   "count": 12
   },
   {
    "title": "A brief history of Windows scroll bar shortcuts",
@@ -1665,7 +1757,52 @@
    "link": "https://devblogs.microsoft.com/oldnewthing/20260922-00/?p=112719/",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 11
+   "count": 12
+  },
+  {
+   "title": "[Перевод] Строим продвинутый каркас для ИИ-агента",
+   "source": "Habr AI",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/companies/ostrovok/articles/1084568/?utm_campaign=1084568&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 12
+  },
+  {
+   "title": "RAG умер, да здравствует RAG: история одного Reranker и как мы оживили нейропоиск среди 35 000 страниц",
+   "source": "Habr AI",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/companies/runity/articles/1086162/?utm_campaign=1086162&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 12
+  },
+  {
+   "title": "Я захотел, чтобы Obsidian заполнялся сам",
+   "source": "Habr AI",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/articles/1086054/?utm_campaign=1086054&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 12
+  },
+  {
+   "title": "SRX: восстановить нужный фрагмент и проверить его",
+   "source": "Habr ML",
+   "reason": "повтор",
+   "link": "",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 12
+  },
+  {
+   "title": "Open‑weight LLM догнали закрытые? Проверка на продакшене",
+   "source": "Habr ML",
+   "reason": "повтор",
+   "link": "",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 12
   },
   {
    "title": "После достижения 200 млн активных пользователей, ByteDance сокращает команду по разработке чатов в Doubao",
@@ -1673,6 +1810,42 @@
    "reason": "повтор",
    "link": "",
    "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 11
+  },
+  {
+   "title": "Claude Opus 5.5 вышел в релиз, а повлияло ли это на рынок?",
+   "source": "Habr ML Новости",
+   "reason": "повтор",
+   "link": "",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 10
+  },
+  {
+   "title": "Китайский регулятор начал проверку DeepSeek и Moonshot AI из‑за передачи данных пользователей в Claude",
+   "source": "Habr ML Новости",
+   "reason": "повтор",
+   "link": "",
+   "first": "2026-09-23",
+   "last": "2026-09-25",
+   "count": 10
+  },
+  {
+   "title": "Radicle: Disclosure of Vulnerability in the Network Protocol",
+   "source": "Hacker News",
+   "reason": "нет признака ИИ",
+   "link": "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 10
+  },
+  {
+   "title": "ИИ спотыкается не об ум, а об контекст: как генератор майндмап превратился в RAG по продукту",
+   "source": "Habr AI",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/companies/cynteka/articles/1085606/?utm_campaign=1085606&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-24",
    "last": "2026-09-25",
    "count": 10
   },
@@ -1686,91 +1859,91 @@
    "count": 9
   },
   {
-   "title": "Claude Opus 5.5 вышел в релиз, а повлияло ли это на рынок?",
-   "source": "Habr ML Новости",
-   "reason": "повтор",
-   "link": "",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 9
-  },
-  {
-   "title": "Китайский регулятор начал проверку DeepSeek и Moonshot AI из‑за передачи данных пользователей в Claude",
-   "source": "Habr ML Новости",
-   "reason": "повтор",
-   "link": "",
-   "first": "2026-09-23",
-   "last": "2026-09-25",
-   "count": 9
-  },
-  {
-   "title": "Radicle: Disclosure of Vulnerability in the Network Protocol",
-   "source": "Hacker News",
-   "reason": "нет признака ИИ",
-   "link": "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 9
-  },
-  {
-   "title": "[Перевод] Строим продвинутый каркас для ИИ-агента",
-   "source": "Habr AI",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/companies/ostrovok/articles/1084568/?utm_campaign=1084568&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 9
-  },
-  {
-   "title": "RAG умер, да здравствует RAG: история одного Reranker и как мы оживили нейропоиск среди 35 000 страниц",
-   "source": "Habr AI",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/companies/runity/articles/1086162/?utm_campaign=1086162&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 9
-  },
-  {
-   "title": "Я захотел, чтобы Obsidian заполнялся сам",
-   "source": "Habr AI",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/articles/1086054/?utm_campaign=1086054&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 9
-  },
-  {
-   "title": "SRX: восстановить нужный фрагмент и проверить его",
-   "source": "Habr ML",
-   "reason": "повтор",
-   "link": "",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 9
-  },
-  {
-   "title": "Open‑weight LLM догнали закрытые? Проверка на продакшене",
-   "source": "Habr ML",
-   "reason": "повтор",
-   "link": "",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 9
-  },
-  {
    "title": "Ideas on modernizing the open-source desktop",
    "source": "Hacker News",
    "reason": "нет признака ИИ",
    "link": "https://lwn.net/SubscriberLink/1095425/2d9f411252325784/",
    "first": "2026-09-24",
    "last": "2026-09-25",
+   "count": 9
+  },
+  {
+   "title": "I want my mesh networks to be signed, not encrypted",
+   "source": "Lobsters",
+   "reason": "нет признака ИИ",
+   "link": "https://andanti.no/blog/SignedMesh.html",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
    "count": 8
   },
   {
-   "title": "ИИ спотыкается не об ум, а об контекст: как генератор майндмап превратился в RAG по продукту",
-   "source": "Habr AI",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/companies/cynteka/articles/1085606/?utm_campaign=1085606&utm_source=habrahabr&utm_medium=rss",
+   "title": "Rendering huge pull requests in the GitHub Copilot app",
+   "source": "GitHub Eng",
+   "reason": "повтор",
+   "link": "",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 8
+  },
+  {
+   "title": "OpenAI наняла трёх экс‑руководителей Patreon для стратегии по продуктам создателей контента",
+   "source": "Habr AI Новости",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/news/1085644/?utm_campaign=1085644&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 8
+  },
+  {
+   "title": "Google тестирует показ ИИ‑ленты в Discover",
+   "source": "Habr AI Новости",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/news/1085640/?utm_campaign=1085640&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 8
+  },
+  {
+   "title": "−1000% занятости: как я нашёл дыры в собственном опубликованном датасете",
+   "source": "Habr Python",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/articles/1085408/?utm_campaign=1085408&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 8
+  },
+  {
+   "title": "Я написал верификатор eBPF для микроконтроллера. А потом ядро Linux объяснило мне, где я неправ",
+   "source": "Habr Open Source",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/articles/1085656/?utm_campaign=1085656&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 8
+  },
+  {
+   "title": "Как я сделал акварельную анимацию нейросетями по рассказу 1951 года — и получил притчу о толпе",
+   "source": "vc.ru",
+   "reason": "повтор",
+   "link": "",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 8
+  },
+  {
+   "title": "Контент оператор маркетплейсов",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137693934",
+   "first": "2026-09-24",
+   "last": "2026-09-25",
+   "count": 8
+  },
+  {
+   "title": "Jev и обычные LLM: сравниваем качество, скорость и стоимость",
+   "source": "Habr NLP",
+   "reason": "повтор",
+   "link": "",
    "first": "2026-09-24",
    "last": "2026-09-25",
    "count": 8
@@ -1785,91 +1958,10 @@
    "count": 7
   },
   {
-   "title": "I want my mesh networks to be signed, not encrypted",
-   "source": "Lobsters",
-   "reason": "нет признака ИИ",
-   "link": "https://andanti.no/blog/SignedMesh.html",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 7
-  },
-  {
-   "title": "Rendering huge pull requests in the GitHub Copilot app",
-   "source": "GitHub Eng",
-   "reason": "повтор",
-   "link": "",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 7
-  },
-  {
-   "title": "OpenAI наняла трёх экс‑руководителей Patreon для стратегии по продуктам создателей контента",
-   "source": "Habr AI Новости",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/news/1085644/?utm_campaign=1085644&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 7
-  },
-  {
-   "title": "Google тестирует показ ИИ‑ленты в Discover",
-   "source": "Habr AI Новости",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/news/1085640/?utm_campaign=1085640&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 7
-  },
-  {
-   "title": "−1000% занятости: как я нашёл дыры в собственном опубликованном датасете",
-   "source": "Habr Python",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/articles/1085408/?utm_campaign=1085408&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 7
-  },
-  {
-   "title": "Я написал верификатор eBPF для микроконтроллера. А потом ядро Linux объяснило мне, где я неправ",
-   "source": "Habr Open Source",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/articles/1085656/?utm_campaign=1085656&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 7
-  },
-  {
-   "title": "Как я сделал акварельную анимацию нейросетями по рассказу 1951 года — и получил притчу о толпе",
-   "source": "vc.ru",
-   "reason": "повтор",
-   "link": "",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 7
-  },
-  {
-   "title": "Контент оператор маркетплейсов",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137693934",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 7
-  },
-  {
    "title": "Ai тренер копирайтер",
    "source": "hh.ru",
    "reason": "не ИИ-профессия",
    "link": "https://hh.ru/vacancy/137519170",
-   "first": "2026-09-24",
-   "last": "2026-09-25",
-   "count": 6
-  },
-  {
-   "title": "Jev и обычные LLM: сравниваем качество, скорость и стоимость",
-   "source": "Habr NLP",
-   "reason": "повтор",
-   "link": "",
    "first": "2026-09-24",
    "last": "2026-09-25",
    "count": 6
@@ -1881,7 +1973,43 @@
    "link": "https://hh.ru/vacancy/137728437",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 5
+   "count": 6
+  },
+  {
+   "title": "Гига Писарь теперь и на Windows",
+   "source": "Habr AI",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/companies/gigapisar/articles/1086374/?utm_campaign=1086374&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 6
+  },
+  {
+   "title": "Я автоматизировал поиск работы, сделал 553 отклика за три недели и сходил на собеседования",
+   "source": "Habr AI",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/articles/1086362/?utm_campaign=1086362&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 6
+  },
+  {
+   "title": "Как взвесить чужой репозиторий, не запуская его: 138 проектов из трендов GitHub",
+   "source": "Habr AI",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/articles/1086232/?utm_campaign=1086232&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 6
+  },
+  {
+   "title": "VM упадёт через 30 минут. Можно ли узнать об этом раньше мониторинга?",
+   "source": "Habr ML",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/articles/1085920/?utm_campaign=1085920&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 6
   },
   {
    "title": "Рой агентов OpenAI ломанул правительственный сайт Австралии? Разбираемся",
@@ -1890,7 +2018,7 @@
    "link": "",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 4
+   "count": 5
   },
   {
    "title": "Автоматизируем разбор резюме с помощью LLM, Python и FMC",
@@ -1899,7 +2027,7 @@
    "link": "",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 4
+   "count": 5
   },
   {
    "title": "Как подружить n8n с GigaChat в Docker, и проблемы корневого сертификата Минцифры",
@@ -1908,7 +2036,7 @@
    "link": "",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 4
+   "count": 5
   },
   {
    "title": "QA Engineer Fullstack (manual + auto Python)",
@@ -1926,7 +2054,7 @@
    "link": "",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 3
+   "count": 4
   },
   {
    "title": "Интеграция Muse в Spotify превращает прослушивание музыки в процесс, работающий на автопилоте",
@@ -1935,7 +2063,7 @@
    "link": "",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 3
+   "count": 4
   },
   {
    "title": "ИИ в маркетинге 2026: от «черновиков» к стратегии",
@@ -1944,7 +2072,7 @@
    "link": "",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 3
+   "count": 4
   },
   {
    "title": "Практикант — ассистент менеджера по продажам",
@@ -1953,7 +2081,133 @@
    "link": "https://hh.ru/vacancy/137719219",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 3
+   "count": 4
+  },
+  {
+   "title": "F-Droid 2.0",
+   "source": "Hacker News",
+   "reason": "нет признака ИИ",
+   "link": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "Jev: модель, которая ничего не пишет",
+   "source": "Habr AI",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/companies/polzaai/articles/1086424/?utm_campaign=1086424&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "От 6 часов до 20 минут: как мы ускорили коллаборативную модель в рекомендациях Авито",
+   "source": "Habr AI",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/companies/avito/articles/1086210/?utm_campaign=1086210&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "Как мы автоматизировали контроль сборки заказов для сети ресторанов быстрого питания",
+   "source": "Habr AI",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/articles/1086318/?utm_campaign=1086318&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "Как мы перестали писать описания к merge request руками: AI Describer в GitLab CI и Jenkins",
+   "source": "Habr AI",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/articles/1086306/?utm_campaign=1086306&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "Разработка платформы координации ПСР во время реальной спасательной операции",
+   "source": "Habr AI",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/articles/1086304/?utm_campaign=1086304&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "Что такое вайбкодинг простыми словами, как к этому пришли и почему ИИ перевернул игру",
+   "source": "Habr AI",
+   "reason": "нет признака ИИ",
+   "link": "https://habr.com/ru/companies/timeweb/articles/1085464/?utm_campaign=1085464&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "Какая страховка нужна трейдеру? Бэктест, не просто риск менеджемент",
+   "source": "Habr AI",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/articles/1086148/?utm_campaign=1086148&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "Можно ли встроить ИИ в торговый цикл на 300 мс? Разбираю Jev",
+   "source": "Habr AI",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/articles/1086078/?utm_campaign=1086078&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "От готовых реплик к контекстной памяти: как эволюционировали AI-чаты",
+   "source": "Habr ML",
+   "reason": "повтор",
+   "link": "",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "DrivingBench проверили GPT-6 Astra, GPT-5.6 Sol, Grok 4.6 и Claude Fable 5.1 на возможность управлять авто",
+   "source": "Habr AI Новости",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/news/1086380/?utm_campaign=1086380&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "Агент открыл закрытые файлы государственного портала, а узнали об этом через два месяца",
+   "source": "Habr AI Новости",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/companies/selectel/news/1086132/?utm_campaign=1086132&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "LibrePing: децентрализованный мониторинг доступности на libp2p без центрального сервера",
+   "source": "Habr Open Source",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/articles/1086112/?utm_campaign=1086112&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
+  },
+  {
+   "title": "[Перевод] Аварийное восстановление в Kubernetes: три воспроизводимых сценария сбоя",
+   "source": "Habr DevOps",
+   "reason": "стоп-слово (бытовая техника)",
+   "link": "https://habr.com/ru/companies/vktech/articles/1085948/?utm_campaign=1085948&utm_source=habrahabr&utm_medium=rss",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 4
   },
   {
    "title": "Executive Assistant to founder",
@@ -1965,49 +2219,13 @@
    "count": 3
   },
   {
-   "title": "Гига Писарь теперь и на Windows",
-   "source": "Habr AI",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/companies/gigapisar/articles/1086374/?utm_campaign=1086374&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 3
-  },
-  {
-   "title": "Я автоматизировал поиск работы, сделал 553 отклика за три недели и сходил на собеседования",
-   "source": "Habr AI",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/articles/1086362/?utm_campaign=1086362&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 3
-  },
-  {
-   "title": "Как взвесить чужой репозиторий, не запуская его: 138 проектов из трендов GitHub",
-   "source": "Habr AI",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/articles/1086232/?utm_campaign=1086232&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 3
-  },
-  {
-   "title": "VM упадёт через 30 минут. Можно ли узнать об этом раньше мониторинга?",
-   "source": "Habr ML",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/articles/1085920/?utm_campaign=1085920&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 3
-  },
-  {
    "title": "Автор курса \"Нейросети для соцсетей и блога\" в Практикум",
    "source": "hh.ru",
    "reason": "курсы или обучение, а не вакансия",
    "link": "https://hh.ru/vacancy/137492777",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 2
+   "count": 3
   },
   {
    "title": "Менеджер по продажам (EdTech)",
@@ -2016,7 +2234,7 @@
    "link": "https://hh.ru/vacancy/137366184",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 2
+   "count": 3
   },
   {
    "title": "Руководитель направления SEO / Team lead",
@@ -2025,7 +2243,7 @@
    "link": "https://hh.ru/vacancy/137146438",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 2
+   "count": 3
   },
   {
    "title": "Senior дизайнер (Health&Fitness)",
@@ -2034,7 +2252,7 @@
    "link": "https://hh.ru/vacancy/137736215",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 2
+   "count": 3
   },
   {
    "title": "Помощник/ассистент руководителя",
@@ -2043,7 +2261,7 @@
    "link": "https://hh.ru/vacancy/137717129",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 2
+   "count": 3
   },
   {
    "title": "Ведущий менеджер Ozon / E-commerce аналитик",
@@ -2052,7 +2270,7 @@
    "link": "https://hh.ru/vacancy/137702958",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 2
+   "count": 3
   },
   {
    "title": "Ассистент менеджера по продажам (практикант)",
@@ -2061,7 +2279,7 @@
    "link": "https://hh.ru/vacancy/137719220",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 2
+   "count": 3
   },
   {
    "title": "Руководитель проектов в консалтинговое агентство (корпоративная культура, внутриком, HR-бренд)",
@@ -2070,7 +2288,7 @@
    "link": "https://hh.ru/vacancy/137752818",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 2
+   "count": 3
   },
   {
    "title": "Выбор агентской модели для кластеров из 2× DGX Spark (сентябрь 2026)",
@@ -2079,7 +2297,7 @@
    "link": "",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 2
+   "count": 3
   },
   {
    "title": "950 Claude-агентов за 21 час нашли новую биологическую систему",
@@ -2088,7 +2306,7 @@
    "link": "",
    "first": "2026-09-24",
    "last": "2026-09-25",
-   "count": 2
+   "count": 3
   },
   {
    "title": "Партнёр по продажам AI-видеоконтента",
@@ -2100,139 +2318,13 @@
    "count": 2
   },
   {
-   "title": "F-Droid 2.0",
-   "source": "Hacker News",
-   "reason": "нет признака ИИ",
-   "link": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "Jev: модель, которая ничего не пишет",
-   "source": "Habr AI",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/companies/polzaai/articles/1086424/?utm_campaign=1086424&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "От 6 часов до 20 минут: как мы ускорили коллаборативную модель в рекомендациях Авито",
-   "source": "Habr AI",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/companies/avito/articles/1086210/?utm_campaign=1086210&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "Как мы автоматизировали контроль сборки заказов для сети ресторанов быстрого питания",
-   "source": "Habr AI",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/articles/1086318/?utm_campaign=1086318&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "Как мы перестали писать описания к merge request руками: AI Describer в GitLab CI и Jenkins",
-   "source": "Habr AI",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/articles/1086306/?utm_campaign=1086306&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "Разработка платформы координации ПСР во время реальной спасательной операции",
-   "source": "Habr AI",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/articles/1086304/?utm_campaign=1086304&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "Что такое вайбкодинг простыми словами, как к этому пришли и почему ИИ перевернул игру",
-   "source": "Habr AI",
-   "reason": "нет признака ИИ",
-   "link": "https://habr.com/ru/companies/timeweb/articles/1085464/?utm_campaign=1085464&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "Какая страховка нужна трейдеру? Бэктест, не просто риск менеджемент",
-   "source": "Habr AI",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/articles/1086148/?utm_campaign=1086148&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "Можно ли встроить ИИ в торговый цикл на 300 мс? Разбираю Jev",
-   "source": "Habr AI",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/articles/1086078/?utm_campaign=1086078&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "От готовых реплик к контекстной памяти: как эволюционировали AI-чаты",
-   "source": "Habr ML",
-   "reason": "повтор",
-   "link": "",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "DrivingBench проверили GPT-6 Astra, GPT-5.6 Sol, Grok 4.6 и Claude Fable 5.1 на возможность управлять авто",
-   "source": "Habr AI Новости",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/news/1086380/?utm_campaign=1086380&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "Агент открыл закрытые файлы государственного портала, а узнали об этом через два месяца",
-   "source": "Habr AI Новости",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/companies/selectel/news/1086132/?utm_campaign=1086132&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "LibrePing: децентрализованный мониторинг доступности на libp2p без центрального сервера",
-   "source": "Habr Open Source",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/articles/1086112/?utm_campaign=1086112&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
-   "title": "[Перевод] Аварийное восстановление в Kubernetes: три воспроизводимых сценария сбоя",
-   "source": "Habr DevOps",
-   "reason": "стоп-слово (бытовая техника)",
-   "link": "https://habr.com/ru/companies/vktech/articles/1085948/?utm_campaign=1085948&utm_source=habrahabr&utm_medium=rss",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 2
-  },
-  {
    "title": "The Board Game of the Alpha Nerds (2014)",
    "source": "Hacker News",
    "reason": "нет признака ИИ",
    "link": "https://grantland.com/features/diplomacy-the-board-game-of-the-alpha-nerds/",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "Security headers on 4,688 small-business websites: 49.7% met none of 7 criteria",
@@ -2241,7 +2333,7 @@
    "link": "https://rackcrunch.com/security-headers-2026",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "California is chasing wealth that has feet",
@@ -2250,7 +2342,7 @@
    "link": "https://blog.landeconomics.org/p/california-is-chasing-wealth-that",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "Opus 5.5 is good at explainer videos",
@@ -2259,7 +2351,7 @@
    "link": "https://launchvideo.io",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "Sourcehut account takeover via build logs (XSS in ansi2html)",
@@ -2268,7 +2360,7 @@
    "link": "https://blog.arusekk.pl/posts/srht-account-takeover/",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "August 27 TCRF DDoS Attack Postmortem",
@@ -2277,7 +2369,7 @@
    "link": "https://blog.xkeeper.net/the-cutting-room-floor/tcrf-2026-ddos-postmortem/",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "Как мы дописываем оборванные ответы языковой модели и почему склейка оказалась сложнее, чем кажется",
@@ -2286,7 +2378,7 @@
    "link": "https://habr.com/ru/articles/1086420/?utm_campaign=1086420&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "GEO vs SEO: методология ИИ-мониторинга для работы с генеративной выдачей в 2026 году",
@@ -2295,7 +2387,7 @@
    "link": "https://habr.com/ru/articles/1085368/?utm_campaign=1085368&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "Информационный поток против кода: слепое пятно безопасности ИИ",
@@ -2304,7 +2396,7 @@
    "link": "https://habr.com/ru/articles/1086168/?utm_campaign=1086168&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "Мы дали ИИ доступ к учётной системе: что из этого вышло?",
@@ -2313,7 +2405,7 @@
    "link": "https://habr.com/ru/companies/moysklad/articles/1086094/?utm_campaign=1086094&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "TAPe+ML v3 на arXiv: превосходим SOTA в классификации, детекции и сегментации при 100 тыс. параметров",
@@ -2322,7 +2414,7 @@
    "link": "",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "Без госфинансирования и корпораций: Smart Engines создала первый в мире носимый томограф",
@@ -2331,7 +2423,7 @@
    "link": "https://habr.com/ru/companies/smartengines/news/1086036/?utm_campaign=1086036&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "Институт Алана Тьюринга: человечество через 5 лет может лишиться контроля над ИИ",
@@ -2340,7 +2432,7 @@
    "link": "https://habr.com/ru/news/1086028/?utm_campaign=1086028&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "От создателей WeChat вышел новый генератор — Hy Image 3.5",
@@ -2349,7 +2441,7 @@
    "link": "",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "Семантический слой на TypeDB: как уйти от паутины SQL-джойнов к декларативной модели данных",
@@ -2358,7 +2450,7 @@
    "link": "https://habr.com/ru/companies/neoflex/articles/1085748/?utm_campaign=1085748&utm_source=habrahabr&utm_medium=rss",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "Flowise закрыли, я его форкнул — и выяснил, что форкать было нельзя",
@@ -2367,7 +2459,7 @@
    "link": "",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "LLM предлагает, код исполняет: как разделить reasoning и side effects в production-пайплайне",
@@ -2376,7 +2468,7 @@
    "link": "",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "Рынок вычислений в России, Казахстане и Беларуси",
@@ -2385,7 +2477,7 @@
    "link": "",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
   },
   {
    "title": "Как подключить context7 к Claude за 5 минут, даже если вы не программист",
@@ -2394,7 +2486,70 @@
    "link": "",
    "first": "2026-09-25",
    "last": "2026-09-25",
-   "count": 1
+   "count": 2
+  },
+  {
+   "title": "Наставник на курс «Нейросети для продакт-менеджера» в Практикум",
+   "source": "hh.ru",
+   "reason": "не ИИ-профессия",
+   "link": "https://hh.ru/vacancy/137765279",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 2
+  },
+  {
+   "title": "Ассистент руководителя",
+   "source": "hh.ru",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://hh.ru/vacancy/137765778",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 2
+  },
+  {
+   "title": "Ведущий специалист обучения нейросетей",
+   "source": "Работа России",
+   "reason": "не удалённая работа",
+   "link": "https://trudvsem.ru/vacancy/card/5147746474134/6b658a64-b71c-11f1-a9f1-81af42855215",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 2
+  },
+  {
+   "title": "Корреспондент издательства, редакции газет и журналов",
+   "source": "Работа России",
+   "reason": "не удалённая работа",
+   "link": "https://trudvsem.ru/vacancy/card/1093338001195/8e343888-9d44-11f1-baa3-e56b73b24658",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 2
+  },
+  {
+   "title": "SMM-специалист",
+   "source": "Работа России",
+   "reason": "не удалённая работа",
+   "link": "https://trudvsem.ru/vacancy/card/1167746501064/2a64f9b8-adc1-11f1-9b06-338bb3104f83",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 2
+  },
+  {
+   "title": "Заместитель главного технолога",
+   "source": "Работа России",
+   "reason": "не удалённая работа",
+   "link": "https://trudvsem.ru/vacancy/card/1146318002797/78f894a8-9189-11f1-9253-c35c7c22d563",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 2
+  },
+  {
+   "title": "Аналитик-инженер по машинному обучению",
+   "source": "Работа России",
+   "reason": "не удалённая работа",
+   "link": "https://trudvsem.ru/vacancy/card/7226c750-02f1-11eb-8600-bfd13399602c/6ddd5624-76bb-11f1-962f-05afb02d3492",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 2
   },
   {
    "title": "Преподаватель онлайн-курса «Оператор ИИ»",
@@ -2410,15 +2565,6 @@
    "source": "hh.ru",
    "reason": "не ИИ-профессия",
    "link": "https://hh.ru/vacancy/137353585",
-   "first": "2026-09-25",
-   "last": "2026-09-25",
-   "count": 1
-  },
-  {
-   "title": "Наставник на курс «Нейросети для продакт-менеджера» в Практикум",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137765279",
    "first": "2026-09-25",
    "last": "2026-09-25",
    "count": 1
@@ -2442,55 +2588,487 @@
    "count": 1
   },
   {
-   "title": "Ассистент руководителя",
+   "title": "Преподаватель программирования",
    "source": "hh.ru",
    "reason": "нет признака ИИ или ML",
-   "link": "https://hh.ru/vacancy/137765778",
+   "link": "https://hh.ru/vacancy/137147373",
    "first": "2026-09-25",
    "last": "2026-09-25",
    "count": 1
   },
   {
-   "title": "Ведущий специалист обучения нейросетей",
-   "source": "Работа России",
-   "reason": "не удалённая работа",
-   "link": "https://trudvsem.ru/vacancy/card/5147746474134/6b658a64-b71c-11f1-a9f1-81af42855215",
+   "title": "Python Backend Engineer Senior",
+   "source": "hh.ru",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://hh.ru/vacancy/137765857",
    "first": "2026-09-25",
    "last": "2026-09-25",
    "count": 1
   },
   {
-   "title": "Корреспондент издательства, редакции газет и журналов",
-   "source": "Работа России",
-   "reason": "не удалённая работа",
-   "link": "https://trudvsem.ru/vacancy/card/1093338001195/8e343888-9d44-11f1-baa3-e56b73b24658",
+   "title": "Senior DevOps Engineer",
+   "source": "hh.ru",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://hh.ru/vacancy/136259874",
    "first": "2026-09-25",
    "last": "2026-09-25",
    "count": 1
   },
   {
-   "title": "SMM-специалист",
-   "source": "Работа России",
-   "reason": "не удалённая работа",
-   "link": "https://trudvsem.ru/vacancy/card/1167746501064/2a64f9b8-adc1-11f1-9b06-338bb3104f83",
+   "title": "QA Automation Engineer (Java / Mobile)",
+   "source": "hh.ru",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://hh.ru/vacancy/137749445",
    "first": "2026-09-25",
    "last": "2026-09-25",
    "count": 1
   },
   {
-   "title": "Заместитель главного технолога",
-   "source": "Работа России",
-   "reason": "не удалённая работа",
-   "link": "https://trudvsem.ru/vacancy/card/1146318002797/78f894a8-9189-11f1-9253-c35c7c22d563",
+   "title": "Middle Fullstack QA Engineer (CRM)",
+   "source": "hh.ru",
+   "reason": "нет признака ИИ или ML",
+   "link": "https://hh.ru/vacancy/137526104",
    "first": "2026-09-25",
    "last": "2026-09-25",
    "count": 1
   },
   {
-   "title": "Аналитик-инженер по машинному обучению",
-   "source": "Работа России",
-   "reason": "не удалённая работа",
-   "link": "https://trudvsem.ru/vacancy/card/7226c750-02f1-11eb-8600-bfd13399602c/6ddd5624-76bb-11f1-962f-05afb02d3492",
+   "title": "Junior оператор LLM/backend",
+   "source": "hh.ru",
+   "reason": "курсы или обучение, а не вакансия",
+   "link": "https://hh.ru/vacancy/137770983",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Оживить приложенную фотографию (Бюджет: 1 000 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523285/ojivit-prilojennuyu-fotografiyu.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Регистрация AppStore (Бюджет: 2 500 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523282/registratsiya-appstore.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "WordPress-сайт для childcare-сервиса: booking, мультиязычность, SEO",
+   "source": "FL.ru",
+   "reason": "реклама или SEO, а не разработка",
+   "link": "https://www.fl.ru/projects/5523284/wordpress-sayt-dlya-childcare-servisa-booking-multiyazyichnost-seo.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "3д визуализация интерьера",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523281/3d-vizualizatsiya-interera-.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Корректировка сборки моделей для АГР (Бюджет: 10 000 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523262/korrektirovka-sborki-modeley-dlya-agr.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Менеджер по продажам строительного ПО (только процент)",
+   "source": "FL.ru",
+   "reason": "реклама или SEO, а не разработка",
+   "link": "https://www.fl.ru/projects/5523277/menedjer-po-prodajam-stroitelnogo-po-tolko-protsent.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Каталог 40 страниц в индизайн до завтра до 15:00 мск (Бюджет: 10 000 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523264/katalog-40-stranits-v-indizayn-do-zavtra-do-1500-msk.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "3D-анимация упражнения по видео-референсу",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523278/3d-animatsiya-uprajneniya-po-video-referensu.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Холодные звонки (Бюджет: 10 000 ₽, для всех)",
+   "source": "FL.ru",
+   "reason": "реклама или SEO, а не разработка",
+   "link": "https://www.fl.ru/projects/5523263/holodnyie-zvonki.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Разработка разделов АР и КР для 2-этажного монолитного дома по готовым наброскам (Бюджет: 1 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523271/razrabotka-razdelov-ar-i-kr-dlya-2-etajnogo-monolitnogo-doma-po-gotovyim-nabroskam.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Требуется опытный видеомонтажёр для контент-завода",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523276/trebuetsya-opyitnyiy-videomontajr-dlya-kontent-zavoda-.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Моделирование архитектуры (Бюджет: 5 000 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523261/modelirovanie-arhitekturyi.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Анимация для шортс",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523265/animatsiya-dlya-shorts.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Нужен С++ разработчик для Internal Bot для Majestic RP",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523259/nujen-s-razrabotchik-dlya-internal-bot-dlya-majestic-rp.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Дизайн 3х комнатной квартиры",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523254/dizayn-3h-komnatnoy-kvartiryi.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "постинг комментариев под роликами в соц.сети (Бюджет: 2 000 ₽)",
+   "source": "FL.ru",
+   "reason": "реклама или SEO, а не разработка",
+   "link": "https://www.fl.ru/projects/5523252/posting-kommentariev-pod-rolikami-v-sotsseti.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Нужно сделать мультфильм в ToonBoonHarmony (для всех)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523114/nujno-sdelat-multfilm-v-toonboonharmony.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Проектирование газовой котельной из сэндвич панелей ;Разработка раздела ГСВ, Разработка раздела АБ (для всех)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523101/proektirovanie-gazovoy-kotelnoy-iz-sendvich-paneley-razrabotka-razdela-gsv-razrabotka-razdela-ab.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Настройка управленческого учета",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523249/nastroyka-upravlencheskogo-ucheta.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Инженер-разработчик силовой электроники для прототипа модульной системы питания (Бюджет: 300 000 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523248/injener-razrabotchik-silovoy-elektroniki-dlya-prototipa-modulnoy-sistemyi-pitaniya.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Переработка фундамента готового проекта дома 80 м² — КЖ/КЖ0 (для всех)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523247/pererabotka-fundamenta-gotovogo-proekta-doma-80-m--kj-kj0.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "ТЗ на интеграцию Google Contacts / Google Sheet / AmoCRM с помощью сервиса n8n или Albato",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523246/tz-na-integratsiyu-google-contacts---google-sheet---amocrm-s-pomoschyu-servisa-n8n-ili-albato--.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Улучшить видео (Бюджет: 3 000 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523245/uluchshit-video.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Сдача отчетности очно в ФНС по доверенности Ногинск (Бюджет: 10 000 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523244/sdacha-otchetnosti-ochno-v-fns-po-doverennosti-noginsk.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "В инфографику нужно внести изменения",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523243/v-infografiku-nujno-vnesti-izmeneniya-.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Отзывы на картах (Бюджет: 10 000 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523238/otzyivyi-na-kartah.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Разделы КМ, КЖ",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523237/razdelyi-km-kj.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Перевод с немецкого (для всех)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523077/perevod-s-nemetskogo.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Pr менеджеры",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523232/pr-menedjeryi.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Создание системы по лидогенерации заказов для инжиниринговой компании",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523228/sozdanie-sistemyi-po-lidogeneratsii-zakazov-dlya-injiniringovoy-kompanii.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Для заказа",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523230/dlya-zakaza.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Дизайн коробки для пиццы (Бюджет: 2 500 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523229/dizayn-korobki-dlya-pitstsyi.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Отзыв на картах (Бюджет: 180 ₽, для всех)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523066/otzyiv-na-kartah.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Написать отзыв на G2 (для всех)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523065/napisat-otzyiv-na-g2.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Создание low-poly 3D-модели muscle coupe по референсу",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523216/sozdanie-low-poly-3d-modeli-muscle-coupe-po-referensu.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Специалист по SEO оптимизации на Baidu",
+   "source": "FL.ru",
+   "reason": "реклама или SEO, а не разработка",
+   "link": "https://www.fl.ru/projects/5521911/spetsialist-po-seo-optimizatsii-na-baidu.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Требуется инженер-конструктор и ГИС/3D-специалист со знанием Autodesk Inventor",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523213/trebuetsya-injener-konstruktor-i-gis-3d-spetsialist-so-znaniem-autodesk-inventor.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Разблокировка по IMEI",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523210/razblokirovka-po-imei.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "3D-модель Одигитриевская церковь (деревянный храм + колокольня) для AR-приложения на Unity",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523209/3d-model-odigitrievskaya-tserkov-derevyannyiy-hram--kolokolnya--dlya-ar-prilojeniya-na-unity.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Смонтировать 10 роликов по 15-25 сек (Бюджет: 10 000 ₽)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523208/smontirovat-10-rolikov-po-15-25-sek.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Реализовать умный поиск по номенклатуре",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523205/realizovat-umnyiy-poisk-po-nomenklature.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Размещение контента",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523204/razmeschenie-kontenta.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Создать эскиз",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523203/sozdat-eskiz.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Нужен помощник для холодных звонков (для всех)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523049/nujen-pomoschnik-dlya-holodnyih-zvonkov.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Отрисовать планировки и фронтальные рендеры саун",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523201/otrisovat-planirovki-i-frontalnyie-renderyi-saun-.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Бот квалификатор и реаниматор лидов",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523200/bot-kvalifikator-i-reanimator-lidov.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "CRM для дистрибьютора строительных материалов",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523199/crm-dlya-distribyutora-stroitelnyih-materialov.html",
+   "first": "2026-09-25",
+   "last": "2026-09-25",
+   "count": 1
+  },
+  {
+   "title": "Создание софта на BAS или ZennoLab для накрутки ПФ в Brave (для всех)",
+   "source": "FL.ru",
+   "reason": "нет признака ИИ или сайта",
+   "link": "https://www.fl.ru/projects/5523040/sozdanie-softa-na-bas-ili-zennolab-dlya-nakrutki-pf-v-brave.html",
    "first": "2026-09-25",
    "last": "2026-09-25",
    "count": 1
@@ -2505,15 +3083,6 @@
    "count": 101
   },
   {
-   "title": "Стажер-инженер технологий машинного обучения",
-   "source": "hh.ru",
-   "reason": "курсы или обучение, а не вакансия",
-   "link": "https://hh.ru/vacancy/137535328",
-   "first": "2026-09-18",
-   "last": "2026-09-24",
-   "count": 56
-  },
-  {
    "title": "Открываем AliceAI-Foundation-80B-A3B-Base — новую языковую модель Яндекса, обученную с нуля",
    "source": "Habr NLP",
    "reason": "повтор",
@@ -2521,24 +3090,6 @@
    "first": "2026-09-21",
    "last": "2026-09-24",
    "count": 46
-  },
-  {
-   "title": "Руководитель AI-направления / Head AI Engineer",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137360910",
-   "first": "2026-09-18",
-   "last": "2026-09-24",
-   "count": 44
-  },
-  {
-   "title": "Преподаватель онлайн-курса по искусственному интеллекту",
-   "source": "hh.ru",
-   "reason": "курсы или обучение, а не вакансия",
-   "link": "https://hh.ru/vacancy/137197821",
-   "first": "2026-09-18",
-   "last": "2026-09-24",
-   "count": 44
   },
   {
    "title": "Как попасть в ответы Perplexity AI и почему эта ИИ-модель берёт не весь текст с цитируемых страниц",
@@ -2586,24 +3137,6 @@
    "count": 34
   },
   {
-   "title": "Нейроспециалист / Контент-менеджер искусственного интеллекта",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136825231",
-   "first": "2026-09-18",
-   "last": "2026-09-24",
-   "count": 33
-  },
-  {
-   "title": "Senior ML Engineer, Content | Старший инженер по машинному обучению, Контент",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137327752",
-   "first": "2026-09-18",
-   "last": "2026-09-24",
-   "count": 26
-  },
-  {
    "title": "Product Architect (hands-on)",
    "source": "hh.ru",
    "reason": "нет признака ИИ или ML",
@@ -2640,15 +3173,6 @@
    "count": 24
   },
   {
-   "title": "Менеджер по продажам/стажер (без холодных звонков/новостройки/Новосибирск)",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/135871344",
-   "first": "2026-09-18",
-   "last": "2026-09-24",
-   "count": 23
-  },
-  {
    "title": "SEO Developer",
    "source": "hh.ru",
    "reason": "не ИИ-профессия",
@@ -2662,42 +3186,6 @@
    "source": "hh.ru",
    "reason": "нет признака ИИ или ML",
    "link": "https://hh.ru/vacancy/136793407",
-   "first": "2026-09-18",
-   "last": "2026-09-24",
-   "count": 20
-  },
-  {
-   "title": "Руководитель центра обучения сотрудников AI (ИИ-евангелист)",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137465345",
-   "first": "2026-09-18",
-   "last": "2026-09-24",
-   "count": 20
-  },
-  {
-   "title": "Дизайнер машинной вышивки Wilcom",
-   "source": "hh.ru",
-   "reason": "нет признака ИИ или ML",
-   "link": "https://hh.ru/vacancy/137280604",
-   "first": "2026-09-18",
-   "last": "2026-09-24",
-   "count": 20
-  },
-  {
-   "title": "Ведущий специалист по обучению GigaChat, г. Волгоград",
-   "source": "hh.ru",
-   "reason": "нет признака ИИ или ML",
-   "link": "https://hh.ru/vacancy/137316949",
-   "first": "2026-09-18",
-   "last": "2026-09-24",
-   "count": 20
-  },
-  {
-   "title": "Преподаватель-эксперт по информационной безопасности и администрированию СЗИ (автор курса)",
-   "source": "hh.ru",
-   "reason": "нет признака ИИ или ML",
-   "link": "https://hh.ru/vacancy/137393565",
    "first": "2026-09-18",
    "last": "2026-09-24",
    "count": 20
@@ -3142,492 +3630,6 @@
    "first": "2026-09-24",
    "last": "2026-09-24",
    "count": 2
-  },
-  {
-   "title": "Менеджер вводного урока по Нейросетям в онлайн-школу для детей (продажи)",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/136909145",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 2
-  },
-  {
-   "title": "Контент-менеджер маркетплейсов Ozon / Wildberries",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137035243",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 2
-  },
-  {
-   "title": "Менеджер по продажам (Tripwire)",
-   "source": "hh.ru",
-   "reason": "не ИИ-профессия",
-   "link": "https://hh.ru/vacancy/137513100",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 2
-  },
-  {
-   "title": "Ищу менеджера/агента по привлечению B2B-клиентов для продажи сметной программы (для всех)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523087/ischu-menedjera-agenta-po-privlecheniyu-b2b-klientov-dlya-prodaji-smetnoy-programmyi.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Маркетинговая задача -Заключение 20 договоров с Агентствами Недвижимости. (Бюджет: 20 000 ₽, для всех)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5522938/marketingovaya-zadacha--zaklyuchenie-20-dogovorov-s-agentstvami-nedvijimosti.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Сайт по ангара складам",
-   "source": "FL.ru",
-   "reason": "реклама или SEO, а не разработка",
-   "link": "https://www.fl.ru/projects/5523084/sayt-po-angara-skladam.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Дизайн брендового календаря",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523083/dizayn-brendovogo-kalendarya.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Написание отзывов на картах и 2гис (для всех)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523081/napisanie-otzyivov-na-kartah-i-2gis.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Тестирование приложения по доставке воды 19 л (Бюджет: 3 500 ₽)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523080/testirovanie-prilojeniya-po-dostavke-vodyi-19-l-.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Перевод с немецкого",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523077/perevod-s-nemetskogo.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Необходимо сделать дизайн двухстороннего буклета A4",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523076/neobhodimo-sdelat-dizayn-dvuhstoronnego-bukleta-a4-.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Ведение рекламной кампании в яндекс.директ",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523075/vedenie-reklamnoy-kampanii-v-yandeksdirekt-.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Контент-мейкер: съёмка, монтаж и ведение соцсетей (проектная работа, Нижний Новгород) (для всех)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5522342/kontent-meyker-symka-montaj-i-vedenie-sotssetey-proektnaya-rabota-nijniy-novgorod.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Настроить get course с 0",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523069/nastroit-get-course-s-0.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Отзыв на картах (Бюджет: 180 ₽)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523066/otzyiv-na-kartah.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Написать отзыв на G2",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523065/napisat-otzyiv-na-g2.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Монтаж видеоролика интервью",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523064/montaj-videorolika-intervyu-.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Дизайн-проект 1-к квартиры 35 м²: планировка + 3D (Бюджет: 30 000 ₽)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523056/dizayn-proekt-1-k-kvartiryi-35-m-planirovka--3d.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "карты отзывы (для всех)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5522911/kartyi-otzyivyi.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Исправить уже готовый документ docx (Бюджет: 2 500 ₽)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523052/ispravit-uje-gotovyiy-dokument-docx.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Нужен дизайн слот машины",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523050/nujen-dizayn-slot-mashinyi.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Google Maps API",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523051/google-maps-api.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Нужен помощник для холодных звонков",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523049/nujen-pomoschnik-dlya-holodnyih-zvonkov.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Создание интерьерных фотографий( ИИ+руки)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523046/sozdanie-interernyih-fotografiy-iiruki.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Разработка логотипа и фирменного стиля Центра нейрокоррекции и развития",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523045/razrabotka-logotipa-i-firmennogo-stilya-tsentra-neyrokorrektsii-i-razvitiya.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Нужно создать логотип",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523042/nujno-sozdat-logotip.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Создание софта на BAS или ZennoLab для накрутки ПФ в Brave",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523040/sozdanie-softa-na-bas-ili-zennolab-dlya-nakrutki-pf-v-brave.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Ищем предпринимателей, которые открыли локальный бизнес «у дома» в 2026 году или сейчас в процессе (Бюджет: 2 500 ₽)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523039/ischem-predprinimateley-kotoryie-otkryili-lokalnyiy-biznes-u-doma-v-2026-godu-ili-seychas-v-protsesse.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Ищем видеографа для съёмки коттеджного посёлка в Горном Алтае. (для всех)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5522889/ischem-videografa-dlya-symki-kottedjnogo-poslka-v-gornom-altae.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Нужна онлан консультация офтальмолога",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523036/nujna-onlan-konsultatsiya-oftalmologa.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Сценарист / рилсмейкер / креатор игровых видео в соцсети",
-   "source": "hh.ru",
-   "reason": "нет признака ИИ или ML",
-   "link": "https://hh.ru/vacancy/137731522",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Middle DevOps/SRE Engineer (SaaS, e-comm)",
-   "source": "hh.ru",
-   "reason": "нет признака ИИ или ML",
-   "link": "https://hh.ru/vacancy/137733969",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "эскиз в dxf (Бюджет: 1 000 ₽)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523172/eskiz-v-dxf-.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Необходимо развернуть приложение МТС на Android(эмуляторе) и сделать процесс получения ссылки СБП. (Бюджет: 5 000 ₽)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523171/-neobhodimo-razvernut-prilojenie-mts-na-androidemulyatore-i-sdelat-protsess-polucheniya-ssyilki-sbp.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Профессиональный дизайн карточек для маркетплейсов",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523169/professionalnyiy-dizayn-kartochek-dlya-marketpleysov.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Оставить отзыв (Бюджет: 150 ₽)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523168/ostavit-otzyiv.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "reels - мэйкер",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523167/reels---meyker.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Администрирование сервера Debian",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523166/administrirovanie-servera-debian.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Создать каталог в индизайн для печати 40 страниц (Бюджет: 7 000 ₽)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523160/sozdat-katalog-v-indizayn-dlya-pechati-40-stranits.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Дизайн календарных карточек",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523163/dizayn-kalendarnyih-kartochek.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Нужен бот разработчик в телеграмме",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523158/nujen-bot-razrabotchik-v-telegramme.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "реализация в 3d",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523162/realizatsiya-v-3d.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Партнёрство по привлечению заказов на разработку и продвижение: 20% с каждого чека (для всех)",
-   "source": "FL.ru",
-   "reason": "реклама или SEO, а не разработка",
-   "link": "https://www.fl.ru/projects/5523086/partnrstvo-po-privlecheniyu-zakazov-na-razrabotku-i-prodvijenie-20-s-kajdogo-cheka.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Ищем активных пользователей WB с максимальным уровнем WB Кошелька. (Бюджет: 1 300 ₽, для всех)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5522995/ischem-aktivnyih-polzovateley-wb-s-maksimalnyim-urovnem-wb-koshelka.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Нужно сделать визуализацию для стойки под сувенирную продукцию в отель. (Бюджет: 500 ₽)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523153/nujno-sdelat-vizualizatsiyu-dlya-stoyki-pod-suvenirnuyu-produktsiyu-v-otel.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Найти информацию в интернете",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523133/nayti-informatsiyu-v-internete-.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Разработать логотип (Бюджет: 3 000 ₽)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523117/razrabotat-logotip.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Ads specialist for SaaS",
-   "source": "FL.ru",
-   "reason": "реклама или SEO, а не разработка",
-   "link": "https://www.fl.ru/projects/5523130/ads-specialist-for-saas.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Ручное тестирование Telegram Mini App крипто-кошелька (iOS/Android) (Бюджет: 5 000 ₽, для всех)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523123/ruchnoe-testirovanie-telegram-mini-app-kripto-koshelka-ios-android.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Создание видео для Youtube (для всех)",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5522985/sozdanie-video-dlya-youtube.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Архитектор / техлид: спроектировать B2B-платформу и возглавить разработку",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523146/arhitektor---tehlid-sproektirovat-b2b-platformu-i-vozglavit-razrabotku.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Интерьер квартиры",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523144/interer-kvartiryi-.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Настройка рекламной кампании в ВК в моем рекламном кабинете",
-   "source": "FL.ru",
-   "reason": "нет признака ИИ или сайта",
-   "link": "https://www.fl.ru/projects/5523134/nastroyka-reklamnoy-kampanii-v-vk-v-moem-reklamnom-kabinete.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
-  },
-  {
-   "title": "Ищем SEO-специалиста для агрегатора ИИ для бизнеса",
-   "source": "FL.ru",
-   "reason": "реклама или SEO, а не разработка",
-   "link": "https://www.fl.ru/projects/5523127/ischem-seo-spetsialista-dlya-agregatora-ii-dlya-biznesa-.html",
-   "first": "2026-09-24",
-   "last": "2026-09-24",
-   "count": 1
   }
  ]
 }
