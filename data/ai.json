@@ -2,7 +2,7 @@
   {
     "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
     "link": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
-    "desc": "Article URL: https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical Comments URL: https://news.ycombinator.com/item?id=49835531 Points: 38 # Comments: 7",
+    "desc": "Article URL: https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical Comments URL: https://news.ycombinator.com/item?id=49835531 Points: 58 # Comments: 9",
     "date": "2026-09-24",
     "source": "Hacker News",
     "cat": "ai",
@@ -27,7 +27,7 @@
     "lang": "ru"
   },
   {
-    "title": "И все-таки AI уже стал математиком или нет?",
+    "title": "И все‑таки AI уже стал математиком или нет?",
     "link": "https://habr.com/ru/articles/1086390/?utm_campaign=1086390&utm_source=habrahabr&utm_medium=rss",
     "desc": "Я решил разобраться в этом вопросе, когда OpenAI и Anthropic стали нон-стопом сыпать новостями про новые математические рекорды и открытия. Читать далее",
     "date": "2026-09-24",
@@ -45,7 +45,7 @@
     "lang": "ru"
   },
   {
-    "title": "От готовых реплик к контекстной памяти: как эволюционировали AI-чаты",
+    "title": "От готовых реплик к контекстной памяти: как эволюционировали AI‑чаты",
     "link": "https://habr.com/ru/articles/1086352/?utm_campaign=1086352&utm_source=habrahabr&utm_medium=rss",
     "desc": "В первой части статьи мы рассказывали об эволюции поисковых систем. Теперь перейдем к технологиям, благодаря которым AI-чаты получили свои нынешние возможности. Если основная задача классического поисковика — найти и ранжировать существующие документы, то AI-чат должен сформировать ответ с учетом...",
     "date": "2026-09-24",
@@ -54,7 +54,7 @@
     "lang": "ru"
   },
   {
-    "title": "LLM предлагает, код исполняет: как разделить reasoning и side effects в production-пайплайне",
+    "title": "LLM предлагает, код исполняет: как разделить reasoning и side effects в production‑пайплайне",
     "link": "https://habr.com/ru/companies/agima/articles/1086332/?utm_campaign=1086332&utm_source=habrahabr&utm_medium=rss",
     "desc": "Если ваша LLM вызывает API и выполняет внешние действия, обычный retry после timeout может создать дубль или оставить систему в неизвестном состоянии. Разбираем, как отделить решение модели от исполнения и когда повторять запрос, сверять результат или подключать человека. Читать далее",
     "date": "2026-09-24",
@@ -747,15 +747,6 @@
     "lang": "en"
   },
   {
-    "title": "The GNOME LLM Policy That I Want",
-    "link": "https://blogs.gnome.org/alatiera/2026/09/23/the-gnome-llm-policy-that-i-want/",
-    "desc": "Comments",
-    "date": "2026-09-23",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Gemini 3.8 text-to-speech models now available on AI Gateway",
     "link": "https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway",
     "desc": "",
@@ -1060,6 +1051,15 @@
     "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "The GNOME LLM Policy That I Want",
+    "link": "https://blogs.gnome.org/alatiera/2026/09/23/the-gnome-llm-policy-that-i-want/",
+    "desc": "Comments",
+    "date": "2026-09-23",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Cheaper LLM labelling",
@@ -1566,15 +1566,6 @@
     "lang": "ru"
   },
   {
-    "title": "Инженер устал от работы Enter-ом, где Claude Code создаёт спецификации, код, тесты, задачи, решения этих задач и отчёты",
-    "link": "https://habr.com/ru/news/1085192/?utm_campaign=1085192&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Разработчик под ником v0xium устроился в IT-компанию несколько недель назад. Вот только работа там оказалась совсем не такой, как было раньше. По его словам, ИИ-помощник Claude Code создаёт в компании все спецификации, пишет код, выполняет тестирование, создаёт задачи, предоставляет решения этих ...",
-    "date": "2026-09-22",
-    "source": "Habr AI Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "«Нейроюрист» от «Яндекса» научился решать комплексные юридические задачи по одному запросу",
     "link": "https://habr.com/ru/news/1085092/?utm_campaign=1085092&utm_source=habrahabr&utm_medium=rss",
     "desc": "Сервис « Нейроюрист » (5 запросов в месяц бесплатно для всех пользователей) от «Яндекса» перешёл на новую архитектуру. Эту ИИ‑систему в режиме чата научили решать сложные юридические задачи — такие, где требуется выполнить цепочку действий. Больше не нужно разбивать работу на этапы и последовател...",
@@ -1751,6 +1742,15 @@
     "desc": "В начале текущего месяца OpenAI выпустила GPT-6 Astra — самую мощную и функциональную ИИ-модель компании, которую она без лишней скромности называет «лучшей в мире моделью» для выполнения широкого спектра задач, включая работу за компьютером и написание программного кода. Сегодня OpenAI расширила...",
     "date": "2026-09-22",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Инженер устал от работы Enter-ом, где Claude Code создаёт спецификации, код, тесты, задачи, решения этих задач и отчёты",
+    "link": "https://habr.com/ru/news/1085192/?utm_campaign=1085192&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Разработчик под ником v0xium устроился в IT-компанию несколько недель назад. Вот только работа там оказалась совсем не такой, как было раньше. По его словам, ИИ-помощник Claude Code создаёт в компании все спецификации, пишет код, выполняет тестирование, создаёт задачи, предоставляет решения этих ...",
+    "date": "2026-09-22",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -3105,15 +3105,6 @@
     "lang": "ru"
   },
   {
-    "title": "OpenAI и Microsoft признали уничтожение веба со стороны LLM",
-    "link": "https://habr.com/ru/news/1083732/?utm_campaign=1083732&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Руководители Microsoft и OpenAI, работающие над ИИ, признали , что большие языковые модели отличаются «поразительной кражей беспрецедентных масштабов» при обучении. Во внутреннем документе Microsoft говорится, что продукты генеративного ИИ создали «порочный круг», который убивает «всю сеть». Чита...",
-    "date": "2026-09-18",
-    "source": "Habr ML Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Запустить LLM локально: что считать до покупки видеокарты?",
     "link": "https://habr.com/ru/companies/otus/articles/1077942/?utm_campaign=1077942&utm_source=habrahabr&utm_medium=rss",
     "desc": "Мощная видеокарта не всегда означает быстрый локальный запуск LLM. Разбираемся, почему GPU может простаивать, как на производительность влияют память, KV‑кэш и движок инференса, и что учитывать перед сборкой собственного стенда. Разобраться в LLM",
@@ -3173,6 +3164,15 @@
     "desc": "Привет, Хабр! С виду даже самый простой проект, который можно «запромптить» в пару подходов, содержит десятки подводных камней, из-за которых его нельзя назвать production-ready. В этой статье я расскажу, с какими проблемами столкнулась моя команда при разработке сервиса «Запомни это» с помощью н...",
     "date": "2026-09-18",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI и Microsoft признали уничтожение веба со стороны LLM",
+    "link": "https://habr.com/ru/news/1083732/?utm_campaign=1083732&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Руководители Microsoft и OpenAI, работающие над ИИ, признали , что большие языковые модели отличаются «поразительной кражей беспрецедентных масштабов» при обучении. Во внутреннем документе Microsoft говорится, что продукты генеративного ИИ создали «порочный круг», который убивает «всю сеть». Чита...",
+    "date": "2026-09-18",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
