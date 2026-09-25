@@ -1,5 +1,14 @@
 [
   {
+    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+    "link": "https://swarmtraces.org/",
+    "desc": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 5 # Comments: 0",
+    "date": "2026-09-25",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
     "link": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
     "desc": "The following explanation is taken from https://news.ycombinator.com/item?id=49622607 : Alan Kay performs an improvisational avant garde layered audio feedback loop about Claude Shannon, live online during Kristen Nygaard's 100-year birthday celebration. Alan was scheduled to talk about how encou...",
@@ -11,7 +20,7 @@
   {
     "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
     "link": "https://mouse.dev/blog/muse-special/",
-    "desc": "Article URL: https://mouse.dev/blog/muse-special/ Comments URL: https://news.ycombinator.com/item?id=49848095 Points: 58 # Comments: 23",
+    "desc": "Article URL: https://mouse.dev/blog/muse-special/ Comments URL: https://news.ycombinator.com/item?id=49848095 Points: 75 # Comments: 34",
     "date": "2026-09-25",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,7 +29,7 @@
   {
     "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
     "link": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-    "desc": "Article URL: https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html Comments URL: https://news.ycombinator.com/item?id=49845977 Points: 287 # Comments: 451",
+    "desc": "Article URL: https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html Comments URL: https://news.ycombinator.com/item?id=49845977 Points: 313 # Comments: 532",
     "date": "2026-09-25",
     "source": "Hacker News",
     "cat": "ai",
@@ -1350,15 +1359,6 @@
     "lang": "ru"
   },
   {
-    "title": "Бенчмарк качества англо-русского перевода для ведущих западных и китайских LLM",
-    "link": "https://habr.com/ru/companies/ruvds/articles/1085636/?utm_campaign=1085636&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Сто ловушек в одном рассказе, LLM-судья с ключом ответов и баллы, которые считает код. Так устроен бенчмарк художественного перевода, который теперь встроен в опенсурсный конвейер BookTrans . В статье — зачем он понадобился, и как на нём выступили флагманы Anthropic, OpenAI и Google против китайс...",
-    "date": "2026-09-23",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Claude Opus 5.5 вышел в релиз, а повлияло ли это на рынок?",
     "link": "https://habr.com/ru/companies/selectel/news/1085780/?utm_campaign=1085780&utm_source=habrahabr&utm_medium=rss",
     "desc": "22 сентября состоялся релиз ожидаемой Claude Opus 5.5, которая, очевидно, обошла по характеристикам многие модели. Claude Opus 5.5 стал первым релизом с тех пор, как компания Anthropic объявила о необходимости притормозить гонку за самыми мощными моделями. Перед выпуском модель протестировал узки...",
@@ -1398,6 +1398,15 @@
     "title": "ASR для языка, которого Whisper почти не знает: LoRA за полтора часа — и почему полдела сделал декодер",
     "link": "https://habr.com/ru/articles/1085868/?utm_campaign=1085868&utm_source=habrahabr&utm_medium=rss",
     "desc": "В первой статье серии я рассказывал про речевые технологии для крымскотатарского в целом и обещал отдельно разобрать распознавание. Разбираю. Итоговая таблица, чтобы сразу было видно, о каких величинах речь. Один и тот же отложенный тест, один и тот же скоринг, 893 клипа / 1.86 ч, два диктора, ко...",
+    "date": "2026-09-23",
+    "source": "Habr NLP",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Бенчмарк качества англо-русского перевода для ведущих западных и китайских LLM",
+    "link": "https://habr.com/ru/companies/ruvds/articles/1085636/?utm_campaign=1085636&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сто ловушек в одном рассказе, LLM-судья с ключом ответов и баллы, которые считает код. Так устроен бенчмарк художественного перевода, который теперь встроен в опенсурсный конвейер BookTrans . В статье — зачем он понадобился, и как на нём выступили флагманы Anthropic, OpenAI и Google против китайс...",
     "date": "2026-09-23",
     "source": "Habr NLP",
     "cat": "ai",
