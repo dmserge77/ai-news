@@ -1,17 +1,26 @@
 [
   {
-    "title": "Microsoft Abandons Personal AI Chatbot Race with Copilot Reboot",
-    "link": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-    "desc": "Article URL: https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot Comments URL: https://news.ycombinator.com/item?id=49844896 Points: 11 # Comments: 3",
+    "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
+    "link": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
+    "desc": "The following explanation is taken from https://news.ycombinator.com/item?id=49622607 : Alan Kay performs an improvisational avant garde layered audio feedback loop about Claude Shannon, live online during Kristen Nygaard's 100-year birthday celebration. Alan was scheduled to talk about how encou...",
     "date": "2026-09-25",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Special Projects (2016)",
-    "link": "https://openai.com/index/special-projects/",
-    "desc": "Article URL: https://openai.com/index/special-projects/ Comments URL: https://news.ycombinator.com/item?id=49841893 Points: 58 # Comments: 31",
+    "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
+    "link": "https://mouse.dev/blog/muse-special/",
+    "desc": "Article URL: https://mouse.dev/blog/muse-special/ Comments URL: https://news.ycombinator.com/item?id=49848095 Points: 58 # Comments: 23",
+    "date": "2026-09-25",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+    "link": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+    "desc": "Article URL: https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html Comments URL: https://news.ycombinator.com/item?id=49845977 Points: 287 # Comments: 451",
     "date": "2026-09-25",
     "source": "Hacker News",
     "cat": "ai",
@@ -34,6 +43,42 @@
     "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Продвижение интернет-магазина в ответах ИИ: почему нейросети почти не ссылаются на карточку товара",
+    "link": "https://habr.com/ru/articles/1086798/?utm_campaign=1086798&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я задал Алисе AI и Perplexity 14 вопросов, которые покупатель задаёт перед покупкой техники: где купить оригинальный айфон с гарантией, где забрать макбук сегодня, где дают рассрочку. Потом посмотрел, на какие страницы магазинов ведут ссылки в ответах. Из 243 ссылок на карточку товара пришлось 10...",
+    "date": "2026-09-25",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "DBA Agent в действии: 10 тысяч тикетов и 99,6% автоматизации второй линии поддержки",
+    "link": "https://habr.com/ru/companies/sberbank/articles/1086740/?utm_campaign=1086740&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! Это четвёртая статья цикла про R&D‑исследование для небольшой команды DBA. Мы начали с того, что решили упростить мониторинг парка из более чем 800 экземпляров нашей СУБД Platform V Pangolin DB (реляционная СУБД на базе PostgreSQL) с помощью доработки postgres_exporter. А потом и во...",
+    "date": "2026-09-25",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Kimi, MiniMax Code и ZCode в OpenResearch: форк за один вечер вместе с Claude Opus 5.5",
+    "link": "https://habr.com/ru/articles/1086796/?utm_campaign=1086796&utm_source=habrahabr&utm_medium=rss",
+    "desc": "OpenResearch от alphaXiv превращает coding-агентов в исследовательских. Из коробки он работал с Claude Code, Codex, OpenCode, Cursor и Google Antigravity. Мне хотелось использовать в нём ещё три агента, которые уже стояли у меня на Windows: Kimi Code , MiniMax Code и ZCode . Я поставил эту задачу...",
+    "date": "2026-09-25",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "1700 строк JS и ни одного видеофайла: как ИИ-агент снимает кино на Canvas и рендерит его в MP4",
+    "link": "https://habr.com/ru/articles/1086766/?utm_campaign=1086766&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В этом минутном фильме нет ни одной картинки, видеофайла или сэмпла. Огонь, гравюру, 3D-сферу, пиксельную игру и музыку рисует и синтезирует один HTML-файл на 1700 строк, и написал его ИИ-агент. Без правил тот же агент выдаёт унылую заставку: синий фон, неон, всё ползёт линейно. Разбираю, что это...",
+    "date": "2026-09-25",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Обзор MWS AI Agents Platform: платформы для создания ИИ-агентов",
@@ -207,18 +252,9 @@
     "lang": "ru"
   },
   {
-    "title": "Kimi, MiniMax Code и ZCode в OpenResearch: форк за один вечер вместе с Claude Opus 5.5",
-    "link": "https://habr.com/ru/articles/1086796/?utm_campaign=1086796&utm_source=habrahabr&utm_medium=rss",
-    "desc": "OpenResearch от alphaXiv превращает coding-агентов в исследовательских. Из коробки он работал с Claude Code, Codex, OpenCode, Cursor и Google Antigravity. Мне хотелось использовать в нём ещё три агента, которые уже стояли у меня на Windows: Kimi Code , MiniMax Code и ZCode . Я поставил эту задачу...",
-    "date": "2026-09-25",
-    "source": "Habr Open Source",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "1700 строк JS и ни одного видеофайла: как ИИ-агент снимает кино на Canvas и рендерит его в MP4",
-    "link": "https://habr.com/ru/articles/1086766/?utm_campaign=1086766&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В этом минутном фильме нет ни одной картинки, видеофайла или сэмпла. Огонь, гравюру, 3D-сферу, пиксельную игру и музыку рисует и синтезирует один HTML-файл на 1700 строк, и написал его ИИ-агент. Без правил тот же агент выдаёт унылую заставку: синий фон, неон, всё ползёт линейно. Разбираю, что это...",
+    "title": "Модульная надстройка для JasperReports: подключение и что делает процессор при сборке. Часть 3",
+    "link": "https://habr.com/ru/articles/1086826/?utm_campaign=1086826&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Третья часть серии — практическая. Как подключить библиотеку к Maven-проекту, написать первый модульный отчёт и что после этого происходит с шаблоном при сборке. Субрепорт — это класс, отчёт — тоже класс, а поля класса и есть содержимое отчёта. Имена параметров шаблона берутся из имён полей, поэт...",
     "date": "2026-09-25",
     "source": "Habr Open Source",
     "cat": "ai",
@@ -279,6 +315,15 @@
     "lang": "ru"
   },
   {
+    "title": "Аравинд Шринивас. Как создатель Perplexity в 31 год стал самым молодым индийцем в списке миллиардеров Forbes",
+    "link": "https://rb.ru/neuro/aravind-srinivas-perplexity/",
+    "desc": "Мать хотела, чтобы Аравинд Шринивас стал первым инженером в семье. Но ему не хватило 0,01 балла, чтобы перевестись на компьютерные науки, — и программировать он начал из злости. В Беркли работал так много, что профессор спрашивал, спит ли он вообще. В OpenAI быстро понял, что вовсе не самый сильн...",
+    "date": "2026-09-25",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Alice AI от Яндекса вошла в число главных мировых релизов недели: российскую ИИ-модель заметили эксперты Google",
     "link": "https://rb.ru/news/alice-ai-ot-yandeksa-voshla-v-chislo-glavnyh-mirovyh-relizov-nedeli-rossijskuyu-ii-model-zametili-eksperty-google/",
     "desc": "Alice AI Foundation LLM, новая открытая языковая модель Яндекса, вошла в подборку главных мировых ИИ-релизов недели по версии международного издания Turing Post. Модель обучили с нуля на 80 млрд параметров. Представители Google DeepMind и Sypha AI отдельно отметили архитектуру и эффективность раз...",
@@ -291,15 +336,6 @@
     "title": "АвтоВАЗ работает без убытков пять лет — в Минпромторге заявили, что период был «очень сложным» для компании",
     "link": "https://rb.ru/news/avtovaz-rabotaet-bez-ubytkov-pyat-let-v-minpromtorge-zayavili-chto-period-byl-ochen-slozhnym-dlya-kompanii/",
     "desc": "АвтоВАЗ последние пять лет работает без убытков, сообщает ТАСС со ссылкой на главу Минпромторга Антона Алиханова. По его словам, период был для компании «очень сложным». Министр подчеркнул, что несмотря на трудности, компания показывает прибыль.",
-    "date": "2026-09-25",
-    "source": "Rusbase",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "В коде ChatGPT пользователи нашли упоминание тарифа Pro Max за $500 в месяц — он будет в 2,5 раза дороже Pro",
-    "link": "https://rb.ru/news/v-kode-chatgpt-polzovateli-nashli-upominanie-tarifa-pro-max-za-500-v-mesyac-budet-v-25-raza-dorozhe-pro/",
-    "desc": "В коде ChatGPT обнаружили упоминание нового тарифа Pro Max стоимостью $500 в месяц, сообщает TestingCatalog — сайт о новых функциях приложений. Цена в 2,5 раза дороже действующей подписки Pro за $200. OpenAI пока не анонсировала новый тариф.",
     "date": "2026-09-25",
     "source": "Rusbase",
     "cat": "ai",
@@ -405,6 +441,24 @@
     "lang": "ru"
   },
   {
+    "title": "Amazon запретила ИИ-агенту M**a Muse совершать покупки и сделает то же с аналогами от Google и OpenAI",
+    "link": "https://3dnews.ru/1149068",
+    "desc": "Между Amazon и M**a возник конфликт из-за агента искусственного интеллекта, выполняющего задачи по совершению покупок от имени пользователей. Гигант электронной коммерции требует, чтобы ИИ-агенты корректно идентифицировали себя, когда как гигант соцсетей просто игнорирует эти требования. Источник...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "M**a нашла слабое место OpenAI — ИИ-агент Muse стремительно набирает популярность",
+    "link": "https://3dnews.ru/1149065",
+    "desc": "ИИ-агент Muse компании M**a обошёл ChatGPT в рейтингах бесплатных ИИ-помощников. Muse способен просматривать сайты, переходить по ссылкам, вводить текст и вести диалог в интернете, выполняя поставленные пользователем задачи. M**a объявила о планах внедрить Muse в свои умные очки, а также о разраб...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Microsoft перезапустила Copilot как суперприложение с чатом, агентами и вайб-кодингом — ИИ должен повторить успех Office",
     "link": "https://3dnews.ru/1149061",
     "desc": "Microsoft анонсировала перезапуск Copilot в виде нового суперприложения в прошлом месяце. Теперь компания официально представила его публике. Обновлённое приложение Copilot объединяет в едином интерфейсе три функции на базе ИИ: чат, инструменты для написания кода и ИИ-агентов. В рамках запуска Mi...",
@@ -435,15 +489,6 @@
     "title": "PrismML представила компактную ИИ-модель для запуска прямо на смарт-очках с чипами Qualcomm",
     "link": "https://3dnews.ru/1149038",
     "desc": "Лаборатория искусственного интеллекта PrismML разработала специальную версию одной из своих компактных языковых моделей, предназначенную для локальной работы на умных очках, оснащённых чипами Qualcomm Snapdragon. Источник изображения: PrismML",
-    "date": "2026-09-25",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "M**a позволит создавать игры с помощью ИИ прямо на смартфоне",
-    "link": "https://3dnews.ru/1149016",
-    "desc": "У компании M**a Platforms появился новый план по привлечению людей к созданию игр для платформы Horizon. Гигант соцсетей анонсировал два новых инструмент для разработки, которые позволят создавать игры с помощью промптов для ИИ-модели. Речь о приложении Horizon Create и веб-приложении Horizon Stu...",
     "date": "2026-09-25",
     "source": "3DNews",
     "cat": "ai",
@@ -495,6 +540,42 @@
     "lang": "ru"
   },
   {
+    "title": "Microsoft Abandons Personal AI Chatbot Race with Copilot Reboot",
+    "link": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+    "desc": "Article URL: https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot Comments URL: https://news.ycombinator.com/item?id=49844896 Points: 11 # Comments: 3",
+    "date": "2026-09-25",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Special Projects (2016)",
+    "link": "https://openai.com/index/special-projects/",
+    "desc": "Article URL: https://openai.com/index/special-projects/ Comments URL: https://news.ycombinator.com/item?id=49841893 Points: 58 # Comments: 31",
+    "date": "2026-09-25",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "В коде ChatGPT пользователи нашли упоминание тарифа Pro Max за $500 в месяц — он будет в 2,5 раза дороже Pro",
+    "link": "https://rb.ru/news/v-kode-chatgpt-polzovateli-nashli-upominanie-tarifa-pro-max-za-500-v-mesyac-budet-v-25-raza-dorozhe-pro/",
+    "desc": "В коде ChatGPT обнаружили упоминание нового тарифа Pro Max стоимостью $500 в месяц, сообщает TestingCatalog — сайт о новых функциях приложений. Цена в 2,5 раза дороже действующей подписки Pro за $200. OpenAI пока не анонсировала новый тариф.",
+    "date": "2026-09-25",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "M**a позволит создавать игры с помощью ИИ прямо на смартфоне",
+    "link": "https://3dnews.ru/1149016",
+    "desc": "У компании M**a Platforms появился новый план по привлечению людей к созданию игр для платформы Horizon. Гигант соцсетей анонсировал два новых инструмент для разработки, которые позволят создавать игры с помощью промптов для ИИ-модели. Речь о приложении Horizon Create и веб-приложении Horizon Stu...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Giga Computing развернула ИИ-полигон GAIFA на базе NVIDIA GB300 NVL72",
     "link": "https://3dnews.ru/1149025",
     "desc": "Компания Giga Computing, являющаяся подразделением Gigabyte, объявила о создании площадки GAIFA (Gigabyte AI Factory Accelerator) — своего первого вычислительного центра в области ИИ. Он расположился в Синьбэе (Новом Тайбэе) на территории Тайваня. GAIFA представляет собой полигон для проверки и о...",
@@ -513,47 +594,11 @@
     "lang": "ru"
   },
   {
-    "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
-    "link": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
-    "desc": "Article URL: https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical Comments URL: https://news.ycombinator.com/item?id=49835531 Points: 152 # Comments: 34",
-    "date": "2026-09-24",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "TAPe+ML v3 на arXiv: превосходим SOTA в классификации, детекции и сегментации при 100 тыс. параметров",
     "link": "https://habr.com/ru/articles/1086426/?utm_campaign=1086426&utm_source=habrahabr&utm_medium=rss",
     "desc": "Мы опубликовали на arXiv статью TAPe+ML: A Compact Structured Representation for Multi-Task Computer Vision . В ней собраны результаты TAPe+ML v3 на задачах классификации, object detection, instance segmentation, индексации и поиска сцен в видео, а также в промышленном OOD-пилоте. Статья на arXiv...",
     "date": "2026-09-24",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Рынок вычислений в России, Казахстане и Беларуси",
-    "link": "https://habr.com/ru/articles/1086402/?utm_campaign=1086402&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Сколько вычислительной мощности реально у России, Казахстана и Беларуси — и что из этого доступно CTO прямо сейчас. Прайсы: аренда H100 от 342 ₽/час, серая карта от 2,65 млн ₽; порог, когда выгоднее купить, чем платить за API. Господдержка: 243-ФЗ уже в силе, пакет 71,7 млрд ₽ обсуждается, платны...",
-    "date": "2026-09-24",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "И все‑таки AI уже стал математиком или нет?",
-    "link": "https://habr.com/ru/articles/1086390/?utm_campaign=1086390&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я решил разобраться в этом вопросе, когда OpenAI и Anthropic стали нон-стопом сыпать новостями про новые математические рекорды и открытия. Читать далее",
-    "date": "2026-09-24",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Flowise закрыли, я его форкнул — и выяснил, что форкать было нельзя",
-    "link": "https://habr.com/ru/articles/1086288/?utm_campaign=1086288&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Flowise — визуальный конструктор для LLM-приложений: перетаскиваете на холст модель, векторное хранилище, инструменты и память, соединяете их линиями и получаете чат-бота, RAG-поиск по документам или агента. У проекта 55 тысяч звёзд на GitHub, 25 тысяч форков и почти 7 миллионов скачиваний Docker...",
-    "date": "2026-09-24",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -562,25 +607,7 @@
     "link": "https://habr.com/ru/articles/1086352/?utm_campaign=1086352&utm_source=habrahabr&utm_medium=rss",
     "desc": "В первой части статьи мы рассказывали об эволюции поисковых систем. Теперь перейдем к технологиям, благодаря которым AI-чаты получили свои нынешние возможности. Если основная задача классического поисковика — найти и ранжировать существующие документы, то AI-чат должен сформировать ответ с учетом...",
     "date": "2026-09-24",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "LLM предлагает, код исполняет: как разделить reasoning и side effects в production‑пайплайне",
-    "link": "https://habr.com/ru/companies/agima/articles/1086332/?utm_campaign=1086332&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Если ваша LLM вызывает API и выполняет внешние действия, обычный retry после timeout может создать дубль или оставить систему в неизвестном состоянии. Разбираем, как отделить решение модели от исполнения и когда повторять запрос, сверять результат или подключать человека. Читать далее",
-    "date": "2026-09-24",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Улучшение рендеров нейросетями",
-    "link": "https://habr.com/ru/articles/1086336/?utm_campaign=1086336&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Обычный скриншот превью из 3D-редактора выглядит плоско: однотонные заливки вместо материалов, схематичная растительность, грубый свет. Чтобы довести такой кадр до картинки уровня конкурса, раньше нужны были часы настройки света и шейдеров. Теперь путь занимает около минуты: берёте свой скриншот,...",
-    "date": "2026-09-24",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -589,7 +616,7 @@
     "link": "https://habr.com/ru/articles/1086334/?utm_campaign=1086334&utm_source=habrahabr&utm_medium=rss",
     "desc": "В сентябре 2026 года на Hugging Face есть 3 модели, которые хочется поставить на пару DGX Spark под Claude Code: DeepSeek‑V4.1-Flash на 552B, GLM-5.3-Flash на 320B и Qwen3.8-Flash‑Next на 125B. Первая лучше всех в бенчмарках, но не помещается в 243 ГиБ даже в 4 битах. Вторая занимает 198 ГБ и гру...",
     "date": "2026-09-24",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -792,6 +819,15 @@
     "lang": "ru"
   },
   {
+    "title": "Flowise закрыли, я его форкнул — и выяснил, что форкать было нельзя",
+    "link": "https://habr.com/ru/articles/1086288/?utm_campaign=1086288&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Flowise — визуальный конструктор для LLM-приложений: перетаскиваете на холст модель, векторное хранилище, инструменты и память, соединяете их линиями и получаете чат-бота, RAG-поиск по документам или агента. У проекта 55 тысяч звёзд на GitHub, 25 тысяч форков и почти 7 миллионов скачиваний Docker...",
+    "date": "2026-09-24",
+    "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Go сделали скучным — и после нейросетей это выстрелило",
     "link": "https://habr.com/ru/companies/h3llo_cloud/articles/1085160/?utm_campaign=1085160&utm_source=habrahabr&utm_medium=rss",
     "desc": "Go двадцать лет дразнили языком для дураков. Без дженериков, без перегрузок, без нормальных перечислений, без магии. Синтаксис учится за выходные, выразительность — на уровне табуретки. А теперь смотрим на 2026 год. Индустрия побежала писать AI-агентов и гейтвеи — и пишет их на Go или Rust. Нейро...",
@@ -801,11 +837,29 @@
     "lang": "ru"
   },
   {
+    "title": "LLM предлагает, код исполняет: как разделить reasoning и side effects в production‑пайплайне",
+    "link": "https://habr.com/ru/companies/agima/articles/1086332/?utm_campaign=1086332&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Если ваша LLM вызывает API и выполняет внешние действия, обычный retry после timeout может создать дубль или оставить систему в неизвестном состоянии. Разбираем, как отделить решение модели от исполнения и когда повторять запрос, сверять результат или подключать человека. Читать далее",
+    "date": "2026-09-24",
+    "source": "Habr API",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Как подружить n8n с GigaChat в Docker, и проблемы корневого сертификата Минцифры",
     "link": "https://habr.com/ru/articles/1085996/?utm_campaign=1085996&utm_source=habrahabr&utm_medium=rss",
     "desc": "Если вы используете n8n на своем сервере для обработки заявок клиентов, отправлять их персональные данные напрямую в OpenAI или Claude нельзя из‑за 152-ФЗ. Логичнее всего использовать в качестве санитайзера отечественный GigaChat, но в Docker n8n сразу падает с ошибкой проверки SSL‑сертификатов. ...",
     "date": "2026-09-24",
     "source": "Habr API",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Рынок вычислений в России, Казахстане и Беларуси",
+    "link": "https://habr.com/ru/articles/1086402/?utm_campaign=1086402&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сколько вычислительной мощности реально у России, Казахстана и Беларуси — и что из этого доступно CTO прямо сейчас. Прайсы: аренда H100 от 342 ₽/час, серая карта от 2,65 млн ₽; порог, когда выгоднее купить, чем платить за API. Господдержка: 243-ФЗ уже в силе, пакет 71,7 млрд ₽ обсуждается, платны...",
+    "date": "2026-09-24",
+    "source": "Habr Облака",
     "cat": "ai",
     "lang": "ru"
   },
@@ -932,6 +986,33 @@
     "desc": "Африканская компания Vambo AI представила языковую модель Morena размером 1,5 млрд параметров. Она поддерживает 12 африканских языков, английский, французский и умеет писать программный код. В задачах, связанных с африканскими языками, эта модель, утверждает разработчик, превосходит системы от Go...",
     "date": "2026-09-24",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+    "link": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+    "desc": "Article URL: https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical Comments URL: https://news.ycombinator.com/item?id=49835531 Points: 152 # Comments: 34",
+    "date": "2026-09-24",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "И все‑таки AI уже стал математиком или нет?",
+    "link": "https://habr.com/ru/articles/1086390/?utm_campaign=1086390&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я решил разобраться в этом вопросе, когда OpenAI и Anthropic стали нон-стопом сыпать новостями про новые математические рекорды и открытия. Читать далее",
+    "date": "2026-09-24",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Улучшение рендеров нейросетями",
+    "link": "https://habr.com/ru/articles/1086336/?utm_campaign=1086336&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Обычный скриншот превью из 3D-редактора выглядит плоско: однотонные заливки вместо материалов, схематичная растительность, грубый свет. Чтобы довести такой кадр до картинки уровня конкурса, раньше нужны были часы настройки света и шейдеров. Теперь путь занимает около минуты: берёте свой скриншот,...",
+    "date": "2026-09-24",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
