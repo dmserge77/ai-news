@@ -1,17 +1,17 @@
 [
   {
-    "title": "Make Claude your assistant in excalidraw",
-    "link": "https://tangled.org/yanndegat.tngl.sh/drawgent",
-    "desc": "Article URL: https://tangled.org/yanndegat.tngl.sh/drawgent Comments URL: https://news.ycombinator.com/item?id=49857729 Points: 18 # Comments: 5",
+    "title": "DeepSeek Elastic Compute (DSec)",
+    "link": "https://arxiv.org/abs/2609.22978",
+    "desc": "Article URL: https://arxiv.org/abs/2609.22978 Comments URL: https://news.ycombinator.com/item?id=49859112 Points: 55 # Comments: 12",
     "date": "2026-09-26",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Show HN: A Claude Code skill to analyze your chess games",
-    "link": "https://github.com/brumar/chess-postmortem-skills",
-    "desc": "Hello HN, It started as an experiment: can Claude play chess properly if it uses vision instead of PGN notation? Somehow it can. The next experiment was to see whether Claude + Stockfish could explain a game. Somehow it can too. A few sessions later, I had a system that takes my live audio notes ...",
+    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+    "link": "https://github.com/reladraw/reladraw",
+    "desc": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipu...",
     "date": "2026-09-26",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,29 +20,29 @@
   {
     "title": "OpenAI bots meddled with multiple US Government agency sites",
     "link": "https://www.bbc.com/news/articles/cw62jje658dlo",
-    "desc": "Article URL: https://www.bbc.com/news/articles/cw62jje658dlo Comments URL: https://news.ycombinator.com/item?id=49856665 Points: 14 # Comments: 5",
+    "desc": "Article URL: https://www.bbc.com/news/articles/cw62jje658dlo Comments URL: https://news.ycombinator.com/item?id=49856665 Points: 83 # Comments: 115",
     "date": "2026-09-26",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "A single function Jev-like wrapper for LLMs, including vision models",
-    "link": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
-    "desc": "Article URL: http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html Comments URL: https://news.ycombinator.com/item?id=49853175 Points: 120 # Comments: 39",
+    "title": "How to keep enjoying programming in a world of LLMs",
+    "link": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+    "desc": "Article URL: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705 Comments URL: https://news.ycombinator.com/item?id=49854875 Points: 114 # Comments: 169",
     "date": "2026-09-26",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "A Brief Perspective on Deep Learning Using Common Lisp",
-    "link": "https://www.youtube.com/watch?v=Yo4eqoRC1o0",
-    "desc": "Comments",
+    "title": "Доверить сервер ИИ-агенту и не пожалеть: как спать спокойно без SSH",
+    "link": "https://habr.com/ru/articles/1086976/?utm_campaign=1086976&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Мы всё быстрее движемся к самовосстанавливающейся инфраструктуре. Но когда инцидент всё-таки случается, у инженеров может уйти много времени на сбор информации о состоянии серверов. При SLA 99,99% на простой остаётся около 4 минут в месяц, каждая минута на счету, и не автоматизировать эту часть р...",
     "date": "2026-09-26",
-    "source": "Lobsters",
+    "source": "Habr AI",
     "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
   },
   {
     "title": "Как ИТ-компаниям выжить, когда ИИ есть у всех",
@@ -189,15 +189,6 @@
     "lang": "ru"
   },
   {
-    "title": "Google отправит ИИ-сервер в космос уже на следующей неделе, но работать он сможет лишь по 15 минут",
-    "link": "https://3dnews.ru/1149099",
-    "desc": "Google готовит первый орбитальный эксперимент в рамках проекта Suncatcher, целью которого станет проверка возможности размещения вычислительной инфраструктуры для искусственного интеллекта в космосе. Компания оценит, как ускорители TPU переносят нагрузки при запуске, радиацию и перепады температу...",
-    "date": "2026-09-26",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Claude нашёл «новый CRISPR», но учёные засомневались в значимости открытия Anthropic",
     "link": "https://3dnews.ru/1149093",
     "desc": "Заявление Anthropic о том, что ИИ-агенты Claude обнаружили в геномных данных бактериофагов ранее не описанную ферментную систему с повторяющимися последовательностями ДНК, некоторые учёные встретили с осторожностью. Строение системы напоминает один из признаков CRISPR, однако её функция пока неиз...",
@@ -225,6 +216,15 @@
     "lang": "ru"
   },
   {
+    "title": "Google отправит ИИ-сервер в космос уже на следующей неделе, но работать он сможет лишь по 15 минут",
+    "link": "https://3dnews.ru/1149099",
+    "desc": "Google готовит первый орбитальный эксперимент в рамках проекта Suncatcher, целью которого станет проверка возможности размещения вычислительной инфраструктуры для искусственного интеллекта в космосе. Компания оценит, как ускорители TPU переносят нагрузки при запуске, радиацию и перепады температу...",
+    "date": "2026-09-26",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Что происходит с интернетом в России 26 сентября 2026 года",
     "link": "https://hi-tech.mail.ru/news/145610-sboi-interneta-v-rossii/",
     "desc": "Узнайте подробности о жалобах пользователей. Пользователи из России продолжают сталкиваться с различными сбоями в работе интернета. Статистику об этом собирает профильный сервис Downdetector. В каких регионах сегодня наблюдаются проблемы со связью Согласно жалобам пользователей, сбои фиксируют в ...",
@@ -243,13 +243,40 @@
     "lang": "ru"
   },
   {
-    "title": "Доверить сервер ИИ-агенту и не пожалеть: как спать спокойно без SSH",
-    "link": "https://habr.com/ru/articles/1086976/?utm_campaign=1086976&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Мы всё быстрее движемся к самовосстанавливающейся инфраструктуре. Но когда инцидент всё-таки случается, у инженеров может уйти много времени на сбор информации о состоянии серверов. При SLA 99,99% на простой остаётся около 4 минут в месяц, каждая минута на счету, и не автоматизировать эту часть р...",
+    "title": "Make Claude your assistant in excalidraw",
+    "link": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+    "desc": "Article URL: https://tangled.org/yanndegat.tngl.sh/drawgent Comments URL: https://news.ycombinator.com/item?id=49857729 Points: 18 # Comments: 5",
     "date": "2026-09-26",
-    "source": "Habr AI",
+    "source": "Hacker News",
     "cat": "ai",
-    "lang": "ru"
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: A Claude Code skill to analyze your chess games",
+    "link": "https://github.com/brumar/chess-postmortem-skills",
+    "desc": "Hello HN, It started as an experiment: can Claude play chess properly if it uses vision instead of PGN notation? Somehow it can. The next experiment was to see whether Claude + Stockfish could explain a game. Somehow it can too. A few sessions later, I had a system that takes my live audio notes ...",
+    "date": "2026-09-26",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "A single function Jev-like wrapper for LLMs, including vision models",
+    "link": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+    "desc": "Article URL: http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html Comments URL: https://news.ycombinator.com/item?id=49853175 Points: 120 # Comments: 39",
+    "date": "2026-09-26",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "A Brief Perspective on Deep Learning Using Common Lisp",
+    "link": "https://www.youtube.com/watch?v=Yo4eqoRC1o0",
+    "desc": "Comments",
+    "date": "2026-09-26",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
@@ -263,18 +290,9 @@
   {
     "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
     "link": "https://swarmtraces.org/",
-    "desc": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 631 # Comments: 402",
+    "desc": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 688 # Comments: 436",
     "date": "2026-09-25",
     "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "How to keep enjoying programming in a world of LLMs",
-    "link": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-    "desc": "Comments",
-    "date": "2026-09-25",
-    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
   },
@@ -354,15 +372,6 @@
     "title": "Агенты в Claude Code: как они устроены и как настроить своих",
     "link": "https://habr.com/ru/articles/1081124/?utm_campaign=1081124&utm_source=habrahabr&utm_medium=rss",
     "desc": "Разбираем механику агентов в Claude Code: изоляция контекста, параллельный запуск, настройка постоянных агентов через файлы в ~/.claude/agents/ . Дальше — пример на живой задаче: четыре агента параллельно разобрали 13 статей, пока мы занимались другим. Читать далее",
-    "date": "2026-09-25",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "[Перевод] ИИ в тестировании: от анализа требований до автоматизации",
-    "link": "https://habr.com/ru/articles/1086562/?utm_campaign=1086562&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Перевод статьи о QA-трансформации в крупном брокере: от ручных проверок к умному workflow. История о том, как тестирование было перестроено вокруг LLM: реальный стек, примеры пропущенных требований и разбор того, где ИИ ошибается. И да, человек всё ещё очень нужен. Читать далее",
     "date": "2026-09-25",
     "source": "Habr AI",
     "cat": "ai",
@@ -612,24 +621,6 @@
     "lang": "ru"
   },
   {
-    "title": "Ангстремный техпроцесс Intel 14A заинтересовал Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia и Qualcomm",
-    "link": "https://3dnews.ru/1149064",
-    "desc": "Компании Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia и Qualcomm изучают возможности техпроцесса Intel 14A, гласит аналитический доклад инвестиционного банка Piper Sandler. Если переговоры между компаниями приведут к заключению контрактов на производство, Intel сумеет привлечь сторонних к...",
-    "date": "2026-09-25",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Бум ИИ уничтожает рынок дешёвых смартфонов — поставки моделей дешевле $200 могут рухнуть на 40 % к 2030 году",
-    "link": "https://3dnews.ru/1149034",
-    "desc": "Бум строительства центров обработки данных для систем искусственного интеллекта создаёт угрозу для значительной части рынка бюджетных смартфонов: в период с 2025 по 2030 год объёмы поставок моделей по цене ниже $200 сократятся на 40 %, то есть к концу десятилетия рынок лишится более 230 млн таких...",
-    "date": "2026-09-25",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Amazon запретила ИИ-агенту M**a Muse совершать покупки и сделает то же с аналогами от Google и OpenAI",
     "link": "https://3dnews.ru/1149068",
     "desc": "Между Amazon и M**a возник конфликт из-за агента искусственного интеллекта, выполняющего задачи по совершению покупок от имени пользователей. Гигант электронной коммерции требует, чтобы ИИ-агенты корректно идентифицировали себя, когда как гигант соцсетей просто игнорирует эти требования. Источник...",
@@ -651,6 +642,15 @@
     "title": "Microsoft перезапустила Copilot как суперприложение с чатом, агентами и вайб-кодингом — ИИ должен повторить успех Office",
     "link": "https://3dnews.ru/1149061",
     "desc": "Microsoft анонсировала перезапуск Copilot в виде нового суперприложения в прошлом месяце. Теперь компания официально представила его публике. Обновлённое приложение Copilot объединяет в едином интерфейсе три функции на базе ИИ: чат, инструменты для написания кода и ИИ-агентов. В рамках запуска Mi...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Продажи в японских букинистических магазинах выросли впятеро — из-за ИИ",
+    "link": "https://3dnews.ru/1149047",
+    "desc": "Японские букинистические магазины переживают пятикратный рост продаж. Книги скупают тоннами: одну из партий в 50 т отправили в США — предположительно, для сканирования и последующего уничтожения. Есть подозрение, что множество подобных закупок предназначено для зарубежных центров, где книги скани...",
     "date": "2026-09-25",
     "source": "3DNews",
     "cat": "ai",
@@ -689,6 +689,33 @@
     "desc": "YouTube обновил инструменты для авторов: ИИ-ассистент на базе Gemini Omni поможет с монтажом, Ask Studio проанализирует аудиторию, а Reimagine пересоберет видео в новом стиле. YouTube 23 сентября представил пакет новых ИИ-инструментов для авторов на ежегодном мероприятии Made on YouTube. Централь...",
     "date": "2026-09-25",
     "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "[Перевод] ИИ в тестировании: от анализа требований до автоматизации",
+    "link": "https://habr.com/ru/articles/1086562/?utm_campaign=1086562&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Перевод статьи о QA-трансформации в крупном брокере: от ручных проверок к умному workflow. История о том, как тестирование было перестроено вокруг LLM: реальный стек, примеры пропущенных требований и разбор того, где ИИ ошибается. И да, человек всё ещё очень нужен. Читать далее",
+    "date": "2026-09-25",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Ангстремный техпроцесс Intel 14A заинтересовал Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia и Qualcomm",
+    "link": "https://3dnews.ru/1149064",
+    "desc": "Компании Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia и Qualcomm изучают возможности техпроцесса Intel 14A, гласит аналитический доклад инвестиционного банка Piper Sandler. Если переговоры между компаниями приведут к заключению контрактов на производство, Intel сумеет привлечь сторонних к...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Бум ИИ уничтожает рынок дешёвых смартфонов — поставки моделей дешевле $200 могут рухнуть на 40 % к 2030 году",
+    "link": "https://3dnews.ru/1149034",
+    "desc": "Бум строительства центров обработки данных для систем искусственного интеллекта создаёт угрозу для значительной части рынка бюджетных смартфонов: в период с 2025 по 2030 год объёмы поставок моделей по цене ниже $200 сократятся на 40 %, то есть к концу десятилетия рынок лишится более 230 млн таких...",
+    "date": "2026-09-25",
+    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1181,7 +1208,7 @@
   {
     "title": "ИИ как рекурсия творения: почему «намордник» на австралийском ИИ-агенте был обречён треснуть",
     "link": "https://vc.ru/ai/3157579-ii-i-bezopasnost-avtonomnyj-agent-avstralii?from=rss",
-    "desc": "Пока ИТ-сообщество обсуждает, как автономный агент OpenAI проник в государственную систему Medicare в Австралии, а политики чешут головы над юридическим тупиком, давайте приземлим этот кейс на чистую архитектуру. Без паники и без мистики.",
+    "desc": "Пока ИТ-сообщество обсуждает, как автономный агент OpenAI проник в государственную систему Medicare в Австралии, а политики чешут головы над юридическим тупиком, давайте приземлим этот кейс на чистую архитектуру. Без паники и мистики.",
     "date": "2026-09-24",
     "source": "vc.ru",
     "cat": "ai",
@@ -8608,15 +8635,6 @@
     "link": "https://vercel.com/changelog/nano-banana-2-lite-gemini-3-1-flash-lite-image-ai-gateway",
     "desc": "",
     "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "xAI Grok audio models now available on Vercel AI Gateway",
-    "link": "https://vercel.com/changelog/xai-grok-audio-models-now-available-on-vercel-ai-gateway",
-    "desc": "",
-    "date": "2026-06-29",
     "source": "Vercel",
     "cat": "ai",
     "lang": "en"
