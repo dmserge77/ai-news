@@ -1,8 +1,26 @@
 [
   {
+    "title": "Tell HN: Codex Is Down [fixed]",
+    "link": "https://news.ycombinator.com/item?id=49851032",
+    "desc": "Shows an Incorrect API Key error...which is weird. Nothing on the status page. (EDIT: Added to incident page: https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA... ) Per Twitter/X this appears to be widespread https://status.openai.com/incidents/01M3DCNWMW57HYK8FJ5FBFPA... Comments URL:...",
+    "date": "2026-09-25",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
+    "link": "https://www.gptbeyond.com/try?home=1",
+    "desc": "Hi everyone, I am KD - Back in my college days, I dabbled with coding, learned the basics, HTML, CSS etc. but somehow I ended up in Finance which consumed the next 20 years. Then, during covid I picked up coding again, learned react, typescript, etc - even built a rudimentary site - and then came...",
+    "date": "2026-09-25",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
     "link": "https://swarmtraces.org/",
-    "desc": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 5 # Comments: 0",
+    "desc": "Article URL: https://swarmtraces.org/ Comments URL: https://news.ycombinator.com/item?id=49849985 Points: 177 # Comments: 108",
     "date": "2026-09-25",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,7 +38,7 @@
   {
     "title": "Meta's Muse appears to use an OpenAI model labeled muse-special",
     "link": "https://mouse.dev/blog/muse-special/",
-    "desc": "Article URL: https://mouse.dev/blog/muse-special/ Comments URL: https://news.ycombinator.com/item?id=49848095 Points: 75 # Comments: 34",
+    "desc": "Article URL: https://mouse.dev/blog/muse-special/ Comments URL: https://news.ycombinator.com/item?id=49848095 Points: 110 # Comments: 46",
     "date": "2026-09-25",
     "source": "Hacker News",
     "cat": "ai",
@@ -29,7 +47,16 @@
   {
     "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
     "link": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-    "desc": "Article URL: https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html Comments URL: https://news.ycombinator.com/item?id=49845977 Points: 313 # Comments: 532",
+    "desc": "Article URL: https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html Comments URL: https://news.ycombinator.com/item?id=49845977 Points: 375 # Comments: 689",
+    "date": "2026-09-25",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
+    "link": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+    "desc": "https://archive.ph/XJG5V Comments URL: https://news.ycombinator.com/item?id=49844896 Points: 77 # Comments: 65",
     "date": "2026-09-25",
     "source": "Hacker News",
     "cat": "ai",
@@ -54,7 +81,25 @@
     "lang": "en"
   },
   {
-    "title": "Продвижение интернет-магазина в ответах ИИ: почему нейросети почти не ссылаются на карточку товара",
+    "title": "How to keep enjoying programming in a world of LLMs",
+    "link": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+    "desc": "Comments",
+    "date": "2026-09-25",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Своя нейросеть дома, доступная из любой точки мира",
+    "link": "https://habr.com/ru/articles/1086862/?utm_campaign=1086862&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Личный LLM-сервер на своём железе: без подписок, без лимитов токенов, один адрес и c дома, и с работы, и с телефона. Читать далее",
+    "date": "2026-09-25",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Продвижение интернет‑магазина в ответах ИИ: почему нейросети почти не ссылаются на карточку товара",
     "link": "https://habr.com/ru/articles/1086798/?utm_campaign=1086798&utm_source=habrahabr&utm_medium=rss",
     "desc": "Я задал Алисе AI и Perplexity 14 вопросов, которые покупатель задаёт перед покупкой техники: где купить оригинальный айфон с гарантией, где забрать макбук сегодня, где дают рассрочку. Потом посмотрел, на какие страницы магазинов ведут ссылки в ответах. Из 243 ссылок на карточку товара пришлось 10...",
     "date": "2026-09-25",
@@ -183,15 +228,6 @@
     "title": "Как нейросеть переводит видео. Часть 1: Whisper врёт, и мы это знаем",
     "link": "https://habr.com/ru/articles/1086494/?utm_campaign=1086494&utm_source=habrahabr&utm_medium=rss",
     "desc": "Я один пишу сервис дубляжа видео с 2022 года, когда OpenAI выложил Whisper и мне показалось, что дело на месяц. В 2026-м через конвейер прошло 9 203 задачи, и он ломается в тех же местах, что и в первый. Первая часть из трёх: как звук становится текстом с таймкодами и спикерами. Три типа галлюцин...",
-    "date": "2026-09-25",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Регулирование искусственного интеллекта в России",
-    "link": "https://habr.com/ru/articles/1086466/?utm_campaign=1086466&utm_source=habrahabr&utm_medium=rss",
-    "desc": "На днях довелось поучаствовать в качестве спикера на установочной сессии для студентов-юристов одного из уральских вузов. Задача: рассказать об искусственном интеллекте и о проблемах, с которыми может столкнуться или уже сталкивается отечественная правовая система в этой связи, а также попробоват...",
     "date": "2026-09-25",
     "source": "Habr AI",
     "cat": "ai",
@@ -423,33 +459,6 @@
     "lang": "ru"
   },
   {
-    "title": "Ангстремный техпроцесс Intel 14A заинтересовал Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia и Qualcomm",
-    "link": "https://3dnews.ru/1149064",
-    "desc": "Компании Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia и Qualcomm изучают возможности техпроцесса Intel 14A, гласит аналитический доклад инвестиционного банка Piper Sandler. Если переговоры между компаниями приведут к заключению контрактов на производство, Intel сумеет привлечь сторонних к...",
-    "date": "2026-09-25",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Бум ИИ уничтожает рынок дешёвых смартфонов — поставки моделей дешевле $200 могут рухнуть на 40 % к 2030 году",
-    "link": "https://3dnews.ru/1149034",
-    "desc": "Бум строительства центров обработки данных для систем искусственного интеллекта создаёт угрозу для значительной части рынка бюджетных смартфонов: в период с 2025 по 2030 год объёмы поставок моделей по цене ниже $200 сократятся на 40 %, то есть к концу десятилетия рынок лишится более 230 млн таких...",
-    "date": "2026-09-25",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Колосс вырастет вдвое: к концу года суперкомпьютер Colossus 2 Илона Маска удвоит число ускорителей Nvidia",
-    "link": "https://3dnews.ru/1149029",
-    "desc": "Некоторое время назад глава SpaceX Илон Маск (Elon Musk) объявил, что компания в развитии своей вычислительной инфраструктуры будет в дальнейшем полагаться на компоненты Nvidia. Следуя данному обещанию, он на этой неделе сообщил, что количество используемых в составе Colossus 2 чипов Nvidia к кон...",
-    "date": "2026-09-25",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Amazon запретила ИИ-агенту M**a Muse совершать покупки и сделает то же с аналогами от Google и OpenAI",
     "link": "https://3dnews.ru/1149068",
     "desc": "Между Amazon и M**a возник конфликт из-за агента искусственного интеллекта, выполняющего задачи по совершению покупок от имени пользователей. Гигант электронной коммерции требует, чтобы ИИ-агенты корректно идентифицировали себя, когда как гигант соцсетей просто игнорирует эти требования. Источник...",
@@ -504,6 +513,24 @@
     "lang": "ru"
   },
   {
+    "title": "M**a позволит создавать игры с помощью ИИ прямо на смартфоне",
+    "link": "https://3dnews.ru/1149016",
+    "desc": "У компании M**a Platforms появился новый план по привлечению людей к созданию игр для платформы Horizon. Гигант соцсетей анонсировал два новых инструмент для разработки, которые позволят создавать игры с помощью промптов для ИИ-модели. Речь о приложении Horizon Create и веб-приложении Horizon Stu...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Ангстремный техпроцесс Intel 14A заинтересовал Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia и Qualcomm",
+    "link": "https://3dnews.ru/1149064",
+    "desc": "Компании Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia и Qualcomm изучают возможности техпроцесса Intel 14A, гласит аналитический доклад инвестиционного банка Piper Sandler. Если переговоры между компаниями приведут к заключению контрактов на производство, Intel сумеет привлечь сторонних к...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Оплата улыбкой теперь в вузах: ЦБТ рассказал о планах по масштабированию",
     "link": "https://hi-tech.mail.ru/news/156378-oplata-ulybkoj-teper-v-vuzah-cbt-rasskazal-o-planah-po-masshtabirovaniyu/",
     "desc": "Наталья Цай, директор транзакционного направления Центра биометрических технологий, в интервью Hi-Tech Mail на МФМ-2026 рассказала о планах по введению биометрии в вузы. 1 сентября 2026 в ЮУрГУ запустили проход в корпуса, оплату в столовой и запись на онлайн-экзамены по биометрии. Система получил...",
@@ -549,13 +576,31 @@
     "lang": "ru"
   },
   {
-    "title": "Microsoft Abandons Personal AI Chatbot Race with Copilot Reboot",
-    "link": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
-    "desc": "Article URL: https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot Comments URL: https://news.ycombinator.com/item?id=49844896 Points: 11 # Comments: 3",
+    "title": "Регулирование искусственного интеллекта в России",
+    "link": "https://habr.com/ru/articles/1086466/?utm_campaign=1086466&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На днях довелось поучаствовать в качестве спикера на установочной сессии для студентов-юристов одного из уральских вузов. Задача: рассказать об искусственном интеллекте и о проблемах, с которыми может столкнуться или уже сталкивается отечественная правовая система в этой связи, а также попробоват...",
     "date": "2026-09-25",
-    "source": "Hacker News",
+    "source": "Habr AI",
     "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
+  },
+  {
+    "title": "Бум ИИ уничтожает рынок дешёвых смартфонов — поставки моделей дешевле $200 могут рухнуть на 40 % к 2030 году",
+    "link": "https://3dnews.ru/1149034",
+    "desc": "Бум строительства центров обработки данных для систем искусственного интеллекта создаёт угрозу для значительной части рынка бюджетных смартфонов: в период с 2025 по 2030 год объёмы поставок моделей по цене ниже $200 сократятся на 40 %, то есть к концу десятилетия рынок лишится более 230 млн таких...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Колосс вырастет вдвое: к концу года суперкомпьютер Colossus 2 Илона Маска удвоит число ускорителей Nvidia",
+    "link": "https://3dnews.ru/1149029",
+    "desc": "Некоторое время назад глава SpaceX Илон Маск (Elon Musk) объявил, что компания в развитии своей вычислительной инфраструктуры будет в дальнейшем полагаться на компоненты Nvidia. Следуя данному обещанию, он на этой неделе сообщил, что количество используемых в составе Colossus 2 чипов Nvidia к кон...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Special Projects (2016)",
@@ -572,15 +617,6 @@
     "desc": "В коде ChatGPT обнаружили упоминание нового тарифа Pro Max стоимостью $500 в месяц, сообщает TestingCatalog — сайт о новых функциях приложений. Цена в 2,5 раза дороже действующей подписки Pro за $200. OpenAI пока не анонсировала новый тариф.",
     "date": "2026-09-25",
     "source": "Rusbase",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "M**a позволит создавать игры с помощью ИИ прямо на смартфоне",
-    "link": "https://3dnews.ru/1149016",
-    "desc": "У компании M**a Platforms появился новый план по привлечению людей к созданию игр для платформы Horizon. Гигант соцсетей анонсировал два новых инструмент для разработки, которые позволят создавать игры с помощью промптов для ИИ-модели. Речь о приложении Horizon Create и веб-приложении Horizon Stu...",
-    "date": "2026-09-25",
-    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1350,15 +1386,6 @@
     "lang": "ru"
   },
   {
-    "title": "Jev: большой инженерный разбор нашумевшей System One модели",
-    "link": "https://habr.com/ru/articles/1085450/?utm_campaign=1085450&utm_source=habrahabr&utm_medium=rss",
-    "desc": "15 сентября 2026 года TypeSafe AI выпустила модель Jev — и в западном AI сообществе это вызвало бурные обсуждения. Я внимательно прослушал интервью с основателем, посмотрел их cookbook и хочу поделиться полным инженерным разбором того, что у этой модели под капотом и почему хайп вокруг неё уместе...",
-    "date": "2026-09-23",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Claude Opus 5.5 вышел в релиз, а повлияло ли это на рынок?",
     "link": "https://habr.com/ru/companies/selectel/news/1085780/?utm_campaign=1085780&utm_source=habrahabr&utm_medium=rss",
     "desc": "22 сентября состоялся релиз ожидаемой Claude Opus 5.5, которая, очевидно, обошла по характеристикам многие модели. Claude Opus 5.5 стал первым релизом с тех пор, как компания Anthropic объявила о необходимости притормозить гонку за самыми мощными моделями. Перед выпуском модель протестировал узки...",
@@ -1553,6 +1580,15 @@
     "desc": "За год SEO-плагины к нейросети свелись у меня к одной схеме: Claude Code и набор MCP-серверов — Search Console, DataForSEO, выгрузки краулера. Модель тянет цифры сама, а не сочиняет их. Затем DeepSeek выкатил свой агентный харнесс, DeepSeek Harness (dsh), и вопрос встал прямо: займёт ли перенос в...",
     "date": "2026-09-23",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Jev: большой инженерный разбор нашумевшей System One модели",
+    "link": "https://habr.com/ru/articles/1085450/?utm_campaign=1085450&utm_source=habrahabr&utm_medium=rss",
+    "desc": "15 сентября 2026 года TypeSafe AI выпустила модель Jev — и в западном AI сообществе это вызвало бурные обсуждения. Я внимательно прослушал интервью с основателем, посмотрел их cookbook и хочу поделиться полным инженерным разбором того, что у этой модели под капотом и почему хайп вокруг неё уместе...",
+    "date": "2026-09-23",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
