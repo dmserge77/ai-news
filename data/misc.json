@@ -1,5 +1,25 @@
 [
   {
+    "title": "Imp is a full port of DSPy to the BEAM",
+    "link": "https://github.com/deepfates/imp",
+    "desc": "https://hex.pm/packages/imp https://dspy.ai/current/ Comments URL: https://news.ycombinator.com/item?id=49869995 Points: 21 # Comments: 4",
+    "date": "2026-09-27",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Ember-1",
+    "link": "https://fireworks.ai/blog/ember-1",
+    "desc": "Article URL: https://fireworks.ai/blog/ember-1 Comments URL: https://news.ycombinator.com/item?id=49868830 Points: 236 # Comments: 132",
+    "date": "2026-09-27",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "One month without AI",
     "link": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
     "desc": "Comments",
@@ -60,6 +80,16 @@
     "misc_type": "unfiltered"
   },
   {
+    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+    "link": "https://github.com/reladraw/reladraw",
+    "desc": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipu...",
+    "date": "2026-09-26",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "unfiltered"
+  },
+  {
     "title": "Pixel Canary is now available in stealth for free on AI Gateway",
     "link": "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway",
     "desc": "",
@@ -74,7 +104,7 @@
     "link": "https://habr.com/ru/companies/otus/articles/1077946/?utm_campaign=1077946&utm_source=habrahabr&utm_medium=rss",
     "desc": "Зелёный статус eval‑тестов ещё не гарантирует, что AI‑агент работает корректно: он может выдавать правильный ответ, но выполнять неверные действия или не выполнять их вовсе. В статье разбираем семь ошибок оценки AI‑агентов и показываем, какие подходы помогают измерять реальное качество системы. Р...",
     "date": "2026-09-25",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
@@ -215,6 +245,16 @@
     "desc": "Google анонсировала новые функции для своего фирменного интернет-обозревателя Chrome, которые должны сделать проще процесс обучения и исследования сложных тем. Функция переключения вкладок между устройствами теперь может «запоминать» страницы. В дополнение к этому в браузере расширились возможнос...",
     "date": "2026-09-25",
     "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "DBA Agent в действии: 10 тысяч тикетов и 99,6% автоматизации второй линии поддержки",
+    "link": "https://habr.com/ru/companies/sberbank/articles/1086740/?utm_campaign=1086740&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! Это четвёртая статья цикла про R&D‑исследование для небольшой команды DBA. Мы начали с того, что решили упростить мониторинг парка из более чем 800 экземпляров нашей СУБД Platform V Pangolin DB (реляционная СУБД на базе PostgreSQL) с помощью доработки postgres_exporter. А потом и во...",
+    "date": "2026-09-25",
+    "source": "Habr AI",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -8315,166 +8355,6 @@
     "desc": "",
     "date": "2026-07-01",
     "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Vercel Agent has updated pricing",
-    "link": "https://vercel.com/changelog/vercel-agent-has-updated-pricing",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "An expanded Vercel Agent: chat, investigations, and approved actions, now in public beta",
-    "link": "https://vercel.com/changelog/an-expanded-vercel-agent-chat-investigations-and-approved-actions-now-in-public-beta",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Why Specialization Is Inevitable",
-    "link": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Hugging Face",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Run any Dockerfile on Vercel",
-    "link": "https://vercel.com/blog/dockerfile-on-vercel",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Vercel Ship 2026 recap",
-    "link": "https://vercel.com/blog/vercel-ship-2026-recap",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Vercel Services: Run full stack on Vercel",
-    "link": "https://vercel.com/blog/vercel-services-run-full-stack-on-vercel",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Vercel Private Blob is now generally available",
-    "link": "https://vercel.com/changelog/vercel-private-blob-is-now-generally-available",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Vercel Sandbox now support Custom Images",
-    "link": "https://vercel.com/changelog/vercel-sandbox-now-support-custom-images",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Introducing VCR: Vercel Container Registry",
-    "link": "https://vercel.com/changelog/introducing-vcr-vercel-container-registry",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Run multiple frameworks in one project with Vercel Services",
-    "link": "https://vercel.com/changelog/run-multiple-frameworks-in-one-project-with-vercel-services",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Bring your Dockerfile to Vercel Functions",
-    "link": "https://vercel.com/changelog/bring-your-dockerfile-to-vercel-functions",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Expanded Audit Log coverage, now delivered through Vercel Drains",
-    "link": "https://vercel.com/changelog/expanded-audit-log-coverage-now-delivered-through-vercel-drains",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Vercel and Shopify are rebuilding Hydrogen",
-    "link": "https://vercel.com/blog/vercel-and-shopify-are-rebuilding-hydrogen",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Как мы перестали полировать макеты и начали отдавать дизайн итерациями",
-    "link": "https://habr.com/ru/articles/1048298/?utm_campaign=1048298&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Итеративный дизайн на самом деле не только про дизайн, но и про подход к созданию продукта. Он связывает дизайнеров, команду разработки, PO (product owner), PM (project manager) и пользователей в систему, где каждый влияет на то, каким становится продукт. Дизайнер перестаёт быть исполнителем маке...",
-    "date": "2026-06-30",
-    "source": "Habr Веб-дизайн",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Why Accessibility Is An Operational Capability, Not A Feature",
-    "link": "https://smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/",
-    "desc": "Teams can generate UI faster than ever, but they still have to guarantee that what they ship is usable, secure, and maintainable. Accessibility as an operational capability rather than a compliance checklist or end-of-project audit, and what that looks like in practice.",
-    "date": "2026-06-30",
-    "source": "Smashing Magazine",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Snapshots Of Summer (July 2026 Wallpapers Edition)",
-    "link": "https://smashingmagazine.com/2026/06/desktop-wallpaper-calendars-july-2026/",
-    "desc": "July is just around the corner, and that means... It’s time for some new desktop wallpapers! As every month, the wallpapers in this collection were created by the community for the community and can be downloaded for free. Enjoy!",
-    "date": "2026-06-30",
-    "source": "Smashing Magazine",
     "cat": "misc",
     "lang": "en",
     "misc_type": "unfiltered"

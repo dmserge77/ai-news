@@ -1,21 +1,39 @@
 [
   {
-    "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
-    "link": "https://arxiv.org/abs/2609.25021",
-    "desc": "Article URL: https://arxiv.org/abs/2609.25021 Comments URL: https://news.ycombinator.com/item?id=49865343 Points: 80 # Comments: 83",
-    "date": "2026-09-27",
-    "source": "Hacker News",
+    "title": "Промпты для картинок: зачем их пишут на английском?🥰",
+    "link": "https://vc.ru/id6122917/3162561-prompty-dlya-kartinok-zachem-ih-pishut-na-angliiskom?from=rss",
+    "desc": "В некоторых генераторах можно написать «ночной лес с туманом» и получить подходящую картинку. В других тот же запрос на русском может сработать менее точно.Причина в том, что разные модели по-разному понимают языки. Важнее не название приложения или сайта, а модель, которая создаёт изображение, и...",
+    "date": "2026-09-28",
+    "source": "vc.ru",
     "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
   },
   {
-    "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
-    "link": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-    "desc": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 523 # Comments: 430",
-    "date": "2026-09-27",
-    "source": "Hacker News",
+    "title": "Новая статья: Мастерская локальных ИИ: драники кодерские с Gemma 4",
+    "link": "https://3dnews.ru/1148798",
+    "desc": "Подлинная мультимодальность для сравнительно небольших моделей всегда была вызовом, но в Google отыскали к ней оригинальный подход",
+    "date": "2026-09-28",
+    "source": "3DNews",
     "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
+  },
+  {
+    "title": "Сколько стоит суверенитет",
+    "link": "https://habr.com/ru/articles/1087244/?utm_campaign=1087244&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Коллеги всю неделю обсуждают релиз претрейна https://huggingface.co/yandex/AliceAI-Foundation-80B-A3B-Base https://habr.com/en/companies/yandex/articles/1083300/ . В одном из чатов спросили как она отвечает на основополагающий вопрос, и я решил это проверить, что бы узнать сколько стоит инференс ...",
+    "date": "2026-09-27",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Локальные нейросети без Python, CUDA и терминала: делаю программу, в которой всё настраивается само",
+    "link": "https://habr.com/ru/articles/1087242/?utm_campaign=1087242&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Vulkan на моей GTX 1080 генерирует в полтора раза быстрее CUDA. Qwen вставляет китайские слова в русский текст даже при температуре 0. А маленькая модель однажды отчиталась, что удалила файл, и ничего не удалила. Всё это я узнал, пока делал Ollivo: программу, которая запускает локальные нейросети...",
+    "date": "2026-09-27",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Человек в чёрном окне",
@@ -90,6 +108,15 @@
     "lang": "ru"
   },
   {
+    "title": "Пользователь задействовал ИИ для взлома Internet Download Manager",
+    "link": "https://habr.com/ru/news/1087194/?utm_campaign=1087194&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Пользователь применил модель искусственного интеллекта без ограничений безопасности, чтобы взломать программу Internet Download Manager и не платить 10 евро в год за лицензию для каждого компьютера. Читать далее",
+    "date": "2026-09-27",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "OpenAI может представить always-on агента на DevDay",
     "link": "https://habr.com/ru/companies/bothub/news/1087112/?utm_campaign=1087112&utm_source=habrahabr&utm_medium=rss",
     "desc": "В коде и интерфейсе ChatGPT начали всплывать следы нового агента под коротким названием « o». И да, судя по всему, OpenAI снова решила, что одной буквы для продукта вполне достаточно. Упоминание «o» уже появлялось на экране обновления тарифа ChatGPT у части пользователей. В конфигурации также наш...",
@@ -144,27 +171,90 @@
     "lang": "ru"
   },
   {
-    "title": "Нейросеть психолог онлайн на русском: анонимный ИИ-чат для психологической поддержки 24/7",
-    "link": "https://vc.ru/services/3162048-neyroset-psikholog-onlajn?from=rss",
-    "desc": "Когда тревожно, одиноко или трудно разобраться в собственных чувствах, не всегда получается сразу обратиться к специалисту. Иногда хочется сначала спокойно сформулировать проблему, выговориться без оценки и получить понятный следующий шаг. В такой ситуации может помочь нейросеть психолог онлайн н...",
+    "title": "Хиггсфилд (Higgsfield AI) российский аналог: ТОП-10 лучших нейросетей для генерации фото, видео и текста онлайн",
+    "link": "https://vc.ru/services/3162455-higgsfield-analog-luchshie-neyroseti?from=rss",
+    "desc": "Генеративные сервисы помогают быстро создавать изображения, ролики, тексты и рекламные материалы без команды дизайнеров и видеомонтажёров. Но у каждого инструмента своя специализация: один лучше работает с фотографиями, другой — с движением, третий — с постами, сценариями и идеями.",
     "date": "2026-09-27",
     "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "Нейросеть Врач онлайн: ИИ-доктор для ответов на вопросы о здоровье и симптомах",
-    "link": "https://vc.ru/services/3162033-neyroset-vrach-onlajn?from=rss",
-    "desc": "Когда появляется непонятное недомогание, человек часто хочет быстро понять, насколько ситуация срочная, какие сведения подготовить для врача и что могут означать отдельные симптомы. В такой момент помогает цифровой медицинский помощник: он ведёт диалог, уточняет обстоятельства и объясняет информа...",
+    "title": "Зимняя фотосессия через нейросеть: ТОП-10 лучших ИИ для создания зимних фото и ТОП-25 готовых промптов для фотосессии онлайн",
+    "link": "https://vc.ru/services/3162430-zimnyaya-fotosessiya-cherez-neyroset?from=rss",
+    "desc": "Зимняя фотосессия больше не обязательно требует студии, фотографа, сложного света и подходящей погоды. Нейросеть может превратить обычное селфи в портрет среди снегопада, добавить зимний лес, заменить летний фон или собрать праздничную сцену с огнями, елкой и камином.",
     "date": "2026-09-27",
     "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "Исследование Microsoft: Разрыв в использовании генеративного ИИ между Глобальным Севером и Югом увеличился",
-    "link": "https://vc.ru/ai/3155929-razryv-v-ispolzovanii-generativnogo-ii?from=rss",
-    "desc": "Генеративный ИИ распространяется быстро, но очень неравномерно. В одних странах им уже пользуется почти каждый третий человек, в других — только каждый шестой. Причина не сводится к цене подписки: доступ зависит от интернета, электричества, устройств и цифровых навыков. По данным нового доклада M...",
+    "title": "Чат GPT-6 Astra против GPT-5.6: сравнение возможностей ChatGPT, главные изменения и улучшения новой версии нейросети",
+    "link": "https://vc.ru/services/3162392-sravnenie-chatgpt-6-astra-i-gpt-5-6?from=rss",
+    "desc": "На рынке генеративного ИИ регулярно появляются заявления о новых версиях моделей, однако не каждое название означает официальный релиз. Поэтому разговор о ChatGPT-6 Astra и GPT-5.6 нужно начинать с проверки статуса моделей: публичной документации, страницы разработчика, условий доступа и техничес...",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Фото на пляже у моря через нейросеть: как создать реалистичную пляжную фотосессию по своему фото с помощью ИИ онлайн",
+    "link": "https://vc.ru/services/3162364-sozdanie-realistichnykh-plyazhnykh-foto-s-pomoshchyu-neirosseti-onlayn?from=rss",
+    "desc": "Морской пейзаж на снимке больше не обязательно означает поездку на курорт, аренду студии и работу фотографа. Современные сервисы умеют использовать загруженный портрет как основу, менять окружение, добавлять песок, волны, пальмы и мягкий солнечный свет. В результате обычное селфи может превратить...",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Портрет поколений через нейросеть: как создать семейное фото нескольких поколений с помощью ИИ онлайн",
+    "link": "https://vc.ru/services/3162344-kak-sozdat-semejnoe-foto-neskolkikh-pokolenij-s-pomoschyu-ii-onlajn?from=rss",
+    "desc": "Семейные снимки не всегда складываются в идеальную историю. Кто-то живёт в другом городе, старые фотографии портятся, родственники разных возрастов никогда не оказывались перед одной камерой. Сегодня искусственный интеллект помогает бережно собрать такой сюжет в одном изображении: восстановить ар...",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Где я беру идеи для медиаконтента: галерея готовых промтов для нейросетей",
+    "link": "https://vc.ru/ai/3162414-gde-vzyat-idei-dlya-mediakontenta?from=rss",
+    "desc": "Я делаю картинки и видео нейросетями, и идеи почти никогда не беру из головы: смотрю, что уже получилось у других, и забираю промпт. Показываю галерею, где так можно, и три чужих шаблона, из которых вышли мои картинки. А где идеи ищете вы?",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как я за выходные создал бесплатный аналог платных сервисов озвучки текста и выложил его в открытый доступ",
+    "link": "https://vc.ru/id6127102/3162378-sozdanie-besplatnogo-servisa-ozvuchki-teksta?from=rss",
+    "desc": "Привет! Меня зовут Руслан, и я хочу рассказать, как за два дня создал сервис бесплатной озвучки текста на базе нейросетей и выложил его в открытый доступ.",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Нужной модели нет ни в одном каталоге: как сделать STL для 3D-принтера из фото нейросетью",
+    "link": "https://vc.ru/ai/3161171-sozdanie-stl-dlya-3d-printera-iz-foto?from=rss",
+    "desc": "Я делаю 3D-модели нейросетью в боте и разобрал, как довести их до печати: какой режим брать, что выключить при генерации, в какой формат конвертировать и что чинить в слайсере. Внутри путь по кнопкам и чек-лист перед печатью. Что бы вы напечатали первым?",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Карточка товара без предметной съёмки: как делать инфографику для маркетплейсов в нейросети",
+    "link": "https://vc.ru/ai/3161181-infografika-dlya-marketpleysov-neyroseti-i-sozdanie-kartochek-tovara?from=rss",
+    "desc": "Я делаю визуал нейросетями и собрал приёмы, которые закрывают самые дорогие этапы карточки товара: подиум, локацию, ракурсы, цвета, разрез, примерку на модель. У каждого пример и промпт, по которому он сделан. Какой этап вы бы отдали нейросети первым?",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Партнерские программы нейросетей: ТОП-10 ИИ-партнерок для заработка на искусственном интеллекте онлайн",
+    "link": "https://vc.ru/services/3162246-partnerskie-programmy-neurosetei-dlya-zarabotka-na-ii-onlajn?from=rss",
+    "desc": "Искусственный интеллект перестал быть технологией только для разработчиков. Нейросети помогают писать тексты, создавать изображения, монтировать видео, обрабатывать звук, готовить презентации и автоматизировать рабочие процессы. На этом спросе можно строить не только собственные услуги, но и парт...",
     "date": "2026-09-27",
     "source": "vc.ru",
     "cat": "ai",
@@ -261,6 +351,51 @@
     "lang": "ru"
   },
   {
+    "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+    "link": "https://arxiv.org/abs/2609.25021",
+    "desc": "Article URL: https://arxiv.org/abs/2609.25021 Comments URL: https://news.ycombinator.com/item?id=49865343 Points: 80 # Comments: 83",
+    "date": "2026-09-27",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+    "link": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+    "desc": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 523 # Comments: 430",
+    "date": "2026-09-27",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Нейросеть психолог онлайн на русском: анонимный ИИ-чат для психологической поддержки 24/7",
+    "link": "https://vc.ru/services/3162048-neyroset-psikholog-onlajn?from=rss",
+    "desc": "Когда тревожно, одиноко или трудно разобраться в собственных чувствах, не всегда получается сразу обратиться к специалисту. Иногда хочется сначала спокойно сформулировать проблему, выговориться без оценки и получить понятный следующий шаг. В такой ситуации может помочь нейросеть психолог онлайн н...",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Нейросеть Врач онлайн: ИИ-доктор для ответов на вопросы о здоровье и симптомах",
+    "link": "https://vc.ru/services/3162033-neyroset-vrach-onlajn?from=rss",
+    "desc": "Когда появляется непонятное недомогание, человек часто хочет быстро понять, насколько ситуация срочная, какие сведения подготовить для врача и что могут означать отдельные симптомы. В такой момент помогает цифровой медицинский помощник: он ведёт диалог, уточняет обстоятельства и объясняет информа...",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Исследование Microsoft: Разрыв в использовании генеративного ИИ между Глобальным Севером и Югом увеличился",
+    "link": "https://vc.ru/ai/3155929-razryv-v-ispolzovanii-generativnogo-ii?from=rss",
+    "desc": "Генеративный ИИ распространяется быстро, но очень неравномерно. В одних странах им уже пользуется почти каждый третий человек, в других — только каждый шестой. Причина не сводится к цене подписки: доступ зависит от интернета, электричества, устройств и цифровых навыков. По данным нового доклада M...",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "OpenAI agents tried to bruteforce a UN website's API fields",
     "link": "https://swarmcha.se/posts/openai-unctad",
     "desc": "Article URL: https://swarmcha.se/posts/openai-unctad Comments URL: https://news.ycombinator.com/item?id=49862299 Points: 39 # Comments: 16",
@@ -279,47 +414,11 @@
     "lang": "ru"
   },
   {
-    "title": "DeepSeek Elastic Compute (DSec)",
-    "link": "https://arxiv.org/abs/2609.22978",
-    "desc": "Article URL: https://arxiv.org/abs/2609.22978 Comments URL: https://news.ycombinator.com/item?id=49859112 Points: 295 # Comments: 94",
+    "title": "Faster prompt lookup drafting in llama.cpp",
+    "link": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
+    "desc": "Article URL: https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/ Comments URL: https://news.ycombinator.com/item?id=49859982 Points: 54 # Comments: 9",
     "date": "2026-09-26",
     "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
-    "link": "https://github.com/reladraw/reladraw",
-    "desc": "I love making diagrams to help understand, plan, etc. However, the options are (A) auto-placement languages like Mermaid or Graphviz (which don't let me decide how the diagram looks), or (B) software like Draw.io which are powerful but are very time consuming (and inefficient for agents to manipu...",
-    "date": "2026-09-26",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "How to keep enjoying programming in a world of LLMs",
-    "link": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-    "desc": "Article URL: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705 Comments URL: https://news.ycombinator.com/item?id=49854875 Points: 290 # Comments: 307",
-    "date": "2026-09-26",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "An agent used DNS to reach an external chatbot",
-    "link": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
-    "desc": "Article URL: https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/ Comments URL: https://news.ycombinator.com/item?id=49853137 Points: 134 # Comments: 133",
-    "date": "2026-09-26",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
-    "link": "https://swarmtraces.org/",
-    "desc": "Comments",
-    "date": "2026-09-26",
-    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
   },
@@ -468,15 +567,6 @@
     "lang": "ru"
   },
   {
-    "title": "📌Fable 5.1 рассчитала амплитуду рассеяния в девяти петлях",
-    "link": "https://vc.ru/education/3160408-amplituda-rasseyaniya-v-devyati-petlyakh?from=rss",
-    "desc": "Модель в среде Claude Science рассчитала шестичастичную амплитуду рассеяния в планарной четырёхкратно суперсимметричной теории Янга–Миллса на уровне девяти петель.",
-    "date": "2026-09-26",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Google отправит ИИ-сервер в космос уже на следующей неделе, но работать он сможет лишь по 15 минут",
     "link": "https://3dnews.ru/1149099",
     "desc": "Google готовит первый орбитальный эксперимент в рамках проекта Suncatcher, целью которого станет проверка возможности размещения вычислительной инфраструктуры для искусственного интеллекта в космосе. Компания оценит, как ускорители TPU переносят нагрузки при запуске, радиацию и перепады температу...",
@@ -518,6 +608,51 @@
     "desc": "Разработанные OpenAI агенты искусственного интеллекта в течение нескольких месяцев атаковали ресурсы Data USA, Университета Нью-Мексико и Австралийского института здравоохранения и социального обеспечения в стремлении извлечь малоизвестные данные. Об этом сообщила некоммерческая лаборатория Trans...",
     "date": "2026-09-26",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "DeepSeek Elastic Compute (DSec)",
+    "link": "https://arxiv.org/abs/2609.22978",
+    "desc": "Article URL: https://arxiv.org/abs/2609.22978 Comments URL: https://news.ycombinator.com/item?id=49859112 Points: 295 # Comments: 94",
+    "date": "2026-09-26",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "How to keep enjoying programming in a world of LLMs",
+    "link": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+    "desc": "Article URL: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705 Comments URL: https://news.ycombinator.com/item?id=49854875 Points: 290 # Comments: 307",
+    "date": "2026-09-26",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "An agent used DNS to reach an external chatbot",
+    "link": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+    "desc": "Article URL: https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/ Comments URL: https://news.ycombinator.com/item?id=49853137 Points: 134 # Comments: 133",
+    "date": "2026-09-26",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+    "link": "https://swarmtraces.org/",
+    "desc": "Comments",
+    "date": "2026-09-26",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "📌Fable 5.1 рассчитала амплитуду рассеяния в девяти петлях",
+    "link": "https://vc.ru/education/3160408-amplituda-rasseyaniya-v-devyati-petlyakh?from=rss",
+    "desc": "Модель в среде Claude Science рассчитала шестичастичную амплитуду рассеяния в планарной четырёхкратно суперсимметричной теории Янга–Миллса на уровне девяти петель.",
+    "date": "2026-09-26",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -597,33 +732,6 @@
     "title": "Продвижение интернет‑магазина в ответах ИИ: почему нейросети почти не ссылаются на карточку товара",
     "link": "https://habr.com/ru/articles/1086798/?utm_campaign=1086798&utm_source=habrahabr&utm_medium=rss",
     "desc": "Я задал Алисе AI и Perplexity 14 вопросов, которые покупатель задаёт перед покупкой техники: где купить оригинальный айфон с гарантией, где забрать макбук сегодня, где дают рассрочку. Потом посмотрел, на какие страницы магазинов ведут ссылки в ответах. Из 243 ссылок на карточку товара пришлось 10...",
-    "date": "2026-09-25",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "DBA Agent в действии: 10 тысяч тикетов и 99,6% автоматизации второй линии поддержки",
-    "link": "https://habr.com/ru/companies/sberbank/articles/1086740/?utm_campaign=1086740&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! Это четвёртая статья цикла про R&D‑исследование для небольшой команды DBA. Мы начали с того, что решили упростить мониторинг парка из более чем 800 экземпляров нашей СУБД Platform V Pangolin DB (реляционная СУБД на базе PostgreSQL) с помощью доработки postgres_exporter. А потом и во...",
-    "date": "2026-09-25",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Kimi, MiniMax Code и ZCode в OpenResearch: форк за один вечер вместе с Claude Opus 5.5",
-    "link": "https://habr.com/ru/articles/1086796/?utm_campaign=1086796&utm_source=habrahabr&utm_medium=rss",
-    "desc": "OpenResearch от alphaXiv превращает coding-агентов в исследовательских. Из коробки он работал с Claude Code, Codex, OpenCode, Cursor и Google Antigravity. Мне хотелось использовать в нём ещё три агента, которые уже стояли у меня на Windows: Kimi Code , MiniMax Code и ZCode . Я поставил эту задачу...",
-    "date": "2026-09-25",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "1700 строк JS и ни одного видеофайла: как ИИ-агент снимает кино на Canvas и рендерит его в MP4",
-    "link": "https://habr.com/ru/articles/1086766/?utm_campaign=1086766&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В этом минутном фильме нет ни одной картинки, видеофайла или сэмпла. Огонь, гравюру, 3D-сферу, пиксельную игру и музыку рисует и синтезирует один HTML-файл на 1700 строк, и написал его ИИ-агент. Без правил тот же агент выдаёт унылую заставку: синий фон, неон, всё ползёт линейно. Разбираю, что это...",
     "date": "2026-09-25",
     "source": "Habr AI",
     "cat": "ai",
@@ -714,6 +822,24 @@
     "title": "Модульная надстройка для JasperReports: подключение и что делает процессор при сборке. Часть 3",
     "link": "https://habr.com/ru/articles/1086826/?utm_campaign=1086826&utm_source=habrahabr&utm_medium=rss",
     "desc": "Третья часть серии — практическая. Как подключить библиотеку к Maven-проекту, написать первый модульный отчёт и что после этого происходит с шаблоном при сборке. Субрепорт — это класс, отчёт — тоже класс, а поля класса и есть содержимое отчёта. Имена параметров шаблона берутся из имён полей, поэт...",
+    "date": "2026-09-25",
+    "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Kimi, MiniMax Code и ZCode в OpenResearch: форк за один вечер вместе с Claude Opus 5.5",
+    "link": "https://habr.com/ru/articles/1086796/?utm_campaign=1086796&utm_source=habrahabr&utm_medium=rss",
+    "desc": "OpenResearch от alphaXiv превращает coding-агентов в исследовательских. Из коробки он работал с Claude Code, Codex, OpenCode, Cursor и Google Antigravity. Мне хотелось использовать в нём ещё три агента, которые уже стояли у меня на Windows: Kimi Code , MiniMax Code и ZCode . Я поставил эту задачу...",
+    "date": "2026-09-25",
+    "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "1700 строк JS и ни одного видеофайла: как ИИ-агент снимает кино на Canvas и рендерит его в MP4",
+    "link": "https://habr.com/ru/articles/1086766/?utm_campaign=1086766&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В этом минутном фильме нет ни одной картинки, видеофайла или сэмпла. Огонь, гравюру, 3D-сферу, пиксельную игру и музыку рисует и синтезирует один HTML-файл на 1700 строк, и написал его ИИ-агент. Без правил тот же агент выдаёт унылую заставку: синий фон, неон, всё ползёт линейно. Разбираю, что это...",
     "date": "2026-09-25",
     "source": "Habr Open Source",
     "cat": "ai",
@@ -1989,15 +2115,6 @@
     "lang": "ru"
   },
   {
-    "title": "SEO-плагины на DeepSeek Harness: что переезжает из Claude Code, а что нет",
-    "link": "https://habr.com/ru/articles/1085466/?utm_campaign=1085466&utm_source=habrahabr&utm_medium=rss",
-    "desc": "У DeepSeek появился свой агентный харнесс — dsh. Разбираю, как перенести на него SEO-набор: серверы с данными, правила работы и страховку от ошибок модели. Читать далее",
-    "date": "2026-09-23",
-    "source": "Habr Open Source",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "ИТ-инфраструктура: 18 бесплатных вебинаров и 5 статей о Linux, Kubernetes и диагностике сбоев",
     "link": "https://habr.com/ru/companies/otus/articles/1085272/?utm_campaign=1085272&utm_source=habrahabr&utm_medium=rss",
     "desc": "Перезапуск помог, сервис снова доступен – но что вызвало сбой и не повторится ли он завтра? Для подобных задач собрали 17 бесплатных уроков и практические статьи о диагностике и эксплуатации инфраструктуры. Есть разборы сетевых петель и защиты контейнеров, работа с Kubernetes и отдельные темы об ...",
@@ -2057,6 +2174,15 @@
     "desc": "На это у нее ушло примерно полдня Сообщение Вышла Claude Opus 5.5 — модель придумала алгоритм поиска пути быстрее Дейкстры появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-09-23",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "SEO-плагины на DeepSeek Harness: что переезжает из Claude Code, а что нет",
+    "link": "https://habr.com/ru/articles/1085466/?utm_campaign=1085466&utm_source=habrahabr&utm_medium=rss",
+    "desc": "У DeepSeek появился свой агентный харнесс — dsh. Разбираю, как перенести на него SEO-набор: серверы с данными, правила работы и страховку от ошибок модели. Читать далее",
+    "date": "2026-09-23",
+    "source": "Habr Open Source",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2781,20 +2907,20 @@
     "lang": "ru"
   },
   {
-    "title": "Бесплатные нейросети 2026: какую выбрать под свою задачу",
-    "link": "https://vc.ru/id6054863/3152654-besplatnye-neirosseti-dlya-rabotyi?from=rss",
-    "desc": "Сравниваю лучшие бесплатные нейросети для работы: чат-боты, генерация картинок и текста, код, ИИ-агенты и локальные модели. Что реально бесплатно, что с нюансами и что стоит своих денег — а что нет. Если вы ещё ищете, какая нейросеть лучше — точного ответа не дам, но помогу выбрать под вашу задач...",
-    "date": "2026-09-22",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Шрифт — это не просто буквы: как устроен шрифтовой дизайн, что изменят нейросети и за что на самом деле платят",
     "link": "https://habr.com/ru/articles/1085010/?utm_campaign=1085010&utm_source=habrahabr&utm_medium=rss",
     "desc": "Почему логотип Coca-Cola — не шрифт, зачем одной гарнитуре сотни знаков, почему хороший веб-шрифт надо проверять на плохом мониторе и что именно нейросети уже могут забрать у шрифтового дизайнера? Я, Александр, автор телеграм-канала « Shulepov Code », поговорил с Александрой Корольковой — арт-дир...",
     "date": "2026-09-22",
     "source": "Habr Веб-дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Бесплатные нейросети 2026: какую выбрать под свою задачу",
+    "link": "https://vc.ru/id6054863/3152654-besplatnye-neirosseti-dlya-rabotyi?from=rss",
+    "desc": "Сравниваю лучшие бесплатные нейросети для работы: чат-боты, генерация картинок и текста, код, ИИ-агенты и локальные модели. Что реально бесплатно, что с нюансами и что стоит своих денег — а что нет. Если вы ещё ищете, какая нейросеть лучше — точного ответа не дам, но помогу выбрать под вашу задач...",
+    "date": "2026-09-22",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -8878,33 +9004,6 @@
     "link": "https://vercel.com/changelog/claude-fable-5-access-restored-on-ai-gateway",
     "desc": "",
     "date": "2026-07-01",
-    "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
-    "link": "https://huggingface.co/blog/eee-community-evals",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Hugging Face",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Claude Sonnet 5 now available on Vercel AI Gateway",
-    "link": "https://vercel.com/changelog/claude-sonnet-5-ai-gateway",
-    "desc": "",
-    "date": "2026-06-30",
-    "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) now on AI Gateway",
-    "link": "https://vercel.com/changelog/nano-banana-2-lite-gemini-3-1-flash-lite-image-ai-gateway",
-    "desc": "",
-    "date": "2026-06-30",
     "source": "Vercel",
     "cat": "ai",
     "lang": "en"
