@@ -1,12 +1,75 @@
 [
   {
-    "title": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
-    "link": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
-    "desc": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 50 # Comments: 8",
+    "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+    "link": "https://arxiv.org/abs/2609.25021",
+    "desc": "Article URL: https://arxiv.org/abs/2609.25021 Comments URL: https://news.ycombinator.com/item?id=49865343 Points: 80 # Comments: 83",
     "date": "2026-09-27",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+    "link": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+    "desc": "Article URL: https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/ Comments URL: https://news.ycombinator.com/item?id=49863864 Points: 523 # Comments: 430",
+    "date": "2026-09-27",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Человек в чёрном окне",
+    "link": "https://habr.com/ru/articles/1087154/?utm_campaign=1087154&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сегодня я вёл бизнес из чёрного окна: терминал, мигающий курсор и ИИ-агент, который сам ходит по сайтам и жмёт кнопки. Разбираю, почему сайты открывают всё реже, что будет с покупками и какие интерфейсы люди продолжат открывать сами. Читать далее",
+    "date": "2026-09-27",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Docker для параноика: организация SSH-доступа для rootless-контейнера без передачи приватного ключа",
+    "link": "https://habr.com/ru/articles/1087148/?utm_campaign=1087148&utm_source=habrahabr&utm_medium=rss",
+    "desc": "SSH-доступ используется во множестве сценариев — от работы с репозиториями до автоматизации и управления серверами. Но если приватный ключ доступен самому приложению, при компрометации процесса его можно украсть. Замена SSH на токен проблему не решает: это будет просто другой секрет, доступный то...",
+    "date": "2026-09-27",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Малые языковые модели: где пригодятся SLM и что учесть в работе с ними",
+    "link": "https://habr.com/ru/companies/vtb/articles/1086030/?utm_campaign=1086030&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Малые языковые модели (SLM) все чаще оказываются в центре внимания: на первый взгляд, они почти не уступают LLM, при том, что ресурсов тратят намного меньше. Но тут, как всегда, есть нюанс (и не один): обсуждаем, так ли хороши SLM, где они действительно могут быть полезны, а где пока буксуют. А е...",
+    "date": "2026-09-27",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Мобильник почти из ничего: Как ИИ помог собрать телефон из деталей с маркетплейсов",
+    "link": "https://habr.com/ru/articles/1087140/?utm_campaign=1087140&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сегодня будем делать свой мобильник из подручных материалов, купленных на разных маркетплейсах, и в содружестве с искусственным интеллектом. Сразу оговоримся, что речь не идет об очередном убийце iPhone или про ультрабюджетный доступ к сети. Простую звонилку дешевле и проще купить в ближайшем сал...",
+    "date": "2026-09-27",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Спросите у Переверзева: забытый джазовед, который думал о проблемах ИИ до ИИ",
+    "link": "https://habr.com/ru/articles/1087138/?utm_campaign=1087138&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Вирусный спор трёх петербургских музыковедов вывел меня на книгу 1966 года. Её автор разбирался, как компьютеры повлияют на творчество и эстетику. И за десятилетия до ChatGPT формулировал, каким должен быть помощник в мышлении и решении задач. Читать далее",
+    "date": "2026-09-27",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Поколение отклонённых: как ИИ-скрининг резюме выталкивает молодёжь в киберпреступность",
+    "link": "https://habr.com/ru/articles/1087120/?utm_campaign=1087120&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Получил диплом, отправил первые 50 откликов и столкнулся с классическим парадоксом: чтобы получить работу, нужен опыт, а чтобы получить опыт, нужна работа. Я решил посмотреть шире: насколько сложно молодым специалистам войти в IT, какую роль в этом играют автоматический отбор и нейросети, и может...",
+    "date": "2026-09-27",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Способы применения LLM: простые и необычные варианты",
@@ -23,6 +86,33 @@
     "desc": "Исследователи дали языковой модели две кнопки. Одна ничего не делала. Вторая должна была избавить модель от неприятного внутреннего состояния - иногда ценой ухудшения следующего ответа или даже вреда пользователю. Модель выбирала облегчение. А если кнопка не срабатывала, пыталась снова. Это не мы...",
     "date": "2026-09-27",
     "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI может представить always-on агента на DevDay",
+    "link": "https://habr.com/ru/companies/bothub/news/1087112/?utm_campaign=1087112&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В коде и интерфейсе ChatGPT начали всплывать следы нового агента под коротким названием « o». И да, судя по всему, OpenAI снова решила, что одной буквы для продукта вполне достаточно. Упоминание «o» уже появлялось на экране обновления тарифа ChatGPT у части пользователей. В конфигурации также наш...",
+    "date": "2026-09-27",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Julia 1: релиз модели в духе Jev с открытыми весами и запуском на CPU",
+    "link": "https://habr.com/ru/news/1087104/?utm_campaign=1087104&utm_source=habrahabr&utm_medium=rss",
+    "desc": "У Supersonic Labs вышла Julia 1 — небольшая модель для классификации текстов и выбора из заданных вариантов. В ней 144 млн параметров, веса занимают около 550 МБ, а для запуска достаточно CPU. По идее это напоминает Jev от TypeSafe : модель получает данные и возвращает решение, которое можно сраз...",
+    "date": "2026-09-27",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Microsoft подготовила проект кодекса, который описывает правила поведения и механизмы контроля ИИ",
+    "link": "https://habr.com/ru/news/1087074/?utm_campaign=1087074&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Microsoft опубликовала проект «Кодекса поведения гуманистического ИИ» (Humanist AI Code of Conduct). Документ устанавливает правила поведения для искусственного интеллекта, а также обязательные и не подлежащие обсуждению механизмы контроля технологии. Среди них — принудительное отключение, прозра...",
+    "date": "2026-09-27",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -54,9 +144,36 @@
     "lang": "ru"
   },
   {
+    "title": "Нейросеть психолог онлайн на русском: анонимный ИИ-чат для психологической поддержки 24/7",
+    "link": "https://vc.ru/services/3162048-neyroset-psikholog-onlajn?from=rss",
+    "desc": "Когда тревожно, одиноко или трудно разобраться в собственных чувствах, не всегда получается сразу обратиться к специалисту. Иногда хочется сначала спокойно сформулировать проблему, выговориться без оценки и получить понятный следующий шаг. В такой ситуации может помочь нейросеть психолог онлайн н...",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Нейросеть Врач онлайн: ИИ-доктор для ответов на вопросы о здоровье и симптомах",
+    "link": "https://vc.ru/services/3162033-neyroset-vrach-onlajn?from=rss",
+    "desc": "Когда появляется непонятное недомогание, человек часто хочет быстро понять, насколько ситуация срочная, какие сведения подготовить для врача и что могут означать отдельные симптомы. В такой момент помогает цифровой медицинский помощник: он ведёт диалог, уточняет обстоятельства и объясняет информа...",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Исследование Microsoft: Разрыв в использовании генеративного ИИ между Глобальным Севером и Югом увеличился",
     "link": "https://vc.ru/ai/3155929-razryv-v-ispolzovanii-generativnogo-ii?from=rss",
     "desc": "Генеративный ИИ распространяется быстро, но очень неравномерно. В одних странах им уже пользуется почти каждый третий человек, в других — только каждый шестой. Причина не сводится к цене подписки: доступ зависит от интернета, электричества, устройств и цифровых навыков. По данным нового доклада M...",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Мем из своего селфи: смешные промпты для нейросети, которые не стыдно кинуть в общий чат",
+    "link": "https://vc.ru/ai/3161170-smeshnye-prompty-dlya-nevrosseti?from=rss",
+    "desc": "Я делаю картинки нейросетями, и для этой подборки собирал не красивые портреты, а абсурдные кадры с собой в главной роли. Собрал промпты, по которым сделаны картинки из статьи: фото «для подруги», абсурд и отдельно для котов. Какой вы бы отправили в рабочий чат?",
     "date": "2026-09-27",
     "source": "vc.ru",
     "cat": "ai",
@@ -99,11 +216,29 @@
     "lang": "ru"
   },
   {
+    "title": "OpenAI приостановила обучение ИИ-моделей — расследуются десятки тысяч инцидентов с выходом ИИ из-под контроля",
+    "link": "https://3dnews.ru/1149115",
+    "desc": "Разработчики передовых систем искусственного интеллекта OpenAI и Anthropic расследуют десятки тысяч инцидентов, связанных с некорректным поведением своих моделей. Выяснилось, что нейросети массово обходят защитные барьеры и предпринимают попытки взлома внешних систем, что указывает на фундаментал...",
+    "date": "2026-09-27",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Apple iPad в новом поколении обеспечит поддержку Apple Intelligence благодаря процессору A19",
     "link": "https://3dnews.ru/1149105",
     "desc": "Погружение в изучение программного кода Apple позволило представителям MacRumors подтвердить аппаратные характеристики не только нового iPad mini, но и полноразмерного базового планшета iPad двенадцатого поколения. Его анонс, как ожидается, намечен на следующий год. Наличие чипа A19 в составе нов...",
     "date": "2026-09-27",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "В России разработали гидрогелевую среду для тестов имплантатов",
+    "link": "https://hi-tech.mail.ru/news/156405-v-rossii-razrabotali-gidrogelevuyu-sredu-dlya-testov-implantatov/",
+    "desc": "Новая среда для тестирования имплантатов воспроизводит неоднородную структуру живых тканей точнее солевых растворов. Разбираемся, как работают пектиновые пленки и что показали испытания на магниевых и титановых сплавах. В Томском политехническом университете разработали гидрогелевую среду, котора...",
+    "date": "2026-09-27",
+    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
@@ -146,7 +281,7 @@
   {
     "title": "DeepSeek Elastic Compute (DSec)",
     "link": "https://arxiv.org/abs/2609.22978",
-    "desc": "Article URL: https://arxiv.org/abs/2609.22978 Comments URL: https://news.ycombinator.com/item?id=49859112 Points: 237 # Comments: 79",
+    "desc": "Article URL: https://arxiv.org/abs/2609.22978 Comments URL: https://news.ycombinator.com/item?id=49859112 Points: 295 # Comments: 94",
     "date": "2026-09-26",
     "source": "Hacker News",
     "cat": "ai",
@@ -162,18 +297,9 @@
     "lang": "en"
   },
   {
-    "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
-    "link": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-    "desc": "We found an approach to get Jev-like properties from standard LLMs like GLM-5.3-Flash. The core idea is to craft the input prompt so that the first output token answers the question. This makes it possible to get a decision with a single forward pass. In the blog post, we describe the approach in...",
-    "date": "2026-09-26",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "How to keep enjoying programming in a world of LLMs",
     "link": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
-    "desc": "Article URL: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705 Comments URL: https://news.ycombinator.com/item?id=49854875 Points: 218 # Comments: 266",
+    "desc": "Article URL: https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705 Comments URL: https://news.ycombinator.com/item?id=49854875 Points: 290 # Comments: 307",
     "date": "2026-09-26",
     "source": "Hacker News",
     "cat": "ai",
@@ -182,16 +308,7 @@
   {
     "title": "An agent used DNS to reach an external chatbot",
     "link": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
-    "desc": "Article URL: https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/ Comments URL: https://news.ycombinator.com/item?id=49853137 Points: 87 # Comments: 91",
-    "date": "2026-09-26",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Generate fonts where every LLM token is the same width",
-    "link": "https://ampdot.mesh.host/token-space-fonts.html",
-    "desc": "Article URL: https://ampdot.mesh.host/token-space-fonts.html Comments URL: https://news.ycombinator.com/item?id=49851883 Points: 58 # Comments: 12",
+    "desc": "Article URL: https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/ Comments URL: https://news.ycombinator.com/item?id=49853137 Points: 134 # Comments: 133",
     "date": "2026-09-26",
     "source": "Hacker News",
     "cat": "ai",
@@ -405,6 +522,24 @@
     "lang": "ru"
   },
   {
+    "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
+    "link": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+    "desc": "We found an approach to get Jev-like properties from standard LLMs like GLM-5.3-Flash. The core idea is to craft the input prompt so that the first output token answers the question. This makes it possible to get a decision with a single forward pass. In the blog post, we describe the approach in...",
+    "date": "2026-09-26",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Generate fonts where every LLM token is the same width",
+    "link": "https://ampdot.mesh.host/token-space-fonts.html",
+    "desc": "Article URL: https://ampdot.mesh.host/token-space-fonts.html Comments URL: https://news.ycombinator.com/item?id=49851883 Points: 58 # Comments: 12",
+    "date": "2026-09-26",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "OpenAI bots meddled with multiple US Government agency sites",
     "link": "https://www.bbc.com/news/articles/cw62jje658dlo",
     "desc": "Article URL: https://www.bbc.com/news/articles/cw62jje658dlo Comments URL: https://news.ycombinator.com/item?id=49856665 Points: 83 # Comments: 115",
@@ -495,15 +630,6 @@
     "lang": "ru"
   },
   {
-    "title": "Обзор MWS AI Agents Platform: платформы для создания ИИ-агентов",
-    "link": "https://habr.com/ru/companies/ru_mts/articles/1086570/?utm_campaign=1086570&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Почти каждый, кто собирал ИИ-агента для бизнеса, проходил один и тот же путь: быстрый прототип на коленке, радостное демо, а потом месяцы на то, чтобы прикрутить логирование, мониторинг, версионирование промптов, права доступа и выкатку в прод. Обычно я пишу здесь разборы научных статей про LLM и...",
-    "date": "2026-09-25",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "[Перевод] Промпт-инжиниринг: как лучше общаться с ИИ",
     "link": "https://habr.com/ru/articles/1086724/?utm_campaign=1086724&utm_source=habrahabr&utm_medium=rss",
     "desc": "Качество ответа генеративной модели во многом зависит от того, как сформулирован запрос. Промпт-инжиниринг здесь не сводится к поиску «правильных слов» или универсальных команд. Его основная задача гораздо проще: как можно точнее передать модели свое намерение. Генеративный ИИ заметно изменил спо...",
@@ -561,6 +687,15 @@
     "title": "GlowByte приняла участие в конференции Smart Data — 2026 в Китае",
     "link": "https://habr.com/ru/companies/glowbyte/news/1086624/?utm_campaign=1086624&utm_source=habrahabr&utm_medium=rss",
     "desc": "GlowByte приняла участие в 8-й международной конференции FanRuan Smart Data Conference – 2026, которая прошла 10–12 сентября в Ухане, в отеле InterContinental Wuhan. Лозунг конференции в этом году – «Данные и ИИ. Что дальше» (Data & AI Next). Мероприятие собрало более 2100 участников из Китая, Яп...",
+    "date": "2026-09-25",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "В ChatGPT хотят добавить подписку Pro Max за $500 в месяц",
+    "link": "https://habr.com/ru/companies/bothub/news/1086622/?utm_campaign=1086622&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В коде ChatGPT обнаружили упоминание нового тарифа Pro Max за $500 в месяц. Находку опубликовал исследователь Тибор Блахо, а затем её отдельно разобрал TestingCatalog. В описании тарифа указана одна заметная особенность — «Fastest Work and Codex», то есть максимальная скорость работы ChatGPT Work...",
     "date": "2026-09-25",
     "source": "Habr AI Новости",
     "cat": "ai",
@@ -675,9 +810,9 @@
     "lang": "ru"
   },
   {
-    "title": "Cursor сократил расход токенов",
-    "link": "https://vc.ru/ai/3158884-cursor-uluchshil-effektivnost-tokenov?from=rss",
-    "desc": "Anysphere переработала (https://cursor.com/blog/improved-token-efficiency) обвязку своего агента и снизила траты пользователей на токены на 7% без потери качества.",
+    "title": "Нейросеть Qwen в 2026: бесплатный универсал для работы с файлами, кодом и изображениями",
+    "link": "https://vc.ru/id6054863/3158467-neysrest-qwen-universalnyy-instrument?from=rss",
+    "desc": "Чат, картинки, код и даже видео! И всё в одном месте, бесплатно? Я сначала тоже засомневался. Потестил, попробовал и пока что очень даже доволен. Плюсы и минусы этого «комбайнёра» (ну, или мультимодального комбайна, как я его зову), ну как я вижу. Не знаю кому как, но нейросеть Qwen меня если не ...",
     "date": "2026-09-25",
     "source": "vc.ru",
     "cat": "ai",
@@ -687,15 +822,6 @@
     "title": "Классического SEO недостаточно: как брендам добиваться видимости в ответах ИИ. Результаты исследования",
     "link": "https://vc.ru/seo/3153809-ai-seo-dlya-brendov?from=rss",
     "desc": "У SEO-специалистов появляется новая зона ответственности — продвижение в ответах нейросетей и AI-ассистентов. ИИ становится все более заметным источником информации для пользователей, а бренды рискуют остаться невидимыми, если не адаптируют под него свои стратегии.",
-    "date": "2026-09-25",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Нейросеть Qwen в 2026: бесплатный универсал для работы с файлами, кодом и изображениями",
-    "link": "https://vc.ru/id6054863/3158467-neysrest-qwen-universalnyy-instrument?from=rss",
-    "desc": "Чат, картинки, код и даже видео! И всё в одном месте, бесплатно? Я сначала тоже засомневался. Потестил, попробовал и пока что очень даже доволен. Плюсы и минусы этого «комбайнёра» (ну, или мультимодального комбайна, как я его зову), ну как я вижу. Не знаю кому как, но нейросеть Qwen меня если не ...",
     "date": "2026-09-25",
     "source": "vc.ru",
     "cat": "ai",
@@ -714,33 +840,6 @@
     "title": "Alibaba представила Qwen Book — ноутбук-трансформер на Snapdragon 8 Elite Gen 5 с ИИ-агентом, вшитым в собственную ОС на базе Android",
     "link": "https://3dnews.ru/1149050",
     "desc": "Китайский холдинг Alibaba явно не желает отставать от детища Марка Цукерберга (Mark Zuckerberg), а потому на конференции Apsara на этой неделе представил собственный набор различных ИИ-устройств, которые будут использовать фирменные модели семейства Qwen. Помимо довольно предсказуемых очков и нау...",
-    "date": "2026-09-25",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Великолепная семёрка: сооснователи Anthropic сохранят полный контроль над компанией после IPO",
-    "link": "https://3dnews.ru/1149017",
-    "desc": "Поскольку ИИ-стартап Anthropic настроен выйти на биржу до конца этого года, детали IPO постепенно начинают обсуждаться в прессе, и издание The Information сообщает, что по итогам мероприятия глава компании Дарио Амодеи (Dario Amodei) и шесть других её основателей смогут претендовать на 50,1 % гол...",
-    "date": "2026-09-25",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Google Chrome научился запоминать, на каком месте остановился пользователь, при синхронизации вкладок на устройствах",
-    "link": "https://3dnews.ru/1149015",
-    "desc": "Google анонсировала новые функции для своего фирменного интернет-обозревателя Chrome, которые должны сделать проще процесс обучения и исследования сложных тем. Функция переключения вкладок между устройствами теперь может «запоминать» страницы. В дополнение к этому в браузере расширились возможнос...",
-    "date": "2026-09-25",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Ангстремный техпроцесс Intel 14A заинтересовал Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia и Qualcomm",
-    "link": "https://3dnews.ru/1149064",
-    "desc": "Компании Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia и Qualcomm изучают возможности техпроцесса Intel 14A, гласит аналитический доклад инвестиционного банка Piper Sandler. Если переговоры между компаниями приведут к заключению контрактов на производство, Intel сумеет привлечь сторонних к...",
     "date": "2026-09-25",
     "source": "3DNews",
     "cat": "ai",
@@ -774,6 +873,24 @@
     "lang": "ru"
   },
   {
+    "title": "Продажи в японских букинистических магазинах выросли впятеро — из-за ИИ",
+    "link": "https://3dnews.ru/1149047",
+    "desc": "Японские букинистические магазины переживают пятикратный рост продаж. Книги скупают тоннами: одну из партий в 50 т отправили в США — предположительно, для сканирования и последующего уничтожения. Есть подозрение, что множество подобных закупок предназначено для зарубежных центров, где книги скани...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Китайцы научили ИИ общаться без слов — модели передают друг другу содержимое памяти и работают на 150 % быстрее",
+    "link": "https://3dnews.ru/1149042",
+    "desc": "Учёные китайского Университета Цинхуа представили метод, позволяющий различным моделям искусственного интеллекта общаться друг с другом напрямую без генерации текста. Метод получил название Cache-to-Cache (C2C), разработчикам уже доступен исходный код решения. Источник изображения: Steve A Johnso...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Оплата улыбкой теперь в вузах: ЦБТ рассказал о планах по масштабированию",
     "link": "https://hi-tech.mail.ru/news/156378-oplata-ulybkoj-teper-v-vuzah-cbt-rasskazal-o-planah-po-masshtabirovaniyu/",
     "desc": "Наталья Цай, директор транзакционного направления Центра биометрических технологий, в интервью Hi-Tech Mail на МФМ-2026 рассказала о планах по введению биометрии в вузы. 1 сентября 2026 в ЮУрГУ запустили проход в корпуса, оплату в столовой и запись на онлайн-экзамены по биометрии. Система получил...",
@@ -801,20 +918,47 @@
     "lang": "ru"
   },
   {
+    "title": "Обзор MWS AI Agents Platform: платформы для создания ИИ-агентов",
+    "link": "https://habr.com/ru/companies/ru_mts/articles/1086570/?utm_campaign=1086570&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Почти каждый, кто собирал ИИ-агента для бизнеса, проходил один и тот же путь: быстрый прототип на коленке, радостное демо, а потом месяцы на то, чтобы прикрутить логирование, мониторинг, версионирование промптов, права доступа и выкатку в прод. Обычно я пишу здесь разборы научных статей про LLM и...",
+    "date": "2026-09-25",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Cursor сократил расход токенов",
+    "link": "https://vc.ru/ai/3158884-cursor-uluchshil-effektivnost-tokenov?from=rss",
+    "desc": "Anysphere переработала (https://cursor.com/blog/improved-token-efficiency) обвязку своего агента и снизила траты пользователей на токены на 7% без потери качества.",
+    "date": "2026-09-25",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Великолепная семёрка: сооснователи Anthropic сохранят полный контроль над компанией после IPO",
+    "link": "https://3dnews.ru/1149017",
+    "desc": "Поскольку ИИ-стартап Anthropic настроен выйти на биржу до конца этого года, детали IPO постепенно начинают обсуждаться в прессе, и издание The Information сообщает, что по итогам мероприятия глава компании Дарио Амодеи (Dario Amodei) и шесть других её основателей смогут претендовать на 50,1 % гол...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Ангстремный техпроцесс Intel 14A заинтересовал Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia и Qualcomm",
+    "link": "https://3dnews.ru/1149064",
+    "desc": "Компании Amazon, Apple, AMD, Google, Tesla, Microsoft, Nvidia и Qualcomm изучают возможности техпроцесса Intel 14A, гласит аналитический доклад инвестиционного банка Piper Sandler. Если переговоры между компаниями приведут к заключению контрактов на производство, Intel сумеет привлечь сторонних к...",
+    "date": "2026-09-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "YouTube запустил ИИ-ассистента для монтажа и анализа аудитории",
     "link": "https://hi-tech.mail.ru/news/156358-youtube-zapustil-ii-assistenta-dlya-montazha-i-analiza/",
     "desc": "YouTube обновил инструменты для авторов: ИИ-ассистент на базе Gemini Omni поможет с монтажом, Ask Studio проанализирует аудиторию, а Reimagine пересоберет видео в новом стиле. YouTube 23 сентября представил пакет новых ИИ-инструментов для авторов на ежегодном мероприятии Made on YouTube. Централь...",
     "date": "2026-09-25",
     "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Китайцы научили ИИ общаться без слов — модели передают друг другу содержимое памяти и работают на 150 % быстрее",
-    "link": "https://3dnews.ru/1149042",
-    "desc": "Учёные китайского Университета Цинхуа представили метод, позволяющий различным моделям искусственного интеллекта общаться друг с другом напрямую без генерации текста. Метод получил название Cache-to-Cache (C2C), разработчикам уже доступен исходный код решения. Источник изображения: Steve A Johnso...",
-    "date": "2026-09-25",
-    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1080,15 +1224,6 @@
     "lang": "ru"
   },
   {
-    "title": "Open‑weight LLM догнали закрытые? Проверка на продакшене",
-    "link": "https://habr.com/ru/companies/otus/articles/1077948/?utm_campaign=1077948&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Открытые LLM уже близки к закрытым моделям по многим бенчмаркам, но в продакшене разрыв проявляется в качестве, стоимости и эксплуатации. В статье разбирается, когда open‑weight модели действительно подходят для задач бизнеса и какие ограничения важно учитывать при внедрении. Узнать детали",
-    "date": "2026-09-24",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "OpenAI добавила плагины в голосовой режим ChatGPT",
     "link": "https://habr.com/ru/companies/bothub/news/1086400/?utm_campaign=1086400&utm_source=habrahabr&utm_medium=rss",
     "desc": "OpenAI расширила возможности Live Voice в ChatGPT: теперь во время голосового разговора можно использовать подключённые плагины и приложения. Функция доступна в веб-версии, а также на iOS и Android. Ассистент может получать данные из календаря, почты, Slack и других подключённых сервисов, а также...",
@@ -1193,6 +1328,15 @@
     "desc": "Китайские вузы продолжают закрывать традиционные программы ради курсов по искусственному интеллекту и робототехнике. Так, по данным TechRadar, Центральная академия изящных искусств Китая отказалась от курсов по иллюстрации, фотографии и переводу, а также от программ подготовки дизайнеров одежды. ...",
     "date": "2026-09-24",
     "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Open‑weight LLM догнали закрытые? Проверка на продакшене",
+    "link": "https://habr.com/ru/companies/otus/articles/1077948/?utm_campaign=1077948&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Открытые LLM уже близки к закрытым моделям по многим бенчмаркам, но в продакшене разрыв проявляется в качестве, стоимости и эксплуатации. В статье разбирается, когда open‑weight модели действительно подходят для задач бизнеса и какие ограничения важно учитывать при внедрении. Узнать детали",
+    "date": "2026-09-24",
+    "source": "Habr NLP",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1314,6 +1458,33 @@
     "lang": "ru"
   },
   {
+    "title": "В феврале мы сдались. Через полгода нейросети доросли.",
+    "link": "https://vc.ru/id6123808/3157270-neyroseti-dlya-tatuirovok?from=rss",
+    "desc": "Идея простая: человек загружает фото своего тела, выбирает эскиз и видит, как татуировка будет выглядеть на нём, до того как идти к мастеру. Кажется, что для нейросетей 2026 года это задача на вечер☕ Хех.. У нас она заняла два захода, и первый закончился ничем 🧎‍♂",
+    "date": "2026-09-24",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как подключить context7 к Claude за 5 минут, даже если вы не программист",
+    "link": "https://vc.ru/ai/3157202-kak-podklyuchit-context7-k-claude?from=rss",
+    "desc": "Claude иногда уверенно советует то, что давно не работает. Лечится одной бесплатной настройкой, без кода.",
+    "date": "2026-09-24",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ в маркетинге 2026: от «черновиков» к стратегии",
+    "link": "https://vc.ru/ai/3156802-ii-v-marketinge-kak-iskusstvennyj-intellekt-menyayet-biznes?from=rss",
+    "desc": "В 2026 году искусственный интеллект перестал быть игрушкой для избранных. По данным Metricool, 98% маркетологов и креаторов уже используют AI-инструменты в своей работе. При этом 74% специалистов обращаются к нейросетям ежедневно, а почти 6 из 10 — делают это уже больше года.",
+    "date": "2026-09-24",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Schema.org для AI-поиска: что действительно имеет смысл размечать на сайте",
     "link": "https://vc.ru/ai/3157609-schema-org-dlya-ai-poiska?from=rss",
     "desc": "Вокруг AI-поиска появляется всё больше рекомендаций о специальной разметке для генеративных систем. Иногда можно встретить утверждение, что для попадания в AI Overviews или AI Mode сайту нужна отдельная Schema.org.",
@@ -1341,36 +1512,9 @@
     "lang": "ru"
   },
   {
-    "title": "Как подключить context7 к Claude за 5 минут, даже если вы не программист",
-    "link": "https://vc.ru/ai/3157202-kak-podklyuchit-context7-k-claude?from=rss",
-    "desc": "Claude иногда уверенно советует то, что давно не работает. Лечится одной бесплатной настройкой, без кода.",
-    "date": "2026-09-24",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "ИИ в маркетинге 2026: от «черновиков» к стратегии",
-    "link": "https://vc.ru/ai/3156802-ii-v-marketinge-kak-iskusstvennyj-intellekt-menyayet-biznes?from=rss",
-    "desc": "В 2026 году искусственный интеллект перестал быть игрушкой для избранных. По данным Metricool, 98% маркетологов и креаторов уже используют AI-инструменты в своей работе. При этом 74% специалистов обращаются к нейросетям ежедневно, а почти 6 из 10 — делают это уже больше года.",
-    "date": "2026-09-24",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Вот что значит по-настоящему ПРОДВИНУТЫЙ уровень использования ChatGPT",
     "link": "https://vc.ru/ai/3156652-ispolzovanie-chatgpt-dlya-ustroystva-borby-s-bolyu-v-spine?from=rss",
     "desc": "Этот парень создал собственное носимое устройство для борьбы с болью в спине и подключил его к GPT-6 Astra.",
-    "date": "2026-09-24",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "В феврале мы сдались. Через полгода нейросети доросли.",
-    "link": "https://vc.ru/id6123808/3157270-neyroseti-dlya-tatuirovok?from=rss",
-    "desc": "Идея простая: человек загружает фото своего тела, выбирает эскиз и видит, как татуировка будет выглядеть на нём, до того как идти к мастеру. Кажется, что для нейросетей 2026 года это задача на вечер☕ Хех.. У нас она заняла два захода, и первый закончился ничем 🧎‍♂",
     "date": "2026-09-24",
     "source": "vc.ru",
     "cat": "ai",
@@ -1777,7 +1921,7 @@
     "link": "https://habr.com/ru/companies/selectel/news/1085780/?utm_campaign=1085780&utm_source=habrahabr&utm_medium=rss",
     "desc": "22 сентября состоялся релиз ожидаемой Claude Opus 5.5, которая, очевидно, обошла по характеристикам многие модели. Claude Opus 5.5 стал первым релизом с тех пор, как компания Anthropic объявила о необходимости притормозить гонку за самыми мощными моделями. Перед выпуском модель протестировал узки...",
     "date": "2026-09-23",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1786,16 +1930,7 @@
     "link": "https://habr.com/ru/news/1085632/?utm_campaign=1085632&utm_source=habrahabr&utm_medium=rss",
     "desc": "Главный китайский регулятор интернет‑пространства — Управление по вопросам киберпространства КНР — проводит проверку компаний DeepSeek и Moonshot AI. Их обвиняют в том, что они перенаправляют запросы пользователей и данные в модель Claude от компании Anthropic. Читать далее",
     "date": "2026-09-23",
-    "source": "Habr AI Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Ожидается, что ИИ даст атакующим гораздо больше, чем специалистам по киберзащите, заявил представитель NCSC",
-    "link": "https://habr.com/ru/news/1085590/?utm_campaign=1085590&utm_source=habrahabr&utm_medium=rss",
-    "desc": "«Все проблемы на стороне нападения - технические, а на стороне защиты - политические». Специалисты по киберзащите пока не могут использовать искусственный интеллект так же свободно, как атакующие, предупредил в понедельник высокопоставленный представитель Национального центра кибербезопасности Ве...",
-    "date": "2026-09-23",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1949,6 +2084,15 @@
     "desc": "За год SEO-плагины к нейросети свелись у меня к одной схеме: Claude Code и набор MCP-серверов — Search Console, DataForSEO, выгрузки краулера. Модель тянет цифры сама, а не сочиняет их. Затем DeepSeek выкатил свой агентный харнесс, DeepSeek Harness (dsh), и вопрос встал прямо: займёт ли перенос в...",
     "date": "2026-09-23",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Ожидается, что ИИ даст атакующим гораздо больше, чем специалистам по киберзащите, заявил представитель NCSC",
+    "link": "https://habr.com/ru/news/1085590/?utm_campaign=1085590&utm_source=habrahabr&utm_medium=rss",
+    "desc": "«Все проблемы на стороне нападения - технические, а на стороне защиты - политические». Специалисты по киберзащите пока не могут использовать искусственный интеллект так же свободно, как атакующие, предупредил в понедельник высокопоставленный представитель Национального центра кибербезопасности Ве...",
+    "date": "2026-09-23",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2646,20 +2790,20 @@
     "lang": "ru"
   },
   {
-    "title": "Полезные бесплатные Chat GPT боты в Telegram: топ-7 чат-ботов на русском",
-    "link": "https://vc.ru/ai/3152186-poleznye-besplatnye-chat-gpt-boty-v-telegram?from=rss",
-    "desc": "Нейросети и ИИ давно вошли в нашу жизнь, и это уже не новость, а реальность. Но вот что интересно: тратить деньги на платные подписки к ИИ-сервисам и нейросетям совсем не обязательно. В Telegram можно найти целый ряд ботов с GPT, которые бесплатно помогут вам писать тексты, генерировать изображен...",
-    "date": "2026-09-22",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Шрифт — это не просто буквы: как устроен шрифтовой дизайн, что изменят нейросети и за что на самом деле платят",
     "link": "https://habr.com/ru/articles/1085010/?utm_campaign=1085010&utm_source=habrahabr&utm_medium=rss",
     "desc": "Почему логотип Coca-Cola — не шрифт, зачем одной гарнитуре сотни знаков, почему хороший веб-шрифт надо проверять на плохом мониторе и что именно нейросети уже могут забрать у шрифтового дизайнера? Я, Александр, автор телеграм-канала « Shulepov Code », поговорил с Александрой Корольковой — арт-дир...",
     "date": "2026-09-22",
     "source": "Habr Веб-дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Полезные бесплатные Chat GPT боты в Telegram: топ-7 чат-ботов на русском",
+    "link": "https://vc.ru/ai/3152186-poleznye-besplatnye-chat-gpt-boty-v-telegram?from=rss",
+    "desc": "Нейросети и ИИ давно вошли в нашу жизнь, и это уже не новость, а реальность. Но вот что интересно: тратить деньги на платные подписки к ИИ-сервисам и нейросетям совсем не обязательно. В Telegram можно найти целый ряд ботов с GPT, которые бесплатно помогут вам писать тексты, генерировать изображен...",
+    "date": "2026-09-22",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -3348,20 +3492,20 @@
     "lang": "ru"
   },
   {
-    "title": "LobeHub 2.2.18 получил комментарии к тексту и офлайн-диагностику CLI",
-    "link": "https://tproger.ru/news/lobehub-2-2-18-poluchil-kommentarii-k-tekstu-i-oflajn-diagnostiku",
-    "desc": "Платформа для управления ИИ-агентами LobeHub получила комментарии к документам, Goals из диалогов и офлайн-диагностику CLI. Существующим установкам на Docker Compose для нового серверного режима потребуется настроить Agent Gateway. — Читать дальше « LobeHub 2.2.18 получил комментарии к тексту и о...",
-    "date": "2026-09-21",
-    "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Про то, как я научил своего аватара снимать ролики по сценарию без ИИ‑генерации видео (часть 2)",
     "link": "https://habr.com/ru/articles/1083540/?utm_campaign=1083540&utm_source=habrahabr&utm_medium=rss",
     "desc": "Продолжение истории о том, как я делаю собственного цифрового аватара для видеоблога — без нейросетевой генерации видео и необходимости самому появляться перед камерой. В первой версии движок уже умел анимировать аватара, синхронизировать губы с речью и расставлять субтитры. Казалось, с монтажом ...",
     "date": "2026-09-21",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "LobeHub 2.2.18 получил комментарии к тексту и офлайн-диагностику CLI",
+    "link": "https://tproger.ru/news/lobehub-2-2-18-poluchil-kommentarii-k-tekstu-i-oflajn-diagnostiku",
+    "desc": "Платформа для управления ИИ-агентами LobeHub получила комментарии к документам, Goals из диалогов и офлайн-диагностику CLI. Существующим установкам на Docker Compose для нового серверного режима потребуется настроить Agent Gateway. — Читать дальше « LobeHub 2.2.18 получил комментарии к тексту и о...",
+    "date": "2026-09-21",
+    "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
   },
