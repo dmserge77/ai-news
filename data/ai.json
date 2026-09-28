@@ -1,30 +1,57 @@
 [
   {
-    "title": "Claude Sonnet 5.5",
-    "link": "https://www.anthropic.com/news/claude-sonnet-5-5",
-    "desc": "Article URL: https://www.anthropic.com/news/claude-sonnet-5-5 Comments URL: https://news.ycombinator.com/item?id=49881889 Points: 19 # Comments: 5",
+    "title": "AMD выложила $8,2 млрд за пространственный ИИ — компания покупает стартап World Labs доктора Фей-Фей Ли",
+    "link": "https://3dnews.ru/1149168",
+    "desc": "Компания AMD объявила о заключении окончательного соглашения о приобретении World Labs — исследовательской лаборатории, специализирующейся на моделях пространственного искусственного интеллекта и возглавляемой пионером в этой области доктором Фей-Фей Ли (Fei-Fei Li). Источник изображения: AMD",
+    "date": "2026-09-29",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ESP32S3 cluster running 1.58-bit (BitNet) Language model",
+    "link": "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
+    "desc": "Article URL: https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster Comments URL: https://news.ycombinator.com/item?id=49884625 Points: 3 # Comments: 0",
     "date": "2026-09-28",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "OpenAI still doesn't seem to have a handle on all of its rogue AI activity",
-    "link": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
-    "desc": "Article URL: https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/ Comments URL: https://news.ycombinator.com/item?id=49881484 Points: 33 # Comments: 22",
+    "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+    "link": "https://stateofutopia.com/experiments/microllmlab/",
+    "desc": "Article URL: https://stateofutopia.com/experiments/microllmlab/ Comments URL: https://news.ycombinator.com/item?id=49882781 Points: 102 # Comments: 45",
     "date": "2026-09-28",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Show HN: HN.watch – Videos of all Hacker News posts",
-    "link": "https://hn.watch/",
-    "desc": "Hi HN, I’m Per, founder of Scrimba (YC S20). We’ve spent the last decade teaching people how to code with an HTML-based video format. We’ve now plugged an LLM into it, so that people can create explainer videos about anything. It’s called “Scrimba Explain”. To demo this technology for Hacker News...",
+    "title": "Sonnet 5.5",
+    "link": "https://www.anthropic.com/claude-sonnet-5-5",
+    "desc": "Article URL: https://www.anthropic.com/claude-sonnet-5-5 Comments URL: https://news.ycombinator.com/item?id=49881850 Points: 515 # Comments: 346",
     "date": "2026-09-28",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Claude Sonnet 5.5 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-09-28",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Локальный ассистент для зумов, часть 8: модель, ради которой я поменял диаризацию за один вечер",
+    "link": "https://habr.com/ru/articles/1087790/?utm_campaign=1087790&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В третьей части я написал, что не вижу чужой модели, ради которой стоит менять связку. sherpa-onnx на диаризации, свой второй проход поверх, канал собеседников двадцатиминутного звонка размечается минут семь. Жить можно. 23 сентября NVIDIA выложила Nemotron 3 Diarization. Вечером 28-го я включил ...",
+    "date": "2026-09-28",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Галлюцинация нейросети в коде обычно ломает сборку. С выдуманным пакетом иначе: его имя может занять вредонос",
@@ -171,6 +198,33 @@
     "lang": "ru"
   },
   {
+    "title": "Разработчик выпустил Taiga‑S1 — компактную модель с 1,2 млн параметров для управления FreeCAD",
+    "link": "https://habr.com/ru/news/1087800/?utm_campaign=1087800&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Разработчик Шив Шанмугам (Shiv Shanmugam) представил Taiga‑S1 — компактную модель с 1,2 млн параметров, которая может создавать 3D‑детали во FreeCAD. Нейросеть принимает решения примерно за 1 мс. При этом ей не нужны LLM, скриншоты интерфейса и компьютерное зрение. Читать далее",
+    "date": "2026-09-28",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic выкатила Claude Sonnet 5.5: на 30% быстрее и дешевле. Что изменилось?",
+    "link": "https://habr.com/ru/companies/gptunnel/news/1087786/?utm_campaign=1087786&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Компания Anthropic анонсировала выпуск второй модели в поколении 5.5 — Claude Sonnet 5.5 . В то время как большие языковые модели часто наращивают параметры в ущерб скорости, Anthropic пошли по пути оптимизации инференса. Модель не просто улучшила показатели в бенчмарках, но и стала дешевле в реа...",
+    "date": "2026-09-28",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic выпустила Claude Sonnet 5.5: модель на 30% быстрее и экономнее Sonnet 5",
+    "link": "https://habr.com/ru/companies/bothub/news/1087782/?utm_campaign=1087782&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Основной апгрейд пришёлся на агентное программирование, длинные задачи и повседневную работу с документами, таблицами и презентациями. По данным Anthropic, Sonnet 5.5 генерирует ответы 30 с лишним процентов быстрее Sonnet 5. При этом цена токенов осталась прежней, но сама задача обычно обходится ...",
+    "date": "2026-09-28",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Microsoft уберёт Copilot из списка чатов Teams",
     "link": "https://habr.com/ru/news/1087754/?utm_campaign=1087754&utm_source=habrahabr&utm_medium=rss",
     "desc": "Microsoft уберёт Copilot из списка чатов Teams. Как поясняют в компании, это будет сделано для упрощения доступа к ИИ‑помощнику и разгрузки интерфейса. Сейчас Copilot доступен в Teams через список чатов или через панель приложений слева. В переходный период Microsoft добавит подсказку, которая бу...",
@@ -288,6 +342,15 @@
     "lang": "ru"
   },
   {
+    "title": "Вышла Claude Sonnet 5.5: проходит игры по скриншотам и почти догнала Opus",
+    "link": "https://thecode.media/claude-sonnet-55-prohodit-igry-po-skrinshotam-i-pochti-dognala-opus/",
+    "desc": "Anthropic представила Claude Sonnet 5.5 — новую модель семейства Claude 5.5. Она стала быстрее предыдущей версии более чем на 30%, при этом стоимость выполнения задач может быть до 30% ниже. В некоторых тестах Sonnet 5.5 уже приблизилась к более мощной Claude Opus 5.5, хотя Anthropic по-прежнему ...",
+    "date": "2026-09-28",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Claude запустили на кнопочной Nokia, вышедшей в 2007 году",
     "link": "https://thecode.media/claude-zapustili-na-knopochnoj-nokia-2007-goda-vypuska/",
     "desc": "Это уже ретрофутуризм какой-то Сообщение Claude запустили на кнопочной Nokia, вышедшей в 2007 году появились сначала на Журнал «Код» программирование без снобизма .",
@@ -318,6 +381,15 @@
     "title": "Промпты для картинок: зачем их пишут на английском?🥰",
     "link": "https://vc.ru/id6122917/3162561-prompty-dlya-generatsii-izobrazheniy-na-angliyskom?from=rss",
     "desc": "В некоторых генераторах можно написать «ночной лес с туманом» и получить подходящую картинку. В других тот же запрос на русском может сработать менее точно.Причина в том, что разные модели по-разному понимают языки. Важнее не название приложения или сайта, а модель, которая создаёт изображение, и...",
+    "date": "2026-09-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Нейросеть не помнит героя из прошлой серии: как сделать ИИ-сериал, где лицо не меняется",
+    "link": "https://vc.ru/ai/3163257-kak-sozdat-ii-serial-s-postoyannym-geroem?from=rss",
+    "desc": "Я делаю видео нейросетями и проверяю модели на своих задачах. Собрал в MiniMax H3 пилот мини-сериала: во второй серии тот же муж, что в первой, потому что модель получила его кадры. Показываю обе серии, промпты, цены и как повторить по шагам. Узнали героя?",
     "date": "2026-09-28",
     "source": "vc.ru",
     "cat": "ai",
@@ -387,6 +459,15 @@
     "lang": "ru"
   },
   {
+    "title": "Anthropic представила Claude Sonnet 5.5 — почти как Opus, но вдвое дешевле",
+    "link": "https://3dnews.ru/1149160",
+    "desc": "Компания Anthropic представила Claude Sonnet 5.5 — вторую модель нового семейства Claude 5.5 вслед за флагманской Claude Opus 5.5. Разработчики позиционируют новинку как более быструю и экономичную модель для повседневных задач, программирования, работы с документами и создания презентаций. Источ...",
+    "date": "2026-09-28",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Воры украли две фуры с логотипами Nvidia — вместо видеокарт внутри оказалось 18 тонн песка",
     "link": "https://3dnews.ru/1149147",
     "desc": "Два прицепа, украшенных логотипами PlusAI и Nvidia были угнаны от склада компании PlusAI, но через некоторое время их обнаружили брошенными со всем грузом в Ньюарке, штат Калифорния. Эти прицепы PlusAI использовала для проведения исследований и разработок, поэтому они были заполнены самым дешёвым...",
@@ -450,9 +531,9 @@
     "lang": "ru"
   },
   {
-    "title": "Индийская TakeMe2Space отправит в космос «вычислительный спутник» на ракете SpaceX 1 октября",
-    "link": "https://3dnews.ru/1149131",
-    "desc": "Космический стартап TakeMe2Space объявил о намерении запустить первый в стране вычислительный спутник с помощью ракеты SpaceX, запуск которой запланирован на 1 октября. Индийская компания намерена обрабатывать данные на орбите вместо того, чтобы передавать информацию для вычислений на Землю, сооб...",
+    "title": "Google заменит ИИ-ботов Gem в приложении Gemini на «навыки», но вряд ли это поможет конкуренции с Muse",
+    "link": "https://3dnews.ru/1149156",
+    "desc": "На фоне роста популярности универсальных ИИ-агентов, таких как Muse от M**a и Instinct, компания Google объявила о закрытии функции Gem в сервисе Gemini, которая позволяла пользователям создавать собственных ИИ-помощников для выполнения конкретных задач. Созданные пользователями ИИ-боты Gem не пр...",
     "date": "2026-09-28",
     "source": "3DNews",
     "cat": "ai",
@@ -466,6 +547,33 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Claude Sonnet 5.5",
+    "link": "https://www.anthropic.com/news/claude-sonnet-5-5",
+    "desc": "Article URL: https://www.anthropic.com/news/claude-sonnet-5-5 Comments URL: https://news.ycombinator.com/item?id=49881889 Points: 19 # Comments: 5",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "OpenAI still doesn't seem to have a handle on all of its rogue AI activity",
+    "link": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+    "desc": "Article URL: https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/ Comments URL: https://news.ycombinator.com/item?id=49881484 Points: 33 # Comments: 22",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: HN.watch – Videos of all Hacker News posts",
+    "link": "https://hn.watch/",
+    "desc": "Hi HN, I’m Per, founder of Scrimba (YC S20). We’ve spent the last decade teaching people how to code with an HTML-based video format. We’ve now plugged an LLM into it, so that people can create explainer videos about anything. It’s called “Scrimba Explain”. To demo this technology for Hacker News...",
+    "date": "2026-09-28",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Prompting Claude Opus 5.5",
@@ -684,24 +792,6 @@
     "lang": "ru"
   },
   {
-    "title": "Стилист в одном селфи: как сделать разбор внешности по фото в нейросети",
-    "link": "https://vc.ru/ai/3161169-razbor-vneshnosti-po-foto-s-pomoshchyu-neyroseti?from=rss",
-    "desc": "Я делаю картинки нейросетями и прогнал один промпт на двух разных типах внешности: на выходе журнальная страница с цветотипом, оттенками волос, стрижками, макияжем и палитрой одежды. Показываю оба результата, промпт и путь по кнопкам. Какой цветотип нейросеть определила бы у вас?",
-    "date": "2026-09-27",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Снимок из семейного альбома улыбается и поворачивает голову: как оживить старое фото нейросетью",
-    "link": "https://vc.ru/ai/3161168-ozhivlenie-starykh-fotografiy-s-pomoshchyu-neyrosetey-v-telegram?from=rss",
-    "desc": "Я делаю видео нейросетями и оживлял старую чёрно-белую фотографию в боте в Telegram: одна карточка модели, фото и короткий запрос. Показываю исходник, результат и путь по кнопкам. Какой снимок из семейного альбома вы бы оживили первым?",
-    "date": "2026-09-27",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "OpenAI приостановила обучение ИИ-моделей — расследуются десятки тысяч инцидентов с выходом ИИ из-под контроля",
     "link": "https://3dnews.ru/1149115",
     "desc": "Разработчики передовых систем искусственного интеллекта OpenAI и Anthropic расследуют десятки тысяч инцидентов, связанных с некорректным поведением своих моделей. Выяснилось, что нейросети массово обходят защитные барьеры и предпринимают попытки взлома внешних систем, что указывает на фундаментал...",
@@ -725,6 +815,24 @@
     "desc": "Вирусный спор трёх петербургских музыковедов вывел меня на книгу 1966 года. Её автор разбирался, как компьютеры повлияют на творчество и эстетику. И за десятилетия до ChatGPT формулировал, каким должен быть помощник в мышлении и решении задач. Читать далее",
     "date": "2026-09-27",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Стилист в одном селфи: как сделать разбор внешности по фото в нейросети",
+    "link": "https://vc.ru/ai/3161169-razbor-vneshnosti-po-foto-s-pomoshchyu-neyroseti?from=rss",
+    "desc": "Я делаю картинки нейросетями и прогнал один промпт на двух разных типах внешности: на выходе журнальная страница с цветотипом, оттенками волос, стрижками, макияжем и палитрой одежды. Показываю оба результата, промпт и путь по кнопкам. Какой цветотип нейросеть определила бы у вас?",
+    "date": "2026-09-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Снимок из семейного альбома улыбается и поворачивает голову: как оживить старое фото нейросетью",
+    "link": "https://vc.ru/ai/3161168-ozhivlenie-starykh-fotografiy-s-pomoshchyu-neyrosetey-v-telegram?from=rss",
+    "desc": "Я делаю видео нейросетями и оживлял старую чёрно-белую фотографию в боте в Telegram: одна карточка модели, фото и короткий запрос. Показываю исходник, результат и путь по кнопкам. Какой снимок из семейного альбома вы бы оживили первым?",
+    "date": "2026-09-27",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1741,16 +1849,7 @@
     "link": "https://habr.com/ru/news/1086300/?utm_campaign=1086300&utm_source=habrahabr&utm_medium=rss",
     "desc": "Anthropic запустили около 950 агентов, которые изучили более 200 тысяч обратных транскриптаз, то есть ферментов, способных синтезировать ДНК на основе РНК. За 21 час и 210 млн токенов они отобрали 3500 возможных систем, сузили список до 20 и заметили необычную комбинацию в ДНК бактериофага. Читат...",
     "date": "2026-09-24",
-    "source": "Habr AI Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Meta* представила Muse Charm — брелок с AI‑агентом Muse и поддержкой 5G",
-    "link": "https://habr.com/ru/news/1086230/?utm_campaign=1086230&utm_source=habrahabr&utm_medium=rss",
-    "desc": "На конференции Connect 2026 Meta* анонсировала брелок Muse Charm для взаимодействия с персональным AI‑агентом Muse без смартфона. По габаритам устройство напоминает кейс AirPods, а продажи начнутся зимой 2026 года. Читать далее",
-    "date": "2026-09-24",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1759,7 +1858,7 @@
     "link": "https://habr.com/ru/companies/selectel/news/1086128/?utm_campaign=1086128&utm_source=habrahabr&utm_medium=rss",
     "desc": "22 сентября Tencent выпустила модель генерации изображений Hy Image 3.5 Preview, после чего акции компании в Гонконге резко пошли вверх. Источники называют разные цифры роста — от 5% по данным The Standard до 6,6% у Investing.com и даже «более 7%» по версии AI Weekly. Читать далее",
     "date": "2026-09-24",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1913,6 +2012,15 @@
     "desc": "Неловко вышло.. Сообщение OpenAI взломала госпортал Австралии — компания сообщила об этом лишь через 3 месяца появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-09-24",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Meta* представила Muse Charm — брелок с AI‑агентом Muse и поддержкой 5G",
+    "link": "https://habr.com/ru/news/1086230/?utm_campaign=1086230&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На конференции Connect 2026 Meta* анонсировала брелок Muse Charm для взаимодействия с персональным AI‑агентом Muse без смартфона. По габаритам устройство напоминает кейс AirPods, а продажи начнутся зимой 2026 года. Читать далее",
+    "date": "2026-09-24",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2520,15 +2628,6 @@
     "lang": "ru"
   },
   {
-    "title": "Ни слова по-китайски",
-    "link": "https://habr.com/ru/articles/1085742/?utm_campaign=1085742&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Иногда LLMки путаются в языке, на котором они отвечают. Ты задаёшь вопрос на английском, а тебе в ответ прилетает простыня на китайском. Почему бы не помочь им забыть про языки, в которых мы не заинтересованы? Читать далее",
-    "date": "2026-09-23",
-    "source": "Habr Python",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "ИТ-инфраструктура: 18 бесплатных вебинаров и 5 статей о Linux, Kubernetes и диагностике сбоев",
     "link": "https://habr.com/ru/companies/otus/articles/1085272/?utm_campaign=1085272&utm_source=habrahabr&utm_medium=rss",
     "desc": "Перезапуск помог, сервис снова доступен – но что вызвало сбой и не повторится ли он завтра? Для подобных задач собрали 17 бесплатных уроков и практические статьи о диагностике и эксплуатации инфраструктуры. Есть разборы сетевых петель и защиты контейнеров, работа с Kubernetes и отдельные темы об ...",
@@ -2588,6 +2687,15 @@
     "desc": "На это у нее ушло примерно полдня Сообщение Вышла Claude Opus 5.5 — модель придумала алгоритм поиска пути быстрее Дейкстры появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-09-23",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Ни слова по-китайски",
+    "link": "https://habr.com/ru/articles/1085742/?utm_campaign=1085742&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Иногда LLMки путаются в языке, на котором они отвечают. Ты задаёшь вопрос на английском, а тебе в ответ прилетает простыня на китайском. Почему бы не помочь им забыть про языки, в которых мы не заинтересованы? Читать далее",
+    "date": "2026-09-23",
+    "source": "Habr Python",
     "cat": "ai",
     "lang": "ru"
   },
@@ -3213,15 +3321,6 @@
     "lang": "ru"
   },
   {
-    "title": "Галлюцинации недели: Jev, везде и сразу",
-    "link": "https://habr.com/ru/news/1084884/?utm_campaign=1084884&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В Claude Code появились Projects: один агент становится координатором, каждая задача уезжает в свою облачную ветку и продолжает работать после закрытия ноутбука. Оплачивать этот праздник оркестрации предлагается из квоты, которую с 14 сентября подрезали на 17% относительно летней. А вы, кстати, с...",
-    "date": "2026-09-22",
-    "source": "Habr ML Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Где ещё дают LLM API бесплатно: проверяю очередные находки",
     "link": "https://habr.com/ru/articles/1085352/?utm_campaign=1085352&utm_source=habrahabr&utm_medium=rss",
     "desc": "Бесплатные LLM API часто хорошо выглядят только в описании, поэтому я проверил всё реальными запросами. В этой подборке — 6 сервисов с Claude, Gemini, Qwen, MiniMax и другими моделями: что реально работает, какие есть лимиты и где встречаются ошибки. Читать далее",
@@ -3294,20 +3393,29 @@
     "lang": "ru"
   },
   {
-    "title": "ИИ Яндекса обошел NVIDIA в кодинге и догнал Alibaba в математике",
-    "link": "https://thecode.media/ii-yandeksa-oboshel-nvidia-v-kodinge-i-dognal-alibaba-v-matematike/",
-    "desc": "Впечатляющий рывок Сообщение ИИ Яндекса обошел NVIDIA в кодинге и догнал Alibaba в математике появились сначала на Журнал «Код» программирование без снобизма .",
-    "date": "2026-09-22",
-    "source": "The Code",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Шрифт — это не просто буквы: как устроен шрифтовой дизайн, что изменят нейросети и за что на самом деле платят",
     "link": "https://habr.com/ru/articles/1085010/?utm_campaign=1085010&utm_source=habrahabr&utm_medium=rss",
     "desc": "Почему логотип Coca-Cola — не шрифт, зачем одной гарнитуре сотни знаков, почему хороший веб-шрифт надо проверять на плохом мониторе и что именно нейросети уже могут забрать у шрифтового дизайнера? Я, Александр, автор телеграм-канала « Shulepov Code », поговорил с Александрой Корольковой — арт-дир...",
     "date": "2026-09-22",
     "source": "Habr Веб-дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Галлюцинации недели: Jev, везде и сразу",
+    "link": "https://habr.com/ru/news/1084884/?utm_campaign=1084884&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В Claude Code появились Projects: один агент становится координатором, каждая задача уезжает в свою облачную ветку и продолжает работать после закрытия ноутбука. Оплачивать этот праздник оркестрации предлагается из квоты, которую с 14 сентября подрезали на 17% относительно летней. А вы, кстати, с...",
+    "date": "2026-09-22",
+    "source": "Habr ML Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ Яндекса обошел NVIDIA в кодинге и догнал Alibaba в математике",
+    "link": "https://thecode.media/ii-yandeksa-oboshel-nvidia-v-kodinge-i-dognal-alibaba-v-matematike/",
+    "desc": "Впечатляющий рывок Сообщение ИИ Яндекса обошел NVIDIA в кодинге и догнал Alibaba в математике появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-09-22",
+    "source": "The Code",
     "cat": "ai",
     "lang": "ru"
   },
@@ -3897,24 +4005,6 @@
     "lang": "en"
   },
   {
-    "title": "SpaceXAI выпустили Grok 4.7: модель лучше и дешевле GPT-5.6 Sol",
-    "link": "https://habr.com/ru/news/1084864/?utm_campaign=1084864&utm_source=habrahabr&utm_medium=rss",
-    "desc": "SpaceXAI представили Grok 4.7: новую флагманскую модель для разработки. В собственных тестах SpaceXAI модель набрала 46,3% на CursorBench 4.0 против 40,4% у Grok 4.6 и 41,7% у GPT-5.6 Sol. На DeepSWE v1.1 результат составил 71% — чуть ниже GPT-5.6 Sol с 72,7%, но выше Fable 5.1 с 70%. На Terminal...",
-    "date": "2026-09-21",
-    "source": "Habr ML Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Вышел Grok 4.7",
-    "link": "https://habr.com/ru/news/1084850/?utm_campaign=1084850&utm_source=habrahabr&utm_medium=rss",
-    "desc": "SpaceXAI представила Grok 4.7. Новая флагманская модель. Уже доступна через API, Cursor и Grok Build. Главная ставка сделана на задачи, которые могут выполняться часами. Модель должна дольше работать самостоятельно, проверять собственные результаты и реже терять контекст. В новом разборе от AI Na...",
-    "date": "2026-09-21",
-    "source": "Habr ML Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "[Перевод] Проверяем Jev на открытых и внутренних данных: классификаторили фильтр?",
     "link": "https://habr.com/ru/articles/1084770/?utm_campaign=1084770&utm_source=habrahabr&utm_medium=rss",
     "desc": "Jev отвечает только «да/нет» или выбирает один из предложенных вариантов. 16 000 вызовов:сначала сравнение с gpt-5.4-mini и gpt-5.6-luna на четырёх открытых датасетах, затем несколько тысяч реальных решений в рабочих процессах. Где он выигрывает, где ошибается и как его использовать. Читать далее",
@@ -3974,6 +4064,24 @@
     "desc": "Продолжение истории о том, как я делаю собственного цифрового аватара для видеоблога — без нейросетевой генерации видео и необходимости самому появляться перед камерой. В первой версии движок уже умел анимировать аватара, синхронизировать губы с речью и расставлять субтитры. Казалось, с монтажом ...",
     "date": "2026-09-21",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "SpaceXAI выпустили Grok 4.7: модель лучше и дешевле GPT-5.6 Sol",
+    "link": "https://habr.com/ru/news/1084864/?utm_campaign=1084864&utm_source=habrahabr&utm_medium=rss",
+    "desc": "SpaceXAI представили Grok 4.7: новую флагманскую модель для разработки. В собственных тестах SpaceXAI модель набрала 46,3% на CursorBench 4.0 против 40,4% у Grok 4.6 и 41,7% у GPT-5.6 Sol. На DeepSWE v1.1 результат составил 71% — чуть ниже GPT-5.6 Sol с 72,7%, но выше Fable 5.1 с 70%. На Terminal...",
+    "date": "2026-09-21",
+    "source": "Habr ML Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Вышел Grok 4.7",
+    "link": "https://habr.com/ru/news/1084850/?utm_campaign=1084850&utm_source=habrahabr&utm_medium=rss",
+    "desc": "SpaceXAI представила Grok 4.7. Новая флагманская модель. Уже доступна через API, Cursor и Grok Build. Главная ставка сделана на задачи, которые могут выполняться часами. Модель должна дольше работать самостоятельно, проверять собственные результаты и реже терять контекст. В новом разборе от AI Na...",
+    "date": "2026-09-21",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -9383,24 +9491,6 @@
     "desc": "",
     "date": "2026-07-07",
     "source": "Hugging Face",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-    "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-    "desc": "",
-    "date": "2026-07-01",
-    "source": "Hugging Face",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Claude Fable 5 access restored on AI Gateway",
-    "link": "https://vercel.com/changelog/claude-fable-5-access-restored-on-ai-gateway",
-    "desc": "",
-    "date": "2026-07-01",
-    "source": "Vercel",
     "cat": "ai",
     "lang": "en"
   }
