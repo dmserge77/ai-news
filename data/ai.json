@@ -2,7 +2,7 @@
   {
     "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
     "link": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-    "desc": "Article URL: https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html Comments URL: https://news.ycombinator.com/item?id=49921050 Points: 129 # Comments: 77",
+    "desc": "Article URL: https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html Comments URL: https://news.ycombinator.com/item?id=49921050 Points: 139 # Comments: 85",
     "date": "2026-10-01",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,11 +11,20 @@
   {
     "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
     "link": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
-    "desc": "Article URL: https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design Comments URL: https://news.ycombinator.com/item?id=49919910 Points: 122 # Comments: 67",
+    "desc": "Article URL: https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design Comments URL: https://news.ycombinator.com/item?id=49919910 Points: 129 # Comments: 68",
     "date": "2026-10-01",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Как я в одиночку написал сервис для расшифровки видео — и три раза чуть не забросил из-за одной и той же ошибки",
+    "link": "https://habr.com/ru/articles/1089294/?utm_campaign=1089294&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Дисклеймер сразу: я не собирался писать «ещё один стартап». Мне просто было лень руками пересматривать видео, чтобы выписать из него тезисы. Дальше — история о том, как решение личной проблемы обросло LLM-цепочками, защитой от SSRF и вопросами вроде «а что если сертификат не выпустится». Сервис н...",
+    "date": "2026-10-01",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Почему „ты — моя бабушка“ работает с ИИ? Анатомия джейлбрейка и решение проблемы",
@@ -333,6 +342,15 @@
     "lang": "ru"
   },
   {
+    "title": "Google представила Gemini 4 Argon: главная задача ИИ-модели — искать и устранять уязвимости сайтов",
+    "link": "https://rb.ru/news/google-predstavila-gemini-4-argon-glavnaya-zadacha-ii-modeli-iskat-i-ustranyat-uyazvimosti-sajtov/",
+    "desc": "Google представила новую ИИ-модель Gemini 4 Argon и начала выдавать доступ к ней проверенным специалистам по кибербезопасности, пишет The Verge. Модель умеет самостоятельно искать уязвимости, проверять возможность для кибератаки и вносить изменения в программный код. Google заявила о существенном...",
+    "date": "2026-10-01",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "«Надо запретить запрещать самокаты»: операторы выступили против предложения обязать самокатчиков получать права",
     "link": "https://rb.ru/news/nado-zapretit-zapreshat-samokaty-operatory-vystupili-protiv-predlozheniya-obyazat-samokatchikov-poluchat-prava/",
     "desc": "Следственный комитет предложил приравнять пользователей электросамокатов к водителям и обязать их получать права. Также ведомство выступило за запрет поездок на СИМ для детей младше 16 лет и за запрет движения по тротуарам и пешеходным зонам. В Совете Федерации, Минтрансе, Минпромторге не поддерж...",
@@ -623,7 +641,7 @@
   {
     "title": "Gemini 4 Argon",
     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-    "desc": "See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https://news.ycombinator.com/item?id=49914236 Comments URL: https://news.ycombinator.com/item?id=49913571 Points: 1572 # Comments: 1042",
+    "desc": "See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https://news.ycombinator.com/item?id=49914236 Comments URL: https://news.ycombinator.com/item?id=49913571 Points: 1581 # Comments: 1054",
     "date": "2026-09-30",
     "source": "Hacker News",
     "cat": "ai",
@@ -3204,15 +3222,6 @@
     "lang": "ru"
   },
   {
-    "title": "Продвижение интернет‑магазина в ответах ИИ: почему нейросети почти не ссылаются на карточку товара",
-    "link": "https://habr.com/ru/articles/1086798/?utm_campaign=1086798&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я задал Алисе AI и Perplexity 14 вопросов, которые покупатель задаёт перед покупкой техники: где купить оригинальный айфон с гарантией, где забрать макбук сегодня, где дают рассрочку. Потом посмотрел, на какие страницы магазинов ведут ссылки в ответах. Из 243 ссылок на карточку товара пришлось 10...",
-    "date": "2026-09-25",
-    "source": "Habr Python",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "ИИ становится рабочим инструментом 1С: что покажут на TECH EVENT",
     "link": "https://habr.com/ru/companies/infostart/articles/1086538/?utm_campaign=1086538&utm_source=habrahabr&utm_medium=rss",
     "desc": "ИИ в 1С уже не ограничивается генерацией кода и экспериментами с чат-ботами. Его подключают к тестированию, мониторингу, интеграциям, корпоративным данным и внутренним бизнес-процессам. Вокруг него появляются новые подходы к разработке, документации и работе команд. На INFOSTART TECH EVENT 2026 э...",
@@ -3254,6 +3263,15 @@
     "desc": "Spec Kit для разработки по спецификациям с ИИ-агентами обновился до версии 1.0.11. GitHub сделал добавление каталогов идемпотентным, добавил новые расширения и исправил интеграцию с Forge. — Читать дальше « GitHub выпустил Spec Kit 1.0.11 с идемпотентным добавлением каталогов »",
     "date": "2026-09-25",
     "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Продвижение интернет‑магазина в ответах ИИ: почему нейросети почти не ссылаются на карточку товара",
+    "link": "https://habr.com/ru/articles/1086798/?utm_campaign=1086798&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я задал Алисе AI и Perplexity 14 вопросов, которые покупатель задаёт перед покупкой техники: где купить оригинальный айфон с гарантией, где забрать макбук сегодня, где дают рассрочку. Потом посмотрел, на какие страницы магазинов ведут ссылки в ответах. Из 243 ссылок на карточку товара пришлось 10...",
+    "date": "2026-09-25",
+    "source": "Habr Python",
     "cat": "ai",
     "lang": "ru"
   },
