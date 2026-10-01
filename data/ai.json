@@ -9,6 +9,15 @@
     "lang": "ru"
   },
   {
+    "title": "Show HN: Rhun, an open-source code editor written in assembly",
+    "link": "https://rhun.app/",
+    "desc": "I found that I'm not using even 1/3 of vim/vscode features anymore. That's wht I'm building rhun - a small code editor for Linux, Windows and Apple silicon Macs. It obviously has Vim mode, a terminal, Git diffs and a panel for Claude Code or Codex sessions. The editor and pixel renderer share an ...",
+    "date": "2026-10-01",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "900 гипотез об уязвимостях и 12 миллиардов токенов",
     "link": "https://habr.com/ru/articles/1089374/?utm_campaign=1089374&utm_source=habrahabr&utm_medium=rss",
     "desc": "«Просто напишите правильный промпт», говорили они У меня появился проект, которому нужно перекладывать миллионы пакетов со скоростью канала. Для такой задачи я рассматривал C, C++ и Rust. На C я последний раз писал в 2009 году, и обратно не тянет. Слабак , согласен. Выбрал Rust: современный язык,...",
@@ -841,7 +850,7 @@
     "link": "https://habr.com/ru/companies/selectel/news/1088318/?utm_campaign=1088318&utm_source=habrahabr&utm_medium=rss",
     "desc": "Anthropic выпустила Claude Sonnet 5.5 — среднюю модель, которая по ряду агентных бенчмарков сравнялась с флагманской Opus 5.5 или обошла ее. Цена осталась на уровне Sonnet 5 — 2 $ за миллион входных и 10 $ за миллион выходных токенов, вдвое дешевле Opus 5.5. По заявлению компании, модель работает...",
     "date": "2026-09-30",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -3231,15 +3240,6 @@
     "lang": "ru"
   },
   {
-    "title": "AI в страховании: от экспериментов к результату",
-    "link": "https://habr.com/ru/companies/agima/news/1086660/?utm_campaign=1086660&utm_source=habrahabr&utm_medium=rss",
-    "desc": "7 октября мы проведем закрытый митап «AI в страховании: от экспериментов к результату». Поговорим о том, как GenAI выходит из пилотов в продакшен: какие сценарии дают реальный эффект, что мешает масштабированию и как выстроить безопасный контур для работы с данными и корпоративными знаниями. Для ...",
-    "date": "2026-09-25",
-    "source": "Habr ML Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "[Перевод] Промпт-инжиниринг: как лучше общаться с ИИ",
     "link": "https://habr.com/ru/articles/1086724/?utm_campaign=1086724&utm_source=habrahabr&utm_medium=rss",
     "desc": "Качество ответа генеративной модели во многом зависит от того, как сформулирован запрос. Промпт-инжиниринг здесь не сводится к поиску «правильных слов» или универсальных команд. Его основная задача гораздо проще: как можно точнее передать модели свое намерение. Генеративный ИИ заметно изменил спо...",
@@ -3326,6 +3326,15 @@
     "desc": "Spec Kit для разработки по спецификациям с ИИ-агентами обновился до версии 1.0.11. GitHub сделал добавление каталогов идемпотентным, добавил новые расширения и исправил интеграцию с Forge. — Читать дальше « GitHub выпустил Spec Kit 1.0.11 с идемпотентным добавлением каталогов »",
     "date": "2026-09-25",
     "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "AI в страховании: от экспериментов к результату",
+    "link": "https://habr.com/ru/companies/agima/news/1086660/?utm_campaign=1086660&utm_source=habrahabr&utm_medium=rss",
+    "desc": "7 октября мы проведем закрытый митап «AI в страховании: от экспериментов к результату». Поговорим о том, как GenAI выходит из пилотов в продакшен: какие сценарии дают реальный эффект, что мешает масштабированию и как выстроить безопасный контур для работы с данными и корпоративными знаниями. Для ...",
+    "date": "2026-09-25",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
