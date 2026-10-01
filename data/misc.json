@@ -1,20 +1,20 @@
 [
   {
-    "title": "CS240 AI Cheating Retrospective",
-    "link": "https://turkeyland.net/thoughts/ai.php",
-    "desc": "Article URL: https://turkeyland.net/thoughts/ai.php Comments URL: https://news.ycombinator.com/item?id=49913458 Points: 90 # Comments: 67",
-    "date": "2026-09-30",
-    "source": "Hacker News",
+    "title": "Самый подробный обзор AMD FSR (1-3): он лучше NVIDIA DLSS — и вот почему",
+    "link": "https://habr.com/ru/companies/servermall/articles/1088952/?utm_campaign=1088952&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, постоянные и не очень читатели! В первой части цикла я разобрал технологию DLSS во всех её версиях — с предпосылками и историей появления, байками и мемами про Хуанга и даже применением в бизнес-приложениях (чиво?). Материал вышел огромным, и, вероятно, самым подробным про DLSS в Рунете. ...",
+    "date": "2026-10-01",
+    "source": "Habr AI",
     "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
+    "lang": "ru",
+    "misc_type": "curio"
   },
   {
-    "title": "Bild AI (YC W25) Is Hiring a Founding Product Engineer",
-    "link": "https://www.ycombinator.com/companies/bild-ai/jobs/dAbC3Gd-founding-product-engineer",
-    "desc": "Article URL: https://www.ycombinator.com/companies/bild-ai/jobs/dAbC3Gd-founding-product-engineer Comments URL: https://news.ycombinator.com/item?id=49911531 Points: 0 # Comments: 0",
+    "title": "The AI Pascal’s Wager",
+    "link": "https://ploum.net/2026-10-01-pascal_wager.html",
+    "desc": "Comments",
     "date": "2026-09-30",
-    "source": "Hacker News",
+    "source": "Lobsters",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
@@ -75,6 +75,26 @@
     "desc": "",
     "date": "2026-09-30",
     "source": "UX Collective",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "CS240 AI Cheating Retrospective",
+    "link": "https://turkeyland.net/thoughts/ai.php",
+    "desc": "Article URL: https://turkeyland.net/thoughts/ai.php Comments URL: https://news.ycombinator.com/item?id=49913458 Points: 90 # Comments: 67",
+    "date": "2026-09-30",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Bild AI (YC W25) Is Hiring a Founding Product Engineer",
+    "link": "https://www.ycombinator.com/companies/bild-ai/jobs/dAbC3Gd-founding-product-engineer",
+    "desc": "Article URL: https://www.ycombinator.com/companies/bild-ai/jobs/dAbC3Gd-founding-product-engineer Comments URL: https://news.ycombinator.com/item?id=49911531 Points: 0 # Comments: 0",
+    "date": "2026-09-30",
+    "source": "Hacker News",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
@@ -155,6 +175,56 @@
     "desc": "Видео 11 минут. Монтаж медицинского видео с \"говорящей головой\". Вид с одной камеры. Монтаж со сменой планов. Поверх вставляем иллюстрации, видео, инфографику и анмацию текста. Иллюстраци и видео предоставляются. Необходимо сделать цветокоррекцию и коррекцию звука. Шрифты Days One и Nunito (вспом...",
     "date": "2026-09-30",
     "source": "FL.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Apple представит домашний смарт-дисплей HomePad уже 13 октября",
+    "link": "https://3dnews.ru/1149277",
+    "desc": "Презентация центра управления умным домом от Apple — известного под неофициальным названием HomePad — состоится 13 октября, сообщил аналитик Bloomberg Марк Гурман (Mark Gurman). Совместно с умным дисплеем компания представит новую умную колонку HomePod mini, а также обновлённый вариант телеприста...",
+    "date": "2026-09-30",
+    "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Apple покажет умный домашний хаб 13 октября вместе с HomePod mini и Apple TV",
+    "link": "https://hi-tech.mail.ru/news/156734-apple-pokazhet-umnyi-domashnii-hab-13-oktyabrya/",
+    "desc": "Ожидается, что хаб будет называться HomePad Apple 13 октября представит сразу три устройства для умного дома, сообщает Bloomberg со ссылкой на осведомленных людей. Главным устройством станет хаб с внутренним кодовым названием J490, которого ждут давно. В прессе его называют HomePad. По данным Blo...",
+    "date": "2026-09-30",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "В McDonald's заработал ИИ, который манипулирует ценами на бургеры",
+    "link": "https://hi-tech.mail.ru/news/156733-v-mcdonalds-zarabotal-ii-kotoryj-manipuliruet-cenami-na-burgery/",
+    "desc": "Алгоритм анализирует миллионы заказов и цены конкурентов, чтобы рассчитать рекомендуемую стоимость блюд для каждого заведения. McDonald's использует ИИ-систему динамического ценообразования, которая рассчитывает рекомендуемую стоимость блюд для отдельных ресторанов в США. Алгоритм анализирует дан...",
+    "date": "2026-09-30",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Samsung представила SmartTag 3: трекер стал меньше и заработал с iPhone",
+    "link": "https://hi-tech.mail.ru/news/156723-samsung-smarttag-3-preview/",
+    "desc": "Третье поколение трекера Samsung на 35% меньше и на 33% легче предшественника, держит заряд до 790 дней и впервые работает с iPhone. В США комплект из одной метки стоит 29,99 доллара. Samsung представила третье поколение трекера Galaxy SmartTag 3, пишет The Verge. Новинка стала на 35% меньше по о...",
+    "date": "2026-09-30",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Samsung представила планшеты Galaxy Tab S12 с ультратонкими корпусами и увеличенной производительностью",
+    "link": "https://hi-tech.mail.ru/news/156652-samsung-galaxy-tab-s12-preview/",
+    "desc": "Новинки получили процессор MediaTek Dimensity 9500, дисплеи Dynamic AMOLED 2X и перо S Pen в комплекте. Samsung анонсировала серию планшетов Galaxy Tab S12, в которую вошли модели Galaxy Tab S12 Ultra и Galaxy Tab S12+. Компания называет их самыми функциональными и универсальными планшетами в сво...",
+    "date": "2026-09-30",
+    "source": "Hi-Tech Mail",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -335,6 +405,26 @@
     "desc": "В этом месяце завершился второй сезон увлекательного эксперимента Emergence World, исследователи создали среду для стресс-тестов агентов, что-то наподобие Sims, где можно заводить отношения, работать, принимать совместные решения и т. д. Агенты существовали в этом мире при помощи трёхслойной памя...",
     "date": "2026-09-29",
     "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Организаторы главной литературной премии Франции исключили претендента за подозрение в использовании ИИ и плагиате",
+    "link": "https://habr.com/ru/news/1087994/?utm_campaign=1087994&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Организаторы Гонкуровской премии — самой престижной литературной награды Франции — исключили одного из претендентов за подозрение в использовании ИИ и плагиате. В августе во Франции вышел роман Телисона Орельена C’était ça ou mourir («Это или смерть»). Книга разошлась тиражом около 35 тыс., получ...",
+    "date": "2026-09-29",
+    "source": "Habr AI Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Shopify открыла доступ к заказам для браузерных ИИ‑агентов",
+    "link": "https://habr.com/ru/news/1087938/?utm_campaign=1087938&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сервис электронной коммерции Shopify объявил , что ИИ‑агенты, работающие в браузере, теперь могут завершать процесс покупки на сайтах его продавцов. Читать далее",
+    "date": "2026-09-29",
+    "source": "Habr AI Новости",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -1345,6 +1435,16 @@
     "desc": "Microsoft провела операцию по пресечению деятельности мошеннической платформы EvilTokens. Она работала по модели подписки и использовала чат‑бота для взлома 12 тысяч учётных записей компании за несколько месяцев. Читать далее",
     "date": "2026-09-23",
     "source": "Habr AI Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "ИТ-инфраструктура: 18 бесплатных вебинаров и 5 статей о Linux, Kubernetes и диагностике сбоев",
+    "link": "https://habr.com/ru/companies/otus/articles/1085272/?utm_campaign=1085272&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Перезапуск помог, сервис снова доступен – но что вызвало сбой и не повторится ли он завтра? Для подобных задач собрали 17 бесплатных уроков и практические статьи о диагностике и эксплуатации инфраструктуры. Есть разборы сетевых петель и защиты контейнеров, работа с Kubernetes и отдельные темы об ...",
+    "date": "2026-09-23",
+    "source": "Habr DevOps",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -2765,6 +2865,16 @@
     "desc": "Редактор Sfgate посетил магазин Andon Market в районе Кау‑Холлоу в Сан‑Франциско. В августе его передали под управление ИИ‑бота Luna. Журналист выявил множество недостатков в такой автоматизации, которые влияют не только на клиентский опыт, но и на прибыльность бизнеса. Читать далее",
     "date": "2026-09-15",
     "source": "Habr ML Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "От совпадения слов к пониманию смысла запроса: как эволюционировали поисковые системы",
+    "link": "https://habr.com/ru/articles/1082660/?utm_campaign=1082660&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Кто помнит поисковики начала двухтысячных, наверняка помнит, что результаты выдачи иногда имели мало общего с самим запросом. Системы слабо учитывали порядок слов, синонимы, предлоги и отрицания, поэтому пользователям приходилось упрощать формулировки, добавлять уточнения и пробовать запрос в нес...",
+    "date": "2026-09-15",
+    "source": "Habr NLP",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
