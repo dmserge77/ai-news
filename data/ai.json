@@ -1,26 +1,26 @@
 [
   {
-    "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
-    "link": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-    "desc": "Article URL: https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html Comments URL: https://news.ycombinator.com/item?id=49921050 Points: 139 # Comments: 85",
-    "date": "2026-10-01",
-    "source": "Hacker News",
+    "title": "Грядёт крупнейшее IPO в истории: Anthropic намерена выйти на биржу до конца ноября",
+    "link": "https://3dnews.ru/1149356",
+    "desc": "Anthropic может провести первичное публичное размещение акций (IPO) уже в ноябре. Компания официально начнёт рекламировать свои акции потенциальным инвесторам в ближайшее время, чтобы запустить торги до Дня благодарения в США, 26 ноября. Источник изображения: Anthropic",
+    "date": "2026-10-02",
+    "source": "3DNews",
     "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
   },
   {
-    "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
-    "link": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
-    "desc": "Article URL: https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design Comments URL: https://news.ycombinator.com/item?id=49919910 Points: 129 # Comments: 68",
+    "title": "900 гипотез об уязвимостях и 12 миллиардов токенов",
+    "link": "https://habr.com/ru/articles/1089374/?utm_campaign=1089374&utm_source=habrahabr&utm_medium=rss",
+    "desc": "«Просто напишите правильный промпт», говорили они У меня появился проект, которому нужно перекладывать миллионы пакетов со скоростью канала. Для такой задачи я рассматривал C, C++ и Rust. На C я последний раз писал в 2009 году, и обратно не тянет. Слабак , согласен. Выбрал Rust: современный язык,...",
     "date": "2026-10-01",
-    "source": "Hacker News",
+    "source": "Habr AI",
     "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
   },
   {
-    "title": "Как я в одиночку написал сервис для расшифровки видео — и три раза чуть не забросил из-за одной и той же ошибки",
-    "link": "https://habr.com/ru/articles/1089294/?utm_campaign=1089294&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Дисклеймер сразу: я не собирался писать «ещё один стартап». Мне просто было лень руками пересматривать видео, чтобы выписать из него тезисы. Дальше — история о том, как решение личной проблемы обросло LLM-цепочками, защитой от SSRF и вопросами вроде «а что если сертификат не выпустится». Сервис н...",
+    "title": "Вдвое меньше токенов без смены модели: что NVIDIA сделала с harness кодинг-агента",
+    "link": "https://habr.com/ru/articles/1089370/?utm_campaign=1089370&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Исследователи из NVIDIA, MIT и NTU поручили одному ИИ-агенту улучшать harness другого, кодинг-ассистента на базе открытого Pi. Агент перебрал 152 идеи, и 4 из них сократили расход токенов почти вдвое при той же модели. Счёт за API упал на треть, средний балл на EdgeBench снизился на 6 %. Разбирае...",
     "date": "2026-10-01",
     "source": "Habr AI",
     "cat": "ai",
@@ -189,15 +189,6 @@
     "lang": "ru"
   },
   {
-    "title": "Jev, Laya и decision models: Пытаемся разобраться",
-    "link": "https://habr.com/ru/articles/1088710/?utm_campaign=1088710&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! В последние недели интерес вокруг модели Jev в Ai сфере набрал такие обороты, что я не смог пройти мимо. Некоторые уже называют ее «убийцей» LLM, новым прорывом в развитии агентов и нашим будущим. Поэтому мне стало интересно разобраться, какова область применения модели и где она бу...",
-    "date": "2026-10-01",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "[Перевод] Научил кнопочный телефон 1980-х годов разговаривать с Claude",
     "link": "https://habr.com/ru/articles/1089250/?utm_campaign=1089250&utm_source=habrahabr&utm_medium=rss",
     "desc": "На старый немецкий кнопочный телефон FeTAp я установил аудиоплату на ESP32 и связал ее со своим ассистентом на Raspberry Pi. Теперь достаточно снять трубку, как на другом конце отвечает ИИ, с которым можно разговаривать почти как по обычному телефону. Читать далее",
@@ -219,6 +210,15 @@
     "title": "Фабрика кода с выключенным светом: почему Хорти зовет обратно читать код, и что у меня с этим сходится",
     "link": "https://habr.com/ru/articles/1088490/?utm_campaign=1088490&utm_source=habrahabr&utm_medium=rss",
     "desc": "Дэкс Хорти из HumanLayer объясняет, почему “фабрика кода с выключенным светом”, где агенты пишут, ревьюят и тестируют без человека, пока не работает: по его мнению, при обучении модели почти не получают сигнала о поддерживаемости кода, а быстрого способа ее проверить пока нет. Его рецепт - вернут...",
+    "date": "2026-10-01",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Jev, Laya и decision models: Пытаемся разобраться",
+    "link": "https://habr.com/ru/articles/1088710/?utm_campaign=1088710&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! В последние недели интерес вокруг модели Jev в Ai сфере набрал такие обороты, что я не смог пройти мимо. Некоторые уже называют ее «убийцей» LLM, новым прорывом в развитии агентов и нашим будущим. Поэтому мне стало интересно разобраться, какова область применения модели и где она бу...",
     "date": "2026-10-01",
     "source": "Habr ML",
     "cat": "ai",
@@ -360,6 +360,24 @@
     "lang": "ru"
   },
   {
+    "title": "На Nokia 2007 года выпуска с объемом памяти всего 8 МБ теперь работает Claude",
+    "link": "https://vc.ru/ai/3170645-nokia-2007-goda-s-8-mb-pamjati-teper-podderzhivaet-claude?from=rss",
+    "desc": "Разработчик Эмир Каршиякалы создал клиент на Java ME, который позволяет этому почти 20-летнему телефону взаимодействовать с Claude через небольшой сервер и API компании Anthropic.",
+    "date": "2026-10-01",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic опубликовала новый отчёт о том, какие профессии уже способны заменить современные роботы и ИИ",
+    "link": "https://vc.ru/ai/3170517-roboty-i-ii-kakie-professii-mogut-byt-zameneny-v-ssha?from=rss",
+    "desc": "Главный вывод: роботы уже могут выполнять 74% физических рабочих задач в США, по крайней мере в некоторых условиях. Если добавить к ним языковые модели (LLM), то 81% всей работы может быть выполнено либо ИИ, либо роботами.",
+    "date": "2026-10-01",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Чат-бот по документам ошибается не из-за нейросети. Где на самом деле теряется качество",
     "link": "https://vc.ru/ai/3170136-kachestvo-chat-botov-po-dokumentam?from=rss",
     "desc": "Компании подключают ассистента к своей базе знаний, а через месяц сотрудники перестают ему верить. Обычно первым делом меняют модель — и почти ничего не меняется. Разбираем, где ломается качество на самом деле и как проверить свои документы до покупки.",
@@ -408,6 +426,15 @@
     "title": "Huawei представила первые многослойные процессоры, созданные по технологии LogicFolding",
     "link": "https://3dnews.ru/1149323",
     "desc": "Компания Huawei представила смартфоны серии Mate 90 на основе флагманских чипов Kirin 9030 и 9035, а также первых процессоров, произведённых с использованием новейшей технологии LogicFolding — моделей Kirin 9050 и 9050 Pro. Новые чипы предлагают повышенную плотность транзисторов, а вместе с ней л...",
+    "date": "2026-10-01",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI выгнала трёх сотрудников за слив конфиденциальной информации оценщикам безопасности ИИ",
+    "link": "https://3dnews.ru/1149354",
+    "desc": "OpenAI уволила трёх сотрудников, которые, по заявлению компании, нарушили правила обращения с конфиденциальной информацией. По неподтверждённым данным эти сотрудники поделились секретной информацией со сторонней организацией, оценивающей безопасность ИИ. Источник изображения: Mariia Shalabaieva /...",
     "date": "2026-10-01",
     "source": "3DNews",
     "cat": "ai",
@@ -471,15 +498,6 @@
     "title": "OpenAI обвинила китайскую Moonshot в массовом извлечении данных для обучения ИИ-моделей",
     "link": "https://3dnews.ru/1149301",
     "desc": "Ведущие американские разработчики ИИ-моделей уже не раз обвиняли китайских конкурентов в дистилляции собственных продуктов, и OpenAI недавно предъявила китайской Moonshot претензию по поводу массового извлечения данных для обучения моделей этого стартапа. Соответствующую подозрительную активность...",
-    "date": "2026-10-01",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "FTC взялась за OpenAI и Anthropic — США впервые расследуют угрозы автономных ИИ-агентов для людей",
-    "link": "https://3dnews.ru/1149293",
-    "desc": "Федеральная торговая комиссия (FTC) США запустила масштабную проверку деятельности компаний Anthropic, OpenAI и других разработчиков ИИ, чтобы выявить потенциальные угрозы, которые их технологии могут представлять для людей. Об этом агентству Reuters сообщил высокопоставленный представитель комис...",
     "date": "2026-10-01",
     "source": "3DNews",
     "cat": "ai",
@@ -576,6 +594,42 @@
     "lang": "ru"
   },
   {
+    "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+    "link": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+    "desc": "Article URL: https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html Comments URL: https://news.ycombinator.com/item?id=49921050 Points: 139 # Comments: 85",
+    "date": "2026-10-01",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+    "link": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+    "desc": "Article URL: https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design Comments URL: https://news.ycombinator.com/item?id=49919910 Points: 129 # Comments: 68",
+    "date": "2026-10-01",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Как я в одиночку написал сервис для расшифровки видео — и три раза чуть не забросил из-за одной и той же ошибки",
+    "link": "https://habr.com/ru/articles/1089294/?utm_campaign=1089294&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Дисклеймер сразу: я не собирался писать «ещё один стартап». Мне просто было лень руками пересматривать видео, чтобы выписать из него тезисы. Дальше — история о том, как решение личной проблемы обросло LLM-цепочками, защитой от SSRF и вопросами вроде «а что если сертификат не выпустится». Сервис н...",
+    "date": "2026-10-01",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "FTC взялась за OpenAI и Anthropic — США впервые расследуют угрозы автономных ИИ-агентов для людей",
+    "link": "https://3dnews.ru/1149293",
+    "desc": "Федеральная торговая комиссия (FTC) США запустила масштабную проверку деятельности компаний Anthropic, OpenAI и других разработчиков ИИ, чтобы выявить потенциальные угрозы, которые их технологии могут представлять для людей. Об этом агентству Reuters сообщил высокопоставленный представитель комис...",
+    "date": "2026-10-01",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Атака ИИ-агентов на архив Канады: что известно об инциденте",
     "link": "https://hi-tech.mail.ru/news/156822-ii-agenty-pytalis-vzlomat-sait-arhiva-kanady/",
     "desc": "Исследовательская компания Transluce сообщила о 899 запросах ИИ-агентов к сервису поиска Библиотеки и архивов Канады; среди них были, по-видимому, неудачные примитивные попытки взлома. Кто стоит за ними, неизвестно. ИИ-агенты пытались взломать сайт правительственного учреждения Канады, сообщает R...",
@@ -637,15 +691,6 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "Gemini 4 Argon",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-    "desc": "See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https://news.ycombinator.com/item?id=49914236 Comments URL: https://news.ycombinator.com/item?id=49913571 Points: 1581 # Comments: 1054",
-    "date": "2026-09-30",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "Зачем нейросети «обвязка»: как превратить LLM в рабочий AI-сервис",
@@ -977,6 +1022,15 @@
     "desc": "Gemini & Qualitative Data Color Scheme Design Continue reading on UX Collective »",
     "date": "2026-09-30",
     "source": "UX Collective",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Gemini 4 Argon",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "desc": "See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https://news.ycombinator.com/item?id=49914236 Comments URL: https://news.ycombinator.com/item?id=49913571 Points: 1581 # Comments: 1054",
+    "date": "2026-09-30",
+    "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
@@ -3222,6 +3276,15 @@
     "lang": "ru"
   },
   {
+    "title": "Продвижение интернет‑магазина в ответах ИИ: почему нейросети почти не ссылаются на карточку товара",
+    "link": "https://habr.com/ru/articles/1086798/?utm_campaign=1086798&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я задал Алисе AI и Perplexity 14 вопросов, которые покупатель задаёт перед покупкой техники: где купить оригинальный айфон с гарантией, где забрать макбук сегодня, где дают рассрочку. Потом посмотрел, на какие страницы магазинов ведут ссылки в ответах. Из 243 ссылок на карточку товара пришлось 10...",
+    "date": "2026-09-25",
+    "source": "Habr Python",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "ИИ становится рабочим инструментом 1С: что покажут на TECH EVENT",
     "link": "https://habr.com/ru/companies/infostart/articles/1086538/?utm_campaign=1086538&utm_source=habrahabr&utm_medium=rss",
     "desc": "ИИ в 1С уже не ограничивается генерацией кода и экспериментами с чат-ботами. Его подключают к тестированию, мониторингу, интеграциям, корпоративным данным и внутренним бизнес-процессам. Вокруг него появляются новые подходы к разработке, документации и работе команд. На INFOSTART TECH EVENT 2026 э...",
@@ -3263,15 +3326,6 @@
     "desc": "Spec Kit для разработки по спецификациям с ИИ-агентами обновился до версии 1.0.11. GitHub сделал добавление каталогов идемпотентным, добавил новые расширения и исправил интеграцию с Forge. — Читать дальше « GitHub выпустил Spec Kit 1.0.11 с идемпотентным добавлением каталогов »",
     "date": "2026-09-25",
     "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Продвижение интернет‑магазина в ответах ИИ: почему нейросети почти не ссылаются на карточку товара",
-    "link": "https://habr.com/ru/articles/1086798/?utm_campaign=1086798&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я задал Алисе AI и Perplexity 14 вопросов, которые покупатель задаёт перед покупкой техники: где купить оригинальный айфон с гарантией, где забрать макбук сегодня, где дают рассрочку. Потом посмотрел, на какие страницы магазинов ведут ссылки в ответах. Из 243 ссылок на карточку товара пришлось 10...",
-    "date": "2026-09-25",
-    "source": "Habr Python",
     "cat": "ai",
     "lang": "ru"
   },
