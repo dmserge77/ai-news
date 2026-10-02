@@ -1,8 +1,8 @@
 [
   {
-    "title": "Don't be fooled–LLMs don't reason",
-    "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-    "desc": "Article URL: https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/ Comments URL: https://news.ycombinator.com/item?id=49933459 Points: 20 # Comments: 12",
+    "title": "GPT-6 Astra plays World of Warcraft for the first time with agent-wow",
+    "link": "https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/",
+    "desc": "Article URL: https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/ Comments URL: https://news.ycombinator.com/item?id=49933251 Points: 7 # Comments: 1",
     "date": "2026-10-02",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,11 +11,47 @@
   {
     "title": "DeepSeek Harness Desktop for macOS and Windows",
     "link": "https://www.deepseek.com/en/harness/",
-    "desc": "Article URL: https://www.deepseek.com/en/harness/ Comments URL: https://news.ycombinator.com/item?id=49929489 Points: 314 # Comments: 158",
+    "desc": "Article URL: https://www.deepseek.com/en/harness/ Comments URL: https://news.ycombinator.com/item?id=49929489 Points: 353 # Comments: 178",
     "date": "2026-10-02",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "LLM работает не на одной видеокарте: анатомия AI-инфраструктуры 2026",
+    "link": "https://habr.com/ru/articles/1089766/?utm_campaign=1089766&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Почему 70B-модель может поместиться в память и всё равно тормозить под нагрузкой? Разбираем AI-инфраструктуру 2026 года по слоям: HBM и KV-кеш, prefill и decode, NVLink и InfiniBand, tensor/pipeline parallelism, MoE, CPU, RAM и NVMe и смотрим, где на практике заканчивается производительность GPU-...",
+    "date": "2026-10-02",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Сколько инструментов показывать языковой модели: гипотеза, которую перечеркнул замер",
+    "link": "https://habr.com/ru/articles/1089742/?utm_campaign=1089742&utm_source=habrahabr&utm_medium=rss",
+    "desc": "У нашего ИИ-оркестратора более девяноста инструментов: работа с таблицами, документами, почтой, задачами, веб-страницами, презентациями и т.д. При обработке запросов модель на каждом шаге выбирает, какой из них вызвать. Вопрос, который периодически всплывает: сколько из них ей показывать за раз —...",
+    "date": "2026-10-02",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Cached input растёт квадратично",
+    "link": "https://habr.com/ru/articles/1089728/?utm_campaign=1089728&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Единственная причина, по которой современные авторегрессионные трансформеры вообще пригодны для инференса — это использование KV кэша, без которого каждый следующий токен требовал бы операций для вычисления всех попарных произведений между векторами ключей и запросов. KV кэш позволяет обменивать ...",
+    "date": "2026-10-02",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Запускаем множество ИИ на телефоне без интернета в новом формате CMF",
+    "link": "https://habr.com/ru/articles/1089704/?utm_campaign=1089704&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Чат, перевод и решения для ваших скриптов — прямо на телефоне, без интернета и без подписок. Разбираем Cortiq Mobile: открытое приложение для Android и iOS, которое запускает нейросети локально. С замерами, скриншотами и инструкцией «попробовать за пять минут». Читать далее",
+    "date": "2026-10-02",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Claude забанил: AI-сервисы с подпиской, работающие из России",
@@ -131,6 +167,24 @@
     "desc": "Я задал пяти нейросетям с включённым поиском 20 вопросов покупателя услуги продвижения и выписал домены из ссылок под ответами. Вышло 211 сайтов, и на 161 из них сослалась только одна нейросеть. Сайтов, на которые ссылаются три нейросети и больше, всего 17, и они стоят в 79% ответов со ссылками. ...",
     "date": "2026-10-02",
     "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Gemini 4 победила в бенчмарках. Почему это всё меньше говорит о качестве модели",
+    "link": "https://habr.com/ru/articles/1089782/?utm_campaign=1089782&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Gemini 4 Argon вышел с таблицей, где он лидирует в 12 тестах из 18. Ровно такую таблицу Google показывала в феврале — для Gemini 3.1 Pro. Тот потом проиграл Claude в реальной работе больше чем на 300 очков. У релизов Gemini сложился сценарий, и Argon пока идёт по нему шаг в шаг. Дело при этом не ...",
+    "date": "2026-10-02",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Неделя OCR для LLM — в Telegram-канале Smart Engines",
+    "link": "https://habr.com/ru/companies/smartengines/news/1089732/?utm_campaign=1089732&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! Объявляем тематическую неделю, посвященную OCR для LLM и интеллектуальной обработки документов без галлюцинаций и «додумывания» данных. Расскажем, как устроено полнотекстовое распознавание Smart Engines , зачем LLM нужен качественный OCR, как обрабатывать документы локально и прямо ...",
+    "date": "2026-10-02",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -297,6 +351,15 @@
     "lang": "ru"
   },
   {
+    "title": "Внезапная жертва кризиса памяти: семилетняя приставка Nvidia Shield TV Pro подорожала на $100",
+    "link": "https://3dnews.ru/1149404",
+    "desc": "Телеприставка Nvidia Shield TV стала культовым устройством, хотя новых её версий производитель так и не выпустил. Но на фоне удручающей ситуации во всей технологической отрасли стоимость модели Nvidia Shield TV Pro выросла на $100 и достигла $299 — и это спустя семь лет после выхода в продажу. Ис...",
+    "date": "2026-10-02",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "С появлением Anthropic Mythos японские банки стали выявлять вдвое больше уязвимостей",
     "link": "https://3dnews.ru/1149394",
     "desc": "В крупных японских банках резко возросло число обнаруженных системных уязвимостей — по состоянию на август этот показатель удвоился год к году, и он продолжает расти. Искусственный интеллект как создаёт угрозы, так и даёт преимущества в области кибербезопасности. Источник изображения: Roméo A. / ...",
@@ -351,6 +414,24 @@
     "lang": "ru"
   },
   {
+    "title": "Американцев просят не вывозить видеокарты RTX 5090 из страны",
+    "link": "https://hi-tech.mail.ru/news/156966-micro-center-stala-trebovat-pasport-i-raspisku-o-nevyvoze-u/",
+    "desc": "Американская сеть Micro Center просит покупателей GeForce RTX 5090 предъявить документ и подписать обязательство не вывозить видеокарту из США. Американская сеть магазинов электроники Micro Center начала требовать от покупателей видеокарт GeForce RTX 5090 удостоверение личности и подписанную декл...",
+    "date": "2026-10-02",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Samsung подтвердила дату выхода умных очков",
+    "link": "https://hi-tech.mail.ru/news/156962-samsung-podtverdila-datu-vyhoda-umnyh-ochkov/",
+    "desc": "Samsung выпустит свои первые очки на Android XR в ноябре 2026 года. Первые умные очки Samsung на платформе Android XR поступят в продажу в ноябре 2026 года. Об этом со ссылкой на представителя компании сообщает южнокорейская газета The Korea Herald. Устройство называется Intelligent Eyewear. Sams...",
+    "date": "2026-10-02",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Браузерную ИИ-игру по Fallout закрыли по требованию правообладателя",
     "link": "https://hi-tech.mail.ru/news/156950-bethesda-zastavila-udalit-fallout-new-york-kotoruyu-za-pyat/",
     "desc": "Фанатская браузерная Fallout: New York, созданную ИИ-агентами на базе Claude, убрали из сети. Автор говорит, что владелец Bethesda прислал требование прекратить нарушение прав. Энтузиаст Крис Ферст (Chris First), который называет себя «ИИ-креатором», закрыл доступ к своей браузерной игре Fallout:...",
@@ -369,13 +450,22 @@
     "lang": "ru"
   },
   {
-    "title": "Технологии, которые меняют жизнь к лучшему: выставка форума «Цифровые решения»",
-    "link": "https://hi-tech.mail.ru/news/156915-vystavka-foruma-cifrovye-resheniya/",
-    "desc": "С 6 по 10 октября 2026 года в Национальном центре «Россия» в Москве пройдет главный ИТ-форум страны «Цифровые решения». Участников ждет насыщенная программа, включая более 120 деловых сессий о цифровой трансформации России, церемонию награждения премии лучших российских ИТ-решений и выставку пере...",
+    "title": "Дизайн‑система в одном markdown‑файле: как я задаю правила визуала, которые читает и человек, и нейросеть",
+    "link": "https://habr.com/ru/articles/1089412/?utm_campaign=1089412&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На старте любого проекта я первым делом собираю один файл. Ещё до лендинга, до первого поста и первой презентации. В нём записано, какими цветами мы говорим, какими шрифтами и чего нельзя ни при каких условиях, — пять‑шесть экранов текста в markdown. Дальше файл работает молча. Нужен лендинг — он...",
     "date": "2026-10-02",
-    "source": "Hi-Tech Mail",
+    "source": "Habr Дизайн",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Don't be fooled–LLMs don't reason",
+    "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+    "desc": "Article URL: https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/ Comments URL: https://news.ycombinator.com/item?id=49933459 Points: 20 # Comments: 12",
+    "date": "2026-10-02",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Вице-президент США сравнил ажиотаж вокруг ИИ с пандемией коронавируса",
@@ -401,24 +491,6 @@
     "desc": "Стартап Ideogram выпустил модель Ideogram 4.5 для редактирования картинок. Она сохраняет цвета, текстуры и детали, даже если изображение правят много раз подряд. Стартап Ideogram выпустил Ideogram 4.5 — модель для редактирования изображений, которую в компании называют «самой точной моделью для п...",
     "date": "2026-10-02",
     "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "ИИ научился превращать мысли человека в картинки",
-    "link": "https://hi-tech.mail.ru/news/156874-ii-nauchili-vosstanavlivat-uvidennoe-chelovekom-po-aktivnosti-mozga/",
-    "desc": "Новая система анализирует данные фМРТ, воссоздает изображения, на которые смотрит человек, и может заметно ускорить исследования мозга. Исследователи создали ИИ-инструмент, который по сканам мозговой активности определяет, что находится перед глазами человека, и формирует близкое к оригиналу изоб...",
-    "date": "2026-10-02",
-    "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Дизайн‑система в одном markdown‑файле: как я задаю правила визуала, которые читает и человек, и нейросеть",
-    "link": "https://habr.com/ru/articles/1089412/?utm_campaign=1089412&utm_source=habrahabr&utm_medium=rss",
-    "desc": "На старте любого проекта я первым делом собираю один файл. Ещё до лендинга, до первого поста и первой презентации. В нём записано, какими цветами мы говорим, какими шрифтами и чего нельзя ни при каких условиях, — пять‑шесть экранов текста в markdown. Дальше файл работает молча. Нужен лендинг — он...",
-    "date": "2026-10-02",
-    "source": "Habr Дизайн",
     "cat": "ai",
     "lang": "ru"
   },
@@ -486,11 +558,11 @@
     "lang": "ru"
   },
   {
-    "title": "Как мы описываем тысячи таблиц с помощью LLM",
-    "link": "https://habr.com/ru/companies/mws/articles/1086560/?utm_campaign=1086560&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! Меня зовут Сергей Третьяков. Я product owner MWS Data Scout — сервиса, который описывает таблицы баз данных с помощью больших языковых моделей (LLM). В статье я расскажу, почему задача документирования не решается простой передачей схемы в модель, какие слои контекста нам пришлось в...",
+    "title": "[Перевод] Научил кнопочный телефон 1980-х годов разговаривать с Claude",
+    "link": "https://habr.com/ru/articles/1089250/?utm_campaign=1089250&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На старый немецкий кнопочный телефон FeTAp я установил аудиоплату на ESP32 и связал ее со своим ассистентом на Raspberry Pi. Теперь достаточно снять трубку, как на другом конце отвечает ИИ, с которым можно разговаривать почти как по обычному телефону. Читать далее",
     "date": "2026-10-01",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -498,24 +570,6 @@
     "title": "Русский текст в Claude Opus 5 стоит в 3,9 раза дороже, чем в GPT-5.5, при одинаковой цене за токен",
     "link": "https://habr.com/ru/articles/1089148/?utm_campaign=1089148&utm_source=habrahabr&utm_medium=rss",
     "desc": "Claude Opus 5 тратит на русский текст в 3,9 раза больше токенов, чем GPT-5.5, — при одинаковой цене за токен счёт выходит почти вчетверо выше. Я замерил 11 токенизаторов на параллельных текстах на русском и английском: от одного символа на токен у Claude Opus 5 до пяти у YandexGPT и GigaChat, у к...",
-    "date": "2026-10-01",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Я всем помогал, а в отчёте пусто. Как ИИ‑агенты вспомнили за меня полгода работы",
-    "link": "https://habr.com/ru/articles/1089084/?utm_campaign=1089084&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В июле пришло время отчёта за полугодие. От меня ждали побед и результатов, а лучше всего с цифрами. Две строчки я написал за час. На третьей остановился и завис: не мог вспомнить, чем был занят. Я открыл календарь и полистал назад. Июнь, май, апрель. Встречи, созвоны, планёрки. Март как будто вы...",
-    "date": "2026-10-01",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "[Перевод] Научил кнопочный телефон 1980-х годов разговаривать с Claude",
-    "link": "https://habr.com/ru/articles/1089250/?utm_campaign=1089250&utm_source=habrahabr&utm_medium=rss",
-    "desc": "На старый немецкий кнопочный телефон FeTAp я установил аудиоплату на ESP32 и связал ее со своим ассистентом на Raspberry Pi. Теперь достаточно снять трубку, как на другом конце отвечает ИИ, с которым можно разговаривать почти как по обычному телефону. Читать далее",
     "date": "2026-10-01",
     "source": "Habr ML",
     "cat": "ai",
@@ -711,15 +765,6 @@
     "lang": "ru"
   },
   {
-    "title": "Google представила Gemini 4 Argon: главная задача ИИ-модели — искать и устранять уязвимости сайтов",
-    "link": "https://rb.ru/news/google-predstavila-gemini-4-argon-glavnaya-zadacha-ii-modeli-iskat-i-ustranyat-uyazvimosti-sajtov/",
-    "desc": "Google представила новую ИИ-модель Gemini 4 Argon и начала выдавать доступ к ней проверенным специалистам по кибербезопасности, пишет The Verge. Модель умеет самостоятельно искать уязвимости, проверять возможность для кибератаки и вносить изменения в программный код. Google заявила о существенном...",
-    "date": "2026-10-01",
-    "source": "Rusbase",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "На Nokia 2007 года выпуска с объемом памяти всего 8 МБ теперь работает Claude",
     "link": "https://vc.ru/ai/3170645-nokia-2007-goda-s-8-mb-pamjati-teper-podderzhivaet-claude?from=rss",
     "desc": "Разработчик Эмир Каршиякалы создал клиент на Java ME, который позволяет этому почти 20-летнему телефону взаимодействовать с Claude через небольшой сервер и API компании Anthropic.",
@@ -797,6 +842,24 @@
     "desc": "Продолжаем эксперемнтировать с 3D-моделлингом. В сегодняшнем эксперименте зарекрутируем таланты ChatGPT 5 , чтобы он написал готовые скрипты для Блендера. Читать далее",
     "date": "2026-10-01",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как мы описываем тысячи таблиц с помощью LLM",
+    "link": "https://habr.com/ru/companies/mws/articles/1086560/?utm_campaign=1086560&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! Меня зовут Сергей Третьяков. Я product owner MWS Data Scout — сервиса, который описывает таблицы баз данных с помощью больших языковых моделей (LLM). В статье я расскажу, почему задача документирования не решается простой передачей схемы в модель, какие слои контекста нам пришлось в...",
+    "date": "2026-10-01",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Google представила Gemini 4 Argon: главная задача ИИ-модели — искать и устранять уязвимости сайтов",
+    "link": "https://rb.ru/news/google-predstavila-gemini-4-argon-glavnaya-zadacha-ii-modeli-iskat-i-ustranyat-uyazvimosti-sajtov/",
+    "desc": "Google представила новую ИИ-модель Gemini 4 Argon и начала выдавать доступ к ней проверенным специалистам по кибербезопасности, пишет The Verge. Модель умеет самостоятельно искать уязвимости, проверять возможность для кибератаки и вносить изменения в программный код. Google заявила о существенном...",
+    "date": "2026-10-01",
+    "source": "Rusbase",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1089,24 +1152,6 @@
     "lang": "ru"
   },
   {
-    "title": "Зачем NVIDIA скрестила NeMo Automodel с диффузионными моделями",
-    "link": "https://habr.com/ru/companies/ru_mts/articles/1086636/?utm_campaign=1086636&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Еще в июле NVIDIA и Hugging Face выпустили совместный пост про то, как их опенсорсная библиотека для обучения нейросетей NeMo Automodel умеет теперь работать с диффузионными моделями. В анонсе фигурировали FSDP2, тензорный параллелизм, контекстный параллелизм, мультинодовая оркестрация. Обещали, ...",
-    "date": "2026-09-30",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Как запустить Gemma на сервере: сравниваем Ollama и llama.cpp",
-    "link": "https://habr.com/ru/companies/selectel/articles/1088372/?utm_campaign=1088372&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Откройте любую статью-инструкцию по установке LLM, в которой фигурирует Ollama. Уверен, в комментариях к ней автору уже объяснили, насколько он неправ и что единственное верное решение — использовать llama.cpp. В этой статье запустим Gemma 4 и через Ollama, и напрямую через llama.cpp — и посмотри...",
-    "date": "2026-09-30",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Gemini 4 Argon уже оптимизирует инфраструктуру Google и переписывает код",
     "link": "https://habr.com/ru/companies/bothub/news/1088822/?utm_campaign=1088822&utm_source=habrahabr&utm_medium=rss",
     "desc": "Google представила Gemini 4 Argon — новую фронтир-модель для длинных агентных задач: программирования, корпоративной аналитики, финансового и юридического анализа и кибербезопасности. И Google уже поручает Argon реальные инженерные задачи. Агенты Argon нашли оптимизации памяти в инфраструктуре Go...",
@@ -1138,7 +1183,7 @@
     "link": "https://habr.com/ru/companies/selectel/news/1088694/?utm_campaign=1088694&utm_source=habrahabr&utm_medium=rss",
     "desc": "AMD покупает стартап World Labs за 8,2 $ млрд акциями. Основательница World Labs Фей-Фей Ли, профессор Стэнфорда и автор датасета ImageNet, с которого в 2012 году началась эпоха глубокого обучения, станет исполнительным вице-президентом и главным научным сотрудником AMD с прямым подчинением CEO Л...",
     "date": "2026-09-30",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1197,9 +1242,9 @@
     "lang": "ru"
   },
   {
-    "title": "Scikit-rank — open-source-библиотека для нейросетевого ранжирования",
-    "link": "https://habr.com/ru/companies/tbank/articles/1088224/?utm_campaign=1088224&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Всем привет! На связи Александр Милоградский, отвечаю за RnD в направлении рекомендательных технологий Т-Банка. Расскажу о нашем новом вкладе в open source — библиотеке для нейросетевого ранжирования scikit-rank. Сейчас scikit-rank — обертка нескольких нейросетевых моделей в формат scikit-learn-м...",
+    "title": "Как запустить Gemma на сервере: сравниваем Ollama и llama.cpp",
+    "link": "https://habr.com/ru/companies/selectel/articles/1088372/?utm_campaign=1088372&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Откройте любую статью-инструкцию по установке LLM, в которой фигурирует Ollama. Уверен, в комментариях к ней автору уже объяснили, насколько он неправ и что единственное верное решение — использовать llama.cpp. В этой статье запустим Gemma 4 и через Ollama, и напрямую через llama.cpp — и посмотри...",
     "date": "2026-09-30",
     "source": "Habr Open Source",
     "cat": "ai",
@@ -1209,6 +1254,15 @@
     "title": "Подарок брату до $70 к пятнице — как я собрал помощника магазина на локальной 9B-модели",
     "link": "https://habr.com/ru/articles/1088266/?utm_campaign=1088266&utm_source=habrahabr&utm_medium=rss",
     "desc": "Покупатель пишет в чат магазина «подарок брату, ему 30, любит настолки, до $70». Помощник спрашивает, когда у брата день рождения. Покупатель отвечает, что в пятницу. До пятницы 5 рабочих дней, а по правилам магазина в этом случае на заказ дается скидка 20%. Поэтому в $70 влезли три подарка на $8...",
+    "date": "2026-09-30",
+    "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Scikit-rank — open-source-библиотека для нейросетевого ранжирования",
+    "link": "https://habr.com/ru/companies/tbank/articles/1088224/?utm_campaign=1088224&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Всем привет! На связи Александр Милоградский, отвечаю за RnD в направлении рекомендательных технологий Т-Банка. Расскажу о нашем новом вкладе в open source — библиотеке для нейросетевого ранжирования scikit-rank. Сейчас scikit-rank — обертка нескольких нейросетевых моделей в формат scikit-learn-м...",
     "date": "2026-09-30",
     "source": "Habr Open Source",
     "cat": "ai",
@@ -1330,6 +1384,15 @@
     "source": "UX Collective",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Зачем NVIDIA скрестила NeMo Automodel с диффузионными моделями",
+    "link": "https://habr.com/ru/companies/ru_mts/articles/1086636/?utm_campaign=1086636&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Еще в июле NVIDIA и Hugging Face выпустили совместный пост про то, как их опенсорсная библиотека для обучения нейросетей NeMo Automodel умеет теперь работать с диффузионными моделями. В анонсе фигурировали FSDP2, тензорный параллелизм, контекстный параллелизм, мультинодовая оркестрация. Обещали, ...",
+    "date": "2026-09-30",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Grokipedia возобновила работу после перерыва",
