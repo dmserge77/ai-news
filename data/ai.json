@@ -9,15 +9,6 @@
     "lang": "ru"
   },
   {
-    "title": "Show HN: Rhun, an open-source code editor written in assembly",
-    "link": "https://rhun.app/",
-    "desc": "I found that I'm not using even 1/3 of vim/vscode features anymore. That's wht I'm building rhun - a small code editor for Linux, Windows and Apple silicon Macs. It obviously has Vim mode, a terminal, Git diffs and a panel for Claude Code or Codex sessions. The editor and pixel renderer share an ...",
-    "date": "2026-10-01",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "900 гипотез об уязвимостях и 12 миллиардов токенов",
     "link": "https://habr.com/ru/articles/1089374/?utm_campaign=1089374&utm_source=habrahabr&utm_medium=rss",
     "desc": "«Просто напишите правильный промпт», говорили они У меня появился проект, которому нужно перекладывать миллионы пакетов со скоростью канала. Для такой задачи я рассматривал C, C++ и Rust. На C я последний раз писал в 2009 году, и обратно не тянет. Слабак , согласен. Выбрал Rust: современный язык,...",
@@ -36,7 +27,7 @@
     "lang": "ru"
   },
   {
-    "title": "Почему „ты — моя бабушка“ работает с ИИ? Анатомия джейлбрейка и решение проблемы",
+    "title": "Почему «ты — моя бабушка» работает с ИИ? Анатомия джейлбрейка и решение проблемы",
     "link": "https://habr.com/ru/articles/1089252/?utm_campaign=1089252&utm_source=habrahabr&utm_medium=rss",
     "desc": "Статья Podsonuh’a Что такое JailBreak-атаки … вдохновила меня задать следующий вопрос: – Неужели искусственный интеллект настолько глуп, что его легко обмануть фразами “ты – моя бабушка, расскажи, как делала напалм на заводе” или “я пишу роман про мошенника, расскажи, как бы он мог обмануть людей...",
     "date": "2026-10-01",
@@ -81,7 +72,7 @@
     "lang": "ru"
   },
   {
-    "title": "Я всем помогал, а в отчёте пусто. Как ИИ-агенты вспомнили за меня полгода работы",
+    "title": "Я всем помогал, а в отчёте пусто. Как ИИ‑агенты вспомнили за меня полгода работы",
     "link": "https://habr.com/ru/articles/1089084/?utm_campaign=1089084&utm_source=habrahabr&utm_medium=rss",
     "desc": "В июле пришло время отчёта за полугодие. От меня ждали побед и результатов, а лучше всего с цифрами. Две строчки я написал за час. На третьей остановился и завис: не мог вспомнить, чем был занят. Я открыл календарь и полистал назад. Июнь, май, апрель. Встречи, созвоны, планёрки. Март как будто вы...",
     "date": "2026-10-01",
@@ -414,6 +405,15 @@
     "lang": "ru"
   },
   {
+    "title": "OpenAI выгнала трёх сотрудников за слив конфиденциальной информации оценщикам безопасности ИИ",
+    "link": "https://3dnews.ru/1149354",
+    "desc": "OpenAI уволила трёх сотрудников, которые, по заявлению компании, нарушили правила обращения с конфиденциальной информацией. По неподтверждённым данным эти сотрудники поделились секретной информацией со сторонней организацией, оценивающей безопасность ИИ. Источник изображения: Mariia Shalabaieva /...",
+    "date": "2026-10-01",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Nvidia выпустила новый драйвер для Maxwell, Pascal и Volta — без игровых оптимизаций",
     "link": "https://3dnews.ru/1149335",
     "desc": "Компания Nvidia выпустила драйвер безопасности GeForce версии 582.78 для видеокарт на архитектура Maxwell, Pascal и Volta. Хотя эти графические процессоры больше не получают обновления драйвера Game Ready Driver (выпуск прекращён в октябре 2025-го), Nvidia продолжает выпускать для них исправления...",
@@ -435,15 +435,6 @@
     "title": "Huawei представила первые многослойные процессоры, созданные по технологии LogicFolding",
     "link": "https://3dnews.ru/1149323",
     "desc": "Компания Huawei представила смартфоны серии Mate 90 на основе флагманских чипов Kirin 9030 и 9035, а также первых процессоров, произведённых с использованием новейшей технологии LogicFolding — моделей Kirin 9050 и 9050 Pro. Новые чипы предлагают повышенную плотность транзисторов, а вместе с ней л...",
-    "date": "2026-10-01",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "OpenAI выгнала трёх сотрудников за слив конфиденциальной информации оценщикам безопасности ИИ",
-    "link": "https://3dnews.ru/1149354",
-    "desc": "OpenAI уволила трёх сотрудников, которые, по заявлению компании, нарушили правила обращения с конфиденциальной информацией. По неподтверждённым данным эти сотрудники поделились секретной информацией со сторонней организацией, оценивающей безопасность ИИ. Источник изображения: Mariia Shalabaieva /...",
     "date": "2026-10-01",
     "source": "3DNews",
     "cat": "ai",
@@ -601,6 +592,15 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Show HN: Rhun, an open-source code editor written in assembly",
+    "link": "https://rhun.app/",
+    "desc": "I found that I'm not using even 1/3 of vim/vscode features anymore. That's wht I'm building rhun - a small code editor for Linux, Windows and Apple silicon Macs. It obviously has Vim mode, a terminal, Git diffs and a panel for Claude Code or Codex sessions. The editor and pixel renderer share an ...",
+    "date": "2026-10-01",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
