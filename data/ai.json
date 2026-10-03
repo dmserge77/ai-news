@@ -2,7 +2,7 @@
   {
     "title": "Show HN: Offrun – manage every coding agent from one workspace",
     "link": "https://offrun.dev/",
-    "desc": "Run Claude Code, Codex, AGY, and Grok Build side by side. See who is working, who needs you, and what every account has left. Comments URL: https://news.ycombinator.com/item?id=49942434 Points: 22 # Comments: 9",
+    "desc": "Run Claude Code, Codex, AGY, and Grok Build side by side. See who is working, who needs you, and what every account has left. Comments URL: https://news.ycombinator.com/item?id=49942434 Points: 33 # Comments: 13",
     "date": "2026-10-03",
     "source": "Hacker News",
     "cat": "ai",
@@ -281,7 +281,7 @@
   {
     "title": "From the creator of Redis; run LLM locally with ds4",
     "link": "https://dwarfstar.sh/",
-    "desc": "Article URL: https://dwarfstar.sh/ Comments URL: https://news.ycombinator.com/item?id=49936575 Points: 280 # Comments: 78",
+    "desc": "Article URL: https://dwarfstar.sh/ Comments URL: https://news.ycombinator.com/item?id=49936575 Points: 288 # Comments: 85",
     "date": "2026-10-02",
     "source": "Hacker News",
     "cat": "ai",
@@ -405,15 +405,6 @@
     "lang": "ru"
   },
   {
-    "title": "Как мультимодальные модели научились понимать товар, а не картинку",
-    "link": "https://habr.com/ru/companies/tevian/articles/1089458/?utm_campaign=1089458&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Почему для понимания товара недостаточно одной фотографии? Проследим, как модели электронной коммерции эволюционировали от визуального поиска и CLIP к мультимодальным представлениям, объединяющим изображения, текстовые описания и атрибуты товаров. Также рассмотрим e-CLIP, MOON, MOON2.0, AFMRL и M...",
-    "date": "2026-10-02",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Как плеер угадывает тональность трека: 12 чисел и одна корреляция",
     "link": "https://habr.com/ru/articles/1089832/?utm_campaign=1089832&utm_source=habrahabr&utm_medium=rss",
     "desc": "Плеер показывает у трека «ми минор», но как он это узнал? Программа не слушает гармонию, как музыкант: она считает, сколько звучит каждой из 12 нот, и ищет гамму, на которую набор похож сильнее всего. Разбираю алгоритм Крумхансл-Шмуклера на реальных треках, показываю, где он путает квинту и родст...",
@@ -435,6 +426,15 @@
     "title": "Gemini 4 победила в бенчмарках. Почему это всё меньше говорит о качестве модели",
     "link": "https://habr.com/ru/articles/1089782/?utm_campaign=1089782&utm_source=habrahabr&utm_medium=rss",
     "desc": "Gemini 4 Argon вышел с таблицей, где он лидирует в 12 тестах из 18. Ровно такую таблицу Google показывала в феврале — для Gemini 3.1 Pro. Тот потом проиграл Claude в реальной работе больше чем на 300 очков. У релизов Gemini сложился сценарий, и Argon пока идёт по нему шаг в шаг. Дело при этом не ...",
+    "date": "2026-10-02",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как мультимодальные модели научились понимать товар, а не картинку",
+    "link": "https://habr.com/ru/companies/tevian/articles/1089458/?utm_campaign=1089458&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Почему для понимания товара недостаточно одной фотографии? Проследим, как модели электронной коммерции эволюционировали от визуального поиска и CLIP к мультимодальным представлениям, объединяющим изображения, текстовые описания и атрибуты товаров. Также рассмотрим e-CLIP, MOON, MOON2.0, AFMRL и M...",
     "date": "2026-10-02",
     "source": "Habr ML",
     "cat": "ai",
@@ -882,15 +882,6 @@
     "lang": "ru"
   },
   {
-    "title": "Как Splash ускоряет локальные LLM на Mac",
-    "link": "https://habr.com/ru/articles/1088968/?utm_campaign=1088968&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Как Splash ускоряет локальные языковые модели на Mac? Разбираем спекулятивное декодирование DFlash 2, результаты тестов разработчиков и ограничения движка. Объясняем, что учитывать при выборе Q4 или Q8, сколько памяти и места на диске потребуется и как запустить Splash на macOS. Читать далее",
-    "date": "2026-10-01",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "OpenAI связала Moonshot AI с попытками извлечь скрытые рассуждения моделей",
     "link": "https://habr.com/ru/companies/bothub/news/1089282/?utm_campaign=1089282&utm_source=habrahabr&utm_medium=rss",
     "desc": "OpenAI сообщила о масштабной кампании по извлечению защищённых рассуждений своих моделей. Компания связывает ключевую группу активности с людьми, связанными с Moonshot AI (разработчик Kimi). При этом OpenAI отдельно отмечает, что не может утверждать, будто все участники кампании работали на одног...",
@@ -995,6 +986,15 @@
     "desc": "Главный сдвиг — Data Catalog перестал быть просто справочником метаданных и становится инфраструктурой доверия к данным и источником контекста для аналитиков, процессов и ИИ-агентов. Три года назад мы выпустили исследование российских каталогов данных. Тогда для сравнения решений хватало около 20...",
     "date": "2026-10-01",
     "source": "Habr Big Data",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как Splash ускоряет локальные LLM на Mac",
+    "link": "https://habr.com/ru/articles/1088968/?utm_campaign=1088968&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Как Splash ускоряет локальные языковые модели на Mac? Разбираем спекулятивное декодирование DFlash 2, результаты тестов разработчиков и ограничения движка. Объясняем, что учитывать при выборе Q4 или Q8, сколько памяти и места на диске потребуется и как запустить Splash на macOS. Читать далее",
+    "date": "2026-10-01",
+    "source": "Habr Open Source",
     "cat": "ai",
     "lang": "ru"
   },
