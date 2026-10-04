@@ -1,8 +1,28 @@
 [
   {
+    "title": "Homa: The end of TCP for AI clusters [video]",
+    "link": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+    "desc": "Paper: https://www.usenix.org/system/files/atc21-ousterhout.pdf Related: https://lwn.net/Articles/1003059/ , https://www.theregister.com/networks/2026/10/01/stanford-pro... Comments URL: https://news.ycombinator.com/item?id=49957117 Points: 32 # Comments: 4",
+    "date": "2026-10-04",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "Show HN: AI search for every photo and every frame of video on macOS",
     "link": "https://github.com/allenv0/SCM",
-    "desc": "Article URL: https://github.com/allenv0/SCM Comments URL: https://news.ycombinator.com/item?id=49952111 Points: 43 # Comments: 27",
+    "desc": "Article URL: https://github.com/allenv0/SCM Comments URL: https://news.ycombinator.com/item?id=49952111 Points: 128 # Comments: 60",
+    "date": "2026-10-04",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "How to scale intent, quality, and artistry with AI [video]",
+    "link": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+    "desc": "Article URL: https://www.youtube.com/watch?v=GLvFTMtw4Jk Comments URL: https://news.ycombinator.com/item?id=49951891 Points: 30 # Comments: 7",
     "date": "2026-10-04",
     "source": "Hacker News",
     "cat": "misc",
@@ -22,7 +42,7 @@
   {
     "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
     "link": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-    "desc": "https://archive.ph/TyDPf Comments URL: https://news.ycombinator.com/item?id=49946228 Points: 245 # Comments: 366",
+    "desc": "https://archive.ph/TyDPf Comments URL: https://news.ycombinator.com/item?id=49946228 Points: 371 # Comments: 668",
     "date": "2026-10-03",
     "source": "Hacker News",
     "cat": "misc",
@@ -85,6 +105,16 @@
     "desc": "Здравствуйте! Для коммерческого проекта (международный премиальный байер-сервис Ultra Luxury сегмента) необходимо разместить гостевой экспертный материал или интервью с основателем в официально зарегистрированном онлайн-СМИ. Тематика статьи: бизнес, ритейл, параллельный импорт или мода/стиль. Стр...",
     "date": "2026-10-03",
     "source": "FL.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "В России создали прозрачную нанокерамику для мониторинга живых тканей",
+    "link": "https://hi-tech.mail.ru/news/156936-v-rossii-sozdali-prozrachnuyu-nanokeramiku-dlya-monitoringa-zhivyh-tkanej/",
+    "desc": "Ученые разработали биосовместимую прозрачную нанокерамику на основе фторапатита кальция. Рассказываем, как материал поможет наблюдать за восстановлением тканей и заменит дорогие монокристаллы в лазерах. Ученые из Нижегородского государственного университета имени Н.И. Лобачевского (ННГУ) разработ...",
+    "date": "2026-10-03",
+    "source": "Hi-Tech Mail",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -247,6 +277,16 @@
     "source": "Hi-Tech Mail",
     "cat": "misc",
     "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Lobsters Interview with Sjamaan",
+    "link": "https://alexalejandre.com/interviews/peter-bex/",
+    "desc": "Our dear @sjamaan ( website ) is a CHICKEN scheme maintainer and professional Clojure developer. We got to know each other on IRC over a few months and discussed: CHICKEN Scheme and its 6.0.0 release Scheme's community and standardization process Postgres, the horrors of MySQL and (default) SQLit...",
+    "date": "2026-10-02",
+    "source": "Lobsters",
+    "cat": "misc",
+    "lang": "en",
     "misc_type": "unfiltered"
   },
   {
@@ -1155,6 +1195,16 @@
     "desc": "Мы всё чаще слышим о том, что та или иная компания внедряет Spec-Driven Development (SDD), а чаще всего именно OpenSpec, в свои процессы разработки ПО. Где-то это пока эксперимент нескольких команд, а где-то спецификация уже становится обязательной точкой входа в любую задачу. При этом мало кто и...",
     "date": "2026-09-28",
     "source": "Habr Open Source",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "ИИ‑Стоматолог",
+    "link": "https://habr.com/ru/articles/1087484/?utm_campaign=1087484&utm_source=habrahabr&utm_medium=rss",
+    "desc": "За месяц я собрал MVP системы для анализа панорамных рентгенограмм. Идея была простой: врач загружает снимок, а модель выделяет области, которые стоит изучить внимательнее. Я не ставил задачу заменить стоматолога. На этом этапе речь шла только о вспомогательном инструменте, который может работать...",
+    "date": "2026-09-28",
+    "source": "Habr Python",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -9495,76 +9545,6 @@
     "desc": "Explore how the Aspire team turns merged product changes into SME-reviewed docs pull requests, closing the gap between release and documentation. The post Automating cross-repo documentation with GitHub Agentic Workflows appeared first on The GitHub Blog .",
     "date": "2026-07-08",
     "source": "GitHub Eng",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Give your eve agent GitHub tools",
-    "link": "https://vercel.com/changelog/github-tools-eve",
-    "desc": "",
-    "date": "2026-07-07",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-    "link": "https://huggingface.co/blog/lerobot-release-v060",
-    "desc": "",
-    "date": "2026-07-07",
-    "source": "Hugging Face",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "You can now view the Activity Log at a project-level",
-    "link": "https://vercel.com/changelog/you-can-now-view-the-activity-log-at-a-project-level",
-    "desc": "",
-    "date": "2026-07-07",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "More granular observability for Vercel Sandbox",
-    "link": "https://vercel.com/changelog/more-granular-observability-for-vercel-sandbox",
-    "desc": "",
-    "date": "2026-07-07",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Vercel acquires Better Auth to accelerate open source auth",
-    "link": "https://vercel.com/blog/vercel-acquires-better-auth",
-    "desc": "",
-    "date": "2026-07-07",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Figma больше не первый инструмент дизайнера. И это не выбор",
-    "link": "https://habr.com/ru/companies/cloud_ru/articles/1055798/?utm_campaign=1055798&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Сначала был громкий тезис: «ИИ заменит дизайнеров». Потом пришел другой, помягче: мол, ничего он не заменит, наоборот — открыл возможности, дизайн теперь может больше. Звучит добрее, а врет сильнее. «Может» — слово с лазейкой. Оно намекает на выбор: хочешь — берешь новые инструменты, не хочешь — ...",
-    "date": "2026-07-07",
-    "source": "Habr Веб-дизайн",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Meet Kirki: WordPress’s First Visual Builder With An Infinite Canvas",
-    "link": "https://smashingmagazine.com/2026/07/kirki-wordpress-visual-builder-infinite-canvas/",
-    "desc": "We have been building websites inside boxes for years on WordPress. Let’s take a closer look at [Kirki](https://kirki.com/), the first freeform visual builder with an infinite canvas, and explore how it redefines the experience with cleaner performance, full design freedom, and zero plugin depend...",
-    "date": "2026-07-07",
-    "source": "Smashing Magazine",
     "cat": "misc",
     "lang": "en",
     "misc_type": "unfiltered"
