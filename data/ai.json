@@ -2,7 +2,7 @@
   {
     "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
     "link": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
-    "desc": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/ Comments URL: https://news.ycombinator.com/item?id=49997161 Points: 189 # Comments: 200",
+    "desc": "Article URL: https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/ Comments URL: https://news.ycombinator.com/item?id=49997161 Points: 229 # Comments: 226",
     "date": "2026-10-07",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,7 +11,7 @@
   {
     "title": "Claude Haiku 5.5",
     "link": "https://www.anthropic.com/claude-haiku-5-5",
-    "desc": "Article URL: https://www.anthropic.com/claude-haiku-5-5 Comments URL: https://news.ycombinator.com/item?id=49996437 Points: 530 # Comments: 250",
+    "desc": "Article URL: https://www.anthropic.com/claude-haiku-5-5 Comments URL: https://news.ycombinator.com/item?id=49996437 Points: 600 # Comments: 284",
     "date": "2026-10-07",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,7 +20,7 @@
   {
     "title": "GPT‑6 and Intelligent UI for everyone",
     "link": "https://openai.com/index/gpt-6-for-everyone/",
-    "desc": "Article URL: https://openai.com/index/gpt-6-for-everyone/ Comments URL: https://news.ycombinator.com/item?id=49996425 Points: 387 # Comments: 182",
+    "desc": "Article URL: https://openai.com/index/gpt-6-for-everyone/ Comments URL: https://news.ycombinator.com/item?id=49996425 Points: 437 # Comments: 222",
     "date": "2026-10-07",
     "source": "Hacker News",
     "cat": "ai",
@@ -38,7 +38,7 @@
   {
     "title": "SynthID Detector",
     "link": "https://synthid.com/",
-    "desc": "https://blog.google/innovation-and-ai/models-and-research/go... Comments URL: https://news.ycombinator.com/item?id=49993188 Points: 75 # Comments: 66",
+    "desc": "https://blog.google/innovation-and-ai/models-and-research/go... Comments URL: https://news.ycombinator.com/item?id=49993188 Points: 82 # Comments: 69",
     "date": "2026-10-07",
     "source": "Hacker News",
     "cat": "ai",
@@ -66,15 +66,6 @@
     "title": "Claude Code на Windows: что я прописал агенту, чтобы он перестал спотыкаться",
     "link": "https://habr.com/ru/articles/1091814/?utm_campaign=1091814&utm_source=habrahabr&utm_medium=rss",
     "desc": "Большая часть материалов про Claude Code написана под macOS и Linux. У меня часть задач завязана на Windows, в первую очередь браузерная автоматизация с живыми профилями Chrome, поэтому агент работает прямо в нативном окружении, без WSL. Сам Claude Code под Windows ведёт себя стабильно. Проблемы ...",
-    "date": "2026-10-07",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Claude Haiku 5.5 — новейшая модель уже на сайте",
-    "link": "https://habr.com/ru/articles/1091802/?utm_campaign=1091802&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В нейросетях NeuralSpace появилась новая модель — Claude Haiku 5.5 . Она уже доступна в чате , разделе «Код» и публичном API: это самая быстрая и экономичная модель линейки Haiku с контекстом 1M токенов. Отдельная страница модели — /chat/claude-haiku-5-5 . Читать далее",
     "date": "2026-10-07",
     "source": "Habr AI",
     "cat": "ai",
@@ -666,6 +657,15 @@
     "lang": "ru"
   },
   {
+    "title": "Claude Haiku 5.5 — новейшая модель уже на сайте",
+    "link": "https://habr.com/ru/articles/1091802/?utm_campaign=1091802&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В нейросетях NeuralSpace появилась новая модель — Claude Haiku 5.5 . Она уже доступна в чате , разделе «Код» и публичном API: это самая быстрая и экономичная модель линейки Haiku с контекстом 1M токенов. Отдельная страница модели — /chat/claude-haiku-5-5 . Читать далее",
+    "date": "2026-10-07",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Study: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth",
     "link": "https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
     "desc": "Article URL: https://www.bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth Comments URL: https://news.ycombinator.com/item?id=49994746 Points: 49 # Comments: 12",
@@ -790,6 +790,15 @@
     "source": "Vercel",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "OpenAI тестирует товарные карточки с лейблами в выдаче ChatGPT",
+    "link": "https://habr.com/ru/articles/1091268/?utm_campaign=1091268&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В ChatGPT заметили любопытную штуку: органические товарные результаты стали подсвечивать цветными лейблами . Зелёный достаётся \"лучшему универсальному\" варианту, серые расходятся по остальным критериям — \"лучший для новичков\", \"лучшая амортизация\" и так далее. Плашки нарочно выбиваются из текстов...",
+    "date": "2026-10-06",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Механизмы внимания в современных LLM",
@@ -1096,15 +1105,6 @@
     "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
-  },
-  {
-    "title": "OpenAI тестирует товарные карточки с лейблами в выдаче ChatGPT",
-    "link": "https://habr.com/ru/articles/1091268/?utm_campaign=1091268&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В ChatGPT заметили любопытную штуку: органические товарные результаты стали подсвечивать цветными лейблами . Зелёный достаётся \"лучшему универсальному\" варианту, серые расходятся по остальным критериям — \"лучший для новичков\", \"лучшая амортизация\" и так далее. Плашки нарочно выбиваются из текстов...",
-    "date": "2026-10-06",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
   },
   {
     "title": "Что ИИ поменял в моей схеме? Приращение вместо целого проекта",
