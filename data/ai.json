@@ -27,15 +27,6 @@
     "lang": "ru"
   },
   {
-    "title": "ИИ в техподдержке для разработчиков: от чат-ботов к агентам, которые чинят билды",
-    "link": "https://habr.com/ru/articles/1092290/?utm_campaign=1092290&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Ещё пару лет назад «ИИ в поддержке» означало чат-бота с кнопками, который многих раздражал. Сейчас картина изменилась радикально. В 2026 году службы поддержки разработчиков строят не одного умного бота, а комбинацию агентов: одни копают логи и код, другие готовят контекст для инженера, третьи – п...",
-    "date": "2026-10-09",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Anthropic запретила обижать Claude, а я матерюсь в каждом втором сообщении. Пришлось сделать Punto Switcher для промптов",
     "link": "https://habr.com/ru/articles/1092236/?utm_campaign=1092236&utm_source=habrahabr&utm_medium=rss",
     "desc": "Всем привет! 8 октября Anthropic обновила правила пользования своими моделями. Среди прочего там появился пункт, который меня обеспокоил: систематическая бессмысленная жестокость к моделям теперь под запретом. Я как раз писал об этом новость и поймал себя на мысли, что я буду первым, кого забанят...",
@@ -234,9 +225,18 @@
     "lang": "ru"
   },
   {
+    "title": "ИИ в техподдержке для разработчиков: от чат-ботов к агентам, которые чинят билды",
+    "link": "https://habr.com/ru/articles/1092290/?utm_campaign=1092290&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Ещё пару лет назад «ИИ в поддержке» означало чат-бота с кнопками, который многих раздражал. Сейчас картина изменилась радикально. В 2026 году службы поддержки разработчиков строят не одного умного бота, а комбинацию агентов: одни копают логи и код, другие готовят контекст для инженера, третьи – п...",
+    "date": "2026-10-09",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "OpenAI, the Partition Principle, and Mathematics",
     "link": "https://karagila.org/2026/openai-pp/",
-    "desc": "Article URL: https://karagila.org/2026/openai-pp/ Comments URL: https://news.ycombinator.com/item?id=50013902 Points: 116 # Comments: 166",
+    "desc": "Article URL: https://karagila.org/2026/openai-pp/ Comments URL: https://news.ycombinator.com/item?id=50013902 Points: 121 # Comments: 171",
     "date": "2026-10-08",
     "source": "Hacker News",
     "cat": "ai",
@@ -245,7 +245,7 @@
   {
     "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
     "link": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-    "desc": "Article URL: https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9 Comments URL: https://news.ycombinator.com/item?id=50002665 Points: 174 # Comments: 70",
+    "desc": "Article URL: https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9 Comments URL: https://news.ycombinator.com/item?id=50002665 Points: 176 # Comments: 70",
     "date": "2026-10-08",
     "source": "Hacker News",
     "cat": "ai",
@@ -1530,6 +1530,15 @@
     "lang": "ru"
   },
   {
+    "title": "Долгосрочная память для медицинского AI-ассистента: почему мы не отдали управление памятью LLM",
+    "link": "https://habr.com/ru/articles/1090888/?utm_campaign=1090888&utm_source=habrahabr&utm_medium=rss",
+    "desc": "При разработке персонального цифрового ассистента здоровья «Я Здоров» мы использовали долгосрочную память — LTM (Long-Term Memory). Сервис реализован в формате мобильного приложения: он собирает медицинские данные пользователя в единый цифровой профиль, позволяет хранить и оцифровывать медицински...",
+    "date": "2026-10-06",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Сравнили 461 тысячу AI‑ответов: упоминание бренда не коррелирует с цитированием источника",
     "link": "https://habr.com/ru/news/1091190/?utm_campaign=1091190&utm_source=habrahabr&utm_medium=rss",
     "desc": "Компания MarketScale , которая развивает B2B-платформу для создания и распространения экспертного контента, вчера обновила B2B Marketing Index — регулярно пересчитываемый набор данных о том, как пять крупных ИИ-систем упоминают B2B-бренды и ссылаются на источники. Проанализировали 461.281 ответ, ...",
@@ -1715,15 +1724,6 @@
     "desc": "«Вставил ссылку, вижу сериал со всеми сериями, выбрал озвучку, смотрю». С этой фразы началась Lapka, локальный аниме-плеер. Статья о решениях, из которых она сложилась, по сериям, как в аниме. Знакомый, которому я дал её потрогать, сказал так: >> Прикольно: нода крутится, парсит, а воспроизводит ...",
     "date": "2026-10-06",
     "source": "Habr Дизайн",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Долгосрочная память для медицинского AI-ассистента: почему мы не отдали управление памятью LLM",
-    "link": "https://habr.com/ru/articles/1090888/?utm_campaign=1090888&utm_source=habrahabr&utm_medium=rss",
-    "desc": "При разработке персонального цифрового ассистента здоровья «Я Здоров» мы использовали долгосрочную память — LTM (Long-Term Memory). Сервис реализован в формате мобильного приложения: он собирает медицинские данные пользователя в единый цифровой профиль, позволяет хранить и оцифровывать медицински...",
-    "date": "2026-10-06",
-    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
