@@ -20,19 +20,19 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
-    "link": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-    "desc": "Article URL: https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/ Comments URL: https://news.ycombinator.com/item?id=50024090 Points: 162 # Comments: 41",
-    "date": "2026-10-09",
-    "source": "Hacker News",
+    "title": "Вышел релиз stm32-gdbtest 0.4.1",
+    "link": "https://habr.com/ru/news/1092732/?utm_campaign=1092732&utm_source=habrahabr&utm_medium=rss",
+    "desc": "stm32-gdbtest проверяет работающую прошивку на настоящей плате: Python-сценарии управляют GDB через SWD-отладчик, тестового кода в прошивке нет. Что нового: • skip(reason) — завершение неприменимого сценария с отдельным исходом и объяснением причины; • сохранение произвольных записей сценария, эк...",
+    "date": "2026-10-10",
+    "source": "Habr AI Новости",
     "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
+    "lang": "ru",
+    "misc_type": "unfiltered"
   },
   {
-    "title": "Typesafe AI raises $870M at $7.5B",
-    "link": "https://typesafe.ai/blog/series-ai",
-    "desc": "Article URL: https://typesafe.ai/blog/series-ai Comments URL: https://news.ycombinator.com/item?id=50023450 Points: 412 # Comments: 327",
+    "title": "Recent AI models struggled to match a human algorithmic innovation",
+    "link": "https://epoch.ai/publications/innovationeval",
+    "desc": "Article URL: https://epoch.ai/publications/innovationeval Comments URL: https://news.ycombinator.com/item?id=50027257 Points: 51 # Comments: 39",
     "date": "2026-10-09",
     "source": "Hacker News",
     "cat": "misc",
@@ -57,6 +57,26 @@
     "source": "Rusbase",
     "cat": "misc",
     "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+    "link": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+    "desc": "Article URL: https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/ Comments URL: https://news.ycombinator.com/item?id=50024090 Points: 162 # Comments: 41",
+    "date": "2026-10-09",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Typesafe AI raises $870M at $7.5B",
+    "link": "https://typesafe.ai/blog/series-ai",
+    "desc": "Article URL: https://typesafe.ai/blog/series-ai Comments URL: https://news.ycombinator.com/item?id=50023450 Points: 412 # Comments: 327",
+    "date": "2026-10-09",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
     "misc_type": "raznoe"
   },
   {
@@ -10334,56 +10354,6 @@
     "link": "https://vercel.com/changelog/chat-sdk-adds-x-adapter-support",
     "desc": "",
     "date": "2026-07-14",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Agent Runs now show subagent activity on eve projects",
-    "link": "https://vercel.com/changelog/agent-runs-now-show-subagent-activity-on-eve-projects",
-    "desc": "",
-    "date": "2026-07-13",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Open-weight models surge to 29% of volume, price per token flattens",
-    "link": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
-    "desc": "",
-    "date": "2026-07-13",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Manage Vercel Flags targeting rules from the CLI",
-    "link": "https://vercel.com/changelog/manage-vercel-flags-targeting-rules-from-the-cli",
-    "desc": "",
-    "date": "2026-07-13",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Configure which sources can create deployments with Deployment Policies",
-    "link": "https://vercel.com/changelog/configure-which-sources-can-create-deployments-with-deployment-policies",
-    "desc": "",
-    "date": "2026-07-13",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Web Analytics and Speed Insights are now more cost-efficient",
-    "link": "https://vercel.com/changelog/web-analytics-and-speed-insights-are-now-more-cost-efficient",
-    "desc": "",
-    "date": "2026-07-13",
     "source": "Vercel",
     "cat": "misc",
     "lang": "en",
