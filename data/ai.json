@@ -1,5 +1,14 @@
 [
   {
+    "title": "The gap in shared understanding of LLM capability is widening",
+    "link": "https://twitter.com/karpathy/status/2109361546505966046",
+    "desc": "Article URL: https://twitter.com/karpathy/status/2109361546505966046 Comments URL: https://news.ycombinator.com/item?id=50047422 Points: 90 # Comments: 93",
+    "date": "2026-10-11",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Можно ли научить маленькую LLM учиться без роста весов? Продолжение: почему повторное обучение упёрлось в потолок",
     "link": "https://habr.com/ru/articles/1092998/?utm_campaign=1092998&utm_source=habrahabr&utm_medium=rss",
     "desc": "В первой статье я показал несколько опытов с небольшой моделью (её размер влезает в обычную домашнюю видеокарту) вокруг одного вопроса: может ли такая модель становиться умнее со временем — не раздуваясь до огромных размеров, а за счёт памяти, аккуратного дообучения и проверки ответов. Но я тогда...",
@@ -124,15 +133,6 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
-    "link": "https://arxiv.org/html/2610.05978v1",
-    "desc": "The paper challenges the assumption that language models need explicit tokenizers to be efficient demonstrating that standard flat Transformers can process raw byte sequences and actually outperform traditional subword models as parameter sizes scale. The prevailing thought in the field has been ...",
-    "date": "2026-10-10",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "Как Google научил крошечную модель понимать текст, картинки, видео и звук: разбираем EmbeddingGemma 2",
@@ -324,6 +324,15 @@
     "lang": "ru"
   },
   {
+    "title": "Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation",
+    "link": "https://arxiv.org/html/2610.05978v1",
+    "desc": "The paper challenges the assumption that language models need explicit tokenizers to be efficient demonstrating that standard flat Transformers can process raw byte sequences and actually outperform traditional subword models as parameter sizes scale. The prevailing thought in the field has been ...",
+    "date": "2026-10-10",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Стоимость современных серверов с поставкой в Россию удвоилась за год",
     "link": "https://3dnews.ru/1149740",
     "desc": "С октября 2025 года средняя цена сервера в России выросла в два раза, сообщил на мероприятии Selectel «ТехноДень» генеральный директор АО «Селектел» Олег Любимов. Он назвал две главные причины такого скачка стоимости — рост цен на оперативную память и ужесточение экспортного контроля Nvidia, из-з...",
@@ -417,15 +426,6 @@
     "title": "Рейтинг нейросетей для видео: сравнил 12 моделей на одном промпте (октябрь 2026)",
     "link": "https://habr.com/ru/companies/syntx_ai/articles/1092400/?utm_campaign=1092400&utm_source=habrahabr&utm_medium=rss",
     "desc": "Двенадцать нейросетей для видео прогнали на одном промпте: 8 секунд, 720p, по одному прогону (одной генерации) на модель. Первым по сумме баллов вышел Luma Ray 3.14: 9,1 из 10, две минуты, 5 токенов, дешевле всех в списке. Лучшую картинку показала Seedance 2.5, и она же самая дорогая: 138,7 токен...",
-    "date": "2026-10-09",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Аналитик и ИИ: три инструмента, которые превращают хаос в требования",
-    "link": "https://habr.com/ru/companies/ppr/articles/1092374/?utm_campaign=1092374&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Мы работаем на крупном проекте, где присутствует десятки интеграций, сотни бизнес-сценариев, документация в Confluence, а теперь ещё и описания бизнес-сценариев с помощью ИИ прямо в репозиториях. Это здорово выручает для погружения в проект, но всё равно не покрывает всю картину при работе над ко...",
     "date": "2026-10-09",
     "source": "Habr AI",
     "cat": "ai",
@@ -612,15 +612,6 @@
     "lang": "ru"
   },
   {
-    "title": "Anthropic прокачала Claude — теперь он визуализирует данные и создаёт анимацию прямо в чате",
-    "link": "https://3dnews.ru/1149702",
-    "desc": "Claude теперь умеет превращать обычный запрос в дашборд или анимацию. Anthropic представила два новых инструмента для бизнес-пользователей, которые позволяют анализировать данные в реальном времени и создавать визуальный контент прямо в чате. Источник изображения: anthropic.com",
-    "date": "2026-10-09",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "OpenAI уволила трёх исследователей безопасности ИИ — они опасаются, что компания заставит сотрудников молчать о рисках",
     "link": "https://3dnews.ru/1149720",
     "desc": "Трое бывших исследователей OpenAI рассказали, что их на прошлой неделе внезапно уволили за общение со сторонними организациями, занимающимися безопасностью ИИ. Они предупредили, что такие решения могут заставить сотрудников бояться открыто обсуждать риски искусственного интеллекта. Сама же OpenAI...",
@@ -639,6 +630,15 @@
     "lang": "ru"
   },
   {
+    "title": "Anthropic прокачала Claude — теперь он визуализирует данные и создаёт анимацию прямо в чате",
+    "link": "https://3dnews.ru/1149702",
+    "desc": "Claude теперь умеет превращать обычный запрос в дашборд или анимацию. Anthropic представила два новых инструмента для бизнес-пользователей, которые позволяют анализировать данные в реальном времени и создавать визуальный контент прямо в чате. Источник изображения: anthropic.com",
+    "date": "2026-10-09",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Anthropic запустила бесплатный сервис для поиска дыр в ПО с открытым исходным кодом",
     "link": "https://3dnews.ru/1149679",
     "desc": "Компания Anthropic представила бесплатный сервис сканирования OSS Scanner для регулярного поиска уязвимостей в проектах с открытым исходным кодом (open source). Сервис использует самые мощные ИИ-модели разработчика, включая Claude Mythos. Источник изображения: Anthropic",
@@ -651,15 +651,6 @@
     "title": "В Москве пройдет конференция TECH WEEK 2026",
     "link": "https://hi-tech.mail.ru/news/157596-v-moskve-projdet-konferenciya-tech-week-2026/",
     "desc": "18–19 ноября 2026 года в Москве в шестнадцатый раз пройдет конференция TECH WEEK — деловая конференция, посвященная практическому применению искусственного интеллекта и цифровых технологий в бизнесе. Организатором выступает Корпорация «Синергия», более 10 лет реализующая образовательные и деловые...",
-    "date": "2026-10-09",
-    "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Apple сокращает производство iPhone 18 Pro и iPhone 18 Pro Max: в чем дело",
-    "link": "https://hi-tech.mail.ru/news/157590-apple-sokrashaet-proizvodstvo-iphone-18-pro-i-iphone-18-pro-max-v-chem-delo/",
-    "desc": "Смартфоны поступили в продажу в середине сентября. Apple попросила некоторых поставщиков уменьшить производство компонентов для iPhone 18 Pro и iPhone 18 Pro Max из-за спроса, оказавшегося ниже ожиданий. Об этом сообщает Nikkei Asia со ссылкой на собственные источники. По данным издания, с начала...",
     "date": "2026-10-09",
     "source": "Hi-Tech Mail",
     "cat": "ai",
