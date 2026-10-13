@@ -1,8 +1,18 @@
 [
   {
-    "title": "Introducing OpenFatigue",
-    "link": "https://openfatigue.ai/",
-    "desc": "Article URL: https://openfatigue.ai/ Comments URL: https://news.ycombinator.com/item?id=50061278 Points: 52 # Comments: 12",
+    "title": "AI is a tool and using it well takes skill",
+    "link": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+    "desc": "Article URL: https://yyhh.org/blog/2026/10/ai-is-a-tool/ Comments URL: https://news.ycombinator.com/item?id=50063427 Points: 251 # Comments: 218",
+    "date": "2026-10-12",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+    "link": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+    "desc": "Article URL: https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html Comments URL: https://news.ycombinator.com/item?id=50063365 Points: 92 # Comments: 36",
     "date": "2026-10-12",
     "source": "Hacker News",
     "cat": "misc",
@@ -12,7 +22,7 @@
   {
     "title": "Muse Wonder",
     "link": "https://research.meta.ai/blog/muse-wonder",
-    "desc": "Article URL: https://research.meta.ai/blog/muse-wonder Comments URL: https://news.ycombinator.com/item?id=50059115 Points: 349 # Comments: 158",
+    "desc": "Article URL: https://research.meta.ai/blog/muse-wonder Comments URL: https://news.ycombinator.com/item?id=50059115 Points: 546 # Comments: 302",
     "date": "2026-10-12",
     "source": "Hacker News",
     "cat": "misc",
@@ -22,7 +32,7 @@
   {
     "title": "GLM-Legal",
     "link": "https://z.ai/blog/glm-legal",
-    "desc": "Article URL: https://z.ai/blog/glm-legal Comments URL: https://news.ycombinator.com/item?id=50058507 Points: 286 # Comments: 162",
+    "desc": "Article URL: https://z.ai/blog/glm-legal Comments URL: https://news.ycombinator.com/item?id=50058507 Points: 460 # Comments: 259",
     "date": "2026-10-12",
     "source": "Hacker News",
     "cat": "misc",
@@ -32,7 +42,7 @@
   {
     "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
     "link": "https://taylor.town/kk-ai-2026",
-    "desc": "Article URL: https://taylor.town/kk-ai-2026 Comments URL: https://news.ycombinator.com/item?id=50057668 Points: 72 # Comments: 15",
+    "desc": "Article URL: https://taylor.town/kk-ai-2026 Comments URL: https://news.ycombinator.com/item?id=50057668 Points: 147 # Comments: 48",
     "date": "2026-10-12",
     "source": "Hacker News",
     "cat": "misc",
@@ -60,6 +70,16 @@
     "misc_type": "raznoe"
   },
   {
+    "title": "Introducing OpenFatigue",
+    "link": "https://openfatigue.ai/",
+    "desc": "Article URL: https://openfatigue.ai/ Comments URL: https://news.ycombinator.com/item?id=50061278 Points: 52 # Comments: 12",
+    "date": "2026-10-12",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "Что обсудили на форуме «Цифровые решения» — главном ИТ-событии года",
     "link": "https://hi-tech.mail.ru/articles/157610-chto-obsudili-na-forume-cifrovye-resheniya/",
     "desc": "С 6 по 10 октября в Москве прошел форум «Цифровые решения», посвященный цифровой трансформации России. Рассказываем, что вошло в деловую программу мероприятия, и какие заявления сделали эксперты отрасли со сцены форума. Форум посвящен вопросам цифровой трансформации страны и реализации нацпроекта...",
@@ -83,6 +103,16 @@
     "title": "Что происходит с интернетом в Москве сегодня, 12 октября",
     "link": "https://hi-tech.mail.ru/news/144029-sboi-interneta-v-moskve/",
     "desc": "12 октября в Москве и области наблюдаются проблемы с мобильным интернетом. Разбираемся, в чем причина и в каких районах города связь работает хуже всего. Какие сервисы сейчас не работают в Москве и Московской области По данным системы мониторинга detector404, жалобы в регионе поступают на работу ...",
+    "date": "2026-10-12",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Почти половина сотрудников притворяется, что пользуется ИИ, чтобы угодить начальству",
+    "link": "https://hi-tech.mail.ru/news/157678-pochti-polovina-sotrudnikov-pritvoryaetsya-chto-polzuetsya/",
+    "desc": "По данным опроса Visier, 48% американских офисных работников преувеличивали перед коллегами и руководством, как часто и как умело они пользуются ИИ. Почти половина сотрудников в США приукрашивает свое умение работать с искусственным интеллектом, выяснила аналитическая компания Visier, которая раз...",
     "date": "2026-10-12",
     "source": "Hi-Tech Mail",
     "cat": "misc",
@@ -175,6 +205,16 @@
     "desc": "stm32-gdbtest проверяет работающую прошивку на настоящей плате: Python-сценарии управляют GDB через SWD-отладчик, тестового кода в прошивке нет. Что нового: • skip(reason) — завершение неприменимого сценария с отдельным исходом и объяснением причины; • сохранение произвольных записей сценария, эк...",
     "date": "2026-10-10",
     "source": "Habr AI Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "«Расстаньтесь с MacBook»: Microsoft доплатит до $1000 за переход с MacBook Pro на Surface Laptop Ultra",
+    "link": "https://3dnews.ru/1149754",
+    "desc": "Microsoft предложила владельцам MacBook Pro до $1000 дополнительного бонуса при сдаче ноутбука по программе трейд-ин и покупке нового Surface Laptop Ultra. Эти деньги выплачиваются сверх выкупной стоимости старого устройства. Таким образом компания рассчитывает привлечь пользователей ноутбуков Ap...",
+    "date": "2026-10-10",
+    "source": "3DNews",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -463,6 +503,16 @@
     "title": "Приниматоры решений: бенчмарк на русском для Jev‑style моделей",
     "link": "https://habr.com/ru/articles/1092000/?utm_campaign=1092000&utm_source=habrahabr&utm_medium=rss",
     "desc": "Последние пару лет мы довольно странно используем большие языковые модели. Из-за их умения делать всё мы пытаемся решить с их помощью всё — роутинг запросов, модерацию, оценку и многое другое. При этом такой сетап инженерно некрасивый: у нас есть модели, которые умеют вести диалог, хорошо програм...",
+    "date": "2026-10-08",
+    "source": "Habr ML",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "FRIDA Decisions: быстро думать на русском",
+    "link": "https://habr.com/ru/companies/sberbank/articles/1092056/?utm_campaign=1092056&utm_source=habrahabr&utm_medium=rss",
+    "desc": "FRIDA Decisions — открытая модель быстрого мышления для русского языка. Она выбирает вариант из списка, ставит оценку по шкале, отвечает «да» или «нет» и ранжирует кандидатов за один проход энкодера, без генерации текста и за десятки миллисекунд на RTX 5060 Ti. Её можно поставить везде, где сейча...",
     "date": "2026-10-08",
     "source": "Habr ML",
     "cat": "misc",
@@ -10434,96 +10484,6 @@
     "link": "https://vercel.com/changelog/write-utilization-now-available-in-isr-observability",
     "desc": "",
     "date": "2026-07-16",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-    "link": "https://huggingface.co/blog/real-world-voiceeq",
-    "desc": "",
-    "date": "2026-07-15",
-    "source": "Hugging Face",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Inkling from Thinking Machines is now available on AI Gateway",
-    "link": "https://vercel.com/changelog/inkling-from-thinking-machines-is-now-available-on-ai-gateway",
-    "desc": "",
-    "date": "2026-07-15",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Model Routing Is Simple. Until It Isn’t.",
-    "link": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
-    "desc": "",
-    "date": "2026-07-15",
-    "source": "Hugging Face",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Welcome Inkling by Thinking Machines",
-    "link": "https://huggingface.co/blog/thinkingmachines-inkling",
-    "desc": "",
-    "date": "2026-07-15",
-    "source": "Hugging Face",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "How Speechify serves 500,000 dynamic pages to 60 million users on Vercel",
-    "link": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
-    "desc": "",
-    "date": "2026-07-15",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Vercel Connect support in GitHub Tools",
-    "link": "https://vercel.com/changelog/vercel-connect-support-in-github-tools",
-    "desc": "",
-    "date": "2026-07-15",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Faster, predictable project linking in the Vercel CLI",
-    "link": "https://vercel.com/changelog/faster-predictable-project-linking-in-the-vercel-cli",
-    "desc": "",
-    "date": "2026-07-15",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Vercel Workflows trace viewer now has a minimap",
-    "link": "https://vercel.com/changelog/vercel-workflows-trace-viewer-now-has-a-minimap",
-    "desc": "",
-    "date": "2026-07-15",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Chat SDK adds Discord Components V2 support",
-    "link": "https://vercel.com/changelog/chat-sdk-adds-discord-components-v2-support",
-    "desc": "",
-    "date": "2026-07-15",
     "source": "Vercel",
     "cat": "misc",
     "lang": "en",

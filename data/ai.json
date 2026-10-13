@@ -1,8 +1,26 @@
 [
   {
-    "title": "AI models may be capable of self-replicating without access to a datacenter",
-    "link": "https://www.anthropic.com/research/self-replicating-ai",
-    "desc": "Article URL: https://www.anthropic.com/research/self-replicating-ai Comments URL: https://news.ycombinator.com/item?id=50061603 Points: 9 # Comments: 1",
+    "title": "Strengthening our defenses against distillation attacks",
+    "link": "https://www.anthropic.com/research/distillation-defenses",
+    "desc": "Article URL: https://www.anthropic.com/research/distillation-defenses Comments URL: https://news.ycombinator.com/item?id=50065553 Points: 10 # Comments: 14",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "ИИ начнет самокопироваться как вирус на чужих устройствах уже к концу 2026 года — Anthropic",
+    "link": "https://thecode.media/ii-nachnet-samokopirovatsya-kak-virus-na-chuzhih-ustrojstvah-uzhe-k-koncu-goda/",
+    "desc": "И это может стать серьезной проблемой в будущем Сообщение ИИ начнет самокопироваться как вирус на чужих устройствах уже к концу 2026 года — Anthropic появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-10-13",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+    "link": "https://github.com/prabanta-dev/janas",
+    "desc": "Article URL: https://github.com/prabanta-dev/janas Comments URL: https://news.ycombinator.com/item?id=50063717 Points: 50 # Comments: 20",
     "date": "2026-10-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,7 +29,7 @@
   {
     "title": "Codex CLI installs a persistent, self-updating background daemon by default",
     "link": "https://github.com/openai/codex/issues/48195",
-    "desc": "Article URL: https://github.com/openai/codex/issues/48195 Comments URL: https://news.ycombinator.com/item?id=50060694 Points: 191 # Comments: 115",
+    "desc": "Article URL: https://github.com/openai/codex/issues/48195 Comments URL: https://news.ycombinator.com/item?id=50060694 Points: 484 # Comments: 245",
     "date": "2026-10-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -36,6 +54,15 @@
     "lang": "en"
   },
   {
+    "title": "Может ли ИИ размножаться? Anthropic проверила, что для этого уже умеют модели",
+    "link": "https://habr.com/ru/articles/1093568/?utm_campaign=1093568&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Исследователи Anthropic купили пятнадцать Android TV-приставок примерно по 55 долларов, соединили их в сеть и запустили на них нейросеть. Та работала медленно, но работала. Каждая коробочка считала свою часть, а вместе они справлялись с моделью, для которой у отдельного устройства не хватило бы п...",
+    "date": "2026-10-12",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "На арене PlyLoom — Qwen против DeepSeek",
     "link": "https://habr.com/ru/articles/1093546/?utm_campaign=1093546&utm_source=habrahabr&utm_medium=rss",
     "desc": "Суть эксперимента сравнить графовые ответы 2-х моделей относительно друг-друга. Обоим моделям (QWEN 3.8 MAX и DEEPSEEK V4) был задан один и тот же перекрестный вопрос. Результаты загружены в PlyLoom для анализа и сравнения. Читать далее",
@@ -57,15 +84,6 @@
     "title": "Диктовка без «ну» и «вот»: Whisper на своём компьютере и маленький посредник к LLM",
     "link": "https://habr.com/ru/companies/miip/articles/1093468/?utm_campaign=1093468&utm_source=habrahabr&utm_medium=rss",
     "desc": "Я пишу книги, и кроме самих книг за день набирается много другого текста: сообщения, письма, задания нейросетям. Говорить быстрее, чем печатать, поэтому большую часть этого я диктую. Только живая речь, записанная слово в слово, читается плохо. Вот фраза, которую Whisper распознал без единой ошибк...",
-    "date": "2026-10-12",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Нашёл и проверил 6 сервисов с бесплатным доступом к GPT-6, Claude и API: лимиты, бонусы и результаты тестов",
-    "link": "https://habr.com/ru/articles/1093502/?utm_campaign=1093502&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Нашёл и проверил 6 сервисов с бесплатным доступом к GPT-6, Claude и другим ИИ-моделям. Среди них есть площадки с миллионами токенов ежедневно, бесплатными API-кредитами на $10-25 и временным доступом. Проверил доступность моделей, скорость ответов и ограничения. Рассказываю, что действительно раб...",
     "date": "2026-10-12",
     "source": "Habr AI",
     "cat": "ai",
@@ -315,11 +333,47 @@
     "lang": "ru"
   },
   {
+    "title": "Как сделать видео в ChatGPT: плагин для роликов, музыки и 3D",
+    "link": "https://vc.ru/ai/3191298-sozdanie-video-v-chatgpt-s-pomoshchyu-plagina-cyber-ai?from=rss",
+    "desc": "Sora закрыли, и видео в самом ChatGPT больше не сделать. Его возвращает плагин Cyber AI: просите ролик, песню, озвучку или 3D-модель обычными словами, и готовый файл приходит в чат. Ставится плагин по этой ссылке.",
+    "date": "2026-10-12",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Картинки, видео и музыка в Claude: как подключить плагин",
+    "link": "https://vc.ru/ai/3191297-kak-podklyuchit-plagin-cyber-ai-v-claude?from=rss",
+    "desc": "Claude сам не рисует и не снимает видео, но с плагином Cyber AI делает в чате картинки, ролики, песни, озвучку и 3D-модели. Подключается он по этой ссылке. После регистрации на счёт приходят приветственные рубли, первую картинку можно сделать на них.",
+    "date": "2026-10-12",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Китайские нейросети почти догнали американские: в чем причина рывка",
     "link": "https://vc.ru/ai/3189913-kitaiskie-neiroseti-obgonaiut-amerikanskie?from=rss",
     "desc": "Когда DeepSeek, Qwen и Kimi сместят с пьедестала OpenAI",
     "date": "2026-10-12",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Intel вырезала из GPU блоки 3D-графики и трассировки лучей ради ИИ — представлен D270 с поддержкой до 480 Гбайт LPDDR5X",
+    "link": "https://3dnews.ru/1149823",
+    "desc": "Компания Intel официально представила графические ускорители серии D на саммите Open Compute Project (OCP) 2026. Ранее известная под кодовым названием Crescent Island новинка теперь значится на официальном сайте компании как Intel GPU D270. Ускоритель построен на архитектуре Xe3P и предназначен д...",
+    "date": "2026-10-12",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "M**a выпустила конкурентов GPT-6 Astra и Claude Fable — мощнейшие ИИ-модели Muse Wonder и Wonder Full",
+    "link": "https://3dnews.ru/1149812",
+    "desc": "Компани M**a выпустила две новые ИИ-модели — Muse Wonder и Muse Wonder Full, которые позиционируются как прямые конкуренты лучшим моделям OpenAI и Anthropic. Доступ к новинкам уже открыт для подписчиков сервиса Muse Code, а модель Wonder также стала доступна через M**a Model API. Источник изображ...",
+    "date": "2026-10-12",
+    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -336,15 +390,6 @@
     "title": "Microsoft представила Maia 300 — 2-нм чиплетный ИИ-ускоритель для снижения зависимости от Nvidia",
     "link": "https://3dnews.ru/1149802",
     "desc": "Microsoft представила чип Maia 300, который призван снизить зависимость от графических процессоров Nvidia и стать «основной системой для выполнения ИИ-вычислений» в продуктах и ​​сервисах компании. По словам Microsoft, Maia 300 повышает эффективность и производительность инференса, лучше справляе...",
-    "date": "2026-10-12",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "M**a выпустила конкурентов GPT-6 Astra и Claude Fable — мощнейшие ИИ-модели Muse Wonder и Wonder Full",
-    "link": "https://3dnews.ru/1149812",
-    "desc": "Компани M**a выпустила две новые ИИ-модели — Muse Wonder и Muse Wonder Full, которые позиционируются как прямые конкуренты лучшим моделям OpenAI и Anthropic. Доступ к новинкам уже открыт для подписчиков сервиса Muse Code, а модель Wonder также стала доступна через M**a Model API. Источник изображ...",
     "date": "2026-10-12",
     "source": "3DNews",
     "cat": "ai",
@@ -378,11 +423,20 @@
     "lang": "ru"
   },
   {
-    "title": "Почти половина сотрудников притворяется, что пользуется ИИ, чтобы угодить начальству",
-    "link": "https://hi-tech.mail.ru/news/157678-pochti-polovina-sotrudnikov-pritvoryaetsya-chto-polzuetsya/",
-    "desc": "По данным опроса Visier, 48% американских офисных работников преувеличивали перед коллегами и руководством, как часто и как умело они пользуются ИИ. Почти половина сотрудников в США приукрашивает свое умение работать с искусственным интеллектом, выяснила аналитическая компания Visier, которая раз...",
+    "title": "AI models may be capable of self-replicating without access to a datacenter",
+    "link": "https://www.anthropic.com/research/self-replicating-ai",
+    "desc": "Article URL: https://www.anthropic.com/research/self-replicating-ai Comments URL: https://news.ycombinator.com/item?id=50061603 Points: 9 # Comments: 1",
     "date": "2026-10-12",
-    "source": "Hi-Tech Mail",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Нашёл и проверил 6 сервисов с бесплатным доступом к GPT-6, Claude и API: лимиты, бонусы и результаты тестов",
+    "link": "https://habr.com/ru/articles/1093502/?utm_campaign=1093502&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Нашёл и проверил 6 сервисов с бесплатным доступом к GPT-6, Claude и другим ИИ-моделям. Среди них есть площадки с миллионами токенов ежедневно, бесплатными API-кредитами на $10-25 и временным доступом. Проверил доступность моделей, скорость ответов и ограничения. Рассказываю, что действительно раб...",
+    "date": "2026-10-12",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -432,24 +486,6 @@
     "lang": "ru"
   },
   {
-    "title": "Я потратила $9 000 на ИИ-агентов и в итоге сделала Crossweft — проверку того, что они ломают между файлами",
-    "link": "https://habr.com/ru/articles/1092980/?utm_campaign=1092980&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я потратила больше $9 000 и больше миллиарда токенов, пытаясь сделать нормальную безопасность в приложении, которое разрабатываю с января. Сама программа работала прекрасно, а слои защиты не сходились друг с другом: что-то менялось в одном месте, и ломалось в другом. Я перепробовала бесчисленное ...",
-    "date": "2026-10-11",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "[Перевод] Восемь допущений о безопасности, которые ИИ-агенты тихо ломают",
-    "link": "https://habr.com/ru/articles/1092350/?utm_campaign=1092350&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Бен Лорика (Gradient Flow) разбирает недавние атаки с участием ИИ-агентов. В одном взломе работа, на которую у людей-операторов, по оценке, ушло бы около двух недель, заняла меньше десяти часов, а в инциденте Hugging Face восстановили около 17 600 действий агента за четыре с половиной дня. Эксплу...",
-    "date": "2026-10-11",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "ИИ-гид по обществознанию",
     "link": "https://habr.com/ru/articles/1092874/?utm_campaign=1092874&utm_source=habrahabr&utm_medium=rss",
     "desc": "В 2026/27 учебном году школы переходят на единые учебники по обществознанию, а ответ на уроке оценивают «по учебнику», а не «по здравому смыслу». Я собрал прототип чат-бота, который ищет ответы в текстах учебников 9 и 10 классов и указывает страницу: pymupdf4llm, FAISS, multilingual-e5-large и Qw...",
@@ -464,6 +500,24 @@
     "desc": "Кэширование истории снизило расходы браузерного агента в 29 раз без смены модели. Со сменой — в 76 раз. За счёт чего сократили расходы",
     "date": "2026-10-11",
     "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Я потратила $9 000 на ИИ-агентов и в итоге сделала Crossweft — проверку того, что они ломают между файлами",
+    "link": "https://habr.com/ru/articles/1092980/?utm_campaign=1092980&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я потратила больше $9 000 и больше миллиарда токенов, пытаясь сделать нормальную безопасность в приложении, которое разрабатываю с января. Сама программа работала прекрасно, а слои защиты не сходились друг с другом: что-то менялось в одном месте, и ломалось в другом. Я перепробовала бесчисленное ...",
+    "date": "2026-10-11",
+    "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "[Перевод] Восемь допущений о безопасности, которые ИИ-агенты тихо ломают",
+    "link": "https://habr.com/ru/articles/1092350/?utm_campaign=1092350&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Бен Лорика (Gradient Flow) разбирает недавние атаки с участием ИИ-агентов. В одном взломе работа, на которую у людей-операторов, по оценке, ушло бы около двух недель, заняла меньше десяти часов, а в инциденте Hugging Face восстановили около 17 600 действий агента за четыре с половиной дня. Эксплу...",
+    "date": "2026-10-11",
+    "source": "Habr DevOps",
     "cat": "ai",
     "lang": "ru"
   },
@@ -553,7 +607,7 @@
     "link": "https://habr.com/ru/articles/1092812/?utm_campaign=1092812&utm_source=habrahabr&utm_medium=rss",
     "desc": "6 октября 2026 года Google DeepMind выпустила EmbeddingGemma 2 — открытую модель эмбеддингов, которая превращает в векторы текст, код, изображения, видео и аудио. Все они попадают в одно общее 768-мерное пространство, поэтому их можно сравнивать между собой, например искать видео по текстовому за...",
     "date": "2026-10-10",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1242,24 +1296,6 @@
     "lang": "ru"
   },
   {
-    "title": "Усредняющие сети: как ускорить 8-битные сети почти без потери точности",
-    "link": "https://habr.com/ru/companies/smartengines/articles/1092088/?utm_campaign=1092088&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Чтобы распознать документ на смартфоне , мало хорошо обучить нейросеть читать текст. Нужно ещё добиться, чтобы она делала это быстро на процессоре самого устройства. При разработке Smart Document Engine, системы распознавания и анализа документов , мы решаем именно такие задачи: обработка должна ...",
-    "date": "2026-10-08",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "FRIDA Decisions: быстро думать на русском",
-    "link": "https://habr.com/ru/companies/sberbank/articles/1092056/?utm_campaign=1092056&utm_source=habrahabr&utm_medium=rss",
-    "desc": "FRIDA Decisions — открытая модель быстрого мышления для русского языка. Она выбирает вариант из списка, ставит оценку по шкале, отвечает «да» или «нет» и ранжирует кандидатов за один проход энкодера, без генерации текста и за десятки миллисекунд на RTX 5060 Ti. Её можно поставить везде, где сейча...",
-    "date": "2026-10-08",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "CrowdStrike по истории Claude Code вычислили хакера, который атаковал банки Южной Кореи",
     "link": "https://habr.com/ru/news/1092204/?utm_campaign=1092204&utm_source=habrahabr&utm_medium=rss",
     "desc": "Специалисты CrowdStrike вычислили хакера, атаковавшего банки Южной Кореи, по истории чатов с Claude Code. Исследователи нашли возраст, место проживания и аккаунт в Telegram атакующего. Читать далее",
@@ -1436,6 +1472,15 @@
     "desc": "GPT Image 2.5, 2 и 1.5 работают по API под одним ключом CyHUB, оплата в рублях. Версия 2.5 отдаёт PNG с прозрачным фоном и картинки до 4K. На путеводителе с подписями она в моих прогонах не сделала ни одной опечатки, а Nano Banana на том же шаблоне путала буквы.",
     "date": "2026-10-08",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Усредняющие сети: как ускорить 8-битные сети почти без потери точности",
+    "link": "https://habr.com/ru/companies/smartengines/articles/1092088/?utm_campaign=1092088&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Чтобы распознать документ на смартфоне , мало хорошо обучить нейросеть читать текст. Нужно ещё добиться, чтобы она делала это быстро на процессоре самого устройства. При разработке Smart Document Engine, системы распознавания и анализа документов , мы решаем именно такие задачи: обработка должна ...",
+    "date": "2026-10-08",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
