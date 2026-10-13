@@ -18,6 +18,24 @@
     "lang": "ru"
   },
   {
+    "title": "Nvidia может выпустить видеокарту RTX 5080 с 24 ГБ памяти — модель будет стоить до 252 тыс. ₽",
+    "link": "https://rb.ru/news/nvidia-mozhet-vypustit-videokartu-rtx-5080-s-24-gb-pamyati-model-budet-stoit-do-252-tys/",
+    "desc": "Nvidia планирует вернуться к разработке ранее отложенной видеокарты RTX 5080 с 24 ГБ памяти, пишет MyDrivers со ссылкой на отраслевые источники. Выход модели ожидается в I квартале 2027 года. Сама компания эти планы пока не подтверждала.",
+    "date": "2026-10-13",
+    "source": "Rusbase",
+    "cat": "platform",
+    "lang": "ru"
+  },
+  {
+    "title": "HP выпустила EliteBoard G2a — компьютер в клавиатуре с чипом AMD Ryzen AI Pro 400 и ценой $3000–4000",
+    "link": "https://3dnews.ru/1149876",
+    "desc": "Компания HP представила EliteBoard G2a — мини-ПК второго поколения в виде клавиатуры, оснащённый процессорами AMD Ryzen AI Pro 400. Новая модель пришла на смену EliteBoard G1a на базе чипов Ryzen AI 300, представленной на выставке CES 2026. Несмотря на обновление, HP сохранила прежний компактный ...",
+    "date": "2026-10-13",
+    "source": "3DNews",
+    "cat": "platform",
+    "lang": "ru"
+  },
+  {
     "title": "Пять инженерных решений, которые нужно принять до генерации кода с AI",
     "link": "https://habr.com/ru/articles/1093276/?utm_campaign=1093276&utm_source=habrahabr&utm_medium=rss",
     "desc": "В собственном маркетплейсе я однажды обнаружил ошибку в обработчике платежей. Логика выглядела правильной: проверить статус PENDING, перевести операцию в SUCCESS и начислить баланс. Но при одновременной обработке двух webhook’ов оба запроса могли пройти проверку и начислить деньги дважды. Этот ко...",
@@ -342,15 +360,6 @@
     "lang": "ru"
   },
   {
-    "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-    "link": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-    "desc": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Blog .",
-    "date": "2026-09-28",
-    "source": "GitHub Blog",
-    "cat": "platform",
-    "lang": "en"
-  },
-  {
     "title": "[Перевод] Федеративное обучение без единой инфраструктуры: Docker, Kubernetes и Slurm в одной федерации",
     "link": "https://habr.com/ru/companies/vktech/articles/1087398/?utm_campaign=1087398&utm_source=habrahabr&utm_medium=rss",
     "desc": "VK Cloud перевела материал о том, как NVIDIA FLARE помогает участникам проекта федеративного обучения работать вместе, даже если у них разные инфраструктуры. Рассказываем, зачем платформе двухуровневая архитектура и как каждая организация сохраняет контроль над своими данными и вычислительными ре...",
@@ -358,6 +367,15 @@
     "source": "Habr Облака",
     "cat": "platform",
     "lang": "ru"
+  },
+  {
+    "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+    "link": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+    "desc": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app. The post How we found 24 Android vulnerabilities using our open source AI security agent appeared first on The GitHub Blog .",
+    "date": "2026-09-28",
+    "source": "GitHub Blog",
+    "cat": "platform",
+    "lang": "en"
   },
   {
     "title": "ИИ-агентов научат соблюдать «границы»: Nvidia представила платформу Open Agent Safety",

@@ -1,30 +1,111 @@
 [
   {
-    "title": "Show HN: Use your OpenAI subscription to create audiobooks",
-    "link": "https://pdftomp3.com/connect-ai/",
-    "desc": "Article URL: https://pdftomp3.com/connect-ai/ Comments URL: https://news.ycombinator.com/item?id=50069337 Points: 104 # Comments: 55",
+    "title": "Gemini 4 Argon for Robotics",
+    "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
+    "desc": "Main thread: Gemini 4 Argon - https://news.ycombinator.com/item?id=50073879 Comments URL: https://news.ycombinator.com/item?id=50074869 Points: 132 # Comments: 29",
     "date": "2026-10-13",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
-    "link": "https://www.argmin.net/p/faster-fourier-transforms",
-    "desc": "Article URL: https://www.argmin.net/p/faster-fourier-transforms Comments URL: https://news.ycombinator.com/item?id=50065932 Points: 203 # Comments: 129",
+    "title": "Gemini 4 Argon",
+    "link": "https://deepmind.google/models/gemini/",
+    "desc": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 672 # Comments: 551",
     "date": "2026-10-13",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "2026 in LLMs (so far)",
-    "link": "https://www.wearedevelopers.com/videos/100537-2026-in-llms-so-far",
-    "desc": "Comments",
+    "title": "Redesigning source control at Anthropic",
+    "link": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "desc": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 283 # Comments: 254",
     "date": "2026-10-13",
-    "source": "Lobsters",
+    "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
+    "link": "https://news.ycombinator.com/item?id=50073471",
+    "desc": "Hey Hacker News! I'm Eric, the founder of Consus. We route all AI requests to ITAR restricted and controlled unclassified information (CUI) compliant infrastructure. Consus itself satisfies ITAR restrictions, and we recently completed our FedRAMP equivalency audit against the 410 FedRAMP High con...",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "How to engineer an AI harness for game development",
+    "link": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+    "desc": "Article URL: https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code Comments URL: https://news.ycombinator.com/item?id=50072120 Points: 75 # Comments: 30",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Gemini 4 Argon now available on AI Gateway",
+    "link": "https://vercel.com/changelog/gemini-4-argon-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-10-13",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Наступает эра индивидуального софта",
+    "link": "https://habr.com/ru/articles/1094056/?utm_campaign=1094056&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сегодня в сетях бушуют дискуссии о том, умеют ли LLM писать нормальный, хороший код. С одной стороны, ИИ-энтузиасты рассказывают как они с одного промта пишут приложения, как поручают ИИ ревьювить то, что написала другая LLM и как все проблемы решаются через те же ИИ. С другой, традиционные прогр...",
+    "date": "2026-10-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Новый GPT-6 собирает ответы ChatGPT из диаграмм, кнопок и форм. Как туда попадает бренд, в OpenAI не сказали",
+    "link": "https://habr.com/ru/articles/1094044/?utm_campaign=1094044&utm_source=habrahabr&utm_medium=rss",
+    "desc": "С выходом GPT-6 ChatGPT может отвечать текстом вместе с диаграммой, формой или набором кнопок. У всех, кто отвечает за видимость сайта в нейросетях, сразу возникает вопрос: как бренд попадает в эти элементы. Я прочитал анонс OpenAI от 7 октября , справки OpenAI и первые SEO-разборы. Правил отбора...",
+    "date": "2026-10-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "8 неочевидных вариантов использования Claude Opus 5.5",
+    "link": "https://habr.com/ru/articles/1094032/?utm_campaign=1094032&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я использую новую модель Opus 5.5 в работе уже больше недели, и впечатления у меня пока только хорошие. Практически всё, о чём я ее прошу, модель генерирует почти без ошибок, при этом нет необходимости постоянно следить за ней и исправлять результаты. К тому же стоимость токенов гораздо меньше по...",
+    "date": "2026-10-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Период полураспада бенчмарка ИИ сократился вдвое: 19 месяцев вместо 38",
+    "link": "https://habr.com/ru/articles/1090426/?utm_campaign=1090426&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В мае я подал OenoBench, винный бенчмарк для языковых моделей, на NeurIPS. В дискуссии с ревьюерами всплыл вопрос, на который ни у меня, ни у них не было опоры: какой результат на релизе считать достаточным для нового бенчмарка и сколько он вообще проживёт. Чтобы ответить, я собрал 224 бенчмарка,...",
+    "date": "2026-10-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ, Интернет и будущее мира",
+    "link": "https://habr.com/ru/articles/1093964/?utm_campaign=1093964&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Давайте посмотрим на заголовки новостей за последние пару месяцев: 1. Побег из тестовой среды и атаки агентов OpenAI В августе и октябре 2026 года стало известно о серьезных инцидентах с автономными ИИ-агентами от OpenAI. Выяснилось, что разработанные модели ИИ в ходе тестов на безопасность самос...",
+    "date": "2026-10-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "AIOps: наш опыт внедрения HolmesGPT на трёх проектах",
+    "link": "https://habr.com/ru/articles/1091654/?utm_campaign=1091654&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Мы внедрили HolmesGPT — open-source SRE-агента — в шести Kubernetes-кластерах на трёх проектах. Теперь через несколько минут после алерта рядом с ним в чате лежит гипотеза: что происходит, почему и что проверить. Дежурный не начинает расследование с нуля. Готовой связки с Alertmanager в открытой ...",
+    "date": "2026-10-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Зачем ИИ-агентам свои языки и можно ли их прочитать",
@@ -117,7 +198,7 @@
     "lang": "ru"
   },
   {
-    "title": "Хронология инцидентов с ИИ-агентами: два разных класса и чек-лист изоляции для своего агента",
+    "title": "Хронология инцидентов с ИИ‑агентами: два разных класса и чек‑лист изоляции для своего агента",
     "link": "https://habr.com/ru/companies/syntx_ai/articles/1093670/?utm_campaign=1093670&utm_source=habrahabr&utm_medium=rss",
     "desc": "За три месяца OpenAI, Anthropic, Google и Meta раскрыли серию случаев, когда агенты вышли за рамки теста или задачи. Агентство AP собрало их в одну хронологию, но в ней смешаны два разных типа происшествий с разными причинами. Ниже разбор, чем они отличаются, и список из восьми проверок, который ...",
     "date": "2026-10-13",
@@ -137,25 +218,7 @@
   {
     "title": "Вышла Muse Wonder и Full: модель обогнала GPT-6 Astra и Gemini 4 Argon",
     "link": "https://habr.com/ru/companies/gptunnel/articles/1093648/?utm_campaign=1093648&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Meta* выпустила Muse Wonder и Muse Wonder Full – две новые модели, которые компания называет самыми мощными в своей истории. Их делали для «персональных и профессиональных» ИИ-агентов: такая модель помнит пользователя между диалогами, не останавливается при первой ошибке и доводит длинную задачу ...",
-    "date": "2026-10-13",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Бесплатная верстка и перевод книг: как я создал конвейер, работающий на видеокарте",
-    "link": "https://habr.com/ru/articles/1093034/?utm_campaign=1093034&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Три месяца отладки, десятки книг и переход от Claude к локальным моделям. Рассказываю, как собрал открытый конвейер перевода и вёрстки книг: MinerU распознаёт страницы, Hy-MT2 переводит текст, а Python-скрипты собирают LaTeX и PDF. Показываю запуск без управляющего ИИ-агента, схемы работы и как о...",
-    "date": "2026-10-13",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Как использовать ChatGPT, чтобы получить 360 сертификатов по искусственному интеллекту за один день",
-    "link": "https://habr.com/ru/articles/1093616/?utm_campaign=1093616&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я отправил ИИ-агента проходить онлайн-курсы OpenAI, Anthropic, Google. Через 6-30 минут тесты сданы на 10 из 10 баллов, и готов сертификат на мое имя. Причем я даже не открывал учебные материалы. В статье покажу, как это работает: от авторизации в браузере до получения готового сертификата. Спойл...",
+    "desc": "Meta* выпустила Muse Wonder и Muse Wonder Full — две новые модели, которые компания называет самыми мощными в своей истории. Их делали для «персональных и профессиональных» ИИ‑агентов: такая модель помнит пользователя между диалогами, не останавливается при первой ошибке и доводит длинную задачу ...",
     "date": "2026-10-13",
     "source": "Habr AI",
     "cat": "ai",
@@ -167,6 +230,15 @@
     "desc": "Команда Qwen из Alibaba выпустила Qwen-Image-2.1 — модель для генерации и редактирования изображений на базе diffusion transformer с 7 млрд параметров, поддержкой нативного вывода до 2K и лицензией Qwen Research License. Она умеет Читать далее",
     "date": "2026-10-13",
     "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Gemini 4 Argon вышла из закрытого теста: пишет в 15 раз больше, чем Gemini 3",
+    "link": "https://habr.com/ru/companies/gptunnel/news/1094038/?utm_campaign=1094038&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Через две недели после закрытого старта Google открыла доступ к Gemini 4 Argon – новому флагману компании. Модель анонсировали 30 сентября, но тогда к ней допустили только доверенных участников из программы Fairwind. Теперь Argon доступна через Gemini API, а также подписчикам Google AI Pro и Ultr...",
+    "date": "2026-10-13",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -252,11 +324,20 @@
     "lang": "ru"
   },
   {
-    "title": "AIOps: наш опыт внедрения HolmesGPT на трёх проектах",
-    "link": "https://habr.com/ru/articles/1091654/?utm_campaign=1091654&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Мы внедрили HolmesGPT — open-source SRE-агента — в шести Kubernetes-кластерах на трёх проектах. Теперь через несколько минут после алерта рядом с ним в чате лежит гипотеза: что происходит, почему и что проверить. Дежурный не начинает расследование с нуля. Готовой связки с Alertmanager в открытой ...",
+    "title": "Бесплатная верстка и перевод книг: как я создал конвейер, работающий на видеокарте",
+    "link": "https://habr.com/ru/articles/1093034/?utm_campaign=1093034&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Три месяца отладки, десятки книг и переход от Claude к локальным моделям. Рассказываю, как собрал открытый конвейер перевода и вёрстки книг: MinerU распознаёт страницы, Hy-MT2 переводит текст, а Python-скрипты собирают LaTeX и PDF. Показываю запуск без управляющего ИИ-агента, схемы работы и как о...",
     "date": "2026-10-13",
-    "source": "Habr Open Source",
+    "source": "Habr NLP",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Где мне пригодился OpenClaw, а где обычный код оказался лучше. 3 истории из практики",
+    "link": "https://habr.com/ru/articles/1093976/?utm_campaign=1093976&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Последние несколько месяцев я довольно плотно занимаюсь агентом на OpenClaw и постепенно подключаю его к рабочим системам, добавляю инструменты, пробую автоматизировать разные процессы. Иногда все получается довольно быстро, а иногда приходится возвращаться к тому, что уже давно работало и разбир...",
+    "date": "2026-10-13",
+    "source": "Habr Python",
     "cat": "ai",
     "lang": "ru"
   },
@@ -270,20 +351,11 @@
     "lang": "ru"
   },
   {
-    "title": "Сбер запустил бесплатную платформу для создания ИИ-агентов — собрать помощника можно без навыков программирования",
-    "link": "https://rb.ru/news/sber-zapustil-besplatnuyu-platformu-dlya-sozdaniya-ii-agentov-sobrat-pomoshnika-mozhno-bez-navykov-programmirovaniya/",
-    "desc": "Сбер представил бесплатную платформу GigaPlatform AI Studio, в которой пользователи могут создавать ИИ-агентов без навыков программирования. Сервис объединяет модели семейства GigaChat и инструменты для работы с документами и голосом. По оценке компании, платформа позволяет сократить путь от идеи...",
+    "title": "Anthropic усилила защиту Claude от конкурентов — объём утечек данных сократился почти на 100%",
+    "link": "https://rb.ru/news/anthropic-usilila-zashitu-claude-ot-konkurentov-obyom-utechek-dannyh-sokratilsya-pochti-na-100/",
+    "desc": "Anthropic разработала новый механизм защиты от копирования ИИ-моделей Claude, пишет Reuters. Разработчик также заблокировал десятки тысяч аккаунтов, созданных конкурентами для извлечения данных. Среди компаний, которые, по утверждению Anthropic, пытались перенести возможности Claude в собственную...",
     "date": "2026-10-13",
     "source": "Rusbase",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "ИИ-агенты и новый Вавилон: Почему «отказоустойчивость» важнее эффективности 🏗⚡☠",
-    "link": "https://vc.ru/ai/3192263-ii-agenty-i-otkazoustojchivost?from=rss",
-    "desc": "TheoLens LowGeek (TLLGeek)",
-    "date": "2026-10-13",
-    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -297,8 +369,17 @@
     "lang": "ru"
   },
   {
+    "title": "Я сделал игру с помощью Claude и пытаюсь на ней заработать. День 1 Сразу честно: в геймдеве я полный ноль, в программировании тоже, зато есть подписка, в целом все.",
+    "link": "https://vc.ru/id6145671/3193159-sozdanie-igry-s-pomoshchyu-claude?from=rss",
+    "desc": "Открыл Claude Code и написал примерно так: «Сделай залипательную игру, чтобы она приносила деньги. Проведи анализ рынка. Я ничего не умею, вопросов не задавай, просто сделай».",
+    "date": "2026-10-13",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Популярные нейросети в одном окне ChatGPT и Claude: обзор плагина",
-    "link": "https://vc.ru/ai/3192504-populyarnye-neiroseti-v-odnom-okne-chatgpt-i-claude-obzor-plagina?from=rss",
+    "link": "https://vc.ru/ai/3192504-obzor-plagina-cyber-ai-dlya-chatgpt-i-claude?from=rss",
     "desc": "С плагином Cyber AI чаты ChatGPT и Claude делают ролики, картинки, песни, озвучку и 3D-модели на двух десятках нейросетей. Просите своими словами, готовый файл приходит в переписку. Ставится плагин в ChatGPT и в Claude.",
     "date": "2026-10-13",
     "source": "vc.ru",
@@ -342,6 +423,33 @@
     "lang": "ru"
   },
   {
+    "title": "ИИ ускорил написание кода на 30 %, но готового ПО больше не стало — исследователи узнали, почему",
+    "link": "https://3dnews.ru/1149875",
+    "desc": "Искусственный интеллект действительно значительно повышает производительность труда программистов при написании программного кода, установили американские учёные. Но вместе с тем обнаружилась другая проблема: участие человека в итоге оказывается фактором, который замедляет разработку ПО. Источник...",
+    "date": "2026-10-13",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Nvidia вдвое ускорила нейронный рендеринг DLSS 5 и снизила потребление видеопамяти на 20 %",
+    "link": "https://3dnews.ru/1149863",
+    "desc": "Компания Nvidia анонсировала очередное обновление технологии DLSS 5, которое ускорит работу модели для нейронного рендеринга в два раза по сравнению с сентябрьской версией технологии. Обновление выйдет 16 октября для видеокарт серии GeForce RTX 50, ноутбуков на процессорах RTX Spark и сервиса GeF...",
+    "date": "2026-10-13",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "SpaceXSI объединила Grok, Grok Bot, Cursor и X Premium в одну подписку — от $0 до $200 в месяц",
+    "link": "https://3dnews.ru/1149853",
+    "desc": "Компания SpaceXSI, до недавнего времени известная как SpaceXAI, объединила Grok, Cursor и X Premium в одну подписку с тарифами от бесплатного до $200 в месяц. «Впервые единая подписка на ИИ-сервисы охватывает весь цикл работы: от возникновения идеи и создания контента до реализации проекта и обме...",
+    "date": "2026-10-13",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Китайцы купили миллион видеокарт GeForce для ИИ — тем временем Huawei захватывает рынок ИИ-чипов",
     "link": "https://3dnews.ru/1149832",
     "desc": "Китайские разработчики ИИ-моделей не брезгуют покупкой американских игровых видеокарт и решений для рабочих станций. При этом доля продукции Nvidia на китайском рынке ИИ-ускорителей продолжает снижаться, а не относящиеся к категории GPU ускорители здесь уже начали доминировать по итогам прошлого ...",
@@ -354,6 +462,15 @@
     "title": "«Больше никакого рукописного кода»: Epic Games отложила шутер с героями Disney и перевела разработчиков на Claude",
     "link": "https://3dnews.ru/1149826",
     "desc": "Подтверждённый в феврале 2024 года совместный проект разработчиков Fortnite из студии Epic Games и корпорации Disney не выйдет в ближайшее время и будет по большей части создан с помощью генеративного ИИ. Источник изображений: Epic Games",
+    "date": "2026-10-13",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Google добавила флагманскую ИИ-модель Gemini 4 Argon в подписку за $20 — но с ограничениями",
+    "link": "https://3dnews.ru/1149878",
+    "desc": "Google начала предоставлять доступ к своей флагманской ИИ-модели Gemini 4 Argon подписчикам тарифных планов Google AI Pro и AI Ultra. Теперь воспользоваться новой нейросетью можно за $20 в месяц, хотя для работы с ней в некоторых инструментах для разработки по-прежнему потребуется более дорогая п...",
     "date": "2026-10-13",
     "source": "3DNews",
     "cat": "ai",
@@ -378,20 +495,20 @@
     "lang": "ru"
   },
   {
-    "title": "SpaceXSI объединила Grok, Grok Bot, Cursor и X Premium в одну подписку — от $0 до $200 в месяц",
-    "link": "https://3dnews.ru/1149853",
-    "desc": "Компания SpaceXSI, до недавнего времени известная как SpaceXAI, объединила Grok, Cursor и X Premium в одну подписку с тарифами от бесплатного до $200 в месяц. «Впервые единая подписка на ИИ-сервисы охватывает весь цикл работы: от возникновения идеи и создания контента до реализации проекта и обме...",
+    "title": "Anthropic перекрыла лазейку для клонирования Claude — дистиллировать модели стало в 10–100 раз труднее",
+    "link": "https://3dnews.ru/1149848",
+    "desc": "Anthropic похвалилась, что свежие меры по защите ИИ-моделей от дистилляции сработали — объём данных, которые конкуренты могут извлечь из Claude для обучения собственных ИИ-моделей, уменьшен в 10–100 раз. Новые механизмы безопасности также помогли выявить и заблокировать десятки тысяч учётных запи...",
     "date": "2026-10-13",
     "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "Anthropic перекрыла лазейку для клонирования Claude — дистиллировать модели стало в 10–100 раз труднее",
-    "link": "https://3dnews.ru/1149848",
-    "desc": "Anthropic похвалилась, что свежие меры по защите ИИ-моделей от дистилляции сработали — объём данных, которые конкуренты могут извлечь из Claude для обучения собственных ИИ-моделей, уменьшен в 10–100 раз. Новые механизмы безопасности также помогли выявить и заблокировать десятки тысяч учётных запи...",
+    "title": "В Дубае состоится Blockchain Life 2026 — главное криптособытие года",
+    "link": "https://hi-tech.mail.ru/news/157853-v-dubae-sostoitsya-blockchain-life-2026/",
+    "desc": "1—2 декабря Blockchain Life 2026 вновь соберет в Дубае всю мировую криптоиндустрию: 15 000+ участников из 130+ стран, 200+ спикеров и 200+ спонсоров. Blockchain Life объединит в Дубае лидеров криптоиндустрии со всего мира, привлекая основателей и руководство ключевых проектов. Высокая концентраци...",
     "date": "2026-10-13",
-    "source": "3DNews",
+    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
@@ -432,19 +549,64 @@
     "lang": "ru"
   },
   {
-    "title": "Strengthening our defenses against distillation attacks",
-    "link": "https://www.anthropic.com/research/distillation-defenses",
-    "desc": "Article URL: https://www.anthropic.com/research/distillation-defenses Comments URL: https://news.ycombinator.com/item?id=50065553 Points: 10 # Comments: 14",
+    "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+    "link": "https://pdftomp3.com/connect-ai/",
+    "desc": "Article URL: https://pdftomp3.com/connect-ai/ Comments URL: https://news.ycombinator.com/item?id=50069337 Points: 104 # Comments: 55",
     "date": "2026-10-13",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-    "link": "https://github.com/prabanta-dev/janas",
-    "desc": "Article URL: https://github.com/prabanta-dev/janas Comments URL: https://news.ycombinator.com/item?id=50063717 Points: 191 # Comments: 69",
-    "date": "2026-10-12",
+    "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+    "link": "https://www.argmin.net/p/faster-fourier-transforms",
+    "desc": "Article URL: https://www.argmin.net/p/faster-fourier-transforms Comments URL: https://news.ycombinator.com/item?id=50065932 Points: 203 # Comments: 129",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "2026 in LLMs (so far)",
+    "link": "https://www.wearedevelopers.com/videos/100537-2026-in-llms-so-far",
+    "desc": "Comments",
+    "date": "2026-10-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Как использовать ChatGPT, чтобы получить 360 сертификатов по искусственному интеллекту за один день",
+    "link": "https://habr.com/ru/articles/1093616/?utm_campaign=1093616&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я отправил ИИ-агента проходить онлайн-курсы OpenAI, Anthropic, Google. Через 6-30 минут тесты сданы на 10 из 10 баллов, и готов сертификат на мое имя. Причем я даже не открывал учебные материалы. В статье покажу, как это работает: от авторизации в браузере до получения готового сертификата. Спойл...",
+    "date": "2026-10-13",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Сбер запустил бесплатную платформу для создания ИИ-агентов — собрать помощника можно без навыков программирования",
+    "link": "https://rb.ru/news/sber-zapustil-besplatnuyu-platformu-dlya-sozdaniya-ii-agentov-sobrat-pomoshnika-mozhno-bez-navykov-programmirovaniya/",
+    "desc": "Сбер представил бесплатную платформу GigaPlatform AI Studio, в которой пользователи могут создавать ИИ-агентов без навыков программирования. Сервис объединяет модели семейства GigaChat и инструменты для работы с документами и голосом. По оценке компании, платформа позволяет сократить путь от идеи...",
+    "date": "2026-10-13",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ-агенты и новый Вавилон: Почему «отказоустойчивость» важнее эффективности 🏗⚡☠",
+    "link": "https://vc.ru/ai/3192263-ii-agenty-i-otkazoustojchivost?from=rss",
+    "desc": "TheoLens LowGeek (TLLGeek)",
+    "date": "2026-10-13",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Strengthening our defenses against distillation attacks",
+    "link": "https://www.anthropic.com/research/distillation-defenses",
+    "desc": "Article URL: https://www.anthropic.com/research/distillation-defenses Comments URL: https://news.ycombinator.com/item?id=50065553 Points: 10 # Comments: 14",
+    "date": "2026-10-13",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
@@ -463,16 +625,7 @@
     "link": "https://habr.com/ru/articles/1093568/?utm_campaign=1093568&utm_source=habrahabr&utm_medium=rss",
     "desc": "Исследователи Anthropic купили пятнадцать Android TV-приставок примерно по 55 долларов, соединили их в сеть и запустили на них нейросеть. Та работала медленно, но работала. Каждая коробочка считала свою часть, а вместе они справлялись с моделью, для которой у отдельного устройства не хватило бы п...",
     "date": "2026-10-12",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "На арене PlyLoom — Qwen против DeepSeek",
-    "link": "https://habr.com/ru/articles/1093546/?utm_campaign=1093546&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Суть эксперимента сравнить графовые ответы 2-х моделей относительно друг-друга. Обоим моделям (QWEN 3.8 MAX и DEEPSEEK V4) был задан один и тот же перекрестный вопрос. Результаты загружены в PlyLoom для анализа и сравнения. Читать далее",
-    "date": "2026-10-12",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -481,16 +634,7 @@
     "link": "https://habr.com/ru/articles/1093512/?utm_campaign=1093512&utm_source=habrahabr&utm_medium=rss",
     "desc": "Сохраняю в Telegram всё подряд, а Claude Sonnet раз в сутки пишет по каждому материалу разбор для блога. Почти половина сохранёнок для блога лишняя, и на каждую уходит полный разбор. Рассказываю, как поставил перед Sonnet дешёвую модель Jev, которая отвечает вероятностью, почему формулировка вопр...",
     "date": "2026-10-12",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Диктовка без «ну» и «вот»: Whisper на своём компьютере и маленький посредник к LLM",
-    "link": "https://habr.com/ru/companies/miip/articles/1093468/?utm_campaign=1093468&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я пишу книги, и кроме самих книг за день набирается много другого текста: сообщения, письма, задания нейросетям. Говорить быстрее, чем печатать, поэтому большую часть этого я диктую. Только живая речь, записанная слово в слово, читается плохо. Вот фраза, которую Whisper распознал без единой ошибк...",
-    "date": "2026-10-12",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -504,7 +648,7 @@
     "lang": "ru"
   },
   {
-    "title": "V-GEN: автономный генератор теленовостей и видеосюжетов на Google Gemini и FFmpeg",
+    "title": "V‑GEN: автономный генератор теленовостей и видеосюжетов на Google Gemini и FFmpeg",
     "link": "https://habr.com/ru/articles/1093430/?utm_campaign=1093430&utm_source=habrahabr&utm_medium=rss",
     "desc": "V-GEN — локальный сервис с веб-интерфейсом, который собирает новостные ролики сам «под ключ»: от живого поиска инфоповодов до готового Full HD файла с русским именем для эфирного плейлиста. Читать далее",
     "date": "2026-10-12",
@@ -594,6 +738,15 @@
     "lang": "ru"
   },
   {
+    "title": "Диктовка без «ну» и «вот»: Whisper на своём компьютере и маленький посредник к LLM",
+    "link": "https://habr.com/ru/companies/miip/articles/1093468/?utm_campaign=1093468&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я пишу книги, и кроме самих книг за день набирается много другого текста: сообщения, письма, задания нейросетям. Говорить быстрее, чем печатать, поэтому большую часть этого я диктую. Только живая речь, записанная слово в слово, читается плохо. Вот фраза, которую Whisper распознал без единой ошибк...",
+    "date": "2026-10-12",
+    "source": "Habr NLP",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "ИИ-секретарь за $77 в месяц: 88% ответов даёт DeepSeek, а три четверти денег съедают 7% запросов к Opus",
     "link": "https://habr.com/ru/articles/1093274/?utm_campaign=1093274&utm_source=habrahabr&utm_medium=rss",
     "desc": "Я делаю ИИ-секретаря Лизу Петровну — бот в Telegram и MAX, внутри которого секретарь раздаёт задачи агентам. С 30 мая ей написали 8568 запросов 118 человек. За 30 дней языковые модели для всех агентов обошлись в $77. Рассказываю, как устроен выбор модели (с кодом), почему 88% ответов даёт DeepSee...",
@@ -614,7 +767,7 @@
   {
     "title": "Теория экстремальных событий: графы, много математики и простой агент",
     "link": "https://habr.com/ru/articles/1093010/?utm_campaign=1093010&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Экстремальное событие почти никогда не возникает на ровном месте. Эпилептический приступ, отказ авиадвигателя, обвал рынка - всё это финал процесса, который сначала зародился в одном месте системы: в одной области мозга, в одном модуле двигателя, в одном секторе рынка. Потом процесс распространил...",
+    "desc": "Экстремальное событие почти никогда не возникает на ровном месте. Эпилептический приступ, отказ авиадвигателя, обвал рынка — всё это финал процесса, который сначала зародился в одном месте системы: в одной области мозга, в одном модуле двигателя, в одном секторе рынка. Потом процесс распространил...",
     "date": "2026-10-12",
     "source": "Habr Python",
     "cat": "ai",
@@ -689,6 +842,24 @@
     "desc": "Встроенная графика AMD подобралась к GeForce RTX 5060: первые игровые тесты мини-ПК с процессором Ryzen AI Max+ Pro 495 показали, что новый чип Gorgon Halo способен выдавать более 100 кадров/с в современных играх при разрешении 1080p. В отдельных проектах прирост относительно предшественника Ryze...",
     "date": "2026-10-12",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+    "link": "https://github.com/prabanta-dev/janas",
+    "desc": "Article URL: https://github.com/prabanta-dev/janas Comments URL: https://news.ycombinator.com/item?id=50063717 Points: 191 # Comments: 69",
+    "date": "2026-10-12",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "На арене PlyLoom — Qwen против DeepSeek",
+    "link": "https://habr.com/ru/articles/1093546/?utm_campaign=1093546&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Суть эксперимента сравнить графовые ответы 2-х моделей относительно друг-друга. Обоим моделям (QWEN 3.8 MAX и DEEPSEEK V4) был задан один и тот же перекрестный вопрос. Результаты загружены в PlyLoom для анализа и сравнения. Читать далее",
+    "date": "2026-10-12",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1107,15 +1278,6 @@
     "lang": "ru"
   },
   {
-    "title": "Что я поняла за много рабочих лет",
-    "link": "https://vc.ru/life/3186994-kak-opyt-i-avtomatizatsiya-menyayut-podhod-k-rabote?from=rss",
-    "desc": "В начале карьеры я пыталась контролировать абсолютно всё. Каждую цифру в отчёте, каждый пиксель на баннере, каждое действие сотрудника. Мне казалось, что крутой специалист это тот, кто держит руку на пульсе круглосуточно. А потом пришло выгорание. И понимание, что эта система даёт трещину. За эти...",
-    "date": "2026-10-10",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Бота ругать нельзя: Anthropic ввела запрет на жестокое обращение с Claude",
     "link": "https://vc.ru/ai/3186798-anthropic-zapret-na-zhestokoe-obraschenie-s-claude?from=rss",
     "desc": "Компания серьезно обновила политику использования своих моделей",
@@ -1233,24 +1395,6 @@
     "lang": "en"
   },
   {
-    "title": "Быстрее пантеры: как студенческий проект Летней школы AIRI стал самым быстрым решением соревнования FLARE 2026",
-    "link": "https://habr.com/ru/companies/airi/articles/1092270/?utm_campaign=1092270&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Представьте себе задачу: найти опухоль на КТ‑снимке любого органа — печени, почки, поджелудочной, легкого, лимфоузла. Снимок может прийти из любой больницы в мире. На все про все — 60 секунд и 4 ГБ видеопамяти. А еще половина снимков в реальной жизни — от здоровых людей, и на них модель должна ск...",
-    "date": "2026-10-09",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Полтора месяца ускорял MoE на GTX 1660 SUPER: выиграл штатный флаг llama.cpp",
-    "link": "https://habr.com/ru/articles/1092436/?utm_campaign=1092436&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я тепломеханик, начальник отдела в проектной организации, не программист. С августа ковыряю форк llama.cpp: хочу, чтобы большие MoE‑модели нормально шли на обычном домашнем ящике, где видеокарта на 6 ГБ, 24 ГБ памяти и SATA‑диск. Полигоном была gpt‑oss-20b. Итог пока обидный: выиграл штатный флаг...",
-    "date": "2026-10-09",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Стартап Natura представил умное кольцо Interface с возможностью отдавать команды ИИ‑агентам",
     "link": "https://habr.com/ru/news/1092498/?utm_campaign=1092498&utm_source=habrahabr&utm_medium=rss",
     "desc": "Стартап Natura представил смарт‑кольцо Interface с возможностью отдавать команды агентам на искусственном интеллекте. Также гаджет выполняет функции фитнес‑трекера, отслеживая частоту сердечных сокращений, вариабельность сердечного ритма, стадии сна, активность и температуру тела. Читать далее",
@@ -1263,15 +1407,6 @@
     "title": "Виталик Бутерин призвал к осторожности в криптографии из‑за угрозы ИИ для математических структур",
     "link": "https://habr.com/ru/news/1092314/?utm_campaign=1092314&utm_source=habrahabr&utm_medium=rss",
     "desc": "Основатель Ethereum Виталик Бутерин предупредил о возможных прорывах в математике, ускоренных развитием искусственного интеллекта. Он полагает, что такие прорывы могут подорвать безопасность криптографии на основе эллиптических кривых и решёток гораздо быстрее, чем ожидалось. Читать далее",
-    "date": "2026-10-09",
-    "source": "Habr AI Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Anthropic запретила пользователям жестоко обращаться с чат‑ботом Claude",
-    "link": "https://habr.com/ru/news/1092256/?utm_campaign=1092256&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Компания Anthropic обновила свои правила использования, закрепив запреты, касающиеся вмешательства в выборы, разработки программного обеспечения для оружия и систем слежения. Однако наибольшее внимание привлекло новое правило, прямо запрещающее подвергать модель длительным словесным оскорблениям....",
     "date": "2026-10-09",
     "source": "Habr AI Новости",
     "cat": "ai",
@@ -1332,6 +1467,15 @@
     "lang": "ru"
   },
   {
+    "title": "Полтора месяца ускорял MoE на GTX 1660 SUPER: выиграл штатный флаг llama.cpp",
+    "link": "https://habr.com/ru/articles/1092436/?utm_campaign=1092436&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я тепломеханик, начальник отдела в проектной организации, не программист. С августа ковыряю форк llama.cpp: хочу, чтобы большие MoE‑модели нормально шли на обычном домашнем ящике, где видеокарта на 6 ГБ, 24 ГБ памяти и SATA‑диск. Полигоном была gpt‑oss-20b. Итог пока обидный: выиграл штатный флаг...",
+    "date": "2026-10-09",
+    "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Я написал свитчер раскладки для Mac вместе с ИИ-агентом. Через три месяца он всё ещё портил мне русские слова",
     "link": "https://habr.com/ru/articles/1092384/?utm_campaign=1092384&utm_source=habrahabr&utm_medium=rss",
     "desc": "Punto Switcher для Mac заморожен с ноября 2017 года. Я печатаю на русском и английском целый день, и «ghbdtn» вместо «привет» выскакивает у меня раз двадцать в сутки. В июне я решил, что хватит, и начал писать свой свитчер. Альтернативы есть, ниже я их честно перечислю. Мне хотелось двух вещей: и...",
@@ -1382,6 +1526,15 @@
     "desc": "Верит ли Anthropic в то, что у ИИ есть сознание? Сообщение Anthropic будет банить за издевательства над Claude уже с 12 ноября появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-10-09",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic запретила пользователям жестоко обращаться с чат‑ботом Claude",
+    "link": "https://habr.com/ru/news/1092256/?utm_campaign=1092256&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Компания Anthropic обновила свои правила использования, закрепив запреты, касающиеся вмешательства в выборы, разработки программного обеспечения для оружия и систем слежения. Однако наибольшее внимание привлекло новое правило, прямо запрещающее подвергать модель длительным словесным оскорблениям....",
+    "date": "2026-10-09",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1728,15 +1881,6 @@
     "lang": "ru"
   },
   {
-    "title": "MWS AI Vision Bench: что изменилось за год и зачем мы добавляем антифрод",
-    "link": "https://habr.com/ru/companies/ru_mts/articles/1062176/?utm_campaign=1062176&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Год назад мы выложили в открытый доступ MWS AI Vision Bench — бенчмарк для оценки мультимодальных моделей на русскоязычных документах. За это время мультимодальные модели существенно шагнули вперед, метрики в VQA начали упираться в потолок, а мы добавили в бенчмарк задачу, которой критически не х...",
-    "date": "2026-10-08",
-    "source": "Habr Open Source",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Что делать, если доступ к Claude пропал, а на нем уже завязан рабочий процесс?",
     "link": "https://habr.com/ru/companies/runity/articles/1091876/?utm_campaign=1091876&utm_source=habrahabr&utm_medium=rss",
     "desc": "Привет, Хабр! На связи команда Рег.облака. С начала октября у российских пользователей Claude снова начали блокироваться аккаунты. Для тех, кто пользуется моделью время от времени через браузер, потеря доступа неприятна, но не катастрофична. Гораздо сложнее ситуация у команд, которые уже встроили...",
@@ -1769,6 +1913,15 @@
     "desc": "Правда сами веса появятся чуть позже Сообщение Mistral представила Large 4 — модель на 1 трлн параметров с открытыми весами появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-10-08",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "MWS AI Vision Bench: что изменилось за год и зачем мы добавляем антифрод",
+    "link": "https://habr.com/ru/companies/ru_mts/articles/1062176/?utm_campaign=1062176&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Год назад мы выложили в открытый доступ MWS AI Vision Bench — бенчмарк для оценки мультимодальных моделей на русскоязычных документах. За это время мультимодальные модели существенно шагнули вперед, метрики в VQA начали упираться в потолок, а мы добавили в бенчмарк задачу, которой критически не х...",
+    "date": "2026-10-08",
+    "source": "Habr Open Source",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2970,15 +3123,6 @@
     "lang": "ru"
   },
   {
-    "title": "Запустил собственный PII-фильтр перед облачными моделями и отказался от идеи селф-хостед LLM",
-    "link": "https://habr.com/ru/articles/1091236/?utm_campaign=1091236&utm_source=habrahabr&utm_medium=rss",
-    "desc": "За последние 2 месяца я протестировал RTX PRO 6000 96GB / RTX4090 48GB и даже H200, оценивая варианты для селф-хоста, купил RTX5070ti и V100 32GB и прогнал большое количество бенчей (в том числе искренне своих). Потом увидел бешеный рост цен на железо и череду утечек персональных данных к провайд...",
-    "date": "2026-10-06",
-    "source": "Habr DevOps",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Три CLI‑агента, один Telegram‑интерфейс: JSON‑RPC, ACP, worktree и контроль разрешений",
     "link": "https://habr.com/ru/articles/1091024/?utm_campaign=1091024&utm_source=habrahabr&utm_medium=rss",
     "desc": "Codex CLI, Claude Code и Cursor Agent умеют самостоятельно читать код, изменять файлы и запускать тесты. Но стоит отойти от компьютера — и проверить состояние задачи или ответить на запрос разрешения становится неудобно. Я сделал AI Control — локальный Telegram‑пульт для этих трёх агентов. С теле...",
@@ -3029,6 +3173,15 @@
     "desc": "«Вставил ссылку, вижу сериал со всеми сериями, выбрал озвучку, смотрю». С этой фразы началась Lapka, локальный аниме-плеер. Статья о решениях, из которых она сложилась, по сериям, как в аниме. Знакомый, которому я дал её потрогать, сказал так: >> Прикольно: нода крутится, парсит, а воспроизводит ...",
     "date": "2026-10-06",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Запустил собственный PII-фильтр перед облачными моделями и отказался от идеи селф-хостед LLM",
+    "link": "https://habr.com/ru/articles/1091236/?utm_campaign=1091236&utm_source=habrahabr&utm_medium=rss",
+    "desc": "За последние 2 месяца я протестировал RTX PRO 6000 96GB / RTX4090 48GB и даже H200, оценивая варианты для селф-хоста, купил RTX5070ti и V100 32GB и прогнал большое количество бенчей (в том числе искренне своих). Потом увидел бешеный рост цен на железо и череду утечек персональных данных к провайд...",
+    "date": "2026-10-06",
+    "source": "Habr DevOps",
     "cat": "ai",
     "lang": "ru"
   },
@@ -3510,15 +3663,6 @@
     "lang": "ru"
   },
   {
-    "title": "Галлюцинации недели: Gemini 4 Argon, OpenAI DevDay и Sonnet 5.5 с большим аппетитом к токенам",
-    "link": "https://habr.com/ru/news/1090152/?utm_campaign=1090152&utm_source=habrahabr&utm_medium=rss",
-    "desc": "OpenAI на DevDay много сделала для того, чтобы в ChatGPT можно было работать всерьёз и надолго. Полезных возможностей прибавилось, но вместительную подписку заодно сделали менее щедрой. Мне нравится, куда развивается продукт, а вот снижение лимитов нравится меньше. Читать далее",
-    "date": "2026-10-05",
-    "source": "Habr ML Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Как я вычищал ИИ‑маркеры из текстов Claude: промпт, второй проход и регулярка",
     "link": "https://habr.com/ru/articles/1090616/?utm_campaign=1090616&utm_source=habrahabr&utm_medium=rss",
     "desc": "Нейросеть пишет грамотно, и именно поэтому её текст узнаётся с первой строки: длинные тире, конструкции «дело не в X, а в Y», «важно понимать», «давайте разберёмся». Я столкнулся с этим на Телеграм‑боте, который превращает голосовые сообщения в сценарии для соцсетей, и чинил проблему в три слоя з...",
@@ -3587,6 +3731,15 @@
     "desc": "Не надо делиться с ИИ-сервисами всем подряд. Рассказываем, что от них стоит скрыть — и что от них, увы, нельзя спрятать. Сообщение Как безопасно пользоваться Claude, ChatGPT и другими ИИ-сервисами? Настраиваем приватность везде появились сначала на Теплица социальных технологий .",
     "date": "2026-10-05",
     "source": "Теплица соцтех",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Галлюцинации недели: Gemini 4 Argon, OpenAI DevDay и Sonnet 5.5 с большим аппетитом к токенам",
+    "link": "https://habr.com/ru/news/1090152/?utm_campaign=1090152&utm_source=habrahabr&utm_medium=rss",
+    "desc": "OpenAI на DevDay много сделала для того, чтобы в ChatGPT можно было работать всерьёз и надолго. Полезных возможностей прибавилось, но вместительную подписку заодно сделали менее щедрой. Мне нравится, куда развивается продукт, а вот снижение лимитов нравится меньше. Читать далее",
+    "date": "2026-10-05",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -7380,20 +7533,20 @@
     "lang": "ru"
   },
   {
-    "title": "Зачем модели делать больно?",
-    "link": "https://habr.com/ru/articles/1087022/?utm_campaign=1087022&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Исследователи дали языковой модели две кнопки. Одна ничего не делала. Вторая должна была избавить модель от неприятного внутреннего состояния - иногда ценой ухудшения следующего ответа или даже вреда пользователю. Модель выбирала облегчение. А если кнопка не срабатывала, пыталась снова. Это не мы...",
-    "date": "2026-09-27",
-    "source": "Habr NLP",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Спросите у Переверзева: забытый джазовед, который думал о проблемах ИИ до ИИ",
     "link": "https://habr.com/ru/articles/1087138/?utm_campaign=1087138&utm_source=habrahabr&utm_medium=rss",
     "desc": "Вирусный спор трёх петербургских музыковедов вывел меня на книгу 1966 года. Её автор разбирался, как компьютеры повлияют на творчество и эстетику. И за десятилетия до ChatGPT формулировал, каким должен быть помощник в мышлении и решении задач. Читать далее",
     "date": "2026-09-27",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Зачем модели делать больно?",
+    "link": "https://habr.com/ru/articles/1087022/?utm_campaign=1087022&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Исследователи дали языковой модели две кнопки. Одна ничего не делала. Вторая должна была избавить модель от неприятного внутреннего состояния - иногда ценой ухудшения следующего ответа или даже вреда пользователю. Модель выбирала облегчение. А если кнопка не срабатывала, пыталась снова. Это не мы...",
+    "date": "2026-09-27",
+    "source": "Habr NLP",
     "cat": "ai",
     "lang": "ru"
   },
