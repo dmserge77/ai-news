@@ -1,8 +1,8 @@
 [
   {
-    "title": "Coris (YC S22) Is Hiring Back End Engineer",
-    "link": "https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations",
-    "desc": "Article URL: https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations Comments URL: https://news.ycombinator.com/item?id=50074969 Points: 0 # Comments: 0",
+    "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+    "link": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+    "desc": "Article URL: https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0 Comments URL: https://news.ycombinator.com/item?id=50078686 Points: 0 # Comments: 0",
     "date": "2026-10-13",
     "source": "Hacker News",
     "cat": "misc",
@@ -12,7 +12,7 @@
   {
     "title": "I posted to HN, and then my website was flooded with AI bot traffic",
     "link": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
-    "desc": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 169 # Comments: 99",
+    "desc": "Article URL: https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic Comments URL: https://news.ycombinator.com/item?id=50073221 Points: 245 # Comments: 147",
     "date": "2026-10-13",
     "source": "Hacker News",
     "cat": "misc",
@@ -40,6 +40,16 @@
     "misc_type": "raznoe"
   },
   {
+    "title": "Drama 3 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/drama-3-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-10-13",
+    "source": "Vercel",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "MAI-Image-2.6 and MAI-Image-2.6-Flash now available on AI Gateway",
     "link": "https://vercel.com/changelog/mai-image-2-6-and-mai-image-2-6-flash-now-available-on-ai-gateway",
     "desc": "",
@@ -53,16 +63,6 @@
     "title": "Как сделать RAG-чат для сайта, который не выдумывает цены: пять решений из моего бота",
     "link": "https://habr.com/ru/articles/1093326/?utm_campaign=1093326&utm_source=habrahabr&utm_medium=rss",
     "desc": "С июня я делаю AI-чат для сайтов, который не выдумывает цены и не соглашается с клиентом во всём подряд. К пяти решениям из статьи я пришёл через ошибки. Читать про пять решений",
-    "date": "2026-10-13",
-    "source": "Habr AI",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "AI-агент сказал «готово». Как проверить, что он действительно сделал работу",
-    "link": "https://habr.com/ru/articles/1093658/?utm_campaign=1093658&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет 👋 Самая неприятная ошибка рабочего AI-агента — не странный ответ. Это убедительное «готово», после которого кто-то идёт проверять, переделывать и извиняться перед коллегами. Ассистенту, который предлагает формулировки, можно простить неудачный абзац. Агенту, который меняет рабочие данные, ...",
     "date": "2026-10-13",
     "source": "Habr AI",
     "cat": "misc",
@@ -107,6 +107,26 @@
     "source": "UX Collective",
     "cat": "misc",
     "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Coris (YC S22) Is Hiring Back End Engineer",
+    "link": "https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations",
+    "desc": "Article URL: https://www.ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations Comments URL: https://news.ycombinator.com/item?id=50074969 Points: 0 # Comments: 0",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "AI-агент сказал «готово». Как проверить, что он действительно сделал работу",
+    "link": "https://habr.com/ru/articles/1093658/?utm_campaign=1093658&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет 👋 Самая неприятная ошибка рабочего AI-агента — не странный ответ. Это убедительное «готово», после которого кто-то идёт проверять, переделывать и извиняться перед коллегами. Ассистенту, который предлагает формулировки, можно простить неудачный абзац. Агенту, который меняет рабочие данные, ...",
+    "date": "2026-10-13",
+    "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
     "misc_type": "raznoe"
   },
   {
@@ -10675,56 +10695,6 @@
     "desc": "The common rule of thumb is to never “block” the browser’s main thread when running JavaScript tasks. But is this a hard rule? Victor Ayomipo describes a use case he encountered involving a screenshot extension where he made an exception to the rule and decided that blocking the main thread was a...",
     "date": "2026-07-17",
     "source": "Smashing Magazine",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Kimi K3 is now available on AI Gateway",
-    "link": "https://vercel.com/changelog/kimi-k3-is-now-available-on-ai-gateway",
-    "desc": "",
-    "date": "2026-07-16",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "The Self-Driving Company",
-    "link": "https://replit.com/blog/self-driving-company",
-    "desc": "In the past six months, engineers at Replit have nearly tripled code output. Review times held steady. Reversions and product incidents have stayed flat. Quality metrics improved, and releases have accelerated. All the typical trade-offs you might expect have not occurred. While the code is the v...",
-    "date": "2026-07-16",
-    "source": "Replit",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Newer Models, Same Advantage",
-    "link": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
-    "desc": "",
-    "date": "2026-07-16",
-    "source": "Hugging Face",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Security incident disclosure — July 2026",
-    "link": "https://huggingface.co/blog/security-incident-july-2026",
-    "desc": "",
-    "date": "2026-07-16",
-    "source": "Hugging Face",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Write utilization now available in ISR Observability",
-    "link": "https://vercel.com/changelog/write-utilization-now-available-in-isr-observability",
-    "desc": "",
-    "date": "2026-07-16",
-    "source": "Vercel",
     "cat": "misc",
     "lang": "en",
     "misc_type": "unfiltered"

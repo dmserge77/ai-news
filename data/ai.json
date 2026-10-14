@@ -1,8 +1,35 @@
 [
   {
+    "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+    "link": "https://pulseos.finance",
+    "desc": "Hi HN, I'm Niz. Pulse Local is a budgeting app for Mac (Apple Silicon, beta) that answers questions about your spending with models that run on your machine. Local mode needs no account. The ledger and your questions stay on the machine, and the app sends no analytics or crash logs. I felt there ...",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "OpenAI engineer arrested in bugging of executive conference room",
+    "link": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+    "desc": "https://x.com/OpenAINewsroom/status/2110095403198849132 Comments URL: https://news.ycombinator.com/item?id=50078141 Points: 400 # Comments: 348",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: Parsimony – an open-source benchmark for how much code AI models add",
+    "link": "https://parsimony.lasu.dev/",
+    "desc": "Existing benchmarks measure solve rate and token output/cost, but don't punish excess code, which makes a codebase harder to work with in the long term. I wanted to measure this since it matters most for long-term projects. Method: it takes the patches that benchmarks already publish (DeepSWE, SW...",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Gemini 4 Argon for Robotics",
     "link": "https://developers.googleblog.com/gemini-4-argon-for-robotics/",
-    "desc": "Main thread: Gemini 4 Argon - https://news.ycombinator.com/item?id=50073879 Comments URL: https://news.ycombinator.com/item?id=50074869 Points: 132 # Comments: 29",
+    "desc": "Main thread: Gemini 4 Argon - https://news.ycombinator.com/item?id=50073879 Comments URL: https://news.ycombinator.com/item?id=50074869 Points: 200 # Comments: 45",
     "date": "2026-10-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,7 +38,7 @@
   {
     "title": "Gemini 4 Argon",
     "link": "https://deepmind.google/models/gemini/",
-    "desc": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 672 # Comments: 551",
+    "desc": "See also: Gemini 4 Argon for Robotics - https://news.ycombinator.com/item?id=50074869 Comments URL: https://news.ycombinator.com/item?id=50073879 Points: 981 # Comments: 745",
     "date": "2026-10-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,16 +47,7 @@
   {
     "title": "Redesigning source control at Anthropic",
     "link": "https://www.anthropic.com/engineering/redesigning-source-control",
-    "desc": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 283 # Comments: 254",
-    "date": "2026-10-13",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
-    "link": "https://news.ycombinator.com/item?id=50073471",
-    "desc": "Hey Hacker News! I'm Eric, the founder of Consus. We route all AI requests to ITAR restricted and controlled unclassified information (CUI) compliant infrastructure. Consus itself satisfies ITAR restrictions, and we recently completed our FedRAMP equivalency audit against the 410 FedRAMP High con...",
+    "desc": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 536 # Comments: 520",
     "date": "2026-10-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -38,7 +56,7 @@
   {
     "title": "How to engineer an AI harness for game development",
     "link": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-    "desc": "Article URL: https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code Comments URL: https://news.ycombinator.com/item?id=50072120 Points: 75 # Comments: 30",
+    "desc": "Article URL: https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code Comments URL: https://news.ycombinator.com/item?id=50072120 Points: 130 # Comments: 58",
     "date": "2026-10-13",
     "source": "Hacker News",
     "cat": "ai",
@@ -54,9 +72,9 @@
     "lang": "en"
   },
   {
-    "title": "Наступает эра индивидуального софта",
-    "link": "https://habr.com/ru/articles/1094056/?utm_campaign=1094056&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Сегодня в сетях бушуют дискуссии о том, умеют ли LLM писать нормальный, хороший код. С одной стороны, ИИ-энтузиасты рассказывают как они с одного промта пишут приложения, как поручают ИИ ревьювить то, что написала другая LLM и как все проблемы решаются через те же ИИ. С другой, традиционные прогр...",
+    "title": "ИИ‑агенты. Часть 1: Первые шаги",
+    "link": "https://habr.com/ru/articles/1094062/?utm_campaign=1094062&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Всем привет! Сегодня я хочу рассказать вам про то, как я начал внедрять в процесс разработки ИИ-агентов. Поделюсь своим опытом. Эта статья нацелена на начинающих, чтобы дать им первый толчок к использованию ИИ-агентов. Однако, если вы уже давно в этой теме, то буду рад вам в комментариях. Читать ...",
     "date": "2026-10-13",
     "source": "Habr AI",
     "cat": "ai",
@@ -216,18 +234,18 @@
     "lang": "ru"
   },
   {
-    "title": "Вышла Muse Wonder и Full: модель обогнала GPT-6 Astra и Gemini 4 Argon",
-    "link": "https://habr.com/ru/companies/gptunnel/articles/1093648/?utm_campaign=1093648&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Meta* выпустила Muse Wonder и Muse Wonder Full — две новые модели, которые компания называет самыми мощными в своей истории. Их делали для «персональных и профессиональных» ИИ‑агентов: такая модель помнит пользователя между диалогами, не останавливается при первой ошибке и доводит длинную задачу ...",
+    "title": "[Перевод] Локальный запуск Qwen-Image-2.1 без safety checker: тест на MacBook Air с 16 ГБ памяти",
+    "link": "https://habr.com/ru/articles/1093810/?utm_campaign=1093810&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Команда Qwen из Alibaba выпустила Qwen-Image-2.1 — модель для генерации и редактирования изображений на базе diffusion transformer с 7 млрд параметров, поддержкой нативного вывода до 2K и лицензией Qwen Research License. Она умеет Читать далее",
     "date": "2026-10-13",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "[Перевод] Локальный запуск Qwen-Image-2.1 без safety checker: тест на MacBook Air с 16 ГБ памяти",
-    "link": "https://habr.com/ru/articles/1093810/?utm_campaign=1093810&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Команда Qwen из Alibaba выпустила Qwen-Image-2.1 — модель для генерации и редактирования изображений на базе diffusion transformer с 7 млрд параметров, поддержкой нативного вывода до 2K и лицензией Qwen Research License. Она умеет Читать далее",
+    "title": "Вышла Muse Wonder и Full: модель обогнала GPT-6 Astra и Gemini 4 Argon",
+    "link": "https://habr.com/ru/companies/gptunnel/articles/1093648/?utm_campaign=1093648&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Meta* выпустила Muse Wonder и Muse Wonder Full — две новые модели, которые компания называет самыми мощными в своей истории. Их делали для «персональных и профессиональных» ИИ‑агентов: такая модель помнит пользователя между диалогами, не останавливается при первой ошибке и доводит длинную задачу ...",
     "date": "2026-10-13",
     "source": "Habr ML",
     "cat": "ai",
@@ -423,6 +441,15 @@
     "lang": "ru"
   },
   {
+    "title": "Google добавила флагманскую ИИ-модель Gemini 4 Argon в подписку за $20 — но с ограничениями",
+    "link": "https://3dnews.ru/1149878",
+    "desc": "Google начала предоставлять доступ к своей флагманской ИИ-модели Gemini 4 Argon подписчикам тарифных планов Google AI Pro и AI Ultra. Теперь воспользоваться новой нейросетью можно за $20 в месяц, хотя для работы с ней в некоторых инструментах для разработки по-прежнему потребуется более дорогая п...",
+    "date": "2026-10-13",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "ИИ ускорил написание кода на 30 %, но готового ПО больше не стало — исследователи узнали, почему",
     "link": "https://3dnews.ru/1149875",
     "desc": "Искусственный интеллект действительно значительно повышает производительность труда программистов при написании программного кода, установили американские учёные. Но вместе с тем обнаружилась другая проблема: участие человека в итоге оказывается фактором, который замедляет разработку ПО. Источник...",
@@ -462,15 +489,6 @@
     "title": "«Больше никакого рукописного кода»: Epic Games отложила шутер с героями Disney и перевела разработчиков на Claude",
     "link": "https://3dnews.ru/1149826",
     "desc": "Подтверждённый в феврале 2024 года совместный проект разработчиков Fortnite из студии Epic Games и корпорации Disney не выйдет в ближайшее время и будет по большей части создан с помощью генеративного ИИ. Источник изображений: Epic Games",
-    "date": "2026-10-13",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Google добавила флагманскую ИИ-модель Gemini 4 Argon в подписку за $20 — но с ограничениями",
-    "link": "https://3dnews.ru/1149878",
-    "desc": "Google начала предоставлять доступ к своей флагманской ИИ-модели Gemini 4 Argon подписчикам тарифных планов Google AI Pro и AI Ultra. Теперь воспользоваться новой нейросетью можно за $20 в месяц, хотя для работы с ней в некоторых инструментах для разработки по-прежнему потребуется более дорогая п...",
     "date": "2026-10-13",
     "source": "3DNews",
     "cat": "ai",
@@ -545,6 +563,24 @@
     "desc": "Закупочные цены на ноутбуки из Китая уже на 5-10% выше летних. Цены на ноутбуки из Китая в российской рознице к началу 2027 года вырастут примерно на 10%. Об этом сообщают «Известия» со ссылкой на дистрибьюторов и экспертов рынка. По их словам, подорожание уже началось на уровне закупок. Руководи...",
     "date": "2026-10-13",
     "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
+    "link": "https://news.ycombinator.com/item?id=50073471",
+    "desc": "Hey Hacker News! I'm Eric, the founder of Consus. We route all AI requests to ITAR restricted and controlled unclassified information (CUI) compliant infrastructure. Consus itself satisfies ITAR restrictions, and we recently completed our FedRAMP equivalency audit against the 410 FedRAMP High con...",
+    "date": "2026-10-13",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Наступает эра индивидуального софта",
+    "link": "https://habr.com/ru/articles/1094056/?utm_campaign=1094056&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сегодня в сетях бушуют дискуссии о том, умеют ли LLM писать нормальный, хороший код. С одной стороны, ИИ-энтузиасты рассказывают как они с одного промта пишут приложения, как поручают ИИ ревьювить то, что написала другая LLM и как все проблемы решаются через те же ИИ. С другой, традиционные прогр...",
+    "date": "2026-10-13",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
