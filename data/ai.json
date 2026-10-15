@@ -1,8 +1,44 @@
 [
   {
+    "title": "Как я подружил llama-server с Claude Code: доработка Go-лаунчера для локальных LLM",
+    "link": "https://habr.com/ru/articles/1094534/?utm_campaign=1094534&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В своих прошлых материалах я уже рассказывал о запуске крупных MoE-моделей на ограниченном железе через llama-server и о сравнительных экспериментах с 35B, 120B и 176B-классами моделей. Практика показала, что llama.cpp давно перестал быть просто «запускатором GGUF»: сегодня это полноценный рантай...",
+    "date": "2026-10-15",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Понятие «искусственный интеллект» в нормативных актах РФ",
+    "link": "https://habr.com/ru/articles/1094562/?utm_campaign=1094562&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Недавно довелось послушать лекцию по ИИ, которая оказалась бы очередным стратегическим / плановым / программным / базовым (нужное подчеркнуть) мероприятием, если бы лектор не упомянул, что в части понимания того, что такое ИИ, они используют термин из ГОСТа (какого именно – не успел увидеть (да, ...",
+    "date": "2026-10-15",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Что происходит с интернетом в Санкт-Петербурге сегодня 15 октября",
+    "link": "https://hi-tech.mail.ru/news/145517-chto-segodnya-s-internetom-v-spb/",
+    "desc": "15 октября в Санкт-Петербурге и Ленинградской области наблюдаются проблемы с мобильным интернетом. Разобрались в причинах и выяснили, в каких районах города сеть работает хуже всего. Какие сервисы сейчас не работают в Санкт-Петербурге и Ленинградской области По данным системы мониторинга detector...",
+    "date": "2026-10-15",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Что происходит с интернетом в Москве сегодня, 15 октября",
+    "link": "https://hi-tech.mail.ru/news/144029-sboi-interneta-v-moskve/",
+    "desc": "15 октября в Москве и области наблюдаются проблемы с мобильным интернетом. Разбираемся, в чем причина и в каких районах города связь работает хуже всего. Какие сервисы сейчас не работают в Москве и Московской области По данным системы мониторинга detector404, жалобы в регионе поступают на работу ...",
+    "date": "2026-10-15",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Anthropic's Scion is heavily inspired by Mononoke",
     "link": "https://sunshowers.io/posts/anthropic-mononoke/",
-    "desc": "Article URL: https://sunshowers.io/posts/anthropic-mononoke/ Comments URL: https://news.ycombinator.com/item?id=50094694 Points: 235 # Comments: 104",
+    "desc": "Article URL: https://sunshowers.io/posts/anthropic-mononoke/ Comments URL: https://news.ycombinator.com/item?id=50094694 Points: 341 # Comments: 128",
     "date": "2026-10-14",
     "source": "Hacker News",
     "cat": "ai",
@@ -513,15 +549,6 @@
     "lang": "ru"
   },
   {
-    "title": "Путин: кибезугрозы выходят на новый уровень",
-    "link": "https://hi-tech.mail.ru/news/157962-putin-kibezugrozy-vyhodyat-na-novyj-uroven/",
-    "desc": "Президент провел совещание по вопросам кибербезопасности. Киберугрозы в настоящее время выходят на новый уровень, поэтому России необходимо совершенствовать систему цифровой безопасности. Как пишет ТАСС, об этом заявил президент Владимир Путин на совещании по вопросам кибербезопасности, которое п...",
-    "date": "2026-10-14",
-    "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Пресс-секретарь призвал готовиться к ИИ-оружию",
     "link": "https://hi-tech.mail.ru/news/157956-press-sekretar-prizval-gotovitsya-k-ii-oruzhiyu/",
     "desc": "Технологии приносят пользу но одновременно несут серьезные риски для целых секторов экономики. Пресс-секретарь президента России Дмитрий Песков заявил, что попытки ряда государств использовать искусственный интеллект (ИИ) как оружие создают угрозы для целых секторов экономики. Об этом он сказал 1...",
@@ -630,15 +657,6 @@
     "lang": "ru"
   },
   {
-    "title": "Redesigning source control at Anthropic",
-    "link": "https://www.anthropic.com/engineering/redesigning-source-control",
-    "desc": "Comments",
-    "date": "2026-10-13",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Gemini 4 Argon now available on AI Gateway",
     "link": "https://vercel.com/changelog/gemini-4-argon-now-available-on-ai-gateway",
     "desc": "",
@@ -660,15 +678,6 @@
     "title": "Новый GPT-6 собирает ответы ChatGPT из диаграмм, кнопок и форм. Как туда попадает бренд, в OpenAI не сказали",
     "link": "https://habr.com/ru/articles/1094044/?utm_campaign=1094044&utm_source=habrahabr&utm_medium=rss",
     "desc": "С выходом GPT-6 ChatGPT может отвечать текстом вместе с диаграммой, формой или набором кнопок. У всех, кто отвечает за видимость сайта в нейросетях, сразу возникает вопрос: как бренд попадает в эти элементы. Я прочитал анонс OpenAI от 7 октября , справки OpenAI и первые SEO-разборы. Правил отбора...",
-    "date": "2026-10-13",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "8 неочевидных вариантов использования Claude Opus 5.5",
-    "link": "https://habr.com/ru/articles/1094032/?utm_campaign=1094032&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я использую новую модель Opus 5.5 в работе уже больше недели, и впечатления у меня пока только хорошие. Практически всё, о чём я ее прошу, модель генерирует почти без ошибок, при этом нет необходимости постоянно следить за ней и исправлять результаты. К тому же стоимость токенов гораздо меньше по...",
     "date": "2026-10-13",
     "source": "Habr AI",
     "cat": "ai",
@@ -923,6 +932,24 @@
     "desc": "Компания SpaceXSI, до недавнего времени известная как SpaceXAI, объединила Grok, Cursor и X Premium в одну подписку с тарифами от бесплатного до $200 в месяц. «Впервые единая подписка на ИИ-сервисы охватывает весь цикл работы: от возникновения идеи и создания контента до реализации проекта и обме...",
     "date": "2026-10-13",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Redesigning source control at Anthropic",
+    "link": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "desc": "Comments",
+    "date": "2026-10-13",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "8 неочевидных вариантов использования Claude Opus 5.5",
+    "link": "https://habr.com/ru/articles/1094032/?utm_campaign=1094032&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я использую новую модель Opus 5.5 в работе уже больше недели, и впечатления у меня пока только хорошие. Практически всё, о чём я ее прошу, модель генерирует почти без ошибок, при этом нет необходимости постоянно следить за ней и исправлять результаты. К тому же стоимость токенов гораздо меньше по...",
+    "date": "2026-10-13",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },

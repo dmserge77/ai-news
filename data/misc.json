@@ -2,17 +2,7 @@
   {
     "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
     "link": "https://typesafe.ai/blog/jev-1-14",
-    "desc": "Article URL: https://typesafe.ai/blog/jev-1-14 Comments URL: https://news.ycombinator.com/item?id=50095353 Points: 166 # Comments: 56",
-    "date": "2026-10-14",
-    "source": "Hacker News",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Banks are now trying to offload the AI data center debt they just underwrote",
-    "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
-    "desc": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Points: 267 # Comments: 210",
+    "desc": "Article URL: https://typesafe.ai/blog/jev-1-14 Comments URL: https://news.ycombinator.com/item?id=50095353 Points: 255 # Comments: 85",
     "date": "2026-10-14",
     "source": "Hacker News",
     "cat": "misc",
@@ -22,7 +12,7 @@
   {
     "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
     "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-    "desc": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 824 # Comments: 444",
+    "desc": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 867 # Comments: 501",
     "date": "2026-10-14",
     "source": "Hacker News",
     "cat": "misc",
@@ -30,19 +20,9 @@
     "misc_type": "curio"
   },
   {
-    "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
-    "link": "https://clova.email/",
-    "desc": "Infinite inboxes, including prefixes where you don't have to create inboxes before you use them -- they self create when you add a suffix. Three types of inboxes: - One sender. Locks to the first domain to send email (except gmail, outlook, etc where it locks to an email account for obivous reaso...",
-    "date": "2026-10-14",
-    "source": "Hacker News",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "Has AI tells",
     "link": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
-    "desc": "Article URL: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1 Comments URL: https://news.ycombinator.com/item?id=50090799 Points: 70 # Comments: 72",
+    "desc": "Article URL: https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1 Comments URL: https://news.ycombinator.com/item?id=50090799 Points: 107 # Comments: 91",
     "date": "2026-10-14",
     "source": "Hacker News",
     "cat": "misc",
@@ -75,6 +55,26 @@
     "desc": "",
     "date": "2026-10-14",
     "source": "UX Collective",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+    "link": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+    "desc": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Points: 267 # Comments: 210",
+    "date": "2026-10-14",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Show HN: I wrote an email app that accepts only one sender per inbox",
+    "link": "https://clova.email/",
+    "desc": "Infinite inboxes, including prefixes where you don't have to create inboxes before you use them -- they self create when you add a suffix. Three types of inboxes: - One sender. Locks to the first domain to send email (except gmail, outlook, etc where it locks to an email account for obivous reaso...",
+    "date": "2026-10-14",
+    "source": "Hacker News",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
@@ -150,6 +150,16 @@
     "misc_type": "unfiltered"
   },
   {
+    "title": "Путин: кибезугрозы выходят на новый уровень",
+    "link": "https://hi-tech.mail.ru/news/157962-putin-kibezugrozy-vyhodyat-na-novyj-uroven/",
+    "desc": "Президент провел совещание по вопросам кибербезопасности. Киберугрозы в настоящее время выходят на новый уровень, поэтому России необходимо совершенствовать систему цифровой безопасности. Как пишет ТАСС, об этом заявил президент Владимир Путин на совещании по вопросам кибербезопасности, которое п...",
+    "date": "2026-10-14",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
     "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
     "link": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
     "desc": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog .",
@@ -180,16 +190,6 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Как сделать RAG-чат для сайта, который не выдумывает цены: пять решений из моего бота",
-    "link": "https://habr.com/ru/articles/1093326/?utm_campaign=1093326&utm_source=habrahabr&utm_medium=rss",
-    "desc": "С июня я делаю AI-чат для сайтов, который не выдумывает цены и не соглашается с клиентом во всём подряд. К пяти решениям из статьи я пришёл через ошибки. Читать про пять решений",
-    "date": "2026-10-13",
-    "source": "Habr AI",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "The synth everyone owned and few could program: a lesson for AI design",
     "link": "https://uxdesign.cc/the-synth-everyone-owned-and-few-could-program-a-lesson-for-ai-design-6f618ec2aea0?source=rss----138adf9c44c---4",
     "desc": "",
@@ -207,6 +207,16 @@
     "source": "UX Collective",
     "cat": "misc",
     "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Как сделать RAG-чат для сайта, который не выдумывает цены: пять решений из моего бота",
+    "link": "https://habr.com/ru/articles/1093326/?utm_campaign=1093326&utm_source=habrahabr&utm_medium=rss",
+    "desc": "С июня я делаю AI-чат для сайтов, который не выдумывает цены и не соглашается с клиентом во всём подряд. К пяти решениям из статьи я пришёл через ошибки. Читать про пять решений",
+    "date": "2026-10-13",
+    "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
     "misc_type": "raznoe"
   },
   {
@@ -473,26 +483,6 @@
     "title": "Что обсудили на форуме «Цифровые решения» — главном ИТ-событии года",
     "link": "https://hi-tech.mail.ru/articles/157610-chto-obsudili-na-forume-cifrovye-resheniya/",
     "desc": "С 6 по 10 октября в Москве прошел форум «Цифровые решения», посвященный цифровой трансформации России. Рассказываем, что вошло в деловую программу мероприятия, и какие заявления сделали эксперты отрасли со сцены форума. Форум посвящен вопросам цифровой трансформации страны и реализации нацпроекта...",
-    "date": "2026-10-12",
-    "source": "Hi-Tech Mail",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Что происходит с интернетом в Санкт-Петербурге сегодня 12 октября",
-    "link": "https://hi-tech.mail.ru/news/145517-chto-segodnya-s-internetom-v-spb/",
-    "desc": "12 октября в Санкт-Петербурге и Ленинградской области наблюдаются проблемы с мобильным интернетом. Разобрались в причинах и выяснили, в каких районах города сеть работает хуже всего. Какие сервисы сейчас не работают в Санкт-Петербурге и Ленинградской области По данным системы мониторинга detector...",
-    "date": "2026-10-12",
-    "source": "Hi-Tech Mail",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Что происходит с интернетом в Москве сегодня, 12 октября",
-    "link": "https://hi-tech.mail.ru/news/144029-sboi-interneta-v-moskve/",
-    "desc": "12 октября в Москве и области наблюдаются проблемы с мобильным интернетом. Разбираемся, в чем причина и в каких районах города связь работает хуже всего. Какие сервисы сейчас не работают в Москве и Московской области По данным системы мониторинга detector404, жалобы в регионе поступают на работу ...",
     "date": "2026-10-12",
     "source": "Hi-Tech Mail",
     "cat": "misc",
