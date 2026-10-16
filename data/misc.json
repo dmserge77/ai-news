@@ -1,18 +1,28 @@
 [
   {
-    "title": "Neural networks are clean",
-    "link": "https://already-clean.goodfire.com/",
-    "desc": "https://twitter.com/nickcammarata/status/2110757819427574056 Comments URL: https://news.ycombinator.com/item?id=50105647 Points: 484 # Comments: 187",
-    "date": "2026-10-15",
-    "source": "Hacker News",
+    "title": "Выручка за сентябрь: как AI‑агент получает три разных ответа",
+    "link": "https://habr.com/ru/companies/otus/articles/1088874/?utm_campaign=1088874&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Один вопрос к корпоративному хранилищу данных — три разных ответа от ИИ‑агента. Все SQL‑запросы выполняются без ошибок, но выручка за сентябрь каждый раз получается разной. Разбираем на воспроизводимом эксперименте, откуда берутся расхождения и как семантический слой помогает избежать подобных ош...",
+    "date": "2026-10-16",
+    "source": "Habr AI",
     "cat": "misc",
-    "lang": "en",
+    "lang": "ru",
     "misc_type": "raznoe"
   },
   {
-    "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
-    "link": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-    "desc": "Article URL: https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/ Comments URL: https://news.ycombinator.com/item?id=50104654 Points: 226 # Comments: 181",
+    "title": "Amazon представила гаджеты для общения с AI‑помощником Bee: браслет и магнитный модуль для смартфона",
+    "link": "https://habr.com/ru/news/1095052/?utm_campaign=1095052&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Amazon представила два гаджета для общения с персональным AI‑помощником Bee: браслет Frontier и магнитный модуль для смартфона Eclipse. С их помощью можно генерировать конспекты разговоров, выделять договорённости с собеседниками и вести задачи. Читать далее",
+    "date": "2026-10-16",
+    "source": "Habr AI Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Neural networks are clean",
+    "link": "https://already-clean.goodfire.com/",
+    "desc": "https://twitter.com/nickcammarata/status/2110757819427574056 Comments URL: https://news.ycombinator.com/item?id=50105647 Points: 607 # Comments: 227",
     "date": "2026-10-15",
     "source": "Hacker News",
     "cat": "misc",
@@ -22,9 +32,19 @@
   {
     "title": "Using AI to reverse engineer hardware",
     "link": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
-    "desc": "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 98 # Comments: 107",
+    "desc": "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 160 # Comments: 139",
     "date": "2026-10-15",
     "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Linus Torvalds on AI-assisted kernel contributions",
+    "link": "https://lore.kernel.org/lkml/CAHk-=whTs09_ozN+e09GU68N1wPP56MUzDjrg9rnKxQUa0A_4Q@mail.gmail.com/",
+    "desc": "Comments",
+    "date": "2026-10-15",
+    "source": "Lobsters",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
@@ -75,6 +95,16 @@
     "desc": "",
     "date": "2026-10-15",
     "source": "UX Collective",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+    "link": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+    "desc": "Article URL: https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/ Comments URL: https://news.ycombinator.com/item?id=50104654 Points: 226 # Comments: 181",
+    "date": "2026-10-15",
+    "source": "Hacker News",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
@@ -165,6 +195,26 @@
     "desc": "Если вы подключаете к чату настоящие инструменты, нужно проверить два случая: когда вызов следует выполнить и когда ни один инструмент не подходит. Я сравнил два способа: модель сама пишет вызов или выбирает функцию и аргументы из готовых вариантов. Второй способ я исследую в собственной эксперим...",
     "date": "2026-10-15",
     "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Теория музыки для саундпродюсеров (для всех)",
+    "link": "https://www.fl.ru/projects/5525417/teoriya-muzyiki-dlya-saundprodyuserov.html",
+    "desc": "Требуется полностью воссоздать музыкальный проект 1 MILL RACKS с нуля для зачёта по теории музыки. Исходник: трек в wav, длительность 2:02. Задачи: Максимально точно восстановить оригинальную композицию, включая мелодию, бас и ритм. Мелодию не заменять и не сочинять новую. Создать с нуля рабочий ...",
+    "date": "2026-10-15",
+    "source": "FL.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Требуется fashion-дизайнер / конструктор обуви для разработки технического эскиза (лодочки) (для всех)",
+    "link": "https://www.fl.ru/projects/5525374/trebuetsya-fashion-dizayner---konstruktor-obuvi-dlya-razrabotki-tehnicheskogo-eskiza-lodochki.html",
+    "desc": "Ищу профессионального дизайнера обуви (конструктора) для создания детального технического эскиза (дизайн-проекта) одной модели женских туфель-лодочек на базе фотографий готового изделия (референс — модель Amelia от Le Silla). Это стартовый проект для запуска нового обувного бренда. Если наше сотр...",
+    "date": "2026-10-15",
+    "source": "FL.ru",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -655,6 +705,16 @@
     "desc": "1—2 декабря Blockchain Life 2026 вновь соберет в Дубае всю мировую криптоиндустрию: 15 000+ участников из 130+ стран, 200+ спикеров и 200+ спонсоров. Blockchain Life объединит в Дубае лидеров криптоиндустрии со всего мира, привлекая основателей и руководство ключевых проектов. Высокая концентраци...",
     "date": "2026-10-13",
     "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Торвальдс: ИИ — замечательный инструмент, если воспринимать его как инструмент",
+    "link": "https://habr.com/ru/news/1093620/?utm_campaign=1093620&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На конференции Open Source Summit Europe создатель Linux Линус Торвальдс высказался по поводу ИИ. Однако он оговорился, что инструмент становится полезным, если использовать его именно как инструмент. Читать далее",
+    "date": "2026-10-13",
+    "source": "Habr AI Новости",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -1250,16 +1310,6 @@
     "misc_type": "unfiltered"
   },
   {
-    "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-    "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-    "desc": "",
-    "date": "2026-10-07",
-    "source": "Hugging Face",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "Glyph Cluster is now available in stealth for free on AI Gateway",
     "link": "https://vercel.com/changelog/glyph-cluster-is-now-available-in-stealth-for-free-on-ai-gateway",
     "desc": "",
@@ -1277,6 +1327,16 @@
     "source": "Tproger",
     "cat": "misc",
     "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+    "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+    "desc": "",
+    "date": "2026-10-07",
+    "source": "Hugging Face",
+    "cat": "misc",
+    "lang": "en",
     "misc_type": "raznoe"
   },
   {
