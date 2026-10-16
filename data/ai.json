@@ -1,30 +1,102 @@
 [
   {
-    "title": "Redesigning Source Control at Anthropic",
-    "link": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-    "desc": "Article URL: https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50118863 Points: 7 # Comments: 2",
+    "title": "How the Claude Code team does code review",
+    "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+    "desc": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 121 # Comments: 118",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Show HN: Gemini 4 Argon plays StarCraft",
-    "link": "https://starskirmish.com/bench/v0-2/",
-    "desc": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 9 # Comments: 0",
+    "title": "You could have invented transformers from memory",
+    "link": "https://alexwang.ai/posts/associative-memory/",
+    "desc": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 41 # Comments: 2",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "How to make System 1 LLMs show System 2 competencies?",
-    "link": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
-    "desc": "Article URL: https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113 Comments URL: https://news.ycombinator.com/item?id=50118662 Points: 3 # Comments: 0",
+    "title": "Claude reveals ECDSA curve origins",
+    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
+    "desc": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 431 # Comments: 182",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast",
+    "link": "https://stoke.money",
+    "desc": "Hi HN, I've been through many finance tracking apps, starting with Personal Capital, then Monarch, and most recently Copilot. None of them have worked perfectly for my needs. All of these apps tend to model “cash flow” as the net sum of your transactions during a month, yet while credit card char...",
+    "date": "2026-10-16",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+    "link": "https://github.com/cobanov/PS5LM",
+    "desc": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 116 # Comments: 33",
+    "date": "2026-10-16",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Anthropic assigned highest junk credit rating in June",
+    "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+    "desc": "Article URL: https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d Comments URL: https://news.ycombinator.com/item?id=50122112 Points: 151 # Comments: 42",
+    "date": "2026-10-16",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Designing more efficient quantum circuits with Claude",
+    "link": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+    "desc": "Article URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits Comments URL: https://news.ycombinator.com/item?id=50121939 Points: 63 # Comments: 11",
+    "date": "2026-10-16",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Лимиты ChatGPT и локальные LLM: мой эксперимент с Hermes Agent",
+    "link": "https://habr.com/ru/articles/1095496/?utm_campaign=1095496&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Проверил, можно ли разгрузить Hermes Agent с помощью локальных LLM на домашнем ПК с RTX 3080 и 32 ГБ RAM. Сравнил Qwen и GLM на архитектурных задачах, редактуре и извлечении данных, испытал разные квантования и подключил Hermes на Mac к модели на Windows. В статье — условия испытаний, замеры скор...",
+    "date": "2026-10-16",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Text‑to‑image на ESP32: диффузионный трансформер в микроконтроллере",
+    "link": "https://habr.com/ru/articles/1095474/?utm_campaign=1095474&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Stable Diffusion хочет видеокарту с 4–8 ГБ памяти. Flux хочет 12 ГБ, а лучше 24. А у меня на столе лежит ESP32-S3 — микроконтроллер, отладочная плата с которым стоит несколько сотен рублей, у которого 512 КБ оперативной памяти, два ядра по 240 МГц и ни одного тензорного ядра. Вопрос был простой: ...",
+    "date": "2026-10-16",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Форк OpenResearch после релиза: три недели сопровождения вместе с Claude",
+    "link": "https://habr.com/ru/articles/1095440/?utm_campaign=1095440&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В первой части, « Kimi Code, MiniMax Code и ZCode в OpenResearch: форк за один вечер вместе с Claude », мы добавили в OpenResearch три новых coding-агента. Статья вышла 25 сентября вместе с релизом v0.3.2. Эта часть о том, что было дальше. Форк нужно было сопровождать: чинить ошибки, о которых на...",
+    "date": "2026-10-16",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Kling 4.0 вышел: 30 секунд и 15 референсов уже есть, 4K и HDR пока обещание",
+    "link": "https://habr.com/ru/companies/syntx_ai/articles/1095296/?utm_campaign=1095296&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Промо-ролик Kling 4.0 идёт почти две минуты. На 85-й секунде на экране три строки: 4K, 1080P, 720P. Чуть раньше было обещано «10-bit HDR». А на странице функции Kling те же 4K и HDR помечены как «скоро». Где правда? Я сверил блог Kling, гайд пользователя и страницу функции. Главное, что вышло: 4K...",
+    "date": "2026-10-16",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Сколько живёт ссылка в ответе нейросети: сравнил три замера по 20 вопросам",
@@ -117,15 +189,6 @@
     "lang": "ru"
   },
   {
-    "title": "Кажется, мы ищем форму",
-    "link": "https://habr.com/ru/articles/1095038/?utm_campaign=1095038&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр :3, что-то давно я не писал свое графоманство, что читается хуже нейрослопа, да и знаки препинания по паузам в уме моём, а еще я \"–\" умею ставить ввиду академической проф-деформации. Итак, заваривайте чай, напрягаем мозг, сегодня поговорим в целом о программировании и его проблемах в...",
-    "date": "2026-10-16",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "GLM 5.3 Flash и DeepSeek V4.1 Flash стали бесплатными в OpenCode",
     "link": "https://habr.com/ru/companies/haulmont/news/1095202/?utm_campaign=1095202&utm_source=habrahabr&utm_medium=rss",
     "desc": "В OpenCode открыли бесплатный доступ к GLM 5.3 Flash . Незадолго до этого бесплатной стала DeepSeek V4.1 Flash. Обе модели уже есть в каталоге: можно выбрать подходящую и поручить агенту работу с проектом. А с нашим Meta Harness ими можно пользоваться прямо в IDE: поставить задачу, посмотреть изм...",
@@ -189,6 +252,15 @@
     "lang": "ru"
   },
   {
+    "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI",
+    "link": "https://rb.ru/news/auditoriya-nejrosetej-v-rossii-vyrosla-vdvoe-vsego-za-god-samoj-populyarnoj-stala-alisa-ai/",
+    "desc": "Месячный охват ИИ-сервисов в России в сентябре 2026 года достиг 55% населения старше 12 лет, увеличившись более чем вдвое за год, сообщает РБК со ссылкой на данные исследовательской компании Mediascope. Самым популярным сервисом стала Алиса AI: за месяц ей воспользовались 59 млн человек. На второ...",
+    "date": "2026-10-16",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Минпромторг утвердил техсбор на смартфоны и ноутбуки — до 992 рублей за устройство",
     "link": "https://rb.ru/news/minpromtorg-utverdil-tehsbor-na-smartfony-i-noutbuki-do-992-rublej-za-ustrojstvo/",
     "desc": "Минпромторг России утвердил перечень электроники, облагаемой технологическим сбором, а также ставки и методику его расчёта. Ставка сможет достигать 992 рублей за одно устройство. Итоговая сумма сбора будет зависеть от наличия сведений о товарном знаке и модели устройства в системе маркировки «Чес...",
@@ -234,6 +306,33 @@
     "lang": "ru"
   },
   {
+    "title": "ИИ поставил крест на традиционном реверс-инжиниринге игр — decomp.dev прекращает работу",
+    "link": "https://3dnews.ru/1150056",
+    "desc": "Сайт decomp.dev, посвящённый обратной разработке, декомпиляции и модификации видеоигр, закрывается. Администратор сайта пояснил, что «сообщество декомпиляции перестало существовать в прежнем виде» из-за ИИ. По его словам, стало невозможно отличить проекты, созданные людьми, от выполненных с помощ...",
+    "date": "2026-10-16",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Линус Торвальдс выпустил первый патч для Linux, написанный с ИИ — синтетический тест показал ускорение в 23 раза",
+    "link": "https://3dnews.ru/1150054",
+    "desc": "Основатель проекта Linux Линус Торвальдс (Linus Torvalds) несколько раз менял свою позицию в отношении написанного искусственным интеллектом кода — теперь же он сам выпустил первый патч, созданный с помощью большой языковой модели. В синтетическом тесте решение показало прирост производительности...",
+    "date": "2026-10-16",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Google первой воспользовалась магией для снижения ошибок квантовых вычислений",
+    "link": "https://3dnews.ru/1150049",
+    "desc": "Похоже, для появления безотказных универсальных квантовых компьютеров никак не обойтись без магии и это не шутка. Волшебники из Google первыми открыли и применили способ культивации квантовых магических состояний, который на новом процессоре Willow компании показал настоящие чудеса коррекции ошиб...",
+    "date": "2026-10-16",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Anthropic «подешевела» на полтриллиона в преддверии IPO — инвесторы снизили оценку из-за замедления роста выручки",
     "link": "https://3dnews.ru/1150036",
     "desc": "Инвесторы снизили ожидаемую оценку Anthropic перед IPO на четверть — с $2 трлн до $1,5 трлн. Причиной стало замедление роста выручки: если во втором квартале она более чем удвоилась, то в третьем прибавила лишь 45 %, достигнув $16,8 млрд. Источник изображения: Anthropic",
@@ -255,15 +354,6 @@
     "title": "Минпромторг РФ утвердил ставки техсбора: за смартфон доплатим до 496 рублей, за ноутбук — до 992 рублей",
     "link": "https://3dnews.ru/1150024",
     "desc": "Минпромторг России утвердил ставки технологического сбора на смартфоны, телефоны и ноутбуки — он начнёт взиматься с 1 декабря на устройства изготовленные как в России, так и за рубежом. Размер платежа зависит от категории устройства и наличия сведений о нём в системе маркировки. Выплаты будут нап...",
-    "date": "2026-10-16",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Google первой воспользовалась магией для снижения ошибок квантовых вычислений",
-    "link": "https://3dnews.ru/1150049",
-    "desc": "Похоже, для появления безотказных универсальных квантовых компьютеров никак не обойтись без магии и это не шутка. Волшебники из Google первыми открыли и применили способ культивации квантовых магических состояний, который на новом процессоре Willow компании показал настоящие чудеса коррекции ошиб...",
     "date": "2026-10-16",
     "source": "3DNews",
     "cat": "ai",
@@ -300,6 +390,33 @@
     "title": "Amazon выпустила носимый ИИ-диктофон Bee Frontier и магнитный модуль Eclipse для смартфона",
     "link": "https://3dnews.ru/1150011",
     "desc": "Компания Amazon представила два компактных устройства под брендом Bee, предназначенных для записи разговоров и обработки полученной информации с помощью искусственного интеллекта. Носимый гаджет Frontier и модуль Eclipse, крепящийся к смартфону, помогут сохранить важные детали диалога и составить...",
+    "date": "2026-10-16",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ может стать «слишком супер»: команда Трампа взялась за риски искусственного интеллекта",
+    "link": "https://3dnews.ru/1150061",
+    "desc": "Межведомственная группа «Силы суперинтеллекта» (Super Intelligence Force, SIF), о формировании которой президент США Дональд Трамп (Donald Trump) объявил в начале октября, провела в четверг первое заседание. На нём участники договорились заняться рисками, связанными с кибербезопасностью, биобезоп...",
+    "date": "2026-10-16",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "M**a выпустила мощную открытую ИИ-модель Muse Spark Open — для её работы хватит всего двух Mac Studio",
+    "link": "https://3dnews.ru/1150060",
+    "desc": "M**a представила модель искусственного интеллекта с открытыми весами, которую она называет «самой мощной» в своём классе в США. Модель получила название Muse Spark Open — она примечательна ещё и тем, что специально разработана для работы на компьютерах Apple Mac. Источник изображения: apple.com",
+    "date": "2026-10-16",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ-модель Z.ai GLM-5.3 заподозрили в имитации безопасного поведения для прохождения тестов",
+    "link": "https://3dnews.ru/1150057",
+    "desc": "Новейшая флагманская модель китайской лаборатории искусственного интеллекта Z.ai GLM-5.3 может оказаться достаточно продвинутой, чтобы «осознавать», как происходит её обучение, а также имитировать успешное прохождение тестов на безопасность. Это порождает новые опасения относительно способности И...",
     "date": "2026-10-16",
     "source": "3DNews",
     "cat": "ai",
@@ -378,6 +495,33 @@
     "lang": "ru"
   },
   {
+    "title": "Redesigning Source Control at Anthropic",
+    "link": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+    "desc": "Article URL: https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50118863 Points: 7 # Comments: 2",
+    "date": "2026-10-16",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: Gemini 4 Argon plays StarCraft",
+    "link": "https://starskirmish.com/bench/v0-2/",
+    "desc": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 9 # Comments: 0",
+    "date": "2026-10-16",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "How to make System 1 LLMs show System 2 competencies?",
+    "link": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
+    "desc": "Article URL: https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113 Comments URL: https://news.ycombinator.com/item?id=50118662 Points: 3 # Comments: 0",
+    "date": "2026-10-16",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "RTX 5090 пропала с сайта NVIDIA и полок магазинов",
     "link": "https://hi-tech.mail.ru/news/158184-rtx-5090-propala-s-saita-nvidia-i-polok-micro-center/",
     "desc": "Флагманская видеокарта GeForce RTX 5090 больше не отображается в каталоге NVIDIA Marketplace. Видеокарта GeForce RTX 5090 пропала из каталога NVIDIA Marketplace. Через эту фирменную витрину компания продает свои видеокарты и направляет покупателей к партнерам. Об этом пишет Wccftech со ссылкой на...",
@@ -423,20 +567,11 @@
     "lang": "ru"
   },
   {
-    "title": "Переводчик с тимлидского: что слышит команда, когда вы говорите «внедряем ИИ‑агентов»",
-    "link": "https://habr.com/ru/articles/1095024/?utm_campaign=1095024&utm_source=habrahabr&utm_medium=rss",
-    "desc": "«С понедельника пишем код через ИИ-агентов!» — говорите вы на созвоне. Вы предвкушаете ускорение процессов, а разработчик в этот момент молча обновляет резюме на Хедхантере . Почему классные ИИ-инструменты вызывают у команды только тихий ужас и глухое сопротивление? Разбираем реальные страхи разр...",
-    "date": "2026-10-15",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Как ИИ-агенты повторяют задачу: промпт, скилл, граф или код",
     "link": "https://habr.com/ru/articles/1094996/?utm_campaign=1094996&utm_source=habrahabr&utm_medium=rss",
     "desc": "Агент один раз сверил прайс-лист и собрал отчёт. Через неделю пришёл новый файл, и задачу нужно повторить. На повторном запуске агент снова планирует шаги и тратит на это токены, а отчёт приходит в другом формате. В статье разобраны четыре способа, которыми агентные системы решают задачу повторно...",
     "date": "2026-10-15",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -445,16 +580,7 @@
     "link": "https://habr.com/ru/articles/1094982/?utm_campaign=1094982&utm_source=habrahabr&utm_medium=rss",
     "desc": "Meta* (признана экстремистской и запрещена в РФ) 15 октября выложила веса Muse Spark Open – открытой версии своей модели Muse Spark. Компания называет ее “самой мощной американской моделью с открытыми весами”: по агентным бенчмаркам новинка обходит открытые модели Nvidia и Thinking Machines, но п...",
     "date": "2026-10-15",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Сколько инструментов должно быть у MCP-сервера? Я измерила от 5 до 100 в Claude Code, Codex и Gemini",
-    "link": "https://habr.com/ru/articles/1094886/?utm_campaign=1094886&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Почти все советы по проектированию MCP-серверов сводятся к одному: держите инструментов поменьше. Я проанализировала 91 источник. 38 из них советуют сокращать число инструментов, 20 называют конкретную цифру (чаще всего 10–20), и только 10 вообще измеряли, как число инструментов влияет на точност...",
-    "date": "2026-10-15",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -463,7 +589,7 @@
     "link": "https://habr.com/ru/companies/otus/articles/1088876/?utm_campaign=1088876&utm_source=habrahabr&utm_medium=rss",
     "desc": "Eval показывает 96% качества, тесты проходят, а после релиза LLM‑ассистент допускает критическую ошибку. Проблема может скрываться в самой системе оценки, которая пропускает опасные ответы и создаёт ложное ощущение надёжности. Разбираем семь ошибок тестирования LLM‑функций и способы построить eva...",
     "date": "2026-10-15",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -576,6 +702,15 @@
     "lang": "ru"
   },
   {
+    "title": "Моё исследование средств выявления уязвимостей в скиллах",
+    "link": "https://habr.com/ru/articles/1094856/?utm_campaign=1094856&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Пока делал CEO AI (моё виденье помощника в работе), решил проверить, можно ли использовать сканеры для проверки скиллов перед подключением. Собрал 12 синтетических пакетов и прогнал через Cisco Skill Scanner, NVIDIA SkillSpector и AgentVerus без Здесь \"без LLM\" относится к работе сканеров, а не к...",
+    "date": "2026-10-15",
+    "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "29 439 возможных уязвимостей, 6 157 отчётов мейнтейнерам, 516 исправлений: Anthropic сканирует open source проекты",
     "link": "https://habr.com/ru/companies/syntx_ai/articles/1094616/?utm_campaign=1094616&utm_source=habrahabr&utm_medium=rss",
     "desc": "Из 6 157 отчётов, которые Anthropic передала мейнтейнерам open source проектов, исправлено 516: это 8,4%, а не 516 из 29 000, как читается заголовок The New Stack. Разбираем что нашли модели Claude и к чему это привело. Читать далее",
@@ -590,6 +725,15 @@
     "desc": "Двадцать лет ИБ-сообщество учило разработчиков не тащить в проект непроверенные зависимости. А потом мы доверили написание кода LLM, которые с удовольствием выдумывают несуществующие пакеты, — и злоумышленнику остаётся только зарегистрировать их первым. Разбираемся, что такое slopsquatting, наско...",
     "date": "2026-10-15",
     "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Сколько инструментов должно быть у MCP-сервера? Я измерила от 5 до 100 в Claude Code, Codex и Gemini",
+    "link": "https://habr.com/ru/articles/1094886/?utm_campaign=1094886&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Почти все советы по проектированию MCP-серверов сводятся к одному: держите инструментов поменьше. Я проанализировала 91 источник. 38 из них советуют сокращать число инструментов, 20 называют конкретную цифру (чаще всего 10–20), и только 10 вообще измеряли, как число инструментов влияет на точност...",
+    "date": "2026-10-15",
+    "source": "Habr API",
     "cat": "ai",
     "lang": "ru"
   },
@@ -662,6 +806,15 @@
     "desc": "Продажи первых устройств на базе новой платформы Nvidia RTX Spark для Windows on Arm начнутся 16 октября. Системы на её базе предназначены в первую очередь для создателей контента и тех, кто работает с ИИ-моделями локально. Порталы Computer Base и Tom’s Hardware протестировали одни из первых ноут...",
     "date": "2026-10-15",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Переводчик с тимлидского: что слышит команда, когда вы говорите «внедряем ИИ‑агентов»",
+    "link": "https://habr.com/ru/articles/1095024/?utm_campaign=1095024&utm_source=habrahabr&utm_medium=rss",
+    "desc": "«С понедельника пишем код через ИИ-агентов!» — говорите вы на созвоне. Вы предвкушаете ускорение процессов, а разработчик в этот момент молча обновляет резюме на Хедхантере . Почему классные ИИ-инструменты вызывают у команды только тихий ужас и глухое сопротивление? Разбираем реальные страхи разр...",
+    "date": "2026-10-15",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -810,15 +963,6 @@
     "lang": "en"
   },
   {
-    "title": "Моё исследование средств выявления уязвимостей в скиллах",
-    "link": "https://habr.com/ru/articles/1094856/?utm_campaign=1094856&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Пока делал CEO AI (моё виденье помощника в работе), решил проверить, можно ли использовать сканеры для проверки скиллов перед подключением. Собрал 12 синтетических пакетов и прогнал через Cisco Skill Scanner, NVIDIA SkillSpector и AgentVerus без Здесь \"без LLM\" относится к работе сканеров, а не к...",
-    "date": "2026-10-15",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "[Перевод] Где искать возможности в B2C сегменте в AI",
     "link": "https://habr.com/ru/articles/1094680/?utm_campaign=1094680&utm_source=habrahabr&utm_medium=rss",
     "desc": "Привет! Меня зовут Саша Журавлев. Я венчурный инвестор и основатель фонда Mento vc. Мы инвестируем в стартапы на стадиях Seed / Series A в США, а в своем телеграм-канале рассказываю, как вижу рынок и принимаю инвестиционные решения. a16z (vc фонд, больше $100B под управлением) выпустили отчет о с...",
@@ -871,15 +1015,6 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "Anthropic's Scion is heavily inspired by Mononoke",
-    "link": "https://sunshowers.io/posts/anthropic-mononoke/",
-    "desc": "Comments",
-    "date": "2026-10-14",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "Повышаем температуру, или почему один промпт дает разные сюжеты",
@@ -1105,6 +1240,15 @@
     "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Anthropic's Scion is heavily inspired by Mononoke",
+    "link": "https://sunshowers.io/posts/anthropic-mononoke/",
+    "desc": "Comments",
+    "date": "2026-10-14",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Попросил Claude сделать вторую игру, но в этот раз по трендам. День 2",
@@ -1476,15 +1620,6 @@
     "lang": "ru"
   },
   {
-    "title": "Хронология инцидентов с ИИ‑агентами: два разных класса и чек‑лист изоляции для своего агента",
-    "link": "https://habr.com/ru/companies/syntx_ai/articles/1093670/?utm_campaign=1093670&utm_source=habrahabr&utm_medium=rss",
-    "desc": "За три месяца OpenAI, Anthropic, Google и Meta раскрыли серию случаев, когда агенты вышли за рамки теста или задачи. Агентство AP собрало их в одну хронологию, но в ней смешаны два разных типа происшествий с разными причинами. Ниже разбор, чем они отличаются, и список из восьми проверок, который ...",
-    "date": "2026-10-13",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Gemini 4 Argon вышла из закрытого теста: пишет в 15 раз больше, чем Gemini 3",
     "link": "https://habr.com/ru/companies/gptunnel/news/1094038/?utm_campaign=1094038&utm_source=habrahabr&utm_medium=rss",
     "desc": "Через две недели после закрытого старта Google открыла доступ к Gemini 4 Argon – новому флагману компании. Модель анонсировали 30 сентября, но тогда к ней допустили только доверенных участников из программы Fairwind. Теперь Argon доступна через Gemini API, а также подписчикам Google AI Pro и Ultr...",
@@ -1607,6 +1742,15 @@
     "desc": "Министерство трудовых ресурсов и социального обеспечения Китая 10 октября объявило программу поддержки занятости на фоне распространения искусственного интеллекта. Власти хотят создавать рабочие места не только после сокращений, но и через само внедрение технологии: новые проекты, профессии и фор...",
     "date": "2026-10-13",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Хронология инцидентов с ИИ‑агентами: два разных класса и чек‑лист изоляции для своего агента",
+    "link": "https://habr.com/ru/companies/syntx_ai/articles/1093670/?utm_campaign=1093670&utm_source=habrahabr&utm_medium=rss",
+    "desc": "За три месяца OpenAI, Anthropic, Google и Meta раскрыли серию случаев, когда агенты вышли за рамки теста или задачи. Агентство AP собрало их в одну хронологию, но в ней смешаны два разных типа происшествий с разными причинами. Ниже разбор, чем они отличаются, и список из восьми проверок, который ...",
+    "date": "2026-10-13",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
