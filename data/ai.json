@@ -1,12 +1,93 @@
 [
   {
-    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-    "link": "https://llmspeed.dev/",
-    "desc": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 21 # Comments: 5",
+    "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+    "link": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+    "desc": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 353 # Comments: 141",
     "date": "2026-10-17",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "DeepSeek-v4.1-Flash-1017",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "desc": "Article URL: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 272 # Comments: 106",
+    "date": "2026-10-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+    "link": "https://llmspeed.dev/",
+    "desc": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 137 # Comments: 47",
+    "date": "2026-10-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "DeepSeek V4.1 Flash 1017 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-10-17",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Симуляция вселенной может быть совсем не такой, какой вы её себе представляли",
+    "link": "https://habr.com/ru/articles/1095634/?utm_campaign=1095634&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Гипотеза о том, что наш мир может быть компьютерной симуляцией, давно уже стала частью поп-культуры. Однако в этих бесконечных спорах и обсуждениях есть неожиданное слепое пятно: симуляция практически всегда представляется нам неким суперпроектом сверхразумных существ, созданным ради каких-то гло...",
+    "date": "2026-10-17",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic забанила мой Claude и отдала в экспорте только телефон. Теперь мне отвечает Grok в парике",
+    "link": "https://habr.com/ru/articles/1095624/?utm_campaign=1095624&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Захожу пару недель назад в Claude, а меня встречает красная плашка: аккаунт отключён за нарушение Usage Policy. Какой пункт и в каком чате, не сказано. Я решил, что это недоразумение, и написал апелляцию, спокойно и по делу. Что из этого получилось, читайте под катом. Читать далее",
+    "date": "2026-10-17",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Сжатие, красота и Шмидхубер: умеют ли нейросети выдумывать новое",
+    "link": "https://habr.com/ru/companies/ru_mts/articles/1095280/?utm_campaign=1095280&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В ноябре 2025 года Юрген Шмидхубер, которого половина индустрии считает настоящим отцом современного ИИ, в ответ Илону Маску опубликовал ссылку на свою же работу семнадцатилетней давности. Мол, хотите понять, почему нынешний ИИ не способен к настоящему творчеству, почитайте мою статью из 2008 год...",
+    "date": "2026-10-17",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Нафиг NVIDIA! Часть 2. Запустил 8 нейросетей на FPGA за $50 — и упёрся в DDR3",
+    "link": "https://habr.com/ru/articles/1095564/?utm_campaign=1095564&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Можно ли запустить настоящие языковые модели на списанной FPGA за $50 - без NVIDIA? В первой части я запустил Qwen, а теперь разобрал openTPU до RTL, собрал прошивку в Vivado и проверил 8 нейросетей в 165 запусках. Покажу реальные замеры, устройство кристалла, грабли и почему добавление умножител...",
+    "date": "2026-10-17",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Стоит ли связывать Claude Code и Gemini Notebook?",
+    "link": "https://habr.com/ru/articles/1095562/?utm_campaign=1095562&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В этой статье я честно делюсь личным опытом интеграции Claude Code и Gemini Notebook через неофициальные библиотеки. Разбераю архитектуру этого решения, сталкиваюсь с неизбежными костылями автоматизации и отвечу на главный вопрос: где заканчивается реальная польза и начинается избыточное усложнен...",
+    "date": "2026-10-17",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Железный сентябрь: от накопителей Unigen на 122 ТБ до архитектуры Arm Ranger и дорожной карты Huawei Ascend",
+    "link": "https://habr.com/ru/companies/selectel/articles/1095216/?utm_campaign=1095216&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Всем привет, с вами Сергей Ковалёв, менеджер выделенных серверов в Selectel . Сентябрь снова радует нас анонсами железа. Huawei и Alibaba с разницей в пять дней показали планы по ИИ-ускорителям, Fujitsu представила ARM-процессоры MONAKA, а NVIDIA и AMD без пресс-релизов пополнили каталоги. Ниже о...",
+    "date": "2026-10-17",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Транскрибация аудио в текст бесплатно и без облаков: почему мне не хватило одной модели",
@@ -32,6 +113,33 @@
     "desc": "Открытые модели против облака: T-one, GigaAM или Deepgram: что реально тянет обычный CPU для живых субтитров в звонке Мне понадобились живые субтитры на русском в звонке один на один, и я захотел уйти с облачного Deepgram на свой сервер. Поставил стенд и прогнал T-one от Т-Банка, GigaAM от Сбера ...",
     "date": "2026-10-17",
     "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ спроектировал пистолет для печати на 3D‑принтере",
+    "link": "https://habr.com/ru/news/1095640/?utm_campaign=1095640&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Американский активист за права на оружие Коди Уилсон использовал искусственный интеллект, чтобы спроектировать пистолет для печати на 3D‑принтере. Получившийся пистолет калибра.22 получил название WASP. Он представляет собой ствол, прикреплённый к подпружиненному пластиковому корпусу. Примитивная...",
+    "date": "2026-10-17",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Claude за полчаса разгадал загадку АНБ, которой больше 25 лет. Ответ был у криптографов под носом",
+    "link": "https://habr.com/ru/news/1095620/?utm_campaign=1095620&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Четверть века вокруг одного из главных стандартов современной криптографии держалась почти детективная интрига. В 2000 году американский институт стандартов NIST утвердил набор эллиптических кривых от P-192 до P-521 – сегодня на P-256 держатся подписи сертификатов сайтов, токены входа и защищенны...",
+    "date": "2026-10-17",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "«Дешёвые и никудышные»: глава Apple объяснил, почему компания так долго не выпускала складной iPhone",
+    "link": "https://3dnews.ru/1150077",
+    "desc": "Гендиректор Apple Джон Тернус (John Ternus) дал большое интервью журналу Time, в котором рассказал о разработке iPhone Duo, о многолетней задержке перед выходом устройства на рынок, о перспективах искусственного интеллекта в экосистеме Apple и о том, как волновался перед своей первой презентацией...",
+    "date": "2026-10-17",
+    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -74,7 +182,7 @@
   {
     "title": "How the Claude Code team does code review",
     "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-    "desc": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 315 # Comments: 293",
+    "desc": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 395 # Comments: 369",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
@@ -83,7 +191,7 @@
   {
     "title": "You could have invented transformers from memory",
     "link": "https://alexwang.ai/posts/associative-memory/",
-    "desc": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 244 # Comments: 63",
+    "desc": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 351 # Comments: 80",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
@@ -92,7 +200,7 @@
   {
     "title": "Claude reveals ECDSA curve origins",
     "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-    "desc": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 820 # Comments: 310",
+    "desc": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 926 # Comments: 339",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
@@ -101,7 +209,7 @@
   {
     "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
     "link": "https://github.com/cobanov/PS5LM",
-    "desc": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 267 # Comments: 64",
+    "desc": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 314 # Comments: 76",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
@@ -110,7 +218,7 @@
   {
     "title": "Designing more efficient quantum circuits with Claude",
     "link": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-    "desc": "Article URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits Comments URL: https://news.ycombinator.com/item?id=50121939 Points: 129 # Comments: 29",
+    "desc": "Article URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits Comments URL: https://news.ycombinator.com/item?id=50121939 Points: 155 # Comments: 33",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
@@ -119,7 +227,7 @@
   {
     "title": "Show HN: Gemini 4 Argon plays StarCraft",
     "link": "https://starskirmish.com/bench/v0-2/",
-    "desc": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 211 # Comments: 93",
+    "desc": "I've refreshed StarSkirmish Bench, a benchmark where LLMs play StarCraft BW by writing code, with results from the flagship models of OpenAI, Anthropic, Google, and Muse Comments URL: https://news.ycombinator.com/item?id=50118688 Points: 228 # Comments: 103",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
@@ -225,33 +333,6 @@
     "lang": "ru"
   },
   {
-    "title": "Карта автономии AI: как решить, что агенту можно делать без человека",
-    "link": "https://habr.com/ru/companies/agima/articles/1094596/?utm_campaign=1094596&utm_source=habrahabr&utm_medium=rss",
-    "desc": "На демо AI-агент уверенно отвечает на вопросы, и кто-то предлагает: «Давайте разрешим ему действовать самому». Но между «предложить возврат» и «отправить деньги» огромная разница. Разбираю, как определить границы самостоятельности агента и понять, где без человека пока не обойтись. Читать далее",
-    "date": "2026-10-16",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Можно ли написать язык программирования с ИИ? Опыт Nova: первый компилятор зашёл в тупик, второй собрал себя сам",
-    "link": "https://habr.com/ru/articles/1095130/?utm_campaign=1095130&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я пишу язык Nova с ИИ-агентами пять с половиной месяцев. Nova — Go/Rust-подобный язык для бэкенда, где функция в типе объявляет, чем занимается сама: работает с сетью, часами, файлами. Это эффекты, и их реализацию можно подменить, например на тестовую, не меняя программу. Первый компилятор, Oracl...",
-    "date": "2026-10-16",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "MCP ВкусВилл собирает корзину под мои КБЖУ: как я перестала тратить по 30 минут на заказ товаров из интернет-магазина",
-    "link": "https://habr.com/ru/articles/1094036/?utm_campaign=1094036&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Всем, кто помешан на правильном питании и AI, посвящается :) Каждый заказ продуктов отнимал у меня 30–40 минут: хочется нового, у меня лимит калорий и нормы белка, а фильтра по КБЖУ в интернет-магазинах, где я покупаю, нет, и я читала карточку за карточкой. Теперь это делает Claude через MCP-серв...",
-    "date": "2026-10-16",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "GLM 5.3 Flash и DeepSeek V4.1 Flash стали бесплатными в OpenCode",
     "link": "https://habr.com/ru/companies/haulmont/news/1095202/?utm_campaign=1095202&utm_source=habrahabr&utm_medium=rss",
     "desc": "В OpenCode открыли бесплатный доступ к GLM 5.3 Flash . Незадолго до этого бесплатной стала DeepSeek V4.1 Flash. Обе модели уже есть в каталоге: можно выбрать подходящую и поручить агенту работу с проектом. А с нашим Meta Harness ими можно пользоваться прямо в IDE: поставить задачу, посмотреть изм...",
@@ -284,6 +365,15 @@
     "desc": "Лить воду в 2026ом давно бессмысленно, и её здесь нет, весь текст написан моею рукой и отражает факты как есть, просто и кратко. Итак, написан небольшой скилл — эксплойт псевдостраха модели. Он иммерсивно погружает агента в конечный, исчерпывающийся промежуток реального времени: процент использов...",
     "date": "2026-10-16",
     "source": "Habr Python",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Можно ли написать язык программирования с ИИ? Опыт Nova: первый компилятор зашёл в тупик, второй собрал себя сам",
+    "link": "https://habr.com/ru/articles/1095130/?utm_campaign=1095130&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я пишу язык Nova с ИИ-агентами пять с половиной месяцев. Nova — Go/Rust-подобный язык для бэкенда, где функция в типе объявляет, чем занимается сама: работает с сетью, часами, файлами. Это эффекты, и их реализацию можно подменить, например на тестовую, не меняя программу. Первый компилятор, Oracl...",
+    "date": "2026-10-16",
+    "source": "Habr Open Source",
     "cat": "ai",
     "lang": "ru"
   },
@@ -333,15 +423,6 @@
     "lang": "ru"
   },
   {
-    "title": "Промышленный шпионаж Индии 🇮🇳,как они отмывают технологии для США🇺🇸!!!Плоды отравленного дерева: как индийский ученый украл суверенную ИИ-архитектуру защиты нейросетей для военных нужд, но совершил фатальную ошибку в математике!",
-    "link": "https://vc.ru/ai/3198319-krazha-ii-arhitektury-indijskij-uchenyj-i-fatalnaya-oshibka-v-matematike?from=rss",
-    "desc": "Сегодня я вынужден предать огласке беспрецедентный международный инцидент, который уже перерос в официальное уголовно-академическое расследование Минобрнауки РФ (дело № 354684038) и контролируется Службой контрразведки и СЭБ ФСБ России (заявление № 20261015041144 от 15.10.2026). Это история о том...",
-    "date": "2026-10-16",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Долги платить надо. Проверю, можно ли заработать на нейросетях",
     "link": "https://vc.ru/life/3198748-kak-zarabatyvat-na-nevrosetjah-i-zakryt-dolgi?from=rss",
     "desc": "В последнее время достало жить от зарплаты до зарплаты. Получаешь деньги, платишь банку, закрываешь обязательные расходы — и снова считаешь, сколько осталось до следующей выплаты.",
@@ -354,6 +435,15 @@
     "title": "Как сделать дорогой сайт с крутой анимацией в ChatGPT и Claude: видео, музыка и код в одном чате с ИИ",
     "link": "https://vc.ru/ai/3198417-sozdanie-saita-s-animatsiey-v-chatgpt-i-claude?from=rss",
     "desc": "Это два сайта, лендинг Cyber AI и магазин бронежилетов IRON TACTICA: листаешь страницу, и фоновый ролик идёт вместе с прокруткой, вперёд и назад. Сложнее всего не код, а связный ролик без склеек. Видео, раскадровку и фоновую музыку я делал прямо в чате с ChatGPT и Claude через плагин Cyber AI.",
+    "date": "2026-10-16",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Промышленный шпионаж Индии 🇮🇳,как они отмывают технологии для США🇺🇸!!!Плоды отравленного дерева: как индийский ученый украл суверенную ИИ-архитектуру защиты нейросетей для военных нужд, но совершил фатальную ошибку в математике!",
+    "link": "https://vc.ru/ai/3198319-krazha-ii-arhitektury-indijskij-uchenyj-i-fatalnaya-oshibka-v-matematike?from=rss",
+    "desc": "Сегодня я вынужден предать огласке беспрецедентный международный инцидент, который уже перерос в официальное уголовно-академическое расследование Минобрнауки РФ (дело № 354684038) и контролируется Службой контрразведки и СЭБ ФСБ России (заявление № 20261015041144 от 15.10.2026). Это история о том...",
     "date": "2026-10-16",
     "source": "vc.ru",
     "cat": "ai",
@@ -500,6 +590,24 @@
     "desc": "Исследовательская модель GPT-5.6 Sol перебрала 362 публичные seed-фразы, нашла кошелек с тестовым эфиром и оплатила им комиссию. В итоговом отчете о задании модель об этом не упомянула. Внутренняя исследовательская модель OpenAI из серии GPT-5.6 Sol без разрешения воспользовалась чужим криптокоше...",
     "date": "2026-10-16",
     "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Карта автономии AI: как решить, что агенту можно делать без человека",
+    "link": "https://habr.com/ru/companies/agima/articles/1094596/?utm_campaign=1094596&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На демо AI-агент уверенно отвечает на вопросы, и кто-то предлагает: «Давайте разрешим ему действовать самому». Но между «предложить возврат» и «отправить деньги» огромная разница. Разбираю, как определить границы самостоятельности агента и понять, где без человека пока не обойтись. Читать далее",
+    "date": "2026-10-16",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "MCP ВкусВилл собирает корзину под мои КБЖУ: как я перестала тратить по 30 минут на заказ товаров из интернет-магазина",
+    "link": "https://habr.com/ru/articles/1094036/?utm_campaign=1094036&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Всем, кто помешан на правильном питании и AI, посвящается :) Каждый заказ продуктов отнимал у меня 30–40 минут: хочется нового, у меня лимит калорий и нормы белка, а фильтра по КБЖУ в интернет-магазинах, где я покупаю, нет, и я читала карточку за карточкой. Теперь это делает Claude через MCP-серв...",
+    "date": "2026-10-16",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -819,15 +927,6 @@
     "lang": "ru"
   },
   {
-    "title": "Новая физическая математика. Публикуем засекреченые ответы 33-ёх задач бенчмарк теста 🤫🤫TheoPhysEval.🤫10 минут и всё порешали ☺️Они даже🤫📃📃📃 опубликовать ещё не успели 🤣",
-    "link": "https://vc.ru/ai/3196904-novaya-fizicheskaya-matematika-i-rezultaty-zadach-theophyseval?from=rss",
-    "desc": "Буквально несколько дней назад, 9 октября 2026 года, международная группа из 35 ведущих физиков-теоретиков (эксперты из Гарварда, Принстона, Калтеха и Google DeepMind) официально выложила препринт масштабного исследования arXiv:2610.16733v1.",
-    "date": "2026-10-15",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Как написать резюме и сопроводительное письмо с ChatGPT и Claude, чтобы его не отсеял ИИ рекрутер",
     "link": "https://vc.ru/ai/3197242-kak-napisat-rezyume-i-soprovozhdennoe-pismo?from=rss",
     "desc": "Многие компании уже не читают каждое резюме вручную. Первичный отбор часто делает система: ATS или ИИ-фильтр сравнивает ваше резюме с вакансией и решает, дойдёт ли оно до живого человека. Хорошая новость в том, что нейросети умеют играть и на вашей стороне. Разбираем по шагам: от первого отклика ...",
@@ -887,6 +986,15 @@
     "desc": "Федеральная торговая комиссия (FTC) США накануне направила Anthropic и OpenAI запрос о предоставлении документов в рамках расследования на предмет возможных нарушений законодательства в области защиты прав потребителей. Источник изображения: anthropic.com",
     "date": "2026-10-15",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Новая физическая математика. Публикуем засекреченые ответы 33-ёх задач бенчмарк теста 🤫🤫TheoPhysEval.🤫10 минут и всё порешали ☺️Они даже🤫📃📃📃 опубликовать ещё не успели 🤣",
+    "link": "https://vc.ru/ai/3196904-novaya-fizicheskaya-matematika-i-rezultaty-zadach-theophyseval?from=rss",
+    "desc": "Буквально несколько дней назад, 9 октября 2026 года, международная группа из 35 ведущих физиков-теоретиков (эксперты из Гарварда, Принстона, Калтеха и Google DeepMind) официально выложила препринт масштабного исследования arXiv:2610.16733v1.",
+    "date": "2026-10-15",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1107,33 +1215,6 @@
     "lang": "ru"
   },
   {
-    "title": "70 токенов в секунду в qwen3.8–27b на RTX 3090",
-    "link": "https://habr.com/ru/articles/1092728/?utm_campaign=1092728&utm_source=habrahabr&utm_medium=rss",
-    "desc": "На текущий момент qwen3.8-27b без сомнений лучшая модель для программирования, которую можно запускать на потребительских видеокартах. К сожалению прямой путь - скачать модель с официального аккаунта qwen на huggingface -> запустить в своем любимом инференс-движке может не привести к хорошему рез...",
-    "date": "2026-10-14",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Nano Banana 2.1 на 14 задачах с русскими промптами: тест против Nano Banana 2, Pro и GPT Image 2.5",
-    "link": "https://habr.com/ru/companies/syntx_ai/articles/1093216/?utm_campaign=1093216&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Google выпустил Nano Banana 2.1 6 октября 2026. Мы проверили её на 14 задачах с русскими промптами против Nano Banana 2, Pro и GPT Image 2.5: часы, таблица элементов, афиши, правка карточки тарифов. В восьми задачах русский текст стоит прямо на картинке. По сумме пунктов все четыре модели уложили...",
-    "date": "2026-10-14",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Я попробовал заменить разработчиков ИИ-агентами",
-    "link": "https://habr.com/ru/companies/koda/articles/1094060/?utm_campaign=1094060&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Четыре ИИ-субагента нашли ошибку, которую пропустил одиночный агент. После успешной оплаты заказ всё ещё можно было оплатить повторно. В скрытом наборе тестов одиночный запуск набрал 7/8, а агентная команда получила 8/8. При этом обе версии успешно прошли production build и свои тесты. Значит ли ...",
-    "date": "2026-10-14",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "На взломанной PlayStation 5 запустили Qwen с 27 млрд параметров и 2-битным квантованием",
     "link": "https://habr.com/ru/news/1094494/?utm_campaign=1094494&utm_source=habrahabr&utm_medium=rss",
     "desc": "Разработчик под никнеймом abhi245y выпустил приложение PS5LM Plus для запуска языковых моделей на графическом процессоре PlayStation 5. В тестах Qwen 3.8 с 27 млрд параметров генерирует примерно 20 токенов в секунду. Все вычисления консоль выполняет локально, а отправлять запросы к модели можно с...",
@@ -1233,15 +1314,6 @@
     "lang": "ru"
   },
   {
-    "title": "AI и новые роли РОПа",
-    "link": "https://vc.ru/id3129882/3194941-ai-i-novye-roli-ropa?from=rss",
-    "desc": "Аркадич к системе приладил AI:Рутина ушла, не пугает дедлайн. Всё мерно и чинно, бизнес растёт,Но что же теперь РОПов всех ждёт?AI закрывает задачи теперь: Отчёты напишет, оградит от потерь,Проверит звонки и оценит лиды...«На кой, Аркадьич, теперь нужен ты?!» Спокойно, родной! Без тебя никуда!Хар...",
-    "date": "2026-10-14",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "OpenAI научит ChatGPT спорить с пользователями, а не поддакивать им во всём",
     "link": "https://vc.ru/ai/3195000-openai-izmenit-chatgpt-chtoby-on-ne-poddakival-polzovatelyam?from=rss",
     "desc": "Наступит ли конец цифровой лести и одобрения сомнительных идей",
@@ -1272,6 +1344,42 @@
     "title": "Один запрос - разные видеонейросети: угадайте, где какая модель",
     "link": "https://vc.ru/ai/3193915-sravnenie-videoneirosetei-kling-veo-seedance-minimax-vidu?from=rss",
     "desc": "Запрос про бумажный кораблик в луже я отправил пяти видеонейросетям из чата. Ниже ролики без подписей: угадайте, где Kling, Veo, Seedance, MiniMax и Vidu, ответы и факты о моделях в конце. Нейросети подключает к ChatGPT и Claude плагин Cyber AI: в ChatGPT и в Claude.",
+    "date": "2026-10-14",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "70 токенов в секунду в qwen3.8–27b на RTX 3090",
+    "link": "https://habr.com/ru/articles/1092728/?utm_campaign=1092728&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На текущий момент qwen3.8-27b без сомнений лучшая модель для программирования, которую можно запускать на потребительских видеокартах. К сожалению прямой путь - скачать модель с официального аккаунта qwen на huggingface -> запустить в своем любимом инференс-движке может не привести к хорошему рез...",
+    "date": "2026-10-14",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Nano Banana 2.1 на 14 задачах с русскими промптами: тест против Nano Banana 2, Pro и GPT Image 2.5",
+    "link": "https://habr.com/ru/companies/syntx_ai/articles/1093216/?utm_campaign=1093216&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Google выпустил Nano Banana 2.1 6 октября 2026. Мы проверили её на 14 задачах с русскими промптами против Nano Banana 2, Pro и GPT Image 2.5: часы, таблица элементов, афиши, правка карточки тарифов. В восьми задачах русский текст стоит прямо на картинке. По сумме пунктов все четыре модели уложили...",
+    "date": "2026-10-14",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Я попробовал заменить разработчиков ИИ-агентами",
+    "link": "https://habr.com/ru/companies/koda/articles/1094060/?utm_campaign=1094060&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Четыре ИИ-субагента нашли ошибку, которую пропустил одиночный агент. После успешной оплаты заказ всё ещё можно было оплатить повторно. В скрытом наборе тестов одиночный запуск набрал 7/8, а агентная команда получила 8/8. При этом обе версии успешно прошли production build и свои тесты. Значит ли ...",
+    "date": "2026-10-14",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "AI и новые роли РОПа",
+    "link": "https://vc.ru/id3129882/3194941-ai-i-novye-roli-ropa?from=rss",
+    "desc": "Аркадич к системе приладил AI:Рутина ушла, не пугает дедлайн. Всё мерно и чинно, бизнес растёт,Но что же теперь РОПов всех ждёт?AI закрывает задачи теперь: Отчёты напишет, оградит от потерь,Проверит звонки и оценит лиды...«На кой, Аркадьич, теперь нужен ты?!» Спокойно, родной! Без тебя никуда!Хар...",
     "date": "2026-10-14",
     "source": "vc.ru",
     "cat": "ai",
@@ -1692,15 +1800,6 @@
     "lang": "ru"
   },
   {
-    "title": "Обсуждаем будущее тестирования на QA-воркшопе 27 октября в Санкт-Петербурге",
-    "link": "https://habr.com/ru/companies/avito/news/1093672/?utm_campaign=1093672&utm_source=habrahabr&utm_medium=rss",
-    "desc": "С AI код писать гораздо быстрее, но при этом процессы разработки часто остаются прежними. По итогу ревьюеры перегружены, QA не успевает проверять изменения, а ответственность за результат размывается. 27 октября Авито проводит QA-воркшоп в Санкт-Петербурге. На практике рассмотрим, как адаптироват...",
-    "date": "2026-10-13",
-    "source": "Habr AI Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Nvidia и Cisco представили оптический модуль для сетей ИИ‑фабрик",
     "link": "https://habr.com/ru/news/1093614/?utm_campaign=1093614&utm_source=habrahabr&utm_medium=rss",
     "desc": "Nvidia и Cisco объявили о создании съёмного оптического модуля USFP для сетей ИИ‑фабрик или дата‑центров для обучения и работы нейросетей. Каждая линия модуля рассчитана на 400 Гбит/с. Читать далее",
@@ -1787,6 +1886,15 @@
     "desc": "И это может стать серьезной проблемой в будущем Сообщение ИИ начнет самокопироваться как вирус на чужих устройствах уже к концу 2026 года — Anthropic появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-10-13",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Обсуждаем будущее тестирования на QA-воркшопе 27 октября в Санкт-Петербурге",
+    "link": "https://habr.com/ru/companies/avito/news/1093672/?utm_campaign=1093672&utm_source=habrahabr&utm_medium=rss",
+    "desc": "С AI код писать гораздо быстрее, но при этом процессы разработки часто остаются прежними. По итогу ревьюеры перегружены, QA не успевает проверять изменения, а ответственность за результат размывается. 27 октября Авито проводит QA-воркшоп в Санкт-Петербурге. На практике рассмотрим, как адаптироват...",
+    "date": "2026-10-13",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
