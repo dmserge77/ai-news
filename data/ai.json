@@ -2,7 +2,7 @@
   {
     "title": "How the Claude Code team does code review",
     "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-    "desc": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 121 # Comments: 118",
+    "desc": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 217 # Comments: 202",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,7 +11,7 @@
   {
     "title": "You could have invented transformers from memory",
     "link": "https://alexwang.ai/posts/associative-memory/",
-    "desc": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 41 # Comments: 2",
+    "desc": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 115 # Comments: 34",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,16 +20,7 @@
   {
     "title": "Claude reveals ECDSA curve origins",
     "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-    "desc": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 431 # Comments: 182",
-    "date": "2026-10-16",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast",
-    "link": "https://stoke.money",
-    "desc": "Hi HN, I've been through many finance tracking apps, starting with Personal Capital, then Monarch, and most recently Copilot. None of them have worked perfectly for my needs. All of these apps tend to model “cash flow” as the net sum of your transactions during a month, yet while credit card char...",
+    "desc": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 636 # Comments: 260",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
@@ -38,7 +29,7 @@
   {
     "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
     "link": "https://github.com/cobanov/PS5LM",
-    "desc": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 116 # Comments: 33",
+    "desc": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 174 # Comments: 46",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
@@ -47,7 +38,7 @@
   {
     "title": "Anthropic assigned highest junk credit rating in June",
     "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-    "desc": "Article URL: https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d Comments URL: https://news.ycombinator.com/item?id=50122112 Points: 151 # Comments: 42",
+    "desc": "https://finance.yahoo.com/technology/ai/articles/anthropic-s... Comments URL: https://news.ycombinator.com/item?id=50122112 Points: 203 # Comments: 62",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
@@ -56,9 +47,18 @@
   {
     "title": "Designing more efficient quantum circuits with Claude",
     "link": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-    "desc": "Article URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits Comments URL: https://news.ycombinator.com/item?id=50121939 Points: 63 # Comments: 11",
+    "desc": "Article URL: https://www.anthropic.com/research/designing-efficient-quantum-circuits Comments URL: https://news.ycombinator.com/item?id=50121939 Points: 90 # Comments: 18",
     "date": "2026-10-16",
     "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Do you let LLMs write both your tests and your code?",
+    "link": "https://lobste.rs/s/miwcai/do_you_let_llms_write_both_your_tests_your",
+    "desc": "I'm curious what stance others have taken? Or what they've experienced with this? I'm toying with adding a rule to our values.md that the LLM can only significantly generate one or the other. I'm reviewing a merge request at the moment where it's clear the LLM mostly did both, and they're highly ...",
+    "date": "2026-10-16",
+    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
   },
@@ -108,7 +108,7 @@
     "lang": "ru"
   },
   {
-    "title": "12 спрайтов и 61 цвет: как нейросеть собрала пиксель-арт-маскота для сайта из черновиков Qwen Image 2.1",
+    "title": "12 спрайтов и 61 цвет: как нейросеть собрала пиксель‑арт‑маскота для сайта из черновиков Qwen Image 2.1",
     "link": "https://habr.com/ru/articles/1095304/?utm_campaign=1095304&utm_source=habrahabr&utm_medium=rss",
     "desc": "Нейросеть нарисовала ведьму, которая выглядит как пиксель-арт. Спрайтом она не является: в файле 1344×1344 и 40 318 уникальных цветов (это кадр read ), а сетки, по которой эти «пиксели» выстроены, не существует. Это принципиальная разница, и она не косметическая: картинку «под пиксели» нельзя пер...",
     "date": "2026-10-16",
@@ -183,6 +183,15 @@
     "title": "Нейрослоп не пройдёт: отбор в первую Школу аналитиков hh",
     "link": "https://habr.com/ru/companies/hh/articles/1094450/?utm_campaign=1094450&utm_source=habrahabr&utm_medium=rss",
     "desc": "Мы получили больше 250 тестовых на 25 мест в первую Школу аналитиков hh. Многие решения были сделаны с нейросетью, и это нормально — аналитики в работе тоже пользуются LLM-инструментами. Вопрос был в другом: как за аккуратным текстом от LLM разглядеть кандидата с пониманием того, что он делает. Ч...",
+    "date": "2026-10-16",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Кажется, мы ищем форму",
+    "link": "https://habr.com/ru/articles/1095038/?utm_campaign=1095038&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр :3, что-то давно я не писал свое графоманство, что читается хуже нейрослопа, да и знаки препинания по паузам в уме моём, а еще я \"–\" умею ставить ввиду академической проф-деформации. Итак, заваривайте чай, напрягаем мозг, сегодня поговорим в целом о программировании и его проблемах в...",
     "date": "2026-10-16",
     "source": "Habr AI",
     "cat": "ai",
@@ -495,6 +504,15 @@
     "lang": "ru"
   },
   {
+    "title": "Show HN: Stoke Money – Personal finance app built around a cash flow forecast",
+    "link": "https://stoke.money",
+    "desc": "Hi HN, I've been through many finance tracking apps, starting with Personal Capital, then Monarch, and most recently Copilot. None of them have worked perfectly for my needs. All of these apps tend to model “cash flow” as the net sum of your transactions during a month, yet while credit card char...",
+    "date": "2026-10-16",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Redesigning Source Control at Anthropic",
     "link": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
     "desc": "Article URL: https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50118863 Points: 7 # Comments: 2",
@@ -563,6 +581,15 @@
     "desc": "Какие направления стали самыми популярными у пользователей онлайн-школ. За третий квартал 2026 года трафик на сайты онлайн-образования в России вырос на 53% по сравнению с первым кварталом, сообщили Hi-Tech Mail в пресс-службе «МегаФона». Особенно заметна динамика среди пользователей старше 55 ле...",
     "date": "2026-10-16",
     "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Переводчик с тимлидского: что слышит команда, когда вы говорите «внедряем ИИ‑агентов»",
+    "link": "https://habr.com/ru/articles/1095024/?utm_campaign=1095024&utm_source=habrahabr&utm_medium=rss",
+    "desc": "«С понедельника пишем код через ИИ-агентов!» — говорите вы на созвоне. Вы предвкушаете ускорение процессов, а разработчик в этот момент молча обновляет резюме на Хедхантере . Почему классные ИИ-инструменты вызывают у команды только тихий ужас и глухое сопротивление? Разбираем реальные страхи разр...",
+    "date": "2026-10-15",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -806,15 +833,6 @@
     "desc": "Продажи первых устройств на базе новой платформы Nvidia RTX Spark для Windows on Arm начнутся 16 октября. Системы на её базе предназначены в первую очередь для создателей контента и тех, кто работает с ИИ-моделями локально. Порталы Computer Base и Tom’s Hardware протестировали одни из первых ноут...",
     "date": "2026-10-15",
     "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Переводчик с тимлидского: что слышит команда, когда вы говорите «внедряем ИИ‑агентов»",
-    "link": "https://habr.com/ru/articles/1095024/?utm_campaign=1095024&utm_source=habrahabr&utm_medium=rss",
-    "desc": "«С понедельника пишем код через ИИ-агентов!» — говорите вы на созвоне. Вы предвкушаете ускорение процессов, а разработчик в этот момент молча обновляет резюме на Хедхантере . Почему классные ИИ-инструменты вызывают у команды только тихий ужас и глухое сопротивление? Разбираем реальные страхи разр...",
-    "date": "2026-10-15",
-    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1611,15 +1629,6 @@
     "lang": "ru"
   },
   {
-    "title": "[Перевод] Локальный запуск Qwen-Image-2.1 без safety checker: тест на MacBook Air с 16 ГБ памяти",
-    "link": "https://habr.com/ru/articles/1093810/?utm_campaign=1093810&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Команда Qwen из Alibaba выпустила Qwen-Image-2.1 — модель для генерации и редактирования изображений на базе diffusion transformer с 7 млрд параметров, поддержкой нативного вывода до 2K и лицензией Qwen Research License. Она умеет Читать далее",
-    "date": "2026-10-13",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Gemini 4 Argon вышла из закрытого теста: пишет в 15 раз больше, чем Gemini 3",
     "link": "https://habr.com/ru/companies/gptunnel/news/1094038/?utm_campaign=1094038&utm_source=habrahabr&utm_medium=rss",
     "desc": "Через две недели после закрытого старта Google открыла доступ к Gemini 4 Argon – новому флагману компании. Модель анонсировали 30 сентября, но тогда к ней допустили только доверенных участников из программы Fairwind. Теперь Argon доступна через Gemini API, а также подписчикам Google AI Pro и Ultr...",
@@ -1722,6 +1731,15 @@
     "title": "Вместе с Claude сделал бесплатный Spotlight с ИИ для Mac и Windows: ищет файлы и отвечает на вопросы в одной строке",
     "link": "https://habr.com/ru/articles/1093846/?utm_campaign=1093846&utm_source=habrahabr&utm_medium=rss",
     "desc": "Каждый день я делал одно и то же: открывал Spotlight, чтобы найти файл или запустить программу, а потом лез в браузер, открывал вкладку с ИИ и вставлял туда вопрос. Два разных места для одного действия — «мне нужно что-то быстро». Захотелось, чтобы это была одна строка: нажал клавишу, напечатал —...",
+    "date": "2026-10-13",
+    "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "[Перевод] Локальный запуск Qwen-Image-2.1 без safety checker: тест на MacBook Air с 16 ГБ памяти",
+    "link": "https://habr.com/ru/articles/1093810/?utm_campaign=1093810&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Команда Qwen из Alibaba выпустила Qwen-Image-2.1 — модель для генерации и редактирования изображений на базе diffusion transformer с 7 млрд параметров, поддержкой нативного вывода до 2K и лицензией Qwen Research License. Она умеет Читать далее",
     "date": "2026-10-13",
     "source": "Habr Open Source",
     "cat": "ai",
