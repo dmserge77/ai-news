@@ -1,17 +1,8 @@
 [
   {
-    "title": "OpenAI discloses four more rogue incidents",
-    "link": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-    "desc": "Article URL: https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/ Comments URL: https://news.ycombinator.com/item?id=50132502 Points: 27 # Comments: 6",
-    "date": "2026-10-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "DeepSeek-v4.1-Flash-1017",
     "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "desc": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 435 # Comments: 442",
+    "desc": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 573 # Comments: 513",
     "date": "2026-10-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,7 +11,7 @@
   {
     "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
     "link": "https://llmspeed.dev/",
-    "desc": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 201 # Comments: 65",
+    "desc": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 219 # Comments: 75",
     "date": "2026-10-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -198,6 +189,15 @@
     "lang": "ru"
   },
   {
+    "title": "Asus выпустила свою первую видеокарту Intel Arc — но она не для геймеров",
+    "link": "https://3dnews.ru/1150089",
+    "desc": "Asus представила профессиональную видеокарту UGen Intel Arc Pro B70 с 32 Гбайт памяти GDDR6 и поддержкой коррекции ошибок ECC. Компания позиционирует новинку прежде всего как инструмент для локального запуска моделей искусственного интеллекта. Это первая видеокарта Asus семейства Intel Arc и перв...",
+    "date": "2026-10-17",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Как лучше есть тыквенные семечки – ответ диетологов",
     "link": "https://hi-tech.mail.ru/news/135226-dietologi-obyasnili-kak-luchshe-est-tykvennye-semechki/",
     "desc": "Тыквенные семечки — не просто вкусный перекус, но и прекрасный источник ценных питательных веществ. Они содержат белок, клетчатку, полезные жиры, магний, фосфор и антиоксидантные растительные соединения — фитостерины и полифенолы. Регулярное употребление тыквенных семян снижает риск сердечно-сосу...",
@@ -216,6 +216,15 @@
     "lang": "ru"
   },
   {
+    "title": "OpenAI discloses four more rogue incidents",
+    "link": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
+    "desc": "Article URL: https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/ Comments URL: https://news.ycombinator.com/item?id=50132502 Points: 27 # Comments: 6",
+    "date": "2026-10-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
     "link": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
     "desc": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 353 # Comments: 141",
@@ -225,27 +234,9 @@
     "lang": "en"
   },
   {
-    "title": "You could have invented transformers from memory",
-    "link": "https://alexwang.ai/posts/associative-memory/",
-    "desc": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 421 # Comments: 99",
-    "date": "2026-10-16",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Claude reveals ECDSA curve origins",
-    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
-    "desc": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 982 # Comments: 359",
-    "date": "2026-10-16",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-    "link": "https://github.com/cobanov/PS5LM",
-    "desc": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 347 # Comments: 84",
+    "title": "Show HN: Things to Do API",
+    "link": "https://thingstodoapi.com/",
+    "desc": "I built an api/mcp for local events: pop-ups, one-off events, concerts, etc. currently covering the SF bay area. I've been building a bunch of consumer apps lately around personalization and recommendation and have had a hard time finding this data in one spot. agents can find useful stuff throug...",
     "date": "2026-10-16",
     "source": "Hacker News",
     "cat": "ai",
@@ -601,6 +592,33 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "You could have invented transformers from memory",
+    "link": "https://alexwang.ai/posts/associative-memory/",
+    "desc": "Article URL: https://alexwang.ai/posts/associative-memory/ Comments URL: https://news.ycombinator.com/item?id=50122878 Points: 421 # Comments: 99",
+    "date": "2026-10-16",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Claude reveals ECDSA curve origins",
+    "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
+    "desc": "https://words.filippo.io/seeds-solved/ Comments URL: https://news.ycombinator.com/item?id=50122800 Points: 982 # Comments: 359",
+    "date": "2026-10-16",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+    "link": "https://github.com/cobanov/PS5LM",
+    "desc": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 347 # Comments: 84",
+    "date": "2026-10-16",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "«Вы забрали последнюю»: GeForce RTX 5090 исчезает из американской розницы — ходят слухи об остановке производства",
