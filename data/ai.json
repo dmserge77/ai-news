@@ -1,8 +1,26 @@
 [
   {
+    "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+    "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+    "desc": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model Comments...",
+    "date": "2026-10-18",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
+    "link": "https://legendofhyrule.com/",
+    "desc": "I made this ahead of the Ocarina of Time remake which comes out in 17 days. I remember the feeling of playing it as a kid but I hadn’t kept up with the story so I built a timeline to catch up before the Door of Time reopens. Nintendo’s own timeline is the authority here (Hyrule Historia and their...",
+    "date": "2026-10-18",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
     "link": "https://api-docs.deepseek.com/guides/search/",
-    "desc": "Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 327 # Comments: 158",
+    "desc": "Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 424 # Comments: 206",
     "date": "2026-10-18",
     "source": "Hacker News",
     "cat": "ai",
@@ -16,6 +34,15 @@
     "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Ouroboros, очередной инструмент для вашего harness",
+    "link": "https://habr.com/ru/articles/1095918/?utm_campaign=1095918&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Harness - построение инфры вокруг LLM таким образом, чтобы man in the loop (человек в процессе поддержки LLM) отсутствовал. Я решил поэкспериментировать некоторое время назад, идея была очень простой - дать агенту возможность дебажить и исследовать написанный код через логгирование до того, как о...",
+    "date": "2026-10-18",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Синтетическая эмпатия: как RAG, системные промпты и TTS инженерят привязанность к LLM-агентам",
@@ -81,6 +108,33 @@
     "lang": "ru"
   },
   {
+    "title": "Нейросеть-синоптик на 110 тысяч параметров: проверка реальными метеостанциями",
+    "link": "https://habr.com/ru/articles/1095884/?utm_campaign=1095884&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Всем привет! Это продолжение истории про мою модель МАЯК: маленькую нейросеть, которая по истории одной метеостанции прогнозирует температуру на неделю вперёд и при этом помещается на Raspberry Pi. В прошлых статьях я рассказывал, как появилась идея и как выглядела первая версия. С тех пор проект...",
+    "date": "2026-10-18",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "В Anthropic стали меньше нанимать джунов и больше проводить времени на совещаниях",
+    "link": "https://habr.com/ru/news/1095894/?utm_campaign=1095894&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Согласно отчёту Anthropic, за последний год состав её сотрудников и характер работы, которую они выполняют, заметно изменились. На фоне внедрения ИИ доля начинающих специалистов в штате сократилась , а времени на совещания стало уходить больше. Так, по сравнению с 2025 годом доля специалистов нач...",
+    "date": "2026-10-18",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "MapQuest начал показывать, где установлены камеры Flock и другие ALPR‑системы",
+    "link": "https://habr.com/ru/news/1095880/?utm_campaign=1095880&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В приложении MapQuest от компании AOL появился новый «слой наблюдения» (Surveillance Layer). Он отображает места, где установлены системы автоматического распознавания номерных знаков (ALPR), включая камеры Flock Safety. Помимо них, приложение отслеживает ALPR‑системы Motorola Solutions (бренд Vi...",
+    "date": "2026-10-18",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "[Перевод] Висячий указатель в HTTP/2 довёл curl до RCE: разбор CVE-2026-92392 от Стенберга",
     "link": "https://habr.com/ru/articles/1095828/?utm_campaign=1095828&utm_source=habrahabr&utm_medium=rss",
     "desc": "В curl 8.23.0 закрыли use-after-free при выгрузке по HTTP/2: сервер сбрасывает поток, в libcurl остаётся висячий указатель на easy handle, и скачанные с сервера данные ложатся в освобождённую память, где лежал указатель на функцию. Разбор от самого Даниэля Стенберга: как работает цепочка, почему ...",
@@ -90,9 +144,45 @@
     "lang": "ru"
   },
   {
+    "title": "ИИ-образование для детей: рейтинг 10 школ и курсов по искусственному интеллекту в 2026 году",
+    "link": "https://tproger.ru/articles/ii-obrazovanie-dlya-detej-rejting-10-wkol-i-kursov-po-iskusstven",
+    "desc": "Для чего дети используют нейросети и как превратить это в профессию? Подробный рейтинг 10 школ и курсов по ИИ для детей в 2026 году. Узнайте всё про обучение нейросетям, искусственный интеллект для школьников, программы по Python и практические советы родителям. — Читать дальше « ИИ-образование д...",
+    "date": "2026-10-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ-агент OpenAI взломал чужой криптокошелек — нейросеть потратила токены на оплату стороннего сервиса",
+    "link": "https://rb.ru/news/ii-agent-openai-vzlomal-chuzhoj-kriptokoshelek-nejroset-potratila-tokeny-na-oplatu-storonnego-servisa/",
+    "desc": "Исследовательская модель OpenAI самостоятельно нашла доступ к чужому криптокошельку и потратила средства без разрешения владельца, сообщили в компании. Токены понадобились для оплаты стороннего сервиса. После выполнения задания модель не сообщила в отчете, откуда взяла средства.",
+    "date": "2026-10-18",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Чек-лист: Сэм Альтман. 25 тезисов о жизни за пределами ChatGPT",
+    "link": "https://rb.ru/checklists/chek-list-sam-altman/",
+    "desc": "В домашнем кабинете Сэма Альтмана лежит древнее ручное рубило, а в плейлисте соседствуют Рахманинов и Blink-182. Со школы он хранит футболку с надписью I Want to Believe — «Хочу верить». Рассуждая о жизни после OpenAI, говорит о работе на ферме. Собрали 25 блиц-ответов по его интервью и записям в...",
+    "date": "2026-10-18",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Как создать ИИ-агента без кода за 5 минут: пошаговое руководство",
     "link": "https://vc.ru/id6036658/3123875-sozdanie-ii-agenta-bez-koda?from=rss",
     "desc": "Коротко: ИИ-агент — это «цифровой сотрудник», который сам читает данные, принимает решения и делает дела: анализирует Excel, отправляет отчёты в Telegram, отвечает клиентам. Создать его можно за 5 минут без единой строки кода. Ниже — пошаговый гайд на примере платформы AgentsWorks.",
+    "date": "2026-10-18",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Закон об ИИ в России: что действует с 1 сентября 2026 года и что готовят к 2027-му",
+    "link": "https://vc.ru/id5386171/3201732-zakon-ob-ii-v-rossii-klyuchevye-aspekty-i-ozhidayemye-izmeneniya?from=rss",
+    "desc": "Первый в России закон об ИИ начал действовать 1 сентября 2026 года. Подписан он 26 июля 2026 года, номер 243-ФЗ, а называется документ «О поддержке развития технологий искусственного интеллекта в Российской Федерации». Заметок о нём за полтора месяца вышло несколько сотен, и заметная их часть рас...",
     "date": "2026-10-18",
     "source": "vc.ru",
     "cat": "ai",
@@ -122,6 +212,15 @@
     "desc": "Пресс-служба VK сообщила об атаке БПЛА на дата-центр компании, расположенный в Ленинградской области. В компании подчеркнули, что сервисы VK доступны в обычном режиме. Как заявил губернатор Санкт-Петербурга, «в настоящее время силы МЧС устраняют возгорание на объектах гражданской инфраструктуры в...",
     "date": "2026-10-18",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Полезный бурый жир улучшает наше психическое здоровье: доказано учеными",
+    "link": "https://hi-tech.mail.ru/news/158232-poleznyj-buryj-zhir-uluchshaet-nashe-psihicheskoe-zdorove-dokazano-uchenymi/",
+    "desc": "Когда мы слышим слово «жир», мы обычно представляем дряблые складки на животе, в которые наш организм запасает лишние калории. Это белый жир. Но в организме есть и другая его разновидность — бурый жир. Бурый жир работает прямо противоположным образом: он не накапливает, а сжигает калории, вырабат...",
+    "date": "2026-10-18",
+    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
@@ -162,24 +261,6 @@
     "lang": "ru"
   },
   {
-    "title": "Codex Desktop continuously generates Crashpad pending dumps",
-    "link": "https://github.com/openai/codex/issues/25921",
-    "desc": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 148 # Comments: 68",
-    "date": "2026-10-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "DeepSeek-v4.1-Flash-1017",
-    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "desc": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 903 # Comments: 675",
-    "date": "2026-10-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "DeepSeek V4.1 Flash 1017 now available on AI Gateway",
     "link": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway",
     "desc": "",
@@ -192,6 +273,15 @@
     "title": "Ни зарплат, ни отпусков, ни больничных. Зато есть User Story и Merge Request: как AI‑агенты работают у меня в Jira",
     "link": "https://habr.com/ru/articles/1095690/?utm_campaign=1095690&utm_source=habrahabr&utm_medium=rss",
     "desc": "IT-команда в средней компании (продуктовой, интеграторе, неважно) обычно состоит из продукт-менеджера, бизнес-аналитиков, разработчиков и QA-инженеров. Работают они, как правило, в одном трекере вроде Jira. А теперь представьте, что в поле Assignee появились виртуальные коллеги на все эти роли. У...",
+    "date": "2026-10-17",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ-агенту разрешили не больше 100 единиц. Три корректных ALLOW дали итог 120",
+    "link": "https://habr.com/ru/articles/1095622/?utm_campaign=1095622&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Человек разрешил workflow заказать не больше 100 единиц товара. Три запроса по 40 прошли через слой авторизации и получили ALLOW. В ERP в итоге оказалось 120. Разбираю, почему локально допустимые решения могут вместе выйти за пределы общего лимита, как check-then-act ломается при конкурентном исп...",
     "date": "2026-10-17",
     "source": "Habr AI",
     "cat": "ai",
@@ -367,6 +457,24 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Codex Desktop continuously generates Crashpad pending dumps",
+    "link": "https://github.com/openai/codex/issues/25921",
+    "desc": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 148 # Comments: 68",
+    "date": "2026-10-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "DeepSeek-v4.1-Flash-1017",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "desc": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 903 # Comments: 675",
+    "date": "2026-10-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
@@ -1395,15 +1503,6 @@
     "lang": "ru"
   },
   {
-    "title": "Повышаем температуру, или почему один промпт дает разные сюжеты",
-    "link": "https://habr.com/ru/companies/bothub/articles/1094492/?utm_campaign=1094492&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Авторам, которые пишут с помощью ИИ, советуют поднять температуру модели, чтобы сюжет получился интереснее. Я проверила этот совет на двух Qwen и сравнила 48 ответов: новые сюжеты появлялись уже при 0,2 , а при 1,2 в рассказ полезли обрывки кода. Рассказываю, почему один промпт даёт разные истори...",
-    "date": "2026-10-14",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "На взломанной PlayStation 5 запустили Qwen с 27 млрд параметров и 2-битным квантованием",
     "link": "https://habr.com/ru/news/1094494/?utm_campaign=1094494&utm_source=habrahabr&utm_medium=rss",
     "desc": "Разработчик под никнеймом abhi245y выпустил приложение PS5LM Plus для запуска языковых моделей на графическом процессоре PlayStation 5. В тестах Qwen 3.8 с 27 млрд параметров генерирует примерно 20 токенов в секунду. Все вычисления консоль выполняет локально, а отправлять запросы к модели можно с...",
@@ -1517,6 +1616,15 @@
     "desc": "Наступит ли конец цифровой лести и одобрения сомнительных идей",
     "date": "2026-10-14",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Повышаем температуру, или почему один промпт дает разные сюжеты",
+    "link": "https://habr.com/ru/companies/bothub/articles/1094492/?utm_campaign=1094492&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Авторам, которые пишут с помощью ИИ, советуют поднять температуру модели, чтобы сюжет получился интереснее. Я проверила этот совет на двух Qwen и сравнила 48 ответов: новые сюжеты появлялись уже при 0,2 , а при 1,2 в рассказ полезли обрывки кода. Рассказываю, почему один промпт даёт разные истори...",
+    "date": "2026-10-14",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1993,7 +2101,7 @@
     "link": "https://habr.com/ru/news/1093862/?utm_campaign=1093862&utm_source=habrahabr&utm_medium=rss",
     "desc": "Компания Subquadratic представила SubQ Snap , мультимодальную модель для принятия решений внутри AI-агентов. Контекстное окно составляет 384K токенов, в 12 раз больше, чем у Jev. По заявлению разработчиков, обработка запроса на 100K токенов и получение решения занимают примерно секунду. Читать далее",
     "date": "2026-10-13",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
