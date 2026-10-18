@@ -1,5 +1,50 @@
 [
   {
+    "title": "Дженсен Хуанг заявил, что нынешнее снижение фондового рынка из-за ИИ не будет долговременным",
+    "link": "https://3dnews.ru/1150092",
+    "desc": "Генеральный директор Nvidia, наблюдая за затяжным пике фондового рынка в части акций компаний технологического сектора, призвал инвесторов не размениваться на краткосрочную конъюнктуру и верить в потенциал трансформационных изменений, которые приносит ИИ. Источник изображения: Nvidia",
+    "date": "2026-10-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ действительно приведёт к потере рабочих мест, но при этом создаст целые новые отрасли, как считает Anthropic",
+    "link": "https://3dnews.ru/1150093",
+    "desc": "По мнению сооснователя Anthropic Джека Кларка (Jack Clark), ради безопасности человечества создатели ИИ должны быть готовы к «созидательному разрушению» своего бизнеса. При этом развитие ИИ позволит уже к 2030 году увеличить ВВП США почти в полтора раза до $44 трлн и создать целые новые отрасли э...",
+    "date": "2026-10-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Codex Desktop continuously generates Crashpad pending dumps",
+    "link": "https://github.com/openai/codex/issues/25921",
+    "desc": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 110 # Comments: 38",
+    "date": "2026-10-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "DeepSeek-v4.1-Flash-1017",
+    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "desc": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 773 # Comments: 616",
+    "date": "2026-10-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+    "link": "https://llmspeed.dev/",
+    "desc": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 269 # Comments: 78",
+    "date": "2026-10-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "DeepSeek V4.1 Flash 1017 now available on AI Gateway",
     "link": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway",
     "desc": "",
@@ -198,24 +243,6 @@
     "lang": "ru"
   },
   {
-    "title": "DeepSeek-v4.1-Flash-1017",
-    "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "desc": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 573 # Comments: 513",
-    "date": "2026-10-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-    "link": "https://llmspeed.dev/",
-    "desc": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 219 # Comments: 75",
-    "date": "2026-10-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "OpenAI discloses four more rogue incidents",
     "link": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
     "desc": "Article URL: https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/ Comments URL: https://news.ycombinator.com/item?id=50132502 Points: 27 # Comments: 6",
@@ -230,15 +257,6 @@
     "desc": "Article URL: https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129121 Points: 353 # Comments: 141",
     "date": "2026-10-17",
     "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Do you let LLMs write both your tests and your code?",
-    "link": "https://lobste.rs/s/miwcai/do_you_let_llms_write_both_your_tests_your",
-    "desc": "I'm curious what stance others have taken? Or what they've experienced with this? I'm toying with adding a rule to our values.md that the LLM can only significantly generate one or the other. I'm reviewing a merge request at the moment where it's clear the LLM mostly did both, and they're highly ...",
-    "date": "2026-10-16",
-    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
   },
@@ -583,6 +601,15 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Do you let LLMs write both your tests and your code?",
+    "link": "https://lobste.rs/s/miwcai/do_you_let_llms_write_both_your_tests_your",
+    "desc": "I'm curious what stance others have taken? Or what they've experienced with this? I'm toying with adding a rule to our values.md that the LLM can only significantly generate one or the other. I'm reviewing a merge request at the moment where it's clear the LLM mostly did both, and they're highly ...",
+    "date": "2026-10-16",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "You could have invented transformers from memory",
