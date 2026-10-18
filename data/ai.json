@@ -1,10 +1,19 @@
 [
   {
-    "title": "Дженсен Хуанг заявил, что нынешнее снижение фондового рынка из-за ИИ не будет долговременным",
-    "link": "https://3dnews.ru/1150092",
-    "desc": "Генеральный директор Nvidia, наблюдая за затяжным пике фондового рынка в части акций компаний технологического сектора, призвал инвесторов не размениваться на краткосрочную конъюнктуру и верить в потенциал трансформационных изменений, которые приносит ИИ. Источник изображения: Nvidia",
+    "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+    "link": "https://api-docs.deepseek.com/guides/search/",
+    "desc": "Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 24 # Comments: 7",
     "date": "2026-10-18",
-    "source": "3DNews",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Я пустил ИИ-агента на рабочий кластер 1С. Он нашёл 119 ГБ srvinfo, бэкап-призрак и не нашёл тормозов",
+    "link": "https://habr.com/ru/articles/1095764/?utm_campaign=1095764&utm_source=habrahabr&utm_medium=rss",
+    "desc": "«Утром никто не может зайти: начало сеанса запрещено». «Пользователь ушёл домой ещё вчера, а его сеанс до сих пор висит и держит лицензию». «rphost опять съел всю память, перезагружаем сервер, как каждую неделю». Если вы хоть раз администрировали 1С, у вас сейчас дёрнулся глаз. А потом я сделал т...",
+    "date": "2026-10-18",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -18,9 +27,27 @@
     "lang": "ru"
   },
   {
+    "title": "Дженсен Хуанг заявил, что нынешнее снижение фондового рынка из-за ИИ не будет долговременным",
+    "link": "https://3dnews.ru/1150092",
+    "desc": "Генеральный директор Nvidia, наблюдая за затяжным пике фондового рынка в части акций компаний технологического сектора, призвал инвесторов не размениваться на краткосрочную конъюнктуру и верить в потенциал трансформационных изменений, которые приносит ИИ. Источник изображения: Nvidia",
+    "date": "2026-10-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Дата-центр VK в Ленинградской области атакован БПЛА",
+    "link": "https://3dnews.ru/1150096",
+    "desc": "Пресс-служба VK сообщила об атаке БПЛА на дата-центр компании, расположенный в Ленинградской области. В компании подчеркнули, что сервисы VK доступны в обычном режиме. Как заявил губернатор Санкт-Петербурга, «в настоящее время силы МЧС устраняют возгорание на объектах гражданской инфраструктуры в...",
+    "date": "2026-10-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Codex Desktop continuously generates Crashpad pending dumps",
     "link": "https://github.com/openai/codex/issues/25921",
-    "desc": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 110 # Comments: 38",
+    "desc": "Article URL: https://github.com/openai/codex/issues/25921 Comments URL: https://news.ycombinator.com/item?id=50133231 Points: 121 # Comments: 46",
     "date": "2026-10-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -29,7 +56,7 @@
   {
     "title": "DeepSeek-v4.1-Flash-1017",
     "link": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-    "desc": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 773 # Comments: 616",
+    "desc": "https://api-docs.deepseek.com/news/news261017/ https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017 Comments URL: https://news.ycombinator.com/item?id=50129045 Points: 819 # Comments: 634",
     "date": "2026-10-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -38,7 +65,7 @@
   {
     "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
     "link": "https://llmspeed.dev/",
-    "desc": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 269 # Comments: 78",
+    "desc": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 280 # Comments: 80",
     "date": "2026-10-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -333,15 +360,6 @@
     "lang": "ru"
   },
   {
-    "title": "Gemini начинает с «Вот» 9 текстов из 10. Почерк 12 нейросетей в рабочих текстах",
-    "link": "https://habr.com/ru/articles/1095030/?utm_campaign=1095030&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Посчитал привычки 12 нейросетей на 84 рабочих текстах. Gemini начинает с «Вот» 9 раз из 10, Kimi и Claude Sonnet заканчивают предложением что-то доработать, а длинных тире у моделей в среднем почти столько же, сколько у Гиляровского. Читать далее",
-    "date": "2026-10-16",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "GLM 5.3 Flash и DeepSeek V4.1 Flash стали бесплатными в OpenCode",
     "link": "https://habr.com/ru/companies/haulmont/news/1095202/?utm_campaign=1095202&utm_source=habrahabr&utm_medium=rss",
     "desc": "В OpenCode открыли бесплатный доступ к GLM 5.3 Flash . Незадолго до этого бесплатной стала DeepSeek V4.1 Flash. Обе модели уже есть в каталоге: можно выбрать подходящую и поручить агенту работу с проектом. А с нашим Meta Harness ими можно пользоваться прямо в IDE: поставить задачу, посмотреть изм...",
@@ -365,6 +383,15 @@
     "desc": "В настоящее время патчи к ядру Linux, созданные при помощи инструментов искусственного интеллекта, должны быть обозначены тегом «Assisted‑by:». Однако на фоне повсеместного распространения ИИ и больших языковых моделей разработчики ядра Linux рассматривают возможность отмены этого требования. Чит...",
     "date": "2026-10-16",
     "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Gemini начинает с «Вот» 9 текстов из 10. Почерк 12 нейросетей в рабочих текстах",
+    "link": "https://habr.com/ru/articles/1095030/?utm_campaign=1095030&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Посчитал привычки 12 нейросетей на 84 рабочих текстах. Gemini начинает с «Вот» 9 раз из 10, Kimi и Claude Sonnet заканчивают предложением что-то доработать, а длинных тире у моделей в среднем почти столько же, сколько у Гиляровского. Читать далее",
+    "date": "2026-10-16",
+    "source": "Habr NLP",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1944,15 +1971,6 @@
     "lang": "ru"
   },
   {
-    "title": "Вместе с Claude сделал бесплатный Spotlight с ИИ для Mac и Windows: ищет файлы и отвечает на вопросы в одной строке",
-    "link": "https://habr.com/ru/articles/1093846/?utm_campaign=1093846&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Каждый день я делал одно и то же: открывал Spotlight, чтобы найти файл или запустить программу, а потом лез в браузер, открывал вкладку с ИИ и вставлял туда вопрос. Два разных места для одного действия — «мне нужно что-то быстро». Захотелось, чтобы это была одна строка: нажал клавишу, напечатал —...",
-    "date": "2026-10-13",
-    "source": "Habr Open Source",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "ИИ начнет самокопироваться как вирус на чужих устройствах уже к концу 2026 года — Anthropic",
     "link": "https://thecode.media/ii-nachnet-samokopirovatsya-kak-virus-na-chuzhih-ustrojstvah-uzhe-k-koncu-goda/",
     "desc": "И это может стать серьезной проблемой в будущем Сообщение ИИ начнет самокопироваться как вирус на чужих устройствах уже к концу 2026 года — Anthropic появились сначала на Журнал «Код» программирование без снобизма .",
@@ -1967,6 +1985,15 @@
     "desc": "Министерство трудовых ресурсов и социального обеспечения Китая 10 октября объявило программу поддержки занятости на фоне распространения искусственного интеллекта. Власти хотят создавать рабочие места не только после сокращений, но и через само внедрение технологии: новые проекты, профессии и фор...",
     "date": "2026-10-13",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Вместе с Claude сделал бесплатный Spotlight с ИИ для Mac и Windows: ищет файлы и отвечает на вопросы в одной строке",
+    "link": "https://habr.com/ru/articles/1093846/?utm_campaign=1093846&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Каждый день я делал одно и то же: открывал Spotlight, чтобы найти файл или запустить программу, а потом лез в браузер, открывал вкладку с ИИ и вставлял туда вопрос. Два разных места для одного действия — «мне нужно что-то быстро». Захотелось, чтобы это была одна строка: нажал клавишу, напечатал —...",
+    "date": "2026-10-13",
+    "source": "Habr Open Source",
     "cat": "ai",
     "lang": "ru"
   },
