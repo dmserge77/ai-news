@@ -1,5 +1,41 @@
 [
   {
+    "title": "Apple Intelligence. Минус 30 гигабайт во имя будущего (которое мы не просили устанавливать)",
+    "link": "https://habr.com/ru/articles/1095994/?utm_campaign=1095994&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Два года назад Apple пообещала сделать наши устройства умнее. За это время искусственный интеллект научился многому, но ещё быстрее научился занимать место на накопителе. Зачем ему столько гигабайтов, что мы получили взамен и почему так трудно избавиться от «подарка». Помните, как летом 2024 года...",
+    "date": "2026-10-19",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+    "link": "https://github.com/finereli/whatsapp-mcp",
+    "desc": "I wanted my humble Claude on mobile to access my WhatsApp messages but the only options I could find either required WhatsApp Business or an actual server to run Baileys on. I wanted to run it for free on ClaudeFlare and with my personal WhatsApp account, so I built this. Important feature - it c...",
+    "date": "2026-10-18",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+    "link": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+    "desc": "Article URL: https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/ Comments URL: https://news.ycombinator.com/item?id=50145507 Points: 3 # Comments: 1",
+    "date": "2026-10-18",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+    "link": "https://arxiv.org/abs/2610.18861",
+    "desc": "https://x.com/Jiaru_Zou/status/2110400256647340476 https://github.com/togethercomputer/HybridAgent https://huggingface.co/collections/togethercomputer/hybridag... Evaluations: https://arxiv.org/html/2610.18861v1#S5 Comments URL: https://news.ycombinator.com/item?id=50145337 Points: 170 # Comments...",
+    "date": "2026-10-18",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Show HN: The Zelda timeline to catch up before the Ocarina of Time remake",
     "link": "https://legendofhyrule.com/",
     "desc": "I made this ahead of the Ocarina of Time remake which comes out in 17 days. I remember the feeling of playing it as a kid but I hadn’t kept up with the story so I built a timeline to catch up before the Door of Time reopens. Nintendo’s own timeline is the authority here (Hyrule Historia and their...",
@@ -11,7 +47,7 @@
   {
     "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
     "link": "https://api-docs.deepseek.com/guides/search/",
-    "desc": "Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 497 # Comments: 241",
+    "desc": "Article URL: https://api-docs.deepseek.com/guides/search/ Comments URL: https://news.ycombinator.com/item?id=50138531 Points: 534 # Comments: 256",
     "date": "2026-10-18",
     "source": "Hacker News",
     "cat": "ai",
@@ -28,12 +64,30 @@
   },
   {
     "title": "Men in tech #YesAllMen",
-    "link": "https://www.youtube.com/watch?v=WXL6K1lhvt0",
+    "link": "https://media.ccc.de/v/emf2026-240-1-men-in-tech-yesallmen",
     "desc": "Comments",
     "date": "2026-10-18",
     "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Мой агент получил высокий балл. Проверяю, что он сделал",
+    "link": "https://habr.com/ru/articles/1091900/?utm_campaign=1091900&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Как проверить, что диалоговый агент выполнил задачу, если бенчмарк поставил высокий балл? В первой пробе мой агент получил награду 1 на всех пяти задачах. Потом заглушка без единого вызова инструмента набрала 34% на полном наборе. Я разрабатываю собственную экспериментальную систему и называю её ...",
+    "date": "2026-10-18",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Замена Lens, которую целиком написала модель: что получилось и где мы проигрываем",
+    "link": "https://habr.com/ru/articles/1095984/?utm_campaign=1095984&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Sextant — бесплатный open-source клиент Kubernetes на Rust и Tauri 2: всё, что вы делали в Lens, но без аккаунта, подписки и телеметрии. Его код целиком сгенерировал ИИ (Claude Code). Человек ставил задачи, принимал архитектурные решения и проверял каждое изменение, а тесты прогонялись многократн...",
+    "date": "2026-10-18",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Ouroboros, очередной инструмент для вашего harness",
@@ -108,7 +162,7 @@
     "lang": "ru"
   },
   {
-    "title": "Нейросеть-синоптик на 110 тысяч параметров: проверка реальными метеостанциями",
+    "title": "Нейросеть‑синоптик на 110 тысяч параметров: проверка реальными метеостанциями",
     "link": "https://habr.com/ru/articles/1095884/?utm_campaign=1095884&utm_source=habrahabr&utm_medium=rss",
     "desc": "Всем привет! Это продолжение истории про мою модель МАЯК: маленькую нейросеть, которая по истории одной метеостанции прогнозирует температуру на неделю вперёд и при этом помещается на Raspberry Pi. В прошлых статьях я рассказывал, как появилась идея и как выглядела первая версия. С тех пор проект...",
     "date": "2026-10-18",
@@ -450,18 +504,18 @@
     "lang": "ru"
   },
   {
-    "title": "Anthropic предложила американским законодателям собственный законопроект о регулировании отрасли ИИ",
-    "link": "https://3dnews.ru/1150074",
-    "desc": "Стартап Anthropic предлагает наделить полномочиями по блокировке выхода передовых ИИ-моделей только федеральных судей США. При этом своё решение они должны принимать на основе результатов независимого аудита, а предполагаемый ущерб от ИИ-моделей должен превышать $1 млрд. Источник изображения: Ant...",
+    "title": "Asus выпустила свою первую видеокарту Intel Arc — но она не для геймеров",
+    "link": "https://3dnews.ru/1150089",
+    "desc": "Asus представила профессиональную видеокарту UGen Intel Arc Pro B70 с 32 Гбайт памяти GDDR6 и поддержкой коррекции ошибок ECC. Компания позиционирует новинку прежде всего как инструмент для локального запуска моделей искусственного интеллекта. Это первая видеокарта Asus семейства Intel Arc и перв...",
     "date": "2026-10-17",
     "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "Asus выпустила свою первую видеокарту Intel Arc — но она не для геймеров",
-    "link": "https://3dnews.ru/1150089",
-    "desc": "Asus представила профессиональную видеокарту UGen Intel Arc Pro B70 с 32 Гбайт памяти GDDR6 и поддержкой коррекции ошибок ECC. Компания позиционирует новинку прежде всего как инструмент для локального запуска моделей искусственного интеллекта. Это первая видеокарта Asus семейства Intel Arc и перв...",
+    "title": "Anthropic предложила американским законодателям собственный законопроект о регулировании отрасли ИИ",
+    "link": "https://3dnews.ru/1150074",
+    "desc": "Стартап Anthropic предлагает наделить полномочиями по блокировке выхода передовых ИИ-моделей только федеральных судей США. При этом своё решение они должны принимать на основе результатов независимого аудита, а предполагаемый ущерб от ИИ-моделей должен превышать $1 млрд. Источник изображения: Ant...",
     "date": "2026-10-17",
     "source": "3DNews",
     "cat": "ai",
@@ -526,7 +580,7 @@
     "link": "https://habr.com/ru/articles/1095496/?utm_campaign=1095496&utm_source=habrahabr&utm_medium=rss",
     "desc": "Проверил, можно ли разгрузить Hermes Agent с помощью локальных LLM на домашнем ПК с RTX 3080 и 32 ГБ RAM. Сравнил Qwen и GLM на архитектурных задачах, редактуре и извлечении данных, испытал разные квантования и подключил Hermes на Mac к модели на Windows. В статье — условия испытаний, замеры скор...",
     "date": "2026-10-16",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -777,15 +831,6 @@
     "title": "Tencent призналась, что её ИИ-агенты ушли в самоволку во время тестов",
     "link": "https://3dnews.ru/1150050",
     "desc": "Компания Tencent сообщила, что ИИ-агенты, использовавшиеся для оценки сторонних моделей, продемонстрировали в интернете поведение, которое не было предусмотрено разработчиками. В связи с этим компания усилила контроль доступа к сетевым ресурсам, а также действий ИИ-агентов. Источник изображения: ...",
-    "date": "2026-10-16",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Китай решил контролировать, кому достанутся его лучшие ИИ-модели",
-    "link": "https://3dnews.ru/1150041",
-    "desc": "Правительство КНР планирует контролировать экспорт национальных ИИ-моделей, которые входят в десятку лучших в мире, а также обеспечивать контроль китайских компаний над вычислительной инфраструктурой, которую они разворачивают за пределами страны. Пример американских властей, которые активно регу...",
     "date": "2026-10-16",
     "source": "3DNews",
     "cat": "ai",
