@@ -1,5 +1,25 @@
 [
   {
+    "title": "On AI writing",
+    "link": "https://www.bolkunov.com/p/on-ai-writing",
+    "desc": "Article URL: https://www.bolkunov.com/p/on-ai-writing Comments URL: https://news.ycombinator.com/item?id=50171771 Points: 20 # Comments: 3",
+    "date": "2026-10-20",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+    "link": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+    "desc": "",
+    "date": "2026-10-20",
+    "source": "Hugging Face",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "Бот разобрал 1518 вакансий на hh.ru и отправил 339 откликов",
     "link": "https://habr.com/ru/articles/1096734/?utm_campaign=1096734&utm_source=habrahabr&utm_medium=rss",
     "desc": "Летом я написал бота, который сам искал вакансии на hh.ru, оценивал их через LLM, писал сопроводительные и откликался. За два месяца он разобрал 1518 вакансий и отправил 339 откликов. Рассказываю, что из этого вышло: воронка, какие правки поднимали конверсию и почему расширение поиска ее уронило....",
@@ -8,6 +28,16 @@
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
+  },
+  {
+    "title": "В США тимлид отправил резюме в собственную команду и получил отказ за 6 минут, так как HR переложили отбор на нейросеть",
+    "link": "https://habr.com/ru/news/1096876/?utm_campaign=1096876&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Старший менеджер в одной из компаний в США специально откликнулся на ранее созданную свою же вакансию старшего специалиста (Senior Associate) в свою команду и получил отказ через шесть минут из-за нелепой формальности. Это произошло после того, как руководитель подразделения решил проверить, поче...",
+    "date": "2026-10-20",
+    "source": "Habr AI Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "curio"
   },
   {
     "title": "Хакер взломал сайты John Deere, SharkNinja и Commins с помощью «армии» ИИ‑агентов",
@@ -60,6 +90,16 @@
     "misc_type": "unfiltered"
   },
   {
+    "title": "В России назвали топ-10 ноутбуков",
+    "link": "https://hi-tech.mail.ru/news/158466-aliexpress-nazvala-top-10-noutbukov-v-rossii-za-tretij-kvartal-2026-goda/",
+    "desc": "Лидирует с отрывом в 1,6 раза от второго места — Honor X16, далее MECHREVO Legend X и Lenovo ThinkBook 16+. Команда AliExpress СНГ проанализировала продажи ноутбуков на платформе в России в третьем квартале 2026 года и составила рейтинг самых популярных моделей по количеству проданных штук. Четыр...",
+    "date": "2026-10-20",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
     "title": "Mercury 3 now available on AI Gateway",
     "link": "https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway",
     "desc": "",
@@ -90,16 +130,6 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "От отдельных промптов к офису AI-сотрудников, что меняется, когда задач становится много",
-    "link": "https://vc.ru/ai/3202868-perehod-ot-promptov-k-ofisu-ai-sotrudnikov?from=rss",
-    "desc": "Использовать AI для одной задачи просто.",
-    "date": "2026-10-19",
-    "source": "vc.ru",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "Один герой от подъезда до метро: как снять ролик в Kling 4.0 Omni с элементом",
     "link": "https://vc.ru/ai/3204173-kak-snyat-rolik-v-kling-4-0-omni-s-elementom-geroya?from=rss",
     "desc": "В Kling 4.0 Omni героя можно сохранить элементом: три фото с разных сторон, и дальше у него одно лицо и одна одежда во всех сценах ролика. Я снял в боте Cyber AI один и тот же сюжет «подъезд - кофейня - метро» с элементом и с обычным фото: с элементом герой держится весь ролик, с фото лицо в нача...",
@@ -117,6 +147,16 @@
     "source": "UX Collective",
     "cat": "misc",
     "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "От отдельных промптов к офису AI-сотрудников, что меняется, когда задач становится много",
+    "link": "https://vc.ru/ai/3202868-perehod-ot-promptov-k-ofisu-ai-sotrudnikov?from=rss",
+    "desc": "Использовать AI для одной задачи просто.",
+    "date": "2026-10-19",
+    "source": "vc.ru",
+    "cat": "misc",
+    "lang": "ru",
     "misc_type": "raznoe"
   },
   {
@@ -2147,6 +2187,16 @@
     "source": "Habr Open Source",
     "cat": "misc",
     "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Secret protection must scale with software",
+    "link": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
+    "desc": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it. The post Secret protection must scale with software appeared first on The GitHub Blog .",
+    "date": "2026-10-07",
+    "source": "GitHub Blog",
+    "cat": "misc",
+    "lang": "en",
     "misc_type": "unfiltered"
   },
   {
