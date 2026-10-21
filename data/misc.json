@@ -1,5 +1,65 @@
 [
   {
+    "title": "Google staff resign in backlash over its AI contracts with military",
+    "link": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+    "desc": "Article URL: https://www.bbc.com/news/articles/cmreyvepnv0po Comments URL: https://news.ycombinator.com/item?id=50186043 Points: 65 # Comments: 3",
+    "date": "2026-10-21",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+    "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+    "desc": "",
+    "date": "2026-10-21",
+    "source": "Hugging Face",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Baseten's Mammoth-1 and Elephant-1 now available on AI Gateway for free",
+    "link": "https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free",
+    "desc": "",
+    "date": "2026-10-21",
+    "source": "Vercel",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "[Перевод] AI меняет лидеров рынка (да и целую эпоху)",
+    "link": "https://habr.com/ru/articles/1097306/?utm_campaign=1097306&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет! Меня зовут Саша Журавлев. Я венчурный инвестор и основатель фонда Mento vc. Мы инвестируем в стартапы на стадиях Seed / Series A в США, а в своем телеграм-канале рассказываю, как вижу рынок и принимаю инвестиционные решения. Читать далее",
+    "date": "2026-10-21",
+    "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Nvidia выпустила видеодрайвер, который ускорит компиляцию шейдеров в совместимых играх с минут до секунд",
+    "link": "https://3dnews.ru/1150248",
+    "desc": "Nvidia выпустила драйвер GeForce Game Ready 621.01 WHQL с поддержкой новых игр и технологией Microsoft Advanced Shader Delivery (ASD), которая позволяет заранее компилировать шейдеры в облаке и сокращать время загрузки игр с нескольких минут до секунд. Также новое ПО добавляет поддержку горячо ож...",
+    "date": "2026-10-21",
+    "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Nvidia анонсировала неофициальный ремастер Left 4 Dead 2 с трассировкой пути — первый трейлер, скриншоты и подробности Left 4 Dead RTX",
+    "link": "https://3dnews.ru/1150250",
+    "desc": "Вслед за Portal with RTX и Half-Life 2 RTX компания Nvidia представила Left 4 Dead RTX — неофициальное переосмысление легендарного кооперативного зомби-шутера от Valve. Но не того, о котором можно было подумать. Источник изображения: Valve",
+    "date": "2026-10-21",
+    "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "PHP2Shell: AI uncovers critical RCE in PHP",
     "link": "https://www.wiz.io/blog/php2shell-php-rce",
     "desc": "Article URL: https://www.wiz.io/blog/php2shell-php-rce Comments URL: https://news.ycombinator.com/item?id=50180836 Points: 210 # Comments: 54",
@@ -17,16 +77,6 @@
     "source": "Hugging Face",
     "cat": "misc",
     "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "[Перевод] AI меняет лидеров рынка (да и целую эпоху)",
-    "link": "https://habr.com/ru/articles/1097306/?utm_campaign=1097306&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет! Меня зовут Саша Журавлев. Я венчурный инвестор и основатель фонда Mento vc. Мы инвестируем в стартапы на стадиях Seed / Series A в США, а в своем телеграм-канале рассказываю, как вижу рынок и принимаю инвестиционные решения. Читать далее",
-    "date": "2026-10-21",
-    "source": "Habr AI",
-    "cat": "misc",
-    "lang": "ru",
     "misc_type": "raznoe"
   },
   {
@@ -75,6 +125,26 @@
     "desc": "Узнайте подробности о жалобах пользователей. Пользователи из России продолжают сталкиваться с различными сбоями в работе интернета. Статистику об этом собирает профильный сервис Downdetector. В каких регионах сегодня наблюдаются проблемы со связью Согласно жалобам пользователей, сбои фиксируют в ...",
     "date": "2026-10-21",
     "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "ИИ-помощник для 1С научился анализировать код и обновлять доработки в расширениях",
+    "link": "https://habr.com/ru/companies/infostart/articles/1097286/?utm_campaign=1097286&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Раньше основной сценарий работы выглядел так: пользователь подключает ИИ к информационной базе, задаёт вопрос и получает ответ по её данным. В последних версиях появились возможности для задач сопровождения и разработки: найти причину поведения документа, проверить перехваты методов или подготови...",
+    "date": "2026-10-21",
+    "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Выручка SpaceX в сфере ИИ выросла более чем в девять раз, а общая увеличилась на 161 %",
+    "link": "https://3dnews.ru/1150205",
+    "desc": "Илон Маск (Elon Musk) на квартальном мероприятии SpaceX заявил, что росту выручки в третьем квартале на 161 % до $14,58 млрд способствовали успехи в сегменте ИИ, а также ускорение роста бизнеса в сфере спутниковой связи. Starlink остаётся главным источником прибыли SpaceX, а вот более половины вы...",
+    "date": "2026-10-21",
+    "source": "3DNews",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -755,6 +825,16 @@
     "desc": "Промо-ролик Kling 4.0 идёт почти две минуты. На 85-й секунде на экране три строки: 4K, 1080P, 720P. Чуть раньше было обещано «10-bit HDR». А на странице функции Kling те же 4K и HDR помечены как «скоро». Где правда? Я сверил блог Kling, гайд пользователя и страницу функции. Главное, что вышло: 4K...",
     "date": "2026-10-16",
     "source": "Habr ML",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Лимиты больше не кусаются",
+    "link": "https://habr.com/ru/articles/1095182/?utm_campaign=1095182&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Лить воду в 2026ом давно бессмысленно, и её здесь нет, весь текст написан моею рукой и отражает факты как есть, просто и кратко. Итак, написан небольшой скилл — эксплойт псевдостраха модели. Он иммерсивно погружает агента в конечный, исчерпывающийся промежуток реального времени: процент использов...",
+    "date": "2026-10-16",
+    "source": "Habr Python",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -11827,26 +11907,6 @@
     "source": "Habr Веб-дизайн",
     "cat": "misc",
     "lang": "ru",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Vercel WAF for Blob is now in beta",
-    "link": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta",
-    "desc": "",
-    "date": "2026-07-24",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Workflow steps now support extended function durations",
-    "link": "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations",
-    "desc": "",
-    "date": "2026-07-24",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
     "misc_type": "unfiltered"
   }
 ]
