@@ -1,5 +1,55 @@
 [
   {
+    "title": "Hedra is a 3D open world game I wrote from scratch while in highschool",
+    "link": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
+    "desc": "Article URL: https://github.com/maxilevi/project-hedra/tree/pre-ai Comments URL: https://news.ycombinator.com/item?id=50199389 Points: 74 # Comments: 16",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Award-winning AI literature",
+    "link": "https://jamesyu.org/award-winning-ai-literature/",
+    "desc": "Article URL: https://jamesyu.org/award-winning-ai-literature/ Comments URL: https://news.ycombinator.com/item?id=50199232 Points: 45 # Comments: 47",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "AI and the Enclosure of the Scientific Commons",
+    "link": "https://arxiv.org/abs/2610.27251",
+    "desc": "Article URL: https://arxiv.org/abs/2610.27251 Comments URL: https://news.ycombinator.com/item?id=50199230 Points: 69 # Comments: 35",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+    "link": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+    "desc": "Article URL: https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients Comments URL: https://news.ycombinator.com/item?id=50198940 Points: 59 # Comments: 32",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Every AI model has the same \"controversial\" take on humans",
+    "link": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+    "desc": "Article URL: https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans Comments URL: https://news.ycombinator.com/item?id=50197313 Points: 100 # Comments: 139",
+    "date": "2026-10-22",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "5 задач, которые я больше не хочу делать руками после знакомства с AI-агентами",
     "link": "https://habr.com/ru/articles/1097852/?utm_campaign=1097852&utm_source=habrahabr&utm_medium=rss",
     "desc": "Если одну и ту же скучную операцию я делаю руками второй раз, где-то в мире грустит один AI-агент. А если третий — вероятно, уже и Python-скрипт. За последнее время я поймал себя на том, что всё реже хочу самостоятельно разбирать Excel, конвертировать документы, писать одноразовые утилиты и разби...",
@@ -10,19 +60,19 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Киберпсихоз начинается там, где мощность железа перестает соответствовать возможностям оператора",
-    "link": "https://habr.com/ru/articles/1097636/?utm_campaign=1097636&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Наконец-то на горизонте замелькал британский паб. Отличное место, чтобы дать отдохнуть естественному интеллекту от шести часов обсуждений искусственного интеллекта. Читать далее",
+    "title": "Все уходят на Rust: в ML c Python, в бэкенде с Java, в микроконтроллерах",
+    "link": "https://habr.com/ru/companies/ru_mts/articles/1097462/?utm_campaign=1097462&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! Сегодня заглянем на онлайн-митап от MWS. Посмотрим, как в трех разных кейсах переходили на Rust. При работе с ML перешли с Python на Rust для синтеза и распознавания речи, ускорив работу сервисов. На другом проекте перешли с Java на Rust — в итоге стало меньше инцидентов, стала быст...",
     "date": "2026-10-22",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
   },
   {
-    "title": "Все уходят на Rust: в ML c Python, в бэкенде с Java, в микроконтроллерах",
-    "link": "https://habr.com/ru/companies/ru_mts/articles/1097462/?utm_campaign=1097462&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! Сегодня заглянем на онлайн-митап от MWS. Посмотрим, как в трех разных кейсах переходили на Rust. При работе с ML перешли с Python на Rust для синтеза и распознавания речи, ускорив работу сервисов. На другом проекте перешли с Java на Rust — в итоге стало меньше инцидентов, стала быст...",
+    "title": "Киберпсихоз начинается там, где мощность железа перестает соответствовать возможностям оператора",
+    "link": "https://habr.com/ru/articles/1097636/?utm_campaign=1097636&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Наконец-то на горизонте замелькал британский паб. Отличное место, чтобы дать отдохнуть естественному интеллекту от шести часов обсуждений искусственного интеллекта. Читать далее",
     "date": "2026-10-22",
     "source": "Habr ML",
     "cat": "misc",
@@ -380,6 +430,26 @@
     "misc_type": "unfiltered"
   },
   {
+    "title": "Биржевой Алгоритм 2 026",
+    "link": "https://habr.com/ru/articles/1096330/?utm_campaign=1096330&utm_source=habrahabr&utm_medium=rss",
+    "desc": "После публикации первой части моих заметок о конференции «Биржевой Алгоритм 2026» в комментариях предсказуемо разгорелся спор. Самый частый вопрос звучал в формулировках разной степени вежливости: «Михаил, всё это здорово, но где деньги?», «сколько ты заработал в процентах на своём счёте?». Также...",
+    "date": "2026-10-20",
+    "source": "Habr ML",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Пять ошибок на миллион логических операций — Quantinuum в 100 раз превзошла результат Google по коррекции ошибок",
+    "link": "https://3dnews.ru/1150202",
+    "desc": "Гонку за создание полезных квантовых компьютеров выиграет компания, которая первой найдёт способ исправлять ошибки вычислений без значительного увеличения числа физических кубитов на каждый логический кубит. Вперёд на этом пути неожиданно вырвалась компания Quantinuum, заявившая о 100-кратном пре...",
+    "date": "2026-10-20",
+    "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
     "title": "Mercury 3 now available on AI Gateway",
     "link": "https://vercel.com/changelog/mercury-3-now-available-on-ai-gateway",
     "desc": "",
@@ -404,7 +474,7 @@
     "link": "https://habr.com/ru/news/1096368/?utm_campaign=1096368&utm_source=habrahabr&utm_medium=rss",
     "desc": "Австралийский стартап Apate придумал необычный метод борьбы с онлайн‑мошенничеством. Компания использует тысячи ИИ‑агентов, которые выдают себя за ничего не подозревающих жертв, отвечают на подозрительные письма и сообщения, подолгу общаются с мошенниками и собирают полезную информацию. Читать далее",
     "date": "2026-10-19",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
