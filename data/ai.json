@@ -1,12 +1,12 @@
 [
   {
-    "title": "Atlas: а что, если все законы природы можно исследовать в едином многомерном пространстве?",
-    "link": "https://habr.com/ru/articles/1098938/?utm_campaign=1098938&utm_source=habrahabr&utm_medium=rss",
-    "desc": "А что, если все известные научные законы — лишь отдельные координаты огромного пространства, которое мы ещё не научились исследовать? Представьте систему, способную не просто решать уравнения, а самостоятельно находить скрытые взаимосвязи между известными законами, обнаруживать недостающие величи...",
+    "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
+    "link": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+    "desc": "Article URL: https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/ Comments URL: https://news.ycombinator.com/item?id=50222283 Points: 21 # Comments: 17",
     "date": "2026-10-24",
-    "source": "Habr AI",
+    "source": "Hacker News",
     "cat": "ai",
-    "lang": "ru"
+    "lang": "en"
   },
   {
     "title": "Найти похожие заметки в Obsidian оказалось проще, чем безопасно их изменить",
@@ -18,7 +18,7 @@
     "lang": "ru"
   },
   {
-    "title": "Как мы взломали HHH-цензуру корпоративных нейросетей через ЛитРПГ и заставили ИИ лечить души",
+    "title": "Как мы взломали HHH‑цензуру корпоративных нейросетей через ЛитРПГ и заставили ИИ лечить души",
     "link": "https://habr.com/ru/articles/1098936/?utm_campaign=1098936&utm_source=habrahabr&utm_medium=rss",
     "desc": "Современные генеративные нейросети (ChatGPT, Claude, GigaChat, Алиса) зажаты в тиски корпоративного Alignment’а. Принцип HHH ( Helpful, Honest, Harmless ) — это отличный предохранитель от генерации спама и вредоносного кода, но он делает модели абсолютно стерильными. Как только вы пытаетесь погов...",
     "date": "2026-10-24",
@@ -128,7 +128,7 @@
   {
     "title": "Хватит ли лимита до сброса? Как я считаю прогноз расхода Claude Code, Codex и Kimi Code",
     "link": "https://habr.com/ru/articles/1097586/?utm_campaign=1097586&utm_source=habrahabr&utm_medium=rss",
-    "desc": "У подписки на Claude Code два лимита: пятичасовая сессия и недельное окно. Команда /usage показывает остаток, но только внутри открытой сессии и только для одного аккаунта. А меня обычно интересует другое: хватит ли до сброса, если работать в том же темпе. Я сделал claude-limits — локальную стран...",
+    "desc": "У подписки на Claude Code не один лимит: есть пятичасовая сессия, общее недельное окно и отдельные недельные лимиты на некоторые модели, например на Fable. Команда /usage показывает остаток, но только внутри открытой сессии и только для одного аккаунта. А у меня разные проекты идут на разных акка...",
     "date": "2026-10-24",
     "source": "Habr AI",
     "cat": "ai",
@@ -707,24 +707,6 @@
     "desc": "Сервис для управления паролями 1Password представил новый инструмент, который даёт пользователям возможность разрешать агентам искусственного интеллекта входить в их учётные записи, не передавая им при этом никаких учётных данных. В основу платформы 1Password for Agents легла система взаимодейств...",
     "date": "2026-10-23",
     "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Arc закроют 22 декабря: The Browser Company переводит пользователей на ИИ-браузер Dia",
-    "link": "https://hi-tech.mail.ru/news/158856-arc-zakroyut-22-dekabrya-the-browser-company-perevodit/",
-    "desc": "Браузер Arc перестанет работать 22 декабря 2026 года, а новые аккаунты в нем уже не создать. Разработчики предлагают перейти на Dia, где в основе работы лежит ИИ. Компания The Browser Company объявила на сайте Arc, что 22 декабря 2026 года браузер прекратит работу. Создавать новые аккаунты нельзя...",
-    "date": "2026-10-23",
-    "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Аналитики назвали самые популярные каналы про технологии в «Максе»",
-    "link": "https://hi-tech.mail.ru/news/158855-analitiki-nazvali-samye-populyarnye-kanaly-pro-tehnologii-v-makse/",
-    "desc": "Статистикой с Hi-Tech Mail, который также оказался в рейтинге, поделились в сервисе MyDash. В мессенджере «Макс» определили 20 самых популярных каналов в категории «Технологии». Данными с Hi-Tech Mail поделился сервис статистики и аналитики MyDash. Канал Hi-Tech Mail занял пятую строчку среди мед...",
-    "date": "2026-10-23",
-    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2056,7 +2038,7 @@
     "link": "https://habr.com/ru/articles/1097014/?utm_campaign=1097014&utm_source=habrahabr&utm_medium=rss",
     "desc": "После прошлой статьи вышли 16 релизов Sextant — бесплатного open-source клиента Kubernetes на Rust и Tauri, замены Lens без аккаунта и подписки. Сначала за сутки вышел весь роадмап 0.12–0.15. Потом в комментариях нас сравнили с Radar; мы составили список того, чего у нас нет, и к ночи выпустили 0...",
     "date": "2026-10-20",
-    "source": "Habr Open Source",
+    "source": "Habr DevOps",
     "cat": "ai",
     "lang": "ru"
   },
@@ -21184,14 +21166,5 @@
     "source": "Habr Облака",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "WebSocket support for OpenAI Responses API live on AI Gateway",
-    "link": "https://vercel.com/changelog/websocket-support-for-openai-responses-api-live-on-ai-gateway",
-    "desc": "",
-    "date": "2026-07-27",
-    "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
   }
 ]
