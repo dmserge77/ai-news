@@ -1,12 +1,21 @@
 [
   {
-    "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
-    "link": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
-    "desc": "Article URL: https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/ Comments URL: https://news.ycombinator.com/item?id=50218633 Points: 313 # Comments: 90",
+    "title": "Как мы взломали HHH-цензуру корпоративных нейросетей через ЛитРПГ и заставили ИИ лечить души",
+    "link": "https://habr.com/ru/articles/1098936/?utm_campaign=1098936&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Современные генеративные нейросети (ChatGPT, Claude, GigaChat, Алиса) зажаты в тиски корпоративного Alignment’а. Принцип HHH ( Helpful, Honest, Harmless ) — это отличный предохранитель от генерации спама и вредоносного кода, но он делает модели абсолютно стерильными. Как только вы пытаетесь погов...",
     "date": "2026-10-24",
-    "source": "Hacker News",
+    "source": "Habr AI",
     "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
+  },
+  {
+    "title": "AI: скальпель у каждого в руках",
+    "link": "https://habr.com/ru/articles/1098924/?utm_campaign=1098924&utm_source=habrahabr&utm_medium=rss",
+    "desc": "ИИ похож на скальпель, который за $20 в месяц оказался в руках у каждого. В руках хирурга он позволяет делать то, что раньше казалось невозможным. В руках человека без подготовки и знаний он тоже оставляет след — вот только результат может быть непредсказуемым. Читать далее",
+    "date": "2026-10-24",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Glafira for Apache Kafka: открытый desktop-клиент на Rust, который даёт LLM читать кластер, но не трогать его",
@@ -131,6 +140,15 @@
     "desc": "В Сиднее мужчине предъявили обвинения после того, как он, по версии следствия, пригрозил устроить стрельбу в детском дошкольном учреждении во время общения с чат‑ботом Claude. Читать далее",
     "date": "2026-10-24",
     "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Найти похожие заметки в Obsidian оказалось проще, чем безопасно их изменить",
+    "link": "https://habr.com/ru/articles/1098922/?utm_campaign=1098922&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Две заметки могут быть похожи по смыслу, но это ещё не повод объединять их или удалять одну из них. Я хотел научить Veynrel не просто находить такие пары, а предлагать действия с ними. И довольно быстро выяснилось, что получить рекомендацию от LLM гораздо проще, чем безопасно применить её к Markd...",
+    "date": "2026-10-24",
+    "source": "Habr Open Source",
     "cat": "ai",
     "lang": "ru"
   },
@@ -270,6 +288,15 @@
     "lang": "ru"
   },
   {
+    "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+    "link": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
+    "desc": "Article URL: https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/ Comments URL: https://news.ycombinator.com/item?id=50218633 Points: 313 # Comments: 90",
+    "date": "2026-10-24",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "ИИ-помощник для КТ головы",
     "link": "https://habr.com/ru/articles/1098766/?utm_campaign=1098766&utm_source=habrahabr&utm_medium=rss",
     "desc": "Исследовательский прототип на бесплатной Tesla T4 в Google Colab. Не медицинское изделие. Я обучил нейросеть искать кровоизлияния на КТ головы в бесплатном Google Colab. На первом фолде получил AUC 0.963 и обрадовался. После полной проверки осталось 0.931. А потом выяснилось, что модель, которая ...",
@@ -372,15 +399,6 @@
     "title": "SDD наоборот: не программируем по спекам, а получаем их на сдачу",
     "link": "https://habr.com/ru/articles/1098516/?utm_campaign=1098516&utm_source=habrahabr&utm_medium=rss",
     "desc": "Однажды мне нужно было выпилить ненужный кусочек экрана. Задача на удаление, что может быть проще? Итоговый дифф: 99 файлов, +5218 −5495. Чтобы удалить 5 тысяч строк кода, пришлось написать 5 тысяч строк спек: proposal, design, tasks и дельты REMOVED. Тогда я задумался: зачем мы генерируем, храни...",
-    "date": "2026-10-23",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Дайджест новостей: OpenAI нашёл критическую уязвимость в PHP, KYA в массы и QWEN-шпион ком-партии Китая",
-    "link": "https://habr.com/ru/articles/1098386/?utm_campaign=1098386&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет Хабр! Делюсь с вами интересными инфоповодами. Сегодняшнее направление моего ресёрча — Агентная экономика и её издержки. Читать далее",
     "date": "2026-10-23",
     "source": "Habr AI",
     "cat": "ai",
@@ -698,6 +716,15 @@
     "desc": "Статистикой с Hi-Tech Mail, который также оказался в рейтинге, поделились в сервисе MyDash. В мессенджере «Макс» определили 20 самых популярных каналов в категории «Технологии». Данными с Hi-Tech Mail поделился сервис статистики и аналитики MyDash. Канал Hi-Tech Mail занял пятую строчку среди мед...",
     "date": "2026-10-23",
     "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Дайджест новостей: OpenAI нашёл критическую уязвимость в PHP, KYA в массы и QWEN-шпион ком-партии Китая",
+    "link": "https://habr.com/ru/articles/1098386/?utm_campaign=1098386&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет Хабр! Делюсь с вами интересными инфоповодами. Сегодняшнее направление моего ресёрча — Агентная экономика и её издержки. Читать далее",
+    "date": "2026-10-23",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2025,15 +2052,6 @@
     "lang": "ru"
   },
   {
-    "title": "Поселил ИИ‑агента в чёлку макбука: он слушает мой день и раздаёт задачи сессиям Claude Code",
-    "link": "https://habr.com/ru/articles/1097006/?utm_campaign=1097006&utm_source=habrahabr&utm_medium=rss",
-    "desc": "У меня есть ИИ-агент Андреич. Он берёт трубку на моей телефонной линии, отвечает в чате на сайте и сидит в Telegram. На днях он переехал ещё и в вырез экрана макбука, который в народе зовут чёлкой. Там он стал пушистым 3D-енотом. Слушает меня весь день, ведёт протокол, вытаскивает из болтовни зад...",
-    "date": "2026-10-20",
-    "source": "Habr Open Source",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Свой ИИ‑агент по спецификации: пошагово от цели до прода",
     "link": "https://habr.com/ru/articles/1096750/?utm_campaign=1096750&utm_source=habrahabr&utm_medium=rss",
     "desc": "Агента сегодня можно собрать за вечер: длинный промпт, пара инструментов — и он что-то делает. Сложности начинаются потом: поведение нельзя проверить, любая правка промпта что-то ломает, а на вопрос «почему он так сделал?» ответа нет. В этой статье разберём, как спроектировать агента как инженерн...",
@@ -2075,6 +2093,15 @@
     "desc": "Бежим быстрее пробовать! Сообщение DeepSeek открыла исходники своего ИИ-движка появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-10-20",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Поселил ИИ‑агента в чёлку макбука: он слушает мой день и раздаёт задачи сессиям Claude Code",
+    "link": "https://habr.com/ru/articles/1097006/?utm_campaign=1097006&utm_source=habrahabr&utm_medium=rss",
+    "desc": "У меня есть ИИ-агент Андреич. Он берёт трубку на моей телефонной линии, отвечает в чате на сайте и сидит в Telegram. На днях он переехал ещё и в вырез экрана макбука, который в народе зовут чёлкой. Там он стал пушистым 3D-енотом. Слушает меня весь день, ведёт протокол, вытаскивает из болтовни зад...",
+    "date": "2026-10-20",
+    "source": "Habr Open Source",
     "cat": "ai",
     "lang": "ru"
   },
