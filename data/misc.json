@@ -1,10 +1,60 @@
 [
   {
+    "title": "Руководство по сборке локального AI-стека. Часть 3. Наполнение моделями",
+    "link": "https://habr.com/ru/articles/1099492/?utm_campaign=1099492&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На этом шаге мы наполняем папку models/ моделями под разные задачи, раскладываем их по правилам (плоско vs подпапки с mmproj ) и делаем HTML-шпаргалку — статическую страницу, которая отвечает на вопрос «какая модель для какой задачи», не требуя лезть в конфиги или документацию. Читать далее",
+    "date": "2026-10-26",
+    "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "ИИ‑агентов удалось скомпрометировать через файл AGENTS.md в папке «Загрузки»",
+    "link": "https://habr.com/ru/news/1099412/?utm_campaign=1099412&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Исследователи обнаружили вредоносный файл с инструкциями в формате Markdown (под названием AGENTS.md) в папке «Загрузки» (Downloads) на компьютере одного из пользователей. Этот файл заставил ИИ‑агента, предназначенного для написания кода, установить вредоносный npm‑пакет. Читать далее",
+    "date": "2026-10-26",
+    "source": "Habr AI Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Telling the wrong story, Design v ADHD, AI doesn’t care about your job title",
+    "link": "https://uxdesign.cc/telling-the-wrong-story-design-v-adhd-ai-doesnt-care-about-your-job-title-63869c750f07?source=rss----138adf9c44c---4",
+    "desc": "",
+    "date": "2026-10-26",
+    "source": "UX Collective",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Что происходит с интернетом в России 26 октября 2026 года",
+    "link": "https://hi-tech.mail.ru/news/145610-sboi-interneta-v-rossii/",
+    "desc": "Узнайте подробности о жалобах пользователей. Пользователи из России продолжают сталкиваться с различными сбоями в работе интернета. Статистику об этом собирает профильный сервис Downdetector. В каких регионах сегодня наблюдаются проблемы со связью Согласно жалобам пользователей, сбои фиксируют в ...",
+    "date": "2026-10-26",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
     "title": "“AI Skills” are worthless in 2026",
     "link": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
     "desc": "Comments",
     "date": "2026-10-25",
     "source": "Lobsters",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Where to draw the line before AI reaches professional users",
+    "link": "https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4",
+    "desc": "",
+    "date": "2026-10-25",
+    "source": "UX Collective",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
@@ -27,16 +77,6 @@
     "source": "Habr AI",
     "cat": "misc",
     "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Where to draw the line before AI reaches professional users",
-    "link": "https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4",
-    "desc": "",
-    "date": "2026-10-25",
-    "source": "UX Collective",
-    "cat": "misc",
-    "lang": "en",
     "misc_type": "raznoe"
   },
   {
@@ -98,6 +138,26 @@
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
+  },
+  {
+    "title": "Как теперь устроена наша PIM-система и что необратимо изменилось",
+    "link": "https://habr.com/ru/articles/1098978/?utm_campaign=1098978&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Для начала немного контекста: мы с командой делаем сервис для бизнеса, и я иногда пишу тут, на Хабре, о каких-то успехах, провалах или просто своем опыте. Несколько лет назад писал про то, как наша PIM устроена внутри. Она всё ещё устроена так же, но что-то необратимо изменилось. Мы активно разви...",
+    "date": "2026-10-25",
+    "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Бренд-концепция и стратегия для кондитерского бренда (для всех)",
+    "link": "https://www.fl.ru/projects/5526641/brend-kontseptsiya-i-strategiya-dlya-konditerskogo-brenda.html",
+    "desc": "Нужно создать с нуля бренд кондитерских изделий: пастила, зефир, мармелад. Каналы продаж: маркетплейсы (Ozon и др.), розничные сети и магазины. Что входит в задачу: 1. Анализ рынка и конкурентов на маркетплейсах и в рознице (сети, специализированные магазины), выбор ниши и ценового сегмента. 2. О...",
+    "date": "2026-10-25",
+    "source": "FL.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
   },
   {
     "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
@@ -410,19 +470,29 @@
     "misc_type": "unfiltered"
   },
   {
+    "title": "SDD наоборот: не программируем по спекам, а получаем их на сдачу",
+    "link": "https://habr.com/ru/articles/1098516/?utm_campaign=1098516&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Однажды мне нужно было выпилить ненужный кусочек экрана. Задача на удаление, что может быть проще? Итоговый дифф: 99 файлов, +5218 −5495. Чтобы удалить 5 тысяч строк кода, пришлось написать 5 тысяч строк спек: proposal, design, tasks и дельты REMOVED. Тогда я задумался: зачем мы генерируем, храни...",
+    "date": "2026-10-23",
+    "source": "Habr Open Source",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Мониторинг вакансий с ИИ‑скорингом на n8n и Groq API: разбираем архитектуру и грабли с Rate Limit",
+    "link": "https://habr.com/ru/articles/1098260/?utm_campaign=1098260&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Поиск узкопрофильных вакансий (например, n8n‑инженер или специалист по интеграциям) через RSS‑ленты превращается в борьбу с шумом. Простые текстовые фильтры по ключевым словам «автоматизация» или «API» дают массу ложных срабатываний: от «менеджеров по автоматизации продаж» до «руководителей API‑к...",
+    "date": "2026-10-23",
+    "source": "Habr Open Source",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
     "title": "Все уходят на Rust: в ML c Python, в бэкенде с Java, в микроконтроллерах",
     "link": "https://habr.com/ru/companies/ru_mts/articles/1097462/?utm_campaign=1097462&utm_source=habrahabr&utm_medium=rss",
     "desc": "Привет, Хабр! Сегодня заглянем на онлайн-митап от MWS. Посмотрим, как в трех разных кейсах переходили на Rust. При работе с ML перешли с Python на Rust для синтеза и распознавания речи, ускорив работу сервисов. На другом проекте перешли с Java на Rust — в итоге стало меньше инцидентов, стала быст...",
-    "date": "2026-10-22",
-    "source": "Habr ML",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Киберпсихоз начинается там, где мощность железа перестает соответствовать возможностям оператора",
-    "link": "https://habr.com/ru/articles/1097636/?utm_campaign=1097636&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Наконец-то на горизонте замелькал британский паб. Отличное место, чтобы дать отдохнуть естественному интеллекту от шести часов обсуждений искусственного интеллекта. Читать далее",
     "date": "2026-10-22",
     "source": "Habr ML",
     "cat": "misc",
@@ -435,6 +505,16 @@
     "desc": "Mira (@mira) — персональный AI-агент, работающий прямо в Telegram. Он помогает планировать встречи, подводить итоги обсуждений, создавать контент и координировать задачи в личных и групповых чатах.",
     "date": "2026-10-22",
     "source": "vc.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Киберпсихоз начинается там, где мощность железа перестает соответствовать возможностям оператора",
+    "link": "https://habr.com/ru/articles/1097636/?utm_campaign=1097636&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Наконец-то на горизонте замелькал британский паб. Отличное место, чтобы дать отдохнуть естественному интеллекту от шести часов обсуждений искусственного интеллекта. Читать далее",
+    "date": "2026-10-22",
+    "source": "Habr ML",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
@@ -565,6 +645,16 @@
     "desc": "Физики знают, что наука об элементарных частицах и их взаимодействиях неполна. Остаётся величайшая тайна мироздания: почему после Большого взрыва материя и антиматерия не уничтожили друг друга. Мы существуем благодаря этой тайне, и учёные надеются раскрыть её в новом эксперименте, ключом к которо...",
     "date": "2026-10-22",
     "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "За 50 дней до открытия: прогноз заказов ПВЗ, которого еще нет",
+    "link": "https://habr.com/ru/companies/uzum/articles/1097642/?utm_campaign=1097642&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Чтобы пункт выдачи заказов хорошо работал, надо учесть сразу несколько факторов: сколько людей живёт рядом, траффик, где уже работают другие ПВЗ и какую часть их заказов заберёт новая точка. Оценить всё это нужно до открытия — в нашем случае за 50 дней Почти каждая статья про выбор локации начина...",
+    "date": "2026-10-22",
+    "source": "Habr ML",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -2405,6 +2495,16 @@
     "desc": "Экстремальное событие почти никогда не возникает на ровном месте. Эпилептический приступ, отказ авиадвигателя, обвал рынка — всё это финал процесса, который сначала зародился в одном месте системы: в одной области мозга, в одном модуле двигателя, в одном секторе рынка. Потом процесс распространил...",
     "date": "2026-10-12",
     "source": "Habr Python",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Как Национальный центр ураганов США сделал ставку на ИИ-прогноз Isaias",
+    "link": "https://habr.com/ru/companies/selectel/news/1093380/?utm_campaign=1093380&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Ураган Isaias вышел на сушу 9 октября в 21:30 по восточному времени вблизи Дестина во Флориде. Скорость ветра достигала 169 км/ч. За несколько дней до этого синоптики получили два разных прогноза. Классические математические модели, которые считают физику атмосферы, направляли шторм западнее — в ...",
+    "date": "2026-10-12",
+    "source": "Habr ML Новости",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
