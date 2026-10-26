@@ -1,8 +1,8 @@
 [
   {
-    "title": "Brown student maps the hidden global labor powering AI",
-    "link": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
-    "desc": "Article URL: https://www.brown.edu/news/2026-10-26/ai-data-workers Comments URL: https://news.ycombinator.com/item?id=50242843 Points: 101 # Comments: 80",
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+    "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "desc": "Article URL: https://blog.cloudflare.com/kv-cache-exposure-remediation/ Comments URL: https://news.ycombinator.com/item?id=50252159 Points: 6 # Comments: 1",
     "date": "2026-10-26",
     "source": "Hacker News",
     "cat": "misc",
@@ -10,7 +10,27 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Руководство по сборке локального AI-стека. Часть 3. Наполнение моделями",
+    "title": "Concerning behavior from a popular open-weight AI model",
+    "link": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+    "desc": "Article URL: https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model Comments URL: https://news.ycombinator.com/item?id=50246658 Points: 235 # Comments: 96",
+    "date": "2026-10-26",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Run Scale AI’s AgentEnv evals on Vercel Sandbox",
+    "link": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox",
+    "desc": "",
+    "date": "2026-10-26",
+    "source": "Vercel",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Руководство по сборке локального AI‑стека. Часть 3. Наполнение моделями",
     "link": "https://habr.com/ru/articles/1099492/?utm_campaign=1099492&utm_source=habrahabr&utm_medium=rss",
     "desc": "На этом шаге мы наполняем папку models/ моделями под разные задачи, раскладываем их по правилам (плоско vs подпапки с mmproj ) и делаем HTML-шпаргалку — статическую страницу, которая отвечает на вопрос «какая модель для какой задачи», не требуя лезть в конфиги или документацию. Читать далее",
     "date": "2026-10-26",
@@ -40,6 +60,16 @@
     "misc_type": "raznoe"
   },
   {
+    "title": "Brown student maps the hidden global labor powering AI",
+    "link": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+    "desc": "Article URL: https://www.brown.edu/news/2026-10-26/ai-data-workers Comments URL: https://news.ycombinator.com/item?id=50242843 Points: 101 # Comments: 80",
+    "date": "2026-10-26",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "Что происходит с интернетом в России 26 октября 2026 года",
     "link": "https://hi-tech.mail.ru/news/145610-sboi-interneta-v-rossii/",
     "desc": "Узнайте подробности о жалобах пользователей. Пользователи из России продолжают сталкиваться с различными сбоями в работе интернета. Статистику об этом собирает профильный сервис Downdetector. В каких регионах сегодня наблюдаются проблемы со связью Согласно жалобам пользователей, сбои фиксируют в ...",
@@ -50,14 +80,14 @@
     "misc_type": "unfiltered"
   },
   {
-    "title": "SIMD-accelerated computer vision on a $2 microcontroller",
-    "link": "https://shraiwi.com/blog/simd-fast-esp32s3/",
-    "desc": "Article URL: https://shraiwi.com/blog/simd-fast-esp32s3/ Comments URL: https://news.ycombinator.com/item?id=50236681 Points: 44 # Comments: 9",
-    "date": "2026-10-25",
-    "source": "Hacker News",
+    "title": "Все три суперкомпьютера Яндекса уцелели при пожарах в дата-центрах — компания переносит их на новые площадки",
+    "link": "https://rb.ru/news/vse-tri-superkompyutera-yandeksa-uceleli-pri-pozharah-v-data-centrah-kompaniya-perenosit-ih-na-novye-ploshadki/",
+    "desc": "Яндекс переносит суперкомпьютеры «Ляпунов», «Галушкин» и «Червоненкис» на новые вычислительные площадки, сообщила пресс-служба компании. Оборудование не пострадало в пожарах в дата-центрах, подчеркнули в сервисе, и уже разворачивается в новых локациях. После запуска его продолжат использовать для...",
+    "date": "2026-10-26",
+    "source": "Rusbase",
     "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
+    "lang": "ru",
+    "misc_type": "unfiltered"
   },
   {
     "title": "“AI Skills” are worthless in 2026",
@@ -75,6 +105,16 @@
     "desc": "",
     "date": "2026-10-25",
     "source": "UX Collective",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "SIMD-accelerated computer vision on a $2 microcontroller",
+    "link": "https://shraiwi.com/blog/simd-fast-esp32s3/",
+    "desc": "Article URL: https://shraiwi.com/blog/simd-fast-esp32s3/ Comments URL: https://news.ycombinator.com/item?id=50236681 Points: 44 # Comments: 9",
+    "date": "2026-10-25",
+    "source": "Hacker News",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
@@ -12544,66 +12584,6 @@
     "link": "https://vercel.com/changelog/turborepo-and-remote-cache-now-support-openid-connect-oidc",
     "desc": "",
     "date": "2026-07-30",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
-    "link": "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/",
-    "desc": "As AI reshapes product design, it could give designers greater autonomy or expose the gaps that autonomy makes harder to hide. Exploring both the bull and bear cases, Andy Budd examines what happens when designers need less permission to act.",
-    "date": "2026-07-29",
-    "source": "Smashing Magazine",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
-    "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
-    "desc": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project. The post Tame Dependabot: Group your updates, slow the cad...",
-    "date": "2026-07-29",
-    "source": "GitHub Eng",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Introducing Replit Design",
-    "link": "https://replit.com/blog/introducing-replit-design",
-    "desc": "A new creative class is rising: people who see an idea in their mind and refuse to wait to make it. Today, we’re launching Replit Design, a new creative suite where anyone can shape what they see as fast as they can think it. Replit Design is the fastest way to go from idea to design. Ambient Int...",
-    "date": "2026-07-29",
-    "source": "Replit",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Edge Config is now Global Config",
-    "link": "https://vercel.com/changelog/edge-config-is-now-global-config",
-    "desc": "",
-    "date": "2026-07-29",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Additional custom environments can now be purchased",
-    "link": "https://vercel.com/changelog/additional-custom-environments-can-now-be-purchased",
-    "desc": "",
-    "date": "2026-07-29",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Discover and install eve integrations from the CLI",
-    "link": "https://vercel.com/changelog/discover-and-install-eve-integrations-from-the-cli",
-    "desc": "",
-    "date": "2026-07-29",
     "source": "Vercel",
     "cat": "misc",
     "lang": "en",

@@ -1,6 +1,24 @@
 [
   {
-    "title": "Руководство по сборке локального AI-стека. Часть 5. Open WebUI поверх llama.cpp",
+    "title": "RTX 5090 станут ещё большей редкостью: Nvidia перестала принимать заказы на GPU от производителей видеокарт",
+    "link": "https://3dnews.ru/1150457",
+    "desc": "Nvidia перестала принимать новые заказы на комплекты из графических процессоров Blackwell GB202 и памяти GDDR7 для производства видеокарт GeForce RTX 5090, утверждает один из производителей видеокарт, выпускающий модели собственного дизайна (AIB-партнёр). При этом Nvidia отрицает снятие флагманск...",
+    "date": "2026-10-27",
+    "source": "3DNews",
+    "cat": "design",
+    "lang": "ru"
+  },
+  {
+    "title": "Magic state cultivation on a superconducting quantum processor",
+    "link": "https://arxiv.org/abs/2512.13908",
+    "desc": "Abstract: \"Fault-tolerant quantum computing requires a universal gate set, but the necessary non-Clifford gates represent a significant resource cost for most quantum error correction architectures. Magic state cultivation offers an efficient alternative to resource-intensive distillation protoco...",
+    "date": "2026-10-26",
+    "source": "Hacker News",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Руководство по сборке локального AI‑стека. Часть 5. Open WebUI поверх llama.cpp",
     "link": "https://habr.com/ru/articles/1099532/?utm_campaign=1099532&utm_source=habrahabr&utm_medium=rss",
     "desc": "На этом шаге мы добавляем Open WebUI — веб-интерфейс с аутентификацией, историей чатов и настройкой параметров моделей. Это финальный слой: llama-server продолжает работать как обычно (только на 127.0.0.1 ), а Open WebUI становится «парадной дверью» для пользователей из LAN. Читать далее",
     "date": "2026-10-26",
@@ -9,13 +27,22 @@
     "lang": "ru"
   },
   {
-    "title": "Руководство по сборке локального AI-стека. Часть 2. Запуск llama-cpp",
+    "title": "Руководство по сборке локального AI‑стека. Часть 2. Запуск llama‑cpp",
     "link": "https://habr.com/ru/articles/1099482/?utm_campaign=1099482&utm_source=habrahabr&utm_medium=rss",
     "desc": "На этом шаге мы соберём llama.cpp , скачаем компактную модель для теста, разберёмся с ключевыми опциями ( mmap , лимиты памяти, mmproj ) и запустим сервер. После этого у вас будет работающий чат по адресу http://127.0.0.1:8080 — с родным веб-интерфейсом llama.cpp (пока без Open WebUI). Читать далее",
     "date": "2026-10-26",
     "source": "Habr AI",
     "cat": "design",
     "lang": "ru"
+  },
+  {
+    "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+    "link": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+    "desc": "",
+    "date": "2026-10-26",
+    "source": "UX Collective",
+    "cat": "design",
+    "lang": "en"
   },
   {
     "title": "Только меня зае... ИИ ?",
