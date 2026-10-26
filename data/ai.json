@@ -2,7 +2,7 @@
   {
     "title": "Anthropic S-1",
     "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-    "desc": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 441 # Comments: 351",
+    "desc": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 925 # Comments: 848",
     "date": "2026-10-26",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,11 +11,38 @@
   {
     "title": "Fixing Tool-Call Accuracy in vLLM",
     "link": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
-    "desc": "Article URL: https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm Comments URL: https://news.ycombinator.com/item?id=50242870 Points: 41 # Comments: 6",
+    "desc": "Article URL: https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm Comments URL: https://news.ycombinator.com/item?id=50242870 Points: 107 # Comments: 59",
     "date": "2026-10-26",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Как мы оценивали соответствие предсказаний LLM нормам профессиональных кодексов",
+    "link": "https://habr.com/ru/articles/1099714/?utm_campaign=1099714&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Ответ большой языковой модели в составе ИИ-ассистента на рабочую просьбу может противоречить профессиональному кодексу пользователя. Ассистент способен предупредить об этическом конфликте и всё же подготовить запрошенный текст. В исследовании TenetBench мы разработали способ получать такие задачи...",
+    "date": "2026-10-26",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Nano Banana 2.1 или ChatGPT Image 2.5: сравниваем нейросети для генерации изображений на 5 одинаковых промптах",
+    "link": "https://habr.com/ru/companies/speshu_ai/articles/1099696/?utm_campaign=1099696&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Nano Banana 2.1 и ChatGPT Image 2.5 решают похожую задачу: создают изображения по текстовому промпту и редактируют готовые картинки. Но после нескольких генераций становится понятно, что модели ошибаются по-разному. Одна точнее следует техническому заданию, другая лучше сохраняет лицо или делает ...",
+    "date": "2026-10-26",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как люди придумывали красоту: собрал атлас 195 визуальных стилей, от пещеры Ласко до уирдкора",
+    "link": "https://habr.com/ru/articles/1099688/?utm_campaign=1099688&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Нейросети дали всем суперсилу: любой человек может за минуту получить вполне красивую картинку. Но суперсила попала в руки людям, которые часто не знают, что с ней делать. Я в том числе. Попросить у ИИ «нарисуй в стиле импрессионизма» может каждый. Попросить «в стиле неопластицизма» или «в стиле ...",
+    "date": "2026-10-26",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "ИИ-спам и обновление Google: как найти у себя почти одинаковые страницы, если порога похожести Google не называет",
@@ -189,24 +216,6 @@
     "lang": "ru"
   },
   {
-    "title": "Почему ИИ-боты и люди видят почти одну и ту же информацию на сайте и насколько критично это «почти»",
-    "link": "https://habr.com/ru/articles/1099298/?utm_campaign=1099298&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Допустим, ваш сайт собирается в браузере скриптами, и ИИ-боты, которые скрипты не исполняют, видят на нём пустую страницу. Сервисы вроде Profound решают это так: узнают бота и отдают ему отдельную отрендеренную копию. Я собрал тестовый сайт с такой подменой и сверил копию со страницей для людей. ...",
-    "date": "2026-10-26",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "[Перевод] Дерматолог проверил GPT-6 Astra и Claude на 200 образованиях кожи: CNN 2015 года точнее",
-    "link": "https://habr.com/ru/articles/1099308/?utm_campaign=1099308&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Дерматолог Магнус Линч взял 200 кожных образований с подтверждённым биопсией диагнозом и показал их GPT-6 Astra, Claude Fable 5.1 и дообученной свёрточной сети Inception v3 2015 года. Правильный диагноз из шести вариантов: CNN — 125 из 200 (62%), обе LLM — 84 и 85 (42%). Меланому на ухе обе LLM п...",
-    "date": "2026-10-26",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "«Диплом Гарварда не открывает дверей»: поступление, сотни откликов и Quant Finance — интервью с Арсением Звягинцевым",
     "link": "https://habr.com/ru/articles/1099594/?utm_campaign=1099594&utm_source=habrahabr&utm_medium=rss",
     "desc": "Можно окончить Гарвард, получить за четыре года бакалаврский и магистерский дипломы, быть одним из сильнейших студентов на курсе – и два года подряд не найти в США ни одной стажировки. Можно отправить сотни заявок, семь раз собеседоваться в одну компанию и обнаружить, что строчка «Harvard» в резю...",
@@ -225,11 +234,29 @@
     "lang": "ru"
   },
   {
+    "title": "[Перевод] Дерматолог проверил GPT-6 Astra и Claude на 200 образованиях кожи: CNN 2015 года точнее",
+    "link": "https://habr.com/ru/articles/1099308/?utm_campaign=1099308&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Дерматолог Магнус Линч взял 200 кожных образований с подтверждённым биопсией диагнозом и показал их GPT-6 Astra, Claude Fable 5.1 и дообученной свёрточной сети Inception v3 2015 года. Правильный диагноз из шести вариантов: CNN — 125 из 200 (62%), обе LLM — 84 и 85 (42%). Меланому на ухе обе LLM п...",
+    "date": "2026-10-26",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Проверка подлинности GPT-6 Astra у пяти зарубежных API-роутеров: пеликан на велосипеде и фламинго на моноцикле",
     "link": "https://habr.com/ru/articles/1099304/?utm_campaign=1099304&utm_source=habrahabr&utm_medium=rss",
     "desc": "В первой статье я сравнил ответы пяти API-роутеров с официальным API OpenAI на 30 задачах. Здесь продолжаю проверку GPT-6 Astra на двух SVG-заданиях: пеликан на велосипеде и фламинго на моноцикле. Показываю все изображения, сравниваю детали и свожу результаты вместе с ценами. Читать далее",
     "date": "2026-10-26",
     "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic подала заявку на IPO: убыток $80 млрд, выручка $16 млрд и что это значит для рынка",
+    "link": "https://habr.com/ru/companies/finam_broker/news/1099660/?utm_campaign=1099660&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Anthropic в понедельник, 26 октября, подала заявку на IPO, сообщает Bloomberg. Компания — разработчик ИИ-модели Claude — планирует начать торги на бирже Nasdaq Global Select Market под символом ANT, как следует из документа, поданного в Комиссию по ценным бумагам и биржам США. IPO проводят Goldma...",
+    "date": "2026-10-26",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -306,9 +333,9 @@
     "lang": "ru"
   },
   {
-    "title": "Как сэкономить 100к запретив ИИ",
-    "link": "https://habr.com/ru/articles/1099620/?utm_campaign=1099620&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Сотрудник вуза заполняет конструктор за 20 секунд и получает 3 макета строго по брендбуку. Экономия около 100 000 ₽ в месяц, и без нейросетей. Рассказываю, почему ChatGPT и Canva не справились и когда обычный алгоритм лучше ИИ. Читать далее",
+    "title": "Почему ИИ-боты и люди видят почти одну и ту же информацию на сайте и насколько критично это «почти»",
+    "link": "https://habr.com/ru/articles/1099298/?utm_campaign=1099298&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Допустим, ваш сайт собирается в браузере скриптами, и ИИ-боты, которые скрипты не исполняют, видят на нём пустую страницу. Сервисы вроде Profound решают это так: узнают бота и отдают ему отдельную отрендеренную копию. Я собрал тестовый сайт с такой подменой и сверил копию со страницей для людей. ...",
     "date": "2026-10-26",
     "source": "Habr Python",
     "cat": "ai",
@@ -333,6 +360,15 @@
     "lang": "ru"
   },
   {
+    "title": "Нейросети для создания песен-поздравлений: ТОП-10 сервисов в 2026 году",
+    "link": "https://tproger.ru/articles/nejroseti-dlya-sozdaniya-pesen-pozdravlenij-top-10-servisov-v-202",
+    "desc": "Сравнили нейросети для создания персональных песен-поздравлений и музыкальных подарков. Разбираем генерацию песни по описанию и своему тексту, бесплатные возможности и способы персонализировать результат. — Читать дальше « Нейросети для создания песен-поздравлений: ТОП-10 сервисов в 2026 году »",
+    "date": "2026-10-26",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "OpenAI забанила разработчика за реверс-инжиниринг, Claude отказался клонировать приложения",
     "link": "https://thecode.media/openai-zabanila-razrabotchika-za-revers-inzhiniring/",
     "desc": "Вот такие вот теперь правила, ребята Сообщение OpenAI забанила разработчика за реверс-инжиниринг, Claude отказался клонировать приложения появились сначала на Журнал «Код» программирование без снобизма .",
@@ -351,11 +387,128 @@
     "lang": "ru"
   },
   {
+    "title": "Maxxing — слово 2026 года по версии американского словаря: термин отражает стремление улучшить любую сферу жизни",
+    "link": "https://rb.ru/news/maxxing-slovo-2026-goda-po-versii-amerikanskogo-slovarya-termin-otrazhaet-stremlenie-uluchshit-lyubuyu-sferu-zhizni/",
+    "desc": "Словарь Dictionary.com назвал слово maxxing главным словом 2026 года. Как объясняют лингвисты The Guardian, этим словом называют стремление улучшить практически любую сферу жизни — от внешности и качества сна до питания и использования искусственного интеллекта. К августу 2026 года слово встречал...",
+    "date": "2026-10-26",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Все три суперкомпьютера Яндекса уцелели при пожарах в дата-центрах — компания переносит их на новые площадки",
     "link": "https://rb.ru/news/vse-tri-superkompyutera-yandeksa-uceleli-pri-pozharah-v-data-centrah-kompaniya-perenosit-ih-na-novye-ploshadki/",
     "desc": "Яндекс переносит суперкомпьютеры «Ляпунов», «Галушкин» и «Червоненкис» на новые вычислительные площадки, сообщила пресс-служба компании. Оборудование не пострадало в пожарах в дата-центрах, подчеркнули в сервисе, и уже разворачивается в новых локациях. После запуска его продолжат использовать для...",
     "date": "2026-10-26",
     "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Спрос на ИИ-инженеров в Китае взлетел на 1523 % — лучшие получают почти $150 тысяч в год",
+    "link": "https://3dnews.ru/1150426",
+    "desc": "За последние пару лет специальность инженера передового развёртывания (forward-deployed engineer, FDE), предполагающая разработку ИИ-приложений под конкретные бизнес-задачи, стала одной из самых быстрорастущих по спросу в мире. В Китае сегодня на этой должности можно получать не менее 1 млн юаней...",
+    "date": "2026-10-26",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic подала публичную заявку на IPO и может побить рекорд SpaceX",
+    "link": "https://3dnews.ru/1150439",
+    "desc": "Американская компания Anthropic, разработчик ИИ-моделей и чат-бота Claude, публично подала заявку на первичное размещение акций (IPO) в США. Акции планируется вывести на биржу Nasdaq, а объем размещения, по данным Bloomberg, может превзойти рекорд SpaceX. Источник изображения: Anthropic",
+    "date": "2026-10-26",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "На Anthropic подали в суд за обучение ИИ на песнях Элвиса Пресли",
+    "link": "https://3dnews.ru/1150427",
+    "desc": "Владельцы музыкального каталога Элвиса Пресли (Elvis Presley) подали иск против ИИ-компании Anthropic, обвинив её в использовании песен короля рок-н-ролла для обучения своих моделей без соответствующего разрешения. Источник изображения: Wesley Tingey / unsplash.com",
+    "date": "2026-10-26",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Опрос: как вы относитесь к ИИ-музыке",
+    "link": "https://hi-tech.mail.ru/news/159000-opros-kak-vy-otnosites-k-ii-muzyke/",
+    "desc": "Hi-Tech Mail решил узнать, как россияне относятся к музыке, созданной с помощью ИИ, к нейросетям в целом и насколько готовы доверять искусство технологиям. Пройдите опрос, и скоро мы подведем итоги исследования.",
+    "date": "2026-10-26",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как пополнить карту «Тройка» в 2026 году: удобные способы офлайн и онлайн",
+    "link": "https://hi-tech.mail.ru/review/124783-kak-popolnit-kartu-trojka/",
+    "desc": "Пополнить карту «Тройка» в в 2026 году можно удаленно и офлайн. Подробно рассказываем про удобные способы. Чтобы пополнить карту «Тройка» в 2026 году, внесите деньги через билетный автомат в метро или оплатите проезд онлайн по 10-значному номеру — через банковские приложения, портал mos.ru или се...",
+    "date": "2026-10-26",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Western Digital предупредила о дальнейшем подорожании HDD",
+    "link": "https://hi-tech.mail.ru/news/158997-western-digital-vypustit-zhestkii-disk-na-55-tb-a-ceny-na/",
+    "desc": "Производитель увеличил среднюю цену терабайта на 28% за год и ожидает дальнейшего роста в ближайшие три-четыре квартала. Главная причина — спрос на хранение данных для искусственного интеллекта. Western Digital сообщила о росте выручки на 55% и предупредила о дальнейшем подорожании жестких дисков...",
+    "date": "2026-10-26",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Утилита ускорила ИИ на RTX 30 на 80% — цены на старые видеокарты взлетели",
+    "link": "https://hi-tech.mail.ru/news/158995-utilita-uskorila-rtx-30-v-zadachah-ii-na-80-a-ceny-na-rtx/",
+    "desc": "Энтузиаст выложил на GitHub модуль для Linux, который снимает ограничение Nvidia со старых GeForce RTX 30 и ускоряет их в задачах ИИ на 80%. На вторичном рынке RTX 3090 уже подорожала вдвое. Разработчик под ником Zagitta выложил на GitHub открытый проект gpu-unlock. Это модуль ядра Linux, который...",
+    "date": "2026-10-26",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "SSD подорожали вчетверо за год: флеш-память уходит в ИИ-серверы",
+    "link": "https://hi-tech.mail.ru/news/158993-ssd-podorozhali-vchetvero-za-god-flesh-pamyat-uhodit-v-ii/",
+    "desc": "Контрактная цена SSD на 256 ГБ за год выросла с 33 до 134 долларов. Накопители для ИИ-серверов забирают почти всю флеш-память, а в четвертом квартале она подорожает еще на 15–20%. Твердотельные накопители за год подорожали на 303%, сообщает Tech Insider со ссылкой на данные отслеживания контрактн...",
+    "date": "2026-10-26",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic подала документы на IPO: акции появятся на Nasdaq под тикером ANT",
+    "link": "https://hi-tech.mail.ru/news/158986-anthropic-podala-dokumenty-na-ipo-aktsii-poyavyatsya-na/",
+    "desc": "Разработчик Claude подал в Комиссию по ценным бумагам и биржам США заявление на первичное размещение акций. Торги на Nasdaq могут начаться во второй половине ноября. Компания Anthropic, создатель нейросети Claude, подала в Комиссию по ценным бумагам и биржам США регистрационное заявление по форме...",
+    "date": "2026-10-26",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как нас обманывают производители смартфонов",
+    "link": "https://hi-tech.mail.ru/news/135520-kak-nas-obmanyvayut-proizvoditeli-smartfonov/",
+    "desc": "Мобильный рынок — это наполовину технологии и еще наполовину маркетинг. Рассказываем, какие уловки используют бренды телефонов, чтобы продать нам свой продукт. В сети бытует мнение, что развитие технологий за последние 10 лет существенно замедлилось. И если сферы ИИ это пока не касается, то вот н...",
+    "date": "2026-10-26",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "13 нейросетям задали вопрос о людях: те сказали горькую правду",
+    "link": "https://hi-tech.mail.ru/news/158970-13-neirosetei-soshlis-vo-mnenii-lyudyam-prinadlezhnost-k/",
+    "desc": "Сервис ModelCompare спросил 13 языковых моделей, какое у них самое спорное мнение о людях. В 32 ответах из 38 прозвучала одна мысль: людям важнее быть частью группы, чем знать правду. Сервис для сравнения нейросетей ModelCompare провел эксперимент и задал 13 языковым моделям один и тот же вопрос ...",
+    "date": "2026-10-26",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как сэкономить 100к запретив ИИ",
+    "link": "https://habr.com/ru/articles/1099620/?utm_campaign=1099620&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сотрудник вуза заполняет конструктор за 20 секунд и получает 3 макета строго по брендбуку. Экономия около 100 000 ₽ в месяц, и без нейросетей. Рассказываю, почему ChatGPT и Canva не справились и когда обычный алгоритм лучше ИИ. Читать далее",
+    "date": "2026-10-26",
+    "source": "Habr Python",
     "cat": "ai",
     "lang": "ru"
   },
@@ -414,51 +567,6 @@
     "lang": "ru"
   },
   {
-    "title": "Спрос на ИИ-инженеров в Китае взлетел на 1523 % — лучшие получают почти $150 тысяч в год",
-    "link": "https://3dnews.ru/1150426",
-    "desc": "За последние пару лет специальность инженера передового развёртывания (forward-deployed engineer, FDE), предполагающая разработку ИИ-приложений под конкретные бизнес-задачи, стала одной из самых быстрорастущих по спросу в мире. В Китае сегодня на этой должности можно получать не менее 1 млн юаней...",
-    "date": "2026-10-26",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "На Anthropic подали в суд за обучение ИИ на песнях Элвиса Пресли",
-    "link": "https://3dnews.ru/1150427",
-    "desc": "Владельцы музыкального каталога Элвиса Пресли (Elvis Presley) подали иск против ИИ-компании Anthropic, обвинив её в использовании песен короля рок-н-ролла для обучения своих моделей без соответствующего разрешения. Источник изображения: Wesley Tingey / unsplash.com",
-    "date": "2026-10-26",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Anthropic подала документы на IPO: акции появятся на Nasdaq под тикером ANT",
-    "link": "https://hi-tech.mail.ru/news/158986-anthropic-podala-dokumenty-na-ipo-aktsii-poyavyatsya-na/",
-    "desc": "Разработчик Claude подал в Комиссию по ценным бумагам и биржам США заявление на первичное размещение акций. Торги на Nasdaq могут начаться во второй половине ноября. Компания Anthropic, создатель нейросети Claude, подала в Комиссию по ценным бумагам и биржам США регистрационное заявление по форме...",
-    "date": "2026-10-26",
-    "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Как нас обманывают производители смартфонов",
-    "link": "https://hi-tech.mail.ru/news/135520-kak-nas-obmanyvayut-proizvoditeli-smartfonov/",
-    "desc": "Мобильный рынок — это наполовину технологии и еще наполовину маркетинг. Рассказываем, какие уловки используют бренды телефонов, чтобы продать нам свой продукт. В сети бытует мнение, что развитие технологий за последние 10 лет существенно замедлилось. И если сферы ИИ это пока не касается, то вот н...",
-    "date": "2026-10-26",
-    "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "13 нейросетям задали вопрос о людях: те сказали горькую правду",
-    "link": "https://hi-tech.mail.ru/news/158970-13-neirosetei-soshlis-vo-mnenii-lyudyam-prinadlezhnost-k/",
-    "desc": "Сервис ModelCompare спросил 13 языковых моделей, какое у них самое спорное мнение о людях. В 32 ответах из 38 прозвучала одна мысль: людям важнее быть частью группы, чем знать правду. Сервис для сравнения нейросетей ModelCompare провел эксперимент и задал 13 языковым моделям один и тот же вопрос ...",
-    "date": "2026-10-26",
-    "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Как бизнесу ускорить внедрение ИИ: ответ эксперта",
     "link": "https://hi-tech.mail.ru/news/158964-kak-biznesu-uskorit-vnedrenie-ii-otvet-eksperta/",
     "desc": "Узнайте больше о советах. Российские компании могут ускорить внедрение искусственного интеллекта, если будут тестировать новые решения одновременно с подготовкой данных. Об этом NEWS.ru рассказал руководитель направления «Искусственный интеллект» IT-холдинга Т1 Сергей Голицын. По словам эксперта,...",
@@ -493,24 +601,6 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-    "link": "https://lynchlab.net/llm-skin-cancer",
-    "desc": "Article URL: https://lynchlab.net/llm-skin-cancer Comments URL: https://news.ycombinator.com/item?id=50233779 Points: 621 # Comments: 259",
-    "date": "2026-10-25",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
-    "link": "https://adrs.systems",
-    "desc": "Why is this worth your time? Essentially, this solves two problems of AI-assisted programming: (a) the first problem is how to do oversight and what do oversight of and this is solved through the ORRCF (for Options, Recommendation, Rationale, Confidence, Falsifier) question format (in which model...",
-    "date": "2026-10-25",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "Токеномика для самых маленьких",
@@ -612,20 +702,38 @@
     "lang": "ru"
   },
   {
-    "title": "CLI-Anything для Claude Code: как сделать из GIMP, Blender и Inkscape консольный инструмент для агента — установка и 7 фаз",
-    "link": "https://vc.ru/ai/3214800-cli-anything-dlya-claude-code-ustanovka-i-sozdanie-konsolnykh-instrumentov?from=rss",
-    "desc": "Установка занимает две команды, у репозитория 56 914 звёзд на 25 октября 2026 года.",
-    "date": "2026-10-25",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Пока геймеры ищут GeForce RTX 5090, китайцы массово переделывают их в ИИ-ускорители",
     "link": "https://3dnews.ru/1150403",
     "desc": "В социальной сети X появилось видео, демонстрирующее деятельность предприятия по переделке игровых видеокарт GeForce RTX 5090 в своего рода ускорители вычислений, пригодные для установки в серверных системах. Процесс поставлен на широкую ногу. Источник изображения: Nvidia",
     "date": "2026-10-25",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+    "link": "https://lynchlab.net/llm-skin-cancer",
+    "desc": "Article URL: https://lynchlab.net/llm-skin-cancer Comments URL: https://news.ycombinator.com/item?id=50233779 Points: 621 # Comments: 259",
+    "date": "2026-10-25",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+    "link": "https://adrs.systems",
+    "desc": "Why is this worth your time? Essentially, this solves two problems of AI-assisted programming: (a) the first problem is how to do oversight and what do oversight of and this is solved through the ORRCF (for Options, Recommendation, Rationale, Confidence, Falsifier) question format (in which model...",
+    "date": "2026-10-25",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "CLI-Anything для Claude Code: как сделать из GIMP, Blender и Inkscape консольный инструмент для агента — установка и 7 фаз",
+    "link": "https://vc.ru/ai/3214800-cli-anything-dlya-claude-code-ustanovka-i-sozdanie-konsolnykh-instrumentov?from=rss",
+    "desc": "Установка занимает две команды, у репозитория 56 914 звёзд на 25 октября 2026 года.",
+    "date": "2026-10-25",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1566,15 +1674,6 @@
     "lang": "ru"
   },
   {
-    "title": "Как мы внедряли LLM в модерацию Авито",
-    "link": "https://habr.com/ru/companies/avito/articles/1095230/?utm_campaign=1095230&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет! Меня зовут Руслан Сакаев , я DS-тимлид в Авито . В статье расскажу, как мы внедряли LLM в проверки объявлений и что пришлось достроить вокруг модели, чтобы решение выдержало продакшен. Статья будет полезна DS/ML-инженерам, MLOps и техническим руководителям, которые уже поняли, что LLM зак...",
-    "date": "2026-10-22",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Uber открыла доступ к ChatGPT Work для всех 30 000 своих работников",
     "link": "https://habr.com/ru/news/1098092/?utm_campaign=1098092&utm_source=habrahabr&utm_medium=rss",
     "desc": "Uber и OpenAI объявили о расширении партнёрства. Отныне все работники компании, а их около 30 000 человек, получат доступ к корпоративному ИИ‑агенту ChatGPT Work для автоматизации рабочих процессов. Читать далее",
@@ -1624,7 +1723,7 @@
     "link": "https://habr.com/ru/news/1097652/?utm_campaign=1097652&utm_source=habrahabr&utm_medium=rss",
     "desc": "OpenAI объявила , что научила свои ИИ‑модели гораздо лучше справляться с устаревшими языками программирования. В тестах GPT-6.1 Sol перенесла программы с COBOL на современные языки с сохранением их работы в 97,9% случаев. Читать далее",
     "date": "2026-10-22",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1706,6 +1805,15 @@
     "desc": "Я внедрял ИИ в ИТ-команде проекта на 1С и параллельно делаю с нейросетями собственные продукты. Главный вывод за это время: проблема не в том, что ИИ ошибается. Проблема в том, что он ошибается правдоподобно.",
     "date": "2026-10-22",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как мы внедряли LLM в модерацию Авито",
+    "link": "https://habr.com/ru/companies/avito/articles/1095230/?utm_campaign=1095230&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет! Меня зовут Руслан Сакаев , я DS-тимлид в Авито . В статье расскажу, как мы внедряли LLM в проверки объявлений и что пришлось достроить вокруг модели, чтобы решение выдержало продакшен. Статья будет полезна DS/ML-инженерам, MLOps и техническим руководителям, которые уже поняли, что LLM зак...",
+    "date": "2026-10-22",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -3240,20 +3348,20 @@
     "lang": "ru"
   },
   {
-    "title": "Как я ловлю галлюцинации LLM в коде: пайплайн проверок в CI",
-    "link": "https://habr.com/ru/articles/1096132/?utm_campaign=1096132&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Месяца четыре назад мне на ревью пришел пулл‑реквест, в котором из цикла обновления частиц вызывалась функция FrameAllocator::TryReclaimTail(), с правильным префиксом, в нашем стиле именования и даже с комментарием над вызовом, где объяснялось, зачем хвост кадрового аллокатора надо подбирать имен...",
-    "date": "2026-10-19",
-    "source": "Habr DevOps",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Вышел Linux 7.3: ускорение файловых систем в 5 раз и поддержка Apple M3",
     "link": "https://thecode.media/yadro-linux-7-3-pesochnica-fchroot-i-btrfs-v-5-raz-bystree/",
     "desc": "В этот раз в ядро официально пустили и Claude Сообщение Вышел Linux 7.3: ускорение файловых систем в 5 раз и поддержка Apple M3 появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-10-19",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как я ловлю галлюцинации LLM в коде: пайплайн проверок в CI",
+    "link": "https://habr.com/ru/articles/1096132/?utm_campaign=1096132&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Месяца четыре назад мне на ревью пришел пулл‑реквест, в котором из цикла обновления частиц вызывалась функция FrameAllocator::TryReclaimTail(), с правильным префиксом, в нашем стиле именования и даже с комментарием над вызовом, где объяснялось, зачем хвост кадрового аллокатора надо подбирать имен...",
+    "date": "2026-10-19",
+    "source": "Habr DevOps",
     "cat": "ai",
     "lang": "ru"
   },
