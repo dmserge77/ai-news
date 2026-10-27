@@ -1,5 +1,14 @@
 [
   {
+    "title": "Few-shot: пристрелочная для ИИ-агента",
+    "link": "https://habr.com/ru/articles/1099792/?utm_campaign=1099792&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я использую GLM как «молотилку»: отдаю ей большой объём реализации. Модель хорошая, “рабочая лошадка”, но иногда тупит. Я решил проверить, помогут ли ему несколько готовых примеров поверх уже существующих контрактов и автоматических проверок. И получится ли внедрить эту семантику в протоколы. Про...",
+    "date": "2026-10-27",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Переиграл и уничтожил... вторых половинок",
     "link": "https://vc.ru/id298351/3217868-kak-neyroset-pomogla-v-znakomstvakh-i-otnosheniyakh?from=rss",
     "desc": "Парень попросил «Claude» помочь с отношениями и тот придумал гениальную схему для знакомств.",
@@ -11,16 +20,7 @@
   {
     "title": "GPT-6.1 Terra",
     "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
-    "desc": "https://developers.openai.com/api/docs/models/gpt-6.1-terra Comments URL: https://news.ycombinator.com/item?id=50248124 Points: 497 # Comments: 315",
-    "date": "2026-10-26",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
-    "link": "https://github.com/FrigadeHQ/hob",
-    "desc": "Hey HN, I'm Christian and this is a new OSS project I've been noodling on for the last couple of weeks. Hob is a free, MIT-licensed desktop app for Mac, Windows and Linux that works on your files the way the Claude and ChatGPT desktop apps do, except the model runs on your own computer. It uses o...",
+    "desc": "https://developers.openai.com/api/docs/models/gpt-6.1-terra Comments URL: https://news.ycombinator.com/item?id=50248124 Points: 560 # Comments: 350",
     "date": "2026-10-26",
     "source": "Hacker News",
     "cat": "ai",
@@ -29,7 +29,7 @@
   {
     "title": "Anthropic S-1",
     "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-    "desc": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 1475 # Comments: 1447",
+    "desc": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 1546 # Comments: 1495",
     "date": "2026-10-26",
     "source": "Hacker News",
     "cat": "ai",
@@ -38,7 +38,7 @@
   {
     "title": "Fixing Tool-Call Accuracy in vLLM",
     "link": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
-    "desc": "Article URL: https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm Comments URL: https://news.ycombinator.com/item?id=50242870 Points: 145 # Comments: 64",
+    "desc": "Article URL: https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm Comments URL: https://news.ycombinator.com/item?id=50242870 Points: 161 # Comments: 66",
     "date": "2026-10-26",
     "source": "Hacker News",
     "cat": "ai",
@@ -243,18 +243,18 @@
     "lang": "ru"
   },
   {
-    "title": "Свежие научные работы про ИИ, агентов и все такое. Сентябрь 2026",
-    "link": "https://habr.com/ru/companies/ru_mts/articles/1097732/?utm_campaign=1097732&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! Собрал сентябрьский дайджест из 22 свежих исследований про ИИ. Речь в них идет об обучении моделей, агентном коде, планировании задач и механизмах безопасности. Есть даже работы о пользе ИИ для общества и цене инференса с точки зрения экологии. Читать далее",
+    "title": "«Диплом Гарварда не открывает дверей»: поступление, сотни откликов и Quant Finance — интервью с Арсением Звягинцевым",
+    "link": "https://habr.com/ru/articles/1099594/?utm_campaign=1099594&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Можно окончить Гарвард, получить за четыре года бакалаврский и магистерский дипломы, быть одним из сильнейших студентов на курсе – и два года подряд не найти в США ни одной стажировки. Можно отправить сотни заявок, семь раз собеседоваться в одну компанию и обнаружить, что строчка «Harvard» в резю...",
     "date": "2026-10-26",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "«Диплом Гарварда не открывает дверей»: поступление, сотни откликов и Quant Finance — интервью с Арсением Звягинцевым",
-    "link": "https://habr.com/ru/articles/1099594/?utm_campaign=1099594&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Можно окончить Гарвард, получить за четыре года бакалаврский и магистерский дипломы, быть одним из сильнейших студентов на курсе – и два года подряд не найти в США ни одной стажировки. Можно отправить сотни заявок, семь раз собеседоваться в одну компанию и обнаружить, что строчка «Harvard» в резю...",
+    "title": "Свежие научные работы про ИИ, агентов и все такое. Сентябрь 2026",
+    "link": "https://habr.com/ru/companies/ru_mts/articles/1097732/?utm_campaign=1097732&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! Собрал сентябрьский дайджест из 22 свежих исследований про ИИ. Речь в них идет об обучении моделей, агентном коде, планировании задач и механизмах безопасности. Есть даже работы о пользе ИИ для общества и цене инференса с точки зрения экологии. Читать далее",
     "date": "2026-10-26",
     "source": "Habr ML",
     "cat": "ai",
@@ -655,6 +655,15 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+    "link": "https://github.com/FrigadeHQ/hob",
+    "desc": "Hey HN, I'm Christian and this is a new OSS project I've been noodling on for the last couple of weeks. Hob is a free, MIT-licensed desktop app for Mac, Windows and Linux that works on your files the way the Claude and ChatGPT desktop apps do, except the model runs on your own computer. It uses o...",
+    "date": "2026-10-26",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Working with academic communities to build scientific understanding",
@@ -6048,15 +6057,6 @@
     "lang": "ru"
   },
   {
-    "title": "Ещё один конкурент Jev: SubQ Snap обрабатывает 100K токенов примерно за секунду",
-    "link": "https://habr.com/ru/news/1093862/?utm_campaign=1093862&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Компания Subquadratic представила SubQ Snap , мультимодальную модель для принятия решений внутри AI-агентов. Контекстное окно составляет 384K токенов, в 12 раз больше, чем у Jev. По заявлению разработчиков, обработка запроса на 100K токенов и получение решения занимают примерно секунду. Читать далее",
-    "date": "2026-10-13",
-    "source": "Habr ML Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Бесплатная верстка и перевод книг: как я создал конвейер, работающий на видеокарте",
     "link": "https://habr.com/ru/articles/1093034/?utm_campaign=1093034&utm_source=habrahabr&utm_medium=rss",
     "desc": "Три месяца отладки, десятки книг и переход от Claude к локальным моделям. Рассказываю, как собрал открытый конвейер перевода и вёрстки книг: MinerU распознаёт страницы, Hy-MT2 переводит текст, а Python-скрипты собирают LaTeX и PDF. Показываю запуск без управляющего ИИ-агента, схемы работы и как о...",
@@ -6071,6 +6071,15 @@
     "desc": "Последние несколько месяцев я довольно плотно занимаюсь агентом на OpenClaw и постепенно подключаю его к рабочим системам, добавляю инструменты, пробую автоматизировать разные процессы. Иногда все получается довольно быстро, а иногда приходится возвращаться к тому, что уже давно работало и разбир...",
     "date": "2026-10-13",
     "source": "Habr API",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Ещё один конкурент Jev: SubQ Snap обрабатывает 100K токенов примерно за секунду",
+    "link": "https://habr.com/ru/news/1093862/?utm_campaign=1093862&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Компания Subquadratic представила SubQ Snap , мультимодальную модель для принятия решений внутри AI-агентов. Контекстное окно составляет 384K токенов, в 12 раз больше, чем у Jev. По заявлению разработчиков, обработка запроса на 100K токенов и получение решения занимают примерно секунду. Читать далее",
+    "date": "2026-10-13",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },

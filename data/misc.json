@@ -2,7 +2,7 @@
   {
     "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
     "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-    "desc": "Article URL: https://blog.cloudflare.com/kv-cache-exposure-remediation/ Comments URL: https://news.ycombinator.com/item?id=50252159 Points: 66 # Comments: 12",
+    "desc": "Article URL: https://blog.cloudflare.com/kv-cache-exposure-remediation/ Comments URL: https://news.ycombinator.com/item?id=50252159 Points: 107 # Comments: 36",
     "date": "2026-10-26",
     "source": "Hacker News",
     "cat": "misc",
@@ -97,6 +97,16 @@
     "source": "Hacker News",
     "cat": "misc",
     "lang": "en",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "В работе Telegram по всему миру произошел сбой",
+    "link": "https://hi-tech.mail.ru/news/158979-v-rabote-telegram-po-vsemu-miru-proizoshel-sboj/",
+    "desc": "Жалобы фиксируют в разных странах. Пользователи по всему миру сообщают о неполадках в работе мессенджера Telegram. Об этом свидетельствует статистика профильных сайтов. По данным американской версии Downdetector, сбой начался примерно в 16 часов по московскому времени. За час поступили тысячи жал...",
+    "date": "2026-10-26",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
     "misc_type": "unfiltered"
   },
   {
@@ -550,21 +560,21 @@
     "misc_type": "unfiltered"
   },
   {
-    "title": "Все уходят на Rust: в ML c Python, в бэкенде с Java, в микроконтроллерах",
-    "link": "https://habr.com/ru/companies/ru_mts/articles/1097462/?utm_campaign=1097462&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! Сегодня заглянем на онлайн-митап от MWS. Посмотрим, как в трех разных кейсах переходили на Rust. При работе с ML перешли с Python на Rust для синтеза и распознавания речи, ускорив работу сервисов. На другом проекте перешли с Java на Rust — в итоге стало меньше инцидентов, стала быст...",
-    "date": "2026-10-22",
-    "source": "Habr ML",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "Требуется Content Manager в Mira AI",
     "link": "https://vc.ru/id5763435/3209783-kontent-menedzher-v-mira-ai-udalennaya-rabota?from=rss",
     "desc": "Mira (@mira) — персональный AI-агент, работающий прямо в Telegram. Он помогает планировать встречи, подводить итоги обсуждений, создавать контент и координировать задачи в личных и групповых чатах.",
     "date": "2026-10-22",
     "source": "vc.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Все уходят на Rust: в ML c Python, в бэкенде с Java, в микроконтроллерах",
+    "link": "https://habr.com/ru/companies/ru_mts/articles/1097462/?utm_campaign=1097462&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! Сегодня заглянем на онлайн-митап от MWS. Посмотрим, как в трех разных кейсах переходили на Rust. При работе с ML перешли с Python на Rust для синтеза и распознавания речи, ускорив работу сервисов. На другом проекте перешли с Java на Rust — в итоге стало меньше инцидентов, стала быст...",
+    "date": "2026-10-22",
+    "source": "Habr ML",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
