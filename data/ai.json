@@ -1,5 +1,41 @@
 [
   {
+    "title": "Anthropic идёт на биржу: создатель Claude подал заявку на IPO",
+    "link": "https://vc.ru/id6162882/3220083-anthropic-podala-zayavku-na-ipo?from=rss",
+    "desc": "Anthropic идёт на биржу: создатель Claude подал заявку на IPO📌 Что случилось• 26 октября Anthropic подала в SEC публичную заявку S-1• Акции класса А планируют разместить на Nasdaq под тикером ANT• Цена и число акций пока не названы📊 Цифры из заявки• Выручка за первое полугодие 2026 — $16,3 млрд п...",
+    "date": "2026-10-29",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Xreal представила Aura — лёгкие очки на Android XR с Gemini, приложениями и ценой от $1279",
+    "link": "https://3dnews.ru/1150580",
+    "desc": "Компания Xreal совместно с Google и Qualcomm представила очки смешанной реальности Aura. Они работают под управлением операционной системы Android XR и поддерживают функции искусственного интеллекта на основе моделей Google Gemini. Источник изображений: Xreal",
+    "date": "2026-10-29",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Claude Code found 145K photos I deleted from my iPhone sitting in a hidden cache",
+    "link": "https://twitter.com/coolerwave/status/2114088769112477849",
+    "desc": "Article URL: https://twitter.com/coolerwave/status/2114088769112477849 Comments URL: https://news.ycombinator.com/item?id=50281902 Points: 4 # Comments: 0",
+    "date": "2026-10-28",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Gemini 4 Carbon",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "desc": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/ Comments URL: https://news.ycombinator.com/item?id=50276792 Points: 721 # Comments: 589",
+    "date": "2026-10-28",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Pair-coding Lobste.rs feat",
     "link": "https://lobste.rs/s/mgy3tr/pair_coding_lobste_rs_feat",
     "desc": "There is a long standing issue I'm working at that turned out to have some interesting refactoring suggested by the admins . Does anybody want to pair-code this feat with me? (I also mentioned it in irc). I believe discussing the codebase would be incredibly helpful for me and others wiling to co...",
@@ -7,6 +43,33 @@
     "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "ViBench 2.0: A Benchmark for Long-Horizon Software Building",
+    "link": "https://replit.com/blog/vibench-2-long-horizon-software-benchmark",
+    "desc": "Today we’re releasing ViBench 2.0, a benchmark for long-horizon software development. It joins the Specialized Intelligence Index (SII) from Fireworks [1], our partner for open-weight model inference and training. The SII brings together practitioner-built benchmarks to compare open, closed, and ...",
+    "date": "2026-10-28",
+    "source": "Replit",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Пять месяцев приручал GoClaw. В итоге плюнул и написал свою систему",
+    "link": "https://habr.com/ru/articles/1100732/?utm_campaign=1100732&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Или о том, почему десять пользователей иногда полезнее тысячи звёзд на GitHub. Пять месяцев я пытался собрать из существующих open-source-компонентов нормальную управляемую среду для корпоративной разработки с ИИ-агентами. Разобрался во всех сортах этого добра, и в итоге пришлось написать свое. Ч...",
+    "date": "2026-10-28",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "От языка к действию: как устроены агентные ИИ‑системы",
+    "link": "https://habr.com/ru/companies/otus/articles/1095784/?utm_campaign=1095784&utm_source=habrahabr&utm_medium=rss",
+    "desc": "LLM умеет рассуждать и генерировать ответы, но что делать, если системе нужно самостоятельно выполнять задачи, взаимодействовать с внешними сервисами и проверять результаты своих действий? Здесь начинается территория ИИ‑агентов, где появляются новые архитектурные решения и сложности. Разбираемся,...",
+    "date": "2026-10-28",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "«6 − 2 = 3»: как мы проверяем кодом задания, которые пишет языковая модель",
@@ -36,7 +99,7 @@
     "lang": "ru"
   },
   {
-    "title": "Дядя Боб написал правила для ИИ-агентов: разбираем ub-mode",
+    "title": "Дядя Боб написал правила для ИИ‑агентов: разбираем ub‑mode",
     "link": "https://habr.com/ru/companies/hexlet/articles/1100762/?utm_campaign=1100762&utm_source=habrahabr&utm_medium=rss",
     "desc": "Автор «Чистого кода» Роберт Мартин aka Дядя Боб взялся за ИИ-агентов. В скилле ub-mode, который Дядя Боб на днях выложил на GitHub, всего около 750 слов. Этими словами Мартин выстраивает работу агента так, будто сам стоит рядом и смотрит на монитор строгим взглядом. На днях Роберт Мартин aka Дядя...",
     "date": "2026-10-28",
@@ -45,9 +108,9 @@
     "lang": "ru"
   },
   {
-    "title": "Кибермарксизм, или почему ИИ несовместим с капитализмом, и почему нас ждёт слом социально-экономической формации",
+    "title": "Кибермарксизм, или почему ИИ несовместим с капитализмом, и почему нас ждёт слом социально‑экономической формации",
     "link": "https://habr.com/ru/articles/1094190/?utm_campaign=1094190&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Изо всех американских утюгов до нас доносятся возгласы о том, что необходимо срочно бросить всё, бежать строить свои продукты с использованием искусственного интеллекта и продавать их, а те, кто этого не сделает, навечно попадёт в \"permanent underclass\". \"Скоро новый феодализм!\", \"Работ больше не...",
+    "desc": "Изо всех американских утюгов до нас доносятся возгласы о том, что необходимо срочно бросить всё, бежать строить свои продукты с использованием искусственного интеллекта и продавать их, а те, кто этого не сделает, навечно попадёт в «permanent underclass». «Скоро новый феодализм!», «Работ больше не...",
     "date": "2026-10-28",
     "source": "Habr AI",
     "cat": "ai",
@@ -57,15 +120,6 @@
     "title": "Маршрутизатор языковых моделей изнутри. От вектора задачи до судьи и обучения на отзывах",
     "link": "https://habr.com/ru/articles/1090420/?utm_campaign=1090420&utm_source=habrahabr&utm_medium=rss",
     "desc": "Раннее мы описывали библиотеку FAIRouter для маршрутизации запроса к оптимальному исполнителю. В текущей редакции поддерживаются только LLM, но класс исполнителей планируем расширять также на инструменты и агентов. Но тема того какая математика стоит за всем этим осталась не до конца раскрыта. Чи...",
-    "date": "2026-10-28",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Что стоит проверить перед внедрением ИИ-агента в корпоративную среду",
-    "link": "https://habr.com/ru/companies/domate/articles/1100550/?utm_campaign=1100550&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В новостных лентах слово «инцидент» всё чаще стоит рядом со словом «агент», но мы не собираемся никого отговаривать от внедрения агентных приложений в корпоративные процессы. Деже немножко наоборот. Эта статья про то, как не оказаться в заголовке новостей со словом «инцидент» и про десять практич...",
     "date": "2026-10-28",
     "source": "Habr AI",
     "cat": "ai",
@@ -99,7 +153,7 @@
     "lang": "ru"
   },
   {
-    "title": "Настройка и пример работы LLM на встроенном NPU мини-компьютера с Intel Core Ultra 5 226V",
+    "title": "Настройка и пример работы LLM на встроенном NPU мини‑компьютера с Intel Core Ultra 5 226V",
     "link": "https://habr.com/ru/articles/1100230/?utm_campaign=1100230&utm_source=habrahabr&utm_medium=rss",
     "desc": "Подопытный — мини-ПК Ninkear L20 на Intel Core Ultra 5 226V с 16 ГБ памяти. Ниже — установка и настройка OpenVINO, запуск Qwen3-8B на NPU, замеры скорости и мощности по счётчикам самого процессора и сравнение с дорогой видеокартой RTX 5070 Ti. Плюс практическая часть: обработка фотографий, 3D-рел...",
     "date": "2026-10-28",
@@ -126,7 +180,7 @@
     "lang": "ru"
   },
   {
-    "title": "Вайб-кодинг вместо унылых ТЗ: как автономные ИИ-агенты ускоряют разработку игр",
+    "title": "Вайб‑кодинг вместо унылых ТЗ: как автономные ИИ‑агенты ускоряют разработку игр",
     "link": "https://habr.com/ru/companies/magnus-tech/articles/1097928/?utm_campaign=1097928&utm_source=habrahabr&utm_medium=rss",
     "desc": "В геймдеве идеи стоят дешево. Дорого стоит возможность их пощупать. Классический цикл прототипирования, к которому мы привыкли, выглядит примерно так: тратишь несколько дней на монументальный диздок, расписываешь каждую кнопку, каждое нажатие и относишь это всё программистам. Они уходят кодить на...",
     "date": "2026-10-28",
@@ -203,6 +257,15 @@
     "desc": "Я сделал страницу, на которую загружаешь бит и пишешь, о чём трек, а получаешь куплеты и припев, разложенные по тактам этого бита: строка на такт. Первая версия выдавала школьные стихи под музыку. Ниже о том, почему так вышло, где языковая модель надёжна, а где нет, и что пришлось посчитать самом...",
     "date": "2026-10-28",
     "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Arrowmax представила умную отвёртку с камерой и нейросетью для подбора бит",
+    "link": "https://habr.com/ru/news/1100820/?utm_campaign=1100820&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Arrowmax анонсировала умную электрическую отвёртку со встроенной камерой, которая распознаёт винты по снимку и подсказывает, какую насадку следует использовать. Помимо отвёртки в комплект входит 52 биты из инструментальной стали класса S2. Читать далее",
+    "date": "2026-10-28",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -297,6 +360,24 @@
     "lang": "ru"
   },
   {
+    "title": "Artificial Analysis обновила Intelligence Index до v5: новые тесты и лидеры",
+    "link": "https://tproger.ru/news/artificial-analysis-obnovila-intelligence-index-do-v5-novye-tes",
+    "desc": "Artificial Analysis выпустила Intelligence Index v5: FrontierCode 2.0 и Terminal-Bench-Science в составе, 60% на закрытых тестах, лидеры Claude Opus 5.5 и Gemini 4 Carbon, стоимость задач и расход токенов. — Читать дальше « Artificial Analysis обновила Intelligence Index до v5: новые тесты и лиде...",
+    "date": "2026-10-28",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Google анонсировала Gemini 4 Carbon с упором на кибербезопасность",
+    "link": "https://tproger.ru/news/google-anonsirovala-gemini-4-carbon-s-uporom-na-kiberbezopasnost",
+    "desc": "Google анонсировала Gemini 4 Carbon: 59 баллов и первое место в Artificial Analysis Intelligence Index v5.0, лидерство в бенчмарках кибербезопасности, цена $2 и $10 за миллион токенов. — Читать дальше « Google анонсировала Gemini 4 Carbon с упором на кибербезопасность »",
+    "date": "2026-10-28",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "ТОП-10 нейросетей для создания музыки и песен в 2026 году",
     "link": "https://tproger.ru/articles/top-10-nejrosetej-dlya-sozdaniya-muzyki-i-pesen-v-2026-godu",
     "desc": "Сравнили нейросети для создания музыки и песен с помощью ИИ. Разбираем генерацию треков, вокала и песен по тексту, бесплатные возможности и сценарии использования. — Читать дальше « ТОП-10 нейросетей для создания музыки и песен в 2026 году »",
@@ -351,6 +432,15 @@
     "lang": "ru"
   },
   {
+    "title": "Rutube хочет позволить подключать к платформе персональных ИИ-агентов — нейросети будут искать видео под запрос",
+    "link": "https://rb.ru/news/rutube-hochet-pozvolit-podklyuchat-k-platforme-personalnyh-ii-agentov-nejroseti-budut-iskat-video-pod-zapros/",
+    "desc": "Rutube рассматривает возможность подключения персональных ИИ-агентов пользователей к видеоплатформе через API*Набор правил и инструментов, который позволяет разным программам, сервисам или компонентам системы обмениваться данными и выполнять операции друг над другом., сообщила Russian Business пр...",
+    "date": "2026-10-28",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "В Госдуме предложат ИИ облегчить работу депутатов — эксперимент проведут на российских и зарубежных нейросетях",
     "link": "https://rb.ru/news/v-gosdume-predlozhat-ii-oblegchit-rabotu-deputatov-eksperiment-provedut-na-rossijskih-i-zarubezhnyh-nejrosetyah/",
     "desc": "Депутат Госдумы Дмитрий Шатунов проверит, насколько искусственный интеллект способен облегчить работу парламентариев, пишут «РИА Новости». Он планирует сравнить российские нейросети с зарубежными ИИ-помощниками и оценить результаты на практических задачах. В тестирование войдут: анализ законодате...",
@@ -360,11 +450,110 @@
     "lang": "ru"
   },
   {
-    "title": "Сбербанк повысил ставку по накопительному счету до 14,5% годовых — новые условия действуют с 27 октября",
-    "link": "https://rb.ru/news/sberbank-povysil-stavku-po-nakopitelnomu-schetu-do-145-godovyh-novye-usloviya-dejstvuyut-s-27-oktyabrya/",
-    "desc": "Сбер с 27 октября повысил ставку по накопительному счету до 14,5% годовых, сообщила пресс-служба банка. Максимальная доходность доступна как новым, так и повторно открывающим счет клиентам благодаря системе надбавок. После двух месяцев обслуживания сохранить максимальную ставку можно при выполнен...",
+    "title": "Google выкатил Gemini 4 Carbon — теперь это самая умная нейросеть в мире 🏆",
+    "link": "https://vc.ru/id6163404/3222390-google-gemini-4-carbon-neurosyeti?from=rss",
+    "desc": "Модель заняла первое место в свежем рейтинге Artificial Analysis, обогнав GPT-6 Astra и Claude 5.5 Opus. Главные фишки: • Абсолютный топ в кибербезе: Модель находит уязвимости, тестирует системы на проникновение и сама пишет патчи. Внутри Google она справляется с генерацией безопасного кода в 2 р...",
     "date": "2026-10-28",
-    "source": "Rusbase",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Галлюцинации AI.Предисловие. Зачем эта книга.",
+    "link": "https://vc.ru/ai/3222325-gallyutsinatsii-ai-vliyanie-iskusstvennogo-intellekta?from=rss",
+    "desc": "Кто-то своей короной кичится.У кого-то вся грудь в крестах.А у меня - лишь моё сознание.Моё сознание. А всё остальное - Прах.",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "DeepTutor — бесплатный ИИ-репетитор, который помнит ваши пробелы",
+    "link": "https://vc.ru/ai/3222257-deeptutor-besplatnyj-ii-repetitor?from=rss",
+    "desc": "📌 Что случилось• DeepTutor снова в топе GitHub Trending 28 октября• Открытый ИИ-репетитор из лаборатории HKU, у проекта уже 47 тысяч звёзд🔍 Что он умеет• Строит профиль ученика: что усвоено, а где пробелы• Учебники и статьи загружаются в базу знаний, квизы строятся по вашим материалам• Режимы: ча...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Claude в разработке лекарств: первые результаты Anthropic",
+    "link": "https://vc.ru/ai/3222267-claude-i-razrabotka-lekarstv?from=rss",
+    "desc": "📌 Что случилось• Anthropic 27 октября показала первые итоги работы Claude в разработке лекарств• Речь о шести партнёрствах и собственных программах компании, а не о готовых препаратах🔍 Что показали цифры• Для CAR-T-терапии дизайн стал короче примерно на 70%, а рецепторов в лаборатории — примерно ...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Gemini 4 Carbon обошла Opus 5.5 и GPT-6 Astra почти по всем бенчмаркам",
+    "link": "https://vc.ru/ai/3222392-gemini-4-carbon-oboshla-opus-5-5-i-astra-po-benchmarkam?from=rss",
+    "desc": "🚀 Что вышло• Google представила Carbon через две недели после Gemini 4 Argon• Фокус — кодинг, агентные задачи и кибербезопасность📊 Главные цифры, таблица — на картинке• Intelligence Index v5.0 — 59 баллов, №1; Opus 5.5 — 58, Astra — 57, Argon — 50• Лидер в 11 из 15 бенчмарков таблицы Google• Кибе...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI выпустила GPT-6.1 Terra: ИИ работает за компьютером вдвое дешевле",
+    "link": "https://vc.ru/id6162882/3220102-openai-gpt-6-1-terra-ii-dlya-rabotyi-s-prilozheniyami?from=rss",
+    "desc": "📌 Что случилось• 26 октября OpenAI запустила GPT-6.1 Terra — модель для работы с экраном и приложениями• Видит интерфейс, кликает, заполняет формы, переключается между приложениями🔍 Что внутри• API: $1 за млн входных и $5 за млн выходных токенов — вдвое дешевле предшественника• В тестах OpenAI: T...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "iPhone превращает комнату в редактируемую 3D-модель для браузера",
+    "link": "https://vc.ru/id6162882/3220104-iphone-lidar-3d-modeli-dlya-brauzera?from=rss",
+    "desc": "📌 Что случилось• Открытый проект 3D Model Anything: iPhone с LiDAR снимает комнату, а ИИ-агент строит редактируемую сцену Three.js• В репозитории — приложение, просмотрщик и скилл scan-to-threejs🔍 Что вы получите• Виды «кукольный домик», от первого лица, сверху, каркас и раскладка• Готовый пример...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Meta Waddle World: новый ИИ-питомец в пиксельном мире",
+    "link": "https://vc.ru/ai/3222256-meta-waddle-world-ii-pitomec-v-pikselnom-mire?from=rss",
+    "desc": "📌 Что случилось• Meta запустила приложение Waddle World на Филиппинах• Доступно на iOS и Android🔍 Что внутри• Пиксельный питомец в уютном 16-битном мире: его вылупляют, кормят и с ним играют• Дневник: вы рассказываете день голосом или текстом, питомец записывает его своим голосом и с рисунком• Ес...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ChatGPT в бизнес-софте Oracle: партнёрство с OpenAI расширяется",
+    "link": "https://vc.ru/ai/3222259-chatgpt-i-oracle-novoe-partnerstvo-v-biznes-softe?from=rss",
+    "desc": "📌 Что случилось• Oracle и OpenAI объявили 27 октября о расширенном партнёрстве на Oracle AI World в Лас-Вегасе• ChatGPT и Codex встраиваются в приложения, данные и облако Oracle🔍 Четыре продукта• AI Workspace: работа с Fusion, NetSuite и OCI прямо из ChatGPT• Security Mesh: поиск уязвимостей кибе...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ опроверг гипотезу о пределах вычислений",
+    "link": "https://vc.ru/ai/3222263-ii-oproverg-gipotezu-o-vychislitelnykh-predelakh?from=rss",
+    "desc": "📌 Что случилось• OpenAI заявила 26 октября: её модель нашла опровержение гипотезы экспоненциального времени (ETH)• Спустя часы Anthropic опубликовала своё независимое опровержение• ETH с 1999 года лежала в основе сотен работ о сложности задач🔍 Что это значит• Речь о задаче 3-SAT: алгоритм якобы р...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "NVIDIA Nemotron 3.5 Transcribe: открытая модель, которая расшифровывает речь на 40 языках",
+    "link": "https://vc.ru/id6162882/3222253-nvidia-nemotron-3-5-transcribe-otkrytaya-model-dlya-rasshifrovki-rechi?from=rss",
+    "desc": "📌 Что случилось• NVIDIA выпустила бесплатную открытую модель Nemotron 3.5 Transcribe• Вместе с ней вышел Granary v2 — открытый речевой датасет🔍 Что она умеет• Расшифровывает аудио на 40 языках• Переводит 31 язык на английский и обратно — по заявлению NVIDIA• Разбирает записи до часа и отличает до...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Chrome с ИИ-автоподстановкой: браузер теперь берёт данные из Gmail для форм",
+    "link": "https://vc.ru/ai/3222249-chrome-s-ii-avtozapolnenie-form-dannymi-iz-gmail?from=rss",
+    "desc": "📌 Что случилось• Google 28 октября добавила в Chrome улучшенное автозаполнение на ИИ• Браузер предлагает данные из писем Gmail при заполнении онлайн-форм🔍 Что он подставит• Номер брони, заказа или отслеживания посылки• Адрес, телефон и данные карты из писем• ID программ лояльности и другую информ...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -396,20 +585,20 @@
     "lang": "ru"
   },
   {
-    "title": "Genie 4 в контексте: почему миры — ставка на AGI",
-    "link": "https://vc.ru/ai/3220207-genie-4-i-agi-kak-miry-vliyayut-na-razvitie-neyrosetey?from=rss",
-    "desc": "🧠 Зачем это Google• DeepMind связывает модели мира с путём к AGI: кто держит цельный мир с физикой, лучше понимает реальный• В эксперименте Gemini Robotics задачи робота сначала проигрывались в симуляции Genie 4🎬 Не только игры• Тестеры уже прототипируют в Genie 4 фильмы и раскадровки• Project Ge...",
+    "title": "«Яндекс» переманил к себе техдиректора ИИ-браузера Comet из Perplexity",
+    "link": "https://3dnews.ru/1150575",
+    "desc": "Бывший технический директор браузера Comet американской ИИ-компании Perplexity Дмитрий Голубничий перешёл в команду «Алисы AI» компании «Яндекс», сообщил РБК со ссылкой на обновление профиля разработчика в соцсети LinkedIn. Источник изображения: «Яндекс»",
     "date": "2026-10-28",
-    "source": "vc.ru",
+    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "Genie 4 от DeepMind: миры научились говорить",
-    "link": "https://vc.ru/ai/3220204-genie-4-ot-deepmind-novye-vozmozhnosti?from=rss",
-    "desc": "🌍 Что вышло• DeepMind представила Genie 4 (research preview): сцена не загружается, а генерируется по ходу действий игрока• Genie 3 год назад была немой и держала мир минуту, Genie 4 — до двух минут🔊 Главное — звук• Впервые в линейке: музыка, шумы окружения и диалоги персонажей в реальном времени...",
+    "title": "Учёные описали новый механизм передачи энергии от гравитации к веществу — подобно вспышкам на Солнце",
+    "link": "https://3dnews.ru/1150572",
+    "desc": "Физики из Колумбийского университета (Columbia University) в США и Университета Адольфо Ибаньеса (Universidad Adolfo Ibáñez) в Чили представили теоретическое описание процесса, который назвали гравитационным пересоединением. Процесс работает подобно магнитному пересоединению, например при вспышка...",
     "date": "2026-10-28",
-    "source": "vc.ru",
+    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -426,6 +615,24 @@
     "title": "Налог на родной язык: общение с ИИ не по-английски обходится до 17 раз дороже",
     "link": "https://3dnews.ru/1150524",
     "desc": "Исследователи доказали появление нового вида цифрового неравенства. Если двадцать лет назад под этим понимали ограничение доступа к интернету, то с появлением ИИ выяснилось, что стоимость обработки запросов в разы отличается для наиболее и менее распространённых языков. Это ограничивает носителей...",
+    "date": "2026-10-28",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Google представила Gemini 4 Carbon — мощнейшую ИИ-модель для поиска уязвимостей и исправления опасных ошибок",
+    "link": "https://3dnews.ru/1150577",
+    "desc": "Google представила новую ИИ-модель Gemini 4 Carbon, предназначенную для решения сложных инженерных задач и работы в области кибербезопасности. Передовая модель показала высокие результаты в тестах на обнаружение уязвимостей, проверку возможности их эксплуатации и исправление ошибок в программном ...",
+    "date": "2026-10-28",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Steam не станет защищать разработчиков от ИИ-клонов — это дело самих разработчиков",
+    "link": "https://3dnews.ru/1150569",
+    "desc": "Компания Valve отреагировала на резкий всплеск в сервисе цифровой дистрибуции Steam игр, созданных путём копирования чужих разработок с помощью генеративного искусственного интеллекта. Источник изображения: Valve",
     "date": "2026-10-28",
     "source": "3DNews",
     "cat": "ai",
@@ -468,38 +675,11 @@
     "lang": "ru"
   },
   {
-    "title": "Fujifilm запланировала крупнейшее за 20 лет расширение производства магнитных лент",
-    "link": "https://3dnews.ru/1150560",
-    "desc": "Чтобы удовлетворить спрос, обусловленный развитием технологий искусственного интеллекта, Fujifilm намерена пятикратно нарастить производственные мощности по выпуску магнитных лент, узнало японское издание Nikkei Asian Review. Это крупнейшая инвестиция компании в этот сегмент носителей данных за п...",
+    "title": "Представлен MacBook Pro с PROLED XDR: сенсорный OLED-экран и чипы M5 Max",
+    "link": "https://hi-tech.mail.ru/news/159259-macbook-pro-proled-xdr-preview/",
+    "desc": "Крупнейшее обновление ноутбука. Теперь экран сенсорный, яблочко снова светится, а корпус стал легче. Apple представила новый MacBook Pro с дисплеем PROLED XDR на двухслойной OLED-матрице. Ноутбук впервые в истории Mac получил поддержку касаний, а Dynamic Island, знакомый по iPhone, теперь есть и ...",
     "date": "2026-10-28",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "OpenAI собралась закупать ИИ-чипы Google, чтобы меньше зависеть от Nvidia",
-    "link": "https://3dnews.ru/1150526",
-    "desc": "Компания OpenAI готовится приобретать ИИ-чипы Google. Это происходит на фоне растущих затрат технологических компаний, связанных с увеличением спроса на ИИ-вычисления, сообщает The Information. В случае реализации план укрепит связи между OpenAI и Google, конкурирующими на рынках ИИ-продуктов и п...",
-    "date": "2026-10-28",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Физики сделали то, что считали невозможным: научились управлять спином ядра отдельного атома",
-    "link": "https://3dnews.ru/1150548",
-    "desc": "Исследователи из нидерландского Делфтского технологического университета (Delft University of Technology) научились управлять ядерным спином отдельного атома с помощью радиочастотных сигналов, подаваемых через иглу сканирующего туннельного микроскопа. Результат оказался неожиданным: физики полага...",
-    "date": "2026-10-28",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Зелёный водород за недорого: учёные нашли альтернативу катализаторам из рутения",
-    "link": "https://3dnews.ru/1150543",
-    "desc": "«Зелёный» водород, получаемый электролизом воды с помощью солнечных и ветровых электростанций, обходится очень дорого из-за высокой стоимости катализаторов на основе платины, рутения, иридия и других драгоценных и редких металлов. Но наука не стоит на месте, и учёные нашли способ получать водород...",
-    "date": "2026-10-28",
-    "source": "3DNews",
+    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
@@ -585,6 +765,60 @@
     "lang": "ru"
   },
   {
+    "title": "Что стоит проверить перед внедрением ИИ-агента в корпоративную среду",
+    "link": "https://habr.com/ru/companies/domate/articles/1100550/?utm_campaign=1100550&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В новостных лентах слово «инцидент» всё чаще стоит рядом со словом «агент», но мы не собираемся никого отговаривать от внедрения агентных приложений в корпоративные процессы. Деже немножко наоборот. Эта статья про то, как не оказаться в заголовке новостей со словом «инцидент» и про десять практич...",
+    "date": "2026-10-28",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Сбербанк повысил ставку по накопительному счету до 14,5% годовых — новые условия действуют с 27 октября",
+    "link": "https://rb.ru/news/sberbank-povysil-stavku-po-nakopitelnomu-schetu-do-145-godovyh-novye-usloviya-dejstvuyut-s-27-oktyabrya/",
+    "desc": "Сбер с 27 октября повысил ставку по накопительному счету до 14,5% годовых, сообщила пресс-служба банка. Максимальная доходность доступна как новым, так и повторно открывающим счет клиентам благодаря системе надбавок. После двух месяцев обслуживания сохранить максимальную ставку можно при выполнен...",
+    "date": "2026-10-28",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Genie 4 в контексте: почему миры — ставка на AGI",
+    "link": "https://vc.ru/ai/3220207-genie-4-i-agi-kak-miry-vliyayut-na-razvitie-neyrosetey?from=rss",
+    "desc": "🧠 Зачем это Google• DeepMind связывает модели мира с путём к AGI: кто держит цельный мир с физикой, лучше понимает реальный• В эксперименте Gemini Robotics задачи робота сначала проигрывались в симуляции Genie 4🎬 Не только игры• Тестеры уже прототипируют в Genie 4 фильмы и раскадровки• Project Ge...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Genie 4 от DeepMind: миры научились говорить",
+    "link": "https://vc.ru/ai/3220204-genie-4-ot-deepmind-novye-vozmozhnosti?from=rss",
+    "desc": "🌍 Что вышло• DeepMind представила Genie 4 (research preview): сцена не загружается, а генерируется по ходу действий игрока• Genie 3 год назад была немой и держала мир минуту, Genie 4 — до двух минут🔊 Главное — звук• Впервые в линейке: музыка, шумы окружения и диалоги персонажей в реальном времени...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Fujifilm запланировала крупнейшее за 20 лет расширение производства магнитных лент",
+    "link": "https://3dnews.ru/1150560",
+    "desc": "Чтобы удовлетворить спрос, обусловленный развитием технологий искусственного интеллекта, Fujifilm намерена пятикратно нарастить производственные мощности по выпуску магнитных лент, узнало японское издание Nikkei Asian Review. Это крупнейшая инвестиция компании в этот сегмент носителей данных за п...",
+    "date": "2026-10-28",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI собралась закупать ИИ-чипы Google, чтобы меньше зависеть от Nvidia",
+    "link": "https://3dnews.ru/1150526",
+    "desc": "Компания OpenAI готовится приобретать ИИ-чипы Google. Это происходит на фоне растущих затрат технологических компаний, связанных с увеличением спроса на ИИ-вычисления, сообщает The Information. В случае реализации план укрепит связи между OpenAI и Google, конкурирующими на рынках ИИ-продуктов и п...",
+    "date": "2026-10-28",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Путин заявил, что за рубежом копируют российские ИИ-технологии",
     "link": "https://hi-tech.mail.ru/news/159214-putin-u-rossii-dve-svoi-bolshie-yazykovye-modeli/",
     "desc": "Владимир Путин заявил, что у России есть полная цепочка для создания больших генеративных моделей и две собственные языковые модели. По его словам, конкуренты копируют часть российских разработок. Владимир Путин 28 октября выступил на пленарной сессии третьего экономического и гуманитарного форум...",
@@ -628,24 +862,6 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "Early progress on accelerating drug development with Claude",
-    "link": "https://www.anthropic.com/research/early-progress-drug-development",
-    "desc": "Article URL: https://www.anthropic.com/research/early-progress-drug-development Comments URL: https://news.ycombinator.com/item?id=50265609 Points: 293 # Comments: 277",
-    "date": "2026-10-27",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-    "link": "https://www.brangus.io/survival-llm",
-    "desc": "Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853 Points: 468 # Comments: 174",
-    "date": "2026-10-27",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "Can we trust LLMs to judge whether a research idea is novel?",
@@ -873,60 +1089,6 @@
     "lang": "ru"
   },
   {
-    "title": "llmwiki: Claude сам ведёт вики из папки с документами — установка и подключение по MCP (октябрь 2026)",
-    "link": "https://vc.ru/ai/3218314-llmwiki-claude-vedet-viki-iz-papki-s-dokumentami?from=rss",
-    "desc": "Команды взяты из README проекта по состоянию на 27 октября 2026 года, у репозитория 1 720 звёзд.",
-    "date": "2026-10-27",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Экс-глава GitHub запустил конкурента GitHub для ИИ-агентов",
-    "link": "https://vc.ru/ai/3220142-tommas-domke-zapustil-entire-novyj-git-forzh-dlya-ii-agentov?from=rss",
-    "desc": "📌 Что случилось• Томас Домке, глава GitHub почти 4 года, представил Entire — Git-фордж для команд, где код пишут агенты• Запуск 26 октября, за 2 дня до конференции GitHub Universe🔍 Что меняет Trails• Trails заменяют pull request: вместо построчного ревью — дашборд оценок от ИИ-агентов• Слить код ...",
-    "date": "2026-10-27",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "OpenAI: ИИ решил сразу три научные загадки — от волн до квантовой физики",
-    "link": "https://vc.ru/ai/3220110-openai-ii-reshil-nauchnye-zagadki?from=rss",
-    "desc": "📌 Что случилось• OpenAI 26 октября объявила о трёх результатах своих моделей: в математике, информатике и физике• Результаты переданы внешним учёным для независимой проверки🔍 Три результата• Математика: локальное сглаживание во всех размерностях — решены гипотезы Какея и Штейна• Информатика: опро...",
-    "date": "2026-10-27",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Apple признала трещины на экране iPhone Duo: что делать владельцам",
-    "link": "https://vc.ru/apple/3220076-apple-priznala-problemu-s-ekranom-iphone-duo?from=rss",
-    "desc": "📌 Что случилось• Первый складной iPhone Duo вышел 23 октября за $1999• Владельцы сообщают о трещинах внутреннего экрана у сгиба уже через часы после покупки• К 25 октября насчитали около 10 таких случаев🔍 Что сказала Apple• 26 октября компания признала проблему у «небольшого числа» устройств• Пос...",
-    "date": "2026-10-27",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Halo Glasses: умные очки за $399 превращают улицу в игру",
-    "link": "https://vc.ru/id6162882/3220072-halo-glasses-umnye-ochki-dlya-igr?from=rss",
-    "desc": "📌 Что случилось• Brilliant Labs запустила Halo Glasses 27 октября 2026 года• Цена — $399, продажи уже открыты🔍 Что внутри• ИИ-спутник Noa: разговоры в реальном времени и долговременная память• Цветной microOLED-дисплей, костная проводимость звука, Bluetooth 5.3• Вес чуть больше 40 г, до 14 часов ...",
-    "date": "2026-10-27",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Akamai дала ИИ-агентам песочницу: модели и код в одной сети",
-    "link": "https://vc.ru/ai/3220068-akamai-predstavila-ii-agentov-i-pesochnitsu?from=rss",
-    "desc": "📌 Что случилось• Akamai 27 октября запустила Akamai Inference и Agent Sandbox",
-    "date": "2026-10-27",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Nvidia не смогла выпустить Vera Rubin, которые обещала: память HBM4 замедлилась, а местами даже ужалась",
     "link": "https://3dnews.ru/1150512",
     "desc": "Nvidia пересмотрела технические характеристики своей ИИ-платформы Vera Rubin, снизив заявленные показатели пропускной способности памяти HBM4 и скорости работы интерфейса NVLink шестого поколения. Изменения коснулись отдельных графических процессоров Rubin, стоечной системы Vera Rubin NVL72 и пла...",
@@ -959,6 +1121,60 @@
     "desc": "Открытые ИИ-модели из Китая стали очень популярны, но вместе с этим они вызывают некоторые опасения в плане обеспечения конфиденциальности данных. Так канадская компания Cohere, которая предлагает ИИ-модели для бизнеса, обнаружила, что во время настройки внутри тестовой среды система Alibaba Qwen...",
     "date": "2026-10-27",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Early progress on accelerating drug development with Claude",
+    "link": "https://www.anthropic.com/research/early-progress-drug-development",
+    "desc": "Article URL: https://www.anthropic.com/research/early-progress-drug-development Comments URL: https://news.ycombinator.com/item?id=50265609 Points: 293 # Comments: 277",
+    "date": "2026-10-27",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+    "link": "https://www.brangus.io/survival-llm",
+    "desc": "Article URL: https://www.brangus.io/survival-llm Comments URL: https://news.ycombinator.com/item?id=50264853 Points: 468 # Comments: 174",
+    "date": "2026-10-27",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "llmwiki: Claude сам ведёт вики из папки с документами — установка и подключение по MCP (октябрь 2026)",
+    "link": "https://vc.ru/ai/3218314-llmwiki-claude-vedet-viki-iz-papki-s-dokumentami?from=rss",
+    "desc": "Команды взяты из README проекта по состоянию на 27 октября 2026 года, у репозитория 1 720 звёзд.",
+    "date": "2026-10-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Экс-глава GitHub запустил конкурента GitHub для ИИ-агентов",
+    "link": "https://vc.ru/ai/3220142-tommas-domke-zapustil-entire-novyj-git-forzh-dlya-ii-agentov?from=rss",
+    "desc": "📌 Что случилось• Томас Домке, глава GitHub почти 4 года, представил Entire — Git-фордж для команд, где код пишут агенты• Запуск 26 октября, за 2 дня до конференции GitHub Universe🔍 Что меняет Trails• Trails заменяют pull request: вместо построчного ревью — дашборд оценок от ИИ-агентов• Слить код ...",
+    "date": "2026-10-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI: ИИ решил сразу три научные загадки — от волн до квантовой физики",
+    "link": "https://vc.ru/ai/3220110-openai-ii-reshil-nauchnye-zagadki?from=rss",
+    "desc": "📌 Что случилось• OpenAI 26 октября объявила о трёх результатах своих моделей: в математике, информатике и физике• Результаты переданы внешним учёным для независимой проверки🔍 Три результата• Математика: локальное сглаживание во всех размерностях — решены гипотезы Какея и Штейна• Информатика: опро...",
+    "date": "2026-10-27",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Akamai дала ИИ-агентам песочницу: модели и код в одной сети",
+    "link": "https://vc.ru/ai/3220068-akamai-predstavila-ii-agentov-i-pesochnitsu?from=rss",
+    "desc": "📌 Что случилось• Akamai 27 октября запустила Akamai Inference и Agent Sandbox",
+    "date": "2026-10-27",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1453,7 +1669,7 @@
     "link": "https://habr.com/ru/news/1099354/?utm_campaign=1099354&utm_source=habrahabr&utm_medium=rss",
     "desc": "Правообладатель музыки американского певца Элвиса Пресли Authentic Brands Group предъявил иск Anthropic, обвинив компанию в незаконном использовании песен музыканта для обучения своих языковых моделей, пишет Billboard. Речь идёт о нарушении прав на 274 композиции Пресли, включая All Shook Up, Can...",
     "date": "2026-10-26",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1462,7 +1678,7 @@
     "link": "https://habr.com/ru/news/1099152/?utm_campaign=1099152&utm_source=habrahabr&utm_medium=rss",
     "desc": "Пользователи сообщили, что в OpenAI и Anthropic запретили использовать свои ИИ-модели для создания бесплатных клонов платных приложений. Например, Codex и Claude отказывается выполнять запрос под предлогом безопасности и без каких-либо объявлений от разработчиков. А вот в ChatGPT за попытку прове...",
     "date": "2026-10-26",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2214,20 +2430,20 @@
     "lang": "ru"
   },
   {
-    "title": "Банки США начали ограничивать доступ ИИ-агентов к клиентским счетам",
-    "link": "https://vc.ru/ai/3213538-banki-ssha-ogranichivayut-dostup-ii-agentov?from=rss",
-    "desc": "Крупные банки США, включая Morgan Stanley, JPMorgan, Bank of America и Citi, начали блокировать или ограничивать сторонним ИИ-агентам доступ к клиентским счетам. Проблема возникает, когда пользователь передаёт агенту свой логин и пароль: для банка это корректный вход в счёт, но не обязательно раз...",
-    "date": "2026-10-24",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Делаем анкету персонажа с помощью Nano Banana, Krea 2 и Grok",
     "link": "https://habr.com/ru/companies/studyai/articles/1098540/?utm_campaign=1098540&utm_source=habrahabr&utm_medium=rss",
     "desc": "Анкета персонажа нужна для того, чтобы лучше понимать что из себя представляет наш герой или героиня. Он служит референсом для игродельческой команды и это помогает держать character improvement более-менее в условном “унисоне”. Сегодня попробуем сделать качественные анкеты для персонажей фэнтези...",
     "date": "2026-10-24",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Банки США начали ограничивать доступ ИИ-агентов к клиентским счетам",
+    "link": "https://vc.ru/ai/3213538-banki-ssha-ogranichivayut-dostup-ii-agentov?from=rss",
+    "desc": "Крупные банки США, включая Morgan Stanley, JPMorgan, Bank of America и Citi, начали блокировать или ограничивать сторонним ИИ-агентам доступ к клиентским счетам. Проблема возникает, когда пользователь передаёт агенту свой логин и пароль: для банка это корректный вход в счёт, но не обязательно раз...",
+    "date": "2026-10-24",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -10170,20 +10386,20 @@
     "lang": "ru"
   },
   {
-    "title": "AWS выпустила Nova 2.5 Sonic: улучшила рассуждения и вызовы инструментов для голосовых агентов",
-    "link": "https://tproger.ru/news/aws-vypustila-nova-2-5-sonic-uluchwila-rassuzhdeniya-i-vyzovy-inst",
-    "desc": "AWS выпустила Nova 2.5 Sonic, модель для создания голосовых ИИ-агентов. Заявлены улучшенные рассуждения, более точные вызовы инструментов и меньшая задержка. — Читать дальше « AWS выпустила Nova 2.5 Sonic: улучшила рассуждения и вызовы инструментов для голосовых агентов »",
-    "date": "2026-10-06",
-    "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Аниме‑плеер на лапках",
     "link": "https://habr.com/ru/articles/1089998/?utm_campaign=1089998&utm_source=habrahabr&utm_medium=rss",
     "desc": "«Вставил ссылку, вижу сериал со всеми сериями, выбрал озвучку, смотрю». С этой фразы началась Lapka, локальный аниме-плеер. Статья о решениях, из которых она сложилась, по сериям, как в аниме. Знакомый, которому я дал её потрогать, сказал так: >> Прикольно: нода крутится, парсит, а воспроизводит ...",
     "date": "2026-10-06",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "AWS выпустила Nova 2.5 Sonic: улучшила рассуждения и вызовы инструментов для голосовых агентов",
+    "link": "https://tproger.ru/news/aws-vypustila-nova-2-5-sonic-uluchwila-rassuzhdeniya-i-vyzovy-inst",
+    "desc": "AWS выпустила Nova 2.5 Sonic, модель для создания голосовых ИИ-агентов. Заявлены улучшенные рассуждения, более точные вызовы инструментов и меньшая задержка. — Читать дальше « AWS выпустила Nova 2.5 Sonic: улучшила рассуждения и вызовы инструментов для голосовых агентов »",
+    "date": "2026-10-06",
+    "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
   },
@@ -23170,15 +23386,6 @@
     "link": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway",
     "desc": "",
     "date": "2026-08-02",
-    "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "DeepSeek V4 Flash now runs updated weights on AI Gateway",
-    "link": "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway",
-    "desc": "",
-    "date": "2026-07-31",
     "source": "Vercel",
     "cat": "ai",
     "lang": "en"
