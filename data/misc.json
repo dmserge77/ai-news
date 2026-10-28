@@ -1,10 +1,40 @@
 [
   {
+    "title": "Nvidia Nemotron 3.5 Transcribe: open ASR for 40 languages",
+    "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+    "desc": "Article URL: https://huggingface.co/blog/nvidia/nemotron-transcribe-granary Comments URL: https://news.ycombinator.com/item?id=50275128 Points: 11 # Comments: 0",
+    "date": "2026-10-28",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+    "link": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+    "desc": "Article URL: https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/ Comments URL: https://news.ycombinator.com/item?id=50273396 Points: 217 # Comments: 242",
+    "date": "2026-10-28",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "Opera добавила в браузер поддержку WebAI для работы с ИИ‑моделями локально на ПК",
     "link": "https://habr.com/ru/news/1100518/?utm_campaign=1100518&utm_source=habrahabr&utm_medium=rss",
     "desc": "Opera начала внедрение в свои браузеры поддержку WebAI для локальной работы с моделями искусственного интеллекта на ПК. Первые возможности уже доступны в Opera One, а в дальнейшем они появятся в Opera GX и Opera Neon. Читать далее",
     "date": "2026-10-28",
     "source": "Habr AI Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Как Reddit влияет на AI и цитирования, опыт Патрика Высоцкого",
+    "link": "https://vc.ru/id418125/3221751-kak-reddit-vliyaet-na-ai-i-tsitirovaniya?from=rss",
+    "desc": "Мы создали 4 сообщества на Reddit, чтобы протестировать GEO, рассказывает Патрик Высоцки.",
+    "date": "2026-10-28",
+    "source": "vc.ru",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
@@ -63,6 +93,26 @@
     "title": "Приложение 2ГИС научилось отвечать на вопросы об общественном транспорте",
     "link": "https://hi-tech.mail.ru/news/159145-prilozhenie-2gis-nauchilos-otvechat-na-voprosy-ob-obshestvennom-transporte/",
     "desc": "Информацию подскажет встроенный ИИ-помощник. ИИ-помощник 2ГИС теперь помогает планировать поездки на общественном транспорте. Пользователи могут узнать, когда прибудет автобус, сколько стоит проезд, какие маршруты доступны и где удобнее сделать пересадку. Как рассказали Hi-Tech Mail в пресс-служб...",
+    "date": "2026-10-28",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Как ИИ за два года из помощника аналитика превратился в рабочий инструмент тимлида",
+    "link": "https://habr.com/ru/companies/korus_consulting/articles/1096312/?utm_campaign=1096312&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! Меня зовут Даниил Иванов, я руководитель группы аналитики в департаменте CRM&BPM в КОРУСе. Два года назад я уже писал статью , как применяю ИИ в работе аналитика. Тогда это были первые эксперименты, теперь я стал руководителем, вместо отдельных чатов работаю с корпоративным ИИ‑проду...",
+    "date": "2026-10-28",
+    "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "В России назвали цены новых iPad, iMac и MacBook",
+    "link": "https://hi-tech.mail.ru/news/159192-v-rossii-nazvali-ceny-novyh-ipad-imac-i-macbook/",
+    "desc": "Новинки уже доступны для предзаказа. В последней неделе октября Apple представила три обновленных продукта: iPad mini с OLED-экраном, MacBook Pro с чипом M6 и iMac с чипом M6. Все три новинки уже доступны для предзаказа, рассказали Hi-Tech Mail в пресс-службе CDEK.Shopping. Параллельно компания о...",
     "date": "2026-10-28",
     "source": "Hi-Tech Mail",
     "cat": "misc",
@@ -1015,6 +1065,16 @@
     "desc": "Spring Boot 2 до сих пор крутится в проде у многих команд, хотя бесплатные исправления для него закончились ещё в 2023 году. Переезд откладывают, и чаще всего не из-за ошибок компиляции, а из-за того, что ломается втихую. Сервис стартует, health-check зелёный, а клиенты получают 404 и 401 там, гд...",
     "date": "2026-10-23",
     "source": "Habr ML",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "PSLC и Agent‑Ops: от поддержки продукта к изменению инфраструктуры",
+    "link": "https://habr.com/ru/articles/1098652/?utm_campaign=1098652&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет! Я Сергей Житинский, основатель Git in Sky. Мы занимаемся эксплуатацией ИТ-инфраструктуры и разрабатываем открытую методологию Agent-Ops. О ней я уже рассказывал на Хабре . 19 октября я был на митапе OPS Talk by Sber. На стенде PSLC поговорил с Александром Шаповаловым, который представился...",
+    "date": "2026-10-23",
+    "source": "Habr DevOps",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -2640,16 +2700,6 @@
     "misc_type": "unfiltered"
   },
   {
-    "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
-    "link": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
-    "desc": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog .",
-    "date": "2026-10-13",
-    "source": "GitHub Blog",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "Drama 3 now available on AI Gateway",
     "link": "https://vercel.com/changelog/drama-3-now-available-on-ai-gateway",
     "desc": "",
@@ -2665,6 +2715,16 @@
     "desc": "",
     "date": "2026-10-13",
     "source": "Vercel",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+    "link": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+    "desc": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%. The post GitHub’s model for secret detection: Finding more secrets with less noise appeared first on The GitHub Blog .",
+    "date": "2026-10-13",
+    "source": "GitHub Blog",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
