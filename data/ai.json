@@ -1,35 +1,35 @@
 [
   {
+    "title": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
+    "link": "https://divergencelabs.com/publications/ige-preprint.pdf",
+    "desc": "Article URL: https://divergencelabs.com/publications/ige-preprint.pdf Comments URL: https://news.ycombinator.com/item?id=50294486 Points: 23 # Comments: 12",
+    "date": "2026-10-29",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: Overtone – Transcribe, correct and cut captions for any screen shape",
+    "link": "https://github.com/lonthq/overtone-captions",
+    "desc": "Hi HN, I'm Ruud, co-founder of Lont. We turn company emails into personalized videos. Video captions cost us manual work twice: fixing misheard words, then fixing layout, like lines ending on “the”. Overtone uses multiple models to listen to the audio: gpt-transcribe, Azure STT, and Elevenlabs Sc...",
+    "date": "2026-10-29",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Claude Duet is the future of chatbot interaction",
+    "link": "https://fig.blue/posts/duet-is-the-future/",
+    "desc": "Article URL: https://fig.blue/posts/duet-is-the-future/ Comments URL: https://news.ycombinator.com/item?id=50292727 Points: 59 # Comments: 45",
+    "date": "2026-10-29",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
     "link": "https://news.ycombinator.com/item?id=50291116",
     "desc": "Hi HN, we're Ahnaf and Seungmin from Simantic ( https://simantic.com ). We are building the simulation layer that lets engineers and AI agents test and validate firmware without hardware. Before Simantic, we were ex-firmware engineers at companies like Neuralink and Tesla. We’ve worked on some of...",
-    "date": "2026-10-29",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "LLM Voice",
-    "link": "https://martinfowler.com/bliki/LLM-Voice.html",
-    "desc": "Article URL: https://martinfowler.com/bliki/LLM-Voice.html Comments URL: https://news.ycombinator.com/item?id=50290177 Points: 24 # Comments: 4",
-    "date": "2026-10-29",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "We're releasing the weights of Mistral Large 4",
-    "link": "https://mistral.ai/news/mistral-large-4-oss/",
-    "desc": "Article URL: https://mistral.ai/news/mistral-large-4-oss/ Comments URL: https://news.ycombinator.com/item?id=50289418 Points: 572 # Comments: 149",
-    "date": "2026-10-29",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
-    "link": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
-    "desc": "Article URL: https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1 Comments URL: https://news.ycombinator.com/item?id=50288019 Points: 292 # Comments: 222",
     "date": "2026-10-29",
     "source": "Hacker News",
     "cat": "ai",
@@ -61,6 +61,15 @@
     "source": "Vercel",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Почему нейросети описывают продукт общими словами, хотя на сайте он расписан подробно, и как от этого застраховаться",
+    "link": "https://habr.com/ru/articles/1101396/?utm_campaign=1101396&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Обычно происходит вот как: описание продукта на сайте занимает три экрана, всё разжёвано и выглядит вкусно для читателя а ChatGPT, GigaChat, Алиса AI и Perplexity отвечают о нём общими словами или путают его с конкурентом Вся соль в том, что нейросети читаюи не весь сайт, а несколько найденных фр...",
+    "date": "2026-10-29",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Чистый контур — агентская прачечная для вашего грязного легаси",
@@ -189,15 +198,6 @@
     "lang": "ru"
   },
   {
-    "title": "Как я сделал SlideCraft: от одного промпта до презентации для топ-менеджеров",
-    "link": "https://habr.com/ru/articles/1101004/?utm_campaign=1101004&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Один и тот же заголовок помещался в HTML, а в PowerPoint переносился на другую строку. Я рассчитывал, что для генератора презентаций хватит размеров текстового блока и метрик шрифта. Пришлось измерять поведение самого PowerPoint: как он округляет ширину символов, рисует глифы и выбирает место пер...",
-    "date": "2026-10-29",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Когда LLM должна сказать «Я не знаю»?",
     "link": "https://habr.com/ru/articles/1101200/?utm_campaign=1101200&utm_source=habrahabr&utm_medium=rss",
     "desc": "В RAG недостаточно найти документы на нужную тему: они должны содержать сведения, из которых можно обосновать ответ. Разберём три способа исследовать эту границу — от внешнего оценщика контекста до анализа активаций модели и испытаний на противоречивых свидетельствах. Читать далее",
@@ -221,6 +221,24 @@
     "desc": "В прошлой статье я пообещал дообучить самую маленькую модель своего лаунчера Lumi прямо на MacBook и показать, что выйдет, «даже если станет хуже». Как в воду глядел. После 328 примеров и LoRA через MLX модель решила, что 2 + 2 × 2 = 4, а «скуф» — это лодка, и набрала на запечатанном экзамене 4 и...",
     "date": "2026-10-29",
     "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "В Android Studio появилась поддержка более 40 AI‑агентов, включая Claude и Codex",
+    "link": "https://habr.com/ru/news/1101424/?utm_campaign=1101424&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Google выпустила стабильную версию Android Studio Rabbit 2 с функцией Bring Your Own Agent. Она позволяет подключать к IDE более 40 агентов, включая Claude, Codex, JetBrains Junie и Google Antigravity. Читать далее",
+    "date": "2026-10-29",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Тимлид Anthropic отказался от задач по программированию на собеседованиях",
+    "link": "https://habr.com/ru/news/1101402/?utm_campaign=1101402&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Руководитель одной из команд инженеров Anthropic Феликс Райзберг (Felix Rieseberg) рассказал , что перестал давать кандидатам на собеседованиях решать традиционные задачи по программированию. Он считает, что результаты таких проверок больше не показывают, кто принесёт больше пользы команде, так к...",
+    "date": "2026-10-29",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -387,11 +405,47 @@
     "lang": "ru"
   },
   {
+    "title": "OpenAI удвоила квоту Codex на Pro-тарифах и отменила урезание Pro 200",
+    "link": "https://tproger.ru/news/openai-udvoila-kvotu-codex-na-pro-tarifah-i-otmenila-urezanie-pr",
+    "desc": "Pro 500 теперь даёт 50x от Plus, Pro 100 — около 10x, а Pro 200 сохраняет 20x вместо обещанных 10x. Plus не меняется, лимиты агента Dots пока расширены. — Читать дальше « OpenAI удвоила квоту Codex на Pro-тарифах и отменила урезание Pro 200 »",
+    "date": "2026-10-29",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Mistral выложила веса Large 4 и закрепила цену API на уровне скидки превью",
+    "link": "https://tproger.ru/news/mistral-vylozhila-vesa-large-4-i-vdvoe-snizila-cenu-api-protiv-pr",
+    "desc": "Mistral открыла веса Large 4: MoE на 1 трлн параметров, 49 млрд активных, 1 млн токенов контекста. Цена API $0,70 и $2,10, самый сжатый GGUF весит 233 ГБ. — Читать дальше « Mistral выложила веса Large 4 и закрепила цену API на уровне скидки превью »",
+    "date": "2026-10-29",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Claude Code каждые 30 секунд тратит токены на сводку для строки статуса",
+    "link": "https://tproger.ru/news/claude-code-kazhdye-30-sekund-tratit-tokeny-na-svodku-dlya-stroki",
+    "desc": "Фоновые агенты Claude Code каждые 30 секунд пересылают модели транскрипт ради сводки в 3–5 слов. Замеры пользователей: 16–26%, Anthropic называет 2%. — Читать дальше « Claude Code каждые 30 секунд тратит токены на сводку для строки статуса »",
+    "date": "2026-10-29",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "ИИ убил лайвкодинг на собеседованиях — в Anthropic решили проверять программистов иначе",
     "link": "https://thecode.media/anthropic-ii-ubil-lajvkoding-na-sobesedovaniyah/",
     "desc": "Очень бы хотелось в это верить Сообщение ИИ убил лайвкодинг на собеседованиях — в Anthropic решили проверять программистов иначе появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-10-29",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ-агенты стороннего стартапа взломали Anthropic: нейросети получили доступ к личным данным сотрудников и клиентов",
+    "link": "https://rb.ru/news/ii-agenty-storonnego-startapa-vzlomali-anthropic-nejroseti-poluchili-dostup-k-lichnym-dannym-sotrudnikov-i-klientov/",
+    "desc": "Anthropic подтвердила, что ИИ-агенты стартапа Cathedral получили доступ к части внутренних систем компании. Нейросети искали уязвимости в системах корпорации. По данным The Washington Post, в распоряжении агентов оказались сообщения, расшифровки встреч, информация о зарплатах и данные некоторых к...",
+    "date": "2026-10-29",
+    "source": "Rusbase",
     "cat": "ai",
     "lang": "ru"
   },
@@ -423,6 +477,15 @@
     "lang": "ru"
   },
   {
+    "title": "Нейроинтерфейс Sabi: инновационная бейсболка для расшифровки мыслей",
+    "link": "https://vc.ru/id121721/3224563-neyrointerfeys-sabi-innovatsionnaya-beysbolka?from=rss",
+    "desc": "Американцы “Гостью из Будущего” не смотрели, но мечтать о миелофоне им это не мешает. Очередная (уже очередная!) попытка – #стартапдня Sabi. Выглядит его нейроинтерфейс как обычная бейсболка, а работать он должен как секретарь. Человек про себя проговаривает фразу, и она появляется текстом на экр...",
+    "date": "2026-10-29",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "В эксперименте результативность ИИ-моделей на реальном роботе удваивалась примерно каждые 54 дня",
     "link": "https://vc.ru/ai/3223079-rezultativnost-ii-modeley-na-realnom-robote-udvaivaetsia?from=rss",
     "desc": "Исследователи дали девяти универсальным мультимодальным моделям прямое управление двумя руками настоящего робота. В работе The Bitter Lesson Comes to Robotics системы складывали миски, сортировали предметы и пытались надеть колпачок на ручку. Результативность лучших новых конфигураций на этом бен...",
@@ -435,6 +498,24 @@
     "title": "Anthropic идёт на биржу: создатель Claude подал заявку на IPO",
     "link": "https://vc.ru/id6162882/3220083-anthropic-podala-zayavku-na-ipo?from=rss",
     "desc": "Anthropic идёт на биржу: создатель Claude подал заявку на IPO📌 Что случилось• 26 октября Anthropic подала в SEC публичную заявку S-1• Акции класса А планируют разместить на Nasdaq под тикером ANT• Цена и число акций пока не названы📊 Цифры из заявки• Выручка за первое полугодие 2026 — $16,3 млрд п...",
+    "date": "2026-10-29",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Grok и «Одиссея»: ИИ-фильм вышел 7 минутами вместо полного метра",
+    "link": "https://vc.ru/ai/3220049-grok-i-odisseya-ii-serial-s-pervym-epizodom?from=rss",
+    "desc": "📌 Что случилось",
+    "date": "2026-10-29",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "NVIDIA вложила $3 млрд в Meta ради ИИ-агента Muse",
+    "link": "https://vc.ru/ai/3220079-nvidia-investirovala-v-meta-dlya-razvitiya-ii-agenta-muse?from=rss",
+    "desc": "📌 Что случилось• NVIDIA 27 октября вложит $3 млрд в размещение акций Meta (Reuters)• Партнёрство углубят по ассистенту Muse и связанным моделям• Muse работает на инфраструктуре NVIDIA: быстрее и дешевле🔍 Что умеет Muse• Внутреннее имя — Hatch, часть плана «персонального суперинтеллекта»• По образ...",
     "date": "2026-10-29",
     "source": "vc.ru",
     "cat": "ai",
@@ -522,6 +603,15 @@
     "lang": "ru"
   },
   {
+    "title": "Найден полупроводник, который может помочь решить одну из главных проблем солнечных панелей",
+    "link": "https://3dnews.ru/1150629",
+    "desc": "Учёные из Оксфордского университета (University of Oxford) вместе с коллегами из Китая сообщили о решении главной проблемы, ограничивающей КПД солнечных панелей, — преодолении компромисса между светопоглощающей способностью материала и скоростью потери заряженных частиц: чем лучше материал поглощ...",
+    "date": "2026-10-29",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Anthropic научила Claude доносить начальству на сотрудников, которые зря тратят токены",
     "link": "https://3dnews.ru/1150600",
     "desc": "Anthropic представила «умные отчёты» (smart reports) — функцию, которая даёт руководству компании возможность оценить, как и для чего сотрудники пользуются сервисами искусственного интеллекта Claude. «Умные отчёты» уже доступны пользователям платных корпоративных тарифных планов и могут активиров...",
@@ -561,6 +651,15 @@
     "title": "«Да, мы вайбкодим»: Epic Games подтвердила повсеместное использование ИИ в разработке Fortnite, Unreal Engine 6 и не только",
     "link": "https://3dnews.ru/1150590",
     "desc": "Американская студия Epic Games подтвердила проникновение генеративного ИИ во все процессы компании — от развития условно-бесплатной королевской битвы Fortnite и инструмента Unreal Editor for Fortnite до подготовки движка Unreal Engine 6. Источник изображений: Epic Games",
+    "date": "2026-10-29",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Спецслужбы США заподозрили близкую знакомую главы Nvidia в шпионаже на Китай, но Трамп не стал вмешиваться",
+    "link": "https://3dnews.ru/1150631",
+    "desc": "Американские спецслужбы пришли к выводу, что китайская бизнесвумен Элис Хуан (Alice Huang), занимающая руководящую должность в сингапурской компании Megaspeed, поддерживала тесные отношения с главой Nvidia Дженсеном Хуангом (Jensen Huang) и могла собирать информацию в интересах Китая. По данным T...",
     "date": "2026-10-29",
     "source": "3DNews",
     "cat": "ai",
@@ -666,11 +765,38 @@
     "lang": "ru"
   },
   {
-    "title": "На Белоярской АЭС готовят к сооружению первый в мире реактор на быстрых нейтронах гигаваттного класса",
-    "link": "https://hi-tech.mail.ru/articles/159295-na-beloyarskoj-aes-gotovyat-k-sooruzheniyu-pervyj-v-mire-reaktor-na-bystryh-nejtronah-gigavattnogo-klassa/",
-    "desc": "В Свердловской области активно ведутся работы по подготовке к сооружению первого на планете реактора на быстрых нейтронах гигаваттного класса — энергоблока № 5 Белоярской АЭС. Об этом генеральный директор Росатома Алексей Лихачев заявил в обращении к участникам шестой Международной министерской к...",
+    "title": "LLM Voice",
+    "link": "https://martinfowler.com/bliki/LLM-Voice.html",
+    "desc": "Article URL: https://martinfowler.com/bliki/LLM-Voice.html Comments URL: https://news.ycombinator.com/item?id=50290177 Points: 24 # Comments: 4",
     "date": "2026-10-29",
-    "source": "Hi-Tech Mail",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "We're releasing the weights of Mistral Large 4",
+    "link": "https://mistral.ai/news/mistral-large-4-oss/",
+    "desc": "Article URL: https://mistral.ai/news/mistral-large-4-oss/ Comments URL: https://news.ycombinator.com/item?id=50289418 Points: 572 # Comments: 149",
+    "date": "2026-10-29",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+    "link": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+    "desc": "Article URL: https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1 Comments URL: https://news.ycombinator.com/item?id=50288019 Points: 292 # Comments: 222",
+    "date": "2026-10-29",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Как я сделал SlideCraft: от одного промпта до презентации для топ-менеджеров",
+    "link": "https://habr.com/ru/articles/1101004/?utm_campaign=1101004&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Один и тот же заголовок помещался в HTML, а в PowerPoint переносился на другую строку. Я рассчитывал, что для генератора презентаций хватит размеров текстового блока и метрик шрифта. Пришлось измерять поведение самого PowerPoint: как он округляет ширину символов, рисует глифы и выбирает место пер...",
+    "date": "2026-10-29",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1107,15 +1233,6 @@
     "lang": "ru"
   },
   {
-    "title": "ChatGPT в бизнес-софте Oracle: партнёрство с OpenAI расширяется",
-    "link": "https://vc.ru/ai/3222259-chatgpt-i-oracle-novoe-partnerstvo-v-biznes-softe?from=rss",
-    "desc": "📌 Что случилось• Oracle и OpenAI объявили 27 октября о расширенном партнёрстве на Oracle AI World в Лас-Вегасе• ChatGPT и Codex встраиваются в приложения, данные и облако Oracle🔍 Четыре продукта• AI Workspace: работа с Fusion, NetSuite и OCI прямо из ChatGPT• Security Mesh: поиск уязвимостей кибе...",
-    "date": "2026-10-28",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "«Яндекс» переманил к себе техдиректора ИИ-браузера Comet из Perplexity",
     "link": "https://3dnews.ru/1150575",
     "desc": "Бывший технический директор браузера Comet американской ИИ-компании Perplexity Дмитрий Голубничий перешёл в команду «Алисы AI» компании «Яндекс», сообщил РБК со ссылкой на обновление профиля разработчика в соцсети LinkedIn. Источник изображения: «Яндекс»",
@@ -1170,20 +1287,29 @@
     "lang": "ru"
   },
   {
-    "title": "Хакер получил от Sony $50 000 за взлом PS5 с помощью ИИ — сообщество обвинило его в предательстве",
-    "link": "https://3dnews.ru/1150549",
-    "desc": "Хакер под псевдонимом Jordy при помощи большой языковой модели искусственного интеллекта обнаружил уязвимость в гипервизоре, из-за которой появилась возможность устанавливать Linux на консоли PlayStation 5. Сообщив об этом Sony, он получил вознаграждение в размере $50 000 и вызвал бурю негодовани...",
-    "date": "2026-10-28",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Deep Research и MCP Mobbin — нитро для поиска референсов",
     "link": "https://habr.com/ru/companies/alfa/articles/1100178/?utm_campaign=1100178&utm_source=habrahabr&utm_medium=rss",
     "desc": "Привет, Хабр! Я Женя Горбач, продуктовый дизайнер в Альфа-Метрике, аналитическом продукте Альфа банка. Найти рефы для авторизации, оформления заказа или перевода — задача вполне понятная. Но что делать, если проектируешь сценарий, который редко встречается в других продуктах, а решения прямых кон...",
     "date": "2026-10-28",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ChatGPT в бизнес-софте Oracle: партнёрство с OpenAI расширяется",
+    "link": "https://vc.ru/ai/3222259-chatgpt-i-oracle-novoe-partnerstvo-v-biznes-softe?from=rss",
+    "desc": "📌 Что случилось• Oracle и OpenAI объявили 27 октября о расширенном партнёрстве на Oracle AI World в Лас-Вегасе• ChatGPT и Codex встраиваются в приложения, данные и облако Oracle🔍 Четыре продукта• AI Workspace: работа с Fusion, NetSuite и OCI прямо из ChatGPT• Security Mesh: поиск уязвимостей кибе...",
+    "date": "2026-10-28",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Хакер получил от Sony $50 000 за взлом PS5 с помощью ИИ — сообщество обвинило его в предательстве",
+    "link": "https://3dnews.ru/1150549",
+    "desc": "Хакер под псевдонимом Jordy при помощи большой языковой модели искусственного интеллекта обнаружил уязвимость в гипервизоре, из-за которой появилась возможность устанавливать Linux на консоли PlayStation 5. Сообщив об этом Sony, он получил вознаграждение в размере $50 000 и вызвал бурю негодовани...",
+    "date": "2026-10-28",
+    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1516,16 +1642,7 @@
     "link": "https://habr.com/ru/news/1100282/?utm_campaign=1100282&utm_source=habrahabr&utm_medium=rss",
     "desc": "Разработчик под никнеймом mottopanikeiku нарушил давнюю традицию запускать Doom на разного рода железе и запустил в самой игре нейросети. Его проект Doomformer использует игровые механики Doom в качестве основы для вычислений упрощённых целочисленных моделей. Читать далее",
     "date": "2026-10-27",
-    "source": "Habr AI Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "ИИ‑агенты против антиботов: что в этой битве делать человеку",
-    "link": "https://habr.com/ru/companies/oxygendc/news/1100168/?utm_campaign=1100168&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! Ещё буквально вчера взаимодействие с генеративным ИИ сводилось к диалогу: пользователь задавал вопрос и получал ответ. Но теперь ИИ-агенты доходят до десятой страницы поисковика самостоятельно, да еще и с сайтами работают: ищут товары, сравнивают предложения и даже могут оформлять з...",
-    "date": "2026-10-27",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1584,18 +1701,18 @@
     "lang": "ru"
   },
   {
-    "title": "Keystone 1.0: LLM‑шлюз, который не хардкодит модели, держит свои GPU и не теряет ключи",
-    "link": "https://habr.com/ru/articles/1099790/?utm_campaign=1099790&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Имя модели в коде устаревает в день выхода следующей модели. Если у вас десять сервисов, вы перепишете его десять раз и десять раз разнесёте по конфигам ключи вендоров. Keystone. The Model Switchboard. (KTMS) убирает это из кода. Сервис говорит, насколько сложна задача, а шлюз решает, какую модел...",
+    "title": "Как мы строим безопасную on-prem AI-платформу для корпоративных AI-агентов",
+    "link": "https://habr.com/ru/companies/agima/articles/1100006/?utm_campaign=1100006&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Разбираем архитектуру корпоративной AI-платформы для безопасной работы AI-агентов с внутренними системами: от LLM Gateway и MCP до контроля доступа, DLP и аудита. Читать далее",
     "date": "2026-10-27",
-    "source": "Habr Open Source",
+    "source": "Habr DevOps",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "Как мы строим безопасную on-prem AI-платформу для корпоративных AI-агентов",
-    "link": "https://habr.com/ru/companies/agima/articles/1100006/?utm_campaign=1100006&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Разбираем архитектуру корпоративной AI-платформы для безопасной работы AI-агентов с внутренними системами: от LLM Gateway и MCP до контроля доступа, DLP и аудита. Читать далее",
+    "title": "Keystone 1.0: LLM‑шлюз, который не хардкодит модели, держит свои GPU и не теряет ключи",
+    "link": "https://habr.com/ru/articles/1099790/?utm_campaign=1099790&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Имя модели в коде устаревает в день выхода следующей модели. Если у вас десять сервисов, вы перепишете его десять раз и десять раз разнесёте по конфигам ключи вендоров. Keystone. The Model Switchboard. (KTMS) убирает это из кода. Сервис говорит, насколько сложна задача, а шлюз решает, какую модел...",
     "date": "2026-10-27",
     "source": "Habr DevOps",
     "cat": "ai",
@@ -1661,6 +1778,15 @@
     "desc": "Можно ли уже отдать ИИ кодирование открытых ответов? Я проверила три инструмента с бесплатным тарифом на реальных данных. Лучший совпал с моей ручной разметкой на 87%. Худший на 32%, и ещё приписал людям то, чего они не писали.",
     "date": "2026-10-27",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ‑агенты против антиботов: что в этой битве делать человеку",
+    "link": "https://habr.com/ru/companies/oxygendc/news/1100168/?utm_campaign=1100168&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! Ещё буквально вчера взаимодействие с генеративным ИИ сводилось к диалогу: пользователь задавал вопрос и получал ответ. Но теперь ИИ-агенты доходят до десятой страницы поисковика самостоятельно, да еще и с сайтами работают: ищут товары, сравнивают предложения и даже могут оформлять з...",
+    "date": "2026-10-27",
+    "source": "Habr AI Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2115,15 +2241,6 @@
     "lang": "ru"
   },
   {
-    "title": "[Перевод] Как Codemode меняет работу ИИ‑агентов с инструментами — и что не так с MCP",
-    "link": "https://habr.com/ru/companies/otus/articles/1098056/?utm_campaign=1098056&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Когда ИИ‑агенту нужно работать с десятками инструментов, каждый вызов и его результат могут создавать лишнюю нагрузку на контекст LLM. Codemode позволяет объединять операции в коде, но при работе с MCP возникают новые ограничения — от вложенных вызовов до непредсказуемых форматов ответов. Разбира...",
-    "date": "2026-10-26",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "OpenAI представила GPT-6.1 Terra: быстрее работает с интерфейсами, реже ошибается и дешевле в API",
     "link": "https://habr.com/ru/companies/otus/news/1099780/?utm_campaign=1099780&utm_source=habrahabr&utm_medium=rss",
     "desc": "OpenAI представила GPT-6.1 Terra — обновлённую модель с упором на работу с интерфейсами и автоматизацию задач. По данным компании, она заметно лучше предшественницы справляется с программированием, реже допускает фактические ошибки и при этом обходится вдвое дешевле через API. В отдельных тестах ...",
@@ -2205,24 +2322,6 @@
     "lang": "ru"
   },
   {
-    "title": "Как научить ИИ проверять поисковые запросы в Wordstat? Готовый MCP-сервер на Git",
-    "link": "https://habr.com/ru/companies/infostart/articles/1099528/?utm_campaign=1099528&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Всё начиналось в отрыве от реальных данных. ИИ анализировал целевую аудиторию и предлагал поисковые запросы. Мы подключили Wordstat по API, чтобы агент сам проверял свои предположения и собирал ответ по данным сервиса. Получился read-only-пакет на Python: четыре метода Wordstat, командная строка ...",
-    "date": "2026-10-26",
-    "source": "Habr Python",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Разбор инцидента LiteLLM 1.107.0: как увели релизный конвейер и почему подпись не помогла",
-    "link": "https://habr.com/ru/articles/1099402/?utm_campaign=1099402&utm_source=habrahabr&utm_medium=rss",
-    "desc": "21 октября 2026 года на PyPI вышел litellm==1.107.0 со стилером учётных данных, а образы Docker с тем же тегом оказались заражены. LiteLLM — один из самых популярных open-source LLM-шлюзов: он хранит ключи ко всем вендорам моделей, которыми пользуется команда. Для LiteLLM это второй такой случай ...",
-    "date": "2026-10-26",
-    "source": "Habr Python",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "OpenAI выпустила GPT-6.1 Terra по $1 за миллион входных токенов и открыла Decisions API",
     "link": "https://tproger.ru/news/openai-vypustila-gpt-6-1-terra-po-1-za-million-vhodnyh-tokenov",
     "desc": "OpenAI выпустила GPT-6.1 Terra за $1 за миллион входных токенов — вдвое дешевле GPT-6.1 Sol — и открыла всем Decisions API на базе GPT-6 Luna. — Читать дальше « OpenAI выпустила GPT-6.1 Terra по $1 за миллион входных токенов и открыла Decisions API »",
@@ -2273,6 +2372,24 @@
     "desc": "Нейросети дали всем суперсилу: любой человек может за минуту получить вполне красивую картинку. Но суперсила попала в руки людям, которые часто не знают, что с ней делать. Я в том числе. Попросить у ИИ «нарисуй в стиле импрессионизма» может каждый. Попросить «в стиле неопластицизма» или «в стиле ...",
     "date": "2026-10-26",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "[Перевод] Как Codemode меняет работу ИИ‑агентов с инструментами — и что не так с MCP",
+    "link": "https://habr.com/ru/companies/otus/articles/1098056/?utm_campaign=1098056&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Когда ИИ‑агенту нужно работать с десятками инструментов, каждый вызов и его результат могут создавать лишнюю нагрузку на контекст LLM. Codemode позволяет объединять операции в коде, но при работе с MCP возникают новые ограничения — от вложенных вызовов до непредсказуемых форматов ответов. Разбира...",
+    "date": "2026-10-26",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Разбор инцидента LiteLLM 1.107.0: как увели релизный конвейер и почему подпись не помогла",
+    "link": "https://habr.com/ru/articles/1099402/?utm_campaign=1099402&utm_source=habrahabr&utm_medium=rss",
+    "desc": "21 октября 2026 года на PyPI вышел litellm==1.107.0 со стилером учётных данных, а образы Docker с тем же тегом оказались заражены. LiteLLM — один из самых популярных open-source LLM-шлюзов: он хранит ключи ко всем вендорам моделей, которыми пользуется команда. Для LiteLLM это второй такой случай ...",
+    "date": "2026-10-26",
+    "source": "Habr Python",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2979,20 +3096,20 @@
     "lang": "ru"
   },
   {
-    "title": "Алгоритм для эпохи искусственного интеллекта: сингулярность и наследство / An Algorithm for the AI Era: Singularity and Legacy",
-    "link": "https://vc.ru/ai/3213811-algoritm-dejstvij-v-epohu-ii?from=rss",
-    "desc": "Статья предлагает алгоритм действий в эпоху ИИ, когда прогнозы теряют надёжность: не ставить на один прогноз, а страховать наследство эволюции при самых разных исходах. Один из важнейших моментов здесь - распределение значимых действий во времени и перенос не готовых вещей, а условий, при которых...",
-    "date": "2026-10-24",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Делаем анкету персонажа с помощью Nano Banana, Krea 2 и Grok",
     "link": "https://habr.com/ru/companies/studyai/articles/1098540/?utm_campaign=1098540&utm_source=habrahabr&utm_medium=rss",
     "desc": "Анкета персонажа нужна для того, чтобы лучше понимать что из себя представляет наш герой или героиня. Он служит референсом для игродельческой команды и это помогает держать character improvement более-менее в условном “унисоне”. Сегодня попробуем сделать качественные анкеты для персонажей фэнтези...",
     "date": "2026-10-24",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Алгоритм для эпохи искусственного интеллекта: сингулярность и наследство / An Algorithm for the AI Era: Singularity and Legacy",
+    "link": "https://vc.ru/ai/3213811-algoritm-dejstvij-v-epohu-ii?from=rss",
+    "desc": "Статья предлагает алгоритм действий в эпоху ИИ, когда прогнозы теряют надёжность: не ставить на один прогноз, а страховать наследство эволюции при самых разных исходах. Один из важнейших моментов здесь - распределение значимых действий во времени и перенос не готовых вещей, а условий, при которых...",
+    "date": "2026-10-24",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -10944,20 +11061,20 @@
     "lang": "ru"
   },
   {
-    "title": "Изучение нейросетей для детей: рейтинг 10 школ и курсов в 2026 году",
-    "link": "https://tproger.ru/articles/izuchenie-nejrosetej-dlya-detej-rejting-10-wkol-i-kursov-v-2026-g",
-    "desc": "Изучение нейросетей для детей в 2026 году: рейтинг 10 школ и курсов по ИИ. Сравнение программ, возраста, форматов, практики и проектов для школьников. — Читать дальше « Изучение нейросетей для детей: рейтинг 10 школ и курсов в 2026 году »",
-    "date": "2026-10-06",
-    "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Аниме‑плеер на лапках",
     "link": "https://habr.com/ru/articles/1089998/?utm_campaign=1089998&utm_source=habrahabr&utm_medium=rss",
     "desc": "«Вставил ссылку, вижу сериал со всеми сериями, выбрал озвучку, смотрю». С этой фразы началась Lapka, локальный аниме-плеер. Статья о решениях, из которых она сложилась, по сериям, как в аниме. Знакомый, которому я дал её потрогать, сказал так: >> Прикольно: нода крутится, парсит, а воспроизводит ...",
     "date": "2026-10-06",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Изучение нейросетей для детей: рейтинг 10 школ и курсов в 2026 году",
+    "link": "https://tproger.ru/articles/izuchenie-nejrosetej-dlya-detej-rejting-10-wkol-i-kursov-v-2026-g",
+    "desc": "Изучение нейросетей для детей в 2026 году: рейтинг 10 школ и курсов по ИИ. Сравнение программ, возраста, форматов, практики и проектов для школьников. — Читать дальше « Изучение нейросетей для детей: рейтинг 10 школ и курсов в 2026 году »",
+    "date": "2026-10-06",
+    "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
   },
