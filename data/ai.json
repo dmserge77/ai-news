@@ -18,24 +18,6 @@
     "lang": "ru"
   },
   {
-    "title": "Claude Code found 145K photos I deleted from my iPhone sitting in a hidden cache",
-    "link": "https://twitter.com/coolerwave/status/2114088769112477849",
-    "desc": "Article URL: https://twitter.com/coolerwave/status/2114088769112477849 Comments URL: https://news.ycombinator.com/item?id=50281902 Points: 4 # Comments: 0",
-    "date": "2026-10-28",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Gemini 4 Carbon",
-    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-    "desc": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/ Comments URL: https://news.ycombinator.com/item?id=50276792 Points: 721 # Comments: 589",
-    "date": "2026-10-28",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Pair-coding Lobste.rs feat",
     "link": "https://lobste.rs/s/mgy3tr/pair_coding_lobste_rs_feat",
     "desc": "There is a long standing issue I'm working at that turned out to have some interesting refactoring suggested by the admins . Does anybody want to pair-code this feat with me? (I also mentioned it in irc). I believe discussing the codebase would be incredibly helpful for me and others wiling to co...",
@@ -234,15 +216,6 @@
     "lang": "ru"
   },
   {
-    "title": "Дообучаем Gemma 26B на MacBook с 24 ГБ памяти: как устроен голосовой помощник, который работает без интернета",
-    "link": "https://habr.com/ru/articles/1100428/?utm_campaign=1100428&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Полгода я собираю голосового помощника для macOS, который не просто отвечает, а выполняет действия на компьютере. Главное условие — языковая модель работает локально, без облака и подписок. Рассказываю, из чего состоит такая система, как я дообучал Gemma 26B на MacBook с 24 ГБ памяти и на какие г...",
-    "date": "2026-10-28",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Периодические функции как функции активации в нейросетях",
     "link": "https://habr.com/ru/articles/1100598/?utm_campaign=1100598&utm_source=habrahabr&utm_medium=rss",
     "desc": "В данной статье мы рассмотрим применение периодических функций в качестве функций активации в нейросетях. Мы проведём сравнительные эксперименты на простых сетях и посмотрим, как периодические активации (например, sin ) ведут себя по сравнению с классическими непериодическими — tanh , sigmoid и R...",
@@ -255,6 +228,15 @@
     "title": "Флоу — это не число слогов: как я учил языковую модель писать рэп в такт бита",
     "link": "https://habr.com/ru/articles/1100580/?utm_campaign=1100580&utm_source=habrahabr&utm_medium=rss",
     "desc": "Я сделал страницу, на которую загружаешь бит и пишешь, о чём трек, а получаешь куплеты и припев, разложенные по тактам этого бита: строка на такт. Первая версия выдавала школьные стихи под музыку. Ниже о том, почему так вышло, где языковая модель надёжна, а где нет, и что пришлось посчитать самом...",
+    "date": "2026-10-28",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Дообучаем Gemma 26B на MacBook с 24 ГБ памяти: как устроен голосовой помощник, который работает без интернета",
+    "link": "https://habr.com/ru/articles/1100428/?utm_campaign=1100428&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Полгода я собираю голосового помощника для macOS, который не просто отвечает, а выполняет действия на компьютере. Главное условие — языковая модель работает локально, без облака и подписок. Рассказываю, из чего состоит такая система, как я дообучал Gemma 26B на MacBook с 24 ГБ памяти и на какие г...",
     "date": "2026-10-28",
     "source": "Habr ML",
     "cat": "ai",
@@ -621,6 +603,33 @@
     "lang": "ru"
   },
   {
+    "title": "Илон Маск хочет выкупить сотни домов, чтобы соседи ЦОД xAI отказались от иска из-за шума",
+    "link": "https://3dnews.ru/1150570",
+    "desc": "Риелторы, представляющие компанию Илона Маска (Elon Musk) xAI, предлагают жителям агломерации Мемфис – Саутхейвен выкупить их жилье при условии отказа от иска из-за шума от газовых турбин, которые генерируют электроэнергию для ЦОД. Всего компания планирует выкупить 418 домов и 18 собственников уж...",
+    "date": "2026-10-28",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Физики сделали то, что считали невозможным: научились управлять спином ядра отдельного атома",
+    "link": "https://3dnews.ru/1150548",
+    "desc": "Исследователи из нидерландского Делфтского технологического университета (Delft University of Technology) научились управлять ядерным спином отдельного атома с помощью радиочастотных сигналов, подаваемых через иглу сканирующего туннельного микроскопа. Результат оказался неожиданным: физики полага...",
+    "date": "2026-10-28",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Зелёный водород за недорого: учёные нашли альтернативу катализаторам из рутения",
+    "link": "https://3dnews.ru/1150543",
+    "desc": "«Зелёный» водород, получаемый электролизом воды с помощью солнечных и ветровых электростанций, обходится очень дорого из-за высокой стоимости катализаторов на основе платины, рутения, иридия и других драгоценных и редких металлов. Но наука не стоит на месте, и учёные нашли способ получать водород...",
+    "date": "2026-10-28",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Google представила Gemini 4 Carbon — мощнейшую ИИ-модель для поиска уязвимостей и исправления опасных ошибок",
     "link": "https://3dnews.ru/1150577",
     "desc": "Google представила новую ИИ-модель Gemini 4 Carbon, предназначенную для решения сложных инженерных задач и работы в области кибербезопасности. Передовая модель показала высокие результаты в тестах на обнаружение уязвимостей, проверку возможности их эксплуатации и исправление ошибок в программном ...",
@@ -651,15 +660,6 @@
     "title": "Хакер получил от Sony $50 000 за взлом PS5 с помощью ИИ — сообщество обвинило его в предательстве",
     "link": "https://3dnews.ru/1150549",
     "desc": "Хакер под псевдонимом Jordy при помощи большой языковой модели искусственного интеллекта обнаружил уязвимость в гипервизоре, из-за которой появилась возможность устанавливать Linux на консоли PlayStation 5. Сообщив об этом Sony, он получил вознаграждение в размере $50 000 и вызвал бурю негодовани...",
-    "date": "2026-10-28",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Илон Маск хочет выкупить сотни домов, чтобы соседи ЦОД xAI отказались от иска из-за шума",
-    "link": "https://3dnews.ru/1150570",
-    "desc": "Риелторы, представляющие компанию Илона Маска (Elon Musk) xAI, предлагают жителям агломерации Мемфис – Саутхейвен выкупить их жилье при условии отказа от иска из-за шума от газовых турбин, которые генерируют электроэнергию для ЦОД. Всего компания планирует выкупить 418 домов и 18 собственников уж...",
     "date": "2026-10-28",
     "source": "3DNews",
     "cat": "ai",
@@ -763,6 +763,24 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Claude Code found 145K photos I deleted from my iPhone sitting in a hidden cache",
+    "link": "https://twitter.com/coolerwave/status/2114088769112477849",
+    "desc": "Article URL: https://twitter.com/coolerwave/status/2114088769112477849 Comments URL: https://news.ycombinator.com/item?id=50281902 Points: 4 # Comments: 0",
+    "date": "2026-10-28",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Gemini 4 Carbon",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "desc": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/ Comments URL: https://news.ycombinator.com/item?id=50276792 Points: 721 # Comments: 589",
+    "date": "2026-10-28",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Что стоит проверить перед внедрением ИИ-агента в корпоративную среду",
@@ -8001,20 +8019,20 @@
     "lang": "en"
   },
   {
-    "title": "Как я поставил дешёвую модель-фильтр перед Claude и что показали первые две недели",
-    "link": "https://habr.com/ru/articles/1093512/?utm_campaign=1093512&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Сохраняю в Telegram всё подряд, а Claude Sonnet раз в сутки пишет по каждому материалу разбор для блога. Почти половина сохранёнок для блога лишняя, и на каждую уходит полный разбор. Рассказываю, как поставил перед Sonnet дешёвую модель Jev, которая отвечает вероятностью, почему формулировка вопр...",
-    "date": "2026-10-12",
-    "source": "Habr NLP",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Как проверить успешность фактчекинга? Мы собрали датасет для тестирования ИИ",
     "link": "https://te-st.org/2026/10/12/factbutcher-benchmark/",
     "desc": "Этот набор данных мы используем сами — для калибровки Factbutcher. Кстати, он теперь бесплатный. Сообщение Как проверить успешность фактчекинга? Мы собрали датасет для тестирования ИИ появились сначала на Теплица социальных технологий .",
     "date": "2026-10-12",
     "source": "Теплица соцтех",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как я поставил дешёвую модель-фильтр перед Claude и что показали первые две недели",
+    "link": "https://habr.com/ru/articles/1093512/?utm_campaign=1093512&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сохраняю в Telegram всё подряд, а Claude Sonnet раз в сутки пишет по каждому материалу разбор для блога. Почти половина сохранёнок для блога лишняя, и на каждую уходит полный разбор. Рассказываю, как поставил перед Sonnet дешёвую модель Jev, которая отвечает вероятностью, почему формулировка вопр...",
+    "date": "2026-10-12",
+    "source": "Habr NLP",
     "cat": "ai",
     "lang": "ru"
   },
