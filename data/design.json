@@ -1,5 +1,14 @@
 [
   {
+    "title": "Show HN: Automatic deduction of FlashAttention kernel from ~25 lines of SQL",
+    "link": "https://github.com/xqlsystems/xarray-sql/blob/6debe2495dcb4e8fac20ab97df5b89baae2a31a6/benchmarks/ml/01_attention.py",
+    "desc": "In this demo, we automatically deduce a FlashAttention kernel with ~25 lines of SQL, which just expresses vanilla attention. This is possible due to three portable SQL extensions that we’re building: - xarray-sql: a library that efficiently represents petabyte scale array datasets in the cloud as...",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
     "title": "Попросил Claude починить прокрутку в Linux под UTM — получил демон, окно настроек и находку в libinput",
     "link": "https://habr.com/ru/articles/1100706/?utm_campaign=1100706&utm_source=habrahabr&utm_medium=rss",
     "desc": "Работаю в VS Code в Linux-виртуалке UTM на маке, и прокрутка там всегда прыгала по три строки и очень чувствительна к движениям пальца, вместо прокрутки приходилось пользоваться обычными стрелками на клаве. Ранее я уже просил Claude это исправить: поставили замедлитель и imwheel, не помогло, на э...",
