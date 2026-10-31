@@ -1,17 +1,71 @@
 [
   {
-    "title": "We Took over ChatGPT Accounts",
-    "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-    "desc": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 165 # Comments: 79",
+    "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+    "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+    "desc": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 32 # Comments: 25",
     "date": "2026-10-31",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Как я первый раз в жизни написал научную статью в LaTeX с помощью ИИ-Агента за полдня",
-    "link": "https://habr.com/ru/articles/1102114/?utm_campaign=1102114&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Анонс для ленты Хабра Как я первый раз в жизни написал научную статью в LaTeX по всем строгим правилам с помощью ИИ-Агента в GigaCode за полдня Если вы когда-нибудь пытались оформить научную статью — знаете: самое сложное это не идеи, а вёрстка. LaTeX выглядит как портал в другой мир: консоль, ко...",
+    "title": "Anthropic blocks users for anything touching training larger models",
+    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+    "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 60 # Comments: 11",
+    "date": "2026-10-31",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+    "link": "https://ryanmadden.net/gpt-56-beats-factorio/",
+    "desc": "Article URL: https://ryanmadden.net/gpt-56-beats-factorio/ Comments URL: https://news.ycombinator.com/item?id=50318871 Points: 130 # Comments: 134",
+    "date": "2026-10-31",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: A language model that lives in a boot sector",
+    "link": "https://github.com/kerlenton/bootgpt",
+    "desc": "All the ideas came from the boot sector demo scene where people had been writing chess and BASIC games in 512 bytes, even a C compiler. I wondered what one can do using a neural network instead of a program and generating boot logs for non-existent hardware was something fun to try. Entire infere...",
+    "date": "2026-10-31",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Do the math: How we took over ChatGPT accounts",
+    "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+    "desc": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 289 # Comments: 141",
+    "date": "2026-10-31",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Программируем без IDE или применение qwen и qwen coder для написания софта",
+    "link": "https://habr.com/ru/articles/1102144/?utm_campaign=1102144&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сейчас мы попробуем быстро написать сканер ntfs alternate data streams потоков, на не совсем тривиальном стеке и архитектуре. Сделал я это в первую очередь для тестирования возможностей моделей семейства qwen. Краткое пояснение для тех, кто не работал в это сфере. NTFS (аббревиатура от англ. new ...",
+    "date": "2026-10-31",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Зачем голосовому боту на LLM снова нужен классификатор вроде Jev",
+    "link": "https://habr.com/ru/articles/1102134/?utm_campaign=1102134&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Голосовой бот на LLM разговаривает приятно, но на реальных звонках регулярно спотыкается. Он может найти свободное окно и так и не записать клиента или перебить человека, который просто задумался посреди фразы. Часть таких решений можно снять с LLM и отдать быстрой модели-классификатору. Самая об...",
+    "date": "2026-10-31",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Speech Analytics: почему сервис речевой аналитики может правильно распознать разговор и неправильно его оценить",
+    "link": "https://habr.com/ru/articles/1102126/?utm_campaign=1102126&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Одна из самых распространенных ошибок при выборе системы речевой аналитики — оценивать ее по качеству расшифровки аудио. Загрузили запись. Получили текст. Несколько терминов распознаны неправильно, но в целом разговор читается. Кажется, что основная техническая задача решена. На практике самое ин...",
     "date": "2026-10-31",
     "source": "Habr AI",
     "cat": "ai",
@@ -324,6 +378,15 @@
     "lang": "ru"
   },
   {
+    "title": "Как я первый раз в жизни написал научную статью в LaTeX с помощью ИИ-Агента за полдня",
+    "link": "https://habr.com/ru/articles/1102114/?utm_campaign=1102114&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Анонс для ленты Хабра Как я первый раз в жизни написал научную статью в LaTeX по всем строгим правилам с помощью ИИ-Агента в GigaCode за полдня Если вы когда-нибудь пытались оформить научную статью — знаете: самое сложное это не идеи, а вёрстка. LaTeX выглядит как портал в другой мир: консоль, ко...",
+    "date": "2026-10-31",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
     "link": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
     "desc": "Article URL: https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26 Comments URL: https://news.ycombinator.com/item?id=50315990 Points: 13 # Comments: 3",
@@ -337,24 +400,6 @@
     "link": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
     "desc": "Article URL: https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech Comments URL: https://news.ycombinator.com/item?id=50315574 Points: 14 # Comments: 16",
     "date": "2026-10-31",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
-    "link": "https://github.com/dbreunig/nesformer",
-    "desc": "Article URL: https://github.com/dbreunig/nesformer Comments URL: https://news.ycombinator.com/item?id=50306442 Points: 273 # Comments: 135",
-    "date": "2026-10-30",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-    "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 938 # Comments: 537",
-    "date": "2026-10-30",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
@@ -435,15 +480,6 @@
     "title": "Как именно Claude и подобные компании банят аккаунты «за VPN» и «токсичный паспорт»",
     "link": "https://habr.com/ru/companies/aurorium/articles/1101594/?utm_campaign=1101594&utm_source=habrahabr&utm_medium=rss",
     "desc": "Интернет сильно шумит в последние несколько дней от новости, что Claude начал банить пользователей по причине предоставления ими для верификации «токсичных паспортов», хотя в правилах площадки нет ничего подобного. Правила сервиса прямо не запрещают обладателям конкретного паспорта пользоваться п...",
-    "date": "2026-10-30",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Я не планировал становиться open-source разработчиком, а теперь развиваю проект с 1000+ звёзд на GitHub",
-    "link": "https://habr.com/ru/articles/1101612/?utm_campaign=1101612&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В начале 2026 года на новогодних праздниках у меня было много свободного времени, и я поставил Claude Code. До этого я уже писал код с ИИ в Cursor и Windsurf, но только на знакомых языках и смотрел весь написанный код. С CLI-агентами всё пошло иначе: я пробовал Claude Code, потом OpenCode и быстр...",
     "date": "2026-10-30",
     "source": "Habr AI",
     "cat": "ai",
@@ -535,7 +571,7 @@
     "link": "https://habr.com/ru/news/1101046/?utm_campaign=1101046&utm_source=habrahabr&utm_medium=rss",
     "desc": "Сотрудник компании Anthropic Дэйзи Холлман рассказала , что в рамках предоставления разработчикам возможности полностью отключить защитные барьеры в свежей сборке (v2.1.311) Claude Code. появилась функция, позволяющая ИИ-агенту выполнять опасные команды терминала (например, удаление файлов) без п...",
     "date": "2026-10-30",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -545,6 +581,15 @@
     "desc": "Всем привет. Я с коллегами пишу сервис, который использует внутренний инстанс публичного приложения Arize Phoenix (система LLM-observability — наблюдаемости за LLM-приложениями). Arize Phoenix использует в качестве БД PostgreSQL. СУБД обычно жила спокойно: AAS (Average Active Sessions — среднее ч...",
     "date": "2026-10-30",
     "source": "Habr Python",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Я не планировал становиться open-source разработчиком, а теперь развиваю проект с 1000+ звёзд на GitHub",
+    "link": "https://habr.com/ru/articles/1101612/?utm_campaign=1101612&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В начале 2026 года на новогодних праздниках у меня было много свободного времени, и я поставил Claude Code. До этого я уже писал код с ИИ в Cursor и Windsurf, но только на знакомых языках и смотрел весь написанный код. С CLI-агентами всё пошло иначе: я пробовал Claude Code, потом OpenCode и быстр...",
+    "date": "2026-10-30",
+    "source": "Habr Open Source",
     "cat": "ai",
     "lang": "ru"
   },
@@ -666,15 +711,6 @@
     "lang": "ru"
   },
   {
-    "title": "Раскрыт крупнейший клиент SpaceX — и это вовсе не космическая компания",
-    "link": "https://3dnews.ru/1150655",
-    "desc": "Anthropic стала крупнейшим клиентом SpaceX: в III квартале текущего года на долю лаборатории искусственного интеллекта пришлись более трети всей выручки компании Илона Маска (Elon Musk), которая занимается ИИ, технологиями спутниковой связи и ракетостроением. Источник изображения: SpaceX / unspla...",
-    "date": "2026-10-30",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Глава Anthropic призывал замедлить развитие ИИ, но сам не собирается сбавлять обороты",
     "link": "https://3dnews.ru/1150685",
     "desc": "Глава Anthropic ранее призвал участников индустрии искусственного интеллекта замедлить разработку технологий, чтобы снизить вероятность непредсказуемых последствий. Однако спустя шесть недель после того, как руководители OpenAI и SpaceX публично поддержали эту инициативу, гонка продолжилась с нов...",
@@ -738,18 +774,36 @@
     "lang": "ru"
   },
   {
-    "title": "ИИ может перечеркнуть 15 лет борьбы США с загрязнением атмосферы",
-    "link": "https://hi-tech.mail.ru/news/159413-ii-mozhet-perecherknut-15-let-borby-ssha-s-zagryazneniem-atmosfery/",
-    "desc": "По оценкам экологов, к 2030 году американская энергетика будет выбрасывать на 618 млн тонн углекислого газа больше. Основной причиной станет строительство газовых электростанций для питания ИИ-инфраструктуры. Строительство дата-центров для искусственного интеллекта в США может свести на нет 15 ле...",
+    "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+    "link": "https://github.com/dbreunig/nesformer",
+    "desc": "Article URL: https://github.com/dbreunig/nesformer Comments URL: https://news.ycombinator.com/item?id=50306442 Points: 273 # Comments: 135",
     "date": "2026-10-30",
-    "source": "Hi-Tech Mail",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+    "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 938 # Comments: 537",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Раскрыт крупнейший клиент SpaceX — и это вовсе не космическая компания",
+    "link": "https://3dnews.ru/1150655",
+    "desc": "Anthropic стала крупнейшим клиентом SpaceX: в III квартале текущего года на долю лаборатории искусственного интеллекта пришлись более трети всей выручки компании Илона Маска (Elon Musk), которая занимается ИИ, технологиями спутниковой связи и ракетостроением. Источник изображения: SpaceX / unspla...",
+    "date": "2026-10-30",
+    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "Студенты разработали более 400 цифровых решений на хакатоне MAX",
-    "link": "https://hi-tech.mail.ru/news/159411-studenty-razrabotali-bolee-400-cifrovyh-reshenij-na-hakatone-max/",
-    "desc": "Эксперты определили лучшие проекты. MAX и Минобрнауки России подвели итоги студенческого хакатона по разработке сервисов для национального мессенджера. В финал соревнования вышли 40 команд, а 15 команд-победителей разделили призовой фонд в 5 млн рублей. Защиты состоялись в рамках международного ф...",
+    "title": "ИИ может перечеркнуть 15 лет борьбы США с загрязнением атмосферы",
+    "link": "https://hi-tech.mail.ru/news/159413-ii-mozhet-perecherknut-15-let-borby-ssha-s-zagryazneniem-atmosfery/",
+    "desc": "По оценкам экологов, к 2030 году американская энергетика будет выбрасывать на 618 млн тонн углекислого газа больше. Основной причиной станет строительство газовых электростанций для питания ИИ-инфраструктуры. Строительство дата-центров для искусственного интеллекта в США может свести на нет 15 ле...",
     "date": "2026-10-30",
     "source": "Hi-Tech Mail",
     "cat": "ai",
@@ -1658,7 +1712,7 @@
   {
     "title": "Периодические функции как функции активации в нейросетях",
     "link": "https://habr.com/ru/articles/1100598/?utm_campaign=1100598&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В данной статье мы рассмотрим применение периодических функций в качестве функций активации в нейросетях. Мы проведём сравнительные эксперименты на простых сетях и посмотрим, как периодические активации (например, sin ) ведут себя в сетях. Читать далее",
+    "desc": "В данной статье мы рассмотрим применение периодических функций в качестве функций активации в нейросетях. Мы проведём сравнительные эксперименты на простых и глубоких сетях и посмотрим, как периодические активации (например, sin ) ведут себя в сетях. Читать далее",
     "date": "2026-10-28",
     "source": "Habr ML",
     "cat": "ai",
@@ -1710,15 +1764,6 @@
     "lang": "ru"
   },
   {
-    "title": "Я подсвечивал нейроны крохотного ИИ, чтобы понять, когда тот врет",
-    "link": "https://habr.com/ru/companies/selectel/articles/1099918/?utm_campaign=1099918&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В 2023 году адвокат из Нью-Йорка принес в суд записку со ссылками на прецеденты, которые ему «добросовестно» подобрал ChatGPT. Судья не нашел ни одного из этих дел. И не случайно: дел, на которые ссылался ИИ, не существовало вовсе. А через год Air Canada проиграла спор с пассажиром, которому чат-...",
-    "date": "2026-10-28",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "В Индии местный житель инсценировал свою смерть с помощью ИИ, чтобы избежать суда по делу об убийстве",
     "link": "https://habr.com/ru/news/1100456/?utm_campaign=1100456&utm_source=habrahabr&utm_medium=rss",
     "desc": "Житель индийского штата Уттар‑Прадеш Раджкумар Раджбхар инсценировал свою смерть при помощи искусственного интеллекта, чтобы избежать суда по делу об убийстве Йогеша Сингха в 2016 году. Подсудимый предоставил в суд своё свидетельство о смерти, что позволило мужчине почти полтора года прожить на с...",
@@ -1731,6 +1776,15 @@
     "title": "Квантование RWKV-7: что ломается в моделях разного размера",
     "link": "https://habr.com/ru/articles/1100498/?utm_campaign=1100498&utm_source=habrahabr&utm_medium=rss",
     "desc": "Я изучаю посттренировочное квантование семейства RWKV-7 (от 0.1B до 13.3B параметров) двумя пресетами: REDUCTION (сжатие около 2.1x, почти без потерь) и COMPRESSION (около 3.1x, 4 бита на проекции). Исходный вопрос работы: почему 4-битный пресет на модели 2.9B деградирует сильнее, чем на 1.5B (+4...",
+    "date": "2026-10-28",
+    "source": "Habr Python",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Я подсвечивал нейроны крохотного ИИ, чтобы понять, когда тот врет",
+    "link": "https://habr.com/ru/companies/selectel/articles/1099918/?utm_campaign=1099918&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В 2023 году адвокат из Нью-Йорка принес в суд записку со ссылками на прецеденты, которые ему «добросовестно» подобрал ChatGPT. Судья не нашел ни одного из этих дел. И не случайно: дел, на которые ссылался ИИ, не существовало вовсе. А через год Air Canada проиграла спор с пассажиром, которому чат-...",
     "date": "2026-10-28",
     "source": "Habr Python",
     "cat": "ai",
@@ -24791,15 +24845,6 @@
     "desc": "",
     "date": "2026-08-04",
     "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "AI adoption starts with truth",
-    "link": "https://replit.com/blog/ai-adoption",
-    "desc": "The semantic layer is the foundation AI adoption is limited by trust. A user who gets burned by a confidently wrong answer will double-check the next one, eventually routing consequential work around the system entirely. Once that happens, AI remains a tool at the edges rather than infrastructure...",
-    "date": "2026-08-03",
-    "source": "Replit",
     "cat": "ai",
     "lang": "en"
   }
