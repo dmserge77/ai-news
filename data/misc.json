@@ -1,18 +1,28 @@
 [
   {
-    "title": "AI isn't replacing SREs, it's deskilling them",
-    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
-    "desc": "Article URL: https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling Comments URL: https://news.ycombinator.com/item?id=50305693 Points: 588 # Comments: 435",
-    "date": "2026-10-30",
-    "source": "Hacker News",
+    "title": "Пентест по PTES: руководство по Metasploit от создателей индустрии",
+    "link": "https://habr.com/ru/articles/1100698/?utm_campaign=1100698&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Пентестерам посвящается. Вы запустили готовый модуль, получили доступ к системе — и на этом все остановилось. Как понять, что вообще дает этот доступ? Через неделю выясняется, что ваш пэйлоад ловит антивирус заказчика, и вы не понимаете почему. А когда проект наконец доходит до облака, выясняется...",
+    "date": "2026-10-31",
+    "source": "Habr Облака",
     "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Satlyt: спутники как орбитальные дата-центры",
+    "link": "https://vc.ru/ai/3227340-satlyt-sputniki-kak-orbitalnye-data-centry?from=rss",
+    "desc": "📌 Что случилось• Satlyt испытала ПО для вычислений на орбите• Тест в начале октября готовили 13 месяцев, проект — с Университетом Хьюстона при финансировании NASA• ПО уже работает на трёх спутниках🔍 Как это работает• В тесте смоделировали сеть: 4 компьютера, 4 пользователя, 8 сервисов• ПО само ра...",
+    "date": "2026-10-31",
+    "source": "vc.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
   },
   {
     "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
     "link": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
-    "desc": "Article URL: https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/ Comments URL: https://news.ycombinator.com/item?id=50304122 Points: 183 # Comments: 214",
+    "desc": "Article URL: https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/ Comments URL: https://news.ycombinator.com/item?id=50304122 Points: 228 # Comments: 270",
     "date": "2026-10-30",
     "source": "Hacker News",
     "cat": "misc",
@@ -45,6 +55,16 @@
     "desc": "",
     "date": "2026-10-30",
     "source": "UX Collective",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "AI isn't replacing SREs, it's deskilling them",
+    "link": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+    "desc": "Article URL: https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling Comments URL: https://news.ycombinator.com/item?id=50305693 Points: 588 # Comments: 435",
+    "date": "2026-10-30",
+    "source": "Hacker News",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
@@ -155,6 +175,16 @@
     "desc": "Придумать и успешно реализовать стратегию привлечения девушек из Москвы 16-45 лет в 42-46 размере , желающий побывать на показе в роли модели в дизайнерском показе вечерних образов на недели моды в Москве и ощутить весь спектр захватывающих эмоций , плюс получить диплом об участии , фото и видео ...",
     "date": "2026-10-30",
     "source": "FL.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "VK Tech и Минцифры Татарстана расширяют сотрудничество в области цифровизации",
+    "link": "https://hi-tech.mail.ru/news/159408-vk-tech-i-mincifry-tatarstana-rasshiryayut-sotrudnichestvo-v-oblasti-cifrovizacii/",
+    "desc": "Госорганы Татарстана уже пользуются почтой VK WorkSpace. VK Tech и Министерство цифрового развития государственного управления, информационных технологий и связи Республики Татарстан подписали соглашение об образовательном и научно-техническом сотрудничестве. Стороны продолжат развивать электронн...",
+    "date": "2026-10-30",
+    "source": "Hi-Tech Mail",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -683,6 +713,26 @@
     "title": "Агент с root на моём VPS: как не дать ему отрезать себе доступ",
     "link": "https://habr.com/ru/articles/1100474/?utm_campaign=1100474&utm_source=habrahabr&utm_medium=rss",
     "desc": "Агент только что поставил fail2ban и проверяет работу. Вход по ключу есть. По паролю нет, так и задумано. Ещё пара проверок для верности, и где-то на пятой неудачной попытке fail2ban банит IP, с которого всё это идёт. Агента. И вас заодно, потому что агент сидит на вашем ноутбуке. Дальше все кома...",
+    "date": "2026-10-28",
+    "source": "Habr Open Source",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Как я разблокировал нативный бинауральный движок Apple HRTFHQ для любых наушников в macOS",
+    "link": "https://habr.com/ru/articles/1100612/?utm_campaign=1100612&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Вот пользуюсь я своим старым макбук про 2017 на интеле и наушниками AirPods и не понимаю почему на айфоне есть пространственное стерео, а на ноуте нет. В поисках готовых решений ничего не нашел (может плохо искал). Решил написать сам (код писать не умею), под рукой был Google Antigravity на актуа...",
+    "date": "2026-10-28",
+    "source": "Habr Open Source",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Я сделал сайт, где можно самому пролистать Вселенную: от 490-метрового астероида до границы наблюдаемого космоса",
+    "link": "https://habr.com/ru/articles/1100590/?utm_campaign=1100590&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Помните Size of Life от Нила Агарвала? Листаешь вправо, и рядом с каждым существом появляется следующее, побольше. Мне захотелось такого же, но про космос: начать с крошечного астероида и пролистать всё до самой границы того, что мы вообще можем увидеть. Получилось 79 объектов и 24 порядка величи...",
     "date": "2026-10-28",
     "source": "Habr Open Source",
     "cat": "misc",
