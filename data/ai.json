@@ -1,30 +1,48 @@
 [
   {
-    "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
-    "link": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
-    "desc": "Article URL: https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26 Comments URL: https://news.ycombinator.com/item?id=50315990 Points: 13 # Comments: 3",
-    "date": "2026-10-31",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Why Anthropic's Filing Crushed Tech Stocks",
-    "link": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
-    "desc": "Article URL: https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech Comments URL: https://news.ycombinator.com/item?id=50315574 Points: 14 # Comments: 16",
-    "date": "2026-10-31",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "We Took over ChatGPT Accounts",
     "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-    "desc": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 86 # Comments: 36",
+    "desc": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 165 # Comments: 79",
     "date": "2026-10-31",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Как я первый раз в жизни написал научную статью в LaTeX с помощью ИИ-Агента за полдня",
+    "link": "https://habr.com/ru/articles/1102114/?utm_campaign=1102114&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Анонс для ленты Хабра Как я первый раз в жизни написал научную статью в LaTeX по всем строгим правилам с помощью ИИ-Агента в GigaCode за полдня Если вы когда-нибудь пытались оформить научную статью — знаете: самое сложное это не идеи, а вёрстка. LaTeX выглядит как портал в другой мир: консоль, ко...",
+    "date": "2026-10-31",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Конвейер ИИ-мультсериала: сценарий по секундам, опоры, Kling и автоматическая проверка серии",
+    "link": "https://habr.com/ru/articles/1102098/?utm_campaign=1102098&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Слева Seedance поставил двух Зин; в центре опорный лист; справа выбранный кадр Kling с одной Зиной. Мы собираем вертикальный мультсериал «Лесная улица» из облачных моделей: в этой пробе серия на 24 секунды, постоянные герои, русская речь. За 29–31 октября 2026 года одну серию пересобрали примерно...",
+    "date": "2026-10-31",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Жизнь после блокировки: нейронки изменили мою профессию и я не хочу снова работать по‑старому",
+    "link": "https://habr.com/ru/articles/1102092/?utm_campaign=1102092&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Недавние истории с блокировками от Anthropic заставили меня всерьез задуматься, как я буду работать, если и мой аккаунт отлетит в бан. В мгновение я поймал себя на мысли, насколько сильно изменилась моя инженерная профессия. Прошло всего около года, но я уже вспоминаю прежний уклад своей деятельн...",
+    "date": "2026-10-31",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как я написал линтер для Model Context Protocol (MCP) и нашел баги в официальных серверах Anthropic",
+    "link": "https://habr.com/ru/articles/1102086/?utm_campaign=1102086&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Если вы пишете MCP-серверы для Claude Desktop или Cursor, то знаете, как легко поймать неочевидный баг: • Случайный console.log() в stdout ломает JSON-RPC протокол и наглухо вешает клиент. • Если у опасного инструмента (удаление БД/файлов) нет аннотации destructiveHint, агент выполнит его без под...",
+    "date": "2026-10-31",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "[Перевод] Выжимаем максимум из BERT: токенизация в 50 раз быстрее",
@@ -36,7 +54,7 @@
     "lang": "ru"
   },
   {
-    "title": ".tbook четыре месяца спустя: читалки, словари и v2 формата",
+    "title": "tbook четыре месяца спустя: читалки, словари и v2 формата",
     "link": "https://habr.com/ru/articles/1100334/?utm_campaign=1100334&utm_source=habrahabr&utm_medium=rss",
     "desc": "В июле я рассказал , как искал себе читалку для книг на иностранном языке и в итоге родился TBook формат. Половина той статьи была о том, как заставить дешёвые LLM выдавать такое выравнивание без позиционного дрейфа. С тех пор прошло четыре месяца. Приложение вышло в Google Play, появилась дескто...",
     "date": "2026-10-31",
@@ -45,7 +63,7 @@
     "lang": "ru"
   },
   {
-    "title": "Как ИИ-детекторы убивают высшее образование",
+    "title": "Как ИИ‑детекторы убивают высшее образование",
     "link": "https://habr.com/ru/articles/1102058/?utm_campaign=1102058&utm_source=habrahabr&utm_medium=rss",
     "desc": "Студенты всё чаще используют LLM для написания рефератов, курсовых работ, дипломных проектов — вообще любых заданий, где нет непрерывного и постоянного контроля преподавателя. Естественно, система высшего образования этим недовольна и пытается с этим бороться. И самое простое решение — выявлять и...",
     "date": "2026-10-31",
@@ -117,6 +135,15 @@
     "lang": "ru"
   },
   {
+    "title": "Cisco предоставила своему инженеру неограниченный доступ к ИИ-токенам для переписывания легаси-кода",
+    "link": "https://habr.com/ru/news/1102096/?utm_campaign=1102096&utm_source=habrahabr&utm_medium=rss",
+    "desc": "По информации Fortune, американская компания Cisco официально предоставила одному из своих инженеров неограниченный доступ к ИИ-токенам для переписывания большого объёма корпоративного легаси-кода. Читать далее",
+    "date": "2026-10-31",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Self-hosted модель «Le Chonk» вышла из превью. Как сравнялись с GLM и почему Альтман недоволен?",
     "link": "https://habr.com/ru/companies/selectel/news/1101750/?utm_campaign=1101750&utm_source=habrahabr&utm_medium=rss",
     "desc": "29 октября французская Mistral AI опубликовала открытые веса своей новой модели Mistral Large 4, которую внутри компании прозвали «Le Chonk» — «Толстяк», или «Упитанный», из-за массивного веса модели в триллион параметров. Но благодаря архитектуре Mixture of Experts на обработку каждого токена вы...",
@@ -153,8 +180,17 @@
     "lang": "ru"
   },
   {
+    "title": "Интерактивные схемы архитектуры в одном HTML-файле: установка и разбор скилла Archify для Claude",
+    "link": "https://vc.ru/ai/3227343-interaktivnye-shemy-arhitektury-s-archify-dlya-claude-code?from=rss",
+    "desc": "Скилл генерирует автономный HTML с интерактивной схемой по текстовому описанию или кодовой базе и набрал 91,9 тысячи звёзд на GitHub.",
+    "date": "2026-10-31",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Mika — ИИ-агент для Android, который работает сам",
-    "link": "https://vc.ru/ai/3227316-mika-ii-agent-dlya-android-kotoryi-rabotaet-sam?from=rss",
+    "link": "https://vc.ru/ai/3227316-mika-ii-agent-dlya-android?from=rss",
     "desc": "📌 Что случилось• Mika — открытый Android-агент, создан 29 октября 2026 года• За два дня проект набрал около 1 700 звёзд на GitHub, версия 0.1.16🔍 Как это работает• Агент действует на скрытом втором экране: нажимает и листает приложения• Основной экран остаётся свободным — виден мини-обзор задачи•...",
     "date": "2026-10-31",
     "source": "vc.ru",
@@ -225,6 +261,15 @@
     "lang": "ru"
   },
   {
+    "title": "Альтман приехал к Samsung выпрашивать память для ИИ на фоне усиления дефицита",
+    "link": "https://3dnews.ru/1150707",
+    "desc": "Глава OpenAI Сэм Альтман приехал в Южную Корею и встретился примерно с 50 руководителями компаний, входящих в Samsung Group. Стороны обсудили, как ИИ изменит бизнес в ближайшее десятилетие на фоне развития долгосрочного сотрудничества в сфере памяти и вычислительной инфраструктуры. Его основой ст...",
+    "date": "2026-10-31",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Альтман: наличие оперативной памяти в ПК «довольно ужасно» — в ИИ ЦОД она была бы полезнее",
     "link": "https://3dnews.ru/1150695",
     "desc": "Генеральный директор OpenAI Сэм Альтман (Sam Altman) заявил, что использование оперативной памяти (DRAM) в домашних компьютерах неэффективно с точки зрения глобального распределения ресурсов. По мнению Альтмана, ей место в центрах обработки данных. Источник изображения: @sama / x.com",
@@ -279,9 +324,36 @@
     "lang": "ru"
   },
   {
+    "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+    "link": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+    "desc": "Article URL: https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26 Comments URL: https://news.ycombinator.com/item?id=50315990 Points: 13 # Comments: 3",
+    "date": "2026-10-31",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Why Anthropic's Filing Crushed Tech Stocks",
+    "link": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
+    "desc": "Article URL: https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech Comments URL: https://news.ycombinator.com/item?id=50315574 Points: 14 # Comments: 16",
+    "date": "2026-10-31",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
     "link": "https://github.com/dbreunig/nesformer",
-    "desc": "Article URL: https://github.com/dbreunig/nesformer Comments URL: https://news.ycombinator.com/item?id=50306442 Points: 267 # Comments: 130",
+    "desc": "Article URL: https://github.com/dbreunig/nesformer Comments URL: https://news.ycombinator.com/item?id=50306442 Points: 273 # Comments: 135",
+    "date": "2026-10-30",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+    "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 938 # Comments: 537",
     "date": "2026-10-30",
     "source": "Hacker News",
     "cat": "ai",
@@ -372,24 +444,6 @@
     "title": "Я не планировал становиться open-source разработчиком, а теперь развиваю проект с 1000+ звёзд на GitHub",
     "link": "https://habr.com/ru/articles/1101612/?utm_campaign=1101612&utm_source=habrahabr&utm_medium=rss",
     "desc": "В начале 2026 года на новогодних праздниках у меня было много свободного времени, и я поставил Claude Code. До этого я уже писал код с ИИ в Cursor и Windsurf, но только на знакомых языках и смотрел весь написанный код. С CLI-агентами всё пошло иначе: я пробовал Claude Code, потом OpenCode и быстр...",
-    "date": "2026-10-30",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Не войти в айти, а пойти на производство? Где будет лучше в 2027 году",
-    "link": "https://habr.com/ru/articles/1101366/?utm_campaign=1101366&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! На связи Сергей Козлов, директор компании-разработчика CRM‑системы «Мегаплан» и базы знаний Collabis — с ИИ‑ассистентами в обоих продуктах. Вокруг только и разговоров, что об искусственном интеллекте. Одни боятся, что их заменят. Другие уверены, что в зоне риска лишь джуны. Третьи д...",
-    "date": "2026-10-30",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Свои GPU плюс облако: как LLM-шлюз живёт в продакшене — ноды, отказы, ключи, обновления",
-    "link": "https://habr.com/ru/articles/1100326/?utm_campaign=1100326&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В прошлой статье я рассказывал про маршрутизацию и деньги в Keystone. The Model Switchboard. (KTMS), нашем open-source LLM-шлюзе на Go. Эта статья про эксплуатацию: как подключить свои видеокарты, что происходит, когда отказывает каждая зависимость, как менять ключи шифрования, как проверять, что...",
     "date": "2026-10-30",
     "source": "Habr AI",
     "cat": "ai",
@@ -495,6 +549,15 @@
     "lang": "ru"
   },
   {
+    "title": "Свои GPU плюс облако: как LLM-шлюз живёт в продакшене — ноды, отказы, ключи, обновления",
+    "link": "https://habr.com/ru/articles/1100326/?utm_campaign=1100326&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В прошлой статье я рассказывал про маршрутизацию и деньги в Keystone. The Model Switchboard. (KTMS), нашем open-source LLM-шлюзе на Go. Эта статья про эксплуатацию: как подключить свои видеокарты, что происходит, когда отказывает каждая зависимость, как менять ключи шифрования, как проверять, что...",
+    "date": "2026-10-30",
+    "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Невыпущенная модель Claude нашла критические уязвимости в Chrome, Windows и Linux за минуты",
     "link": "https://thecode.media/tajnaya-model-claude-nashla-dyry-v-chrome-windows-i-linux/",
     "desc": "Mythos на максималках Сообщение Невыпущенная модель Claude нашла критические уязвимости в Chrome, Windows и Linux за минуты появились сначала на Журнал «Код» программирование без снобизма .",
@@ -540,15 +603,6 @@
     "lang": "ru"
   },
   {
-    "title": "Что нельзя отправлять в нейросеть: памятка для малого бизнеса о персональных данных и коммерческой тайне",
-    "link": "https://vc.ru/ai/3225360-chto-nelzya-otpravlyat-v-nejroset?from=rss",
-    "desc": "Коротко: перед отправкой в нейросеть удаляйте имена, телефоны, адреса и паспортные данные клиентов и сотрудников, реквизиты и коммерческие условия. Для задачи нейросети они почти никогда не нужны. Если ИИ работает с данными клиентов постоянно — например, бот в мессенджере, — это повод разобраться...",
-    "date": "2026-10-30",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Китайская Iluvatar заявила, что сделала ИИ-ускоритель не хуже Nvidia H200 — и даже показала тесты",
     "link": "https://3dnews.ru/1150668",
     "desc": "Китайская компания Iluvatar CoreX заявила, что её графический ускоритель Tiangai 300 способен конкурировать с Nvidia H200, а в отдельных задачах искусственного интеллекта — превосходить его. Компания представила результаты тестов и продемонстрировала работу оборудования журналистам, однако подроб...",
@@ -561,6 +615,60 @@
     "title": "DeepSeek и Moonshot AI использовали GPT-6 Astra для обучения своих ИИ-моделей",
     "link": "https://3dnews.ru/1150637",
     "desc": "Китайские разработчики DeepSeek и Moonshot AI, как выяснило издание The Information, активно использовали результаты работы модели GPT-6 Astra компании OpenAI при обучении своих новейших систем искусственного интеллекта. Речь идёт о практике дистилляции, позволяющей переносить возможности более м...",
+    "date": "2026-10-30",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Neuralink подключила Grok к мозгу человека — искусственный разум помог живому вернуть общение с людьми",
+    "link": "https://3dnews.ru/1150691",
+    "desc": "Neuralink продемонстрировала новые возможности мозгового нейроинтерфейса N1, которые позволили человеку с тяжёлыми нарушениями речи «силой мысли» управлять ИИ-агентом Grok, совершать телефонные звонки и набирать текст на iPhone. Раньше для выполнения этих операций пациенту приходилось совершать о...",
+    "date": "2026-10-30",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Представлена отвёртка с ИИ — она сама найдёт нужную биту и поможет её найти",
+    "link": "https://3dnews.ru/1150690",
+    "desc": "Компания Arrowmax представила на краудфандинговой платформе Kickstarter умную отвёртку Arrowspace S1, которая с помощью встроенной камеры и искусственного интеллекта определяет необходимую насадку и вдобавок указывает, где именно она находится в специальном умном кейсе, предлагаемом в качестве оп...",
+    "date": "2026-10-30",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Ничто не предвещало: Foxconn собралась стать крупнейшим в мире производителем квантовых компьютеров",
+    "link": "https://3dnews.ru/1150686",
+    "desc": "В свежем интервью CNBC председатель совета директоров Foxconn Янг Лю (Young Liu) заявил, что к 2030 году компания станет крупнейшим в мире производителем квантовых компьютеров. Для этого Foxconn не нужны собственные квантовые технологии, в новой для себя области она воспользуется прежним опытом к...",
+    "date": "2026-10-30",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Первый орбитальный дата-центр Google заработал — и родил странный стишок",
+    "link": "https://3dnews.ru/1150689",
+    "desc": "Google сообщила об успешном испытании своих тензорных процессоров TPU на орбите Земли. Модель искусственного интеллекта Gemma 4, работающая на установленных на спутнике чипах, впервые выполнила запрос и сгенерировала ответ. Источник изображения: Google",
+    "date": "2026-10-30",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Китайская CXMT богатеет вместе с лидерами рынка памяти — выручка компании выросла в семь раз",
+    "link": "https://3dnews.ru/1150672",
+    "desc": "Китайский производитель микросхем памяти ChangXin Memory Technologies (CXMT) отчитался о чистой прибыли в размере 54,4 млрд юаней ($8,11 млрд) за трёхмесячный период, завершившийся 30 сентября. Рост финансовых показателей в отчётном квартале обусловлен увеличением цен на чипы памяти на фоне резко...",
+    "date": "2026-10-30",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Раскрыт крупнейший клиент SpaceX — и это вовсе не космическая компания",
+    "link": "https://3dnews.ru/1150655",
+    "desc": "Anthropic стала крупнейшим клиентом SpaceX: в III квартале текущего года на долю лаборатории искусственного интеллекта пришлись более трети всей выручки компании Илона Маска (Elon Musk), которая занимается ИИ, технологиями спутниковой связи и ракетостроением. Источник изображения: SpaceX / unspla...",
     "date": "2026-10-30",
     "source": "3DNews",
     "cat": "ai",
@@ -612,42 +720,6 @@
     "lang": "ru"
   },
   {
-    "title": "Neuralink подключила Grok к мозгу человека — искусственный разум помог живому вернуть общение с людьми",
-    "link": "https://3dnews.ru/1150691",
-    "desc": "Neuralink продемонстрировала новые возможности мозгового нейроинтерфейса N1, которые позволили человеку с тяжёлыми нарушениями речи «силой мысли» управлять ИИ-агентом Grok, совершать телефонные звонки и набирать текст на iPhone. Раньше для выполнения этих операций пациенту приходилось совершать о...",
-    "date": "2026-10-30",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Представлена отвёртка с ИИ — она сама найдёт нужную биту и поможет её найти",
-    "link": "https://3dnews.ru/1150690",
-    "desc": "Компания Arrowmax представила на краудфандинговой платформе Kickstarter умную отвёртку Arrowspace S1, которая с помощью встроенной камеры и искусственного интеллекта определяет необходимую насадку и вдобавок указывает, где именно она находится в специальном умном кейсе, предлагаемом в качестве оп...",
-    "date": "2026-10-30",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Ничто не предвещало: Foxconn собралась стать крупнейшим в мире производителем квантовых компьютеров",
-    "link": "https://3dnews.ru/1150686",
-    "desc": "В свежем интервью CNBC председатель совета директоров Foxconn Янг Лю (Young Liu) заявил, что к 2030 году компания станет крупнейшим в мире производителем квантовых компьютеров. Для этого Foxconn не нужны собственные квантовые технологии, в новой для себя области она воспользуется прежним опытом к...",
-    "date": "2026-10-30",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Первый орбитальный дата-центр Google заработал — и родил странный стишок",
-    "link": "https://3dnews.ru/1150689",
-    "desc": "Google сообщила об успешном испытании своих тензорных процессоров TPU на орбите Земли. Модель искусственного интеллекта Gemma 4, работающая на установленных на спутнике чипах, впервые выполнила запрос и сгенерировала ответ. Источник изображения: Google",
-    "date": "2026-10-30",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Как в 1940-х американцы пытались превратить летучих мышей в бомбы",
     "link": "https://hi-tech.mail.ru/articles/159407-kak-v-1940-h-amerikancy-pytalis-prevratit-letuchih-myshej-v-bomby/",
     "desc": "Летучая мышь легка, неприхотлива и умеет прятаться под крышей любого здания. В 1942 году американский стоматолог увидел в этих свойствах готовый способ поджигать города, и армия США потратила на его идею около 2 млн долларов. Рассказываем, как проект дошел до испытаний и почему его закрыли раньше...",
@@ -684,13 +756,22 @@
     "lang": "ru"
   },
   {
-    "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-    "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-    "desc": "https://cursor.com/blog/claude-code-extension-security-notic... Comments URL: https://news.ycombinator.com/item?id=50300683 Points: 884 # Comments: 522",
+    "title": "Не войти в айти, а пойти на производство? Где будет лучше в 2027 году",
+    "link": "https://habr.com/ru/articles/1101366/?utm_campaign=1101366&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! На связи Сергей Козлов, директор компании-разработчика CRM‑системы «Мегаплан» и базы знаний Collabis — с ИИ‑ассистентами в обоих продуктах. Вокруг только и разговоров, что об искусственном интеллекте. Одни боятся, что их заменят. Другие уверены, что в зоне риска лишь джуны. Третьи д...",
     "date": "2026-10-30",
-    "source": "Hacker News",
+    "source": "Habr AI",
     "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
+  },
+  {
+    "title": "Что нельзя отправлять в нейросеть: памятка для малого бизнеса о персональных данных и коммерческой тайне",
+    "link": "https://vc.ru/ai/3225360-chto-nelzya-otpravlyat-v-nejroset?from=rss",
+    "desc": "Коротко: перед отправкой в нейросеть удаляйте имена, телефоны, адреса и паспортные данные клиентов и сотрудников, реквизиты и коммерческие условия. Для задачи нейросети они почти никогда не нужны. Если ИИ работает с данными клиентов постоянно — например, бот в мессенджере, — это повод разобраться...",
+    "date": "2026-10-30",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Rationale for filtering LLM usage links as off-topic",
@@ -745,15 +826,6 @@
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
-  },
-  {
-    "title": "Раскрыт крупнейший клиент SpaceX — и это вовсе не космическая компания",
-    "link": "https://3dnews.ru/1150655",
-    "desc": "Anthropic стала крупнейшим клиентом SpaceX: в III квартале текущего года на долю лаборатории искусственного интеллекта пришлись более трети всей выручки компании Илона Маска (Elon Musk), которая занимается ИИ, технологиями спутниковой связи и ракетостроением. Источник изображения: SpaceX / unspla...",
-    "date": "2026-10-30",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
   },
   {
     "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
