@@ -1,17 +1,89 @@
 [
   {
-    "title": "Anthropic blocks users for anything touching training larger models",
-    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
-    "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 188 # Comments: 111",
+    "title": "Как ChatGPT помог мне потратить шесть часов на пятиминутную проблему",
+    "link": "https://habr.com/ru/articles/1102182/?utm_campaign=1102182&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В тот августовский летний день я занимался своими исследованиями финансового рынка и приводил в порядок заметки в Obsidian. В какой-то момент я загрузил два CSV-файла, затем удалил их через Проводник Windows и обнаружил, что Obsidian стал подтормаживать. Причём тормозило не всё приложение. Редакт...",
+    "date": "2026-11-01",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Claude в фарме: шесть партнёров и 35 000 вариантов антител",
+    "link": "https://habr.com/ru/news/1102202/?utm_campaign=1102202&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Anthropic описала результаты нескольких месяцев работы Claude над задачами шести организаций, которые разрабатывают лекарства: BigHat Biosciences, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines и The Column Group. Параллельно компания запустила собственные программы по редки...",
+    "date": "2026-11-01",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как мои автоматические проверки врали мне зеленым цветом",
+    "link": "https://habr.com/ru/articles/1102196/?utm_campaign=1102196&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Почти весь код своего проекта kb-engine я писал вместе с ИИ-агентом и быстро понял: правило, которое можно пропустить, когда неудобно, никто соблюдать не будет. Работает только то, что проверяет код. Сейчас в проекте 21 автоматическая проверка. Вот пять историй, и в нескольких из них проверка был...",
+    "date": "2026-11-01",
+    "source": "Habr DevOps",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как построить игровой мир на автономных моделях Claude Fable: разбор архитектуры Spawn",
+    "link": "https://vc.ru/ai/3226398-kak-postroit-igrovoi-mir-na-avtonomnyh-modelyah-claude-fable-razbor-arhitektury-spawn?from=rss",
+    "desc": "Рой автономных агентов на Claude Fable ежечасно вносит изменения в продакшен игры и тратит на токены свыше $3 млн в месяц.",
+    "date": "2026-11-01",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ChatGPT с декабря: чат и Codex будут тратить один лимит, и считать его станут в токенах",
+    "link": "https://vc.ru/ai/3228796-chatgpt-i-codex-obshchij-limit-ispolzovaniya?from=rss",
+    "desc": "Касается Plus, Pro и Business. Разбираю, что уже известно, что тратит лимит быстрее всего и как не остаться без Codex посреди задачи.",
+    "date": "2026-11-01",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Объявление на Авито с помощью нейросети: текст и фото, которые пройдут модерацию",
+    "link": "https://vc.ru/marketing/3227075-kak-sozdat-ob-yavlenie-na-avito-s-nevrosyetyu?from=rss",
+    "desc": "Как составить объявление на Авито через ChatGPT или Claude без выдуманных характеристик и стоп-слов, где нужны живые снимки вместо ИИ-картинок и как обновлять карточки по статистике профиля из чата.",
+    "date": "2026-11-01",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как закрыть сайт от обучения нейросетей: единый policy token в robots.txt от инженеров Anthropic и IETF",
+    "link": "https://vc.ru/ai/3227833-kak-zakryt-sait-ot-neirosetei-edinyi-token-policy?from=rss",
+    "desc": "Технический лид Anthropic опубликовал черновик стандарта IETF, который поддержали OpenAI, Google и Microsoft.",
+    "date": "2026-11-01",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Что происходит с интернетом в России 1 ноября 2026 года",
+    "link": "https://hi-tech.mail.ru/news/145610-sboi-interneta-v-rossii/",
+    "desc": "Узнайте подробности о жалобах пользователей. Пользователи из России продолжают сталкиваться с различными сбоями в работе интернета. Статистику об этом собирает профильный сервис Downdetector. В каких регионах сегодня наблюдаются проблемы со связью Согласно жалобам пользователей, сбои фиксируют в ...",
+    "date": "2026-11-01",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ChatGPT and Codex usage limits merging",
+    "link": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+    "desc": "Article URL: https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits Comments URL: https://news.ycombinator.com/item?id=50320588 Points: 118 # Comments: 56",
     "date": "2026-10-31",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Show HN: A language model that lives in a boot sector",
-    "link": "https://github.com/kerlenton/bootgpt",
-    "desc": "All the ideas came from the boot sector demo scene where people had been writing chess and BASIC games in 512 bytes, even a C compiler. I wondered what one can do using a neural network instead of a program and generating boot logs for non-existent hardware was something fun to try. Entire infere...",
+    "title": "Anthropic blocks users for anything touching training larger models",
+    "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+    "desc": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 344 # Comments: 196",
     "date": "2026-10-31",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,7 +92,7 @@
   {
     "title": "Do the math: How we took over ChatGPT accounts",
     "link": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
-    "desc": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 303 # Comments: 149",
+    "desc": "Article URL: https://www.parameter.ai/labs/we-found-a-gap-at-openai Comments URL: https://news.ycombinator.com/item?id=50314699 Points: 330 # Comments: 163",
     "date": "2026-10-31",
     "source": "Hacker News",
     "cat": "ai",
@@ -288,15 +360,6 @@
     "lang": "ru"
   },
   {
-    "title": "Топ нейросетей без цензуры: 5 открытых моделей без отказов",
-    "link": "https://vc.ru/ai/3227311-top-neirosetei-bez-tsenzury?from=rss",
-    "desc": "🏆 Топ-5• 1. Qwen 3.8-27B Uncensored — №1 в целом: 16,8 ГБ, карта 24 ГБ• 2. Dolphin 3.0 Mistral 24B — без отказов, есть R1-версия• 3. Hermes 4 (Nous) — слушается ваш промпт, версии 14B–405B• 4. Qwen 3.6-27B huihui-ai — классика, одна команда в Ollama• 5. Gemma 4 26B-A4B — MoE ~4B активных: быстрая...",
-    "date": "2026-10-31",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Альтман приехал к Samsung выпрашивать память для ИИ на фоне усиления дефицита",
     "link": "https://3dnews.ru/1150707",
     "desc": "Глава OpenAI Сэм Альтман приехал в Южную Корею и встретился примерно с 50 руководителями компаний, входящих в Samsung Group. Стороны обсудили, как ИИ изменит бизнес в ближайшее десятилетие на фоне развития долгосрочного сотрудничества в сфере памяти и вычислительной инфраструктуры. Его основой ст...",
@@ -342,20 +405,29 @@
     "lang": "ru"
   },
   {
-    "title": "Что происходит с интернетом в России 31 октября 2026 года",
-    "link": "https://hi-tech.mail.ru/news/145610-sboi-interneta-v-rossii/",
-    "desc": "Узнайте подробности о жалобах пользователей. Пользователи из России продолжают сталкиваться с различными сбоями в работе интернета. Статистику об этом собирает профильный сервис Downdetector. В каких регионах сегодня наблюдаются проблемы со связью Согласно жалобам пользователей, сбои фиксируют в ...",
+    "title": "Как отличить ИИ-картинку среди настоящих: браузерная игра от Google",
+    "link": "https://hi-tech.mail.ru/news/101612-neprostaya-veb-igra-ot-google-pokorila-polzovatelej-2/",
+    "desc": "В сети нашли странную и сложную игру от Google, которая заставит вас пораскинуть мозгами. Игра не новая, хотя актуальной стала не так давно. Odd One Out — браузерная головоломка, в которой игроку предстоит найти ИИ-картинки среди настоящих картин. Попробовать можно бесплатно. Чтобы запустить игру...",
     "date": "2026-10-31",
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "Как отличить ИИ-картинку среди настоящих: браузерная игра от Google",
-    "link": "https://hi-tech.mail.ru/news/101612-neprostaya-veb-igra-ot-google-pokorila-polzovatelej-2/",
-    "desc": "В сети нашли странную и сложную игру от Google, которая заставит вас пораскинуть мозгами. Игра не новая, хотя актуальной стала не так давно. Odd One Out — браузерная головоломка, в которой игроку предстоит найти ИИ-картинки среди настоящих картин. Попробовать можно бесплатно. Чтобы запустить игру...",
+    "title": "Show HN: A language model that lives in a boot sector",
+    "link": "https://github.com/kerlenton/bootgpt",
+    "desc": "All the ideas came from the boot sector demo scene where people had been writing chess and BASIC games in 512 bytes, even a C compiler. I wondered what one can do using a neural network instead of a program and generating boot logs for non-existent hardware was something fun to try. Entire infere...",
     "date": "2026-10-31",
-    "source": "Hi-Tech Mail",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Топ нейросетей без цензуры: 5 открытых моделей без отказов",
+    "link": "https://vc.ru/ai/3227311-top-neirosetei-bez-tsenzury?from=rss",
+    "desc": "🏆 Топ-5• 1. Qwen 3.8-27B Uncensored — №1 в целом: 16,8 ГБ, карта 24 ГБ• 2. Dolphin 3.0 Mistral 24B — без отказов, есть R1-версия• 3. Hermes 4 (Nous) — слушается ваш промпт, версии 14B–405B• 4. Qwen 3.6-27B huihui-ai — классика, одна команда в Ollama• 5. Gemma 4 26B-A4B — MoE ~4B активных: быстрая...",
+    "date": "2026-10-31",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -471,15 +543,6 @@
     "title": "Какие вопросы клиенту стали неприличными в эпоху нейросетей: ревизия методики продаж Рекхэма",
     "link": "https://habr.com/ru/companies/simpleone/articles/1101630/?utm_campaign=1101630&utm_source=habrahabr&utm_medium=rss",
     "desc": "Методике продаж Нила Рекхэма почти 40 лет, а продажи за это время успели сильно поменяться. С нейросетями собрать информацию о клиенте (чем занимается компания, какой у неё оборот, сколько продавцов) стало делом нескольких минут. Если после этого спросить заказчика о том, что лежит на его же сайт...",
-    "date": "2026-10-30",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Как именно Claude и подобные компании банят аккаунты «за VPN» и «токсичный паспорт»",
-    "link": "https://habr.com/ru/companies/aurorium/articles/1101594/?utm_campaign=1101594&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Интернет сильно шумит в последние несколько дней от новости, что Claude начал банить пользователей по причине предоставления ими для верификации «токсичных паспортов», хотя в правилах площадки нет ничего подобного. Правила сервиса прямо не запрещают обладателям конкретного паспорта пользоваться п...",
     "date": "2026-10-30",
     "source": "Habr AI",
     "cat": "ai",
@@ -639,11 +702,11 @@
     "lang": "ru"
   },
   {
-    "title": "Что умеет ChatGPT в 2026 году: бесплатные возможности и отличия платных подписок",
-    "link": "https://vc.ru/chatgpt/3219258-vozmozhnosti-chatgpt-besplatnye-funktsii-i-platnye-podpiski?from=rss",
-    "desc": "В статье разберем возможности ChatGPT и сравним все тарифы.",
+    "title": "Neuralink подключила Grok к мозгу человека — искусственный разум помог живому вернуть общение с людьми",
+    "link": "https://3dnews.ru/1150691",
+    "desc": "Neuralink продемонстрировала новые возможности мозгового нейроинтерфейса N1, которые позволили человеку с тяжёлыми нарушениями речи «силой мысли» управлять ИИ-агентом Grok, совершать телефонные звонки и набирать текст на iPhone. Раньше для выполнения этих операций пациенту приходилось совершать о...",
     "date": "2026-10-30",
-    "source": "vc.ru",
+    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -660,15 +723,6 @@
     "title": "DeepSeek и Moonshot AI использовали GPT-6 Astra для обучения своих ИИ-моделей",
     "link": "https://3dnews.ru/1150637",
     "desc": "Китайские разработчики DeepSeek и Moonshot AI, как выяснило издание The Information, активно использовали результаты работы модели GPT-6 Astra компании OpenAI при обучении своих новейших систем искусственного интеллекта. Речь идёт о практике дистилляции, позволяющей переносить возможности более м...",
-    "date": "2026-10-30",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Neuralink подключила Grok к мозгу человека — искусственный разум помог живому вернуть общение с людьми",
-    "link": "https://3dnews.ru/1150691",
-    "desc": "Neuralink продемонстрировала новые возможности мозгового нейроинтерфейса N1, которые позволили человеку с тяжёлыми нарушениями речи «силой мысли» управлять ИИ-агентом Grok, совершать телефонные звонки и набирать текст на iPhone. Раньше для выполнения этих операций пациенту приходилось совершать о...",
     "date": "2026-10-30",
     "source": "3DNews",
     "cat": "ai",
@@ -747,20 +801,29 @@
     "lang": "ru"
   },
   {
+    "title": "Как именно Claude и подобные компании банят аккаунты «за VPN» и «токсичный паспорт»",
+    "link": "https://habr.com/ru/companies/aurorium/articles/1101594/?utm_campaign=1101594&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Интернет сильно шумит в последние несколько дней от новости, что Claude начал банить пользователей по причине предоставления ими для верификации «токсичных паспортов», хотя в правилах площадки нет ничего подобного. Правила сервиса прямо не запрещают обладателям конкретного паспорта пользоваться п...",
+    "date": "2026-10-30",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Что умеет ChatGPT в 2026 году: бесплатные возможности и отличия платных подписок",
+    "link": "https://vc.ru/chatgpt/3219258-vozmozhnosti-chatgpt-besplatnye-funktsii-i-platnye-podpiski?from=rss",
+    "desc": "В статье разберем возможности ChatGPT и сравним все тарифы.",
+    "date": "2026-10-30",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "OpenAI решила научить ИИ лучше понимать человеческие ценности",
     "link": "https://3dnews.ru/1150638",
     "desc": "OpenAI пересмотрела Model Spec — свод правил, определяющий принципы поведения её ИИ-моделей. Компания выделила пять основных пунктов, главным из которых стало понимание намерений человека. Новые правила также определят поведение ИИ в незнакомых ситуациях. Источник изображения: Brecht Corbeel/Unsp...",
     "date": "2026-10-30",
     "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Как в 1940-х американцы пытались превратить летучих мышей в бомбы",
-    "link": "https://hi-tech.mail.ru/articles/159407-kak-v-1940-h-amerikancy-pytalis-prevratit-letuchih-myshej-v-bomby/",
-    "desc": "Летучая мышь легка, неприхотлива и умеет прятаться под крышей любого здания. В 1942 году американский стоматолог увидел в этих свойствах готовый способ поджигать города, и армия США потратила на его идею около 2 млн долларов. Рассказываем, как проект дошел до испытаний и почему его закрыли раньше...",
-    "date": "2026-10-30",
-    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1247,15 +1310,6 @@
     "desc": "Anthropic идёт на биржу: создатель Claude подал заявку на IPO📌 Что случилось• 26 октября Anthropic подала в SEC публичную заявку S-1• Акции класса А планируют разместить на Nasdaq под тикером ANT• Цена и число акций пока не названы📊 Цифры из заявки• Выручка за первое полугодие 2026 — $16,3 млрд п...",
     "date": "2026-10-29",
     "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Найден полупроводник, который может помочь решить одну из главных проблем солнечных панелей",
-    "link": "https://3dnews.ru/1150629",
-    "desc": "Учёные из Оксфордского университета (University of Oxford) вместе с коллегами из Китая сообщили о решении главной проблемы, ограничивающей КПД солнечных панелей, — преодолении компромисса между светопоглощающей способностью материала и скоростью потери заряженных частиц: чем лучше материал поглощ...",
-    "date": "2026-10-29",
-    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -4689,15 +4743,6 @@
     "lang": "ru"
   },
   {
-    "title": "OpenAI научила ИИ‑модели лучше справляться с устаревшими языками программирования",
-    "link": "https://habr.com/ru/news/1097652/?utm_campaign=1097652&utm_source=habrahabr&utm_medium=rss",
-    "desc": "OpenAI объявила , что научила свои ИИ‑модели гораздо лучше справляться с устаревшими языками программирования. В тестах GPT-6.1 Sol перенесла программы с COBOL на современные языки с сохранением их работы в 97,9% случаев. Читать далее",
-    "date": "2026-10-22",
-    "source": "Habr ML Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Чат на сайте не должен врать: почему наш ассистент иногда честно отвечает «точного ответа нет»",
     "link": "https://habr.com/ru/articles/1098152/?utm_campaign=1098152&utm_source=habrahabr&utm_medium=rss",
     "desc": "Представьте: посетитель интернет‑магазина спрашивает в чате, сколько дней на возврат. Бот бодро отвечает: «30 дней, без вопросов». На сайте при этом написано 14. Через три недели покупатель приходит с товаром и скриншотом переписки. Спорить с ним бесполезно: «ваш же консультант сказал». Мы делаем...",
@@ -4721,6 +4766,15 @@
     "desc": "Изучение нейросетей для детей: рейтинг 5 школ в 2026 году. Сравнение курсов Пиксель, Rebotica, CODDY, Фоксфорд и Skillbox Kids. Программы, возраст и форматы обучения. — Читать дальше « Изучение нейросетей для детей: рейтинг 5 школ и курсов в 2026 году »",
     "date": "2026-10-22",
     "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI научила ИИ‑модели лучше справляться с устаревшими языками программирования",
+    "link": "https://habr.com/ru/news/1097652/?utm_campaign=1097652&utm_source=habrahabr&utm_medium=rss",
+    "desc": "OpenAI объявила , что научила свои ИИ‑модели гораздо лучше справляться с устаревшими языками программирования. В тестах GPT-6.1 Sol перенесла программы с COBOL на современные языки с сохранением их работы в 97,9% случаев. Читать далее",
+    "date": "2026-10-22",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
