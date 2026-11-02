@@ -1,5 +1,14 @@
 [
   {
+    "title": "Один API вместо десятка интеграций: как упростить работу с разными LLM в проектах",
+    "link": "https://habr.com/ru/articles/1102422/?utm_campaign=1102422&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Современная разработка всё чаще строится вокруг языковых моделей. Сегодня в проекте используется GPT для анализа, завтра появляется необходимость подключить Claude, для генерации кода хочется попробовать DeepSeek, а для отдельных задач — Gemini или другие модели. На первый взгляд, проблема решает...",
+    "date": "2026-11-02",
+    "source": "Habr Python",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Разбор эксперимента с Claude Sonnet 5 в нейрохирургии: как модель автономно прооперировала мозг мыши",
     "link": "https://vc.ru/ai/3229412-eksperiment-s-claude-sonnet-5-v-neyrokhirurgii-avtonomnaya-operatsiya-na-myshakh?from=rss",
     "desc": "Агент на базе Claude Sonnet 5 сам выбрал генную терапию, рассчитал координаты и ввёл препарат в мозг живой мыши, тогда как модели линейки Opus оперировать отказались.",
@@ -7,6 +16,15 @@
     "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+    "link": "https://hackerbooks.org",
+    "desc": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page. To be ...",
+    "date": "2026-11-01",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Замена Claude: Kimi набрала 96% в моем тесте работы с 1С",
@@ -286,15 +304,6 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
-    "link": "https://hackerbooks.org",
-    "desc": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page. To be ...",
-    "date": "2026-11-01",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "so i guess everyone uses llms to think now",
@@ -900,6 +909,33 @@
     "lang": "ru"
   },
   {
+    "title": "Представлена отвёртка с ИИ — она сама найдёт нужную биту и поможет её найти",
+    "link": "https://3dnews.ru/1150690",
+    "desc": "Компания Arrowmax представила на краудфандинговой платформе Kickstarter умную отвёртку Arrowspace S1, которая с помощью встроенной камеры и искусственного интеллекта определяет необходимую насадку и вдобавок указывает, где именно она находится в специальном умном кейсе, предлагаемом в качестве оп...",
+    "date": "2026-10-30",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Ничто не предвещало: Foxconn собралась стать крупнейшим в мире производителем квантовых компьютеров",
+    "link": "https://3dnews.ru/1150686",
+    "desc": "В свежем интервью CNBC председатель совета директоров Foxconn Янг Лю (Young Liu) заявил, что к 2030 году компания станет крупнейшим в мире производителем квантовых компьютеров. Для этого Foxconn не нужны собственные квантовые технологии, в новой для себя области она воспользуется прежним опытом к...",
+    "date": "2026-10-30",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Первый орбитальный дата-центр Google заработал — и родил странный стишок",
+    "link": "https://3dnews.ru/1150689",
+    "desc": "Google сообщила об успешном испытании своих тензорных процессоров TPU на орбите Земли. Модель искусственного интеллекта Gemma 4, работающая на установленных на спутнике чипах, впервые выполнила запрос и сгенерировала ответ. Источник изображения: Google",
+    "date": "2026-10-30",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Глава Anthropic призывал замедлить развитие ИИ, но сам не собирается сбавлять обороты",
     "link": "https://3dnews.ru/1150685",
     "desc": "Глава Anthropic ранее призвал участников индустрии искусственного интеллекта замедлить разработку технологий, чтобы снизить вероятность непредсказуемых последствий. Однако спустя шесть недель после того, как руководители OpenAI и SpaceX публично поддержали эту инициативу, гонка продолжилась с нов...",
@@ -957,24 +993,6 @@
     "title": "Китайская Iluvatar заявила, что сделала ИИ-ускоритель не хуже Nvidia H200 — и даже показала тесты",
     "link": "https://3dnews.ru/1150668",
     "desc": "Китайская компания Iluvatar CoreX заявила, что её графический ускоритель Tiangai 300 способен конкурировать с Nvidia H200, а в отдельных задачах искусственного интеллекта — превосходить его. Компания представила результаты тестов и продемонстрировала работу оборудования журналистам, однако подроб...",
-    "date": "2026-10-30",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Представлена отвёртка с ИИ — она сама найдёт нужную биту и поможет её найти",
-    "link": "https://3dnews.ru/1150690",
-    "desc": "Компания Arrowmax представила на краудфандинговой платформе Kickstarter умную отвёртку Arrowspace S1, которая с помощью встроенной камеры и искусственного интеллекта определяет необходимую насадку и вдобавок указывает, где именно она находится в специальном умном кейсе, предлагаемом в качестве оп...",
-    "date": "2026-10-30",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Первый орбитальный дата-центр Google заработал — и родил странный стишок",
-    "link": "https://3dnews.ru/1150689",
-    "desc": "Google сообщила об успешном испытании своих тензорных процессоров TPU на орбите Земли. Модель искусственного интеллекта Gemma 4, работающая на установленных на спутнике чипах, впервые выполнила запрос и сгенерировала ответ. Источник изображения: Google",
     "date": "2026-10-30",
     "source": "3DNews",
     "cat": "ai",
