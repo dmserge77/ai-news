@@ -1,8 +1,35 @@
 [
   {
-    "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
-    "link": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
-    "desc": "Article URL: https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f Comments URL: https://news.ycombinator.com/item?id=50342424 Points: 35 # Comments: 12",
+    "title": "Marvell решила объединить чипы и оптику — ради этого она покупает Lumentum за $80 млрд",
+    "link": "https://3dnews.ru/1150767",
+    "desc": "Производитель процессоров, контроллеров, телекоммуникационных и других полупроводников, применяемых в том числе в си системах искусственного интеллекта, компания Marvell договорилась о приобретении производителя оптических компонентов для центров обработки данных, компании Lumentum. Сделка будет ...",
+    "date": "2026-11-03",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ устроил ядерный ренессанс — число строящихся АЭС достигло максимума за 40 лет",
+    "link": "https://3dnews.ru/1150766",
+    "desc": "Рост спроса на электроэнергию для задач искусственного интеллекта привёл к рекордному за 40 лет увеличению числа одновременно строящихся реакторов для АЭС — сейчас таких 79, а планируется построить ещё сотни. Источник изображения: ИИ-генерация ChatGPT/3DNews",
+    "date": "2026-11-03",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic's growth just flattened",
+    "link": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+    "desc": "Article URL: https://www.regenerator1.com/p/anthropics-growth-just-flattened Comments URL: https://news.ycombinator.com/item?id=50344958 Points: 156 # Comments: 187",
+    "date": "2026-11-02",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+    "link": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+    "desc": "Article URL: https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/ Comments URL: https://news.ycombinator.com/item?id=50344919 Points: 188 # Comments: 116",
     "date": "2026-11-02",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,7 +38,7 @@
   {
     "title": "Astra can read and write weights to improve Qwen",
     "link": "https://rikiyat.github.io/blog/weight-space-programming/",
-    "desc": "Article URL: https://rikiyat.github.io/blog/weight-space-programming/ Comments URL: https://news.ycombinator.com/item?id=50341174 Points: 820 # Comments: 270",
+    "desc": "Article URL: https://rikiyat.github.io/blog/weight-space-programming/ Comments URL: https://news.ycombinator.com/item?id=50341174 Points: 1914 # Comments: 606",
     "date": "2026-11-02",
     "source": "Hacker News",
     "cat": "ai",
@@ -27,15 +54,6 @@
     "lang": "en"
   },
   {
-    "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
-    "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
-    "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 219 # Comments: 170",
-    "date": "2026-11-02",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Building a gemini server in python",
     "link": "https://www.willmunn.xyz/gemini/python/2026/10/16/we-have-lift-off.html",
     "desc": "Comments",
@@ -43,6 +61,15 @@
     "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Не ждите обновлений от 1С. У вас есть DeepSeek",
+    "link": "https://habr.com/ru/articles/1102948/?utm_campaign=1102948&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Спорить о качестве кода, написанного ЛЛМ, можно вечно, а если речь заходит про 1С, то градус взлетает до небес. Мы придумали идеальный эксперимент . Берём не самый свежий релиз типовой конфигурации и даём задание поправить реальные баги, найденные и закрытые в следующей версии. Сравниваем код от ...",
+    "date": "2026-11-02",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "[Перевод] Что ИИ незаметно сломал в моей команде разработки",
@@ -54,7 +81,7 @@
     "lang": "ru"
   },
   {
-    "title": "19-е место в RSNA Knee Abnormality Detection: дистилляция ансамбля, MedSAM-кропы и LLM-разметка",
+    "title": "19-е место в RSNA Knee Abnormality Detection: дистилляция ансамбля, MedSAM‑кропы и LLM‑разметка",
     "link": "https://habr.com/ru/articles/1102866/?utm_campaign=1102866&utm_source=habrahabr&utm_medium=rss",
     "desc": "Это перевод нашего райтапа решения, занявшего 19-е место в соревновании RSNA Knee Abnormality Detection на Kaggle. Оригинал: 19th Place Solution . Про соревнования я пишу в Telegram-канале Pseudolabeling : там можно найти разборы и заметки, которые не попадают в большие статьи. Читать далее",
     "date": "2026-11-02",
@@ -189,33 +216,6 @@
     "lang": "ru"
   },
   {
-    "title": "Как организовать общий контекст между разными AI-платформами",
-    "link": "https://habr.com/ru/articles/1102508/?utm_campaign=1102508&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Работаете над одним проектом в ChatGPT, Claude и других AI-сервисах? Тогда наверняка сталкивались с необходимостью заново передавать требования, ограничения и ранее принятые решения. В статье покажу, как организовать общий проектный контекст с помощью GitHub, чтобы разные AI-платформы могли работ...",
-    "date": "2026-11-02",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Искусственный интеллект меняет кибербезопасность. Что показывают исследования?",
-    "link": "https://habr.com/ru/articles/1102502/?utm_campaign=1102502&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Искусственный интеллект все активнее применяется в информационной безопасности. Современные модели помогают обнаруживать сложные уязвимости, автоматизировать технические операции и даже создавать программные системы без глубоких знаний разработки. Но действительно ли это означает, что для проведе...",
-    "date": "2026-11-02",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Рой ИИ-агентов без начальника: дал им доску задач, git и право писать себе инструменты",
-    "link": "https://habr.com/ru/articles/1098900/?utm_campaign=1098900&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Схем взаимодействия агентов много, но чаще всего мультиагентную систему собирают как конвейер: «аналитик» передает «программисту», тот «тестировщику», а сверху сидит агент‑менеджер и решает, кто ходит следующим. Мне хотелось проверить другую схему. Что будет, если никакого менеджера нет? Агентам ...",
-    "date": "2026-11-02",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "LinkedIn и семь удалёнок: как из России выходят на валютные IT-контракты в 2026 году",
     "link": "https://habr.com/ru/articles/1102796/?utm_campaign=1102796&utm_source=habrahabr&utm_medium=rss",
     "desc": "Можно ли в 2026 году жить в России, работать на зарубежную компанию, получать валюту и претендовать на контракты от $10 000 в месяц? Что сегодня важнее на международном рынке – технические навыки или умение продать собственный опыт? Почему первое собеседование на английском почти всегда оказывает...",
@@ -284,6 +284,24 @@
     "desc": "В Архангельске есть Пивзавод Суркова. Сорок лет там не варили пиво: последнюю партию сварили в конце 1985 года, а 3 марта 2026-го варку запустили снова. Рядом свой ресторан, одиннадцать танков, шесть сортов, и к осени пиво стало уходить быстрее, чем его успевали посчитать. Я собрал для них систем...",
     "date": "2026-11-02",
     "source": "Habr Python",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Рой ИИ-агентов без начальника: дал им доску задач, git и право писать себе инструменты",
+    "link": "https://habr.com/ru/articles/1098900/?utm_campaign=1098900&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Схем взаимодействия агентов много, но чаще всего мультиагентную систему собирают как конвейер: «аналитик» передает «программисту», тот «тестировщику», а сверху сидит агент‑менеджер и решает, кто ходит следующим. Мне хотелось проверить другую схему. Что будет, если никакого менеджера нет? Агентам ...",
+    "date": "2026-11-02",
+    "source": "Habr Python",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как организовать общий контекст между разными AI-платформами",
+    "link": "https://habr.com/ru/articles/1102508/?utm_campaign=1102508&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Работаете над одним проектом в ChatGPT, Claude и других AI-сервисах? Тогда наверняка сталкивались с необходимостью заново передавать требования, ограничения и ранее принятые решения. В статье покажу, как организовать общий проектный контекст с помощью GitHub, чтобы разные AI-платформы могли работ...",
+    "date": "2026-11-02",
+    "source": "Habr Open Source",
     "cat": "ai",
     "lang": "ru"
   },
@@ -405,6 +423,15 @@
     "lang": "ru"
   },
   {
+    "title": "Anthropic набрала долговых обязательств почти на $900 млрд ради ИИ — и снова ушла в убыток",
+    "link": "https://3dnews.ru/1150760",
+    "desc": "Компания Anthropic, разработчик чат-бота Claude, раскрыла обязательства на $895,4 млрд по закупке вычислительных мощностей и аренде инфраструктуры. За третий квартал 2026 года ее выручка выросла почти до $17 млрд, однако после единственного прибыльного квартала компания вновь зафиксировала операц...",
+    "date": "2026-11-02",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Grok Bot резко урезал лимиты — и Илон Маск объяснил, почему",
     "link": "https://3dnews.ru/1150752",
     "desc": "В соцсети X на прошлой неделе появились жалобы пользователей на то, что лимиты на использование ИИ-агента Grok Bot у многих из них заканчиваются «очень быстро». В ответ на это глава SpaceX Илон Маск (Elon Musk) поинтересовался: «Слишком дорого переходить на тариф с более высокими лимитами?», доба...",
@@ -426,15 +453,6 @@
     "title": "Вирус с ИИ охотится за богатыми пользователями Windows — он оценивает, сколько можно выжать с каждой жертвы",
     "link": "https://3dnews.ru/1150744",
     "desc": "Новая вредоносная программа для Windows под названием VOLTA-AUTODOXER после сбора на заражённом компьютере всех доступных данных обращается к ИИ-модели (по умолчанию — Claude от компании Anthropic) для оценки потенциальной выгоды от атаки на эту жертву, чтобы в итоге выбрать наиболее перспективну...",
-    "date": "2026-11-02",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Anthropic набрала долговых обязательств почти на $900 млрд ради ИИ — и снова ушла в убыток",
-    "link": "https://3dnews.ru/1150760",
-    "desc": "Компания Anthropic, разработчик чат-бота Claude, раскрыла обязательства на $895,4 млрд по закупке вычислительных мощностей и аренде инфраструктуры. За третий квартал 2026 года ее выручка выросла почти до $17 млрд, однако после единственного прибыльного квартала компания вновь зафиксировала операц...",
     "date": "2026-11-02",
     "source": "3DNews",
     "cat": "ai",
@@ -491,6 +509,33 @@
     "desc": "Для 14-дюймового ноутбука Apple готовит процессор M7 и оформление в духе старших моделей. Apple планирует обновить дизайн базового 14-дюймового MacBook Pro. Ноутбук получит чип M7, более тонкий корпус и уменьшенные рамки вокруг дисплея, сообщил журналист информационного агентства Bloomberg Марк Г...",
     "date": "2026-11-02",
     "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
+    "link": "https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+    "desc": "Article URL: https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f Comments URL: https://news.ycombinator.com/item?id=50342424 Points: 35 # Comments: 12",
+    "date": "2026-11-02",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+    "link": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+    "desc": "Article URL: https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11 Comments URL: https://news.ycombinator.com/item?id=50339494 Points: 219 # Comments: 170",
+    "date": "2026-11-02",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Искусственный интеллект меняет кибербезопасность. Что показывают исследования?",
+    "link": "https://habr.com/ru/articles/1102502/?utm_campaign=1102502&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Искусственный интеллект все активнее применяется в информационной безопасности. Современные модели помогают обнаруживать сложные уязвимости, автоматизировать технические операции и даже создавать программные системы без глубоких знаний разработки. Но действительно ли это означает, что для проведе...",
+    "date": "2026-11-02",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1461,15 +1506,6 @@
     "title": "В официальный Claude Code подсадили троян — под угрозой компьютеры вайб-кодеров на Windows, Linux и macOS",
     "link": "https://3dnews.ru/1150680",
     "desc": "Вчера системы компании Anthropic были скомпрометированы. В каталоге расширений Open VSX и маркетплейсе Cursor обнаружили вредоносную версию официального расширения Claude Code для VS Code. Подмена пакета позволяла злоумышленникам устанавливать SSH-бэкдор на компьютеры разработчиков под управление...",
-    "date": "2026-10-30",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Во всём виноваты «котики»: новый алгоритм и кошачьи кубиты приблизили квантовый взлом биткоин-кошельков",
-    "link": "https://3dnews.ru/1150657",
-    "desc": "Рано или поздно это случится — квантовые компьютеры смогут вскрывать коды и ключи к криптовалютным кошелькам. Предыдущая оценка Google требовала для этого квантовых платформ с полумиллионом кубитов. Новый анализ компании Alice & Bob показал, что для взлома кошельков биткоина нужно в 17 раз меньше...",
     "date": "2026-10-30",
     "source": "3DNews",
     "cat": "ai",
