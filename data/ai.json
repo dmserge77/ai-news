@@ -1,17 +1,26 @@
 [
   {
-    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-    "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-    "desc": "Article URL: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/ Comments URL: https://news.ycombinator.com/item?id=50355251 Points: 308 # Comments: 97",
+    "title": "Новая статья: ИИтоги октября 2026 г.: Альтман просит потерпеть",
+    "link": "https://3dnews.ru/1150759",
+    "desc": "Руководитель OpenAI признал, что человечеству следует принять «некоторые негативные последствия» развития ИИ — всё ради его же блага, само собой!",
+    "date": "2026-11-04",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+    "link": "https://github.com/finic-ai/kairos",
+    "desc": "Hey HN, Ayan here from Finic. We’re launching Kairos, an open source alternative to Sift, Sardine, and other real-time fraud decisioning platforms. Kairos addresses two of the biggest problems facing traditional decisioning tools: a lack of labeled data to train on and dealing with fraudsters tha...",
     "date": "2026-11-03",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
-    "link": "https://news.ycombinator.com/item?id=50352757",
-    "desc": "My company is pretty paranoid about leaking IP to the frontier labs through prompts, so we've all been diligent about disabling data sharing in Codex/Claude Code/etc. But yesterday my coworkers and I noticed that the setting had been silently reenabled in Codex. None of us knowingly opted back in...",
+    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+    "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "desc": "Article URL: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/ Comments URL: https://news.ycombinator.com/item?id=50355251 Points: 501 # Comments: 155",
     "date": "2026-11-03",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,11 +29,29 @@
   {
     "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
     "link": "https://honnibal.dev/blog/astra-read-write-misleading",
-    "desc": "Article URL: https://honnibal.dev/blog/astra-read-write-misleading Comments URL: https://news.ycombinator.com/item?id=50351111 Points: 790 # Comments: 183",
+    "desc": "Article URL: https://honnibal.dev/blog/astra-read-write-misleading Comments URL: https://news.ycombinator.com/item?id=50351111 Points: 914 # Comments: 192",
     "date": "2026-11-03",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Базовая настройка DGX Spark",
+    "link": "https://habr.com/ru/articles/1103372/?utm_campaign=1103372&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Счастливым страдальцам владельцам Спарков посвящается... Перво-наперво — мега-респект героям китайского так называемого коммунистического труда (DeepSeek, Qwen, GLM, Kimi). Только благодаря их моделям этот мини-ящик стал реально полезным инструментом, несмотря на весь инженерный срам ниже. Знал б...",
+    "date": "2026-11-03",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Личный задачник, из которого Claude Code и OpenCode сами берут задачи",
+    "link": "https://habr.com/ru/articles/1103358/?utm_campaign=1103358&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я сделал себе задачник, из которого агент сам берёт задачи с пометкой «Агенту», делает их на моём компьютере и пишет отчёт прямо в задачу. Рассказываю, как это устроено: MCP-сервер, вход через браузер или по токену, запуск по расписанию и что агенту можно, а что нет. Читать далее",
+    "date": "2026-11-03",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Как я открыл Китайский кошелек Alipay находясь в России и оплатил DeepSeek Api",
@@ -432,15 +459,6 @@
     "lang": "ru"
   },
   {
-    "title": "Обучение ии мультики фото и видео",
-    "link": "https://vc.ru/id6170890/3234280-obuchenie-ii-multiki-foto-i-video?from=rss",
-    "desc": "🚩🚩🚩 АКЦИЯ! 🚩🚩🚩 КУРС ПО НЕЙРОСЕТЯМ — 1 490 ₽ ВМЕСТО 3 000 ₽ Успейте забрать по выгодной цене — потом она закончится! 💛 🎓 Онлайн-курс по . Аудитория: новички — без опыта в дизайне и технических знаний. Дорогие мои, хочу вас порработе с нейросетями для фото, видео и ИИ-мультиков. Формат: онлайн с пр...",
-    "date": "2026-11-03",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Криптографические доказательства для Claude: разбор системы FlashProve от Anthropic и верификаторов на Lean",
     "link": "https://vc.ru/ai/3232534-kriptograficheskie-dokazatelstva-dlya-claude-sistema-flashprove-ot-anthropic?from=rss",
     "desc": "FlashProve генерирует zkSNARK-доказательства инференса со скоростью 110 токенов в секунду на одном GPU H100, а код верификаторов опубликован под лицензией Apache 2.0.",
@@ -504,6 +522,42 @@
     "lang": "ru"
   },
   {
+    "title": "OpenAI научит дата-центры сбрасывать энергопотребление за минуту, чтобы не перегружать электросеть в часы пик",
+    "link": "https://3dnews.ru/1150822",
+    "desc": "Компания OpenAI представила инициативу Grid Protectors Program, направленную на сокращение потребления электроэнергии своими дата-центрами в периоды высокой нагрузки на локальные энергосети. Цель программы — минимизировать нагрузку на инфраструктуру в пиковые часы и ускорить подключение новых выч...",
+    "date": "2026-11-03",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Sony стала скупать подержанные PS5 у геймеров — за консоль с двумя геймпадами предлагают до $400",
+    "link": "https://3dnews.ru/1150823",
+    "desc": "Владельцы игровых консолей Sony PS5, на смартфонах которых есть приложение PlayStation, стали получать от компании Sony любопытные сообщения. Компания предлагает пользователям вернуть приставку, а взамен получить денежный перевод на свой банковский счёт. За стандартную модель PS5 в комплекте с дв...",
+    "date": "2026-11-03",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Samsung построит в США фабрику чипов для AMD и Nvidia — она будет выпускать логику для HBM4",
+    "link": "https://3dnews.ru/1150820",
+    "desc": "Samsung окончательно определилась с архитектурой и возможностями будущей фабрики в США, в городе Тейлор, штат Техас. Последнюю точку в планах поставили два главных клиента на будущую продукцию — компании AMD и Nvidia. Для них новый завод будет выпускать базовые кристаллы (логику) памяти HBM4 — вс...",
+    "date": "2026-11-03",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Nvidia решила отрезать Китай от зарубежных ИИ-мощностей — облачным провайдерам выставили жёсткое условие",
+    "link": "https://3dnews.ru/1150787",
+    "desc": "Nvidia предписала своим партнёрам в сегменте центров обработки данных сократить долю услуг, предоставляемых китайским клиентам. Мера призвана ограничить возможности Китая в конкурентной борьбе с США в области искусственного интеллекта. Источник изображений: nvidia.com",
+    "date": "2026-11-03",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Фальшивое собеседование стоило Binance $6,3 млрд: хакеры взломали биржу через разработчика",
     "link": "https://3dnews.ru/1150807",
     "desc": "Представитель Binance сообщил, что хакеры использовали поддельное собеседование для компрометации компьютера компании и внутреннего инструмента на базе искусственного интеллекта. Это позволило им получить контроль над криптокошельками крупнейшей криптовалютной биржи и вывести средства на сумму $6...",
@@ -534,33 +588,6 @@
     "title": "Инвесторы остудили амбиции Anthropic: перед IPO разработчика Claude оценили всего в $1,5 трлн",
     "link": "https://3dnews.ru/1150778",
     "desc": "Институциональные инвесторы в последние дни дали руководству Anthropic и её консультантам понять, что в рамках намеченного на ноябрь первичного размещения акций (IPO) компанию следует оценить в $1,5–1,6 трлн. То есть значительно ниже отметки около $2 трлн, которая обсуждалась последние месяцы. Ис...",
-    "date": "2026-11-03",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "OpenAI научит дата-центры сбрасывать энергопотребление за минуту, чтобы не перегружать электросеть в часы пик",
-    "link": "https://3dnews.ru/1150822",
-    "desc": "Компания OpenAI представила инициативу Grid Protectors Program, направленную на сокращение потребления электроэнергии своими дата-центрами в периоды высокой нагрузки на локальные энергосети. Цель программы — минимизировать нагрузку на инфраструктуру в пиковые часы и ускорить подключение новых выч...",
-    "date": "2026-11-03",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Sony стала скупать подержанные PS5 у геймеров — за консоль с двумя геймпадами предлагают до $400",
-    "link": "https://3dnews.ru/1150823",
-    "desc": "Владельцы игровых консолей Sony PS5, на смартфонах которых есть приложение PlayStation, стали получать от компании Sony любопытные сообщения. Компания предлагает пользователям вернуть приставку, а взамен получить денежный перевод на свой банковский счёт. За стандартную модель PS5 в комплекте с дв...",
-    "date": "2026-11-03",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Samsung построит в США фабрику чипов для AMD и Nvidia — она будет выпускать логику для HBM4",
-    "link": "https://3dnews.ru/1150820",
-    "desc": "Samsung окончательно определилась с архитектурой и возможностями будущей фабрики в США, в городе Тейлор, штат Техас. Последнюю точку в планах поставили два главных клиента на будущую продукцию — компании AMD и Nvidia. Для них новый завод будет выпускать базовые кристаллы (логику) памяти HBM4 — вс...",
     "date": "2026-11-03",
     "source": "3DNews",
     "cat": "ai",
@@ -612,6 +639,24 @@
     "lang": "ru"
   },
   {
+    "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+    "link": "https://news.ycombinator.com/item?id=50352757",
+    "desc": "My company is pretty paranoid about leaking IP to the frontier labs through prompts, so we've all been diligent about disabling data sharing in Codex/Claude Code/etc. But yesterday my coworkers and I noticed that the setting had been silently reenabled in Codex. None of us knowingly opted back in...",
+    "date": "2026-11-03",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Обучение ии мультики фото и видео",
+    "link": "https://vc.ru/id6170890/3234280-obuchenie-ii-multiki-foto-i-video?from=rss",
+    "desc": "🚩🚩🚩 АКЦИЯ! 🚩🚩🚩 КУРС ПО НЕЙРОСЕТЯМ — 1 490 ₽ ВМЕСТО 3 000 ₽ Успейте забрать по выгодной цене — потом она закончится! 💛 🎓 Онлайн-курс по . Аудитория: новички — без опыта в дизайне и технических знаний. Дорогие мои, хочу вас порработе с нейросетями для фото, видео и ИИ-мультиков. Формат: онлайн с пр...",
+    "date": "2026-11-03",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Show HN: Interactive notes on RLHF, attention, LoRA and LLM evals",
     "link": "https://concepts.laxmena.com/",
     "desc": "Article URL: https://concepts.laxmena.com/ Comments URL: https://news.ycombinator.com/item?id=50353468 Points: 28 # Comments: 2",
@@ -619,15 +664,6 @@
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
-  },
-  {
-    "title": "Nvidia решила отрезать Китай от зарубежных ИИ-мощностей — облачным провайдерам выставили жёсткое условие",
-    "link": "https://3dnews.ru/1150787",
-    "desc": "Nvidia предписала своим партнёрам в сегменте центров обработки данных сократить долю услуг, предоставляемых китайским клиентам. Мера призвана ограничить возможности Китая в конкурентной борьбе с США в области искусственного интеллекта. Источник изображений: nvidia.com",
-    "date": "2026-11-03",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
   },
   {
     "title": "Marvell решила объединить чипы и оптику — ради этого она покупает Lumentum за $80 млрд",
@@ -687,15 +723,6 @@
     "title": "Не ждите обновлений от 1С. У вас есть DeepSeek",
     "link": "https://habr.com/ru/articles/1102948/?utm_campaign=1102948&utm_source=habrahabr&utm_medium=rss",
     "desc": "Спорить о качестве кода, написанного ЛЛМ, можно вечно, а если речь заходит про 1С, то градус взлетает до небес. Мы придумали идеальный эксперимент . Берём не самый свежий релиз типовой конфигурации и даём задание поправить реальные баги, найденные и закрытые в следующей версии. Сравниваем код от ...",
-    "date": "2026-11-02",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "[Перевод] Что ИИ незаметно сломал в моей команде разработки",
-    "link": "https://habr.com/ru/companies/otus/articles/1101862/?utm_campaign=1101862&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Искусственный интеллект сделал написание кода дешевым и заодно незаметно лишил мою команду трёх вещей, на которых всё держалось. Теперь руководить командой сложнее, чем до появления ИИ. В этой статье я расскажу, что именно пошло не так. Разобраться в теме",
     "date": "2026-11-02",
     "source": "Habr AI",
     "cat": "ai",
@@ -986,6 +1013,15 @@
     "desc": "Новая вредоносная программа для Windows под названием VOLTA-AUTODOXER после сбора на заражённом компьютере всех доступных данных обращается к ИИ-модели (по умолчанию — Claude от компании Anthropic) для оценки потенциальной выгоды от атаки на эту жертву, чтобы в итоге выбрать наиболее перспективну...",
     "date": "2026-11-02",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "[Перевод] Что ИИ незаметно сломал в моей команде разработки",
+    "link": "https://habr.com/ru/companies/otus/articles/1101862/?utm_campaign=1101862&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Искусственный интеллект сделал написание кода дешевым и заодно незаметно лишил мою команду трёх вещей, на которых всё держалось. Теперь руководить командой сложнее, чем до появления ИИ. В этой статье я расскажу, что именно пошло не так. Разобраться в теме",
+    "date": "2026-11-02",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -16488,15 +16524,6 @@
     "lang": "ru"
   },
   {
-    "title": "Free the models: Harness design at the frontier",
-    "link": "https://replit.com/blog/free-the-models",
-    "desc": "Model routers are everywhere right now, but they have a fundamental limitation. No matter if based on advanced heuristics or a small model that reads each turn and picks which LLM to use, a router will always be less capable than the model it’s choosing for. Replit Agent lets the model decide ins...",
-    "date": "2026-09-29",
-    "source": "Replit",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "GPT-6.1 Sol now available on AI Gateway",
     "link": "https://vercel.com/changelog/gpt-6-1-sol-now-available-on-ai-gateway",
     "desc": "",
@@ -16522,6 +16549,15 @@
     "source": "Habr Облака",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Free the models: Harness design at the frontier",
+    "link": "https://replit.com/blog/free-the-models",
+    "desc": "Model routers are everywhere right now, but they have a fundamental limitation. No matter if based on advanced heuristics or a small model that reads each turn and picks which LLM to use, a router will always be less capable than the model it’s choosing for. Replit Agent lets the model decide ins...",
+    "date": "2026-09-29",
+    "source": "Replit",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Аналоги OpenAI API в 2026 году: Claude, Gemini, Grok, DeepSeek и другие",
@@ -26231,15 +26267,6 @@
     "desc": "",
     "date": "2026-08-08",
     "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Baseten on Hugging Face Inference Providers 🔥",
-    "link": "https://huggingface.co/blog/baseten",
-    "desc": "",
-    "date": "2026-08-06",
-    "source": "Hugging Face",
     "cat": "ai",
     "lang": "en"
   }
