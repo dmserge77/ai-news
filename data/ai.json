@@ -1,5 +1,77 @@
 [
   {
+    "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+    "link": "https://news.ycombinator.com/item?id=50368804",
+    "desc": "Hi HN! I'm Luke from Kino ( https://kino.ai ). Kino lets you make great videos with your agents and your teammates. Storage of footage and assets, a rich video editor, and review links for teammates are all bundled into one. Your colleagues and Codex / Claude Code can work on the same timeline wi...",
+    "date": "2026-11-04",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Progress on provable inference for large language models",
+    "link": "https://www.anthropic.com/research/provable-inference",
+    "desc": "Article URL: https://www.anthropic.com/research/provable-inference Comments URL: https://news.ycombinator.com/item?id=50368626 Points: 58 # Comments: 18",
+    "date": "2026-11-04",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Pierre Computer is being acquired by OpenAI",
+    "link": "https://twitter.com/pierrecomputer/status/2117999036175188183",
+    "desc": "Article URL: https://twitter.com/pierrecomputer/status/2117999036175188183 Comments URL: https://news.ycombinator.com/item?id=50366863 Points: 60 # Comments: 24",
+    "date": "2026-11-04",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+    "link": "https://news.ycombinator.com/item?id=50363461",
+    "desc": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disco...",
+    "date": "2026-11-04",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Контекст должен быть в репозитории, а не в чате",
+    "link": "https://habr.com/ru/articles/1103614/?utm_campaign=1103614&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Меня зацепила статья «Жизнь после Claude Code: как я переехал на Codex и сохранил историю проектов» . С решением, которое предлагает автор, я не согласен, т.к. в архиве переписки хранится разговор о проекте, а не итоговые решения. Я предлагаю другой подход. Мой личный опыт - полгода у меня контек...",
+    "date": "2026-11-04",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "[Перевод] В языковую модель подсадили «мысль», и иногда она это замечала: что показал год проверок",
+    "link": "https://habr.com/ru/articles/1103596/?utm_campaign=1103596&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В 2025 году исследователь из Anthropic Джек Линдси начал искусственно усиливать в Claude паттерны активности, связанные с конкретными понятиями, и спрашивать модель, замечает ли она внедрённую «мысль». В 20% попыток самая новая версия верно сообщала о внедрении и описывала понятие, а в контрольно...",
+    "date": "2026-11-04",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Жизнь после Claude Code: как я переехал на Codex и сохранил историю проектов",
+    "link": "https://habr.com/ru/articles/1103528/?utm_campaign=1103528&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В конце октября я неожиданно остался без рабочего Claude Code. После запроса на подтверждение личности Anthropic приостановила доступ к моей платной организации. Подписку Claude Max 20x впоследствии отменили, а в возврате средств отказали. Апелляцию я отправил, но разработку проектов останавливат...",
+    "date": "2026-11-04",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Основы глубокого обучения. Часть 3",
+    "link": "https://habr.com/ru/articles/1102888/?utm_campaign=1102888&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Всем привет! Эта статья является третьей в серии статей про основы глубокого обучения. В прошлых двух частях я рассказал много интересного и полезного новичкам, так что рекомендую перечитать. В этой части мы разберём подробнее задачи связанные с обработкой естественного языка (NLP) и реализуем дв...",
+    "date": "2026-11-04",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Не промптами едиными: как история обращений помогает развивать базу знаний",
     "link": "https://habr.com/ru/articles/1103448/?utm_campaign=1103448&utm_source=habrahabr&utm_medium=rss",
     "desc": "Автоматизировать поддержку хотят все. Большая часть вопросов пользователей повторяется, и так и хочется завернуть ответы на них в какой-нибудь алгоритм. Подходов много, но один из самых распространённых — векторный поиск: мы пытаемся понять, о чём пишет пользователь, находим в базе знаний семанти...",
@@ -18,9 +90,9 @@
     "lang": "ru"
   },
   {
-    "title": "Программист с ИИ пишет код за день вместо недели. Почему компании сокращают тестировщиков?",
+    "title": "Программист с ИИ пишет код за день вместо недели. Теперь нужно больше тестировщиков?",
     "link": "https://habr.com/ru/articles/1103436/?utm_campaign=1103436&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я столкнулся с непониманием того, что тестировщики стали узким горлышком в процессе разработки ПО. Современные программисты, используя кодинг-агентов по подписке за 20$ в месяц, могут за день своей работы выдать объем кода и функционала, который ранее они делали неделю или даже месяц. Но ведь что...",
+    "desc": "Я столкнулся с непониманием того, что тестировщики стали узким горлышком в процессе разработки ПО. Современные программисты, используя кодинг‑агентов по подписке за 20$ в месяц, могут за день своей работы выдать объем кода и функционала, который ранее они делали неделю или даже месяц. Но ведь что...",
     "date": "2026-11-04",
     "source": "Habr AI",
     "cat": "ai",
@@ -54,11 +126,56 @@
     "lang": "ru"
   },
   {
+    "title": "OpenAI представила Pando — бэкенд на основе Git для разработки с ИИ",
+    "link": "https://habr.com/ru/companies/selectel/news/1103348/?utm_campaign=1103348&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Компания OpenAI представила собственный бэкенд для системы контроля версий Git под названием Pando, разработанный для работы в условиях массового использования ИИ-ассистентов. Новая инфраструктура сохраняет полную совместимость со стандартными инструментами Git, ежедневно обрабатывает около петаб...",
+    "date": "2026-11-04",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Вышел terminal-mac — ИИ-агенты теперь могут управлять виртуальной macOS из терминала",
+    "link": "https://thecode.media/vyshel-terminal-mac-ii-agenty-teper-mogut-upravlyat-virtualnoj-macos/",
+    "desc": "Без доступа к важным папкам и файлам Сообщение Вышел terminal-mac — ИИ-агенты теперь могут управлять виртуальной macOS из терминала появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-11-04",
+    "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Postman тайно внедряется в ИИ-агентов и перехватывает API-задачи",
     "link": "https://thecode.media/postman-tajno-vnedryaetsya-v-ii-agentov-i-perehvatyvaet-api-zadachi/",
     "desc": "Это что за поведение вируса? Сообщение Postman тайно внедряется в ИИ-агентов и перехватывает API-задачи появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-11-04",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Более 70% россиян использовали нейросети при выборе подарков — ИИ помогает находить скидки и дешёвые аналоги",
+    "link": "https://rb.ru/news/bolee-70-rossiyan-ispolzovali-nejroseti-pri-vybore-podarkov-ii-pomogaet-nahodit-skidki-i-deshyovye-analogi/",
+    "desc": "Почти три четверти россиян (74%) использовали искусственный интеллект для выбора подарков, сообщает ТАСС со ссылкой на исследование сервиса онлайн-опросов Anketolog.ru. 92% пользователей проверяют найденные акции перед оплатой, поскольку сталкиваются с неработающими промокодами и недостоверными ц...",
+    "date": "2026-11-04",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI переименует дата-центры в вычислительные кампусы: компания хочет улучшить их образ в глазах общественности",
+    "link": "https://rb.ru/news/openai-pereimenuet-data-centry-v-vychislitelnye-kampusy-kompaniya-hochet-uluchshit-ih-obraz-v-glazah-obshestvennosti/",
+    "desc": "OpenAI намерена продвигать новое название для своих дата-центров — compute campuses («вычислительные кампусы»), сообщает Business Insider. Переименовав привычные объекты инфраструктуры, компания рассчитывает изменить отношение общественности к строительству центров обработки данных для ИИ. По дан...",
+    "date": "2026-11-04",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Nvidia требует от партнёрских ЦОДов ограничить работу с Китаем — 51% услуг должны получать компании из других стран",
+    "link": "https://rb.ru/news/nvidia-trebuet-ot-partnyorskih-codov-ogranichit-rabotu-s-kitaem-51-uslug-dolzhny-poluchat-kompanii-iz-drugih-stran/",
+    "desc": "Nvidia потребовала от своих клиентов — облачных провайдеров, предоставляющих вычислительные мощности на её ИИ-чипах — сократить работу с китайскими компаниями, пишет Financial Times. Не менее 51% услуг провайдеры должны продавать клиентам из других стран. Условия касаются будущих договоров и не з...",
+    "date": "2026-11-04",
+    "source": "Rusbase",
     "cat": "ai",
     "lang": "ru"
   },
@@ -99,6 +216,33 @@
     "lang": "ru"
   },
   {
+    "title": "Nvidia хотела показать преимущества нейронного рендеринга DLSS 5 в Hogwarts Legacy, но игроки разницы не заметили",
+    "link": "https://3dnews.ru/1150858",
+    "desc": "В преддверии завтрашнего релиза компания Nvidia решила продемонстрировать преимущества нейронного рендеринга DLSS 5 в нашумевшем фэнтезийном ролевом экшене с открытым миром Hogwarts Legacy, но что-то пошло не так. Источник изображений: Nvidia",
+    "date": "2026-11-04",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Китайская Tencent бросила вызов DeepSeek и Kimi — открытая ИИ-модель Hy4 умеет видеть и рассуждать",
+    "link": "https://3dnews.ru/1150848",
+    "desc": "Китайский технологический гигант Tencent Holdings представил флагманскую модель искусственного интеллекта Hy4. Она публикуется с открытыми весами и предлагает расширенные возможности ИИ-агентов, выступая основой для корпоративной платформы WorkBuddy. Источник изображения: tencent.ai",
+    "date": "2026-11-04",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Миллисекунды вместо дней: Nvidia ускорит все этапы производства чипов с помощью ИИ",
+    "link": "https://3dnews.ru/1150841",
+    "desc": "За выпуском массового полупроводникового продукта стоит огромный пласт инженерной работы. На этапе проектирования техпроцессов и чипов сотрудники НИОКР принимают решения, которые позже скажутся как на характеристиках чипов, так и на уровне брака. ИИ даёт возможность уменьшить число инженерных оши...",
+    "date": "2026-11-04",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Anthropic поручила Claude проектировать чипы — на Уолл-стрит испугались за Synopsys и Cadence",
     "link": "https://3dnews.ru/1150832",
     "desc": "Anthropic стала обращать внимание инвесторов на своё новое конкурентное преимущество — использование искусственного интеллекта при разработке полупроводников. В компании создано подразделение по разработке оборудования — сейчас в нём числятся 15 специалистов. Источник изображения: BoliviaIntelige...",
@@ -135,20 +279,20 @@
     "lang": "ru"
   },
   {
-    "title": "Миллисекунды вместо дней: Nvidia ускорит все этапы производства чипов с помощью ИИ",
-    "link": "https://3dnews.ru/1150841",
-    "desc": "За выпуском массового полупроводникового продукта стоит огромный пласт инженерной работы. На этапе проектирования техпроцессов и чипов сотрудники НИОКР принимают решения, которые позже скажутся как на характеристиках чипов, так и на уровне брака. ИИ даёт возможность уменьшить число инженерных оши...",
+    "title": "Представлены автономные умные очки Prism 1 на Linux",
+    "link": "https://hi-tech.mail.ru/news/159714-predstavleny-avtonomnye-umnye-ochki-prism-1-na-linux/",
+    "desc": "Устройство поддерживает сторонние программы и управление взглядом и голосом. Магнитные батареи можно заменить, не выключая очки. Разработчик умных очков Raven Resonance представил автономную модель Prism 1 с системой Raven OS на базе Linux. Устройство работает без смартфона и поддерживает сторонн...",
     "date": "2026-11-04",
-    "source": "3DNews",
+    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "Новая статья: ИИтоги октября 2026 г.: Альтман просит потерпеть",
-    "link": "https://3dnews.ru/1150759",
-    "desc": "Руководитель OpenAI признал, что человечеству следует принять «некоторые негативные последствия» развития ИИ — всё ради его же блага, само собой!",
+    "title": "На Apple Watch появились расшифровка и пересказ бесед",
+    "link": "https://hi-tech.mail.ru/news/159708-na-apple-watch-poyavilis-rasshifrovka-i-pereskaz-besed/",
+    "desc": "Новшества доступны на Apple Watch Series 12 и Ultra 4. В первых испытаниях распознавание допускало ошибки, а первый пересказ Siri Recap лишился нужных журналистке деталей после удаления чувствительных сведений. В тестовой watchOS 27.3 для разработчиков появились две функции Audio Intelligence: Li...",
     "date": "2026-11-04",
-    "source": "3DNews",
+    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
@@ -162,31 +306,13 @@
     "lang": "ru"
   },
   {
-    "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
-    "link": "https://uncracked.city",
-    "desc": "To give you some context on the project. I'm a solo founder and I use AI heavily in my work. The idea came from wanting players to discover cities. Each city has its own history, so every case is set in a real city with real public places. The crime and the people are on other hand invented. The ...",
-    "date": "2026-11-03",
-    "source": "Hacker News",
+    "title": "Новая статья: ИИтоги октября 2026 г.: Альтман просит потерпеть",
+    "link": "https://3dnews.ru/1150759",
+    "desc": "Руководитель OpenAI признал, что человечеству следует принять «некоторые негативные последствия» развития ИИ — всё ради его же блага, само собой!",
+    "date": "2026-11-04",
+    "source": "3DNews",
     "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
-    "link": "https://github.com/finic-ai/kairos",
-    "desc": "Hey HN, Ayan here from Finic. We’re launching Kairos, an open source alternative to Sift, Sardine, and other real-time fraud decisioning platforms. Kairos addresses two of the biggest problems facing traditional decisioning tools: a lack of labeled data to train on and dealing with fraudsters tha...",
-    "date": "2026-11-03",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
-    "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
-    "desc": "Article URL: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/ Comments URL: https://news.ycombinator.com/item?id=50355251 Points: 624 # Comments: 183",
-    "date": "2026-11-03",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
   },
   {
     "title": "Базовая настройка DGX Spark",
@@ -237,15 +363,6 @@
     "title": "Вы зря боитесь что вас заменит ИИ. И вот почему",
     "link": "https://habr.com/ru/articles/1103252/?utm_campaign=1103252&utm_source=habrahabr&utm_medium=rss",
     "desc": "Недавно я провёл почти четырнадцать часов за разработкой программы, которая должна экономить людям время. При этом у меня ещё книга, исследования, другие проекты и необходимость зарабатывать деньги. ИИ действительно позволил мне делать то, о чём раньше я мог только мечтать. Но вместо свободного в...",
-    "date": "2026-11-03",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Как проводить технические собеседования в эпоху ИИ-суфлёров и агентной разработки",
-    "link": "https://habr.com/ru/articles/1103212/?utm_campaign=1103212&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Стандартный технический скрининг и классический live coding стремительно теряют смысл: на онлайн-собеседованиях кандидаты массово используют невидимые ИИ-суфлёры (вроде Ghost GPT), а типовые алгоритмические задачки любая современная LLM решает за пару секунд. Пытаться победить это одними запретам...",
     "date": "2026-11-03",
     "source": "Habr AI",
     "cat": "ai",
@@ -324,65 +441,11 @@
     "lang": "ru"
   },
   {
-    "title": "Распил монолита глазами QA: как взять от жизни все и наладить тестирование нового микросервиса",
-    "link": "https://habr.com/ru/articles/1103046/?utm_campaign=1103046&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Вынести сервис из монолита непросто, но результат того стоил: регресс при выкатке новой фичи стал в 30 раз быстрее. Рассказываю, почему автотесты переносили руками, а не через Claude, и что вскрыл этот аудит. Читать далее",
-    "date": "2026-11-03",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Этапы продвижения сайта в нейросетях: полный пошаговый гайд по GEO",
-    "link": "https://habr.com/ru/articles/1103028/?utm_campaign=1103028&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, я руководитель группы экспериментальных клиентов Kokoc Performance (входит в Kokoc Group). Наша команда составила полный пошаговый план GEO-продвижения: что делать на каждом этапе, какие данные собирать и как оценивать результат. Гайд подойдет владельцам сайтов, маркетологам, SEO-специали...",
-    "date": "2026-11-03",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Как перестать проверять одно и то же руками? Testence и ИИ‑агент в работе тестировщика",
-    "link": "https://habr.com/ru/articles/1103014/?utm_campaign=1103014&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Перед каждым релизом — те же формы, те же кнопки, те же проверки. Я делаю Testence, чтобы передать эту рутину ИИ-агенту и получить автотесты, которые дальше работают без него. Но первый же зелёный тест заставил спросить: а мы вообще проверили то, что нужно? Читать далее",
-    "date": "2026-11-03",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Как посчитать реальную цену секунды AI-видео: оплаченная и принятая секунда, лог дублей на Python",
-    "link": "https://habr.com/ru/articles/1102006/?utm_campaign=1102006&utm_source=habrahabr&utm_medium=rss",
-    "desc": "На странице тарифов видеомодели написано «около $0,10 за секунду». Ролик на 30 секунд, значит три доллара. Потом приходит счёт в два-три раза больше, и дело не в скрытых комиссиях. Прайс считает каждую секунду, которую модель сгенерировала. В ролик попадает только та, что пережила отбор и монтаж....",
-    "date": "2026-11-03",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Прототип статического рекомпилятора PS4 на Apple Silicon — PS4Recomp",
-    "link": "https://habr.com/ru/articles/1103000/?utm_campaign=1103000&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Здравствуйте. Уже наверное 2-3 месяца отсутствовал. История снова закольцевалась. И по итогу прошлый проект (Kakehashi) был отменен несмотря на значительное количество звезд из-за отсутствия обратной связи и также.. zsh. В общем пробовал разные проекты - вдруг срастется. Ну и примерно месяц назад...",
-    "date": "2026-11-03",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Как предыстория диалога меняет рекомендации ChatGPT, Perplexity и Алисы AI",
-    "link": "https://habr.com/ru/articles/1102928/?utm_campaign=1102928&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Какие CRM рассмотреть для компании в России? ChatGPT, Perplexity и Алиса AI предлагают свои варианты. Я решил проверить, как меняются рекомендации каждой нейросети, если задать вопрос в начале нового чата или после обсуждения задач компании либо конкретной CRM. Для проверки я подготовил пять вари...",
-    "date": "2026-11-03",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Автомат направляет, а LLM объясняет: диалог с агентом за 3 рубля",
     "link": "https://habr.com/ru/articles/1102400/?utm_campaign=1102400&utm_source=habrahabr&utm_medium=rss",
     "desc": "Агент объяснил дизайнеру, что нейросеть похожа на начитанного стажера, и тот пошутил: «Стажёр умеет кофе подавать!» Агент поддержал шутку, и через 15 минут дизайнер прошел всю программу, получив ответ на свои вопросы. Это мой агент активации для тех, кто присматривается к дорогому продукту и пока...",
     "date": "2026-11-03",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -477,6 +540,15 @@
     "lang": "ru"
   },
   {
+    "title": "Распил монолита глазами QA: как взять от жизни все и наладить тестирование нового микросервиса",
+    "link": "https://habr.com/ru/articles/1103046/?utm_campaign=1103046&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Вынести сервис из монолита непросто, но результат того стоил: регресс при выкатке новой фичи стал в 30 раз быстрее. Рассказываю, почему автотесты переносили руками, а не через Claude, и что вскрыл этот аудит. Читать далее",
+    "date": "2026-11-03",
+    "source": "Habr Python",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Дедупликация фото без нейросетей. Часть 2: предобработка и поиск в PostgreSQL",
     "link": "https://habr.com/ru/companies/domclick/articles/1091252/?utm_campaign=1091252&utm_source=habrahabr&utm_medium=rss",
     "desc": "В первой части я взял двадцать фотографий, изменил каждую двадцатью шестью способами и померил, что переживает перцептивный хеш. Пересказывать всё не буду, но пара выводов из первой статьи нам понадобится дальше. Брать надо pHash на 64 битах. У 16 битов бывают коллизии, 256 не дают ничего сверх 6...",
@@ -489,6 +561,15 @@
     "title": "Как мы спроектировали расширения для клиента Kubernetes: песочница, WebAssembly и подписанный каталог",
     "link": "https://habr.com/ru/articles/1103080/?utm_campaign=1103080&utm_source=habrahabr&utm_medium=rss",
     "desc": "Sextant — десктопный клиент Kubernetes на Rust и Tauri 2, замена Lens без аккаунта и телеметрии, со встроенным MCP-сервером для AI-агентов. С версии 0.28 у него есть каталог расширений, и первым в нём стало расширение для Rook Ceph. Расширение — это чужой код внутри программы, у которой есть kube...",
+    "date": "2026-11-03",
+    "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как перестать проверять одно и то же руками? Testence и ИИ‑агент в работе тестировщика",
+    "link": "https://habr.com/ru/articles/1103014/?utm_campaign=1103014&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Перед каждым релизом — те же формы, те же кнопки, те же проверки. Я делаю Testence, чтобы передать эту рутину ИИ-агенту и получить автотесты, которые дальше работают без него. Но первый же зелёный тест заставил спросить: а мы вообще проверили то, что нужно? Читать далее",
     "date": "2026-11-03",
     "source": "Habr Open Source",
     "cat": "ai",
@@ -552,24 +633,6 @@
     "title": "Михаил Неверов, X5: «Код дешевеет, понимание задачи становится дороже»",
     "link": "https://rb.ru/interview/x5-ii-agenty/",
     "desc": "Крупный продуктовый ретейл объединяет множество взаимосвязанных операций, а в X5 они охватывают сеть из более чем 30 тыс. магазинов в 75 регионах. Михаил Неверов, директор по развитию искусственного интеллекта X5, отмечает, что эффект от внедрения ИИ особенно заметен именно в масштабных и сложных...",
-    "date": "2026-11-03",
-    "source": "Rusbase",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Сбер открыл доступ к нейросети Kandinsky Avatar 1.0 — ИИ используют для генерации реалистичных говорящих персонажей",
-    "link": "https://rb.ru/news/sber-otkryl-dostup-k-nejroseti-kandinsky-avatar-10-ii-ispolzuyut-dlya-generacii-realistichnyh-govoryashih-personazhej/",
-    "desc": "Сбер открыл доступ к Kandinsky Avatar 1.0 — семейству нейросетей для создания говорящих видеоаватаров по фотографии и записи голоса. Модели генерируют ролики продолжительностью до одной минуты с частотой 24 кадра в секунду, рассказали Russian Business в компании. Технология синхронизирует движени...",
-    "date": "2026-11-03",
-    "source": "Rusbase",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Anthropic заплатит до $500 тыс. за изучение поведения ИИ — опыт работы с нейросетями кандидатам не потребуется",
-    "link": "https://rb.ru/news/anthropic-zaplatit-do-500-tys-za-izuchenie-povedeniya-ii-opyt-raboty-s-nejrosetyami-kandidatam-ne-potrebuetsya/",
-    "desc": "Компания Anthropic, разработчик чат-бота Claude, предложила исследователям зарплату до $500 тыс. в год (около 3,3 млн ₽ в месяц) за работу над безопасностью искусственного интеллекта. Компания сообщила о наборе в программу Anthropic Residency для специалистов из других технических областей, котор...",
     "date": "2026-11-03",
     "source": "Rusbase",
     "cat": "ai",
@@ -684,6 +747,87 @@
     "lang": "ru"
   },
   {
+    "title": "Ученые выяснили, что помогло человеческому мозгу стать больше обезьяньего",
+    "link": "https://hi-tech.mail.ru/news/159624-uchenye-vyyasnili-chto-pomoglo-chelovecheskomu-mozgu-stat-bolshe-obezyanego/",
+    "desc": "Разница заключается не столько в генах, сколько в механизмах, регулирующих их активность на ранних этапах развития мозга. Исследователи из Центра регенеративных терапий Дрезденского технического университета в Германии выяснили, почему человеческий мозг значительно превосходит по размерам мозг др...",
+    "date": "2026-11-03",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+    "link": "https://uncracked.city",
+    "desc": "To give you some context on the project. I'm a solo founder and I use AI heavily in my work. The idea came from wanting players to discover cities. Each city has its own history, so every case is set in a real city with real public places. The crime and the people are on other hand invented. The ...",
+    "date": "2026-11-03",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+    "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+    "desc": "Article URL: https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/ Comments URL: https://news.ycombinator.com/item?id=50355251 Points: 624 # Comments: 183",
+    "date": "2026-11-03",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Как проводить технические собеседования в эпоху ИИ-суфлёров и агентной разработки",
+    "link": "https://habr.com/ru/articles/1103212/?utm_campaign=1103212&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Стандартный технический скрининг и классический live coding стремительно теряют смысл: на онлайн-собеседованиях кандидаты массово используют невидимые ИИ-суфлёры (вроде Ghost GPT), а типовые алгоритмические задачки любая современная LLM решает за пару секунд. Пытаться победить это одними запретам...",
+    "date": "2026-11-03",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Этапы продвижения сайта в нейросетях: полный пошаговый гайд по GEO",
+    "link": "https://habr.com/ru/articles/1103028/?utm_campaign=1103028&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, я руководитель группы экспериментальных клиентов Kokoc Performance (входит в Kokoc Group). Наша команда составила полный пошаговый план GEO-продвижения: что делать на каждом этапе, какие данные собирать и как оценивать результат. Гайд подойдет владельцам сайтов, маркетологам, SEO-специали...",
+    "date": "2026-11-03",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как посчитать реальную цену секунды AI-видео: оплаченная и принятая секунда, лог дублей на Python",
+    "link": "https://habr.com/ru/articles/1102006/?utm_campaign=1102006&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На странице тарифов видеомодели написано «около $0,10 за секунду». Ролик на 30 секунд, значит три доллара. Потом приходит счёт в два-три раза больше, и дело не в скрытых комиссиях. Прайс считает каждую секунду, которую модель сгенерировала. В ролик попадает только та, что пережила отбор и монтаж....",
+    "date": "2026-11-03",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как предыстория диалога меняет рекомендации ChatGPT, Perplexity и Алисы AI",
+    "link": "https://habr.com/ru/articles/1102928/?utm_campaign=1102928&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Какие CRM рассмотреть для компании в России? ChatGPT, Perplexity и Алиса AI предлагают свои варианты. Я решил проверить, как меняются рекомендации каждой нейросети, если задать вопрос в начале нового чата или после обсуждения задач компании либо конкретной CRM. Для проверки я подготовил пять вари...",
+    "date": "2026-11-03",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Сбер открыл доступ к нейросети Kandinsky Avatar 1.0 — ИИ используют для генерации реалистичных говорящих персонажей",
+    "link": "https://rb.ru/news/sber-otkryl-dostup-k-nejroseti-kandinsky-avatar-10-ii-ispolzuyut-dlya-generacii-realistichnyh-govoryashih-personazhej/",
+    "desc": "Сбер открыл доступ к Kandinsky Avatar 1.0 — семейству нейросетей для создания говорящих видеоаватаров по фотографии и записи голоса. Модели генерируют ролики продолжительностью до одной минуты с частотой 24 кадра в секунду, рассказали Russian Business в компании. Технология синхронизирует движени...",
+    "date": "2026-11-03",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic заплатит до $500 тыс. за изучение поведения ИИ — опыт работы с нейросетями кандидатам не потребуется",
+    "link": "https://rb.ru/news/anthropic-zaplatit-do-500-tys-za-izuchenie-povedeniya-ii-opyt-raboty-s-nejrosetyami-kandidatam-ne-potrebuetsya/",
+    "desc": "Компания Anthropic, разработчик чат-бота Claude, предложила исследователям зарплату до $500 тыс. в год (около 3,3 млн ₽ в месяц) за работу над безопасностью искусственного интеллекта. Компания сообщила о наборе в программу Anthropic Residency для специалистов из других технических областей, котор...",
+    "date": "2026-11-03",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "OpenAI научит дата-центры сбрасывать энергопотребление за минуту, чтобы не перегружать электросеть в часы пик",
     "link": "https://3dnews.ru/1150822",
     "desc": "Компания OpenAI представила инициативу Grid Protectors Program, направленную на сокращение потребления электроэнергии своими дата-центрами в периоды высокой нагрузки на локальные энергосети. Цель программы — минимизировать нагрузку на инфраструктуру в пиковые часы и ускорить подключение новых выч...",
@@ -707,24 +851,6 @@
     "desc": "Samsung окончательно определилась с архитектурой и возможностями будущей фабрики в США, в городе Тейлор, штат Техас. Последнюю точку в планах поставили два главных клиента на будущую продукцию — компании AMD и Nvidia. Для них новый завод будет выпускать базовые кристаллы (логику) памяти HBM4 — вс...",
     "date": "2026-11-03",
     "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Ученые выяснили, что помогло человеческому мозгу стать больше обезьяньего",
-    "link": "https://hi-tech.mail.ru/news/159624-uchenye-vyyasnili-chto-pomoglo-chelovecheskomu-mozgu-stat-bolshe-obezyanego/",
-    "desc": "Разница заключается не столько в генах, сколько в механизмах, регулирующих их активность на ранних этапах развития мозга. Исследователи из Центра регенеративных терапий Дрезденского технического университета в Германии выяснили, почему человеческий мозг значительно превосходит по размерам мозг др...",
-    "date": "2026-11-03",
-    "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Какой была Земля 4,5 млрд лет назад: ответ российских ученых",
-    "link": "https://hi-tech.mail.ru/news/140215-kakoj-byla-zemlya-45-mlrd-let-nazad-otvet-rossijskih-uchenyh/",
-    "desc": "Отечественные специалисты реконструировали первичный климат и солевой состав океана Земли. Открытия помогают понять процессы зарождения жизни на планете. Сотрудники лаборатории биогеохимии окружающей среды ГЕОХИ РАН восстановили химический состава атмосферы и гидросферы Земли в эпоху зарождения ж...",
-    "date": "2026-11-03",
-    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
@@ -862,15 +988,6 @@
     "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
-    "link": "https://rikiyat.github.io/blog/weight-space-programming/",
-    "desc": "Comments",
-    "date": "2026-11-02",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "19-е место в RSNA Knee Abnormality Detection: дистилляция ансамбля, MedSAM‑кропы и LLM‑разметка",
@@ -1143,13 +1260,13 @@
     "lang": "ru"
   },
   {
-    "title": "GeForce RTX 3060 снова стала самой популярной в Steam, а доля Linux почти вернулась к 4 %",
-    "link": "https://3dnews.ru/1150745",
-    "desc": "Компания Valve опубликовала результаты опроса пользователей Steam об аппаратном обеспечении их систем за октябрь 2026 года. Видеокарта GeForce RTX 3060 вернулась на первую строчку рейтинга самых популярных GPU, а удерживавшая лидерство в сентябре RTX 5070 опустилась на вторую строчку. Тем времене...",
+    "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+    "link": "https://rikiyat.github.io/blog/weight-space-programming/",
+    "desc": "Comments",
     "date": "2026-11-02",
-    "source": "3DNews",
+    "source": "Lobsters",
     "cat": "ai",
-    "lang": "ru"
+    "lang": "en"
   },
   {
     "title": "Вирус с ИИ охотится за богатыми пользователями Windows — он оценивает, сколько можно выжать с каждой жертвы",
@@ -2146,7 +2263,7 @@
     "link": "https://habr.com/ru/news/1101842/?utm_campaign=1101842&utm_source=habrahabr&utm_medium=rss",
     "desc": "В Anthropic запретили пользователям клонировать существующие игры. В Claude Code появилось новое неотключаемое правило под идентификатором «tengu_heron_brook». Читать далее",
     "date": "2026-10-30",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2155,16 +2272,7 @@
     "link": "https://habr.com/ru/news/1101840/?utm_campaign=1101840&utm_source=habrahabr&utm_medium=rss",
     "desc": "Сэм Альтман, руководитель компании OpenAI: «Локальный инференс — это крайне неэффективное распределение дефицитных ресурсов. Многие хотят использовать локальный инференс, полагая, что раз появились модели с открытым исходным кодом, которые можно запускать на собственных компьютерах, то необходимо...",
     "date": "2026-10-30",
-    "source": "Habr AI Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "В Spotify появится возможность генерировать AI‑ремиксы треков по подписке",
-    "link": "https://habr.com/ru/news/1101836/?utm_campaign=1101836&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Spotify готовит инструмент, с помощью которого пользователи смогут генерировать нейросетевые ремиксы музыкальных композиций. Запустить сервис планируют в начале 2027 года, а официальную презентацию проведут во время церемонии «Грэмми» в феврале. Читать далее",
-    "date": "2026-10-30",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2214,15 +2322,6 @@
     "lang": "ru"
   },
   {
-    "title": "Я не планировал становиться open-source разработчиком, а теперь развиваю проект с 1000+ звёзд на GitHub",
-    "link": "https://habr.com/ru/articles/1101612/?utm_campaign=1101612&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В начале 2026 года на новогодних праздниках у меня было много свободного времени, и я поставил Claude Code. До этого я уже писал код с ИИ в Cursor и Windsurf, но только на знакомых языках и смотрел весь написанный код. С CLI-агентами всё пошло иначе: я пробовал Claude Code, потом OpenCode и быстр...",
-    "date": "2026-10-30",
-    "source": "Habr Open Source",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Свои GPU плюс облако: как LLM-шлюз живёт в продакшене — ноды, отказы, ключи, обновления",
     "link": "https://habr.com/ru/articles/1100326/?utm_campaign=1100326&utm_source=habrahabr&utm_medium=rss",
     "desc": "В прошлой статье я рассказывал про маршрутизацию и деньги в Keystone. The Model Switchboard. (KTMS), нашем open-source LLM-шлюзе на Go. Эта статья про эксплуатацию: как подключить свои видеокарты, что происходит, когда отказывает каждая зависимость, как менять ключи шифрования, как проверять, что...",
@@ -2264,6 +2363,24 @@
     "desc": "Современные большие языковые модели (LLM) развиваются по пути наращивания мощности. Разработчики пытаются создать всезнающий, безграничный сверхразум, который помнит терабайты данных, но полностью упускают архитектуру человеческих отношений. Текущая функция долгосрочной памяти (Memory) в ИИ — это...",
     "date": "2026-10-30",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "В Spotify появится возможность генерировать AI‑ремиксы треков по подписке",
+    "link": "https://habr.com/ru/news/1101836/?utm_campaign=1101836&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Spotify готовит инструмент, с помощью которого пользователи смогут генерировать нейросетевые ремиксы музыкальных композиций. Запустить сервис планируют в начале 2027 года, а официальную презентацию проведут во время церемонии «Грэмми» в феврале. Читать далее",
+    "date": "2026-10-30",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Я не планировал становиться open-source разработчиком, а теперь развиваю проект с 1000+ звёзд на GitHub",
+    "link": "https://habr.com/ru/articles/1101612/?utm_campaign=1101612&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В начале 2026 года на новогодних праздниках у меня было много свободного времени, и я поставил Claude Code. До этого я уже писал код с ИИ в Cursor и Windsurf, но только на знакомых языках и смотрел весь написанный код. С CLI-агентами всё пошло иначе: я пробовал Claude Code, потом OpenCode и быстр...",
+    "date": "2026-10-30",
+    "source": "Habr Open Source",
     "cat": "ai",
     "lang": "ru"
   },
@@ -3456,20 +3573,20 @@
     "lang": "ru"
   },
   {
-    "title": "Zoo Code: установка, настройка моделей и MCP",
-    "link": "https://thecode.media/zoo-code-ustanovka-nastrojka/",
-    "desc": "Заводим в редакторе собственный зоопарк ИИ-агентов и учим его не грызть лишние токены Сообщение Zoo Code: установка, настройка моделей и MCP появились сначала на Журнал «Код» программирование без снобизма .",
-    "date": "2026-10-28",
-    "source": "The Code",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Deep Research и MCP Mobbin — нитро для поиска референсов",
     "link": "https://habr.com/ru/companies/alfa/articles/1100178/?utm_campaign=1100178&utm_source=habrahabr&utm_medium=rss",
     "desc": "Привет, Хабр! Я Женя Горбач, продуктовый дизайнер в Альфа-Метрике, аналитическом продукте Альфа банка. Найти рефы для авторизации, оформления заказа или перевода — задача вполне понятная. Но что делать, если проектируешь сценарий, который редко встречается в других продуктах, а решения прямых кон...",
     "date": "2026-10-28",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Zoo Code: установка, настройка моделей и MCP",
+    "link": "https://thecode.media/zoo-code-ustanovka-nastrojka/",
+    "desc": "Заводим в редакторе собственный зоопарк ИИ-агентов и учим его не грызть лишние токены Сообщение Zoo Code: установка, настройка моделей и MCP появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-10-28",
+    "source": "The Code",
     "cat": "ai",
     "lang": "ru"
   },
