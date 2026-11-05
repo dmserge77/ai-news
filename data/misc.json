@@ -1,18 +1,8 @@
 [
   {
-    "title": "Tencent Hy4",
-    "link": "https://hy.tencent.ai/research/hy4",
-    "desc": "Article URL: https://hy.tencent.ai/research/hy4 Comments URL: https://news.ycombinator.com/item?id=50365780 Points: 46 # Comments: 6",
-    "date": "2026-11-04",
-    "source": "Hacker News",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "AI is forcing us to pay off 40 years of technical debt",
-    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-    "desc": "Article URL: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability Comments URL: https://news.ycombinator.com/item?id=50364336 Points: 717 # Comments: 447",
+    "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+    "link": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+    "desc": "Article URL: https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra Comments URL: https://news.ycombinator.com/item?id=50370654 Points: 78 # Comments: 38",
     "date": "2026-11-04",
     "source": "Hacker News",
     "cat": "misc",
@@ -37,6 +27,26 @@
     "source": "Habr AI",
     "cat": "misc",
     "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Tencent Hy4",
+    "link": "https://hy.tencent.ai/research/hy4",
+    "desc": "Article URL: https://hy.tencent.ai/research/hy4 Comments URL: https://news.ycombinator.com/item?id=50365780 Points: 46 # Comments: 6",
+    "date": "2026-11-04",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "AI is forcing us to pay off 40 years of technical debt",
+    "link": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+    "desc": "Article URL: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability Comments URL: https://news.ycombinator.com/item?id=50364336 Points: 717 # Comments: 447",
+    "date": "2026-11-04",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
     "misc_type": "raznoe"
   },
   {
@@ -245,6 +255,16 @@
     "desc": "Отечественные специалисты реконструировали первичный климат и солевой состав океана Земли. Открытия помогают понять процессы зарождения жизни на планете. Сотрудники лаборатории биогеохимии окружающей среды ГЕОХИ РАН восстановили химический состава атмосферы и гидросферы Земли в эпоху зарождения ж...",
     "date": "2026-11-03",
     "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Для поиска внеземной жизни учёные создали цифровую модель безжизненной Земли",
+    "link": "https://3dnews.ru/1150793",
+    "desc": "Планеты могут быть пригодными для возникновения жизни, но не обязательно обитаемыми. Но как об этом узнать за десятки, сотни и тысячи световых лет, наблюдая за экзопланетами только в телескопы? Оказалось, для этого достаточно создать цифровую модель безжизненной Земли и использовать её как эталон...",
+    "date": "2026-11-03",
+    "source": "3DNews",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -995,6 +1015,16 @@
     "desc": "Играть вдвоём в Minecraft с модами сложнее, чем кажется: нужны одинаковые версии, загрузчик, моды и конфиги, а потом ещё Hamachi или аренда сервера. Я написал лаунчер на Rust и Tauri, где всё это заменяет одна ссылка. Расскажу, как устроены P2P-комнаты на iroh (QUIC), туннель игрового трафика, пе...",
     "date": "2026-10-29",
     "source": "Habr Open Source",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Чистый контур — агентская прачечная для вашего грязного легаси",
+    "link": "https://habr.com/ru/articles/1101314/?utm_campaign=1101314&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Два из трех API-вызовов возвращали HTTP 500. Агенты поколениями лепили заплатки поверх заплаток, пока код не превратился в клубок нейросоплей. Вместо очередного исправления я перенес систему в чистый контур, где агент пишет новую реализацию, не видя старой. В статье механизм переноса, 15 правил з...",
+    "date": "2026-10-29",
+    "source": "Habr Python",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -13935,66 +13965,6 @@
     "desc": "",
     "date": "2026-08-10",
     "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent",
-    "link": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent",
-    "desc": "",
-    "date": "2026-08-07",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Vercel Container Registry repositories can now be made public",
-    "link": "https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public",
-    "desc": "",
-    "date": "2026-08-07",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Audit Log Drains now support Datadog, Splunk, and Panther",
-    "link": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
-    "desc": "",
-    "date": "2026-08-07",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Skill packs are now available on skills.sh",
-    "link": "https://vercel.com/changelog/skill-packs-are-now-available",
-    "desc": "",
-    "date": "2026-08-07",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Free domain now included with new Pro subscriptions",
-    "link": "https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions",
-    "desc": "",
-    "date": "2026-08-07",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "How Baseline Can Help You Ship Less JavaScript",
-    "link": "https://smashingmagazine.com/2026/08/how-baseline-can-help-ship-less-javascript/",
-    "desc": "The gap between “you need a library for this” and “the browser does this” keeps closing. A practical guide to auditing your dependencies and finding what the web platform can now handle for you.",
-    "date": "2026-08-07",
-    "source": "Smashing Magazine",
     "cat": "misc",
     "lang": "en",
     "misc_type": "unfiltered"
