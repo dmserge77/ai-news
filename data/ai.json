@@ -1,21 +1,84 @@
 [
   {
-    "title": "Gemini Omni 1.2 Flash",
-    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-    "desc": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 206 # Comments: 160",
+    "title": "Почему ИИ в музыке — не конец профессии, а новый трамвай, и почему полагаться на него целиком всё равно нельзя.",
+    "link": "https://vc.ru/tribuna/3240533-ii-v-muzike-kak-tehnologii-ne-ubivayut-professiyu?from=rss",
+    "desc": "Каждая большая технология сначала звучит как прощание, а потом оказывается новым началом. Искусственный интеллект — не исключение.",
+    "date": "2026-11-07",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+    "link": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+    "desc": "Article URL: https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053 Comments URL: https://news.ycombinator.com/item?id=50399569 Points: 18 # Comments: 3",
     "date": "2026-11-06",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "AI for scientific discovery: How researchers use Claude",
-    "link": "https://www.anthropic.com/research/how-researchers-use-claude",
-    "desc": "Article URL: https://www.anthropic.com/research/how-researchers-use-claude Comments URL: https://news.ycombinator.com/item?id=50389990 Points: 60 # Comments: 24",
+    "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+    "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
+    "desc": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 252 # Comments: 54",
     "date": "2026-11-06",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
+    "link": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
+    "desc": "Hi there :) Around a month ago, I released LDraw Nova, an agentic toolset for assembling LEGO CAD models by generating LDraw source code files. For more details, here's the Show HN post: https://news.ycombinator.com/item?id=49937916 From the comments, I got the impression that there was quite an ...",
+    "date": "2026-11-06",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Memorilla: Latent Semantic Memory for LLMs",
+    "link": "https://arxiv.org/abs/2610.21375",
+    "desc": "Article URL: https://arxiv.org/abs/2610.21375 Comments URL: https://news.ycombinator.com/item?id=50395919 Points: 70 # Comments: 5",
+    "date": "2026-11-06",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+    "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 188 # Comments: 432",
+    "date": "2026-11-06",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "AI Gateway adds DeepSeek Search and Fetch tools",
+    "link": "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools",
+    "desc": "",
+    "date": "2026-11-06",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Откуда нейросети берут информацию и почему для ответов ChatGPT и Claude сайту бренда мало топа Яндекса",
+    "link": "https://habr.com/ru/articles/1104752/?utm_campaign=1104752&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Чтобы попасть в ответы Claude, сайту бренда мало топа Яндекса и Google: он может стоять там высоко и всё равно не попадать в ответы. Peec сверил ссылки Claude с выдачей Brave: из 100 страниц, которые Claude цитирует, 89 нашлись в первых 20 результатах этого поисковика. Почти девять из десяти, и э...",
+    "date": "2026-11-06",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "[Перевод] Прогнал агента на $90 тысяч с разными техниками тестирования: TDD снова в хвосте",
+    "link": "https://habr.com/ru/articles/1104744/?utm_campaign=1104744&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Дэн Лу дал агенту на GPT-6 Astra реализовать Pandoc и в каждом условии менял только указание, как тестировать: 25 условий по 25 прогонов, около 90 тысяч долларов по розничным ценам. Скрытые тесты разошлись от 40,5% у TDD до 45,1% у дифференциального тестирования при 44,1% без всяких указаний. Авт...",
+    "date": "2026-11-06",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Как мы построили платформу с нуля, а потом научили нейросети на ней работать",
@@ -153,9 +216,18 @@
     "lang": "ru"
   },
   {
+    "title": "OpenAI сбрасывает режим «размышлений» ChatGPT с High на Medium",
+    "link": "https://habr.com/ru/news/1104738/?utm_campaign=1104738&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В частности, пользователи сообщают о переключении с GPT-5.6 Sol High на GPT-6 Medium, несмотря на явно выбранную модель и уровень рассуждений. Жалобы поступают от пользователей веб-версии, Windows, macOS, Android и iOS. В июне 2026 года OpenAI обновила переключатель режимов: Thinking Standard ста...",
+    "date": "2026-11-06",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Какую работу в IT не доверяют искусственному интеллекту?",
     "link": "https://habr.com/ru/companies/oxygendc/news/1104678/?utm_campaign=1104678&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! На фоне повальной моды среди IT-компаний внедрять ИИ везде, где только можно (и не всегда нужно), выяснилось, что в одной из важных составляющих работы заменить человека нейросети не могут. И нет, это не написание кода, а поиск новых сотрудников. Почему люди в очередной раз разочаро...",
+    "desc": "Привет, Хабр! На фоне повальной моды среди IT‑компаний внедрять ИИ везде, где только можно (и не всегда нужно), выяснилось, что в одной из важных составляющих работы заменить человека нейросети не могут. И нет, это не написание кода, а поиск новых сотрудников. Почему люди в очередной раз разочаро...",
     "date": "2026-11-06",
     "source": "Habr AI Новости",
     "cat": "ai",
@@ -342,6 +414,15 @@
     "lang": "ru"
   },
   {
+    "title": "Энергетическая дискриминация: ИИ тратит на запросы на некоторых языках до 180 раз больше энергии, чем на английский",
+    "link": "https://3dnews.ru/1150976",
+    "desc": "Учёные из Мичиганского университета (University of Michigan) показали, что обработка запросов искусственным интеллектом на разных языках требует существенно различающихся энергозатрат. В зависимости от языка и модели энергозатраты на обработку запросов на национальных языках могут превышать показ...",
+    "date": "2026-11-06",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Microsoft готовит Windows 11 27H2 — крупное обновление системы",
     "link": "https://3dnews.ru/1150962",
     "desc": "Microsoft продолжает восстанавливать репутацию своих продуктов — недовольство аудитории из-за недостатков Windows 11 продолжает нарастать, а реакция на компьютеры класса Copilot Plus оказалась довольно прохладной. Можно было бы подумать, что что компании пора предложить преемника Windows 11, но в...",
@@ -363,15 +444,6 @@
     "title": "Claude научился следить за деньгами пользователей: теперь ИИ-чат-бот можно подключить к банковским счетам",
     "link": "https://3dnews.ru/1150934",
     "desc": "Компания Anthropic добавила в чат-бот Claude новый инструмент «Личные финансы» (Personal Finance). Функция призвана помочь пользователям следить за своими деньгами. С её помощью можно подключить банковские счета и кредитные карты через сервис Plaid, а затем задавать Claude вопросы о своих финанса...",
-    "date": "2026-11-06",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Энергетическая дискриминация: ИИ тратит на запросы на некоторых языках до 180 раз больше энергии, чем на английский",
-    "link": "https://3dnews.ru/1150976",
-    "desc": "Учёные из Мичиганского университета (University of Michigan) показали, что обработка запросов искусственным интеллектом на разных языках требует существенно различающихся энергозатрат. В зависимости от языка и модели энергозатраты на обработку запросов на национальных языках могут превышать показ...",
     "date": "2026-11-06",
     "source": "3DNews",
     "cat": "ai",
@@ -504,6 +576,24 @@
     "lang": "ru"
   },
   {
+    "title": "Gemini Omni 1.2 Flash",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    "desc": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 206 # Comments: 160",
+    "date": "2026-11-06",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "AI for scientific discovery: How researchers use Claude",
+    "link": "https://www.anthropic.com/research/how-researchers-use-claude",
+    "desc": "Article URL: https://www.anthropic.com/research/how-researchers-use-claude Comments URL: https://news.ycombinator.com/item?id=50389990 Points: 60 # Comments: 24",
+    "date": "2026-11-06",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Google открывает Search и Gemini для сторонних приложений. Что это меняет для конструкторов сайтов?",
     "link": "https://habr.com/ru/articles/1104272/?utm_campaign=1104272&utm_source=habrahabr&utm_medium=rss",
     "desc": "28 октября 2026 года Google представил Connected Apps Platform — платформу, через которую сторонние сервисы смогут подключаться к Search и Gemini. На первый взгляд обычная новость об интеграциях. Но для рынка конструкторов сайтов она может означать довольно серьёзные изменения. Представим, что вл...",
@@ -594,18 +684,18 @@
     "lang": "ru"
   },
   {
-    "title": "Книга: «Глубокое обучение на Python. 3-е межд. издание»",
-    "link": "https://habr.com/ru/companies/piter/articles/1103896/?utm_campaign=1103896&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хаброжители! Менее чем за десятилетие глубокое обучение пережило два ключевых этапа. Сначала Python-библиотеки вроде Keras, TensorFlow и PyTorch вывели нейронные сети из лабораторных экспериментов в реальный продакшен. Затем LLM и другие инструменты генеративного ИИ преобразовали жизнь би...",
+    "title": "Распознавание визиток на телефоне без облака: PaddleOCR, ONNX и React Native",
+    "link": "https://habr.com/ru/articles/1104076/?utm_campaign=1104076&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Фото чужой визитки не должно покидать телефон — так требует 152-ФЗ. Рассказываю, как мы распознаём визитки на Android без облака: PaddleOCR v5 через ONNX Runtime в React Native, почему отказались от LLM, как ускорили снимок с 7,8 до 3 секунд и что ONNX Runtime по умолчанию отправляет в Microsoft....",
     "date": "2026-11-05",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "Распознавание визиток на телефоне без облака: PaddleOCR, ONNX и React Native",
-    "link": "https://habr.com/ru/articles/1104076/?utm_campaign=1104076&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Фото чужой визитки не должно покидать телефон — так требует 152-ФЗ. Рассказываю, как мы распознаём визитки на Android без облака: PaddleOCR v5 через ONNX Runtime в React Native, почему отказались от LLM, как ускорили снимок с 7,8 до 3 секунд и что ONNX Runtime по умолчанию отправляет в Microsoft....",
+    "title": "Книга: «Глубокое обучение на Python. 3-е межд. издание»",
+    "link": "https://habr.com/ru/companies/piter/articles/1103896/?utm_campaign=1103896&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хаброжители! Менее чем за десятилетие глубокое обучение пережило два ключевых этапа. Сначала Python-библиотеки вроде Keras, TensorFlow и PyTorch вывели нейронные сети из лабораторных экспериментов в реальный продакшен. Затем LLM и другие инструменты генеративного ИИ преобразовали жизнь би...",
     "date": "2026-11-05",
     "source": "Habr ML",
     "cat": "ai",
@@ -963,15 +1053,6 @@
     "lang": "ru"
   },
   {
-    "title": "Китайские ИИ-гиганты выстроились за видеокартами Nvidia, но получат лишь 1 % от заказанного",
-    "link": "https://3dnews.ru/1150874",
-    "desc": "Китайские ИИ-разработчики ожидают получить лишь небольшую долю от общего объёма заказанных ими ускорителей Nvidia в течение следующих нескольких месяцев. Это связано с тем, что американская компания сосредоточена на расширении производства передовых ускорителей, а высокий спрос на них не позволяе...",
-    "date": "2026-11-05",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Anthropic смягчила запрет на клонирование популярных игр через Claude Code",
     "link": "https://3dnews.ru/1150913",
     "desc": "Компания Anthropic изменила правила работы ИИ-помощника Claude Code после жалоб разработчиков на отказы создавать игры по образцу существующих проектов. Теперь упоминание известной игры для объяснения нужной механики не должно приводить к блокировке запроса. Запрет на прямое копирование чужих игр...",
@@ -997,6 +1078,15 @@
     "source": "Smashing Magazine",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Китайские ИИ-гиганты выстроились за видеокартами Nvidia, но получат лишь 1 % от заказанного",
+    "link": "https://3dnews.ru/1150874",
+    "desc": "Китайские ИИ-разработчики ожидают получить лишь небольшую долю от общего объёма заказанных ими ускорителей Nvidia в течение следующих нескольких месяцев. Это связано с тем, что американская компания сосредоточена на расширении производства передовых ускорителей, а высокий спрос на них не позволяе...",
+    "date": "2026-11-05",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Claude Code sends your email address to websites",
