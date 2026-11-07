@@ -1,8 +1,17 @@
 [
   {
+    "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+    "link": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+    "desc": "Article URL: https://github.com/Video-Rebirth/hyperflow-h3-flash Comments URL: https://news.ycombinator.com/item?id=50405263 Points: 37 # Comments: 10",
+    "date": "2026-11-07",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "The Components of Agent Memory",
     "link": "https://www.anthropic.com/research/components-of-agent-memory",
-    "desc": "Article URL: https://www.anthropic.com/research/components-of-agent-memory Comments URL: https://news.ycombinator.com/item?id=50402212 Points: 103 # Comments: 60",
+    "desc": "Article URL: https://www.anthropic.com/research/components-of-agent-memory Comments URL: https://news.ycombinator.com/item?id=50402212 Points: 135 # Comments: 68",
     "date": "2026-11-07",
     "source": "Hacker News",
     "cat": "ai",
@@ -25,6 +34,15 @@
     "source": "Vercel",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Доверяй, но проверяй: 12 выводов о Human-in-the-Loop с LLM",
+    "link": "https://habr.com/ru/articles/1095740/?utm_campaign=1095740&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сейчас LLM всё чаще внедряют в работающие бизнес-процессы: поиск и сбор информации, структурирование данных, проверку и публикацию. При этом цена одной ошибки модели бывает довольно высокой: это потерянные деньги, врея и репутация в глазах клиентов. Снизить этот риск помогает принцип Human-in-the...",
+    "date": "2026-11-07",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Нейроответ Google появляется почти под каждым запросом в поиске. Что это значит для продвижения в ответах ИИ",
@@ -189,6 +207,60 @@
     "lang": "ru"
   },
   {
+    "title": "Claude Code в облаке научился сам настраивать окружение репозитория",
+    "link": "https://tproger.ru/news/claude-code-v-oblake-nauchilsya-sam-nastraivat-okruzhenie-repozito",
+    "desc": "Claude создаёт окружение со скриптом установки и просит API-ключ через форму; ключ остаётся вне VM, а снимок окружения живёт около 7 дней. Что важно знать. — Читать дальше « Claude Code в облаке научился сам настраивать окружение репозитория »",
+    "date": "2026-11-07",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Memorilla заменяет документы в контексте LLM 16 векторами памяти",
+    "link": "https://tproger.ru/news/memorilla-zamenyaet-dokumenty-v-kontekste-llm-16-vektorami-pamyati",
+    "desc": "На FactKG Memorilla дала 84,33% против 80,43% у полного контекста, сократив документную часть входа в 108 раз, но на PubMedQA уступила RAG. Разбор arXiv. — Читать дальше « Memorilla заменяет документы в контексте LLM 16 векторами памяти »",
+    "date": "2026-11-07",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic объяснила, из чего собрать память агента и зачем ему «сны»",
+    "link": "https://tproger.ru/news/anthropic-obyasnila-iz-chego-sobrat-pamyat-agenta-i-zachem-emu",
+    "desc": "Правило «записывай только ошибки» срезало 89% пользы памяти у Opus 5; вики по 420 млн токенов подняла долю выполненных критериев с 13% до 48%. Опыты Anthropic. — Читать дальше « Anthropic объяснила, из чего собрать память агента и зачем ему «сны» »",
+    "date": "2026-11-07",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Cursor научил агентов разговаривать голосом: звонки на Grok Voice",
+    "link": "https://tproger.ru/news/cursor-nauchil-agentov-razgovarivat-golosom-zvonki-na-grok-voic",
+    "desc": "Звонок агенту доступен в IDE, вебе и на iOS через «Hey Siri, call Cursor»; с Privacy Mode данные не хранятся, а у звонков есть дневной лимит. — Читать дальше « Cursor научил агентов разговаривать голосом: звонки на Grok Voice »",
+    "date": "2026-11-07",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Claude Code раздавал сайтам email аккаунта в User-Agent — что делать",
+    "link": "https://tproger.ru/news/claude-code-razdaval-sajtam-email-akkaunta-v-user-agent-chto-de",
+    "desc": "Anthropic уберёт адрес из контекста модели в ближайшем релизе, а встроенный мод cc-plugin-privacy в 2.1.317+ не проверяет WebFetch, MCP и скрипты. — Читать дальше « Claude Code раздавал сайтам email аккаунта в User-Agent — что делать »",
+    "date": "2026-11-07",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI представила ИИ-модель GPT-6 Cyber — нейросеть самостоятельно находит уязвимости в коде",
+    "link": "https://rb.ru/news/openai-predstavila-ii-model-gpt-6-cyber-nejroset-samostoyatelno-nahodit-uyazvimosti-v-kode/",
+    "desc": "OpenAI представила GPT-6 Cyber — новую версию ИИ-модели для поиска уязвимостей и защиты компьютерных систем. Нейросеть помогла обнаружить 81 ранее неизвестную уязвимость в браузере Firefox и разработала 948 рабочих эксплойтов для ядра Linux. При этом модель стала лучше соблюдать установленные огр...",
+    "date": "2026-11-07",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "ИИ-прогнозы погоды дошли до 50 млн фермеров — теперь для метеослужб создают открытую платформу",
     "link": "https://vc.ru/ai/3240899-ii-prognozy-pogody-dlya-fermerov?from=rss",
     "desc": "Команда Чикагского университета получила грант $10 млн на создание UChicago–Laude AI Almanac — открытой платформы, с которой метеослужбы, правительства и некоммерческие организации смогут адаптировать ИИ-прогнозы к своим регионам. По данным университета, за два сезона разработанные при участии ко...",
@@ -315,15 +387,6 @@
     "lang": "ru"
   },
   {
-    "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-    "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-    "desc": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 537 # Comments: 133",
-    "date": "2026-11-06",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "AI Gateway adds DeepSeek Search and Fetch tools",
     "link": "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools",
     "desc": "",
@@ -396,33 +459,6 @@
     "lang": "ru"
   },
   {
-    "title": "Скелет для ИИ: почему BPM‑платформа важнее модели",
-    "link": "https://habr.com/ru/companies/diasoft_company/articles/1104490/?utm_campaign=1104490&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! На связи Илья Виноградов, руководитель команды «Технологическая платформа Digital Q.BPM». В этой статье расскажу, как ИИ-агенты Digital Q.BPM работают внутри платформы и поясню, почему именно платформа, а не модель, делает прикладные решения, созданные с помощью искусственного интел...",
-    "date": "2026-11-06",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "База знаний на максималках: как ИИ-агенты с помощью QA сами наполняют общую память тестирования",
-    "link": "https://habr.com/ru/companies/vkusvill/articles/1104486/?utm_campaign=1104486&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Всем привет! Меня зовут Олег Малышев , я один из лидеров стека тестирования в компании «ТехВилл». Мы продолжаем разговор о том, как применять ИИ в тестировании так, чтобы он снимал рутину. Читать далее",
-    "date": "2026-11-06",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Как Claude переписывал веса медицинской модели. Справился. Но градиент не хуже",
-    "link": "https://habr.com/ru/articles/1104210/?utm_campaign=1104210&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Повторила эксперимент MIT weight-space reprogramming на модели из клинической генетики. Opus поправил веса без переобучения и поднял AUPRC c 0,939 до 0,975 Читать далее",
-    "date": "2026-11-06",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "[Перевод] Даже мощные LLM теряются в длинных текстах. Исследователи выяснили почему",
     "link": "https://habr.com/ru/articles/1104552/?utm_campaign=1104552&utm_source=habrahabr&utm_medium=rss",
     "desc": "Казалось бы, современные LLM должны неплохо справляться с подобными заданиями. Однако, даже передовые модели сталкиваются с серьезными трудностями. Gemini 3.8 Flash, Claude Opus 5.5, GPT-6 Sol и GPT-6 Luna уверенно проходили простые уровни, но на самых длинных заданиях с взаимосвязанными изменени...",
@@ -435,6 +471,15 @@
     "title": "Scale-to-zero для LLM: на что уходят 294 секунды после первого запроса",
     "link": "https://habr.com/ru/companies/vktech/articles/1104440/?utm_campaign=1104440&utm_source=habrahabr&utm_medium=rss",
     "desc": "Когда запросы к LLM приходят лишь несколько раз в день, GPU большую часть времени простаивает, но платить за ноду приходится круглосуточно. Хочется освобождать карту между запросами: удалять поды с моделью, когда нагрузки нет, и запускать их снова, когда она появляется. Для обычного веб-приложени...",
+    "date": "2026-11-06",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как Claude переписывал веса медицинской модели. Справился. Но градиент не хуже",
+    "link": "https://habr.com/ru/articles/1104210/?utm_campaign=1104210&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Повторила эксперимент MIT weight-space reprogramming на модели из клинической генетики. Opus поправил веса без переобучения и поднял AUPRC c 0,939 до 0,975 Читать далее",
     "date": "2026-11-06",
     "source": "Habr ML",
     "cat": "ai",
@@ -743,6 +788,33 @@
     "desc": "Громкие кибератаки последних недель объясняются не наступлением интернет-апокалипсиса или мощью ИИ, а человеческими ошибками: утекшими ключами, устаревшим серверным ПО и небрежными настройками. Разбираем, что в кричащих заголовках — факты, а что домыслы и сгущенные краски. Тревожные новости о гро...",
     "date": "2026-11-06",
     "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+    "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
+    "desc": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 537 # Comments: 133",
+    "date": "2026-11-06",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Скелет для ИИ: почему BPM‑платформа важнее модели",
+    "link": "https://habr.com/ru/companies/diasoft_company/articles/1104490/?utm_campaign=1104490&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! На связи Илья Виноградов, руководитель команды «Технологическая платформа Digital Q.BPM». В этой статье расскажу, как ИИ-агенты Digital Q.BPM работают внутри платформы и поясню, почему именно платформа, а не модель, делает прикладные решения, созданные с помощью искусственного интел...",
+    "date": "2026-11-06",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "База знаний на максималках: как ИИ-агенты с помощью QA сами наполняют общую память тестирования",
+    "link": "https://habr.com/ru/companies/vkusvill/articles/1104486/?utm_campaign=1104486&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Всем привет! Меня зовут Олег Малышев , я один из лидеров стека тестирования в компании «ТехВилл». Мы продолжаем разговор о том, как применять ИИ в тестировании так, чтобы он снимал рутину. Читать далее",
+    "date": "2026-11-06",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1566,15 +1638,6 @@
     "lang": "ru"
   },
   {
-    "title": "Основы глубокого обучения. Часть 3",
-    "link": "https://habr.com/ru/articles/1102888/?utm_campaign=1102888&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Всем привет! Эта статья является третьей в серии статей про основы глубокого обучения. В прошлых двух частях я рассказал много интересного и полезного новичкам, так что рекомендую перечитать. В этой части мы разберём подробнее задачи связанные с обработкой естественного языка (NLP) и реализуем дв...",
-    "date": "2026-11-04",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Google позволит школам отключать свои ИИ‑инструменты, но ценой отказа от поиска",
     "link": "https://habr.com/ru/news/1103430/?utm_campaign=1103430&utm_source=habrahabr&utm_medium=rss",
     "desc": "Google планирует разрешить начальным и средним школам отключать инструменты на искусственном интеллекте, если администрация учебного заведения согласна с этим. Однако в таком случае школы больше не смогут получить доступ к поисковику Google, поскольку ИИ‑функции теперь интегрированы в поисковую с...",
@@ -1589,6 +1652,15 @@
     "desc": "Компания CrowdStrike представила функцию «AI Kill Switch» («аварийное отключение ИИ») в составе платформы Falcon Guardian. Она предлагает специалистам по безопасности полный контроль над ИИ‑агентами. Если тот начинает действовать вопреки заданным алгоритмам, сотрудники службы безопасности могут н...",
     "date": "2026-11-04",
     "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Основы глубокого обучения. Часть 3",
+    "link": "https://habr.com/ru/articles/1102888/?utm_campaign=1102888&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Всем привет! Эта статья является третьей в серии статей про основы глубокого обучения. В прошлых двух частях я рассказал много интересного и полезного новичкам, так что рекомендую перечитать. В этой части мы разберём подробнее задачи связанные с обработкой естественного языка (NLP) и реализуем дв...",
+    "date": "2026-11-04",
+    "source": "Habr Python",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2034,15 +2106,6 @@
     "lang": "ru"
   },
   {
-    "title": "Доказано ≠ безопасно: как каскады ИИ-агентов заставили меня усилить модель угроз",
-    "link": "https://habr.com/ru/articles/1102822/?utm_campaign=1102822&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В первой статье я рассказал, как собрал операционную систему и доказал ее работу. Спустя время я понял, что этого недостаточно. Всё чаще стали попадаться на глаза новости о том, как ИИ-агенты находят уязвимости в ядрах Linux за часы. Каскады ИИ-агентов - это уже не фантастика из фильмов, а реальн...",
-    "date": "2026-11-03",
-    "source": "Habr Open Source",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Агент починил красный CI: исправил тест, а не код",
     "link": "https://habr.com/ru/companies/otus/articles/1088902/?utm_campaign=1088902&utm_source=habrahabr&utm_medium=rss",
     "desc": "AI‑агент исправил упавший CI, сборка стала зелёной — можно мержить? В эксперименте с двумя AI‑ассистентами выяснилось, что при конфликте тестов со спецификацией агенты могут менять сами тесты, подгоняя результат под ожидаемый. В статье разбираем шесть ошибок в организации работы с AI‑агентами и с...",
@@ -2084,6 +2147,15 @@
     "desc": "Разбираем флагманы по задачам, ценам и результатам тестов Сообщение Какую нейросеть выбрать осенью 2026 года — GPT-6, Claude 5.5 и Gemini 4 появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-11-03",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Доказано ≠ безопасно: как каскады ИИ-агентов заставили меня усилить модель угроз",
+    "link": "https://habr.com/ru/articles/1102822/?utm_campaign=1102822&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В первой статье я рассказал, как собрал операционную систему и доказал ее работу. Спустя время я понял, что этого недостаточно. Всё чаще стали попадаться на глаза новости о том, как ИИ-агенты находят уязвимости в ядрах Linux за часы. Каскады ИИ-агентов - это уже не фантастика из фильмов, а реальн...",
+    "date": "2026-11-03",
+    "source": "Habr Open Source",
     "cat": "ai",
     "lang": "ru"
   },
@@ -6300,6 +6372,15 @@
     "lang": "ru"
   },
   {
+    "title": "Как люди придумывали красоту: собрал атлас 195 визуальных стилей, от пещеры Ласко до уирдкора",
+    "link": "https://habr.com/ru/articles/1099688/?utm_campaign=1099688&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Нейросети дали всем суперсилу: любой человек может за минуту получить вполне красивую картинку. Но суперсила попала в руки людям, которые часто не знают, что с ней делать. Я в том числе. Попросить у ИИ «нарисуй в стиле импрессионизма» может каждый. Попросить «в стиле неопластицизма» или «в стиле ...",
+    "date": "2026-10-26",
+    "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "OpenAI выпустила GPT-6.1 Terra по $1 за миллион входных токенов и открыла Decisions API",
     "link": "https://tproger.ru/news/openai-vypustila-gpt-6-1-terra-po-1-za-million-vhodnyh-tokenov",
     "desc": "OpenAI выпустила GPT-6.1 Terra за $1 за миллион входных токенов — вдвое дешевле GPT-6.1 Sol — и открыла всем Decisions API на базе GPT-6 Luna. — Читать дальше « OpenAI выпустила GPT-6.1 Terra по $1 за миллион входных токенов и открыла Decisions API »",
@@ -6323,15 +6404,6 @@
     "desc": "Сравнили нейросети для создания персональных песен-поздравлений и музыкальных подарков. Разбираем генерацию песни по описанию и своему тексту, бесплатные возможности и способы персонализировать результат. — Читать дальше « Нейросети для создания песен-поздравлений: ТОП-10 сервисов в 2026 году »",
     "date": "2026-10-26",
     "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Как люди придумывали красоту: собрал атлас 195 визуальных стилей, от пещеры Ласко до уирдкора",
-    "link": "https://habr.com/ru/articles/1099688/?utm_campaign=1099688&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Нейросети дали всем суперсилу: любой человек может за минуту получить вполне красивую картинку. Но суперсила попала в руки людям, которые часто не знают, что с ней делать. Я в том числе. Попросить у ИИ «нарисуй в стиле импрессионизма» может каждый. Попросить «в стиле неопластицизма» или «в стиле ...",
-    "date": "2026-10-26",
-    "source": "Habr Дизайн",
     "cat": "ai",
     "lang": "ru"
   },
@@ -7128,20 +7200,20 @@
     "lang": "ru"
   },
   {
-    "title": "ИИ для детей: рейтинг 5 курсов по искусственному интеллекту в 2026 году",
-    "link": "https://tproger.ru/articles/ii-dlya-detej-rejting-5-kursov-po-iskusstvennomu-intellektu-v-20-2",
-    "desc": "ИИ для детей: рейтинг 5 курсов искусственного интеллекта в 2026 году. Сравнение школ, программ обучения нейросетям, возрастов и форматов занятий. — Читать дальше « ИИ для детей: рейтинг 5 курсов по искусственному интеллекту в 2026 году »",
-    "date": "2026-10-24",
-    "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Делаем анкету персонажа с помощью Nano Banana, Krea 2 и Grok",
     "link": "https://habr.com/ru/companies/studyai/articles/1098540/?utm_campaign=1098540&utm_source=habrahabr&utm_medium=rss",
     "desc": "Анкета персонажа нужна для того, чтобы лучше понимать что из себя представляет наш герой или героиня. Он служит референсом для игродельческой команды и это помогает держать character improvement более-менее в условном “унисоне”. Сегодня попробуем сделать качественные анкеты для персонажей фэнтези...",
     "date": "2026-10-24",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ для детей: рейтинг 5 курсов по искусственному интеллекту в 2026 году",
+    "link": "https://tproger.ru/articles/ii-dlya-detej-rejting-5-kursov-po-iskusstvennomu-intellektu-v-20-2",
+    "desc": "ИИ для детей: рейтинг 5 курсов искусственного интеллекта в 2026 году. Сравнение школ, программ обучения нейросетям, возрастов и форматов занятий. — Читать дальше « ИИ для детей: рейтинг 5 курсов по искусственному интеллекту в 2026 году »",
+    "date": "2026-10-24",
+    "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
   },
