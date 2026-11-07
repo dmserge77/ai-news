@@ -1,5 +1,95 @@
 [
   {
+    "title": "The Components of Agent Memory",
+    "link": "https://www.anthropic.com/research/components-of-agent-memory",
+    "desc": "Article URL: https://www.anthropic.com/research/components-of-agent-memory Comments URL: https://news.ycombinator.com/item?id=50402212 Points: 29 # Comments: 8",
+    "date": "2026-11-07",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Claude Code без Anthropic: заводим агента на GLM-5.3 и Qwen через свой шлюз и собираем грабли",
+    "link": "https://habr.com/ru/articles/1104826/?utm_campaign=1104826&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Из Беларуси Claude Code официально не работает. Мы делаем ZuBrIQ (zubriq.ai) — шлюз к моделям на LiteLLM с оплатой в BYN — и заставили Claude Code, Codex и OpenCode работать на открытых моделях: GLM-5.3 у провайдера и Qwen3.8-27B на собственных V100. Схема и пять граблей: тихий уход в резерв, слу...",
+    "date": "2026-11-07",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Два инженера против сроков: чему нас научили два месяца агентной разработки",
+    "link": "https://habr.com/ru/companies/magnus-tech/articles/1104754/?utm_campaign=1104754&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В заказной разработке нередко бывают случаи, когда проект нужно было сделать еще вчера, ресурсов под него впритык, а свободных рук нет. Обычно выбор тут невелик: либо отказываться от заказа, либо двигать сроки. Нам же стало интересно, возможно ли в принципе затащить такую неподъемную задачу в огр...",
+    "date": "2026-11-07",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Научи плохому или почему я против промптинга",
+    "link": "https://habr.com/ru/articles/1098892/?utm_campaign=1098892&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Недавно мне потребовалось объяснить 17-летнему парню законы диалектики Гегеля. Вот что из этого получилось и почему вы не получаете от ИИ тот результат, который хотите Читать далее",
+    "date": "2026-11-07",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Сегодня Claude, завтра Codex: обновления мультиагентной OpenIDE",
+    "link": "https://habr.com/ru/companies/haulmont/articles/1102934/?utm_campaign=1102934&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Что делать, если завтра Anthropic или OpenAI заблокируют аккаунт? Или просто захочется перейти на другого агента, потому что для вашей задачи он подходит лучше? Не хочется каждый раз заново собирать рабочее место и привыкать к очередным изменениям в UI/UX. Мне нравится идея, что агента можно выби...",
+    "date": "2026-11-07",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "790 трлн токенов за октябрь: OpenRouter опубликовали новые данные об использовании LLM",
+    "link": "https://habr.com/ru/news/1104804/?utm_campaign=1104804&utm_source=habrahabr&utm_medium=rss",
+    "desc": "OpenRouter, платформа для доступа к моделям разных компаний через единый API, собрали свежую сводку по использованию моделей за январь–октябрь 2026 года. Только за октябрь через неё прошло 790 трлн токенов. Это почти в 25 раз больше, чем в январе, и на 37% больше сентябрьского объёма. Читать далее",
+    "date": "2026-11-07",
+    "source": "Habr AI Новости",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ-прогнозы погоды дошли до 50 млн фермеров — теперь для метеослужб создают открытую платформу",
+    "link": "https://vc.ru/ai/3240899-ii-prognozy-pogody-doshli-do-50-mln-fermerov-teper-dlya-meteosluzhb-sozdayut-otkrytuyu-platformu?from=rss",
+    "desc": "Команда Чикагского университета получила грант $10 млн на создание UChicago–Laude AI Almanac — открытой платформы, с которой метеослужбы, правительства и некоммерческие организации смогут адаптировать ИИ-прогнозы к своим регионам. По данным университета, за два сезона разработанные при участии ко...",
+    "date": "2026-11-07",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI привлекла 11 миллиардов при оценке в 1,25 триллиона",
+    "link": "https://vc.ru/money/3240785-openai-privlekla-finansirovanie?from=rss",
+    "desc": "Компания успешно закрыла первый транш нового раунда финансирования, получив на свои счета 11 миллиардов долларов.",
+    "date": "2026-11-07",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Midjourney V8.2. Режим RAW, когда его стоит использовать, а когда лучше отказаться",
+    "link": "https://vc.ru/midjourney/3240809-midjourney-v82-rezhim-raw-i-ego-ispolzovanie?from=rss",
+    "desc": "«Raw» не делает Midjourney реалистичнее. Он меняет то, насколько сильно Midjourney интерпретирует ваш запрос.",
+    "date": "2026-11-07",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как устроена память ИИ-агентов и фаза «сна»: разбор исследования Anthropic на Pokémon и 350 тысячах файлов",
+    "link": "https://vc.ru/ai/3240792-pamyat-ii-agentov-i-faza-sna-issledovanie-anthropic?from=rss",
+    "desc": "В тестах с игрой Pokémon Red и базой CL-Bench пересмотр логов сессий помог Claude исправлять ошибки и закрывать цикл обучения.",
+    "date": "2026-11-07",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Почему ИИ в музыке — не конец профессии, а новый трамвай, и почему полагаться на него целиком всё равно нельзя.",
     "link": "https://vc.ru/tribuna/3240533-ii-v-muzike-kak-tehnologii-ne-ubivayut-professiyu?from=rss",
     "desc": "Каждая большая технология сначала звучит как прощание, а потом оказывается новым началом. Искусственный интеллект — не исключение.",
@@ -9,45 +99,36 @@
     "lang": "ru"
   },
   {
-    "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
-    "link": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
-    "desc": "Article URL: https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053 Comments URL: https://news.ycombinator.com/item?id=50399569 Points: 18 # Comments: 3",
-    "date": "2026-11-06",
-    "source": "Hacker News",
+    "title": "Nvidia ищет следы контрабанды — будущих партнёров в Азии обяжут подключить мониторинг чипов",
+    "link": "https://3dnews.ru/1150990",
+    "desc": "Nvidia ужесточила условия получения статуса официального облачного партнёра в Юго-Восточной Азии. Как сообщает Bloomberg со ссылкой на осведомлённые источники, теперь претендентам на этот статус нужно подключиться к системе Fleet Intelligence, которая, помимо прочего, позволяет определять местопо...",
+    "date": "2026-11-07",
+    "source": "3DNews",
     "cat": "ai",
-    "lang": "en"
+    "lang": "ru"
+  },
+  {
+    "title": "Цифровой двойник «Джеймса Уэбба» позволил разглядеть гигантскую экзопланету",
+    "link": "https://hi-tech.mail.ru/news/159934-cifrovoj-dvojnik-dzhejmsa-uebba-pozvolil-razglyadet-gigantskuyu-ekzoplanetu/",
+    "desc": "Планета два года пряталась в архиве космического телескопа. Астрономам понадобился новый способ обработки снимков, чтобы ее разглядеть. Космический телескоп «Джеймс Уэбб» (JWST) помог достоверно обнаружить гигантскую экзопланету, которую раньше не удавалось разглядеть на его снимках. Она находила...",
+    "date": "2026-11-07",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
     "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-    "desc": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 252 # Comments: 54",
+    "desc": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 462 # Comments: 106",
     "date": "2026-11-06",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Show HN: Agents infer Lego mechanisms from sources, then animate them",
-    "link": "https://github.com/anteloc/ldraw-mecha/tree/v0.5.0",
-    "desc": "Hi there :) Around a month ago, I released LDraw Nova, an agentic toolset for assembling LEGO CAD models by generating LDraw source code files. For more details, here's the Show HN post: https://news.ycombinator.com/item?id=49937916 From the comments, I got the impression that there was quite an ...",
-    "date": "2026-11-06",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Memorilla: Latent Semantic Memory for LLMs",
-    "link": "https://arxiv.org/abs/2610.21375",
-    "desc": "Article URL: https://arxiv.org/abs/2610.21375 Comments URL: https://news.ycombinator.com/item?id=50395919 Points: 70 # Comments: 5",
-    "date": "2026-11-06",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Anthropic IPO buyers see valuation as low as $1.1T",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-    "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 188 # Comments: 432",
+    "title": "Gemini Omni 1.2 Flash",
+    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    "desc": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 332 # Comments: 228",
     "date": "2026-11-06",
     "source": "Hacker News",
     "cat": "ai",
@@ -333,15 +414,6 @@
     "lang": "ru"
   },
   {
-    "title": "ИИ-агенты оказались невостребованы в такси — виртуальный ассистент Uber оформил всего четыре заказа за неделю",
-    "link": "https://rb.ru/news/ii-agenty-okazalis-nevostrebovany-v-taksi-virtualnyj-assistent-uber-oformil-vsego-chetyre-zakaza-za-nedelyu/",
-    "desc": "ИИ-агенты пока почти не участвуют в заказах Uber и Uber Eats, следует из данных компании, представленных по итогам III квартала 2026 года. При общем объёме около 320 млн поездок и заказов в неделю через ИИ-агентов пользователи оформили лишь около 500 заказов еды и четыре поездки. В Uber объясняют...",
-    "date": "2026-11-06",
-    "source": "Rusbase",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "ИИ-галлюцинации в коммерческом обороте: кто несет ответственность за оферту чат-бота?",
     "link": "https://vc.ru/ai/3239924-ii-gallyutsinatsii-i-otvetstvennost-za-ofer-tu-chat-bota-bmw?from=rss",
     "desc": "Разбор прецедента BMW.",
@@ -567,6 +639,42 @@
     "lang": "ru"
   },
   {
+    "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+    "link": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+    "desc": "Article URL: https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053 Comments URL: https://news.ycombinator.com/item?id=50399569 Points: 18 # Comments: 3",
+    "date": "2026-11-06",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Memorilla: Latent Semantic Memory for LLMs",
+    "link": "https://arxiv.org/abs/2610.21375",
+    "desc": "Article URL: https://arxiv.org/abs/2610.21375 Comments URL: https://news.ycombinator.com/item?id=50395919 Points: 70 # Comments: 5",
+    "date": "2026-11-06",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+    "desc": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 188 # Comments: 432",
+    "date": "2026-11-06",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "ИИ-агенты оказались невостребованы в такси — виртуальный ассистент Uber оформил всего четыре заказа за неделю",
+    "link": "https://rb.ru/news/ii-agenty-okazalis-nevostrebovany-v-taksi-virtualnyj-assistent-uber-oformil-vsego-chetyre-zakaza-za-nedelyu/",
+    "desc": "ИИ-агенты пока почти не участвуют в заказах Uber и Uber Eats, следует из данных компании, представленных по итогам III квартала 2026 года. При общем объёме около 320 млн поездок и заказов в неделю через ИИ-агентов пользователи оформили лишь около 500 заказов еды и четыре поездки. В Uber объясняют...",
+    "date": "2026-11-06",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Глава Nvidia Дженсен Хуанг потерял 12 млрд долларов за день",
     "link": "https://hi-tech.mail.ru/news/159890-glava-nvidia-dzhensen-huang-poteryal-milliardy-za-den/",
     "desc": "Предприниматель опустился на две позиции в рейтинге миллиардеров Forbes после обвала акций компании на опасениях ужесточения регулирования дата-центров. Гендиректор Nvidia Дженсен Хуанг за один день потерял $12 млрд состояния. Акции компании обрушились после победы демократов на промежуточных выб...",
@@ -574,15 +682,6 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
-  },
-  {
-    "title": "Gemini Omni 1.2 Flash",
-    "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-    "desc": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 206 # Comments: 160",
-    "date": "2026-11-06",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
   },
   {
     "title": "AI for scientific discovery: How researchers use Claude",
@@ -648,15 +747,6 @@
     "lang": "ru"
   },
   {
-    "title": "Reflections on Rust in the LLM Age",
-    "link": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
-    "desc": "Comments",
-    "date": "2026-11-05",
-    "source": "Lobsters",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Gemini Omni 1.2 Flash now available on AI Gateway",
     "link": "https://vercel.com/changelog/gemini-omni-1-2-flash-now-available-on-ai-gateway",
     "desc": "",
@@ -664,24 +754,6 @@
     "source": "Vercel",
     "cat": "ai",
     "lang": "en"
-  },
-  {
-    "title": "Вайбкодинг кончается хаосом: 637 мест, где ИИ сделал по‑своему. Что такое архитектурный дрифт и чем я его вылечил",
-    "link": "https://habr.com/ru/articles/1103890/?utm_campaign=1103890&utm_source=habrahabr&utm_medium=rss",
-    "desc": "«Создай точную копию этой картинки, ничего не меняй». Человек повторил эту просьбу ChatGPT 101 раз, и настоящее фото Дуэйна Джонсона превратилось в мультяшное месиво. С кодом то же самое: ты сказал ИИ, какие шрифты использовать, а размеры летают по всему сайту. Это архитектурный дрифт. Он лечится...",
-    "date": "2026-11-05",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Skill Hub: как превратить AI-автоматизации в управляемые компоненты рабочих процессов",
-    "link": "https://habr.com/ru/companies/agima/articles/1104082/?utm_campaign=1104082&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В статье разбираем архитектуру Skill Hub: как привязать AI-навык к процессу, роли и разрешённым действиям; что включать в версию; как проверять рекомендации и фактические изменения в системе; когда требовать подтверждение человека и как немедленно отключить неудачную версию. Подход показываем на ...",
-    "date": "2026-11-05",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
   },
   {
     "title": "Распознавание визиток на телефоне без облака: PaddleOCR, ONNX и React Native",
@@ -1017,9 +1089,9 @@
     "lang": "ru"
   },
   {
-    "title": "Чем оплатить ChatGPT и Claude из России в 2026 году: сравнение 11 виртуальных карт и расчёт на год",
+    "title": "Чем оплатить ChatGPT и Claude из России в 2026 году: выбор карты и расходы на пять лет",
     "link": "https://vc.ru/ai/3237147-oplata-chatgpt-i-claude-iz-rossii?from=rss",
-    "desc": "ChatGPT и Claude не принимают российские карты, поэтому подписки на них оплачивают виртуальной долларовой картой, которую пополняют рублями по СБП. Мы сравнили 11 сервисов таких карт по открытой методике: первое место — Атлас (9 баллов из 12), второе — Kardo (8), третье — «Плати по всему миру» (7).",
+    "desc": "Для регулярной самостоятельной оплаты ChatGPT и Claude сравнивайте поддержку сервиса, код 3DS, число покупок и срок карты. Материал подготовлен командой Атласа: наш продукт приведён первым как вариант для такого сценария. Это редакционный выбор, а не независимое первое место среди всех провайдеро...",
     "date": "2026-11-05",
     "source": "vc.ru",
     "cat": "ai",
@@ -1040,15 +1112,6 @@
     "desc": "Разбор правил теговой разметки, иерархических вложений и извлечения цитат для точной обработки документов от 20 тысяч токенов.",
     "date": "2026-11-05",
     "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "OpenAI убирает зависимость от подписок ChatGPT: корпоративные клиенты теперь приносят больше половины выручки",
-    "link": "https://3dnews.ru/1150893",
-    "desc": "Более половины выручки OpenAI теперь поступает от корпоративных клиентов. К 2027 году компания будет готова к выходу на биржу, сообщил её президент Грег Брокман (Greg Brockman). Если это произойдёт, лаборатория искусственного интеллекта может провести крупнейшее IPO в истории молодой отрасли. Ист...",
-    "date": "2026-11-05",
-    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1078,6 +1141,42 @@
     "source": "Smashing Magazine",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Reflections on Rust in the LLM Age",
+    "link": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
+    "desc": "Comments",
+    "date": "2026-11-05",
+    "source": "Lobsters",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Вайбкодинг кончается хаосом: 637 мест, где ИИ сделал по‑своему. Что такое архитектурный дрифт и чем я его вылечил",
+    "link": "https://habr.com/ru/articles/1103890/?utm_campaign=1103890&utm_source=habrahabr&utm_medium=rss",
+    "desc": "«Создай точную копию этой картинки, ничего не меняй». Человек повторил эту просьбу ChatGPT 101 раз, и настоящее фото Дуэйна Джонсона превратилось в мультяшное месиво. С кодом то же самое: ты сказал ИИ, какие шрифты использовать, а размеры летают по всему сайту. Это архитектурный дрифт. Он лечится...",
+    "date": "2026-11-05",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Skill Hub: как превратить AI-автоматизации в управляемые компоненты рабочих процессов",
+    "link": "https://habr.com/ru/companies/agima/articles/1104082/?utm_campaign=1104082&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В статье разбираем архитектуру Skill Hub: как привязать AI-навык к процессу, роли и разрешённым действиям; что включать в версию; как проверять рекомендации и фактические изменения в системе; когда требовать подтверждение человека и как немедленно отключить неудачную версию. Подход показываем на ...",
+    "date": "2026-11-05",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI убирает зависимость от подписок ChatGPT: корпоративные клиенты теперь приносят больше половины выручки",
+    "link": "https://3dnews.ru/1150893",
+    "desc": "Более половины выручки OpenAI теперь поступает от корпоративных клиентов. К 2027 году компания будет готова к выходу на биржу, сообщил её президент Грег Брокман (Greg Brockman). Если это произойдёт, лаборатория искусственного интеллекта может провести крупнейшее IPO в истории молодой отрасли. Ист...",
+    "date": "2026-11-05",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Китайские ИИ-гиганты выстроились за видеокартами Nvidia, но получат лишь 1 % от заказанного",
@@ -1660,7 +1759,7 @@
     "link": "https://habr.com/ru/companies/selectel/news/1103282/?utm_campaign=1103282&utm_source=habrahabr&utm_medium=rss",
     "desc": "Лучшая модель на сегодня решает 12% реальных профессиональных задач. Цифра кажется опечаткой, ведь у вас наверняка завалялся проект, написанный ИИ. Но результаты нового бенчмарка GDPx от SemiAnalysis это доказывают. SemiAnalysis, компания, известная разборами полупроводникового рынка и экономики ...",
     "date": "2026-11-03",
-    "source": "Habr AI Новости",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2340,15 +2439,6 @@
     "lang": "ru"
   },
   {
-    "title": "Рой ИИ-агентов без начальника: дал им доску задач, git и право писать себе инструменты",
-    "link": "https://habr.com/ru/articles/1098900/?utm_campaign=1098900&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Схем взаимодействия агентов много, но чаще всего мультиагентную систему собирают как конвейер: «аналитик» передает «программисту», тот «тестировщику», а сверху сидит агент‑менеджер и решает, кто ходит следующим. Мне хотелось проверить другую схему. Что будет, если никакого менеджера нет? Агентам ...",
-    "date": "2026-11-02",
-    "source": "Habr Python",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "LLm агент в КОМПАС-3D: собрал редуктор, сделал КД, споткнулся на спецификации",
     "link": "https://habr.com/ru/articles/1102580/?utm_campaign=1102580&utm_source=habrahabr&utm_medium=rss",
     "desc": "Меня всегда интересовало инженерное 3D-моделирование, но руки так и не дошли освоить его в должной степени. Зато я весьма неплохо научился работать с ИИ-агентами. Поэтому было решено перенести весь этот опыт в плоскость инженерных задач.Так появился плагин, через который LLM-агент работает в КОМП...",
@@ -2390,6 +2480,15 @@
     "desc": "YouTube здорового человека Сообщение Сооснователь OpenAI собрал YouTube без мусорных рекомендаций с помощью Claude за 2 часа появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-11-02",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Рой ИИ-агентов без начальника: дал им доску задач, git и право писать себе инструменты",
+    "link": "https://habr.com/ru/articles/1098900/?utm_campaign=1098900&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Схем взаимодействия агентов много, но чаще всего мультиагентную систему собирают как конвейер: «аналитик» передает «программисту», тот «тестировщику», а сверху сидит агент‑менеджер и решает, кто ходит следующим. Мне хотелось проверить другую схему. Что будет, если никакого менеджера нет? Агентам ...",
+    "date": "2026-11-02",
+    "source": "Habr Python",
     "cat": "ai",
     "lang": "ru"
   },
@@ -3987,15 +4086,6 @@
     "lang": "en"
   },
   {
-    "title": "Модель LFM3 на 1,7 млрд параметров обходит Qwen3.5 9B в агентных задачах и весит до 1 ГБ",
-    "link": "https://habr.com/ru/companies/selectel/news/1101318/?utm_campaign=1101318&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Liquid AI, стартап разработчиков из MIT, который строит модели на гибридной архитектуре вместо чистого трансформера, выложила семейство LFM3 с открытыми весами. В первый релиз вошли шесть моделей примерно по 2 млрд параметров. Это текстовая LFM3-1.7B, визуальная LFM3-VL-2B, голосовая LFM3-Audio-2...",
-    "date": "2026-10-29",
-    "source": "Habr ML Новости",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Позиционные эмбеддинги, или Почему 3 + 5 не всегда 8",
     "link": "https://habr.com/ru/articles/1101178/?utm_campaign=1101178&utm_source=habrahabr&utm_medium=rss",
     "desc": "Меня зовут Настя, я Data Scientist и TeamLead. Сегодня хочу рассказать про вредную занозу, которая засела у меня в голове и далее я не могла это игнорировать. Сейчас я читаю книгу Себастьяна Рашки «Строим LLM с нуля». Читаю по-взрослому: глава за главой, с открытым Jupyter рядом и кружкой кофе (н...",
@@ -4064,6 +4154,15 @@
     "desc": "Как снизить риски внедрения ИИ-агентов в организации, применяя базовые принципы проектирования безопасных систем — руководство для архитекторов и ИБ-команд.",
     "date": "2026-10-29",
     "source": "Kaspersky",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Модель LFM3 на 1,7 млрд параметров обходит Qwen3.5 9B в агентных задачах и весит до 1 ГБ",
+    "link": "https://habr.com/ru/companies/selectel/news/1101318/?utm_campaign=1101318&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Liquid AI, стартап разработчиков из MIT, который строит модели на гибридной архитектуре вместо чистого трансформера, выложила семейство LFM3 с открытыми весами. В первый релиз вошли шесть моделей примерно по 2 млрд параметров. Это текстовая LFM3-1.7B, визуальная LFM3-VL-2B, голосовая LFM3-Audio-2...",
+    "date": "2026-10-29",
+    "source": "Habr ML Новости",
     "cat": "ai",
     "lang": "ru"
   },
@@ -8703,20 +8802,20 @@
     "lang": "en"
   },
   {
-    "title": "Научил ChatGPT сохранять иностранные слова прямо в мой телефон",
-    "link": "https://habr.com/ru/articles/1097004/?utm_campaign=1097004&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Раньше ChatGPT мог объяснить незнакомое слово, но через пару дней я его уже забывал. Теперь достаточно написать \"Добавь эти слова в мой словарь\", и они автоматически появятся в мобильном приложении, где их можно учить через интервальные повторения. Покажу, как это работает и как настроить все за ...",
-    "date": "2026-10-20",
-    "source": "Habr NLP",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Цифры верные, выводы ложные: AI‑аналитик нашёл тренды в шуме",
     "link": "https://habr.com/ru/companies/otus/articles/1088886/?utm_campaign=1088886&utm_source=habrahabr&utm_medium=rss",
     "desc": "ChatGPT может безошибочно посчитать метрики, найти тревожные тренды и предложить план действий — даже если в данных нет ничего, кроме случайного шума. В эксперименте на синтетических данных интернет‑магазина AI‑ассистент сделал 30 аналитических утверждений, ни одно из которых не выдержало статист...",
     "date": "2026-10-20",
     "source": "Habr Big Data",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Научил ChatGPT сохранять иностранные слова прямо в мой телефон",
+    "link": "https://habr.com/ru/articles/1097004/?utm_campaign=1097004&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Раньше ChatGPT мог объяснить незнакомое слово, но через пару дней я его уже забывал. Теперь достаточно написать \"Добавь эти слова в мой словарь\", и они автоматически появятся в мобильном приложении, где их можно учить через интервальные повторения. Покажу, как это работает и как настроить все за ...",
+    "date": "2026-10-20",
+    "source": "Habr NLP",
     "cat": "ai",
     "lang": "ru"
   },
