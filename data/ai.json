@@ -1,8 +1,8 @@
 [
   {
-    "title": "Saltline: First-person shooter built by Fable 5.2",
-    "link": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
-    "desc": "Article URL: https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp Comments URL: https://news.ycombinator.com/item?id=50444850 Points: 28 # Comments: 19",
+    "title": "After 7 Months, Glasswing Overwelms Maintainers with Underwhelming Findings",
+    "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+    "desc": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 92 # Comments: 22",
     "date": "2026-11-10",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,25 +20,7 @@
   {
     "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
     "link": "https://claude.com/resources/articles/sheets-whiteboards-data",
-    "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 82 # Comments: 40",
-    "date": "2026-11-10",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Life on Claude Nine",
-    "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
-    "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 21 # Comments: 0",
-    "date": "2026-11-10",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "AlphaProof Code",
-    "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
-    "desc": "Article URL: https://deepmind.google/blog/introducing-alphaproof-code/ Comments URL: https://news.ycombinator.com/item?id=50439193 Points: 518 # Comments: 165",
+    "desc": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 147 # Comments: 113",
     "date": "2026-11-10",
     "source": "Hacker News",
     "cat": "ai",
@@ -72,7 +54,43 @@
     "lang": "en"
   },
   {
-    "title": "Путь из кодера в спек-драйвера",
+    "title": "Как агент улучшил себя, не тронув ни одного веса: разбираем The Trinity",
+    "link": "https://habr.com/ru/articles/1106306/?utm_campaign=1106306&utm_source=habrahabr&utm_medium=rss",
+    "desc": "26 октября на arXiv вышла работа The Trinity: Capability-Driven Recursive Self-Improvement for Multimodal Agents . Авторов 21, на странице Hugging Face указан Национальный университет Сингапура. Агент улучшает сам себя, при этом веса модели не меняются вообще: внутри замороженная Claude Opus 5, н...",
+    "date": "2026-11-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Атаки на ИИ-агентов: разбираем проект таксономии NIST",
+    "link": "https://habr.com/ru/articles/1106012/?utm_campaign=1106012&utm_source=habrahabr&utm_medium=rss",
+    "desc": "NIST выпустил проект SP 2400-102 E2026 с новой главой об атаках на ИИ-агентов. Разбираю способы вмешательства в работу агента, выбор сценариев испытаний и применение таксономии при согласовании модели угроз с исполнителем. Читать далее",
+    "date": "2026-11-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Я написала промпт по‑русски. Два агента перестали искать решение в интернете",
+    "link": "https://habr.com/ru/articles/1106298/?utm_campaign=1106298&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я всегда общалась с ИИ на английском, разве что мне надо было составить какое-то очень специфическое сообщение, или вообще перевести мой текст на испанский. Для меня это языковая практика, да и в целом на темы программирования проще общаться на английском, чтобы не переводить на русский термины. ...",
+    "date": "2026-11-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Агентная система для тех, кто вкатывается: собираем агента поддержки от одного файла до Temporal, саги и circuit breaker",
+    "link": "https://habr.com/ru/articles/1106294/?utm_campaign=1106294&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Тысяча классификаций обращений стоит $0,23 на Claude Haiku 5.5 и $4,50 на Sonnet 5.5. Почти двадцать раз, и это не самое дорогое место в системе, где агент поддержки возвращает клиентам деньги. Дороже выходят возврат, проведённый дважды после падения воркера, сто воркеров, которые долбят упавшего...",
+    "date": "2026-11-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Путь из кодера в спек‑драйвера",
     "link": "https://habr.com/ru/companies/betboom/articles/1105736/?utm_campaign=1105736&utm_source=habrahabr&utm_medium=rss",
     "desc": "2026 год изменил мой подход к разработке и отношение к ИИ-инструментам на 180 градусов. Хочешь этого или нет, постоянно прорываются сюжеты про использование искусственного интеллекта и попадают прямо в мозг, раздражая и без того неспокойную голову разработчика. Небольшая ретроспектива о том, как ...",
     "date": "2026-11-10",
@@ -288,24 +306,6 @@
     "lang": "ru"
   },
   {
-    "title": "Полные восемь лекций по фундаментальной NLP из аудитории ТГУ: Attention, Трансформер, GPT и чуточку про harness",
-    "link": "https://habr.com/ru/articles/1105940/?utm_campaign=1105940&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, хабряне! Меня зовут Михаил Пожидаев. Я работаю доцентом на кафедре теоретических основ информатики Томского государственного университета. Читаю лекции по UNIX, программной инженерии, анализу сетей и обработке естественного языка, о которой хочу сегодня рассказать. На протяжении пяти лет ...",
-    "date": "2026-11-10",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "ИИ научился понимать ДНК и создавать белки по тексту",
-    "link": "https://habr.com/ru/companies/selectel/articles/1105776/?utm_campaign=1105776&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Исследователи из Китая представили ИИ‑модель Pinal, которая по текстовому описанию подбирает структуру и аминокислотную последовательность белка. Почти одновременно Hugging Face вместе с Zhongguancun Academy и Университетом Неаполя выпустила Carbon‑X — открытую модель для работы с последовательно...",
-    "date": "2026-11-10",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Как рисовать BPMN диаграммы для процессов LLM оптимизации",
     "link": "https://habr.com/ru/articles/1106274/?utm_campaign=1106274&utm_source=habrahabr&utm_medium=rss",
     "desc": "Я работаю в Альфа-Банке в команде, которая пытается оптимизировать валютный контроль. За время проекта я отрисовал страшно много диаграмм, и вот пара лайфхаков, которые я для себя выделил. Читать далее",
@@ -441,6 +441,15 @@
     "lang": "ru"
   },
   {
+    "title": "Anthropic решила потягаться с Google и Microsoft — Claude получил набор инструментов для офисной работы",
+    "link": "https://3dnews.ru/1151121",
+    "desc": "Компания Anthropic представила три новых ИИ-инструмента для офисной работы: Claude Meetings, Claude Sheets и Claude Whiteboards. Они позволяют автоматизировать проведение совещаний, совместное редактирование таблиц и другие офисные задачи. Источник изображений: Anthropic",
+    "date": "2026-11-10",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "OpenAI и Anthropic начали блокировать пользователей за реверс-инжиринг с помощью ИИ",
     "link": "https://3dnews.ru/1151117",
     "desc": "Пользователи Anthropic Claude и OpenAI Codex столкнулись с ограничениями при попытках применить ИИ для реверс-инжиринга. Защитные механизмы начали блокировать также декомпиляцию ПО, а в отдельных случаях происходила блокировка аккаунтов. Под ограничения попали даже проекты, связанные с модификаци...",
@@ -540,15 +549,6 @@
     "lang": "ru"
   },
   {
-    "title": "Anthropic решила потягаться с Google и Microsoft — Claude получил набор инструментов для офисной работы",
-    "link": "https://3dnews.ru/1151121",
-    "desc": "Компания Anthropic представила три новых ИИ-инструмента для офисной работы: Claude Meetings, Claude Sheets и Claude Whiteboards. Они позволяют автоматизировать проведение совещаний, совместное редактирование таблиц и другие офисные задачи. Источник изображений: Anthropic",
-    "date": "2026-11-10",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Google открыла доступ к своему самому мощному ИИ и показала, как Gemini 4 Carbon управляет роем ИИ-агентов",
     "link": "https://3dnews.ru/1151118",
     "desc": "Google открыла доступ к своей самой мощной ИИ-модели Gemini 4 Carbon для разработчиков, компаний и подписчиков Google AI Ultra. Нейросеть появилась в приложении Gemini и поисковом режиме AI Mode, а сторонние разработчики получили возможность подключать её к собственным проектам через API. Источни...",
@@ -621,11 +621,47 @@
     "lang": "ru"
   },
   {
-    "title": "В России представили фен с функцией распыления питательной сыворотки для волос",
-    "link": "https://hi-tech.mail.ru/news/160183-v-rossii-predstavili-fen-s-funkciej-raspyleniya-pitatelnoj-syvorotki-dlya-volos/",
-    "desc": "Новинку анонсировала компания Dreame. Компания Dreame начала продажи в России фена Pocket Cake. Устройство весит 300 г, оснащено складной ручкой и специальной насадкой, которая распыляет уходовую сыворотку непосредственно во время сушки волос. Главная особенность новинки — система распыления сыво...",
+    "title": "Saltline: First-person shooter built by Fable 5.2",
+    "link": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
+    "desc": "Article URL: https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp Comments URL: https://news.ycombinator.com/item?id=50444850 Points: 28 # Comments: 19",
     "date": "2026-11-10",
-    "source": "Hi-Tech Mail",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Life on Claude Nine",
+    "link": "https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html",
+    "desc": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 21 # Comments: 0",
+    "date": "2026-11-10",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "AlphaProof Code",
+    "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+    "desc": "Article URL: https://deepmind.google/blog/introducing-alphaproof-code/ Comments URL: https://news.ycombinator.com/item?id=50439193 Points: 518 # Comments: 165",
+    "date": "2026-11-10",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Полные восемь лекций по фундаментальной NLP из аудитории ТГУ: Attention, Трансформер, GPT и чуточку про harness",
+    "link": "https://habr.com/ru/articles/1105940/?utm_campaign=1105940&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, хабряне! Меня зовут Михаил Пожидаев. Я работаю доцентом на кафедре теоретических основ информатики Томского государственного университета. Читаю лекции по UNIX, программной инженерии, анализу сетей и обработке естественного языка, о которой хочу сегодня рассказать. На протяжении пяти лет ...",
+    "date": "2026-11-10",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ИИ научился понимать ДНК и создавать белки по тексту",
+    "link": "https://habr.com/ru/companies/selectel/articles/1105776/?utm_campaign=1105776&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Исследователи из Китая представили ИИ‑модель Pinal, которая по текстовому описанию подбирает структуру и аминокислотную последовательность белка. Почти одновременно Hugging Face вместе с Zhongguancun Academy и Университетом Неаполя выпустила Carbon‑X — открытую модель для работы с последовательно...",
+    "date": "2026-11-10",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -29705,42 +29741,6 @@
     "desc": "Если вы занимаетесь ML / AI, Computer Science или научными исследованиями , диссертации могут быть очень полезным источником идей для research. 🔬 Если вы занимаетесь ML/AI research — сохраните этот пост. Здесь собрала 20 бесплатных ресурсов , где можно искать: 🎓 PhD-диссертации 🏆 архивы лучших ML...",
     "date": "2026-08-16",
     "source": "Habr Big Data",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-    "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-    "desc": "",
-    "date": "2026-08-13",
-    "source": "Hugging Face",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Gemini 3.7 Flash now available on AI Gateway for 50% off",
-    "link": "https://vercel.com/changelog/gemini-3-7-flash-now-available-on-ai-gateway-for-50-off",
-    "desc": "",
-    "date": "2026-08-13",
-    "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Grok Build is now available in the AI SDK harness layer",
-    "link": "https://vercel.com/changelog/grok-build-harness-adapter",
-    "desc": "",
-    "date": "2026-08-13",
-    "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Алгоритм был правильным. Ошибка была в контракте графа",
-    "link": "https://habr.com/ru/articles/1070054/?utm_campaign=1070054&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Мне нужен был сервис, в котором должны были работать несколько разных алгоритмов. Часть математики я помнил, часть понимал поверхностно, часть собирался восстановить по ходу работы. Чтобы быстрее получить прототип, я подключил LLM к генерации бойлерплейта, интерфейсов и первых реализаций. Через н...",
-    "date": "2026-08-13",
-    "source": "Habr API",
     "cat": "ai",
     "lang": "ru"
   }
