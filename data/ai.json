@@ -1,12 +1,30 @@
 [
   {
-    "title": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
-    "link": "https://github.com/adrbn/bo2-mac",
-    "desc": "I grew up with Black Ops 2 and wanted to see if I could make it work on my 2020 MacBook Pro. So I used Claude Opus 5.5 to create a tool that converts your copy of the game (from Steam) to a native ARM64 Mac app, with almost 60fps in all areas. The whole game is statically recompilated ahead-of-ti...",
+    "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+    "link": "https://github.com/FrigadeHQ/yogurt",
+    "desc": "Hey HN, I’m Eric and I want to share an OSS project that I’ve been building in my free time. Yogurt is a free, MIT licensed desktop app that uses on-device AI models to transcribe, summarize, and chat with your meetings. Similar to Granola, Yogurt runs in the background and does not join your cal...",
     "date": "2026-11-11",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Потери, которых не было видно на алертах: как мы автоматизировали поиск проблем в production с AI",
+    "link": "https://habr.com/ru/companies/moex/articles/1106818/?utm_campaign=1106818&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сервис может работать, алерты — молчать, а пользователи — всё равно теряться на отдельных шагах. Рассказываем, как мы поручили ночную диагностику мультиагентной системе, почему не стали скармливать LLM все логи сразу и к какой архитектуре пришли после нескольких итераций. Читать далее",
+    "date": "2026-11-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Революция ИИ, которой пока так и не произошло",
+    "link": "https://habr.com/ru/articles/1105772/?utm_campaign=1105772&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Еще недавно нам обещали революцию в экономике и на рынке труда благодаря повсеместному внедрению искусственного интеллекта, но давайте оглянемся вокруг и честно спросим себя, а что реально изменилось? узнать что изменилось",
+    "date": "2026-11-11",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Как я с ChatGPT устанавливал сервер и чуть не возненавидел Ubuntu",
@@ -180,15 +198,6 @@
     "lang": "ru"
   },
   {
-    "title": "Локальные нейросети: своей видеокарты хватает на офис — если знать, зачем она",
-    "link": "https://habr.com/ru/articles/1106386/?utm_campaign=1106386&utm_source=habrahabr&utm_medium=rss",
-    "desc": "6 ноября 2026 веб-студия «Флаг» провела открытую лекцию про локальные AI-модели. Спикер — Саша Андреев: технический директор на аутсорсе, сам гоняет модели на RTX 3090. Ниже — разбор того, о чём шла речь. Без магии и без «купите карту прямо сейчас». Читать далее",
-    "date": "2026-11-11",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Открытый словарь тем о теле и самочувствии на казахском, русском и английском и MCP‑сервер без модели внутри",
     "link": "https://habr.com/ru/articles/1106732/?utm_campaign=1106732&utm_source=habrahabr&utm_medium=rss",
     "desc": "Казахский язык в NLP считается малоресурсным. Открытых текстов на нём немного, а размеченных параллельных данных про здоровье почти нет. При этом люди ищут про здоровье постоянно, и ищут вперемешку: «қалқанша без», «щитовидка», «ттг» в одном запросе. У меня есть сайт, где больше сотни страниц про...",
@@ -203,6 +212,24 @@
     "desc": "У моего сына диабет 1 типа. Перед каждой едой нужно посчитать, сколько в тарелке углеводов, перевести их в хлебные единицы (ХЕ) и уже от этого считать инсулин. Дома для этого есть весы и таблицы. В школе, в гостях и в кафе нет ни того, ни другого: смотришь на тарелку макарон с котлетой и прикидыв...",
     "date": "2026-11-11",
     "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Локальные нейросети: своей видеокарты хватает на офис — если знать, зачем она",
+    "link": "https://habr.com/ru/articles/1106386/?utm_campaign=1106386&utm_source=habrahabr&utm_medium=rss",
+    "desc": "6 ноября 2026 веб-студия «Флаг» провела открытую лекцию про локальные AI-модели. Спикер — Саша Андреев: технический директор на аутсорсе, сам гоняет модели на RTX 3090. Ниже — разбор того, о чём шла речь. Без магии и без «купите карту прямо сейчас». Читать далее",
+    "date": "2026-11-11",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Оптимизация холодного старта vLLM: собираем прогретый OCI образ Deepseek и GLM и запускаем за 30 секунд",
+    "link": "https://habr.com/ru/articles/1106794/?utm_campaign=1106794&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Всем привет! Меня зовут Кирилл, я больше десяти лет разрабатываю облака и инфраструктуру. Но последние пару месяцев в рамках R&D я достаточно много занимаюсь инференсом: платформами для него и оптимизацией всего, что вокруг, в частности проектом Serverless GPU с механиками примерно как у Modal ил...",
+    "date": "2026-11-11",
+    "source": "Habr DevOps",
     "cat": "ai",
     "lang": "ru"
   },
@@ -243,6 +270,15 @@
     "lang": "ru"
   },
   {
+    "title": "Герман Греф выделил пять трендов платформенной экономики — ИИ-агенты станут новыми конкурентами бизнеса",
+    "link": "https://rb.ru/news/german-gref-vydelil-pyat-trendov-platformennoj-ekonomiki-ii-agenty-stanut-novymi-konkurentami-biznesa/",
+    "desc": "Глава Сбербанка Герман Греф на Дне платформенной экономики заявил, что в ближайшие несколько лет развитие личных ИИ-агентов изменит бизнес-модели маркетплейсов и банков. По его прогнозу, ИИ-помощники смогут самостоятельно искать и выбирать товары и услуги на разных площадках. Покупатели больше не...",
+    "date": "2026-11-11",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "«Такой нет в мире»: в России создали суверенную нейросеть для школы — разработку презентуют до конца учебного года",
     "link": "https://rb.ru/news/takoj-net-v-mire-v-rossii-sozdali-suverennuyu-nejroset-dlya-shkolnikov-razrabotku-prezentuyut-do-konca-uchebnogo-goda/",
     "desc": "Российскую суверенную нейросеть для сферы образования могут представить до конца учебного года, сообщил глава Минпросвещения Сергей Кравцов. По его словам, разработка будет защищена от нежелательного контента и рассчитана на использование детьми. Перед внедрением в учебный процесс технологию план...",
@@ -279,7 +315,16 @@
     "lang": "ru"
   },
   {
-    "title": "Россия ни при чём: за что Claude и ChatGPT на самом деле банят аккаунты. 7 правил \"гигиены\"",
+    "title": "Собрал игру за 2,5 часа и $5, не написав ни строчки кода: проверил Fable 5.2 на хайпе вокруг Яндекса",
+    "link": "https://vc.ru/ai/3249925-sozdanie-igry-bez-programmirovaniya-s-pomoshchyu-fable-5-2-i-yandeksa?from=rss",
+    "desc": "Вчера совпали две громкие новости. Интернет разбирал интервью HR-директора Яндекса, в котором она рассказывает, что в сложных решениях слушает ощущения в теле. А Anthropic выпустила Fable 5.2, новую фронтир-модель.",
+    "date": "2026-11-11",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "За что банят аккаунты Claude и ChatGPT на самом деле: 23 параметра за которыми стоит следить.",
     "link": "https://vc.ru/ai/3249818-prichiny-blokirovok-claude-dlya-polzovateley-iz-rossii?from=rss",
     "desc": "Я собрал всё, что известно о блокировках Claude из России, и свёл в одну выжимку о их скрытой механике. Банят ведь не за страну, а за сумму мелочей",
     "date": "2026-11-11",
@@ -324,9 +369,18 @@
     "lang": "ru"
   },
   {
-    "title": "Microsoft наконец выпустила универсальный аналог DLSS — он работает на Asus ROG Ally X и некоторых ПК",
-    "link": "https://3dnews.ru/1151142",
-    "desc": "Microsoft объявила о выпуске Super Resolution (Auto SR) — технологии масштабирования, выступающей аналогом Nvidia DLSS. Первыми новую функцию получили владельцы портативных приставок Asus ROG Ally X, причём они могут пользоваться собственным решением Microsoft для масштабирования изображения даже...",
+    "title": "Google научила ИИ читать ДНК на уровне отдельных клеток — это поможет искать корни болезней",
+    "link": "https://3dnews.ru/1151170",
+    "desc": "Единая для каждого человека ДНК не означает одинакового влияния на разные типы клеток. Активность генов в клетках во многом индивидуальна и подвержена сбоям, что может приводить к генетическим и другим заболеваниям. Новая ИИ-модель Google DeepMind способна разбираться в поведении ДНК на уровне от...",
+    "date": "2026-11-11",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "США хотят встроить «Локатор» в ИИ-чипы — чтобы находить санкционные ускорители Nvidia, просочившиеся в Китай",
+    "link": "https://3dnews.ru/1151167",
+    "desc": "США рассматривают возможность создания системы отслеживания передовых ИИ-чипов по аналогии с Apple Find My. Технология позволит проверять их фактическое местоположение и выявлять случаи нелегального вывоза в Китай и другие страны под санкциями. Для этого предлагается использовать геолокацию и уни...",
     "date": "2026-11-11",
     "source": "3DNews",
     "cat": "ai",
@@ -369,6 +423,24 @@
     "lang": "ru"
   },
   {
+    "title": "Глава Anthropic пообещал победить рак с помощью ИИ уже через 10 лет",
+    "link": "https://3dnews.ru/1151169",
+    "desc": "Генеральный директор Anthropic Дарио Амодеи (Dario Amodei) заявил, что искусственный интеллект может помочь человечеству победить рак, болезнь Альцгеймера, сердечно-сосудистые и психические заболевания менее чем за 10 лет. Но медики сомневаются. Источник изображения: Anthropic",
+    "date": "2026-11-11",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Microsoft наконец выпустила универсальный аналог DLSS — он работает на Asus ROG Ally X и некоторых ПК",
+    "link": "https://3dnews.ru/1151142",
+    "desc": "Microsoft объявила о выпуске Super Resolution (Auto SR) — технологии масштабирования, выступающей аналогом Nvidia DLSS. Первыми новую функцию получили владельцы портативных приставок Asus ROG Ally X, причём они могут пользоваться собственным решением Microsoft для масштабирования изображения даже...",
+    "date": "2026-11-11",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Tencent создала ИИ-подруг для геймеров. Они будут следить за каждой игрой",
     "link": "https://hi-tech.mail.ru/news/160313-tencent-otkryla-v-kitae-beta-test-prilozheniya-s-ii/",
     "desc": "Виртуальные персонажи наблюдают за происходящим на экране, дают советы по игре и общаются голосом в реальном времени. Сроки международного запуска пока не объявлены. Китайская технологическая компания Tencent открыла в Китае бета-тестирование Eciyuan — приложения для ПК с виртуальными игровыми на...",
@@ -403,6 +475,15 @@
     "source": "Habr Дизайн",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
+    "link": "https://github.com/adrbn/bo2-mac",
+    "desc": "I grew up with Black Ops 2 and wanted to see if I could make it work on my 2020 MacBook Pro. So I used Claude Opus 5.5 to create a tool that converts your copy of the game (from Steam) to a native ARM64 Mac app, with almost 60fps in all areas. The whole game is statically recompilated ahead-of-ti...",
+    "date": "2026-11-11",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "LLMs Play Zachtronics' TIS-100",
@@ -464,15 +545,6 @@
     "desc": "",
     "date": "2026-11-10",
     "source": "Hugging Face",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Gemini 4 Carbon now available on AI Gateway",
-    "link": "https://vercel.com/changelog/gemini-4-carbon-now-available-on-ai-gateway",
-    "desc": "",
-    "date": "2026-11-10",
-    "source": "Vercel",
     "cat": "ai",
     "lang": "en"
   },
@@ -790,6 +862,15 @@
     "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Gemini 4 Carbon now available on AI Gateway",
+    "link": "https://vercel.com/changelog/gemini-4-carbon-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-11-10",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Google Gemini теперь может рассказать пользователям, что знает и помнит о них",
@@ -1224,15 +1305,6 @@
     "lang": "en"
   },
   {
-    "title": "Claude Fable 5.2 now available on AI Gateway",
-    "link": "https://vercel.com/changelog/claude-fable-5-2-now-available-on-ai-gateway",
-    "desc": "",
-    "date": "2026-11-09",
-    "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Языковая модель с нуля на одной RTX 4060: dpp-gpt 2.2 Pro (260M), претрейн, SFT и RL",
     "link": "https://habr.com/ru/articles/1105656/?utm_campaign=1105656&utm_source=habrahabr&utm_medium=rss",
     "desc": "Обучил с нуля языковую модель на 260M параметров на одной домашней видеокарте: претрейн на 31 млрд токенов, SFT и RL. Рассказываю, как она устроена, что умеет, где проигрывает Gemma и SmolLM2 и что не получилось. Читать далее",
@@ -1438,6 +1510,15 @@
     "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "Claude Fable 5.2 now available on AI Gateway",
+    "link": "https://vercel.com/changelog/claude-fable-5-2-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-11-09",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Схема архитектуры со всеми логотипами из одного описания: установка и разбор скилла stack-diagram для Claude",
@@ -2169,15 +2250,6 @@
     "lang": "en"
   },
   {
-    "title": "DeepSeek V4.1 Flash 1017 Ultrafast now available on AI Gateway",
-    "link": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway",
-    "desc": "",
-    "date": "2026-11-07",
-    "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "[Перевод] Изоляция ИИ‑агента: измеряем накладные расходы gVisor и Kata по сравнению с Docker",
     "link": "https://habr.com/ru/companies/otus/articles/1102094/?utm_campaign=1102094&utm_source=habrahabr&utm_medium=rss",
     "desc": "ИИ-агенту можно дать доступ к терминалу, но лучше заранее позаботиться о том, что он сможет сделать за пределами рабочей папки. gVisor и Kata Containers обещают более строгую изоляцию, однако за неё приходится платить производительностью и памятью. Я сравнил их с обычным Docker на пяти тестовых с...",
@@ -2239,6 +2311,15 @@
     "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "DeepSeek V4.1 Flash 1017 Ultrafast now available on AI Gateway",
+    "link": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-11-07",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Правда ли нейросети выдумывают ссылки и почему в их ответах остаются удалённые статьи",
@@ -2538,15 +2619,6 @@
     "lang": "ru"
   },
   {
-    "title": "AI Gateway adds DeepSeek Search and Fetch tools",
-    "link": "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools",
-    "desc": "",
-    "date": "2026-11-06",
-    "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "[Перевод] Даже мощные LLM теряются в длинных текстах. Исследователи выяснили почему",
     "link": "https://habr.com/ru/articles/1104552/?utm_campaign=1104552&utm_source=habrahabr&utm_medium=rss",
     "desc": "Казалось бы, современные LLM должны неплохо справляться с подобными заданиями. Однако, даже передовые модели сталкиваются с серьезными трудностями. Gemini 3.8 Flash, Claude Opus 5.5, GPT-6 Sol и GPT-6 Luna уверенно проходили простые уровни, но на самых длинных заданиях с взаимосвязанными изменени...",
@@ -2608,6 +2680,15 @@
     "source": "The Code",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "AI Gateway adds DeepSeek Search and Fetch tools",
+    "link": "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools",
+    "desc": "",
+    "date": "2026-11-06",
+    "source": "Vercel",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "Как я настроил локальный ИИ‑контур без облаков и защитил данные от утечек",
@@ -3141,15 +3222,6 @@
     "lang": "ru"
   },
   {
-    "title": "Gemini Omni 1.2 Flash now available on AI Gateway",
-    "link": "https://vercel.com/changelog/gemini-omni-1-2-flash-now-available-on-ai-gateway",
-    "desc": "",
-    "date": "2026-11-05",
-    "source": "Vercel",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "Почему нейросеть передумывает простое и недодумывает сложное, и что об этом знал Шерлок Холмс",
     "link": "https://habr.com/ru/companies/ru_mts/articles/1102766/?utm_campaign=1102766&utm_source=habrahabr&utm_medium=rss",
     "desc": "Языковые модели научились рассуждать перед ответом. Теперь разработчики бьются над вопросом, который знаком каждому: сколько времени думать над конкретной задачей? На это хочется ответить парой метафор. В рассказе «Союз рыжих» сэра Артура Конан Дойла к Шерлоку Холмсу приходит владелец ссудной кас...",
@@ -3263,6 +3335,15 @@
     "desc": "As LLM chat patterns become more widespread, making them accessible is essential to ensuring everyone can access the information, tools, and opportunities they offer. Drawing on his work improving these interfaces, Eric Bailey shares practical ways to make chat-based experiences on the web more a...",
     "date": "2026-11-05",
     "source": "Smashing Magazine",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Gemini Omni 1.2 Flash now available on AI Gateway",
+    "link": "https://vercel.com/changelog/gemini-omni-1-2-flash-now-available-on-ai-gateway",
+    "desc": "",
+    "date": "2026-11-05",
+    "source": "Vercel",
     "cat": "ai",
     "lang": "en"
   },
@@ -7857,20 +7938,20 @@
     "lang": "ru"
   },
   {
-    "title": "Миллион в config.toml, 828 тысяч в Codex и 890 тысяч на входе: что на самом деле значит окно контекста",
-    "link": "https://habr.com/ru/articles/1100196/?utm_campaign=1100196&utm_source=habrahabr&utm_medium=rss",
-    "desc": "В ~/.codex/config.toml у меня стоит model_context_window = 1000000 . Codex на GPT-6.1 Sol в каждой задаче сообщает окно 828 400. Я разобрал, откуда берётся это число, поднял его до 900 000 своим каталогом моделей и прогнал синтетический вход на 890 547 токенов с контрольными метками. Контрольный ...",
-    "date": "2026-10-27",
-    "source": "Habr NLP",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "В команде Together AI представили открытый проект Hallmark — скилл для Claude Code, Codex и других...",
     "link": "https://habr.com/ru/articles/1100092/?utm_campaign=1100092&utm_source=habrahabr&utm_medium=rss",
     "desc": "В команде Together AI представили открытый проект Hallmark — скилл для Claude Code, Codex и других ИИ‑агентов, который отучивает ИИ делать одинаковые сайты и похожие лендинги. В правилах — запрет на сине‑фиолетовые градиенты, карточки внутри карточек и выдуманные отзывы довольных клиентов. Вместо...",
     "date": "2026-10-27",
     "source": "Habr Веб-дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Миллион в config.toml, 828 тысяч в Codex и 890 тысяч на входе: что на самом деле значит окно контекста",
+    "link": "https://habr.com/ru/articles/1100196/?utm_campaign=1100196&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В ~/.codex/config.toml у меня стоит model_context_window = 1000000 . Codex на GPT-6.1 Sol в каждой задаче сообщает окно 828 400. Я разобрал, откуда берётся это число, поднял его до 900 000 своим каталогом моделей и прогнал синтетический вход на 890 547 токенов с контрольными метками. Контрольный ...",
+    "date": "2026-10-27",
+    "source": "Habr NLP",
     "cat": "ai",
     "lang": "ru"
   },
