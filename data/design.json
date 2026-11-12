@@ -1,5 +1,23 @@
 [
   {
+    "title": "Show HN: Cerulion – ROS 2-compatible robotics runtime with multi-process replay",
+    "link": "https://github.com/cerulion-inc/cerulion",
+    "desc": "Hey HN! I'm Lakshay. Raveen and I have built Cerulion, a ROS2-compatible robotics runtime written in Rust. We've worked hard on lowering IPC transport latencies without making the single process tradeoff or forcing POD message types. These fast multi-process graphs can then be resimmed determinis...",
+    "date": "2026-11-12",
+    "source": "Hacker News",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
+    "title": "Distributed Ray Tracer",
+    "link": "https://ray.hatchet.run",
+    "desc": "Hey HN, I'm Julius, I'm a backend engineer at Hatchet and created this demo to show off some of Hatchet's new features, primarily durable streams and serverless endpoints. Those, however, are just background details that made this significantly easier to scale. By distributing the rendering acros...",
+    "date": "2026-11-12",
+    "source": "Hacker News",
+    "cat": "design",
+    "lang": "en"
+  },
+  {
     "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
     "link": "https://huggingface.co/blog/3d-lora-finetuning",
     "desc": "",
