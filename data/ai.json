@@ -1,8 +1,26 @@
 [
   {
+    "title": "Gemini 4 Hydrogen and Orchestrator",
+    "link": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+    "desc": "Article URL: https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/ Comments URL: https://news.ycombinator.com/item?id=50472260 Points: 140 # Comments: 26",
+    "date": "2026-11-12",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+    "link": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+    "desc": "We (GREP.AI, YC F26) are open-sourcing AgentRun and turning it into a full managed agents platform. Read more about it in this post: https://agentrun.ai/blog/introducing-agentrun-run-smarter-ag... . It includes what we originally built for our own agent harness: - Self-improving agents - Web-grou...",
+    "date": "2026-11-12",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Gemini 4 Hydrogen",
     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-    "desc": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/ Comments URL: https://news.ycombinator.com/item?id=50471431 Points: 90 # Comments: 39",
+    "desc": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/ Comments URL: https://news.ycombinator.com/item?id=50471431 Points: 351 # Comments: 234",
     "date": "2026-11-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,16 +38,7 @@
   {
     "title": "I'm making LLMs work on small and old devices",
     "link": "https://github.com/hyperionaidev/smolmaxxing/",
-    "desc": "Article URL: https://github.com/hyperionaidev/smolmaxxing/ Comments URL: https://news.ycombinator.com/item?id=50468888 Points: 117 # Comments: 48",
-    "date": "2026-11-12",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Anthropic IPO",
-    "link": "https://ipo.anthropic.com/us/",
-    "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 641 # Comments: 650",
+    "desc": "Article URL: https://github.com/hyperionaidev/smolmaxxing/ Comments URL: https://news.ycombinator.com/item?id=50468888 Points: 195 # Comments: 73",
     "date": "2026-11-12",
     "source": "Hacker News",
     "cat": "ai",
@@ -45,6 +54,15 @@
     "lang": "en"
   },
   {
+    "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+    "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+    "desc": "",
+    "date": "2026-11-12",
+    "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "Gemini 4 Hydrogen now available on AI Gateway",
     "link": "https://vercel.com/changelog/gemini-4-hydrogen-now-available-on-ai-gateway",
     "desc": "",
@@ -54,7 +72,25 @@
     "lang": "en"
   },
   {
-    "title": "Как я разрабатываю систему, которая не верит ИИ-агенту на слово",
+    "title": "Как работать с кодинг агентами (Claude Code, Codex, Gemini CLI, Antigravity CLI) через Telegram",
+    "link": "https://habr.com/ru/articles/1107278/?utm_campaign=1107278&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Последние месяцы я всё чаще работаю с ИИ-агентами для кодинга: Gemini CLI, Claude Code, Codex и Antigravity. Они невероятно хороши в решении сложных задач, но у них есть одно фундаментальное неудобство — они привязаны к терминалу. Запустил задачу, сидишь жди, а отойти от монитора или проверить ко...",
+    "date": "2026-11-12",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Skills + Code Mode MCP: как я научил ИИ‑агента пользоваться сотнями инструментов и не раздувать контекст",
+    "link": "https://habr.com/ru/articles/1107276/?utm_campaign=1107276&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Недавно я решал две задачи. Личную и по работе. Личная, это настроить Nanabot, ИИ-агента, который автоматизирует мою деятельность как программиста. По работе, это написание MCP-сервера по управлению продуктами компании. И я столкнулся с проблемами. Если методов MCP очень много, то их подробные оп...",
+    "date": "2026-11-12",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как я разрабатываю систему, которая не верит ИИ‑агенту на слово",
     "link": "https://habr.com/ru/articles/1107022/?utm_campaign=1107022&utm_source=habrahabr&utm_medium=rss",
     "desc": "ИИ-агент может самостоятельно разобраться в устройстве сайта, найти ошибку и предложить вполне разумное исправление. Но что, если решение технически правильное, а пользователь разрешал совсем другое? Кто должен проверять действия агента, прежде чем они превратятся в реальные изменения? В первой с...",
     "date": "2026-11-12",
@@ -225,15 +261,6 @@
     "lang": "ru"
   },
   {
-    "title": "Корпоративный ИИ vs гостайна: что можно и нельзя отдавать нейросети",
-    "link": "https://habr.com/ru/companies/shtab/articles/1106118/?utm_campaign=1106118&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Всем добрый день! Меня зовут Александр. Сейчас я выступаю как приглашенный эксперт, но вообще я редактор технических текстов для крупных ИТ-компаний. Подписал кучу НДА, поэтому здесь вещаю анонимно. Я вижу, как государственные и частные организации встраивают ИИ в работу с данными, и замечаю, что...",
-    "date": "2026-11-12",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "От быстрых скипов до полных досмотров: как мы предсказываем распределение времени просмотра",
     "link": "https://habr.com/ru/companies/vk/articles/1107030/?utm_campaign=1107030&utm_source=habrahabr&utm_medium=rss",
     "desc": "Привет, Хабр! Мы — команда AI VK: Софья Гулевская, Михаил Трапезников, Александр Пославский и Александр Дьяконов. В этой статье расскажем, почему привычные методы прогнозирования времени просмотра не всегда справляются с короткими видео, какие проблемы возникают при обучении вероятностных моделей...",
@@ -288,6 +315,15 @@
     "lang": "ru"
   },
   {
+    "title": "Anthropic пустила Claude в Google Meet: заметки и документы прямо в звонке",
+    "link": "https://tproger.ru/news/anthropic-pustila-claude-v-google-meet-zametki-i-dokumenty-pryam",
+    "desc": "Бета Claude Meetings для Team и Enterprise: Claude сохраняет транскрипт без аудио, отвечает в чате звонка и собирает документы, а доски бесплатны до 10 февраля. — Читать дальше « Anthropic пустила Claude в Google Meet: заметки и документы прямо в звонке »",
+    "date": "2026-11-12",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Google выпустила Gemini 4 Hydrogen с бесплатным доступом в API",
     "link": "https://tproger.ru/news/google-vypustila-gemini-4-hydrogen-s-besplatnym-dostupom-v-api",
     "desc": "Gemini 4 Hydrogen вышла на смену 3.8 Flash: бесплатный тариф в API, $1,50 и $7,50 за миллион токенов, 57% на Terminal-Bench 4.1 и режим Orchestrator в Antigravity. — Читать дальше « Google выпустила Gemini 4 Hydrogen с бесплатным доступом в API »",
@@ -311,6 +347,15 @@
     "desc": "Сравнили 5 российских провайдеров GPU: облако, выделенные серверы и кластеры для обучения и инференса LLM. Карты NVIDIA, цены, SLA и тестовые периоды. — Читать дальше « 5 провайдеров GPU-инфраструктуры в 2026 году: решения для LLM, HPC и Data Science »",
     "date": "2026-11-12",
     "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Вышла Gemini 4 Hydrogen и обошла более мощную Argon в тестах",
+    "link": "https://thecode.media/vyshla-gemini-4-hydrogen-i-oboshla-bolee-moshnuyu-argon-v-testah/",
+    "desc": "Скажем \"пока\" Gemini Flash Сообщение Вышла Gemini 4 Hydrogen и обошла более мощную Argon в тестах появились сначала на Журнал «Код» программирование без снобизма .",
+    "date": "2026-11-12",
+    "source": "The Code",
     "cat": "ai",
     "lang": "ru"
   },
@@ -594,6 +639,15 @@
     "lang": "ru"
   },
   {
+    "title": "Google представила Gemini 4 Hydrogen — модель работает в 2,5 раза быстрее предшественницы и уже доступна всем",
+    "link": "https://3dnews.ru/1151236",
+    "desc": "Google представила новую ИИ-модель Gemini 4 Hydrogen для повседневной работы, программирования и выполнения задач с помощью автономных ИИ-агентов. Модель выполняет задания в 2,5 раза быстрее Gemini 3.8 Flash, меньше галлюцинирует и доступна для всех пользователей. Источник изображений: Google",
+    "date": "2026-11-12",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Microsoft вернула поиск без ИИ — в Bing появился выключатель ИИ-ответов",
     "link": "https://3dnews.ru/1151208",
     "desc": "Microsoft выпустила расширение для браузеров Edge и Google Chrome, которое позволяет отключать сводки искусственного интеллекта и функции чата в результатах поиска Bing. Компания сделала шаг навстречу пользователям, которые считают привнесённые ИИ технологии лишними. Источник изображения: blogs.b...",
@@ -671,6 +725,24 @@
     "desc": "Дженсена Хуанга собираются уволить, и ему уже ищут замену. Платформа предсказаний Kalshi, где пользователи ставят деньги на исход событий, начала принимать ставки на то, кто сменит Дженсена Хуанга на посту гендиректора Nvidia, пишет Benzinga. В списке претендентов неожиданно оказался Тим Кук — бы...",
     "date": "2026-11-12",
     "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic IPO",
+    "link": "https://ipo.anthropic.com/us/",
+    "desc": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 641 # Comments: 650",
+    "date": "2026-11-12",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Корпоративный ИИ vs гостайна: что можно и нельзя отдавать нейросети",
+    "link": "https://habr.com/ru/companies/shtab/articles/1106118/?utm_campaign=1106118&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Всем добрый день! Меня зовут Александр. Сейчас я выступаю как приглашенный эксперт, но вообще я редактор технических текстов для крупных ИТ-компаний. Подписал кучу НДА, поэтому здесь вещаю анонимно. Я вижу, как государственные и частные организации встраивают ИИ в работу с данными, и замечаю, что...",
+    "date": "2026-11-12",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1395,15 +1467,6 @@
     "lang": "ru"
   },
   {
-    "title": "Как рисовать BPMN диаграммы для процессов LLM оптимизации",
-    "link": "https://habr.com/ru/articles/1106274/?utm_campaign=1106274&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я работаю в Альфа-Банке в команде, которая пытается оптимизировать валютный контроль. За время проекта я отрисовал страшно много диаграмм, и вот пара лайфхаков, которые я для себя выделил. Читать далее",
-    "date": "2026-11-10",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Дедлайн для апрува: как научить ASR не ломаться при смене языков",
     "link": "https://habr.com/ru/companies/kryptonite/articles/1106004/?utm_campaign=1106004&utm_source=habrahabr&utm_medium=rss",
     "desc": "В реальной жизни люди иногда говорят на смеси языков, например — русского и английского, а порой и переключаются между разными языками во время диалога. Особенно это характерно для международных компаний, у которых сотрудники, клиенты и партнёры могут быть из разных стран. Для систем преобразован...",
@@ -1526,6 +1589,15 @@
     "desc": "Пользователи Anthropic Claude и OpenAI Codex столкнулись с ограничениями при попытках применить ИИ для реверс-инжиринга. Защитные механизмы начали блокировать также декомпиляцию ПО, а в отдельных случаях происходила блокировка аккаунтов. Под ограничения попали даже проекты, связанные с модификаци...",
     "date": "2026-11-10",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как рисовать BPMN диаграммы для процессов LLM оптимизации",
+    "link": "https://habr.com/ru/articles/1106274/?utm_campaign=1106274&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я работаю в Альфа-Банке в команде, которая пытается оптимизировать валютный контроль. За время проекта я отрисовал страшно много диаграмм, и вот пара лайфхаков, которые я для себя выделил. Читать далее",
+    "date": "2026-11-10",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2151,15 +2223,6 @@
     "lang": "ru"
   },
   {
-    "title": "Сервисы без копипасты, нейронки и вечный спор Python с Go",
-    "link": "https://habr.com/ru/companies/X5Tech/articles/1105370/?utm_campaign=1105370&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Кажется, намечается интересный вечерок. 25 ноября на 114-м Moscow Python Meetup обсудим, как перестать плодить одинаковые сервисы и таскать за собой старые костыли, почему нейронка даже после десятого промпта не врубается, чего от неё хотят, и что лучше для ИИ-разработки. Будет два доклада с реал...",
-    "date": "2026-11-09",
-    "source": "Habr Python",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Конвейер, без которого AI не разгонится: как у нас код доезжает от идеи до продакшена",
     "link": "https://habr.com/ru/articles/1105640/?utm_campaign=1105640&utm_source=habrahabr&utm_medium=rss",
     "desc": "Рынок сейчас охвачен одной светлой надеждой: купить подписку на нейросеть и наутро обнаружить, что команда стала работать вдвое быстрее. Надежда понятная. Примерно с той же надеждой покупают абонемент в спортзал. Сначала честное предупреждение. Опытные команды с сильным техническим руководством, ...",
@@ -2228,6 +2291,15 @@
     "desc": "Скорость — до 466 токенов в секунду Сообщение Создатели Qwen выпустили ИИ размером всего 173 МБ — работает прямо на смартфоне появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-11-09",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Сервисы без копипасты, нейронки и вечный спор Python с Go",
+    "link": "https://habr.com/ru/companies/X5Tech/articles/1105370/?utm_campaign=1105370&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Кажется, намечается интересный вечерок. 25 ноября на 114-м Moscow Python Meetup обсудим, как перестать плодить одинаковые сервисы и таскать за собой старые костыли, почему нейронка даже после десятого промпта не врубается, чего от неё хотят, и что лучше для ИИ-разработки. Будет два доклада с реал...",
+    "date": "2026-11-09",
+    "source": "Habr Python",
     "cat": "ai",
     "lang": "ru"
   },
