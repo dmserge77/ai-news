@@ -1,5 +1,23 @@
 [
   {
+    "title": "Эволюция API в эпоху AI: REST vs MCP на примере платёжного сервиса",
+    "link": "https://habr.com/ru/companies/yoomoney/articles/1107580/?utm_campaign=1107580&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет, Хабр! Меня зовут Рома, я backend-разработчик в ЮMoney. Почти 10 лет наша команда занимается в том числе развитием публичного платежного API. Недавно мы запустили MCP-сервер (Model Context Protocol), который позволяет нейросетям (LLM) напрямую работать с платежами и счетами. В процессе раз...",
+    "date": "2026-11-13",
+    "source": "Habr AI",
+    "cat": "platform",
+    "lang": "ru"
+  },
+  {
+    "title": "Большое обновление Cyber AI: студия на сайте, ноды, новый Topaz Video и ещё четыре новинки",
+    "link": "https://vc.ru/ai/3254382-bolshoe-obnovlenie-cyber-ai-studiya-na-saite-nody-novyi-topaz-video-i-eshe-chetyre-novinki?from=rss",
+    "desc": "Cyber AI, где я делаю картинки и видео, выкатил большое обновление: студия на сайте cyhub.ai, ноды для цепочек из нескольких моделей, Topaz Video, Seedream 5.5 и голос по описанию от ElevenLabs. В боте новость спрятана за кнопкой «Читать подробнее», я развернул её целиком и свёл в одну выжимку.",
+    "date": "2026-11-13",
+    "source": "vc.ru",
+    "cat": "platform",
+    "lang": "ru"
+  },
+  {
     "title": "Как научить ИИ писать E2E-тесты для iOS и Android по стандартам проекта",
     "link": "https://habr.com/ru/companies/avito/articles/1095268/?utm_campaign=1095268&utm_source=habrahabr&utm_medium=rss",
     "desc": "Привет, Хабр! Меня зовут Дима Борщевский , я QA Engineer в Авито Товары и работаю в IT около десяти лет. В последнее время я разбираюсь, какую часть подготовки мобильных E2E-тестов можно передать ИИ-агенту без снижения требований к качеству. Сгенерировать несколько строк на Kotlin или Swift несло...",
@@ -18,20 +36,20 @@
     "lang": "ru"
   },
   {
-    "title": "Как SpaceX проектирует стойку Kessel с 84-слойной платой для орбитальных ЦОД",
-    "link": "https://habr.com/ru/companies/selectel/articles/1107166/?utm_campaign=1107166&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Компании SpaceX и xAI разрабатывают серверную систему Kessel. В основе платформы лежат 36 центральных процессоров NVIDIA ® Vera™ и 72 графических ускорителя Rubin™, но вместо стандартных медных кабельных сборок NVLink инженеры решили использовать единую 84-слойную печатную плату. Проект адаптиров...",
-    "date": "2026-11-12",
-    "source": "Habr AI",
-    "cat": "platform",
-    "lang": "ru"
-  },
-  {
     "title": "Вайбкодим конфигурацию MDM, а ядро — нет: три ИИ‑агента, 100+ правил и подогнанные автотесты",
     "link": "https://habr.com/ru/companies/datasapience/articles/1107056/?utm_campaign=1107056&utm_source=habrahabr&utm_medium=rss",
     "desc": "Около миллиона записей о физических лицах на арабском и английском и около ста правил обработки с учётом региональной специфики — такую задачу мы решали в пилоте внедрения клиентского MDM. Мы — команда Data Sapience, разработчика Data Ocean Governance MDM. Правила готовили три ИИ-агента: больше с...",
     "date": "2026-11-12",
     "source": "Habr ML",
+    "cat": "platform",
+    "lang": "ru"
+  },
+  {
+    "title": "Как SpaceX проектирует стойку Kessel с 84-слойной платой для орбитальных ЦОД",
+    "link": "https://habr.com/ru/companies/selectel/articles/1107166/?utm_campaign=1107166&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Компании SpaceX и xAI разрабатывают серверную систему Kessel. В основе платформы лежат 36 центральных процессоров NVIDIA ® Vera™ и 72 графических ускорителя Rubin™, но вместо стандартных медных кабельных сборок NVLink инженеры решили использовать единую 84-слойную печатную плату. Проект адаптиров...",
+    "date": "2026-11-12",
+    "source": "Habr AI",
     "cat": "platform",
     "lang": "ru"
   },
