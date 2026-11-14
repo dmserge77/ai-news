@@ -1,14 +1,5 @@
 [
   {
-    "title": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
-    "link": "https://atg.science/careers",
-    "desc": "Article URL: https://atg.science/careers Comments URL: https://news.ycombinator.com/item?id=50489589 Points: 0 # Comments: 0",
-    "date": "2026-11-13",
-    "source": "Hacker News",
-    "cat": "agent",
-    "lang": "en"
-  },
-  {
     "title": "Когда ИИ-агенту нужен MCP, а когда достаточно обычного API",
     "link": "https://habr.com/ru/companies/runity/articles/1107568/?utm_campaign=1107568&utm_source=habrahabr&utm_medium=rss",
     "desc": "Допустим, вы разрабатываете ИИ-агента, который проверяет статусы заказов. Для этого ему нужно обратиться к учетной системе, найти заказ по номеру и вернуть пользователю результат. Можно подключить агента напрямую через API. А можно создать MCP-сервер, который предоставит ту же операцию в виде инс...",
@@ -16,6 +7,15 @@
     "source": "Habr Python",
     "cat": "agent",
     "lang": "ru"
+  },
+  {
+    "title": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
+    "link": "https://atg.science/careers",
+    "desc": "Article URL: https://atg.science/careers Comments URL: https://news.ycombinator.com/item?id=50489589 Points: 0 # Comments: 0",
+    "date": "2026-11-13",
+    "source": "Hacker News",
+    "cat": "agent",
+    "lang": "en"
   },
   {
     "title": "Архитектура RAG 2.0: от простого векторного поиска к Agentic RAG",
