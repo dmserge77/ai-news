@@ -1,15 +1,6 @@
 [
   {
-    "title": "Formal Operations Specifications for Reliable System Management",
-    "link": "https://djapg7v42ea9q.cloudfront.net/pdf/hotnets26-final281.pdf",
-    "desc": "Abstract: Large-scale production systems are largely operated by management software like Kubernetes operators and increasingly by AI agents. Production systems have diverse functionalities, interfaces, and fault-tolerance properties; hence, their management semantics are complex and less standar...",
-    "date": "2026-11-16",
-    "source": "Lobsters",
-    "cat": "agent",
-    "lang": "en"
-  },
-  {
-    "title": "MCP: «USB-порт» для ИИ-агентов и почему его нужно охранять",
+    "title": "MCP: «USB‑порт» для ИИ‑агентов и почему его нужно охранять",
     "link": "https://habr.com/ru/companies/itglobalcom/articles/1108366/?utm_campaign=1108366&utm_source=habrahabr&utm_medium=rss",
     "desc": "Еще год назад, чтобы подключить ИИ-агента к CRM, почте или базе данных, под каждую систему писали отдельную интеграцию. Теперь для этого есть MCP (Model Context Protocol) — открытый стандарт, через который агент подключается к любому совместимому инструменту. ⚡️ Его часто сравнивают с USB: один р...",
     "date": "2026-11-16",
@@ -25,6 +16,15 @@
     "source": "Habr AI",
     "cat": "agent",
     "lang": "ru"
+  },
+  {
+    "title": "Formal Operations Specifications for Reliable System Management",
+    "link": "https://djapg7v42ea9q.cloudfront.net/pdf/hotnets26-final281.pdf",
+    "desc": "Abstract: Large-scale production systems are largely operated by management software like Kubernetes operators and increasingly by AI agents. Production systems have diverse functionalities, interfaces, and fault-tolerance properties; hence, their management semantics are complex and less standar...",
+    "date": "2026-11-16",
+    "source": "Lobsters",
+    "cat": "agent",
+    "lang": "en"
   },
   {
     "title": "Когда ИИ-агенту нужен MCP, а когда достаточно обычного API",
