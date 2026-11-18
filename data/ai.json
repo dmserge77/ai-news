@@ -1,5 +1,23 @@
 [
   {
+    "title": "Не Клодом единым — как после бана я переписал командный плагин на разные хосты моделей",
+    "link": "https://habr.com/ru/articles/1109094/?utm_campaign=1109094&utm_source=habrahabr&utm_medium=rss",
+    "desc": "supertick 2.0: как я перенёс команду агентов из Claude Code в Kimi, Codex и OpenCode В первой части я рассказывал про supertick, командный плагин для Claude Code. Ведущий там тонкий и почти всё время спит, его будит внешний «тик», скрипт без LLM. Исполнители - субагенты Claude и внешние CLI вроде...",
+    "date": "2026-11-18",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как я без команды разработки создал сервис для собачников, обучил собственную ML-модель и чуть не сошел с ума",
+    "link": "https://vc.ru/id6186609/3262464-sozdanie-servisa-dlya-sobakovodov-bez-komandy-razrabotki?from=rss",
+    "desc": "Я продакт-менеджер. У меня есть бигль Луи, подписки на нейросети и периодически обостряющееся желание сделать мир немного удобнее.",
+    "date": "2026-11-18",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Microsoft представила семь ИИ-моделей: одни пишут и исправляют код, другие ищут уязвимости, редактируют изображения и общаются голосом",
     "link": "https://3dnews.ru/1151438",
     "desc": "Microsoft представила большую линейку ИИ-моделей, в том числе для программирования и поиска уязвимостей. В её состав вошла MAI Code 2 для написания программного кода, которая, по утверждению компании, почти не уступает Anthropic и OpenAI по производительности, но обходится значительно дешевле. В ...",
@@ -9,27 +27,27 @@
     "lang": "ru"
   },
   {
+    "title": "Что происходит с интернетом в Санкт-Петербурге сегодня, 18 ноября",
+    "link": "https://hi-tech.mail.ru/news/145517-chto-segodnya-s-internetom-v-spb/",
+    "desc": "18 ноября в Санкт-Петербурге и Ленинградской области наблюдаются проблемы с мобильным интернетом. Разобрались в причинах и выяснили, в каких районах города сеть работает хуже всего. Какие сервисы сейчас не работают в Санкт-Петербурге и Ленинградской области По данным системы мониторинга detector4...",
+    "date": "2026-11-18",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Что происходит с интернетом в Москве сегодня, 18 ноября",
+    "link": "https://hi-tech.mail.ru/news/144029-sboi-interneta-v-moskve/",
+    "desc": "18 ноября в Москве и области наблюдаются проблемы с мобильным интернетом. Разбираемся, в чем причина и в каких районах города связь работает хуже всего. Какие сервисы сейчас не работают в Москве и Московской области По данным системы мониторинга detector404, жалобы в регионе поступают на работу с...",
+    "date": "2026-11-18",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
     "link": "https://starsling.dev",
     "desc": "We’re Yonas and Daniel and we’re building StarSling ( https://starsling.dev ), fast GitHub Actions runners with AI agents that ship PRs to continuously improve your tests and workflows. Every CI job gets its own ephemeral sandbox on the fastest Zen 5 machines and NVMe Disk with unlimited concurre...",
-    "date": "2026-11-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "Not Everything Needs an LLM",
-    "link": "https://newsletter.posthog.com/p/decision-models",
-    "desc": "Article URL: https://newsletter.posthog.com/p/decision-models Comments URL: https://news.ycombinator.com/item?id=50535740 Points: 93 # Comments: 38",
-    "date": "2026-11-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
-    "title": "GPT‑6.2 Astra and Sol",
-    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-    "desc": "Article URL: https://openai.com/index/introducing-gpt-6-2-astra-sol/ Comments URL: https://news.ycombinator.com/item?id=50535230 Points: 1073 # Comments: 688",
     "date": "2026-11-17",
     "source": "Hacker News",
     "cat": "ai",
@@ -237,15 +255,6 @@
     "title": "Перед residual stream: токенизация, эмбеддинги и изнанка безопасности LLM",
     "link": "https://habr.com/ru/articles/1108536/?utm_campaign=1108536&utm_source=habrahabr&utm_medium=rss",
     "desc": "Одна запятая способна изменить язык ответа нейросети. Разбираемся, как токенизация и эмбеддинги влияют на поведение больших языковых моделей, где возникают риски безопасности и почему привычные методы анализа векторов могут вводить в заблуждение. Читать далее",
-    "date": "2026-11-17",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Курсы обещают нейровидео-миллионники на автопилоте. Я проверил на себе",
-    "link": "https://habr.com/ru/articles/1108814/?utm_campaign=1108814&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Это третий пост серии «Месяц без найма». После Тредс и SEO я пошел в короткие видео: там и алгоритм щедрый, и человек смотрит, а не скроллит текст. Плюс везде реклама курсов, где нейровидео набирают миллионы просмотров на автопилоте. Мне хотелось проверить, сколько в этом правды. Читать далее",
     "date": "2026-11-17",
     "source": "Habr AI",
     "cat": "ai",
@@ -666,11 +675,29 @@
     "lang": "ru"
   },
   {
-    "title": "Лучшие аналоги MacBook в 2026 году: топ-10 альтернатив ноутбукам Apple",
-    "link": "https://hi-tech.mail.ru/compilations/110169-luchshie-analogi-macbook/",
-    "desc": "В нашу подборку вошли лучшие аналоги MacBook в 2026 году: от легких ультрабуков для поездок до мощных ноутбуков для монтажа и графики. Ноутбуки Apple ценят за качественные экраны, высокую производительность и длительную автономность, но macOS подходит не для всех задач. Например, для некоторых пр...",
+    "title": "Not Everything Needs an LLM",
+    "link": "https://newsletter.posthog.com/p/decision-models",
+    "desc": "Article URL: https://newsletter.posthog.com/p/decision-models Comments URL: https://news.ycombinator.com/item?id=50535740 Points: 93 # Comments: 38",
     "date": "2026-11-17",
-    "source": "Hi-Tech Mail",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "GPT‑6.2 Astra and Sol",
+    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+    "desc": "Article URL: https://openai.com/index/introducing-gpt-6-2-astra-sol/ Comments URL: https://news.ycombinator.com/item?id=50535230 Points: 1073 # Comments: 688",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Курсы обещают нейровидео-миллионники на автопилоте. Я проверил на себе",
+    "link": "https://habr.com/ru/articles/1108814/?utm_campaign=1108814&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Это третий пост серии «Месяц без найма». После Тредс и SEO я пошел в короткие видео: там и алгоритм щедрый, и человек смотрит, а не скроллит текст. Плюс везде реклама курсов, где нейровидео набирают миллионы просмотров на автопилоте. Мне хотелось проверить, сколько в этом правды. Читать далее",
+    "date": "2026-11-17",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1080,15 +1107,6 @@
     "lang": "ru"
   },
   {
-    "title": "Тендерная заявка нейросетью: какой этап отдать ИИ первым, а какой оставить человеку",
-    "link": "https://vc.ru/office/3257941-tendernaya-zayavka-i-neyroset-optimizatsiya-protsessa?from=rss",
-    "desc": "На vc.ru интегратор описал свой случай: одна тендерная заявка заняла у сотрудника 190 часов и обошлась в 150 000 ₽, а команда из ИИ-агентов подготовила её за несколько часов. Но подписывает и подаёт заявку человек, потому что агенты ошибаются. Это замер одного случая, а не обещание — но порядок ц...",
-    "date": "2026-11-16",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "DeepSeek ввела лимиты для бесплатных пользователей после рекордного роста нагрузки",
     "link": "https://3dnews.ru/1151359",
     "desc": "Компания DeepSeek ужесточила лимиты использования для бесплатных пользователей своего приложения и веб-версии. Отключено продолжение длительных диалогов, объём одного запроса ограничен 40 000 символов, введена суточная квота на количество сообщений. В компании объяснили это нехваткой вычислительн...",
@@ -1130,6 +1148,15 @@
     "desc": "Apple добавила возможность разблокировки iPhone Duo с использованием фронтальной камеры. Эта функция появилась во второй бета-версии iOS 27.3. Она работает только на экране блокировки. Для совершения покупок через Apple Pay, ввода паролей и логинов, а также выполнения других подобных действий по-...",
     "date": "2026-11-16",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Тендерная заявка нейросетью: какой этап отдать ИИ первым, а какой оставить человеку",
+    "link": "https://vc.ru/office/3257941-tendernaya-zayavka-i-neyroset-optimizatsiya-protsessa?from=rss",
+    "desc": "На vc.ru интегратор описал свой случай: одна тендерная заявка заняла у сотрудника 190 часов и обошлась в 150 000 ₽, а команда из ИИ-агентов подготовила её за несколько часов. Но подписывает и подаёт заявку человек, потому что агенты ошибаются. Это замер одного случая, а не обещание — но порядок ц...",
+    "date": "2026-11-16",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
