@@ -1,21 +1,102 @@
 [
   {
-    "title": "Why is Gemini 4 Carbon taking so long?",
-    "link": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
-    "desc": "Article URL: https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/ Comments URL: https://news.ycombinator.com/item?id=50541790 Points: 164 # Comments: 83",
+    "title": "Genie 4 is now available",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+    "desc": "Article URL: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/ Comments URL: https://news.ycombinator.com/item?id=50550415 Points: 19 # Comments: 2",
     "date": "2026-11-18",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Claude was trained on protein sequences at scale",
-    "link": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
-    "desc": "Article URL: http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/ Comments URL: https://news.ycombinator.com/item?id=50541619 Points: 92 # Comments: 41",
+    "title": "Advancing chip design with OpenAI models",
+    "link": "https://openai.com/index/advancing-chip-design-with-our-models/",
+    "desc": "Article URL: https://openai.com/index/advancing-chip-design-with-our-models/ Comments URL: https://news.ycombinator.com/item?id=50549493 Points: 25 # Comments: 11",
     "date": "2026-11-18",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
+    "link": "https://news.ycombinator.com/item?id=50549188",
+    "desc": "Hi HN, we're Ary and Maria, co-founders of Maritime ( https://maritime.sh ). We're building an agent-native cloud that handles everything from custom environments to lifecycle management for AI agents. Demo: https://www.youtube.com/watch?v=lCWMdBQ96rY There’s been an explosion of sandbox companie...",
+    "date": "2026-11-18",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+    "link": "https://news.ycombinator.com/item?id=50548660",
+    "desc": "Hi HN, we're Shane, Sam, and Abhi. Almost two years ago, we shared Mastra, our open-source TypeScript agent framework, on Show HN: https://news.ycombinator.com/item?id=43103073 . It got a few hundred upvotes; a couple of weeks later our downloads had doubled, and we were off to the races. Today w...",
+    "date": "2026-11-18",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+    "link": "https://huggingface.co/blog/moe-expert-streaming",
+    "desc": "",
+    "date": "2026-11-18",
+    "source": "Hugging Face",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Понятие «Технологии искусственного интеллекта» в нормативных актах РФ",
+    "link": "https://habr.com/ru/articles/1109594/?utm_campaign=1109594&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Сразу следует заметить, что нижеследующее сугубо юридическое исследование может показаться неинтересным практикам ИИ. Если у Вас получаются замечательные интеллектуальные агенты, а даже не самая большая LLM-модель выведена в продуктив и дает коммерчески успешные результаты, то Вам, по большому сч...",
+    "date": "2026-11-18",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Mnemosyne: Kubernetes, который пишет симфонии и прозу",
+    "link": "https://habr.com/ru/articles/1109580/?utm_campaign=1109580&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Понятно, что с нейросетями каждый сам себе автор и художник. Но захотелось поставить эксперимент, сможет ли Kubernetes стать генератором событий, которые бы порождали творцов, критиков, влияли на условия для их творчества и эмоциональное состояние. Результатом стала Mnemosyne. В ней в одном класт...",
+    "date": "2026-11-18",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Вышел проект rust-anything, который помогает переписывать игры и приложения на Rust",
+    "link": "https://habr.com/ru/articles/1109572/?utm_campaign=1109572&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На GitHub опубликован открытый проект rust-anything , который помогает переписывать с разных языков программирования (TypeScript/JavaScript, Python, Go, Ruby, Java, PHP и C# пока в preview), например, игры и приложения, на язык Rust. Решение работает в связке с Claude Code, Codex и другими ИИ-аге...",
+    "date": "2026-11-18",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Промпт-баттл: студенческий ИИ-хакатон на Нейрофесте-2026",
+    "link": "https://habr.com/ru/companies/gptunnel/articles/1109510/?utm_campaign=1109510&utm_source=habrahabr&utm_medium=rss",
+    "desc": "20 и 21 ноября в Кластере медиатехнологий «Сколково» пройдёт Промпт-баттл: студенческий ИИ-хакатон в рамках фестиваля Нейрофест, который посвящён культуре, технологиям и искусственному интеллекту. Он проходит при поддержке Администрации Президента РФ и Министерства культуры РФ. Читать далее",
+    "date": "2026-11-18",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Вышла GPT-6.2 от OpenAI. Модели Astra и Sol доступны в ИИ-роутере",
+    "link": "https://habr.com/ru/companies/selectel/articles/1109508/?utm_campaign=1109508&utm_source=habrahabr&utm_medium=rss",
+    "desc": "17 ноября компания OpenAI выпустила сразу две модели GPT-6.2. Astra делали для тяжелой профессиональной работы в науке, праве и финансах. Sol собрали быстрой и универсальной, для повседневных задач. Обе уже работают в ChatGPT Work и Codex на тарифах Plus, Pro, Enterprise и Edu, а разработчикам от...",
+    "date": "2026-11-18",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ПСБ проведёт в Ярославле ИТ-конференцию «Нейродень»",
+    "link": "https://habr.com/ru/companies/psb/articles/1109484/?utm_campaign=1109484&utm_source=habrahabr&utm_medium=rss",
+    "desc": "28 ноября ПСБ проведёт в Ярославле ИТ-конференцию «Нейродень: ИИ, тренды, нетворкинг» . Разработчики, аналитики и архитекторы обсудят, какие задачи уже можно поручить ИИ-агентам, как проверять результаты их работы и в каких случаях решение должен принимать человек. Зарегистрироваться Посмотреть п...",
+    "date": "2026-11-18",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Безопасность LLM-агентов и генеративных продуктов: угрозы и методы защиты",
@@ -81,7 +162,7 @@
     "lang": "ru"
   },
   {
-    "title": "ИИ-агент каждый день выходит на работу впервые. Полтора года мы строим ему память проекта: что получилось, а что нет",
+    "title": "ИИ‑агент каждый день выходит на работу впервые. Полтора года мы строим ему память проекта: что получилось, а что нет",
     "link": "https://habr.com/ru/articles/1109152/?utm_campaign=1109152&utm_source=habrahabr&utm_medium=rss",
     "desc": "В первый день Claude добавил нам API-эндпоинт и заодно написал вторую функцию авторизации, хотя в проекте уже была такая же. На следующий день на другой задаче пришлось снова объяснять агенту, как у нас устроен код. Полтора года в «Куб три» мы строили для ИИ-агентов память проекта, в которой хран...",
     "date": "2026-11-18",
@@ -153,11 +234,20 @@
     "lang": "ru"
   },
   {
-    "title": "Не Клодом единым — как после бана я переписал командный плагин на разные хосты моделей",
-    "link": "https://habr.com/ru/articles/1109094/?utm_campaign=1109094&utm_source=habrahabr&utm_medium=rss",
-    "desc": "supertick 2.0: как я перенёс команду агентов из Claude Code в Kimi, Codex и OpenCode В первой части я рассказывал про supertick, командный плагин для Claude Code. Ведущий там тонкий и почти всё время спит, его будит внешний «тик», скрипт без LLM. Исполнители - субагенты Claude и внешние CLI вроде...",
+    "title": "Не набрасывайся на ROC AUC или как обучать промышленные ML-модели",
+    "link": "https://habr.com/ru/companies/ingos_it/articles/1109460/?utm_campaign=1109460&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Привет! Меня зовут Владислав Суханов . Я руководитель направления Риски в Центре развития искусственного интеллекта в Ингосстрахе. Сегодня расскажу, чем промышленный ML отличается от учебного и как строить модели со стабильно высокими метриками качества. В данной статье я НЕ буду рассматривать об...",
     "date": "2026-11-18",
-    "source": "Habr AI",
+    "source": "Habr Big Data",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Донгл был ни при чём: реверсим Keychron Launcher и перешиваем радиомодуль K2 HE через raw HID",
+    "link": "https://habr.com/ru/articles/1109540/?utm_campaign=1109540&utm_source=habrahabr&utm_medium=rss",
+    "desc": "У моей Keychron K2 HE перестал работать 2.4 ГГц. Все признаки указывают на приёмник, форумы советуют перепрошить его, спарить заново и сбросить клавиатуру до заводских. Я сделал всё это, и ничего не помогло. Тогда мы с ИИ-агентом пошли по цепочке с другого конца. Разобрали бандл Keychron Launcher...",
+    "date": "2026-11-18",
+    "source": "Habr Python",
     "cat": "ai",
     "lang": "ru"
   },
@@ -180,6 +270,105 @@
     "lang": "ru"
   },
   {
+    "title": "Не Клодом единым — как после бана я переписал командный плагин на разные хосты моделей",
+    "link": "https://habr.com/ru/articles/1109094/?utm_campaign=1109094&utm_source=habrahabr&utm_medium=rss",
+    "desc": "supertick 2.0: как я перенёс команду агентов из Claude Code в Kimi, Codex и OpenCode В первой части я рассказывал про supertick, командный плагин для Claude Code. Ведущий там тонкий и почти всё время спит, его будит внешний «тик», скрипт без LLM. Исполнители - субагенты Claude и внешние CLI вроде...",
+    "date": "2026-11-18",
+    "source": "Habr Open Source",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Кодит ИИ, релизит типичный программист",
+    "link": "https://tproger.ru/interactive/kodit-ii-relizit-tipichnyj-programmist",
+    "desc": "Исследование о том, как разработчики используют нейросети и с какими проблемами сталкиваются чаще всего. Каких изменений ждут в профессии после прихода ИИ и как изменилась их рутина. — Читать дальше « Кодит ИИ, релизит типичный программист »",
+    "date": "2026-11-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Tencent открыла веса Hy4 Flash — дешёвой модели для документов и агентов",
+    "link": "https://tproger.ru/news/tencent-otkryla-vesa-hy4-flash-dewyovoj-modeli-dlya-dokumentov-i",
+    "desc": "Hy4 Flash на 220 млрд параметров работает с 12 млрд активных и контекстом 1 млн токенов; в API стоит $0,035 за миллион входных токенов, в коде слабее DeepSeek. — Читать дальше « Tencent открыла веса Hy4 Flash — дешёвой модели для документов и агентов »",
+    "date": "2026-11-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Anthropic две недели ломала Claude Docs силами Claude Code перед запуском",
+    "link": "https://tproger.ru/news/anthropic-dve-nedeli-lomala-claude-docs-silami-claude-code-pered",
+    "desc": "Агент две недели нагружал staging и чинил сбои; оценка мощности упала с 500 подов до 50, весь инференс стоил около $125 тыс., малому сервису — $3–10 тыс. — Читать дальше « Anthropic две недели ломала Claude Docs силами Claude Code перед запуском »",
+    "date": "2026-11-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Обновление vLLM 0.34 может сломать запуск: разбираем новые умолчания",
+    "link": "https://tproger.ru/news/obnovlenie-vllm-0-34-mozhet-slomat-zapusk-razbiraem-novye-umolch",
+    "desc": "В vLLM 0.34 удалён Model Runner V1 и нужен huggingface_hub 2.0; кэш MiniMax-M3 на H200 вырос с 433 до 672 тыс. токенов, но задержка может расти. — Читать дальше « Обновление vLLM 0.34 может сломать запуск: разбираем новые умолчания »",
+    "date": "2026-11-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Microsoft выпустила MAI Code 2 и обещает уровень GPT-6.1 Sol за 40% цены",
+    "link": "https://tproger.ru/news/microsoft-vypustila-mai-code-2-i-obeshhaet-uroven-gpt-6-1-sol-za",
+    "desc": "MAI Code 2 стоит $0,50 и $2,50 за миллион токенов по акции до 17 мая 2027; Microsoft сравнивала стоимость по скидочной цене и в своём Copilot CLI. — Читать дальше « Microsoft выпустила MAI Code 2 и обещает уровень GPT-6.1 Sol за 40% цены »",
+    "date": "2026-11-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Gemini API режет документы и видео на куски и берёт деньги только за них",
+    "link": "https://tproger.ru/news/gemini-api-rezhet-dokumenty-i-video-na-kuski-i-beryot-dengi-tolk",
+    "desc": "Параметр processing в Gemini API отдаёт модели только нужные страницы, ячейки или отрезок видео; 300 страниц на medium — около 168 тыс. токенов. — Читать дальше « Gemini API режет документы и видео на куски и берёт деньги только за них »",
+    "date": "2026-11-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Gemini 3.5 Transcribe научилась править текст голосовыми командами",
+    "link": "https://tproger.ru/news/gemini-3-5-transcribe-nauchilas-pravit-tekst-golosovymi-komanda",
+    "desc": "Модели gemini-3.5-transcribe и transcribe-live правят текст голосовыми командами: source_text до 64 КиБ, режим smart, цена около $0,005 за минуту. — Читать дальше « Gemini 3.5 Transcribe научилась править текст голосовыми командами »",
+    "date": "2026-11-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Vibe от Mistral вышел на десктопе и ведёт несколько агентов в одном окне",
+    "link": "https://tproger.ru/news/vibe-ot-mistral-vywel-na-desktope-i-vedyot-neskolko-agentov-v-od",
+    "desc": "Vibe Desktop запускает агента локально или в облаке, ведёт задачи в worktree и подсессиях; Pro стоит $14,99, код LECHONK даёт три месяца в Европе. — Читать дальше « Vibe от Mistral вышел на десктопе и ведёт несколько агентов в одном окне »",
+    "date": "2026-11-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Долг понимания: мечтают ли ИИ-агенты о риск-менеджменте?",
+    "link": "https://tproger.ru/articles/dokazat-ne-znachit-ponyat",
+    "desc": "Что такое долг понимания при внедрении ИИ-агентов и как управлять связанными рисками: оценивать полномочия и цену ошибок, проводить независимые проверки, настраивать мониторинг и сохранять контроль над автономными системами. — Читать дальше « Долг понимания: мечтают ли ИИ-агенты о риск-менеджмент...",
+    "date": "2026-11-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Google сбросила квоты в Antigravity на всех моделях в честь дня рождения",
+    "link": "https://tproger.ru/news/google-sbrosila-kvoty-v-antigravity-na-vseh-modelyah-v-chest-dnya",
+    "desc": "Варун Мохан объявил сброс 18 ноября в 02:38 мск: это третий сброс за 12 дней, а в тот же день из Antigravity уходят Claude 4.6 и GPT-OSS-120b. — Читать дальше « Google сбросила квоты в Antigravity на всех моделях в честь дня рождения »",
+    "date": "2026-11-18",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Дженсена Хуанга уволили из NVIDIA из-за Anthropic — новая теория заговора",
     "link": "https://thecode.media/huanga-uvolili-iz-nvidia-iz-za-anthropic-novaya-teoriya-zagovora/",
     "desc": "А как известно, некоторые из них оказываются правдой... Сообщение Дженсена Хуанга уволили из NVIDIA из-за Anthropic — новая теория заговора появились сначала на Журнал «Код» программирование без снобизма .",
@@ -198,35 +387,26 @@
     "lang": "ru"
   },
   {
-    "title": "Кембриджский словарь назвал «человеческий» словом 2026 года — ИИ заставил людей переосмыслить ценность своего труда",
-    "link": "https://rb.ru/news/kembridzhskij-slovar-nazval-chelovecheskij-slovom-2026-goda-ii-zastavil-lyudej-pereosmyslit-cennost-svoego-truda/",
-    "desc": "Кембриджский словарь назвал прилагательное human — «человеческий» — словом 2026 года. Как подчеркнула редакция, в эпоху ИИ-бума контент, созданный человеком, особенно ценен. Также в шорт-лист вошли слова «ИИ-агент» и «аналоговый».",
+    "title": "OpenAI запустила ChatGPT for Sales для автоматизации продаж — ИИ поможет искать клиентов и готовить сделки",
+    "link": "https://rb.ru/news/openai-zapustila-chatgpt-sales-dlya-avtomatizacii-prodazh-ii-pomozhet-iskat-klientov-i-gotovit-sdelki/",
+    "desc": "OpenAI представила ChatGPT for Sales — набор ИИ-инструментов для автоматизации работы отделов продаж. С помощью нейросети специалисты смогут искать потенциальных клиентов, анализировать сделки, составлять коммерческие предложения и готовить презентации, рассказали в компании. Инструменты доступны...",
     "date": "2026-11-18",
     "source": "Rusbase",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "«Возвращать Хуанга мы не собираемся»: глава совета директоров Nvidia ответил на письмо экс-руководителя компании",
-    "link": "https://rb.ru/news/vozvrashat-huanga-my-ne-sobiraemsya-glava-soveta-direktorov-nvidia-otvetil-na-pismo-eks-rukovoditelya-kompanii/",
-    "desc": "Глава совета директоров Nvidia Харви Джонс выступил против возвращения Дженсена Хуанга на должность генерального директора компании. Сам Хуанг ранее допустил возможность снова возглавить корпорацию. По данным Semafor, некоторые члены совета поддерживают возвращение миллиардера. Тем временем Nvidi...",
+    "title": "Nvidia отчиталась о рекордной выручке в $115,8 млрд — но инвесторов тревожит будущее компании после ухода Хуанга",
+    "link": "https://rb.ru/news/nvidia-otchitalas-o-rekordnoj-vyruchke-v-1158-mlrd-no-investorov-trevozhit-budushee-kompanii-posle-uhoda-huanga/",
+    "desc": "Nvidia отчиталась о рекордной выручке за третий квартал 2027 финансового года — $115,8 млрд. Показатель оказался на 103% выше результата за аналогичный период прошлого года и превзошел ожидания аналитиков, пишет Bloomberg. Основным источником дохода стали продажи оборудования для дата-центров. Пр...",
     "date": "2026-11-18",
     "source": "Rusbase",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "OpenAI выпустила сразу две ИИ-модели — GPT-6.2 Astra и Sol стали лучше писать код и работать с документами",
-    "link": "https://rb.ru/news/openai-vypustila-srazu-dve-ii-modeli-gpt-62-astra-i-sol-stali-luchshe-pisat-kod-i-rabotat-s-dokumentami/",
-    "desc": "OpenAI представила две новые модели искусственного интеллекта — GPT-6.2 Astra и GPT-6.2 Sol. Первая предназначена для сложных профессиональных проектов, вторая — для повседневной работы. По данным компании, нейросети улучшили качество программирования, создания документов и взаимодействия с прогр...",
-    "date": "2026-11-18",
-    "source": "Rusbase",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Банковский кризис без паники и очередей: как ИИ-агенты заберут у банков дешевые деньги",
-    "link": "https://vc.ru/marketing/3263724-bankovskii-krizis-bez-paniki-i-ocheredei-kak-ii-agenty-zaberut-u-bankov-deshevye-dengi?from=rss",
+    "title": "Банковский кризис: ИИ-агенты заберут у банков деньги",
+    "link": "https://vc.ru/ai/3263724-kak-ii-agenty-izmenyat-bankovskuyu-sistemu?from=rss",
     "desc": "Персональные ИИ-агенты научатся самостоятельно сканировать счета пользователей, находить более высокие ставки и переводить свободные средства без участия человека.",
     "date": "2026-11-18",
     "source": "vc.ru",
@@ -255,6 +435,15 @@
     "title": "Математика кибербезопасности: как сделать любую атаку бессмысленной",
     "link": "https://vc.ru/id6045996/3262590-kiberbezopasnost-novogo-pokolenija-tehnologija-hybra-mirage?from=rss",
     "desc": "В мире, где вычислительная мощность растет экспоненциально, а искусственный интеллект становится изощреннее, старые методы защиты перестают работать. Нам нужна не просто «более сильная стена», а смена самой парадигмы.",
+    "date": "2026-11-18",
+    "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как разогнать локальный инференс LLM до физического предела: разбор скилла inference-optimisation-skill",
+    "link": "https://vc.ru/ai/3264295-optimizatsiya-lokalnogo-inferensa-llm?from=rss",
+    "desc": "Инструмент рассчитывает теоретический максимум оборудования по памяти и FLOPs, а затем находит оптимальные параметры vLLM и SGLang через серию A/B-тестов.",
     "date": "2026-11-18",
     "source": "vc.ru",
     "cat": "ai",
@@ -324,9 +513,27 @@
     "lang": "ru"
   },
   {
+    "title": "Домашние SSD наконец могут подешеветь — цены на флеш-память упали на 19–32 %",
+    "link": "https://3dnews.ru/1151474",
+    "desc": "За последний год с небольшим твердотельные накопители (SSD) заметно подорожали из-за бума технологий искусственного интеллекта. Однако ситуация может вскоре измениться: согласно данным издания Seoul Economic Daily (SED), спотовые цены на чипы NAND для потребительских накопителей начали снижаться....",
+    "date": "2026-11-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Солнечная энергетика споткнулась о собственный успех и впервые за восемь лет сбавит обороты — электросети не успевают за генерацией",
     "link": "https://3dnews.ru/1151461",
     "desc": "Солнечная энергетика в плане строительства новых электростанций набрала такой невероятный темп, что в 2026 году впервые навредила самой себе: новых площадок построено так много, что многие из них зависли в очереди на подключение. Это и другие факторы впервые за восемь лет приведут к снижению ввод...",
+    "date": "2026-11-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI GPT-6 Cyber взломала iPhone и практически все остальные устройства Apple",
+    "link": "https://3dnews.ru/1151483",
+    "desc": "Новейшая модель OpenAI для поиска уязвимостей GPT-6 Cyber демонстрирует высокую эффективность в выявлении уязвимостей в продуктах Apple — она обнаружила бреши в защите практически всех устройств Apple, включая iPhone, Mac, iPad, Apple Watch, Apple TV и гарнитуры Vision Pro, сообщил Forbes. Источн...",
     "date": "2026-11-18",
     "source": "3DNews",
     "cat": "ai",
@@ -360,11 +567,110 @@
     "lang": "ru"
   },
   {
+    "title": "Пауза в гонке ИИ продержалась не долго и не ударила по сверхприбылям Nvidia и AMD",
+    "link": "https://3dnews.ru/1151485",
+    "desc": "Кратковременное замедление разработки передовых моделей искусственного интеллекта пока не отразилось на спросе на вычислительные ускорители. Nvidia и AMD отчитались о рекордной выручке от оборудования для центров обработки данных, а одним из главных источников дальнейшего роста становится запуск ...",
+    "date": "2026-11-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Мини ПК на Nvidia по цене от $4399: стартовали продажи систем RTX Spark на Windows для локального ИИ",
+    "link": "https://3dnews.ru/1151481",
+    "desc": "Nvidia объявила о старте продаж компактных настольных компьютеров серии RTX Spark от производителей Asus, Dell и MSI. Эти системы, работающие под управлением Windows on Arm, предназначены для выполнения задач искусственного интеллекта локально: от запуска больших языковых моделей и работы ИИ-аген...",
+    "date": "2026-11-18",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Nvidia полностью прекратила поставки ИИ-чипов в Китай — даже разрешённых США Hopper",
     "link": "https://3dnews.ru/1151467",
     "desc": "Nvidia больше не будет поставлять ускорители искусственного интеллекта серии Hopper, предназначенные для центров обработки данных, в Китай. И это несмотря на то, что в минувшем году компания получила от властей США разрешение на продажу одной из версий этого оборудования в КНР. Источник изображен...",
     "date": "2026-11-18",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Палмер Лаки рассказал о проекте плавучего города SLAB",
+    "link": "https://hi-tech.mail.ru/news/160945-palmer-laki-rasskazal-o-proekte-plavuchego-goroda-slab/",
+    "desc": "Предприниматель задумал платформу для отраслей, развитию которых, по его мнению, мешает регулирование. Проект еще далек от реализации, хотя в его разработке удалось продвинуться. Основатель Oculus Палмер Лаки (Palmer Luckey) рассказал о проекте SLAB — плавучем городе с расчетным сроком службы в 1...",
+    "date": "2026-11-18",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как будут выглядеть собаки через 10 000 лет (фото)",
+    "link": "https://hi-tech.mail.ru/news/104306-kak-budut-vyiglyadet-sobaki-cherez-10-000-let/",
+    "desc": "В будущем собаки либо облысеют, либо снова станут волками. Генетики из американской компании Basepaws узнали , как могут эволюционировать разные породы собак, и как они могут выглядеть примерно через 10 000 лет. Всего генетиками и ветеринарам было рассмотрено два возможных сценария. Первый — чере...",
+    "date": "2026-11-18",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "VSCO выпустила фоторедактор Studio Pro Desktop для Mac",
+    "link": "https://hi-tech.mail.ru/news/160927-vsco-vypustila-fotoredaktor-studio-pro-desktop-dlya-mac/",
+    "desc": "Программа работает с RAW-файлами камер 20 брендов и позволяет применить правки сразу к 500 снимкам. Версии для Android и Windows компания планирует выпустить позже. VSCO выпустила фоторедактор Studio Pro Desktop для macOS, сообщает Wired . Компания рассчитывает привлечь фотографов, которые обраба...",
+    "date": "2026-11-18",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Why is Gemini 4 Carbon taking so long?",
+    "link": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+    "desc": "Article URL: https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/ Comments URL: https://news.ycombinator.com/item?id=50541790 Points: 164 # Comments: 83",
+    "date": "2026-11-18",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Claude was trained on protein sequences at scale",
+    "link": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+    "desc": "Article URL: http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/ Comments URL: https://news.ycombinator.com/item?id=50541619 Points: 92 # Comments: 41",
+    "date": "2026-11-18",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Кембриджский словарь назвал «человеческий» словом 2026 года — ИИ заставил людей переосмыслить ценность своего труда",
+    "link": "https://rb.ru/news/kembridzhskij-slovar-nazval-chelovecheskij-slovom-2026-goda-ii-zastavil-lyudej-pereosmyslit-cennost-svoego-truda/",
+    "desc": "Кембриджский словарь назвал прилагательное human — «человеческий» — словом 2026 года. Как подчеркнула редакция, в эпоху ИИ-бума контент, созданный человеком, особенно ценен. Также в шорт-лист вошли слова «ИИ-агент» и «аналоговый».",
+    "date": "2026-11-18",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "«Возвращать Хуанга мы не собираемся»: глава совета директоров Nvidia ответил на письмо экс-руководителя компании",
+    "link": "https://rb.ru/news/vozvrashat-huanga-my-ne-sobiraemsya-glava-soveta-direktorov-nvidia-otvetil-na-pismo-eks-rukovoditelya-kompanii/",
+    "desc": "Глава совета директоров Nvidia Харви Джонс выступил против возвращения Дженсена Хуанга на должность генерального директора компании. Сам Хуанг ранее допустил возможность снова возглавить корпорацию. По данным Semafor, некоторые члены совета поддерживают возвращение миллиардера. Тем временем Nvidi...",
+    "date": "2026-11-18",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI выпустила сразу две ИИ-модели — GPT-6.2 Astra и Sol стали лучше писать код и работать с документами",
+    "link": "https://rb.ru/news/openai-vypustila-srazu-dve-ii-modeli-gpt-62-astra-i-sol-stali-luchshe-pisat-kod-i-rabotat-s-dokumentami/",
+    "desc": "OpenAI представила две новые модели искусственного интеллекта — GPT-6.2 Astra и GPT-6.2 Sol. Первая предназначена для сложных профессиональных проектов, вторая — для повседневной работы. По данным компании, нейросети улучшили качество программирования, создания документов и взаимодействия с прогр...",
+    "date": "2026-11-18",
+    "source": "Rusbase",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Банковский кризис без паники и очередей: как ИИ-агенты заберут у банков дешевые деньги",
+    "link": "https://vc.ru/marketing/3263724-bankovskii-krizis-bez-paniki-i-ocheredei-kak-ii-agenty-zaberut-u-bankov-deshevye-dengi?from=rss",
+    "desc": "Персональные ИИ-агенты научатся самостоятельно сканировать счета пользователей, находить более высокие ставки и переводить свободные средства без участия человека.",
+    "date": "2026-11-18",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -405,27 +711,9 @@
     "lang": "ru"
   },
   {
-    "title": "VSCO выпустила фоторедактор Studio Pro Desktop для Mac",
-    "link": "https://hi-tech.mail.ru/news/160927-vsco-vypustila-fotoredaktor-studio-pro-desktop-dlya-mac/",
-    "desc": "Программа работает с RAW-файлами камер 20 брендов и позволяет применить правки сразу к 500 снимкам. Версии для Android и Windows компания планирует выпустить позже. VSCO выпустила фоторедактор Studio Pro Desktop для macOS, сообщает Wired . Компания рассчитывает привлечь фотографов, которые обраба...",
-    "date": "2026-11-18",
-    "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "PT Application Inspector получил поддержку ИИ-агентов",
     "link": "https://hi-tech.mail.ru/news/160920-pt-application-inspector-poluchil-podderzhku-ii-agentov/",
     "desc": "В версии 3.0.0 плагины проверяют изменения агента без повторного сканирования всего проекта и предлагают способы устранения уязвимостей. Компания Positive Technologies, которая разрабатывает инструменты кибербезопасности, добавила поддержку ИИ-агентов в бесплатные плагины PT Application Inspector...",
-    "date": "2026-11-18",
-    "source": "Hi-Tech Mail",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Стали известны ключевые темы форума «Время инноваций — 2026»",
-    "link": "https://hi-tech.mail.ru/news/160918-stali-izvestny-klyuchevye-temy-foruma-vremya-innovacij-2026/",
-    "desc": "С 9 по 11 декабря в отеле Radisson Resort, Завидово пройдет форум «Время инноваций» — это инициатива, где насущные вызовы будут обсуждаться через призму реального опыта. Форум объединит представителей инновационной экосистемы России и СНГ: руководителей и топ-менеджеров, IT и маркетингу, собствен...",
     "date": "2026-11-18",
     "source": "Hi-Tech Mail",
     "cat": "ai",
@@ -459,15 +747,6 @@
     "lang": "ru"
   },
   {
-    "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
-    "link": "https://news.ycombinator.com/item?id=50536468",
-    "desc": "We’re Yonas and Daniel and we’re building StarSling ( https://starsling.dev ), fast GitHub Actions runners with AI agents that ship PRs to continuously improve your tests and workflows. Every CI job gets its own ephemeral sandbox on the fastest Zen 5 machines and NVMe Disk with unlimited concurre...",
-    "date": "2026-11-17",
-    "source": "Hacker News",
-    "cat": "ai",
-    "lang": "en"
-  },
-  {
     "title": "GPT-6.2 Astra and Sol now available on AI Gateway",
     "link": "https://vercel.com/changelog/gpt-6-2-astra-and-sol-now-available-on-ai-gateway",
     "desc": "",
@@ -486,20 +765,11 @@
     "lang": "en"
   },
   {
-    "title": "Astra 6.2, Qwen 4, Fable 5.2 и Opus 5.5: нейросети снова соревнуются, а теперь ещё и судят друг друга",
-    "link": "https://habr.com/ru/articles/1109134/?utm_campaign=1109134&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Моё субъективное сравнение топовых нейронок продолжается. В сентябре я выложил на Хабр «Турнир семи нейросетей»: 7 моделей, 8 заданий и три редакции статьи за неделю. Скажу честно: вышло неудачно. Но останавливаться не собираюсь: после ваших комментариев хочется сделать следующее сравнение лучше,...",
+    "title": "OpenAI выпустила GPT-6.2: обгоняет Claude Opus 5.5 и стоит в разы дешевле. Но есть нюансы",
+    "link": "https://habr.com/ru/articles/1109080/?utm_campaign=1109080&utm_source=habrahabr&utm_medium=rss",
+    "desc": "17 ноября OpenAI представила две модели: GPT-6.2 Astra и GPT-6.2 Sol . Astra предназначена для сложных задач, программирования и агентных сценариев, а Sol - для повседневной работы, где важны скорость и экономичность. Первые независимые тесты Artificial Analysis показывают, что обновление получил...",
     "date": "2026-11-17",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "[Перевод] Представляем GPT-6.2 Astra и Sol",
-    "link": "https://habr.com/ru/articles/1109070/?utm_campaign=1109070&utm_source=habrahabr&utm_medium=rss",
-    "desc": "OpenAI представила GPT-6.2 Astra для сложных профессиональных задач и GPT-6.2 Sol для повседневной работы. В статье сравниваются качество и стоимость моделей на тестах, показаны примеры работы с кодом, документами, CAD и 3D. Читать далее",
-    "date": "2026-11-17",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -508,7 +778,7 @@
     "link": "https://habr.com/ru/articles/1109072/?utm_campaign=1109072&utm_source=habrahabr&utm_medium=rss",
     "desc": "На конференции SC26 в Чикаго Nvidia представила DGX Spark HPC Developer Kit — кластер из четырёх компактных компьютеров DGX Spark с суммарными 512 ГБ памяти. Он рассчитан на исследователей и разработчиков, которым надо локально запускать AI‑модели, отлаживать распределённые приложения и проводить...",
     "date": "2026-11-17",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -517,7 +787,7 @@
     "link": "https://habr.com/ru/articles/1109054/?utm_campaign=1109054&utm_source=habrahabr&utm_medium=rss",
     "desc": "OpenAI представили GPT-6.2 Astra и GPT-6.2 Sol . Astra предназначена для сложных проектов, Sol — для повседневной работы. Компания обещает более аккуратный код и меньший расход токенов на длинных агентных задачах. Входные и выходные токены Astra подешевели на 20%, тарифы Sol остались прежними. Чи...",
     "date": "2026-11-17",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -525,15 +795,6 @@
     "title": "Есть ли жизнь после блокировки Claude Code? Вторая неделя. Локальные GLM 5.3 Flash и Qwen 3.8 Flash Next (2 DGX Spark)",
     "link": "https://habr.com/ru/articles/1109038/?utm_campaign=1109038&utm_source=habrahabr&utm_medium=rss",
     "desc": "Продолжаю эксперименты с локальными моделями на DGX Spark. В этот раз — GLM 5.3 Flash и Qwen 3.8 Flash Next (INT4-AR) на кластере из двух DGX Spark: замеры TPS, prefill и TTFT на контекстах от 2K до 256K, сравнение четырёх конфигураций и разбор того, почему одна модель приятна в диалоге, но пробл...",
-    "date": "2026-11-17",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "OpenAI выпустила GPT-6.2: обгоняет Claude Opus 5.5 и стоит в разы дешевле. Но есть нюансы",
-    "link": "https://habr.com/ru/articles/1109080/?utm_campaign=1109080&utm_source=habrahabr&utm_medium=rss",
-    "desc": "17 ноября OpenAI представила две модели: GPT-6.2 Astra и GPT-6.2 Sol . Astra предназначена для сложных задач, программирования и агентных сценариев, а Sol - для повседневной работы, где важны скорость и экономичность. Первые независимые тесты Artificial Analysis показывают, что обновление получил...",
     "date": "2026-11-17",
     "source": "Habr ML",
     "cat": "ai",
@@ -927,6 +1188,33 @@
     "lang": "ru"
   },
   {
+    "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+    "link": "https://news.ycombinator.com/item?id=50536468",
+    "desc": "We’re Yonas and Daniel and we’re building StarSling ( https://starsling.dev ), fast GitHub Actions runners with AI agents that ship PRs to continuously improve your tests and workflows. Every CI job gets its own ephemeral sandbox on the fastest Zen 5 machines and NVMe Disk with unlimited concurre...",
+    "date": "2026-11-17",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Astra 6.2, Qwen 4, Fable 5.2 и Opus 5.5: нейросети снова соревнуются, а теперь ещё и судят друг друга",
+    "link": "https://habr.com/ru/articles/1109134/?utm_campaign=1109134&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Моё субъективное сравнение топовых нейронок продолжается. В сентябре я выложил на Хабр «Турнир семи нейросетей»: 7 моделей, 8 заданий и три редакции статьи за неделю. Скажу честно: вышло неудачно. Но останавливаться не собираюсь: после ваших комментариев хочется сделать следующее сравнение лучше,...",
+    "date": "2026-11-17",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "[Перевод] Представляем GPT-6.2 Astra и Sol",
+    "link": "https://habr.com/ru/articles/1109070/?utm_campaign=1109070&utm_source=habrahabr&utm_medium=rss",
+    "desc": "OpenAI представила GPT-6.2 Astra для сложных профессиональных задач и GPT-6.2 Sol для повседневной работы. В статье сравниваются качество и стоимость моделей на тестах, показаны примеры работы с кодом, документами, CAD и 3D. Читать далее",
+    "date": "2026-11-17",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Россияне массово жалуются на сбои Google, Deepseek, Twitch, Discord и «Ростелекома»",
     "link": "https://3dnews.ru/1151408",
     "desc": "Из нескольких регионов России сегодня, 17 ноября 2026 года, стали поступать жалобы на проблемы с доступом к крупнейшим международным сервисам, в том числе Google, Deepseek, Twitch и Discord; сообщается также о сбоях в работе «Ростелекома». Источник изображения: Downdetector",
@@ -1287,15 +1575,6 @@
     "lang": "ru"
   },
   {
-    "title": "Нужен ли собственный шлюз поверх OpenAI API BotHub",
-    "link": "https://habr.com/ru/companies/bothub/articles/1108246/?utm_campaign=1108246&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Если вы пользуетесь API моделей, то могли столкнуться с вопросом — прямой вызов API через OpenAI-совместимый шлюз или создать свою прослойку? Если у вас один агент или один разработчик — то тут, понятное дело, лучше не городить лишний шлюз. Но если система больше? Сотрудников несколько, нужен сбо...",
-    "date": "2026-11-16",
-    "source": "Habr Python",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Как перевести видео в текст и таймкоды в 2026 году: 5 рабочих способов",
     "link": "https://tproger.ru/articles/kak-perevesti-video-v-tekst-i-tajmkody-v-2026-godu-5-rabochih-sp",
     "desc": "Разбираем 5 способов перевести видео в текст и таймкоды: yt-dlp, «Яндекс Браузер», faster-whisper, ИИ-блокноты и сервисы Maestra, Otter.ai и «Войси». — Читать дальше « Как перевести видео в текст и таймкоды в 2026 году: 5 рабочих способов »",
@@ -1350,24 +1629,6 @@
     "lang": "ru"
   },
   {
-    "title": "Как изолировать ИИ-агента в 2026 году: microVM против контейнеров",
-    "link": "https://tproger.ru/articles/kak-izolirovat-ii-agenta-v-2026-godu-microvm-protiv-kontejnero",
-    "desc": "Четыре уровня изоляции кодового агента, команды Docker Sandboxes и песочницы Claude Code, цены E2B и Vercel Sandbox на 16 ноября 2026: от $1,05 за сутки. — Читать дальше « Как изолировать ИИ-агента в 2026 году: microVM против контейнеров »",
-    "date": "2026-11-16",
-    "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Какую видеокарту купить для локальной LLM в 2026 году: цены и память",
-    "link": "https://tproger.ru/articles/kakuyu-videokartu-kupit-dlya-lokalnoj-llm-v-2026-godu-ceny-i-pa",
-    "desc": "Сколько видеопамяти нужно моделям на 9, 12 и 27 млрд параметров и сколько стоит гигабайт у 14 карт в «Регарде» и «Ситилинке»: цены проверены 16 ноября 2026. — Читать дальше « Какую видеокарту купить для локальной LLM в 2026 году: цены и память »",
-    "date": "2026-11-16",
-    "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Песня ребёнку на день рождения: как сделать поздравление с его именем",
     "link": "https://vc.ru/services/3259306-kak-sdelat-pesnyu-rebenku-na-den-rozhdeniya-s-imenem?from=rss",
     "desc": "Чтобы сделать песню ребёнку на день рождения, расскажи нейросети, как его зовут, сколько лет исполняется и что он любит. В Маку по рассказу появятся слова, а после твоей проверки — запись с музыкой и вокалом: ниже можно послушать готовый пример для пятилетней Сони и собрать материал для своего по...",
@@ -1395,11 +1656,29 @@
     "lang": "ru"
   },
   {
-    "title": "Alibaba представила Qwen4-Max — флагманскую ИИ-модель с 2,4 трлн параметров и запретом на кибератаки",
-    "link": "https://3dnews.ru/1151354",
-    "desc": "Компания Alibaba представила свою новую флагманскую ИИ-модель Qwen4-Max. Алгоритм с 2,4 трлн параметров в процессе работы задействует лишь 71 млрд параметров на токен, а также поддерживает обработку изображений. В дополнение к этому Alibaba представила специальные наборы данных для дополнительног...",
+    "title": "Нужен ли собственный шлюз поверх OpenAI API BotHub",
+    "link": "https://habr.com/ru/companies/bothub/articles/1108246/?utm_campaign=1108246&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Если вы пользуетесь API моделей, то могли столкнуться с вопросом — прямой вызов API через OpenAI-совместимый шлюз или создать свою прослойку? Если у вас один агент или один разработчик — то тут, понятное дело, лучше не городить лишний шлюз. Но если система больше? Сотрудников несколько, нужен сбо...",
     "date": "2026-11-16",
-    "source": "3DNews",
+    "source": "Habr Python",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как изолировать ИИ-агента в 2026 году: microVM против контейнеров",
+    "link": "https://tproger.ru/articles/kak-izolirovat-ii-agenta-v-2026-godu-microvm-protiv-kontejnero",
+    "desc": "Четыре уровня изоляции кодового агента, команды Docker Sandboxes и песочницы Claude Code, цены E2B и Vercel Sandbox на 16 ноября 2026: от $1,05 за сутки. — Читать дальше « Как изолировать ИИ-агента в 2026 году: microVM против контейнеров »",
+    "date": "2026-11-16",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Какую видеокарту купить для локальной LLM в 2026 году: цены и память",
+    "link": "https://tproger.ru/articles/kakuyu-videokartu-kupit-dlya-lokalnoj-llm-v-2026-godu-ceny-i-pa",
+    "desc": "Сколько видеопамяти нужно моделям на 9, 12 и 27 млрд параметров и сколько стоит гигабайт у 14 карт в «Регарде» и «Ситилинке»: цены проверены 16 ноября 2026. — Читать дальше « Какую видеокарту купить для локальной LLM в 2026 году: цены и память »",
+    "date": "2026-11-16",
+    "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
   },
@@ -2178,20 +2457,20 @@
     "lang": "ru"
   },
   {
-    "title": "Ученый получил грант в €2,5 млн и, с помощью Claude, совершил научный прорыв",
-    "link": "https://vc.ru/ai/3254787-uchenyj-poluchil-grant-i-s-pomoshhyu-claude-raskryl-tajny-gedelya?from=rss",
-    "desc": "Эта история — идеальный кейс того, как AI не заменяет человека, а становится для него «экзоскелетом» для мозга.",
-    "date": "2026-11-14",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Анимируем динамичные ассеты (GPT Image 2 + Gemini Omni 1.2 Flash)",
     "link": "https://habr.com/ru/companies/studyai/articles/1107600/?utm_campaign=1107600&utm_source=habrahabr&utm_medium=rss",
     "desc": "Протестим GPT Image 2 и Gemini Omni 1.2 Flash в паре для генерации динамичных ассетов в стиле пиксельарт, которые нужно анимировать. Читать далее",
     "date": "2026-11-14",
     "source": "Habr Дизайн",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Ученый получил грант в €2,5 млн и, с помощью Claude, совершил научный прорыв",
+    "link": "https://vc.ru/ai/3254787-uchenyj-poluchil-grant-i-s-pomoshhyu-claude-raskryl-tajny-gedelya?from=rss",
+    "desc": "Эта история — идеальный кейс того, как AI не заменяет человека, а становится для него «экзоскелетом» для мозга.",
+    "date": "2026-11-14",
+    "source": "vc.ru",
     "cat": "ai",
     "lang": "ru"
   },
@@ -12576,15 +12855,6 @@
     "title": "Как люди придумывали красоту: собрал атлас 195 визуальных стилей, от пещеры Ласко до уирдкора",
     "link": "https://habr.com/ru/articles/1099688/?utm_campaign=1099688&utm_source=habrahabr&utm_medium=rss",
     "desc": "Нейросети дали всем суперсилу: любой человек может за минуту получить вполне красивую картинку. Но суперсила попала в руки людям, которые часто не знают, что с ней делать. Я в том числе. Попросить у ИИ «нарисуй в стиле импрессионизма» может каждый. Попросить «в стиле неопластицизма» или «в стиле ...",
-    "date": "2026-10-26",
-    "source": "Habr Дизайн",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "К теории смысла: о порождении новых различений. В теории различений есть два аспекта. (1) Различения для...",
-    "link": "https://habr.com/ru/articles/1099310/?utm_campaign=1099310&utm_source=habrahabr&utm_medium=rss",
-    "desc": "К теории смысла: о порождении новых различений. В теории различений есть два аспекта. (1) Различения для регулярного существования, для организации жизненных рутин. И тут наличествует обычная пара (граница+сторона), у людей зачастую дополняемая именем. Хотя невербальные мыслеобразы регулярно звуч...",
     "date": "2026-10-26",
     "source": "Habr Дизайн",
     "cat": "ai",

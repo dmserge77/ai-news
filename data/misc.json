@@ -1,8 +1,8 @@
 [
   {
-    "title": "Energy-Based Reasoners: 385x more efficient inference",
-    "link": "https://energy-based-reasoners.github.io/",
-    "desc": "Article URL: https://energy-based-reasoners.github.io/ Comments URL: https://news.ycombinator.com/item?id=50543989 Points: 129 # Comments: 17",
+    "title": "Lakegres: Vector search on existing Open/Hudi/Iceberg tables",
+    "link": "https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats",
+    "desc": "Article URL: https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats Comments URL: https://news.ycombinator.com/item?id=50549438 Points: 23 # Comments: 5",
     "date": "2026-11-18",
     "source": "Hacker News",
     "cat": "misc",
@@ -10,9 +10,9 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "AI is killing All About Berlin",
-    "link": "https://nicolasbouliane.com/blog/death-by-ai",
-    "desc": "Article URL: https://nicolasbouliane.com/blog/death-by-ai Comments URL: https://news.ycombinator.com/item?id=50542705 Points: 502 # Comments: 460",
+    "title": "Seven new models at scalable price-performance",
+    "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
+    "desc": "Article URL: https://microsoft.ai/news/microsoft-ignite-2026/ Comments URL: https://news.ycombinator.com/item?id=50548021 Points: 246 # Comments: 163",
     "date": "2026-11-18",
     "source": "Hacker News",
     "cat": "misc",
@@ -20,23 +20,23 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Cerebras Disaggregated Inference",
-    "link": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
-    "desc": "Article URL: https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference Comments URL: https://news.ycombinator.com/item?id=50540472 Points: 92 # Comments: 24",
+    "title": "Why your fine-tuning job takes longer than the FLOPs say",
+    "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+    "desc": "",
     "date": "2026-11-18",
-    "source": "Hacker News",
+    "source": "Hugging Face",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
   },
   {
-    "title": "Google's AI answers reducing search traffic by 40%",
-    "link": "https://revscope.co/blog/search-seo-geo-2026/",
-    "desc": "Article URL: https://revscope.co/blog/search-seo-geo-2026/ Comments URL: https://news.ycombinator.com/item?id=50540178 Points: 513 # Comments: 384",
+    "title": "Как я прикрутил GigaChat и GigaAM к озвучке русской TTS",
+    "link": "https://habr.com/ru/articles/1109482/?utm_campaign=1109482&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Коротко о том, что было: три TTS-движка уверенно ставят русские ударения не туда («гудни» читалось как «гУдни»), словари произношения ElevenLabs на моем тарифе закрыты, поэтому живу на гейте ruaccent плюс ручной словарь подмен — было 51 слово. Работает, но руками. Здесь — как я заставил две модел...",
     "date": "2026-11-18",
-    "source": "Hacker News",
+    "source": "Habr AI",
     "cat": "misc",
-    "lang": "en",
+    "lang": "ru",
     "misc_type": "raznoe"
   },
   {
@@ -77,6 +77,56 @@
     "source": "Habr Python",
     "cat": "misc",
     "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Как работать с LinkedIn",
+    "link": "https://vc.ru/id121721/3264486-kak-ispolzovat-linkedin-dlya-prodvizheniya-granola?from=rss",
+    "desc": "Английский #стартапдня Granola – AI-секретарь, работающий на вашем компьютере: то ли Plaud без железного диктофона, то ли Fireflies без привязки к видеозвонкам. Программа слушает микрофон и всё, что воспроизводит динамик, поэтому работает с любым Zoom, Meet или Teams, а с телефона – и на встрече ...",
+    "date": "2026-11-18",
+    "source": "vc.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Energy-Based Reasoners: 385x more efficient inference",
+    "link": "https://energy-based-reasoners.github.io/",
+    "desc": "Article URL: https://energy-based-reasoners.github.io/ Comments URL: https://news.ycombinator.com/item?id=50543989 Points: 129 # Comments: 17",
+    "date": "2026-11-18",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "AI is killing All About Berlin",
+    "link": "https://nicolasbouliane.com/blog/death-by-ai",
+    "desc": "Article URL: https://nicolasbouliane.com/blog/death-by-ai Comments URL: https://news.ycombinator.com/item?id=50542705 Points: 502 # Comments: 460",
+    "date": "2026-11-18",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Cerebras Disaggregated Inference",
+    "link": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+    "desc": "Article URL: https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference Comments URL: https://news.ycombinator.com/item?id=50540472 Points: 92 # Comments: 24",
+    "date": "2026-11-18",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Google's AI answers reducing search traffic by 40%",
+    "link": "https://revscope.co/blog/search-seo-geo-2026/",
+    "desc": "Article URL: https://revscope.co/blog/search-seo-geo-2026/ Comments URL: https://news.ycombinator.com/item?id=50540178 Points: 513 # Comments: 384",
+    "date": "2026-11-18",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
     "misc_type": "raznoe"
   },
   {
@@ -190,6 +240,16 @@
     "misc_type": "unfiltered"
   },
   {
+    "title": "Стали известны ключевые темы форума «Время инноваций — 2026»",
+    "link": "https://hi-tech.mail.ru/news/160918-stali-izvestny-klyuchevye-temy-foruma-vremya-innovacij-2026/",
+    "desc": "С 9 по 11 декабря в отеле Radisson Resort, Завидово пройдет форум «Время инноваций» — это инициатива, где насущные вызовы будут обсуждаться через призму реального опыта. Форум объединит представителей инновационной экосистемы России и СНГ: руководителей и топ-менеджеров, IT и маркетингу, собствен...",
+    "date": "2026-11-18",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
     "title": "Decision-1.1 now available on AI Gateway",
     "link": "https://vercel.com/changelog/decision-1-1-now-available-on-ai-gateway",
     "desc": "",
@@ -210,21 +270,21 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Я заменил себя AI‑аватаром на YouTube и случайно создал эффект зловещей долины",
-    "link": "https://habr.com/ru/articles/1109028/?utm_campaign=1109028&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Месяц назад мне пришла в голову идея сделать YouTube-канал без своего участия. Чтобы его вела моя цифровая копия. И самое интересное, что технически у меня все получилось. Вот только вместо интереса к самим видео я неожиданно столкнулся с волной негатива. Оказалось, что мой эксперимент вызывает у...",
-    "date": "2026-11-17",
-    "source": "Habr AI",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "AlphaGenome 2 — как глубокое обучение помогает понять регуляцию генов и механизмы болезней",
     "link": "https://habr.com/ru/articles/1109018/?utm_campaign=1109018&utm_source=habrahabr&utm_medium=rss",
     "desc": "Каждая клетка нашего организма содержит почти одну и ту же последовательность ДНК. Она, в свою очередь, состоит из участков, кодирующих белки (на них приходится всего 1-2% ДНК), и огромного массива последовательностей, на которые приходится до 98% всего генома. Исторически их называли «мусорными»...",
     "date": "2026-11-17",
     "source": "Habr ML",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Я заменил себя AI‑аватаром на YouTube и случайно создал эффект зловещей долины",
+    "link": "https://habr.com/ru/articles/1109028/?utm_campaign=1109028&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Месяц назад мне пришла в голову идея сделать YouTube-канал без своего участия. Чтобы его вела моя цифровая копия. И самое интересное, что технически у меня все получилось. Вот только вместо интереса к самим видео я неожиданно столкнулся с волной негатива. Оказалось, что мой эксперимент вызывает у...",
+    "date": "2026-11-17",
+    "source": "Habr AI",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
@@ -390,26 +450,6 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Ищем нейросети в 37 тысячах вакансий hh: «ии» в слове «компании», дубли и ручная проверка",
-    "link": "https://habr.com/ru/articles/1108388/?utm_campaign=1108388&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Я разобрал около 43 тысяч вакансий hh.ru за октябрь и начало ноября 2026 года, у каждой полный текст описания. Захотелось ответить на простой вопрос: в каких профессиях работодатель уже прямо пишет, что ждёт от кандидата работы с нейросетями. Ответ получился такой: больше всего в Data Science (50...",
-    "date": "2026-11-16",
-    "source": "Habr Python",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "NVIDIA выложила Alpamayo 2 Edge: модель вождения на 2 млрд параметров",
-    "link": "https://tproger.ru/news/nvidia-vylozhila-alpamayo-2-edge-model-vozhdeniya-na-2-mlrd-param",
-    "desc": "Alpamayo 2 Edge строит траекторию на 6,4 секунды по шести камерам и объясняет решение текстом. Веса под OpenMDW-1.1, код под Apache 2.0, NVIDIA советует от 16 ГБ GPU. — Читать дальше « NVIDIA выложила Alpamayo 2 Edge: модель вождения на 2 млрд параметров »",
-    "date": "2026-11-16",
-    "source": "Tproger",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "Совет директоров Nvidia даже не обсуждает возвращение Хуанга, хотя его вовсю поддерживает Трамп",
     "link": "https://3dnews.ru/1151371",
     "desc": "Совет директоров Nvidia не рассматривает возможность возвращения Дженсена Хуанга (Jensen Huang) на пост генерального директора, несмотря на поддержку со стороны представителей технологической отрасли и президента США Дональда Трампа (Donald Trump). Об этом CNBC сообщил источник, знакомый с ситуац...",
@@ -437,6 +477,26 @@
     "source": "UX Collective",
     "cat": "misc",
     "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Ищем нейросети в 37 тысячах вакансий hh: «ии» в слове «компании», дубли и ручная проверка",
+    "link": "https://habr.com/ru/articles/1108388/?utm_campaign=1108388&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Я разобрал около 43 тысяч вакансий hh.ru за октябрь и начало ноября 2026 года, у каждой полный текст описания. Захотелось ответить на простой вопрос: в каких профессиях работодатель уже прямо пишет, что ждёт от кандидата работы с нейросетями. Ответ получился такой: больше всего в Data Science (50...",
+    "date": "2026-11-16",
+    "source": "Habr Python",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "NVIDIA выложила Alpamayo 2 Edge: модель вождения на 2 млрд параметров",
+    "link": "https://tproger.ru/news/nvidia-vylozhila-alpamayo-2-edge-model-vozhdeniya-na-2-mlrd-param",
+    "desc": "Alpamayo 2 Edge строит траекторию на 6,4 секунды по шести камерам и объясняет решение текстом. Веса под OpenMDW-1.1, код под Apache 2.0, NVIDIA советует от 16 ГБ GPU. — Читать дальше « NVIDIA выложила Alpamayo 2 Edge: модель вождения на 2 млрд параметров »",
+    "date": "2026-11-16",
+    "source": "Tproger",
+    "cat": "misc",
+    "lang": "ru",
     "misc_type": "raznoe"
   },
   {
@@ -675,6 +735,16 @@
     "desc": "В последние годы технология Digital Twin превратилась в один из главных трендов промышленной автоматизации. Крупные вендоры - Siemens, Schneider, Aveva, и десятки других предлагают платформы, в которых «двойник» обещает предсказывать отказы, оптимизировать режимы, экономить миллионы. Аналитики Ga...",
     "date": "2026-11-16",
     "source": "Habr ML",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Alibaba представила Qwen4-Max — флагманскую ИИ-модель с 2,4 трлн параметров и запретом на кибератаки",
+    "link": "https://3dnews.ru/1151354",
+    "desc": "Компания Alibaba представила свою новую флагманскую ИИ-модель Qwen4-Max. Алгоритм с 2,4 трлн параметров в процессе работы задействует лишь 71 млрд параметров на токен, а также поддерживает обработку изображений. В дополнение к этому Alibaba представила специальные наборы данных для дополнительног...",
+    "date": "2026-11-16",
+    "source": "3DNews",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
@@ -4845,6 +4915,16 @@
     "desc": "Киберкомандование Армии США (ARCYBER) разрабатывает программу ECHOTRIBBLE по внедрению ИИ‑агентов, которые смогут самостоятельно находить и уничтожать цели в цифровой инфраструктуре противника. Согласно публичной заявке, которую обнаружило издание The Intercept, военным нужны модульные автономные...",
     "date": "2026-10-26",
     "source": "Habr ML Новости",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "К теории смысла: о порождении новых различений. В теории различений есть два аспекта. (1) Различения для...",
+    "link": "https://habr.com/ru/articles/1099310/?utm_campaign=1099310&utm_source=habrahabr&utm_medium=rss",
+    "desc": "К теории смысла: о порождении новых различений. В теории различений есть два аспекта. (1) Различения для регулярного существования, для организации жизненных рутин. И тут наличествует обычная пара (граница+сторона), у людей зачастую дополняемая именем. Хотя невербальные мыслеобразы регулярно звуч...",
+    "date": "2026-10-26",
+    "source": "Habr Дизайн",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
