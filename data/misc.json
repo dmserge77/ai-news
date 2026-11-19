@@ -1,9 +1,9 @@
 [
   {
-    "title": "Lakegres: Vector search on existing Open/Hudi/Iceberg tables",
-    "link": "https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats",
-    "desc": "Article URL: https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats Comments URL: https://news.ycombinator.com/item?id=50549438 Points: 23 # Comments: 5",
-    "date": "2026-11-18",
+    "title": "AI Will Not Make You Rich (2025)",
+    "link": "https://colossus.com/article/ai-will-not-make-you-rich/",
+    "desc": "Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 40 # Comments: 20",
+    "date": "2026-11-19",
     "source": "Hacker News",
     "cat": "misc",
     "lang": "en",
@@ -12,7 +12,7 @@
   {
     "title": "Seven new models at scalable price-performance",
     "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
-    "desc": "Article URL: https://microsoft.ai/news/microsoft-ignite-2026/ Comments URL: https://news.ycombinator.com/item?id=50548021 Points: 246 # Comments: 163",
+    "desc": "Article URL: https://microsoft.ai/news/microsoft-ignite-2026/ Comments URL: https://news.ycombinator.com/item?id=50548021 Points: 458 # Comments: 322",
     "date": "2026-11-18",
     "source": "Hacker News",
     "cat": "misc",
@@ -25,6 +25,16 @@
     "desc": "",
     "date": "2026-11-18",
     "source": "Hugging Face",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Parallel web search is free on AI Gateway and eve through January 31",
+    "link": "https://vercel.com/changelog/parallel-web-search-is-free-on-ai-gateway-and-eve-through-january-31",
+    "desc": "",
+    "date": "2026-11-18",
+    "source": "Vercel",
     "cat": "misc",
     "lang": "en",
     "misc_type": "raznoe"
@@ -87,6 +97,26 @@
     "source": "vc.ru",
     "cat": "misc",
     "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "If AI works from anywhere, why are we commuting to watch it?",
+    "link": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
+    "desc": "",
+    "date": "2026-11-18",
+    "source": "UX Collective",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Lakegres: Vector search on existing Open/Hudi/Iceberg tables",
+    "link": "https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats",
+    "desc": "Article URL: https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats Comments URL: https://news.ycombinator.com/item?id=50549438 Points: 23 # Comments: 5",
+    "date": "2026-11-18",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
     "misc_type": "raznoe"
   },
   {
@@ -247,6 +277,36 @@
     "source": "Hi-Tech Mail",
     "cat": "misc",
     "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+    "link": "https://news.ycombinator.com/item?id=50548660",
+    "desc": "Hi HN, we're Shane, Sam, and Abhi. Almost two years ago, we shared Mastra, our open-source TypeScript agent framework, on Show HN: https://news.ycombinator.com/item?id=43103073 . It got a few hundred upvotes; a couple of weeks later our downloads had doubled, and we were off to the races. Today w...",
+    "date": "2026-11-18",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "VSCO выпустила фоторедактор Studio Pro Desktop для Mac",
+    "link": "https://hi-tech.mail.ru/news/160927-vsco-vypustila-fotoredaktor-studio-pro-desktop-dlya-mac/",
+    "desc": "Программа работает с RAW-файлами камер 20 брендов и позволяет применить правки сразу к 500 снимкам. Версии для Android и Windows компания планирует выпустить позже. VSCO выпустила фоторедактор Studio Pro Desktop для macOS, сообщает Wired . Компания рассчитывает привлечь фотографов, которые обраба...",
+    "date": "2026-11-18",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Context-Generic Programming (CGP) v0.8.0 - cargo-cgp, new documentation, and namespaces",
+    "link": "https://contextgeneric.dev/blog/v0.8.0-release",
+    "desc": "Author here. Context-Generic Programming (CGP) lets a Rust trait have several implementations that would normally overlap, such as one for every T: Display and another for every T: AsRef . Each application picks the implementation it wants, the compiler resolves that choice to direct calls, and C...",
+    "date": "2026-11-18",
+    "source": "Lobsters",
+    "cat": "misc",
+    "lang": "en",
     "misc_type": "unfiltered"
   },
   {
@@ -420,6 +480,16 @@
     "misc_type": "unfiltered"
   },
   {
+    "title": "[Перевод] Программное обеспечение ломается на системном уровне",
+    "link": "https://habr.com/ru/articles/1108804/?utm_campaign=1108804&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Вам не кажется, что последнее время программное обеспечение работает не слишком хорошо? В эти выходные мы столкнулись с двойным ударом: сначала произошёл глобальный сбой сервисов Microsoft, продолжавшийся два дня, а затем Федеральное управление гражданской авиации США (FAA) запретило взлёты, прио...",
+    "date": "2026-11-17",
+    "source": "Habr Open Source",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
     "title": "Hy4 Flash now available on AI Gateway for 50% off",
     "link": "https://vercel.com/changelog/hy4-flash-now-available-on-ai-gateway-for-50-off",
     "desc": "",
@@ -450,6 +520,16 @@
     "misc_type": "raznoe"
   },
   {
+    "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
+    "link": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
+    "desc": "",
+    "date": "2026-11-16",
+    "source": "UX Collective",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
     "title": "Совет директоров Nvidia даже не обсуждает возвращение Хуанга, хотя его вовсю поддерживает Трамп",
     "link": "https://3dnews.ru/1151371",
     "desc": "Совет директоров Nvidia не рассматривает возможность возвращения Дженсена Хуанга (Jensen Huang) на пост генерального директора, несмотря на поддержку со стороны представителей технологической отрасли и президента США Дональда Трампа (Donald Trump). Об этом CNBC сообщил источник, знакомый с ситуац...",
@@ -467,16 +547,6 @@
     "source": "3DNews",
     "cat": "misc",
     "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
-    "link": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
-    "desc": "",
-    "date": "2026-11-16",
-    "source": "UX Collective",
-    "cat": "misc",
-    "lang": "en",
     "misc_type": "raznoe"
   },
   {
@@ -16305,56 +16375,6 @@
     "desc": "mesh3d - \"The state of the gallery\" is an overiew of the gallery in numbers and picks. What's catalogued, who is making the strongest Three.js work and what's at the top today.",
     "date": "2026-08-22",
     "source": "Awwwards",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Oimachi",
-    "link": "https://www.awwwards.com/sites/oimachi",
-    "desc": "Copenhagen-based innovation studio working across branding, development and AI visibility.",
-    "date": "2026-08-21",
-    "source": "Awwwards",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Measuring benchmark optimization in speech recognition",
-    "link": "https://huggingface.co/blog/asr-benchmark-optimization",
-    "desc": "",
-    "date": "2026-08-21",
-    "source": "Hugging Face",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Deployment Storage keeps your deployments rollback-ready",
-    "link": "https://vercel.com/changelog/deployment-storage-keeps-your-deployments-rollback-ready",
-    "desc": "",
-    "date": "2026-08-21",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Always-on tracing for production and preview traffic",
-    "link": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
-    "desc": "",
-    "date": "2026-08-21",
-    "source": "Vercel",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "unfiltered"
-  },
-  {
-    "title": "Microfrontends previews now link across repositories",
-    "link": "https://vercel.com/changelog/microfrontends-previews-now-link-across-repositories",
-    "desc": "",
-    "date": "2026-08-21",
-    "source": "Vercel",
     "cat": "misc",
     "lang": "en",
     "misc_type": "unfiltered"
