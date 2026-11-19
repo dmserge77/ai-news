@@ -1,8 +1,8 @@
 [
   {
-    "title": "AI will not make you rich (2025)",
-    "link": "https://colossus.com/article/ai-will-not-make-you-rich/",
-    "desc": "Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 64 # Comments: 40",
+    "title": "Why AI Wants to Be Local – With Pete Warden (Creator of Moonshine Voice)",
+    "link": "https://thedataexchange.media/pete-warden-moonshine/",
+    "desc": "Article URL: https://thedataexchange.media/pete-warden-moonshine/ Comments URL: https://news.ycombinator.com/item?id=50561508 Points: 16 # Comments: 4",
     "date": "2026-11-19",
     "source": "Hacker News",
     "cat": "misc",
@@ -10,10 +10,20 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Seven new models at scalable price-performance",
-    "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
-    "desc": "Article URL: https://microsoft.ai/news/microsoft-ignite-2026/ Comments URL: https://news.ycombinator.com/item?id=50548021 Points: 470 # Comments: 327",
-    "date": "2026-11-18",
+    "title": "Type inference and narrowing with reverse arrows",
+    "link": "https://elixir-lang.org/blog/2026/11/10/inference-narrowing-reverse-arrows/",
+    "desc": "Comments",
+    "date": "2026-11-19",
+    "source": "Lobsters",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "AI will not make you rich (2025)",
+    "link": "https://colossus.com/article/ai-will-not-make-you-rich/",
+    "desc": "Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 64 # Comments: 40",
+    "date": "2026-11-19",
     "source": "Hacker News",
     "cat": "misc",
     "lang": "en",
@@ -40,31 +50,11 @@
     "misc_type": "raznoe"
   },
   {
-    "title": "Как я прикрутил GigaChat и GigaAM к озвучке русской TTS",
-    "link": "https://habr.com/ru/articles/1109482/?utm_campaign=1109482&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Коротко о том, что было: три TTS-движка уверенно ставят русские ударения не туда («гудни» читалось как «гУдни»), словари произношения ElevenLabs на моем тарифе закрыты, поэтому живу на гейте ruaccent плюс ручной словарь подмен — было 51 слово. Работает, но руками. Здесь — как я заставил две модел...",
-    "date": "2026-11-18",
-    "source": "Habr AI",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "Дженсен Хуанг заявил о готовности вернуться в Nvidia, но совет директоров против",
     "link": "https://habr.com/ru/articles/1109214/?utm_campaign=1109214&utm_source=habrahabr&utm_medium=rss",
     "desc": "Бывший генеральный директор, президент и член совета директоров Nvidia Дженсен Хуанг написал первый пост в социальной сети X после недавней отставки. Он заявил о готовности вернуться в компанию, если это одобрит её совет директоров. Однако совет директоров Nvidia не намерен возвращать Хуанга. Чит...",
     "date": "2026-11-18",
-    "source": "Habr AI",
-    "cat": "misc",
-    "lang": "ru",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "512 потоков в одном процессоре x86 — рекорд от AMD EPYC Venice 9006, а также анонс EPYC Embedded 9006 и Verano 9006 LP",
-    "link": "https://habr.com/ru/companies/selectel/articles/1108698/?utm_campaign=1108698&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Летом 2026 года AMD анонсировали новое поколение процессоров AMD EPYC™ Venice 9006. 10 ноября AMD объявили о доступности EPYC™ 9006 (Venice) SP7, представили EPYC™ Embedded 9006, а также раскрыли подробности о процессоре для собственных GPU-систем EPYC™ Verano 9006 LP. С вами Сергей Ковалёв, мене...",
-    "date": "2026-11-18",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "raznoe"
@@ -107,6 +97,36 @@
     "source": "UX Collective",
     "cat": "misc",
     "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Seven new models at scalable price-performance",
+    "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
+    "desc": "Article URL: https://microsoft.ai/news/microsoft-ignite-2026/ Comments URL: https://news.ycombinator.com/item?id=50548021 Points: 470 # Comments: 327",
+    "date": "2026-11-18",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Как я прикрутил GigaChat и GigaAM к озвучке русской TTS",
+    "link": "https://habr.com/ru/articles/1109482/?utm_campaign=1109482&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Коротко о том, что было: три TTS-движка уверенно ставят русские ударения не туда («гудни» читалось как «гУдни»), словари произношения ElevenLabs на моем тарифе закрыты, поэтому живу на гейте ruaccent плюс ручной словарь подмен — было 51 слово. Работает, но руками. Здесь — как я заставил две модел...",
+    "date": "2026-11-18",
+    "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "512 потоков в одном процессоре x86 — рекорд от AMD EPYC Venice 9006, а также анонс EPYC Embedded 9006 и Verano 9006 LP",
+    "link": "https://habr.com/ru/companies/selectel/articles/1108698/?utm_campaign=1108698&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Летом 2026 года AMD анонсировали новое поколение процессоров AMD EPYC™ Venice 9006. 10 ноября AMD объявили о доступности EPYC™ 9006 (Venice) SP7, представили EPYC™ Embedded 9006, а также раскрыли подробности о процессоре для собственных GPU-систем EPYC™ Verano 9006 LP. С вами Сергей Ковалёв, мене...",
+    "date": "2026-11-18",
+    "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
     "misc_type": "raznoe"
   },
   {
@@ -310,6 +330,66 @@
     "misc_type": "unfiltered"
   },
   {
+    "title": "Архитектор уволился — и систему стало страшно трогать. 451° по Фаренгейту для тех, кто не пишет ADR",
+    "link": "https://habr.com/ru/companies/ru_mts/articles/1108494/?utm_campaign=1108494&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В «451° по Фаренгейту» люди сами променяли книги на телевизионные стены. Книги требовали думать, а стены — просто потреблять. Удобно, быстро и без напряга. Мы в ИТ стоим на похожем перекрестке, не только из-за ИИ. Мы годами принимаем решения, не фиксируя «почему», копируем best practices без конт...",
+    "date": "2026-11-18",
+    "source": "Habr AI",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Палмер Лаки рассказал о проекте плавучего города SLAB",
+    "link": "https://hi-tech.mail.ru/news/160945-palmer-laki-rasskazal-o-proekte-plavuchego-goroda-slab/",
+    "desc": "Предприниматель задумал платформу для отраслей, развитию которых, по его мнению, мешает регулирование. Проект еще далек от реализации, хотя в его разработке удалось продвинуться. Основатель Oculus Палмер Лаки (Palmer Luckey) рассказал о проекте SLAB — плавучем городе с расчетным сроком службы в 1...",
+    "date": "2026-11-18",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Как будут выглядеть собаки через 10 000 лет (фото)",
+    "link": "https://hi-tech.mail.ru/news/104306-kak-budut-vyiglyadet-sobaki-cherez-10-000-let/",
+    "desc": "В будущем собаки либо облысеют, либо снова станут волками. Генетики из американской компании Basepaws узнали , как могут эволюционировать разные породы собак, и как они могут выглядеть примерно через 10 000 лет. Всего генетиками и ветеринарам было рассмотрено два возможных сценария. Первый — чере...",
+    "date": "2026-11-18",
+    "source": "Hi-Tech Mail",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Поиск и Заключение 100 договоров с Частными Риэлторами (Бюджет: 30 000 ₽, для всех)",
+    "link": "https://www.fl.ru/projects/5529601/-poisk-i-zaklyuchenie-100-dogovorov-s-chastnyimi-rieltorami.html",
+    "desc": "Мы Агентство Недвижимости в Европе. Ищем партнеров -Частных Риэлторов в Москве и Санкт Петербурге В интернете множество Баз - Каталогов в которых опубликованы предложения и контакты Частных Риэлторов. Каждому Частному Риэлтору мы гарантируем заключение договора и 50% от суммы наших комиссионных. ...",
+    "date": "2026-11-18",
+    "source": "FL.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Разработка поисковой системы международных перевозчиков под конкретную заявку (для всех)",
+    "link": "https://www.fl.ru/projects/5529717/razrabotka-poiskovoy-sistemyi-mejdunarodnyih-perevozchikov-pod-konkretnuyu-zayavku.html",
+    "desc": "Требуется разработать систему для автоматического поиска перевозчиков под конкретную заявку. Занимаемся международными перевозками и переездами. Нужно оперативно находить компании, которые работают по нужному направлению и принимают соответствующий груз. Например, вводим запрос «Испания → Россия,...",
+    "date": "2026-11-18",
+    "source": "FL.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Звонки собственникам квартир в Москве — удалённо, оплата за результат! (для всех)",
+    "link": "https://www.fl.ru/projects/5529712/zvonki-sobstvennikam-kvartir-v-moskve--udalnno-oplata-za-rezultat.html",
+    "desc": "Компания управляет квартирами бизнес-класса в Москве: сдаём их посуточно и на 1–3 месяца, собственник получает большую часть прибыли. Сейчас у нас в управлении 53 объекта. Ищем людей, которые будут звонить собственникам и риелторам по свежим объявлениям о сдаче и продаже квартир в наших ЖК. Что н...",
+    "date": "2026-11-18",
+    "source": "FL.ru",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
     "title": "Decision-1.1 now available on AI Gateway",
     "link": "https://vercel.com/changelog/decision-1-1-now-available-on-ai-gateway",
     "desc": "",
@@ -485,6 +565,16 @@
     "desc": "Вам не кажется, что последнее время программное обеспечение работает не слишком хорошо? В эти выходные мы столкнулись с двойным ударом: сначала произошёл глобальный сбой сервисов Microsoft, продолжавшийся два дня, а затем Федеральное управление гражданской авиации США (FAA) запретило взлёты, прио...",
     "date": "2026-11-17",
     "source": "Habr Open Source",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Alibaba показала ИИ, который сам создаёт игры в Unreal Engine и Unity, запускает их и исправляет ошибки",
+    "link": "https://3dnews.ru/1151383",
+    "desc": "Компания Alibaba рассказала о возможностях недавно представленной ИИ-модели Qwen4-Max в разработке игр и 3D-моделировании. Модель умеет работать с игровыми движками Unreal Engine, Unity и Godot, создавать игровые сцены, программировать механики и самостоятельно проверять результат, внося исправле...",
+    "date": "2026-11-17",
+    "source": "3DNews",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
