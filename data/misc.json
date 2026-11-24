@@ -1,25 +1,5 @@
 [
   {
-    "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
-    "link": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
-    "desc": "Article URL: https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/ Comments URL: https://news.ycombinator.com/item?id=50620822 Points: 167 # Comments: 120",
-    "date": "2026-11-23",
-    "source": "Hacker News",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
-    "title": "Nvidia Reinstates Jensen Huang as CEO",
-    "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-    "desc": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j... https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress... Comments URL: https://news.ycombinator.com/item?id=50611576 Points: 2111 # Comments: 3146",
-    "date": "2026-11-23",
-    "source": "Hacker News",
-    "cat": "misc",
-    "lang": "en",
-    "misc_type": "raznoe"
-  },
-  {
     "title": "AI Gateway now runs canary ZDR audits",
     "link": "https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits",
     "desc": "",
@@ -64,9 +44,29 @@
     "link": "https://habr.com/ru/articles/1111160/?utm_campaign=1111160&utm_source=habrahabr&utm_medium=rss",
     "desc": "Я делаю агента, который разбирает закупки для отдела продаж. Он открывает карточку закупки, читает техзадание и приложения, если надо, идет на сайт заказчика и смотрит открытую отчетность по ИНН. Менеджер получает короткую карточку: что покупают, кто заказчик и кому звонить. Самым капризным оказа...",
     "date": "2026-11-23",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "misc",
     "lang": "ru",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Huang's Return Is the Biggest National Security Scandal in U.S. History",
+    "link": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
+    "desc": "Article URL: https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/ Comments URL: https://news.ycombinator.com/item?id=50620822 Points: 167 # Comments: 120",
+    "date": "2026-11-23",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
+    "misc_type": "raznoe"
+  },
+  {
+    "title": "Nvidia Reinstates Jensen Huang as CEO",
+    "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+    "desc": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j... https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-congress... Comments URL: https://news.ycombinator.com/item?id=50611576 Points: 2111 # Comments: 3146",
+    "date": "2026-11-23",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
     "misc_type": "raznoe"
   },
   {
@@ -97,6 +97,16 @@
     "source": "Hi-Tech Mail",
     "cat": "misc",
     "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+    "link": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+    "desc": "We built NariQ: 3-bit-or-lower quantizations of Qwen3.8-27B that retain near-BF16 quality across agentic tasks, math, multilingual reasoning, and image understanding. To our knowledge, this is the first 3-bit-or-lower quantization that retains BF16 lvl performance on long-horizon agentic tasks. B...",
+    "date": "2026-11-23",
+    "source": "Hacker News",
+    "cat": "misc",
+    "lang": "en",
     "misc_type": "unfiltered"
   },
   {
@@ -505,6 +515,16 @@
     "desc": "19 ноября акции китайских разработчиков микросхем резко подешевели на фоне опасений, что американские экспортные ограничения затруднят им доступ к передовым производственным мощностям зарубежных контрактных производителей. Слух возник после начала внутренних проверок Samsung клиентской базы. Исто...",
     "date": "2026-11-20",
     "source": "3DNews",
+    "cat": "misc",
+    "lang": "ru",
+    "misc_type": "unfiltered"
+  },
+  {
+    "title": "Распознать речь оказалось проще, чем вставить текст в чужое окно Windows",
+    "link": "https://habr.com/ru/articles/1110230/?utm_campaign=1110230&utm_source=habrahabr&utm_medium=rss",
+    "desc": "У меня клавиатура Logitech MX Keys S, на ней есть отдельная кнопка диктовки. Какое-то время на нее был назначен OpenWhispr, а потом я сделал свою программу. Сценарий у нее простой: зажимаешь Ctrl+Shift+Space, говоришь, отпускаешь, и текст появляется там, где стоит курсор. В мессенджере, в почте, ...",
+    "date": "2026-11-20",
+    "source": "Habr Open Source",
     "cat": "misc",
     "lang": "ru",
     "misc_type": "unfiltered"
