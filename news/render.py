@@ -59,18 +59,15 @@ MAIN_CSS = """
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  /* Почти невидимый орнамент в боковых полях. Контейнер непрозрачный,
-     поэтому рисунок не лезет под карточки и не мешает чтению. */
+  /* Почти невидимый орнамент во всей странице. Под текстом и карточками
+     он не мешает: у карточек и полей ввода свой непрозрачный фон. */
   background-color: var(--bg);
   background-image: var(--ornament);
   background-repeat: repeat;
   background-attachment: fixed;
   color: var(--text); line-height: 1.5; padding: 20px;
 }
-.container {
-  max-width: 1100px; margin: 0 auto;
-  background: var(--bg);
-}
+.container { max-width: 1100px; margin: 0 auto; }
 
 header {
   text-align: center;
