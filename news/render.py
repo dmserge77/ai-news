@@ -47,19 +47,30 @@ MAIN_CSS = """
   --bg: #f5f5f7; --card-bg: #ffffff; --text: #1d1d1f;
   --text2: #6e6e73; --border: #e5e5ea; --accent: #0071e3;
   --shadow: 0 2px 12px rgba(0,0,0,0.08);
+  --ornament: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27120%27%20height%3D%27104%27%20viewBox%3D%270%200%20120%20104%27%3E%3Cdefs%3E%3Cpattern%20id%3D%27h%27%20width%3D%2780%27%20height%3D%2792%27%20patternUnits%3D%27userSpaceOnUse%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27%238e8e93%27%20stroke-opacity%3D%27.12%27%20stroke-width%3D%271%27%3E%3Cpath%20d%3D%27M20%205%20L38%2015%20L38%2035%20L20%2045%20L2%2035%20L2%2015%20Z%27%2F%3E%3Cpath%20d%3D%27M60%2051%20L78%2061%20L78%2081%20L60%2091%20L42%2081%20L42%2061%20Z%27%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%27%238e8e93%27%20fill-opacity%3D%27.18%27%3E%3Ccircle%20cx%3D%2720%27%20cy%3D%275%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2738%27%20cy%3D%2715%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2738%27%20cy%3D%2735%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2720%27%20cy%3D%2745%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%272%27%20cy%3D%2735%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%272%27%20cy%3D%2715%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2760%27%20cy%3D%2751%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2778%27%20cy%3D%2761%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2778%27%20cy%3D%2781%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2760%27%20cy%3D%2791%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2742%27%20cy%3D%2781%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2742%27%20cy%3D%2761%27%20r%3D%271.3%27%2F%3E%3C%2Fg%3E%3C%2Fpattern%3E%3C%2Fdefs%3E%3Crect%20width%3D%27120%27%20height%3D%27104%27%20fill%3D%27url%28%23h%29%27%2F%3E%3C%2Fsvg%3E");
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #1c1c1e; --card-bg: #2c2c2e; --text: #f5f5f7;
     --text2: #98989d; --border: #3a3a3c; --shadow: 0 2px 12px rgba(0,0,0,0.3);
+    --ornament: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27120%27%20height%3D%27104%27%20viewBox%3D%270%200%20120%20104%27%3E%3Cdefs%3E%3Cpattern%20id%3D%27h%27%20width%3D%2780%27%20height%3D%2792%27%20patternUnits%3D%27userSpaceOnUse%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27%23ffffff%27%20stroke-opacity%3D%27.06%27%20stroke-width%3D%271%27%3E%3Cpath%20d%3D%27M20%205%20L38%2015%20L38%2035%20L20%2045%20L2%2035%20L2%2015%20Z%27%2F%3E%3Cpath%20d%3D%27M60%2051%20L78%2061%20L78%2081%20L60%2091%20L42%2081%20L42%2061%20Z%27%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%27%23ffffff%27%20fill-opacity%3D%27.10%27%3E%3Ccircle%20cx%3D%2720%27%20cy%3D%275%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2738%27%20cy%3D%2715%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2738%27%20cy%3D%2735%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2720%27%20cy%3D%2745%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%272%27%20cy%3D%2735%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%272%27%20cy%3D%2715%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2760%27%20cy%3D%2751%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2778%27%20cy%3D%2761%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2778%27%20cy%3D%2781%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2760%27%20cy%3D%2791%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2742%27%20cy%3D%2781%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2742%27%20cy%3D%2761%27%20r%3D%271.3%27%2F%3E%3C%2Fg%3E%3C%2Fpattern%3E%3C%2Fdefs%3E%3Crect%20width%3D%27120%27%20height%3D%27104%27%20fill%3D%27url%28%23h%29%27%2F%3E%3C%2Fsvg%3E");
   }
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background: var(--bg); color: var(--text); line-height: 1.5; padding: 20px;
+  /* Почти невидимый орнамент в боковых полях. Контейнер непрозрачный,
+     поэтому рисунок не лезет под карточки и не мешает чтению. */
+  background-color: var(--bg);
+  background-image: var(--ornament);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: var(--text); line-height: 1.5; padding: 20px;
 }
-.container { max-width: 1100px; margin: 0 auto; }
+.container {
+  max-width: 1100px; margin: 0 auto;
+  background: var(--bg);
+}
 
 header {
   text-align: center;
