@@ -700,6 +700,7 @@ def generate_category_page(cat_key, cat_info):
     html = html.replace("%%ICON%%", FAVICON)
     html = html.replace("%%TITLE%%", cat_info["emoji"] + " " + cat_info["label"])
     html = html.replace("%%ACCENT%%", cat_info["accent"])
+    html = html.replace("%%ACCENT_RGB%%", _accent_rgb(cat_info["accent"]))
     # Своё описание у каждой рубрики: общий текст на всех — признак,
     # что рубрику завели, а описание забыли.
     html = html.replace("%%OG_DESC%%", CATEGORY_DESCRIPTIONS.get(cat_key, SITE_DESCRIPTION))

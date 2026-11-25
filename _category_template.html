@@ -40,7 +40,7 @@
 <!-- /Yandex.Metrika counter -->
 <title>%%TITLE%% — %%SITE%%</title>
 <style>
-:root{--bg:#f5f5f7;--card-bg:#fff;--text:#1d1d1f;--text2:#6e6e73;--border:#e5e5ea;--accent:%%ACCENT%%;--shadow:0 2px 12px rgba(0,0,0,0.08)}
+:root{--bg:#f5f5f7;--card-bg:#fff;--text:#1d1d1f;--text2:#6e6e73;--border:#e5e5ea;--accent:%%ACCENT%%;--accent-rgb:%%ACCENT_RGB%%;--shadow:0 2px 12px rgba(0,0,0,0.08)}
 @media(prefers-color-scheme:dark){:root{--bg:#1c1c1e;--card-bg:#2c2c2e;--text:#f5f5f7;--text2:#98989d;--border:#3a3a3c;--shadow:0 2px 12px rgba(0,0,0,0.3)}}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;padding:20px}
@@ -58,17 +58,32 @@ header p{color:var(--text2);font-size:1rem;margin-top:4px}
 .lang-btn{padding:6px 18px;border-radius:20px;border:1.5px solid var(--border);background:var(--card-bg);color:var(--text);cursor:pointer;font-size:.85rem;transition:all .2s}
 .lang-btn:hover{border-color:var(--accent);color:var(--accent)}
 .lang-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-.date-sep{font-size:.8rem;color:var(--text2);font-weight:600;border-top:1px solid var(--border);margin-top:28px;padding-top:10px;margin-bottom:12px}
-.date-sep:first-child{border-top:none;margin-top:0;padding-top:0}
-.news-feed{display:block}
-.news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:8px}
-.news-card{background:var(--card-bg);border-radius:10px;padding:10px 14px;box-shadow:var(--shadow);display:flex;flex-direction:column;cursor:pointer;animation:fadeIn .3s ease}
-.news-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.1)}
+.news-feed{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(320px,100%),1fr));gap:12px;margin-top:16px}
+/* Одна карточка = одна дата. Высота фиксированная, список внутри прокручивается:
+   в день бывает и одна новость, и десять, а размеры карточек должны совпадать. */
+.day-card{height:360px;background:var(--card-bg);border:1.5px solid var(--border);border-radius:12px;box-shadow:var(--shadow);display:flex;flex-direction:column;overflow:hidden}
+/* Самый свежий день — акцентный блок: на широком экране занимает две ячейки.
+   Ниже 700 px сетка одноколоночная, поэтому span сбрасывается. */
+@media (min-width:700px){.day-card--lead{grid-column:span 2}}
+/* Цвет рубрики — полоска сверху и мягкая подложка. Как на главной: готовый
+   светлый оттенок не задаём, rgba поверх фона работает в обеих темах. */
+.day-card{position:relative;background:linear-gradient(150deg,rgba(var(--accent-rgb),.13),rgba(var(--accent-rgb),0) 62%),var(--card-bg)}
+.day-card::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),rgba(var(--accent-rgb),0));pointer-events:none}
+/* Дни с одной-двумя новостями центрируются по вертикали, чтобы пустое место
+   внутри карточки не выглядело как обрыв списка. */
+.day-list--short{justify-content:center}
+.day-head{flex:0 0 auto;display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding:12px 14px;border-bottom:1px solid var(--border)}
+.day-date{font-size:1rem;font-weight:600}
+.day-count{font-size:.75rem;color:var(--text2);white-space:nowrap}
+.day-list{flex:1 1 auto;min-height:0;overflow-y:auto;padding:8px 10px;display:flex;flex-direction:column;gap:6px;scrollbar-width:thin}
+.news-row{padding:8px 6px;border-bottom:1px solid var(--border);border-radius:8px;cursor:pointer;animation:fadeIn .3s ease}
+.news-row:last-child{border-bottom:none}
+.news-row:hover{background:rgba(127,127,127,.08)}
 @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-.news-card h3{font-size:.95rem;font-weight:600;line-height:1.4;margin:0}
-.news-card .src{font-size:.75rem;color:var(--text2);margin-top:2px}
-.news-card .src a{color:var(--accent);text-decoration:none;font-weight:500}
-.news-card .src a:hover{text-decoration:underline}
+.row-title{font-size:.9rem;font-weight:600;line-height:1.4}
+.row-src{font-size:.75rem;color:var(--text2);margin-top:2px}
+.row-src a{color:var(--accent);text-decoration:none;font-weight:500}
+.row-src a:hover{text-decoration:underline}
 .overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:1000;justify-content:center;align-items:center;padding:20px}
 .overlay.open{display:flex}
 .modal{background:var(--card-bg);border-radius:16px;max-width:620px;width:100%;max-height:85vh;overflow-y:auto;padding:28px 24px;box-shadow:0 16px 48px rgba(0,0,0,.25)}
@@ -80,7 +95,7 @@ header p{color:var(--text2);font-size:1rem;margin-top:4px}
 .modal .m-footer{margin-top:20px;padding-top:16px;border-top:1px solid var(--border);font-size:.85rem;color:var(--text2)}
 .modal .m-footer a{color:var(--accent);text-decoration:none;font-weight:500}
 .modal .m-footer a:hover{text-decoration:underline}
-.empty-state{text-align:center;padding:60px 20px;color:var(--text2)}
+.empty-state{text-align:center;padding:60px 20px;color:var(--text2);grid-column:1/-1}
 .empty-state .emoji{font-size:3rem;margin-bottom:16px}
 footer{text-align:center;padding:40px 0 20px;color:var(--text2);font-size:.85rem}
 </style>
@@ -188,6 +203,8 @@ function getFiltered() {
   return arr;
 }
 
+// Одна карточка на дату. Размер карточек одинаковый; новости дня лежат
+// внутри прокручиваемого списка, чтобы день с 10 записями не растягивал сетку.
 function render() {
   var grid = document.getElementById('newsGrid');
   var arr = getFiltered();
@@ -195,25 +212,40 @@ function render() {
     grid.innerHTML = '<div class="empty-state"><div class="emoji">📭</div><p>Новостей пока нет</p></div>';
     return;
   }
-  var html = '', lastDate = '', gridOpen = false;
+  var groups = [], lastDate = null;
   for (var i = 0; i < arr.length; i++) {
     var n = arr[i];
     if (n.date !== lastDate) {
-      if (gridOpen) { html += '</div>'; gridOpen = false; }
-      html += '<div class="date-sep">' + esc(fmtDate(n.date)) + '</div>';
-      html += '<div class="news-grid">';
-      gridOpen = true;
+      groups.push({date: n.date, items: []});
       lastDate = n.date;
     }
-    html += '<div class="news-card" data-idx="' + i + '"><h3>' + esc(n.title) + '</h3><div class="src"><a href="' + esc(safeUrl(n.link)) + '" target="_blank" rel="noopener">' + esc(n.source) + '</a></div></div>';
+    groups[groups.length - 1].items.push({n: n, idx: i});
   }
-  if (gridOpen) html += '</div>';
+  var html = '';
+  for (var g = 0; g < groups.length; g++) {
+    var day = groups[g];
+    var count = day.items.length;
+    var label = count + ' ' + (count === 1 ? 'новость' :
+      (count > 1 && count < 5 ? 'новости' : 'новостей'));
+    html += '<div class="' + (g === 0 ? 'day-card day-card--lead' : 'day-card') +
+      '"><div class="day-head"><span class="day-date">' +
+      esc(fmtDate(day.date)) + '</span><span class="day-count">' + label +
+      '</span></div><div class="day-list' + (count <= 2 ? ' day-list--short' : '') + '">';
+    for (var j = 0; j < count; j++) {
+      var item = day.items[j], n = item.n;
+      html += '<div class="news-row" data-idx="' + item.idx + '"><div class="row-title">' +
+        esc(n.title) + '</div><div class="row-src"><a href="' +
+        esc(safeUrl(n.link)) + '" target="_blank" rel="noopener">' +
+        esc(n.source) + '</a></div></div>';
+    }
+    html += '</div></div>';
+  }
   grid.innerHTML = html;
 }
 
-// Click on card — open modal
+// Клик по строке внутри карточки дня — открыть модальное окно.
 document.getElementById('newsGrid').addEventListener('click', function(e) {
-  var card = e.target.closest('.news-card');
+  var card = e.target.closest('.news-row');
   if (!card) return;
   if (e.target.tagName === 'A') return;
   var idx = parseInt(card.getAttribute('data-idx'));
