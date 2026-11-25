@@ -1,12 +1,39 @@
 [
   {
-    "title": "Rumors swirling that labs might have cracked Factoring in P",
-    "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
-    "desc": "Article URL: https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/ Comments URL: https://news.ycombinator.com/item?id=50643065 Points: 297 # Comments: 207",
+    "title": "The polynomial Hirsch conjecture is false [pdf]",
+    "link": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+    "desc": "Article URL: https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf Comments URL: https://news.ycombinator.com/item?id=50644980 Points: 36 # Comments: 1",
     "date": "2026-11-25",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Rumors swirling that labs might have cracked Factoring in P",
+    "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
+    "desc": "Article URL: https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/ Comments URL: https://news.ycombinator.com/item?id=50643065 Points: 365 # Comments: 252",
+    "date": "2026-11-25",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Какая модель Gemini 4 лучше: Hydrogen, Neon, Carbon или Argon – разбор, бенчмарки и доступ",
+    "link": "https://habr.com/ru/companies/gptunnel/articles/1112424/?utm_campaign=1112424&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Gemini 4 Neon вышел 18 ноября. Одни называют её лучшей моделью Google, другие напоминают, что есть ещё Carbon, Hydrogen и Argon. Чем же они различаются? Ведь люди в поиске уже вовсю набирают «gemini 4 pro» и «gemini 4 flash», хотя таких моделей не существует . И вопрос на миллион токенов: какую и...",
+    "date": "2026-11-25",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Китай в российской обертке: проверил Алису, GigaChat 3.5 и T-Pro на реальных задачах",
+    "link": "https://habr.com/ru/articles/1112420/?utm_campaign=1112420&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Еще пару лет назад Алису и GigaChat открывали в основном случайно, но к концу 2026 года 21 зарубежный сервис закрыл доступ из России, а Anthropic начала требовать паспорт и селфи. Я решил проверить на живых задачах, реально ли сейчас заменить забаненные Claude и ChatGPT российским стеком. Разберё...",
+    "date": "2026-11-25",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Как сравнить страницы из Search Console и мониторинга ответов нейросетей и почему расхождение ещё не означает ошибку",
@@ -189,18 +216,18 @@
     "lang": "ru"
   },
   {
-    "title": "Оптимизация инференса LLM: как работают технологии Speculative Decoding и PagedAttention",
-    "link": "https://habr.com/ru/companies/selectel/articles/1112066/?utm_campaign=1112066&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Когда LLM отвечает пользователю, текст обычно появляется постепенно. Модель выбирает следующий токен — например, слово, часть слова или знак препинания — и переходит к следующему. Для каждого нового токена ей нужен контекст запроса и уже написанной части ответа. Чем длиннее контекст и чем больше ...",
+    "title": "Нейросеть для редактирования фото: Nano Banana 2.1 и Pro, Seedream 5.5 и GPT Image 2.6 на 8 правках одного снимка",
+    "link": "https://habr.com/ru/companies/syntx_ai/articles/1112224/?utm_campaign=1112224&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Убрать из кадра случайного прохожего, переписать вывеску или переодеть человека теперь можно одной фразой. Трудно другое: чтобы модель поменяла ровно то, что просили, и не тронула лицо. Я провёл один снимок через длинную серию правок и покажу, какая нейросеть для редактирования фото держит кадр, ...",
     "date": "2026-11-25",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "Нейросеть для редактирования фото: Nano Banana 2.1 и Pro, Seedream 5.5 и GPT Image 2.6 на 8 правках одного снимка",
-    "link": "https://habr.com/ru/companies/syntx_ai/articles/1112224/?utm_campaign=1112224&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Убрать из кадра случайного прохожего, переписать вывеску или переодеть человека теперь можно одной фразой. Трудно другое: чтобы модель поменяла ровно то, что просили, и не тронула лицо. Я провёл один снимок через длинную серию правок и покажу, какая нейросеть для редактирования фото держит кадр, ...",
+    "title": "Оптимизация инференса LLM: как работают технологии Speculative Decoding и PagedAttention",
+    "link": "https://habr.com/ru/companies/selectel/articles/1112066/?utm_campaign=1112066&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Когда LLM отвечает пользователю, текст обычно появляется постепенно. Модель выбирает следующий токен — например, слово, часть слова или знак препинания — и переходит к следующему. Для каждого нового токена ей нужен контекст запроса и уже написанной части ответа. Чем длиннее контекст и чем больше ...",
     "date": "2026-11-25",
     "source": "Habr ML",
     "cat": "ai",
@@ -437,6 +464,15 @@
     "desc": "Обновлено 18.11.2026",
     "date": "2026-11-25",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Санкции США не в силах остановить торговлю чипами Nvidia в Китае — там открыто продают даже новейшие Blackwell B300",
+    "link": "https://3dnews.ru/1151817",
+    "desc": "Несмотря на американские экспортные ограничения, в Китае по-прежнему можно сравнительно свободно приобрести новейшие ускорители Nvidia для разработки систем искусственного интеллекта. В этом лично убедились журналисты The Washington Post, которые договорились о покупке «запрещёнки» на рынке элект...",
+    "date": "2026-11-25",
+    "source": "3DNews",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1524,15 +1560,6 @@
     "title": "Китайская Z.ai представила первую в мире ИИ-модель, которая дважды подумает, прежде чем ответить",
     "link": "https://3dnews.ru/1151700",
     "desc": "Пока компании Кремниевой долины скромно молчат о воспитании в своих дата-центрах искусственного суперинтеллекта, способного к рекурсивному самосовершенствованию, китайцы берут на себя смелость публично признаться в этом. Похоже, китайская компания Z.ai стала первой в мире, кто сообщил о создании ...",
-    "date": "2026-11-23",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "ИИ стал материться от бессилия: современные модели всё чаще ругаются, когда не могут решить задачу",
-    "link": "https://3dnews.ru/1151696",
-    "desc": "ИИ-модели стали заметно чаще использовать ненормативную лексику, причём обычно это происходит не в ответах пользователям, а во время внутренних рассуждений. Исследование аналитиков из компании Vals показало, что ругательства чаще всего сопровождают неудачные попытки ИИ справиться со сложными зада...",
     "date": "2026-11-23",
     "source": "3DNews",
     "cat": "ai",
