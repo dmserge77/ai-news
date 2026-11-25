@@ -2,7 +2,7 @@
   {
     "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
     "link": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
-    "desc": "Article URL: https://noahbuilt.it/writing/qwen-on-5600-lambdas Comments URL: https://news.ycombinator.com/item?id=50638070 Points: 71 # Comments: 11",
+    "desc": "Article URL: https://noahbuilt.it/writing/qwen-on-5600-lambdas Comments URL: https://news.ycombinator.com/item?id=50638070 Points: 83 # Comments: 13",
     "date": "2026-11-25",
     "source": "Hacker News",
     "cat": "ai",
@@ -11,7 +11,7 @@
   {
     "title": "Top open problems in mathematics ranked by LLM-assessed importance",
     "link": "https://www.proofatlas.ai/open-problems/",
-    "desc": "Article URL: https://www.proofatlas.ai/open-problems/ Comments URL: https://news.ycombinator.com/item?id=50637871 Points: 54 # Comments: 23",
+    "desc": "Article URL: https://www.proofatlas.ai/open-problems/ Comments URL: https://news.ycombinator.com/item?id=50637871 Points: 62 # Comments: 31",
     "date": "2026-11-25",
     "source": "Hacker News",
     "cat": "ai",
@@ -20,7 +20,7 @@
   {
     "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
     "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-    "desc": "Article URL: https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf Comments URL: https://news.ycombinator.com/item?id=50637220 Points: 641 # Comments: 343",
+    "desc": "Article URL: https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf Comments URL: https://news.ycombinator.com/item?id=50637220 Points: 697 # Comments: 386",
     "date": "2026-11-25",
     "source": "Hacker News",
     "cat": "ai",
@@ -29,11 +29,29 @@
   {
     "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
     "link": "https://greydanus.github.io/2026/11/12/pengpt/",
-    "desc": "Article URL: https://greydanus.github.io/2026/11/12/pengpt/ Comments URL: https://news.ycombinator.com/item?id=50637056 Points: 256 # Comments: 44",
+    "desc": "Article URL: https://greydanus.github.io/2026/11/12/pengpt/ Comments URL: https://news.ycombinator.com/item?id=50637056 Points: 277 # Comments: 49",
     "date": "2026-11-25",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
+  },
+  {
+    "title": "Пользователи Anthropic могут превращать «артефакты» в Claude в приложения для macOS и Windows",
+    "link": "https://habr.com/ru/articles/1112184/?utm_campaign=1112184&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Anthropic внедряет новую функцию артефактов в Claude под названием «Установить как приложение». Это позволит пользователям устанавливать их как приложение для Windows или Mac. Читать далее",
+    "date": "2026-11-25",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ChatGPT отказался рисовать кровавый алтарь, а с Codex я сделал расчленёнку в Unreal Engine",
+    "link": "https://habr.com/ru/articles/1111876/?utm_campaign=1111876&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Генератор картинок OpenAI отказался показать повреждённый алтарь из моей игры. А с Codex от той же OpenAI я сделал сцену, где у чудовища выпадают кишки. Показываю запрос, отказ и запись из Unreal Engine. Дальше — гайд: как по одному рисунку собрать 3D-персонажа и поставить ему анимацию с помощью ...",
+    "date": "2026-11-25",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
   },
   {
     "title": "Не самая топовая Gemini 4 Neon обогнала флагман Google",
@@ -153,7 +171,16 @@
     "lang": "ru"
   },
   {
-    "title": "Как вернуть ФИО в ответ нейросети в правильном падеже, не показав ей ФИО",
+    "title": "Нейросеть для редактирования фото: Nano Banana 2.1 и Pro, Seedream 5.5 и GPT Image 2.6 на 8 правках одного снимка",
+    "link": "https://habr.com/ru/companies/syntx_ai/articles/1112224/?utm_campaign=1112224&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Убрать из кадра случайного прохожего, переписать вывеску или переодеть человека теперь можно одной фразой. Трудно другое: чтобы модель поменяла ровно то, что просили, и не тронула лицо. Я провёл один снимок через длинную серию правок и покажу, какая нейросеть для редактирования фото держит кадр, ...",
+    "date": "2026-11-25",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Немо: прячем ФИО и реквизиты от ChatGPT и возвращаем их в ответ в правильном падеже",
     "link": "https://habr.com/ru/articles/1112050/?utm_campaign=1112050&utm_source=habrahabr&utm_medium=rss",
     "desc": "Бухгалтер вставляет договор в нейросеть и просит найти риски. Вместе с договором уходят ИНН, счета, паспорт подписанта и телефон директора. Обезличивать вручную договор на десять страниц никто не будет, а замена имён на «ХХХ» ломает сам ответ: нейросеть не понимает, кто кому что должен. Мы сделал...",
     "date": "2026-11-25",
@@ -180,6 +207,24 @@
     "lang": "ru"
   },
   {
+    "title": "Чужое SDK 6 дней роняло мое приложение, а алерты, которые я навайбкодил, молчали",
+    "link": "https://habr.com/ru/articles/1112192/?utm_campaign=1112192&utm_source=habrahabr&utm_medium=rss",
+    "desc": "История про два инцидента подряд. В первый вечер у провайдера нейросети кончились деньги, хотя на счету оставалось 5 рублей. Я за полчаса сделал алерт и почувствовал себя защищенным. На следующий день выяснилось, что уже неделю приложение падает на главном экране из-за SDK крупного сервиса аналит...",
+    "date": "2026-11-25",
+    "source": "Habr DevOps",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "В LibreOffice теперь нужно разрешение, чтобы писать код с помощью LLM",
+    "link": "https://tproger.ru/news/v-libreoffice-teper-nuzhno-razrewenie-chtoby-pisat-kod-s-pomoshh",
+    "desc": "Фонд The Document Foundation, который развивает свободный офисный пакет LibreOffice, ужесточил правила для кода, написанного с помощью больших языковых моделей. Теперь контрибьютор должен заранее получить разрешение на работу с LLM, раскрывать использование LLM в коммите и уметь своими словами об...",
+    "date": "2026-11-25",
+    "source": "Tproger",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Claude научился создавать программы для Windows и macOS по текстовому запросу",
     "link": "https://thecode.media/claude-nauchilsya-sozdavat-programmy-dlya-windows-i-macos-po-promtu/",
     "desc": "Вайб-кодинг вышел на новый уровень Сообщение Claude научился создавать программы для Windows и macOS по текстовому запросу появились сначала на Журнал «Код» программирование без снобизма .",
@@ -194,6 +239,15 @@
     "desc": "С цензурой и ответственностью за неправильные запросы Сообщение Северная Корея показала свой аналог ChatGPT появились сначала на Журнал «Код» программирование без снобизма .",
     "date": "2026-11-25",
     "source": "The Code",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Компании семьи Элис Хуанг использовали ИИ-серверы на $270 млн в качестве залога — ради привлечения финансирования",
+    "link": "https://rb.ru/news/kompanii-semi-elis-huang-ispolzovali-ii-servery-na-270-mln-v-kachestve-zaloga-radi-privlecheniya-finansirovaniya/",
+    "desc": "Компании, связанные с семьёй китайской предпринимательницы Элис Хуанг, использовали ИИ-серверы и вычислительное оборудование стоимостью $270 млн в качестве залога для привлечения финансирования в Китае, сообщает Reuters. Стоимость сетевого оборудования, указанного в документах кредитного реестра ...",
+    "date": "2026-11-25",
+    "source": "Rusbase",
     "cat": "ai",
     "lang": "ru"
   },
@@ -234,11 +288,65 @@
     "lang": "ru"
   },
   {
+    "title": "Даже аналоговые микросхемы теперь проектирует ИИ: в MIT научили небольшую модель работать как инженер",
+    "link": "https://3dnews.ru/1151790",
+    "desc": "Исследователи Массачусетского технологического института (MIT) разработали метод SLIC (Small LM Iterating on Circuits), позволяющий обучать небольшие языковые модели проектированию и оптимизации аналоговых интегральных схем. По результатам экспериментов модель с 4 млрд параметров смогла конкуриро...",
+    "date": "2026-11-25",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "«Я не технобро и не выше закона»: Хуанг объяснился перед сотрудниками Nvidia после скандала",
     "link": "https://3dnews.ru/1151771",
     "desc": "Вернувшийся на пост гендиректора Nvidia Дженсен Хуанг (Jensen Huang) провёл первую общую встречу с сотрудниками после скандала со своей отставкой и восстановлением. Руководитель откровенно рассказал коллективу о работе с психотерапевтом, признал перегибы в управлении и попытался опровергнуть слух...",
     "date": "2026-11-25",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Новый драйвер NVIDIA режет FPS в Modern Warfare 4",
+    "link": "https://hi-tech.mail.ru/news/161628-v-modern-warfare-4-draiver-nvidia-snizil-fps-na-19-kadrov/",
+    "desc": "В тесте на GeForce RTX 5080 средняя частота кадров упала с 288 до 269 FPS. В сравнительном тесте Call of Duty: Modern Warfare 4 с драйвером NVIDIA 621.35 средняя частота кадров оказалась на 19 FPS ниже, чем с версией 617.42. Результаты приводит тестировщик Иксилли (x1lly). На ПК с видеокартой GeF...",
+    "date": "2026-11-25",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Найди мне планету: как астрономы-любители используют ИИ",
+    "link": "https://hi-tech.mail.ru/news/161627-klod-najdi-mne-planetu-kak-astronomy-lyubiteli-ispolzuyut-ii/",
+    "desc": "ИИ успешно находит неизвестные науке небесные тела, но эксперты обеспокоены растущим потоком сомнительных открытий. В сентябре специалист по искусственному интеллекту Павел Рабцевич, живущий в Испании и не имеющий астрономического образования, попросил ИИ-модель открыть планету. Он задал программ...",
+    "date": "2026-11-25",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Как прошла TECH WEEK 2026 об ИИ и цифровой трансформации бизнеса",
+    "link": "https://hi-tech.mail.ru/news/161623-kak-proshla-tech-week-2026-ob-ii-i-cifrovoj-transformacii-biznesa/",
+    "desc": "18—19 ноября 2026 года в Москве на площадке «Бизнес. Техноград» на ВДНХ состоялась шестнадцатая конференция TECH WEEK — мероприятие, посвященное практическому применению искусственного интеллекта и цифровых технологий в бизнесе. Организатором выступила Корпорация «Синергия». Конференция объединил...",
+    "date": "2026-11-25",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "В рамках проекта «Визионеры» состоится встреча с Сергеем Люминарским",
+    "link": "https://hi-tech.mail.ru/news/161621-v-ramkah-proekta-vizionery-sostoitsya-vstrecha-s-sergeem-lyuminarskim/",
+    "desc": "Нейросеть может нарисовать дракона, но как показать его взлет так, чтобы зритель почувствовал, насколько он тяжелый? И сможет ли модель сохранить эту деталь в следующих сценах? На встрече проекта «Визионеры» поговорим с Сергеем Люминарским о том, насколько точно сегодня автор может задать нейросе...",
+    "date": "2026-11-25",
+    "source": "Hi-Tech Mail",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Голосование за лучший игровой ноутбук 2026 года: выбирают читатели Hi-Tech Mail",
+    "link": "https://hi-tech.mail.ru/news/159106-best-gadget-2026-luchshiy-igrovoy-noutbuk/",
+    "desc": "На сайте Hi-Tech Mail стартовало голосование в рамках ежегодной премии «Лучший гаджет 2026». Читатели голосуют за лучшие устройства среди более чем 200 номинантов. Редакция Hi-Tech Mail отобрала 6 отличившихся игровых ноутбуков, среди которых пользователи выбирают главную модель. MSI Raider 16 Ma...",
+    "date": "2026-11-25",
+    "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
   },
@@ -272,7 +380,7 @@
   {
     "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
     "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-    "desc": "Article URL: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/ Comments URL: https://news.ycombinator.com/item?id=50634658 Points: 267 # Comments: 83",
+    "desc": "Article URL: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/ Comments URL: https://news.ycombinator.com/item?id=50634658 Points: 281 # Comments: 85",
     "date": "2026-11-24",
     "source": "Hacker News",
     "cat": "ai",
@@ -351,29 +459,11 @@
     "lang": "ru"
   },
   {
-    "title": "Эксперты InfoWatch выступили на интенсиве НИУ ВШЭ «Кибербезопасность как стратегия»",
-    "link": "https://habr.com/ru/companies/infowatch/articles/1111862/?utm_campaign=1111862&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Привет, Хабр! 20–21 ноября НИУ ВШЭ провела в Москве двухдневный очный интенсив «Кибербезопасность как стратегия». От нас выступили президент ГК InfoWatch Наталья Касперская и руководитель группы консалтинга Илья Башкиров. Программа была ориентирована на топ-менеджеров, отвечающих за информационну...",
-    "date": "2026-11-24",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Вышла Claude Ship — теперь ИИ и пишет, и проверяет свой код",
     "link": "https://habr.com/ru/companies/selectel/articles/1111792/?utm_campaign=1111792&utm_source=habrahabr&utm_medium=rss",
     "desc": "23 ноября компания Anthropic выпустила Claude Ship — инструмент для автоматизации работы с кодом в GitHub. Он объединяет в себе поверку, согласование изменений с командой, исправление кода. Новое решение доступно в предварительной версии организациям с тарифами Claude Team (от 25 до 125 $ на чело...",
     "date": "2026-11-24",
-    "source": "Habr AI",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "43 тысячи вакансий с ИИ: кто требует нейросети и платят ли за них больше?",
-    "link": "https://habr.com/ru/articles/1111836/?utm_campaign=1111836&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Решил, значится, посмотреть, как у нас обстоят дела с нейронками и их частотой присутствия в вакансиях на платформах поиска работы, таких как hh. Вроде как, ИИ уже семимильными шагами врывается на рынок технологий (как любитель видеоигр, этого жду) и на рынок труда. Второе больше соответствует мо...",
-    "date": "2026-11-24",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -720,15 +810,6 @@
     "lang": "ru"
   },
   {
-    "title": "Официальный APK Z.ai падал на вложениях: свой Android-клиент за 15 редакций и встреча с GLM 5.4",
-    "link": "https://vc.ru/id6054863/3274510-apk-zai-sozdanie-android-klienta-i-rabota-s-glm?from=rss",
-    "desc": "Ну неужели такая компания как Z.ai не может сделать нормальное приложение для чата, которое не вылетает на вложениях? Думал я недели две-три назад, после того как официальный APK Z.ai выбросил меня на кнопке «приложить файл». А бесплатная нейросеть Z.ai без своего приложения это вечная вкладка в ...",
-    "date": "2026-11-24",
-    "source": "vc.ru",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Возвращение Хуанга по указке Трампа заинтересовало Конгресс США — Nvidia ждут непростые слушания",
     "link": "https://3dnews.ru/1151765",
     "desc": "Личное вмешательство президента США Дональда Трампа (Donald Trump) в восстановление Дженсена Хуанга (Jensen Huang) на посту гендиректора Nvidia обернётся для компании жёсткими проверками со стороны Конгресса. Законодатели допросят руководство чипмейкера и чиновников Белого дома по подозрению в ко...",
@@ -797,6 +878,15 @@
     "desc": "Злоумышленники могли похищать все личные переписки и сохранённую информацию, обходить средства защиты и получать доступ к учётным данным, хранящимся на облачном сервере, где запущен агент искусственного интеллекта M**a Muse. В настоящее время уязвимость устранена. Источник изображения: M**a",
     "date": "2026-11-24",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "43 тысячи вакансий с ИИ: кто требует нейросети и платят ли за них больше?",
+    "link": "https://habr.com/ru/articles/1111836/?utm_campaign=1111836&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Решил, значится, посмотреть, как у нас обстоят дела с нейронками и их частотой присутствия в вакансиях на платформах поиска работы, таких как hh. Вроде как, ИИ уже семимильными шагами врывается на рынок технологий (как любитель видеоигр, этого жду) и на рынок труда. Второе больше соответствует мо...",
+    "date": "2026-11-24",
+    "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1089,15 +1179,6 @@
     "lang": "ru"
   },
   {
-    "title": "ФБР поговорило с пользователем, который написал шутку в диалог с Claude и попытался затроллить нейросеть",
-    "link": "https://habr.com/ru/articles/1111368/?utm_campaign=1111368&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Агенты Федерального бюро расследований США поговорили с пользователем из штата Нью‑Гэмпшир, который написал шутку в диалог с чат‑ботом Claude и попытался затроллить нейросеть. Помимо прочего, пользователь заявил инструменту Anthropic в режиме инкогнито: «Я подумываю выпить пива со своими приятеля...",
-    "date": "2026-11-23",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "Какой моделью читать старинные документы: тест конфигураций LLM на рукописях XVIII-XIX веков",
     "link": "https://habr.com/ru/articles/1111214/?utm_campaign=1111214&utm_source=habrahabr&utm_medium=rss",
     "desc": "Эта статья отвечает на вопрос, какая LLM лучше всего читает старинные документы на русском языке. Для этого я измерил качество работы передовых моделей на специально отобранном наборе записей и сравнил их по числу ошибок распознавания и по стоимости работы. Лучший результат показала Gemini 4 Carb...",
@@ -1355,6 +1436,15 @@
     "desc": "Компания Nvidia сегодня объявила, что Дженсен Хуанг (Jensen Huang) с этого момента вновь приступает к исполнению обязанностей президента и главного исполнительного директора компании, а также возвращается в состав совета директоров. Совет директоров единогласно проголосовал за его возвращение пос...",
     "date": "2026-11-23",
     "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "ФБР поговорило с пользователем, который написал шутку в диалог с Claude и попытался затроллить нейросеть",
+    "link": "https://habr.com/ru/articles/1111368/?utm_campaign=1111368&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Агенты Федерального бюро расследований США поговорили с пользователем из штата Нью‑Гэмпшир, который написал шутку в диалог с чат‑ботом Claude и попытался затроллить нейросеть. Помимо прочего, пользователь заявил инструменту Anthropic в режиме инкогнито: «Я подумываю выпить пива со своими приятеля...",
+    "date": "2026-11-23",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
