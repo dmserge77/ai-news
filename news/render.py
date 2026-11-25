@@ -57,9 +57,10 @@ MAIN_CSS = """
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background: var(--bg); color: var(--text); line-height: 1.5; padding: 20px;
+  background: var(--bg) url("site-bg.jpg") center center / cover no-repeat fixed;
+  color: var(--text); line-height: 1.5; padding: 20px;
 }
-.container { max-width: 1100px; margin: 0 auto; }
+.container { max-width: 1100px; margin: 0 auto; background: var(--bg); }
 
 header {
   text-align: center;
@@ -820,6 +821,10 @@ def copy_static():
     og_src = os.path.join(BASE_DIR, "og-image.png")
     if os.path.exists(og_src):
         shutil.copy2(og_src, os.path.join(DOCS_DIR, "og-image.png"))
+    # Фон сайта: лежит в корне проекта и копируется рядом с главной страницей.
+    bg_src = os.path.join(BASE_DIR, "site-bg.jpg")
+    if os.path.exists(bg_src):
+        shutil.copy2(bg_src, os.path.join(DOCS_DIR, "site-bg.jpg"))
 
 
 def generate_sitemap():
