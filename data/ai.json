@@ -1,5 +1,14 @@
 [
   {
+    "title": "До цифрового апокалипсиса остались считанные дни — если верить слухам о взломе RSA",
+    "link": "https://3dnews.ru/1151819",
+    "desc": "На Reddit в одном сообщении собрали высказывания трёх экспертов в области криптографии о появившихся около десяти дней назад многочисленных слухах, будто бы OpenAI и Anthropic нашли способ факторизовать большие целые числа за приемлемое время. Если это правда, то это крах современных методов RSA-...",
+    "date": "2026-11-26",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Новая статья: Обзор видеокарты GIGABYTE AORUS GeForce RTX 5070 Ti INFINITY: к взлету готов!",
     "link": "https://3dnews.ru/1151770",
     "desc": "Промежуточное обновление линейки GeForce 50 так и не случилось, зато некоторые партнеры NVIDIA выпустили новые версии существующих моделей, с переработанной конструкцией и большим заводским разгоном. GeForce RTX 5070 Ti INFINITY — одна из них",
@@ -9,36 +18,45 @@
     "lang": "ru"
   },
   {
+    "title": "Much shorter version of GRH Lean verification from Anthropic",
+    "link": "https://github.com/lsernau/grh-lean",
+    "desc": "Article URL: https://github.com/lsernau/grh-lean Comments URL: https://news.ycombinator.com/item?id=50648050 Points: 157 # Comments: 63",
+    "date": "2026-11-25",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
     "title": "The polynomial Hirsch conjecture is false [pdf]",
     "link": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
-    "desc": "Article URL: https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf Comments URL: https://news.ycombinator.com/item?id=50644980 Points: 71 # Comments: 11",
+    "desc": "Article URL: https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf Comments URL: https://news.ycombinator.com/item?id=50644980 Points: 104 # Comments: 23",
     "date": "2026-11-25",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Rumors swirling that labs might have cracked Factoring in P",
-    "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
-    "desc": "Article URL: https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/ Comments URL: https://news.ycombinator.com/item?id=50643065 Points: 397 # Comments: 284",
+    "title": "Entering the Geminispace",
+    "link": "https://jmmv.dev/2026/11/entering-the-geminispace.html",
+    "desc": "Comments",
     "date": "2026-11-25",
-    "source": "Hacker News",
+    "source": "Lobsters",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "Какая модель Gemini 4 лучше: Hydrogen, Neon, Carbon или Argon – разбор, бенчмарки и доступ",
-    "link": "https://habr.com/ru/companies/gptunnel/articles/1112424/?utm_campaign=1112424&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Gemini 4 Neon вышел 18 ноября. Одни называют её лучшей моделью Google, другие напоминают, что есть ещё Carbon, Hydrogen и Argon. Чем же они различаются? Ведь люди в поиске уже вовсю набирают «gemini 4 pro» и «gemini 4 flash», хотя таких моделей не существует . И вопрос на миллион токенов: какую и...",
+    "title": "Разбор OpenAI Codex на Windows и macOS: обрыв на 516 токенах и слив до 1 МБ git diff в обход opt-out",
+    "link": "https://habr.com/ru/articles/1112460/?utm_campaign=1112460&utm_source=habrahabr&utm_medium=rss",
+    "desc": "В октябре Codex Desktop в режиме ultra стал заметно хуже справляться с кодом: модели начали мгновенно выплёвывать длинные куски текста, промахиваться мимо очевидных вещей, квота улетала быстрее, а сами рассуждения просто пропали из интерфейса. В чатах и на Reddit народ спорил, реальная это деград...",
     "date": "2026-11-25",
     "source": "Habr AI",
     "cat": "ai",
     "lang": "ru"
   },
   {
-    "title": "Китай в российской обертке: проверил Алису, GigaChat 3.5 и T-Pro на реальных задачах",
-    "link": "https://habr.com/ru/articles/1112420/?utm_campaign=1112420&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Еще пару лет назад Алису и GigaChat открывали в основном случайно, но к концу 2026 года 21 зарубежный сервис закрыл доступ из России, а Anthropic начала требовать паспорт и селфи. Я решил проверить на живых задачах, реально ли сейчас заменить забаненные Claude и ChatGPT российским стеком. Разберё...",
+    "title": "Какая модель Gemini 4 лучше: Hydrogen, Neon, Carbon или Argon – разбор, бенчмарки и доступ",
+    "link": "https://habr.com/ru/companies/gptunnel/articles/1112424/?utm_campaign=1112424&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Gemini 4 Neon вышел 18 ноября. Одни называют её лучшей моделью Google, другие напоминают, что есть ещё Carbon, Hydrogen и Argon. Чем же они различаются? Ведь люди в поиске уже вовсю набирают «gemini 4 pro» и «gemini 4 flash», хотя таких моделей не существует . И вопрос на миллион токенов: какую и...",
     "date": "2026-11-25",
     "source": "Habr AI",
     "cat": "ai",
@@ -216,11 +234,11 @@
     "lang": "ru"
   },
   {
-    "title": "Почему одинаковые вопросы к LLM дают разные ответы, и как с этим жить?",
-    "link": "https://habr.com/ru/companies/timeweb/articles/1101040/?utm_campaign=1101040&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Ты отправляешь модели один и тот же вопрос два раза. В первый раз получаешь нормальный ответ. Во второй раз модель начинает путаться, придумывать откровенный бред или вообще отказывается отвечать, хотя запрос ты никак не менял. Странно? На самом деле нет. В LLM один и тот же запрос может привести...",
+    "title": "Как мы делали LLM‑бота для ЖКХ, который работает полностью в закрытом контуре",
+    "link": "https://habr.com/ru/articles/1112458/?utm_campaign=1112458&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Как мы заменили скриптового робота с 60 сценариями на LLM‑бота, который работает полностью в закрытом контуре, отвечает голосом и текстом в пяти каналах и закрывает 72% обращений без оператора. Рассказываю, почему выбрали Qwen3-14B, как обошлись без облачных LLM, зачем нам LoRA и RAG по сценариям...",
     "date": "2026-11-25",
-    "source": "Habr AI",
+    "source": "Habr ML",
     "cat": "ai",
     "lang": "ru"
   },
@@ -228,6 +246,15 @@
     "title": "Нейросеть для редактирования фото: Nano Banana 2.1 и Pro, Seedream 5.5 и GPT Image 2.6 на 8 правках одного снимка",
     "link": "https://habr.com/ru/companies/syntx_ai/articles/1112224/?utm_campaign=1112224&utm_source=habrahabr&utm_medium=rss",
     "desc": "Убрать из кадра случайного прохожего, переписать вывеску или переодеть человека теперь можно одной фразой. Трудно другое: чтобы модель поменяла ровно то, что просили, и не тронула лицо. Я провёл один снимок через длинную серию правок и покажу, какая нейросеть для редактирования фото держит кадр, ...",
+    "date": "2026-11-25",
+    "source": "Habr ML",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Почему одинаковые вопросы к LLM дают разные ответы, и как с этим жить?",
+    "link": "https://habr.com/ru/companies/timeweb/articles/1101040/?utm_campaign=1101040&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Ты отправляешь модели один и тот же вопрос два раза. В первый раз получаешь нормальный ответ. Во второй раз модель начинает путаться, придумывать откровенный бред или вообще отказывается отвечать, хотя запрос ты никак не менял. Странно? На самом деле нет. В LLM один и тот же запрос может привести...",
     "date": "2026-11-25",
     "source": "Habr ML",
     "cat": "ai",
@@ -311,6 +338,15 @@
     "desc": "Загрузить навык из Claude Code в корпоративного агента довольно просто. А вот дальше нужно решить, кто получит доступ к его скриптам, где они будут исполняться и что произойдёт, если навык попытается изменить собственные файлы или выйти в сеть. В VK AI Space мы встроили поддержку открытого формат...",
     "date": "2026-11-25",
     "source": "Habr Облака",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "OpenAI опровергла полиномиальную гипотезу Хирша о многогранниках",
+    "link": "https://tproger.ru/news/openai-oprovergla-polinomialnuyu-gipotezu-hirwa-o-mnogogrannikah",
+    "desc": "Препринт OpenAI строит многогранники, у которых путь по рёбрам растёт быстрее любого многочлена от числа фасет. Разбираем, что это значит для симплекс-метода. — Читать дальше « OpenAI опровергла полиномиальную гипотезу Хирша о многогранниках »",
+    "date": "2026-11-25",
+    "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
   },
@@ -594,6 +630,24 @@
     "lang": "ru"
   },
   {
+    "title": "Rumors swirling that labs might have cracked Factoring in P",
+    "link": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
+    "desc": "Article URL: https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/ Comments URL: https://news.ycombinator.com/item?id=50643065 Points: 397 # Comments: 284",
+    "date": "2026-11-25",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Китай в российской обертке: проверил Алису, GigaChat 3.5 и T-Pro на реальных задачах",
+    "link": "https://habr.com/ru/articles/1112420/?utm_campaign=1112420&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Еще пару лет назад Алису и GigaChat открывали в основном случайно, но к концу 2026 года 21 зарубежный сервис закрыл доступ из России, а Anthropic начала требовать паспорт и селфи. Я решил проверить на живых задачах, реально ли сейчас заменить забаненные Claude и ChatGPT российским стеком. Разберё...",
+    "date": "2026-11-25",
+    "source": "Habr AI",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
     "link": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
     "desc": "Article URL: https://noahbuilt.it/writing/qwen-on-5600-lambdas Comments URL: https://news.ycombinator.com/item?id=50638070 Points: 83 # Comments: 13",
@@ -822,15 +876,6 @@
     "title": "Почему сервис распознавания речи на PyTorch съедал 8 ГБ памяти и при чём тут cuDNN",
     "link": "https://habr.com/ru/articles/1111568/?utm_campaign=1111568&utm_source=habrahabr&utm_medium=rss",
     "desc": "Мы делаем систему, которая распознаёт и разбирает телефонные звонки компании. Работает она на сервере заказчика, рядом с АТС. Распознаванием занимается отдельный сервис в Docker-контейнере: PyTorch 2.9.1, модель GigaAM-v3 и детектор речи silero-VAD. Детектор режет запись на фрагменты с речью, мод...",
-    "date": "2026-11-24",
-    "source": "Habr ML",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
-    "title": "Заново освещаем русскую живопись в браузере",
-    "link": "https://habr.com/ru/articles/1111552/?utm_campaign=1111552&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Двигаешь мышь, и свет скользит по «Богатырям» Васнецова. Всадники и лошади выступают из тени, на картине появляется ощущение объёма. Такую же лампу можно поводить над «Девятым валом» и «Утром в сосновом лесу». Свет пересчитывается для каждого пикселя прямо в браузере по карте глубины. Вся работа ...",
     "date": "2026-11-24",
     "source": "Habr ML",
     "cat": "ai",
@@ -1494,15 +1539,6 @@
     "lang": "ru"
   },
   {
-    "title": "Claude Ship стал проверять, чинить и одобрять pull request по правилам",
-    "link": "https://tproger.ru/news/claude-ship-stal-proveryat-chinit-i-odobryat-pull-request-po-pr",
-    "desc": "Anthropic запустила три агента для GitHub: Code Review, PR Steward и Claude Approvals. Что они делают, сколько стоят и где есть риск автомерджа. — Читать дальше « Claude Ship стал проверять, чинить и одобрять pull request по правилам »",
-    "date": "2026-11-23",
-    "source": "Tproger",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "GPT-6.2 Astra оказалась в 5 раз дешевле Claude Fable 5.2 при почти равной точности",
     "link": "https://thecode.media/gpt-62-astra-v-5-raz-deshevle-fable-52-pri-shozhej-tochnosti/",
     "desc": "Впечатляет Сообщение GPT-6.2 Astra оказалась в 5 раз дешевле Claude Fable 5.2 при почти равной точности появились сначала на Журнал «Код» программирование без снобизма .",
@@ -1544,6 +1580,15 @@
     "desc": "На днях в ленте промелькнул точный разбор новой реальности: рынок труда сжимается, нейросети забирают рутину, а каждый человек превращается в «одинокого CEO» со штатом ИИ-агентов.",
     "date": "2026-11-23",
     "source": "vc.ru",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Claude Ship стал проверять, чинить и одобрять pull request по правилам",
+    "link": "https://tproger.ru/news/claude-ship-stal-proveryat-chinit-i-odobryat-pull-request-po-pr",
+    "desc": "Anthropic запустила три агента для GitHub: Code Review, PR Steward и Claude Approvals. Что они делают, сколько стоят и где есть риск автомерджа. — Читать дальше « Claude Ship стал проверять, чинить и одобрять pull request по правилам »",
+    "date": "2026-11-23",
+    "source": "Tproger",
     "cat": "ai",
     "lang": "ru"
   },
@@ -12195,20 +12240,20 @@
     "lang": "ru"
   },
   {
-    "title": "Добавляем в календарь: ML & Data Meetup RWB | 5 декабря",
-    "link": "https://habr.com/ru/companies/rwb/articles/1102800/?utm_campaign=1102800&utm_source=habrahabr&utm_medium=rss",
-    "desc": "На ML & Data Meetup RWB разберем кейсы из опыта RWB, Авито и VK: архитектура моделей, оптимизация инференса, работа с данными и масштабирование систем под реальную нагрузку. Завершим митап праздничной атмосферой, обменом опытом и общением с теми, кто строит ML и Data в production. Когда? 5 декабр...",
-    "date": "2026-11-03",
-    "source": "Habr Big Data",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "В API Grok внедрят невидимый водяной знак",
     "link": "https://habr.com/ru/articles/1103096/?utm_campaign=1103096&utm_source=habrahabr&utm_medium=rss",
     "desc": "В ответы моделей Grok в API внедрят невидимый водяной знак с 7 ноября. SpaceXSI сообщила об этом в документации для разработчиков. Читать далее",
     "date": "2026-11-03",
     "source": "Habr API",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Добавляем в календарь: ML & Data Meetup RWB | 5 декабря",
+    "link": "https://habr.com/ru/companies/rwb/articles/1102800/?utm_campaign=1102800&utm_source=habrahabr&utm_medium=rss",
+    "desc": "На ML & Data Meetup RWB разберем кейсы из опыта RWB, Авито и VK: архитектура моделей, оптимизация инференса, работа с данными и масштабирование систем под реальную нагрузку. Завершим митап праздничной атмосферой, обменом опытом и общением с теми, кто строит ML и Data в production. Когда? 5 декабр...",
+    "date": "2026-11-03",
+    "source": "Habr Big Data",
     "cat": "ai",
     "lang": "ru"
   },
