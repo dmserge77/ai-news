@@ -46,7 +46,7 @@ MAIN_CSS = """
 :root {
   --bg: #f5f5f7; --card-bg: #ffffff; --text: #1d1d1f;
   --text2: #6e6e73; --border: #e5e5ea; --accent: #0071e3;
-  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+  --accent-rgb: 0, 113, 227; --shadow: 0 2px 12px rgba(0,0,0,0.08);
   --ornament: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20width%3D%27120%27%20height%3D%27104%27%20viewBox%3D%270%200%20120%20104%27%3E%3Cdefs%3E%3Cpattern%20id%3D%27h%27%20width%3D%2780%27%20height%3D%2792%27%20patternUnits%3D%27userSpaceOnUse%27%3E%3Cg%20fill%3D%27none%27%20stroke%3D%27%238e8e93%27%20stroke-opacity%3D%27.12%27%20stroke-width%3D%271%27%3E%3Cpath%20d%3D%27M20%205%20L38%2015%20L38%2035%20L20%2045%20L2%2035%20L2%2015%20Z%27%2F%3E%3Cpath%20d%3D%27M60%2051%20L78%2061%20L78%2081%20L60%2091%20L42%2081%20L42%2061%20Z%27%2F%3E%3C%2Fg%3E%3Cg%20fill%3D%27%238e8e93%27%20fill-opacity%3D%27.18%27%3E%3Ccircle%20cx%3D%2720%27%20cy%3D%275%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2738%27%20cy%3D%2715%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2738%27%20cy%3D%2735%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2720%27%20cy%3D%2745%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%272%27%20cy%3D%2735%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%272%27%20cy%3D%2715%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2760%27%20cy%3D%2751%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2778%27%20cy%3D%2761%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2778%27%20cy%3D%2781%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2760%27%20cy%3D%2791%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2742%27%20cy%3D%2781%27%20r%3D%271.3%27%2F%3E%3Ccircle%20cx%3D%2742%27%20cy%3D%2761%27%20r%3D%271.3%27%2F%3E%3C%2Fg%3E%3C%2Fpattern%3E%3C%2Fdefs%3E%3Crect%20width%3D%27120%27%20height%3D%27104%27%20fill%3D%27url%28%23h%29%27%2F%3E%3C%2Fsvg%3E");
 }
 @media (prefers-color-scheme: dark) {
@@ -291,6 +291,93 @@ header p { color: var(--text2); margin-top: 4px; font-size: 1.1rem; }
 footer { color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: center; }
 """
 
+# Плашка предпросмотра общая для главной и рубрик. Лежит поверх страницы,
+# поэтому её не обрезает overflow карточек; на тач-устройствах скрывается.
+PREVIEW_CSS = """
+.hover-preview {
+  position: fixed; z-index: 1100;
+  width: min(320px, calc(100vw - 32px));
+  padding: 12px 14px 11px;
+  background: var(--card-bg); border: 1.5px solid var(--border);
+  border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.18);
+  opacity: 0; transform: translateY(4px);
+  pointer-events: none;
+  transition: opacity .12s ease, transform .12s ease;
+}
+.hover-preview[hidden] { display: none; }
+.hover-preview.show { opacity: 1; transform: translateY(0); pointer-events: auto; }
+.hover-preview::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  border-radius: 12px 12px 0 0;
+  background: linear-gradient(90deg, var(--accent), rgba(var(--accent-rgb), 0));
+}
+.hp-meta { font-size: .72rem; color: var(--text2); margin-bottom: 6px; }
+.hp-desc {
+  font-size: .86rem; line-height: 1.5; color: var(--text);
+  display: -webkit-box; -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; overflow: hidden; word-break: break-word;
+}
+.hp-link {
+  display: inline-block; margin-top: 9px; font-size: .8rem;
+  font-weight: 600; color: var(--accent); text-decoration: none;
+}
+.hp-link:hover { text-decoration: underline; }
+@media (hover: none), (pointer: coarse) { .hover-preview { display: none; } }
+"""
+
+PREVIEW_JS = """
+// Предпросмотр боковых новостей на главной. У крупного блока описание уже
+// видно, у поиска тоже — плашка нужна только там, где показывается заголовок.
+// Адрес берём из href самой ссылки: он уже прошёл safe_link на сборке.
+(function () {
+  var preview = document.getElementById('hoverPreview');
+  if (!preview) return;
+  var meta = document.getElementById('hpMeta');
+  var desc = document.getElementById('hpDesc');
+  var link = document.getElementById('hpLink');
+  var timer = null;
+
+  function hide(delay) {
+    clearTimeout(timer);
+    timer = setTimeout(function () {
+      preview.classList.remove('show');
+      preview.hidden = true;
+    }, delay || 0);
+  }
+
+  function show(anchor) {
+    clearTimeout(timer);
+    var source = anchor.getAttribute('data-source') || '';
+    var date = anchor.getAttribute('data-date') || '';
+    meta.textContent = source + (date ? ' · ' + date : '');
+    desc.textContent = anchor.getAttribute('data-desc') || '';
+    link.href = anchor.href;
+    preview.hidden = false;
+
+    var r = anchor.getBoundingClientRect();
+    var w = preview.offsetWidth;
+    var h = preview.offsetHeight;
+    var left = r.right + 12;
+    if (left + w > window.innerWidth - 12) left = r.left - w - 12;
+    if (left < 12) left = Math.max(12, Math.min(r.left, window.innerWidth - w - 12));
+    var top = r.top + r.height / 2 - h / 2;
+    top = Math.max(12, Math.min(top, window.innerHeight - h - 12));
+    preview.style.left = left + 'px';
+    preview.style.top = top + 'px';
+    preview.classList.add('show');
+  }
+
+  document.querySelectorAll('.hero-item').forEach(function (anchor) {
+    anchor.addEventListener('mouseenter', function () { show(anchor); });
+    anchor.addEventListener('mouseleave', function () { hide(140); });
+    anchor.addEventListener('click', function () { hide(0); });
+  });
+  preview.addEventListener('mouseenter', function () { clearTimeout(timer); });
+  preview.addEventListener('mouseleave', function () { hide(80); });
+  window.addEventListener('scroll', function () { hide(0); }, {passive:true});
+})();
+"""
+
 # Поиск по архиву работает в браузере посетителя: сервера у сайта нет.
 # Файл search-index.json читается только когда посетитель начал вводить,
 # поэтому на открытие главной он не влияет.
@@ -434,6 +521,9 @@ HERO_LIMIT = 4
 # Описание под главным заголовком. Полное (до 300 знаков) раздувает блок,
 # а о чём материал, понятно уже по первым фразам.
 HERO_DESC_LIMIT = 220
+# Описание в плашке при наведении. Три строки — уже достаточно, чтобы решить,
+# идти на источник; длинный текст превратил бы плашку в ещё одну модалку.
+PREVIEW_DESC_LIMIT = 220
 # Вакансии и заказы в главный блок не берём: это объявление, а не новость дня.
 # В тикере они остаются — там лента общая, как и на страницах рубрик.
 HERO_SKIP_CATS = frozenset({"jobs", "orders"})
@@ -643,6 +733,9 @@ def _hero_html(all_news):
         c = CATEGORIES.get(n.get("cat"), {})
         side_html += (
             f'<a class="hero-item" href="{_esc(safe_link(n["link"]))}"'
+            f' data-desc="{_esc(_short(n.get("desc"), PREVIEW_DESC_LIMIT))}"'
+            f' data-source="{_esc(n.get("source"))}"'
+            f' data-date="{_esc(_fmt_date(n.get("date")))}"'
             ' target="_blank" rel="noopener">'
             f'<div class="t">{_esc(n.get("title"))}</div>'
             '<div class="m">'
@@ -779,7 +872,7 @@ def generate_main_page(all_news):
 <link rel="alternate" type="application/rss+xml" title="{SITE_NAME}" href="rss.xml">
 <link rel="icon" href="{FAVICON}">
 {METRIKA_SNIPPET}
-<style>{MAIN_CSS}</style>
+<style>{MAIN_CSS}{PREVIEW_CSS}</style>
 </head>
 <body>
 <div class="container">
@@ -805,8 +898,15 @@ def generate_main_page(all_news):
     {SITE_FOOTER} · <a href="about/index.html" style="color:var(--text2)">ℹ️ О проекте</a> · <a href="rss.xml" style="color:var(--text2)">📡 RSS</a>
   </footer>
 </div>
+<div class="hover-preview" id="hoverPreview" hidden>
+  <div class="hp-meta" id="hpMeta"></div>
+  <div class="hp-desc" id="hpDesc"></div>
+  <a class="hp-link" id="hpLink" href="#" target="_blank" rel="noopener">Перейти на сайт →</a>
+</div>
 {ticker_js}<script>
 {search_js}</script>
+<script>
+{PREVIEW_JS}</script>
 </body>
 </html>"""
     write_if_changed(os.path.join(DOCS_DIR, "index.html"), html)
