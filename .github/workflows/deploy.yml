@@ -54,6 +54,27 @@ jobs:
             git push
           fi
 
+      # Основной сайт теперь живёт по адресу /news-agregator/. Этот репозиторий
+      # остаётся источником кода, но его Pages служит только редиректом —
+      # иначе в сети было бы два одинаковых сайта.
+      - name: Редирект на основной адрес
+        run: |
+          mkdir -p docs
+          cat > docs/index.html <<'HTML'
+          <!doctype html>
+          <html lang="ru">
+          <head>
+          <meta charset="utf-8">
+          <meta http-equiv="refresh" content="0; url=https://dmserge77.github.io/news-agregator/">
+          <link rel="canonical" href="https://dmserge77.github.io/news-agregator/">
+          <title>Нейрорадар — переезд на основной адрес</title>
+          <script>location.replace('https://dmserge77.github.io/news-agregator/');</script>
+          </head>
+          <body><a href="https://dmserge77.github.io/news-agregator/">Перейти на Нейрорадар</a></body>
+          </html>
+          HTML
+          cp docs/index.html docs/404.html
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
