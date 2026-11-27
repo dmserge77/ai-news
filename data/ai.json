@@ -1,5 +1,23 @@
 [
   {
+    "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+    "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+    "desc": "Article URL: https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/ Comments URL: https://news.ycombinator.com/item?id=50661218 Points: 42 # Comments: 20",
+    "date": "2026-11-27",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
+  },
+  {
+    "title": "Представлен открытый проект MousePods для использования AirPods 3 в качестве курсора мышки в Linux",
+    "link": "https://habr.com/ru/articles/1112794/?utm_campaign=1112794&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Разработчик под ником Matteocean с помощью Claude представил открытый проект под названием MousePods . Это решение позволяет использовать AirPods 3 в качестве курсора мышки в Linux через использование штатной опции этого беспроводного гаджета как отслеживание движений головы. Читать далее",
+    "date": "2026-11-27",
+    "source": "Habr Python",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
     "title": "🚀 remote-harness-mcp v0.7.2 — управляй своим ПК напрямую из обычного чата Gemini, ChatGPT или Claude (без Antigravity и своего сервера!)",
     "link": "https://vc.ru/deksden_notes/3281726-remote-harness-mcp-upravlenie-pk-cherez-gemini-chatgpt-i-claude?from=rss",
     "desc": "Если вы пробовали подружить AI-чат со своим компьютером, то наверняка упирались в ограничения Antigravity (особенно на российских Google-аккаунтах) или необходимость поднимать отдельный VPS.",
@@ -11,16 +29,16 @@
   {
     "title": "AMD-specific fork of llama.cpp",
     "link": "https://devnull.land/amd-specific-llama-cpp",
-    "desc": "Article URL: https://devnull.land/amd-specific-llama-cpp Comments URL: https://news.ycombinator.com/item?id=50657265 Points: 256 # Comments: 62",
+    "desc": "Article URL: https://devnull.land/amd-specific-llama-cpp Comments URL: https://news.ycombinator.com/item?id=50657265 Points: 307 # Comments: 74",
     "date": "2026-11-26",
     "source": "Hacker News",
     "cat": "ai",
     "lang": "en"
   },
   {
-    "title": "OpenAI may be in cost control mode",
-    "link": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-    "desc": "Article URL: https://micjm.com/blog/openai-is-in-cost-control-mode/ Comments URL: https://news.ycombinator.com/item?id=50652527 Points: 214 # Comments: 206",
+    "title": "Show HN: I wrote an entire Vim manual over 4 years",
+    "link": "http://themouseless.dev/vim/",
+    "desc": "I'm glad to announce that I'm releasing my new book, Learning to Play Vim. When I started using Vim more than a decade ago, I wished there was a manual out there teaching how to use this fantastic editor step by step, beginning with the foundations up to more advanced features. Of course at the t...",
     "date": "2026-11-26",
     "source": "Hacker News",
     "cat": "ai",
@@ -646,6 +664,15 @@
     "source": "Hi-Tech Mail",
     "cat": "ai",
     "lang": "ru"
+  },
+  {
+    "title": "OpenAI may be in cost control mode",
+    "link": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
+    "desc": "Article URL: https://micjm.com/blog/openai-is-in-cost-control-mode/ Comments URL: https://news.ycombinator.com/item?id=50652527 Points: 214 # Comments: 206",
+    "date": "2026-11-26",
+    "source": "Hacker News",
+    "cat": "ai",
+    "lang": "en"
   },
   {
     "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
@@ -1525,7 +1552,7 @@
     "link": "https://habr.com/ru/companies/codescoring/articles/1111870/?utm_campaign=1111870&utm_source=habrahabr&utm_medium=rss",
     "desc": "20 и 22 ноября GitLab и GitHub выпустили исправления для self-managed версий своих платформ, которые обновляют встроенный интерпретатор Ruby. Главная причина — уязвимость Ruby2Shell (CVE-2026-132825), переполнение буфера в куче при смене регистра строк. Исследователи из Veria Labs собираются 25 н...",
     "date": "2026-11-24",
-    "source": "Habr Open Source",
+    "source": "Habr DevOps",
     "cat": "ai",
     "lang": "ru"
   },
@@ -1629,15 +1656,6 @@
     "lang": "ru"
   },
   {
-    "title": "Возвращение Хуанга по указке Трампа заинтересовало Конгресс США — Nvidia ждут непростые слушания",
-    "link": "https://3dnews.ru/1151765",
-    "desc": "Личное вмешательство президента США Дональда Трампа (Donald Trump) в восстановление Дженсена Хуанга (Jensen Huang) на посту гендиректора Nvidia обернётся для компании жёсткими проверками со стороны Конгресса. Законодатели допросят руководство чипмейкера и чиновников Белого дома по подозрению в ко...",
-    "date": "2026-11-24",
-    "source": "3DNews",
-    "cat": "ai",
-    "lang": "ru"
-  },
-  {
     "title": "ИИ Anthropic и OpenAI одновременно решили одну из фундаментальных проблем теории вычислений — математики 47 лет ходили вокруг да около",
     "link": "https://3dnews.ru/1151759",
     "desc": "Anthropic и OpenAI практически одновременно представили доказательства одной из фундаментальных проблем алгебраической теории сложности вычислений — гипотезы Лесли Валианта (Valiant's conjecture), известной как VP ≠ VNP. Эта проблема оставалась нерешённой с 1979 года и считается алгебраическим ан...",
@@ -1659,6 +1677,15 @@
     "title": "Сотрудники OpenAI и Anthropic испугались собственного ИИ — новейшие модели становятся слишком умны и опасны",
     "link": "https://3dnews.ru/1151754",
     "desc": "Часть сотрудников OpenAI и Anthropic считает, что некоторые новейшие модели искусственного интеллекта могут оказаться слишком опасными для публичного выпуска. В компаниях обсуждают возможность ограничения доступа к таким системам и даже прекращения обучения еще более мощных нейросетей. Источник и...",
+    "date": "2026-11-24",
+    "source": "3DNews",
+    "cat": "ai",
+    "lang": "ru"
+  },
+  {
+    "title": "Возвращение Хуанга по указке Трампа заинтересовало Конгресс США — Nvidia ждут непростые слушания",
+    "link": "https://3dnews.ru/1151765",
+    "desc": "Личное вмешательство президента США Дональда Трампа (Donald Trump) в восстановление Дженсена Хуанга (Jensen Huang) на посту гендиректора Nvidia обернётся для компании жёсткими проверками со стороны Конгресса. Законодатели допросят руководство чипмейкера и чиновников Белого дома по подозрению в ко...",
     "date": "2026-11-24",
     "source": "3DNews",
     "cat": "ai",
