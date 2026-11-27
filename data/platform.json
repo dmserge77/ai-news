@@ -1,21 +1,30 @@
 [
   {
+    "title": "Почему AI-агенту недостаточно доступа к данным: зачем компании контекстная платформа",
+    "link": "https://habr.com/ru/companies/agima/articles/1113106/?utm_campaign=1113106&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Одного подключения AI-агента к корпоративным документам недостаточно для работы в компании. Я Виктор Косымов, AI-архитектор в AGIMA . Представьте: сотрудник просит агента подготовить его к встрече с клиентом. Агент читает приложенные заметки и составляет связную сводку. Но после прошлой встречи к...",
+    "date": "2026-11-27",
+    "source": "Habr AI",
+    "cat": "platform",
+    "lang": "ru"
+  },
+  {
+    "title": "Сбер научил ИИ искать ошибки цифровой доступности за секунды",
+    "link": "https://hi-tech.mail.ru/news/161820-sber-nauchil-ii-iskat-oshibki-cifrovoj-dostupnosti-za-sekundy/",
+    "desc": "В компании заявили, что технология работает в сотни раз быстрее человека. На конференции AI Journey 2026 Сбер представил инструмент на основе искусственного интеллекта, который помогает находить ошибки цифровой доступности в мобильных приложениях. Система за несколько секунд определяет элементы и...",
+    "date": "2026-11-27",
+    "source": "Hi-Tech Mail",
+    "cat": "platform",
+    "lang": "ru"
+  },
+  {
     "title": "AI made self-hosting fun again",
     "link": "https://janlukas.blog/posts/ai-self-hosting",
-    "desc": "Article URL: https://janlukas.blog/posts/ai-self-hosting Comments URL: https://news.ycombinator.com/item?id=50660180 Points: 427 # Comments: 231",
+    "desc": "Article URL: https://janlukas.blog/posts/ai-self-hosting Comments URL: https://news.ycombinator.com/item?id=50660180 Points: 756 # Comments: 377",
     "date": "2026-11-26",
     "source": "Hacker News",
     "cat": "platform",
     "lang": "en"
-  },
-  {
-    "title": "Вышел ProcessForge 1.3.0",
-    "link": "https://habr.com/ru/articles/1112668/?utm_campaign=1112668&utm_source=habrahabr&utm_medium=rss",
-    "desc": "20 ноября 2026 года вышел ProcessForge 1.3.0 - открытый фреймворк для работы с ИИ-агентами. Те, кто знаком с историей появления ProcessForge знает, что началось всё с одного процесса именно разработки кода, вокруг которого стала расти обвязка процессного движка. В этом релизе мы продолжаем причес...",
-    "date": "2026-11-26",
-    "source": "Habr AI",
-    "cat": "platform",
-    "lang": "ru"
   },
   {
     "title": "Сбер выпустил модели GigaChat 4 с открытыми весами и API",
@@ -27,20 +36,11 @@
     "lang": "ru"
   },
   {
-    "title": "Энтузиаст выпустил бесплатную утилиту для защиты OLED-мониторов от выгорания",
-    "link": "https://hi-tech.mail.ru/news/161762-entuziast-vypustil-besplatnuyu-utilit-dlya-zashchity-oled-monitorov-ot-vygoraniya/",
-    "desc": "Пользователь Reddit выпустил OLED Engine — бесплатную утилиту для Windows, которая защищает OLED-мониторы от выгорания. Программа поддерживает до пяти экранов и умеет автоматически гасить неактивные дисплеи. Разработчик под ником TLOU5764 представил OLED Engine — бесплатную программу для Windows,...",
+    "title": "Вышел ProcessForge 1.3.0",
+    "link": "https://habr.com/ru/articles/1112668/?utm_campaign=1112668&utm_source=habrahabr&utm_medium=rss",
+    "desc": "20 ноября 2026 года вышел ProcessForge 1.3.0 - открытый фреймворк для работы с ИИ-агентами. Те, кто знаком с историей появления ProcessForge знает, что началось всё с одного процесса именно разработки кода, вокруг которого стала расти обвязка процессного движка. В этом релизе мы продолжаем причес...",
     "date": "2026-11-26",
-    "source": "Hi-Tech Mail",
-    "cat": "platform",
-    "lang": "ru"
-  },
-  {
-    "title": "Разработка системы мониторинга терминалов: от C# к Node.js, Protobuf и AI‑аналитике",
-    "link": "https://habr.com/ru/articles/1112448/?utm_campaign=1112448&utm_source=habrahabr&utm_medium=rss",
-    "desc": "Агент на устройстве, бинарные сообщения, команды через очередь и передача логов по частям. Показываю, как это устроено в разрабатываемой системе мониторинга, что уже работает и что ещё требует доработки. Отдельно расскажу про следующий этап: как использовать накопленные события для прогноза пробл...",
-    "date": "2026-11-25",
-    "source": "Habr ML",
+    "source": "Habr AI",
     "cat": "platform",
     "lang": "ru"
   },
@@ -59,6 +59,15 @@
     "desc": "Однажды один из наших агентов-разработчиков запустил команду pkill -f и убил сам себя. Команда нашла среди подходящих процессов оболочку, в которой он работал, и завершила ее вместе с собой. Агент признал ошибку, ничего страшного не произошло, а в правила проекта добавили запрет. Это была самая б...",
     "date": "2026-11-25",
     "source": "Habr Big Data",
+    "cat": "platform",
+    "lang": "ru"
+  },
+  {
+    "title": "Разработка системы мониторинга терминалов: от C# к Node.js, Protobuf и AI‑аналитике",
+    "link": "https://habr.com/ru/articles/1112448/?utm_campaign=1112448&utm_source=habrahabr&utm_medium=rss",
+    "desc": "Агент на устройстве, бинарные сообщения, команды через очередь и передача логов по частям. Показываю, как это устроено в разрабатываемой системе мониторинга, что уже работает и что ещё требует доработки. Отдельно расскажу про следующий этап: как использовать накопленные события для прогноза пробл...",
+    "date": "2026-11-25",
+    "source": "Habr ML",
     "cat": "platform",
     "lang": "ru"
   },
