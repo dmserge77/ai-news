@@ -84,17 +84,11 @@ header p{color:var(--text2);font-size:1rem;margin-top:4px}
 .row-src{font-size:.75rem;color:var(--text2);margin-top:2px}
 .row-src a{color:var(--accent);text-decoration:none;font-weight:500}
 .row-src a:hover{text-decoration:underline}
-/* Предпросмотр поверх страницы. Один общий блок на все строки: внутри
-   карточки дня стоит overflow:hidden, поэтому плашка не может жить в строке. */
-.hover-preview{position:fixed;z-index:1100;width:min(320px,calc(100vw - 32px));padding:12px 14px 11px;background:var(--card-bg);border:1.5px solid var(--border);border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.18);opacity:0;transform:translateY(4px);pointer-events:none;transition:opacity .12s ease,transform .12s ease}
-.hover-preview[hidden]{display:none}
-.hover-preview.show{opacity:1;transform:translateY(0);pointer-events:auto}
-.hover-preview::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;border-radius:12px 12px 0 0;background:linear-gradient(90deg,var(--accent),rgba(var(--accent-rgb),0))}
-.hp-meta{font-size:.72rem;color:var(--text2);margin-bottom:6px}
-.hp-desc{font-size:.86rem;line-height:1.5;color:var(--text);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;word-break:break-word}
-.hp-link{display:inline-block;margin-top:9px;font-size:.8rem;font-weight:600;color:var(--accent);text-decoration:none}
-.hp-link:hover{text-decoration:underline}
-@media(hover:none),(pointer:coarse){.hover-preview{display:none}}
+/* Место под описание зарезервировано в каждой строке. При наведении
+   меняется только прозрачность — соседние строки не двигаются. */
+.row-preview{margin-top:6px;height:2.8em;overflow:hidden;font-size:.78rem;line-height:1.4;color:var(--text2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-break:break-word;opacity:0;transition:opacity .12s ease}
+.news-row:hover .row-preview{opacity:1}
+@media(hover:none),(pointer:coarse){.row-preview{opacity:1}}
 .overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:1000;justify-content:center;align-items:center;padding:20px}
 .overlay.open{display:flex}
 .modal{background:var(--card-bg);border-radius:16px;max-width:620px;width:100%;max-height:85vh;overflow-y:auto;padding:28px 24px;box-shadow:0 16px 48px rgba(0,0,0,.25)}
@@ -159,11 +153,6 @@ footer{text-align:center;padding:40px 0 20px;color:var(--text2);font-size:.85rem
 <div class="news-feed" id="newsGrid"></div>
 <footer></footer>
 </div>
-<div class="hover-preview" id="hoverPreview" hidden>
-<div class="hp-meta" id="hpMeta"></div>
-<div class="hp-desc" id="hpDesc"></div>
-<a class="hp-link" id="hpLink" href="#" target="_blank" rel="noopener">Перейти на сайт →</a>
-</div>
 <div class="overlay" id="overlay">
 <div class="modal">
 <button class="close" onclick="closeModal()">&times;</button>
@@ -223,7 +212,6 @@ function getFiltered() {
 // внутри прокручиваемого списка, чтобы день с 10 записями не растягивал сетку.
 function render() {
   var grid = document.getElementById('newsGrid');
-  hidePreview(0);
   var arr = getFiltered();
   if (arr.length === 0) {
     grid.innerHTML = '<div class="empty-state"><div class="emoji">📭</div><p>Новостей пока нет</p></div>';
@@ -253,66 +241,16 @@ function render() {
       html += '<div class="news-row" data-idx="' + item.idx + '"><div class="row-title">' +
         esc(n.title) + '</div><div class="row-src"><a href="' +
         esc(safeUrl(n.link)) + '" target="_blank" rel="noopener">' +
-        esc(n.source) + '</a></div></div>';
+        esc(n.source) + '</a></div><div class="row-preview">' +
+        esc(n.desc || '') + '</div></div>';
     }
     html += '</div></div>';
   }
   grid.innerHTML = html;
-  attachPreview();
 }
-
-// Один плавающий блок на все строки. Поля чужие, поэтому в textContent,
-// а ссылка — только через safeUrl().
-var previewEl = document.getElementById('hoverPreview');
-var hpMeta = document.getElementById('hpMeta');
-var hpDesc = document.getElementById('hpDesc');
-var hpLink = document.getElementById('hpLink');
-var previewTimer = null;
-
-function hidePreview(delay) {
-  clearTimeout(previewTimer);
-  previewTimer = setTimeout(function() {
-    previewEl.classList.remove('show');
-    previewEl.hidden = true;
-  }, delay || 0);
-}
-
-function showPreview(n, row) {
-  clearTimeout(previewTimer);
-  hpMeta.textContent = (n.source || '') + (n.date ? ' · ' + fmtDate(n.date) : '');
-  hpDesc.textContent = n.desc || n.title || '';
-  hpLink.href = safeUrl(n.link);
-  previewEl.hidden = false;
-
-  var r = row.getBoundingClientRect();
-  var w = previewEl.offsetWidth;
-  var h = previewEl.offsetHeight;
-  var left = r.right + 12;
-  if (left + w > window.innerWidth - 12) left = r.left - w - 12;
-  if (left < 12) left = Math.max(12, Math.min(r.left, window.innerWidth - w - 12));
-  var top = r.top + r.height / 2 - h / 2;
-  top = Math.max(12, Math.min(top, window.innerHeight - h - 12));
-  previewEl.style.left = left + 'px';
-  previewEl.style.top = top + 'px';
-  previewEl.classList.add('show');
-}
-
-function attachPreview() {
-  document.querySelectorAll('.news-row').forEach(function(row) {
-    row.addEventListener('mouseenter', function() {
-      var n = getFiltered()[parseInt(row.getAttribute('data-idx'))];
-      if (n) showPreview(n, row);
-    });
-    row.addEventListener('mouseleave', function() { hidePreview(140); });
-  });
-}
-
-previewEl.addEventListener('mouseenter', function() { clearTimeout(previewTimer); });
-previewEl.addEventListener('mouseleave', function() { hidePreview(80); });
-window.addEventListener('scroll', function() { hidePreview(0); }, {passive:true});
 
 // Клик по строке — сразу на источник. Модалка больше не нужна:
-// описание видно при наведении.
+// описание уже лежит в самой строке и проявляется при наведении.
 document.getElementById('newsGrid').addEventListener('click', function(e) {
   var card = e.target.closest('.news-row');
   if (!card || e.target.tagName === 'A') return;

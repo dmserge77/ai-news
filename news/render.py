@@ -278,6 +278,17 @@ header p { color: var(--text2); margin-top: 4px; font-size: 1.1rem; }
 .hero-item:hover { border-color: var(--accent); transform: translateX(2px); }
 .hero-item .t { font-size: .9rem; font-weight: 600; line-height: 1.4; }
 .hero-item .m { margin-top: 5px; font-size: .75rem; color: var(--text2); }
+/* Две строки описания зарезервированы всегда. При наведении меняется только
+   прозрачность, поэтому соседние карточки не сдвигаются. */
+.hero-item .item-preview {
+  margin-top: 6px; height: 2.8em; overflow: hidden;
+  font-size: .78rem; line-height: 1.4; color: var(--text2);
+  display: -webkit-box; -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; word-break: break-word;
+  opacity: 0; transition: opacity .12s ease;
+}
+.hero-item:hover .item-preview { opacity: 1; }
+@media (hover: none), (pointer: coarse) { .hero-item .item-preview { opacity: 1; } }
 .hero-dot {
   display: inline-block; width: 7px; height: 7px;
   border-radius: 50%; margin-right: 7px; vertical-align: middle;
@@ -289,93 +300,6 @@ header p { color: var(--text2); margin-top: 4px; font-size: 1.1rem; }
 }
 
 footer { color: var(--text2); font-size: 0.85rem; padding: 30px 0; text-align: center; }
-"""
-
-# Плашка предпросмотра общая для главной и рубрик. Лежит поверх страницы,
-# поэтому её не обрезает overflow карточек; на тач-устройствах скрывается.
-PREVIEW_CSS = """
-.hover-preview {
-  position: fixed; z-index: 1100;
-  width: min(320px, calc(100vw - 32px));
-  padding: 12px 14px 11px;
-  background: var(--card-bg); border: 1.5px solid var(--border);
-  border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.18);
-  opacity: 0; transform: translateY(4px);
-  pointer-events: none;
-  transition: opacity .12s ease, transform .12s ease;
-}
-.hover-preview[hidden] { display: none; }
-.hover-preview.show { opacity: 1; transform: translateY(0); pointer-events: auto; }
-.hover-preview::before {
-  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
-  border-radius: 12px 12px 0 0;
-  background: linear-gradient(90deg, var(--accent), rgba(var(--accent-rgb), 0));
-}
-.hp-meta { font-size: .72rem; color: var(--text2); margin-bottom: 6px; }
-.hp-desc {
-  font-size: .86rem; line-height: 1.5; color: var(--text);
-  display: -webkit-box; -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical; overflow: hidden; word-break: break-word;
-}
-.hp-link {
-  display: inline-block; margin-top: 9px; font-size: .8rem;
-  font-weight: 600; color: var(--accent); text-decoration: none;
-}
-.hp-link:hover { text-decoration: underline; }
-@media (hover: none), (pointer: coarse) { .hover-preview { display: none; } }
-"""
-
-PREVIEW_JS = """
-// Предпросмотр боковых новостей на главной. У крупного блока описание уже
-// видно, у поиска тоже — плашка нужна только там, где показывается заголовок.
-// Адрес берём из href самой ссылки: он уже прошёл safe_link на сборке.
-(function () {
-  var preview = document.getElementById('hoverPreview');
-  if (!preview) return;
-  var meta = document.getElementById('hpMeta');
-  var desc = document.getElementById('hpDesc');
-  var link = document.getElementById('hpLink');
-  var timer = null;
-
-  function hide(delay) {
-    clearTimeout(timer);
-    timer = setTimeout(function () {
-      preview.classList.remove('show');
-      preview.hidden = true;
-    }, delay || 0);
-  }
-
-  function show(anchor) {
-    clearTimeout(timer);
-    var source = anchor.getAttribute('data-source') || '';
-    var date = anchor.getAttribute('data-date') || '';
-    meta.textContent = source + (date ? ' · ' + date : '');
-    desc.textContent = anchor.getAttribute('data-desc') || '';
-    link.href = anchor.href;
-    preview.hidden = false;
-
-    var r = anchor.getBoundingClientRect();
-    var w = preview.offsetWidth;
-    var h = preview.offsetHeight;
-    var left = r.right + 12;
-    if (left + w > window.innerWidth - 12) left = r.left - w - 12;
-    if (left < 12) left = Math.max(12, Math.min(r.left, window.innerWidth - w - 12));
-    var top = r.top + r.height / 2 - h / 2;
-    top = Math.max(12, Math.min(top, window.innerHeight - h - 12));
-    preview.style.left = left + 'px';
-    preview.style.top = top + 'px';
-    preview.classList.add('show');
-  }
-
-  document.querySelectorAll('.hero-item').forEach(function (anchor) {
-    anchor.addEventListener('mouseenter', function () { show(anchor); });
-    anchor.addEventListener('mouseleave', function () { hide(140); });
-    anchor.addEventListener('click', function () { hide(0); });
-  });
-  preview.addEventListener('mouseenter', function () { clearTimeout(timer); });
-  preview.addEventListener('mouseleave', function () { hide(80); });
-  window.addEventListener('scroll', function () { hide(0); }, {passive:true});
-})();
 """
 
 # Поиск по архиву работает в браузере посетителя: сервера у сайта нет.
@@ -733,14 +657,13 @@ def _hero_html(all_news):
         c = CATEGORIES.get(n.get("cat"), {})
         side_html += (
             f'<a class="hero-item" href="{_esc(safe_link(n["link"]))}"'
-            f' data-desc="{_esc(_short(n.get("desc"), PREVIEW_DESC_LIMIT))}"'
-            f' data-source="{_esc(n.get("source"))}"'
-            f' data-date="{_esc(_fmt_date(n.get("date")))}"'
             ' target="_blank" rel="noopener">'
             f'<div class="t">{_esc(n.get("title"))}</div>'
             '<div class="m">'
             f'<span class="hero-dot" style="background:{c.get("accent", "#0071e3")}"></span>'
             f'{_meta(c.get("label"), n.get("source"), _fmt_date(n.get("date")))}'
+            '</div><div class="item-preview">'
+            f'{_esc(_short(n.get("desc"), PREVIEW_DESC_LIMIT))}'
             "</div></a>\n"
         )
 
@@ -872,7 +795,7 @@ def generate_main_page(all_news):
 <link rel="alternate" type="application/rss+xml" title="{SITE_NAME}" href="rss.xml">
 <link rel="icon" href="{FAVICON}">
 {METRIKA_SNIPPET}
-<style>{MAIN_CSS}{PREVIEW_CSS}</style>
+<style>{MAIN_CSS}</style>
 </head>
 <body>
 <div class="container">
@@ -898,15 +821,8 @@ def generate_main_page(all_news):
     {SITE_FOOTER} · <a href="about/index.html" style="color:var(--text2)">ℹ️ О проекте</a> · <a href="rss.xml" style="color:var(--text2)">📡 RSS</a>
   </footer>
 </div>
-<div class="hover-preview" id="hoverPreview" hidden>
-  <div class="hp-meta" id="hpMeta"></div>
-  <div class="hp-desc" id="hpDesc"></div>
-  <a class="hp-link" id="hpLink" href="#" target="_blank" rel="noopener">Перейти на сайт →</a>
-</div>
 {ticker_js}<script>
 {search_js}</script>
-<script>
-{PREVIEW_JS}</script>
 </body>
 </html>"""
     write_if_changed(os.path.join(DOCS_DIR, "index.html"), html)
